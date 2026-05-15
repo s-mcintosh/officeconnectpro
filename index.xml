@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OfficeConnect Pro</title><link>https://officeconnectpro.com/</link><description>Recent content on OfficeConnect Pro</description><generator>Hugo</generator><language>en</language><atom:link href="https://officeconnectpro.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Fix COM Registration Errors</title><link>https://officeconnectpro.com/troubleshoot/com-registration-error/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/com-registration-error/</guid><description>&lt;p&gt;&lt;strong&gt;Symptom:&lt;/strong&gt; You receive an error like the following when trying to install or update OfficeConnect:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;System.InvalidCastException: Unable to cast COM object of type &amp;#39;System.__ComObject&amp;#39;
+to interface type &amp;#39;Microsoft.Office.Core.IRibbonUI&amp;#39;.
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="why-this-happens"&gt;Why this happens&lt;/h2&gt;
+&lt;p&gt;OfficeConnect is an Excel COM add-in that relies on Excel objects registered correctly by your Microsoft Office installation. This error occurs when:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Excel&amp;rsquo;s COM objects aren&amp;rsquo;t registered correctly&lt;/li&gt;
+&lt;li&gt;You have multiple versions of Microsoft Office installed (e.g., Project 2016 and Excel 2013), leading to conflicting versions of the MS-VSTO library&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="fix-option-1-repair-microsoft-office"&gt;Fix option 1: Repair Microsoft Office&lt;/h2&gt;
+&lt;p&gt;Many users resolve this by repairing the Office installation:&lt;/p&gt;</description></item><item><title>Interface Tour: The Reporting Pane</title><link>https://officeconnectpro.com/build-reports/reporting-pane-tour/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/reporting-pane-tour/</guid><description>&lt;p&gt;OfficeConnect adds two things to Excel: a &lt;strong&gt;ribbon tab&lt;/strong&gt; and a &lt;strong&gt;Reporting pane&lt;/strong&gt; that docks to the side of your worksheet.&lt;/p&gt;
+&lt;h2 id="the-officeconnect-ribbon-tab"&gt;The OfficeConnect ribbon tab&lt;/h2&gt;
+&lt;p&gt;The OfficeConnect tab appears between your standard Excel tabs. Key buttons include:&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Button&lt;/th&gt;
+ &lt;th&gt;What it does&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Log In / Log Out&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Connect to or disconnect from your Workday tenant&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Refresh&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Pull the latest data from Adaptive Planning into all connected cells&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Show Reporting Pane&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Toggle the Reporting pane open or closed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Workbook Properties&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Set rounding, data clearing, and filter defaults for the workbook&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;User Settings&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Set your personal defaults (rounding, default instance, etc.)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Find / Replace&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Find and replace elements across sheets&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Labels&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Add dynamic text labels (report date, level name, etc.)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Help&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Access version info, documentation, and the troubleshooting tool&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="the-reporting-pane"&gt;The Reporting pane&lt;/h2&gt;
+&lt;p&gt;The Reporting pane docks to the right side of your worksheet by default. It has three tabs:&lt;/p&gt;</description></item><item><title>Share Reports via Teams, SharePoint &amp; OneDrive</title><link>https://officeconnectpro.com/share-publish/share-teams-sharepoint-onedrive/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/share-publish/share-teams-sharepoint-onedrive/</guid><description>&lt;p&gt;You can save OfficeConnect reports to shared locations in Microsoft Teams, SharePoint, or OneDrive so multiple colleagues can access them.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Limitation:&lt;/strong&gt; OfficeConnect does not support multiple users editing the same file simultaneously. There&amp;rsquo;s always a risk of data loss if two people work on the same file at the same time.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="how-to-share-a-report"&gt;How to share a report&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Finish building and refreshing your report&lt;/strong&gt;
+ Make sure the report is complete and you&amp;rsquo;ve clicked &lt;strong&gt;Refresh&lt;/strong&gt; to load the latest data.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Save to a shared location&lt;/strong&gt;
+ Use Excel&amp;rsquo;s standard &lt;strong&gt;File → Save As&lt;/strong&gt; to save the workbook to a Teams channel folder, SharePoint document library, or OneDrive shared folder.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Share the link&lt;/strong&gt;
+ Use the Teams or SharePoint sharing feature to send a link to colleagues. They can open the workbook and refresh it themselves if they have OfficeConnect installed and appropriate Adaptive Planning permissions.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="what-recipients-need"&gt;What recipients need&lt;/h2&gt;
+&lt;p&gt;For a colleague to open and refresh a shared OfficeConnect report, they need:&lt;/p&gt;</description></item><item><title>Sign In &amp; Create Your First Tenant</title><link>https://officeconnectpro.com/connect/sign-in-create-tenant/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/connect/sign-in-create-tenant/</guid><description>&lt;p&gt;A &lt;strong&gt;tenant&lt;/strong&gt; in OfficeConnect is a saved connection to a Workday instance. You create it once, and OfficeConnect remembers it for future sessions.&lt;/p&gt;
+&lt;h2 id="what-youll-need"&gt;What you&amp;rsquo;ll need&lt;/h2&gt;
+&lt;p&gt;Before you start, gather these details from your Workday administrator:&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Detail&lt;/th&gt;
+ &lt;th&gt;Where to find it&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Client ID&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Workday OfficeConnect API client&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;API Endpoint URL&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Workday OfficeConnect API client&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Authorization Endpoint URL&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Workday OfficeConnect API client&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="steps"&gt;Steps&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open Excel and click the OfficeConnect tab&lt;/strong&gt;
+ After installation, the OfficeConnect tab appears in the Excel ribbon.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Click Log In&lt;/strong&gt;
+ The Workday Adaptive Planning sign-in page opens in a browser panel.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Click &amp;#39;Log in with Workday&amp;#39;&lt;/strong&gt;
+ This takes you to the tenant configuration screen.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;4&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Enter your tenant details&lt;/strong&gt;
+ &lt;p&gt;Fill in the tenant form:&lt;/p&gt;</description></item><item><title>What is OfficeConnect?</title><link>https://officeconnectpro.com/get-started/what-is-officeconnect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/what-is-officeconnect/</guid><description>&lt;p&gt;OfficeConnect is a Microsoft Office add-in that streams live data from Workday Adaptive Planning directly into Excel, Word, and PowerPoint. Instead of exporting static spreadsheets, your reports stay connected to your planning instance and refresh on demand.&lt;/p&gt;
+&lt;h2 id="what-officeconnect-does"&gt;What OfficeConnect does&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;In Excel:&lt;/strong&gt; Build financial reports by dragging and dropping accounts, time periods, versions, and organizational levels into your spreadsheet. Data refreshes from Adaptive Planning with one click.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;In PowerPoint:&lt;/strong&gt; Link tables and charts from your OfficeConnect Excel workbook into presentation slides. Update a presentation for a new period by refreshing the links.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;In Word:&lt;/strong&gt; Link named ranges from Excel into board reports and narratives. Qualitative text (like &amp;ldquo;increased&amp;rdquo; or &amp;ldquo;favorable&amp;rdquo;) can update automatically.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="who-its-for"&gt;Who it&amp;rsquo;s for&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Audience&lt;/th&gt;
+ &lt;th&gt;How they use it&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;End users&lt;/strong&gt; (FP&amp;amp;A, finance teams)&lt;/td&gt;
+ &lt;td&gt;Build and refresh Excel reports, share via Teams/SharePoint, publish to PowerPoint and Word&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;IT admins&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Install the add-in across the organization, configure tenants, manage SSO and registry deployment&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="how-it-works"&gt;How it works&lt;/h2&gt;
+&lt;p&gt;OfficeConnect appears as an extra tab in the Excel, Word, and PowerPoint ribbons after installation. In Excel, a &lt;strong&gt;Reporting pane&lt;/strong&gt; docks to the side of your worksheet — it contains three tabs:&lt;/p&gt;</description></item><item><title>Add Elements to Rows, Columns &amp; Cells</title><link>https://officeconnectpro.com/build-reports/add-elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/add-elements/</guid><description>&lt;p&gt;Elements are the building blocks of an OfficeConnect report. You add them to rows, columns, or cells in your worksheet to define what data appears at each intersection.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Best practice:&lt;/strong&gt; Add elements to entire rows and columns rather than individual cells. When applied to a row or column, a bolded (parent) element also expands its children — each child gets its own row or column automatically.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="basic-steps"&gt;Basic steps&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Select your target in the grid&lt;/strong&gt;
+ Click to select the cells, rows, or columns where you want data to appear. To select an entire row or column, click the row number or column letter.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open the Elements tab in the Reporting pane&lt;/strong&gt;
+ Click &lt;strong&gt;Show Reporting Pane&lt;/strong&gt; if the pane is hidden, then click the &lt;strong&gt;Elements&lt;/strong&gt; tab.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Browse to the element you want&lt;/strong&gt;
+ &lt;p&gt;Expand the element tree to find what you need:&lt;/p&gt;</description></item><item><title>OfficeConnect for PowerPoint</title><link>https://officeconnectpro.com/share-publish/officeconnect-for-powerpoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/share-publish/officeconnect-for-powerpoint/</guid><description>&lt;p&gt;OfficeConnect for PowerPoint lets you link tables and charts from your Excel workbook directly into PowerPoint slides. When the underlying Excel data refreshes, you can update the presentation with one click — no copy-pasting.&lt;/p&gt;
+&lt;h2 id="how-it-works"&gt;How it works&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;You define &lt;strong&gt;named ranges&lt;/strong&gt; in your OfficeConnect Excel workbook (a named range is a labeled group of cells)&lt;/li&gt;
+&lt;li&gt;In PowerPoint, you link those named ranges into slides as tables or charts&lt;/li&gt;
+&lt;li&gt;When you&amp;rsquo;re ready to update the presentation (e.g., for a new reporting period), refresh the links&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="start-officeconnect-for-powerpoint"&gt;Start OfficeConnect for PowerPoint&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open PowerPoint&lt;/strong&gt;
+ After OfficeConnect is installed, an &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab appears in PowerPoint&amp;rsquo;s ribbon.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Click Log In&lt;/strong&gt;
+ Enter your Adaptive Planning credentials, or click &lt;strong&gt;Log in with Workday&lt;/strong&gt;. If you&amp;rsquo;re already signed in to OfficeConnect for Excel, PowerPoint logs you in automatically.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="create-a-named-range-in-excel"&gt;Create a named range in Excel&lt;/h2&gt;
+&lt;p&gt;Before linking to PowerPoint, you need to name the range in Excel:&lt;/p&gt;</description></item><item><title>Work with Multiple Instances</title><link>https://officeconnectpro.com/connect/multiple-instances/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/connect/multiple-instances/</guid><description>&lt;p&gt;If your user ID has access to more than one Workday instance — a sandbox, a linked multi-instance hierarchy, or simply multiple tenants — OfficeConnect handles them through an &lt;strong&gt;Instance&lt;/strong&gt; drop-down in the Reporting pane.&lt;/p&gt;
+&lt;h2 id="types-of-multiple-instances"&gt;Types of multiple instances&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Type&lt;/th&gt;
+ &lt;th&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Sandbox&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;A clone of your production instance. Use it for testing reports and what-if scenarios without affecting live data.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Multi-instances&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Linked instances in a hierarchical relationship that share data through account and dimension mapping.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="switching-instances"&gt;Switching instances&lt;/h2&gt;
+&lt;p&gt;When your user ID has access to multiple instances, an &lt;strong&gt;Instance&lt;/strong&gt; drop-down appears in the Reporting pane.&lt;/p&gt;</description></item><item><title>System Requirements</title><link>https://officeconnectpro.com/get-started/system-requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/system-requirements/</guid><description>&lt;p&gt;Verify your machine meets these requirements before installing OfficeConnect.&lt;/p&gt;
+&lt;h2 id="required-software"&gt;Required software&lt;/h2&gt;
+&lt;p&gt;All of the following must be installed before running the OfficeConnect installer:&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Software&lt;/th&gt;
+ &lt;th&gt;Notes&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;WebView2 Runtime&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Required for the OfficeConnect sign-in UI&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Microsoft .NET Framework 4.8&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://dotnet.microsoft.com/download/dotnet-framework/net48"&gt;Download from Microsoft&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;VSTO 2010&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Visual Studio Tools for Office runtime&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Workday Event Log Components&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Installed by the OfficeConnect setup wizard if you have admin rights&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Tip:&lt;/strong&gt; If you have administrator rights on your machine, the per-user installer handles prerequisites automatically. If you don&amp;rsquo;t, ask your IT team to install these before you run OfficeConnect setup.&lt;/p&gt;</description></item><item><title>Resolve OfficeConnect Update Errors</title><link>https://officeconnectpro.com/troubleshoot/update-errors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/update-errors/</guid><description>&lt;p&gt;&lt;strong&gt;Symptom:&lt;/strong&gt; When updating OfficeConnect, you see:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;An error occurred while downloading the update. Details: The underlying connection
+was closed: An unexpected error occurred on a send.
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="common-causes-and-fixes"&gt;Common causes and fixes&lt;/h2&gt;
+&lt;h3 id="cause-1-network-or-proxy-blocking-the-update"&gt;Cause 1: Network or proxy blocking the update&lt;/h3&gt;
+&lt;p&gt;Your corporate network or proxy may be blocking the update download.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fix:&lt;/strong&gt; Work with your IT team to allowlist the Workday update servers. Alternatively, download the latest installer manually from &lt;strong&gt;Product Downloads&lt;/strong&gt; in Workday and install it directly — bypassing the auto-update.&lt;/p&gt;</description></item><item><title>OfficeConnect for Word</title><link>https://officeconnectpro.com/share-publish/officeconnect-for-word/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/share-publish/officeconnect-for-word/</guid><description>&lt;p&gt;OfficeConnect for Word lets you embed live tables and single-cell values from your OfficeConnect Excel workbook into Word documents. Board reports, investor letters, and executive narratives can update automatically when the underlying data changes.&lt;/p&gt;
+&lt;h2 id="what-you-can-link"&gt;What you can link&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tables&lt;/strong&gt; — complete tables from named ranges in Excel, formatted exactly as they appear in Excel&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Single cells&lt;/strong&gt; — individual values (e.g., a total revenue figure or a percentage)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qualitative text&lt;/strong&gt; — words like &amp;ldquo;increased&amp;rdquo; or &amp;ldquo;decreased&amp;rdquo; that update based on cell values&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="start-officeconnect-for-word"&gt;Start OfficeConnect for Word&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open Word&lt;/strong&gt;
+ After OfficeConnect is installed, an &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab appears in Word&amp;rsquo;s ribbon. An &lt;strong&gt;OfficeConnect links pane&lt;/strong&gt; docks to the left side.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Click Log In&lt;/strong&gt;
+ Enter your Adaptive Planning credentials, or click &lt;strong&gt;Log in with Workday&lt;/strong&gt;. If you&amp;rsquo;re already signed in to OfficeConnect for Excel, Word logs you in automatically.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="connect-to-an-excel-workbook"&gt;Connect to an Excel workbook&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;In the OfficeConnect tab, click Link to Workbook&lt;/strong&gt;
+ Browse to and open your OfficeConnect Excel workbook. The workbook&amp;rsquo;s named ranges appear in the OfficeConnect links pane under &lt;strong&gt;Table Links&lt;/strong&gt; (multi-cell ranges) and &lt;strong&gt;Single Links&lt;/strong&gt; (single cells).
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="link-a-table-into-word"&gt;Link a table into Word&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Place your cursor in the document&lt;/strong&gt;
+ Click where you want the table to appear.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;In the links pane, find the table link&lt;/strong&gt;
+ Right-click the named range under &lt;strong&gt;Table Links&lt;/strong&gt; and select &lt;strong&gt;Apply to Selection&lt;/strong&gt;.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The table appears formatted exactly as it looks in Excel. No reformatting required (unless the table is wider than the Word document margins, in which case OfficeConnect proportionally scales it down).&lt;/p&gt;</description></item><item><title>Install as an End User</title><link>https://officeconnectpro.com/get-started/install-end-user/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/install-end-user/</guid><description>&lt;p&gt;Follow these steps to install OfficeConnect on your own Windows machine. You&amp;rsquo;ll need administrator rights, or IT must pre-install the prerequisites.&lt;/p&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;All &lt;a href="https://officeconnectpro.com/get-started/system-requirements/"&gt;system requirements&lt;/a&gt; are met&lt;/li&gt;
+&lt;li&gt;You have your Workday Adaptive Planning login credentials&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="steps"&gt;Steps&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Download the installer&lt;/strong&gt;
+ Go to &lt;strong&gt;Product Downloads&lt;/strong&gt; in your Workday Adaptive Planning instance (ask your admin for the link if you don&amp;rsquo;t have it). Download &lt;strong&gt;OfficeConnectSetup.exe&lt;/strong&gt; — always use the latest version.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Run the installer&lt;/strong&gt;
+ &lt;p&gt;Double-click &lt;code&gt;OfficeConnectSetup.exe&lt;/code&gt;. If you have administrator rights on your machine, Windows will prompt you to allow the installation to run elevated — click &lt;strong&gt;Yes&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Task Pane Not Displaying Correctly</title><link>https://officeconnectpro.com/troubleshoot/task-pane-not-displaying/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/task-pane-not-displaying/</guid><description>&lt;h2 id="symptom-reporting-pane-is-invisible-or-blank"&gt;Symptom: Reporting pane is invisible or blank&lt;/h2&gt;
+&lt;p&gt;If the OfficeConnect Reporting pane disappears or shows as blank, it&amp;rsquo;s usually a display rendering issue in Excel.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fix:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open Excel Options&lt;/strong&gt;
+ Go to &lt;strong&gt;File → Options → General&lt;/strong&gt;.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Change the rendering setting&lt;/strong&gt;
+ Find the option &lt;strong&gt;&amp;ldquo;Optimize for best appearance&amp;rdquo;&lt;/strong&gt; and change it to &lt;strong&gt;&amp;ldquo;Optimize for compatibility&amp;rdquo;&lt;/strong&gt;.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Close and reopen Excel&lt;/strong&gt;
+ The Reporting pane should now display correctly.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="symptom-floating-pane-has-disappeared"&gt;Symptom: Floating pane has disappeared&lt;/h2&gt;
+&lt;p&gt;If you undocked the Reporting pane and lost it:&lt;/p&gt;</description></item><item><title>Work with Time &amp; Contexts</title><link>https://officeconnectpro.com/build-reports/time-and-contexts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/time-and-contexts/</guid><description>&lt;p&gt;Time elements define which periods display in your report. Contexts add a calculation lens to those periods — like showing the year-to-date total instead of a single month&amp;rsquo;s value.&lt;/p&gt;
+&lt;h2 id="time-element-types"&gt;Time element types&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Type&lt;/th&gt;
+ &lt;th&gt;Description&lt;/th&gt;
+ &lt;th&gt;Example&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Absolute time&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;A fixed, named period&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;FY 2025&lt;/code&gt;, &lt;code&gt;Q1 2025&lt;/code&gt;, &lt;code&gt;Jan 2025&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Relative time&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;A period relative to today&amp;rsquo;s date&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;Current Month&lt;/code&gt;, &lt;code&gt;Prior Year&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Components&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Year/quarter/month components that combine at their intersection&lt;/td&gt;
+ &lt;td&gt;Apply &lt;code&gt;FY 2025&lt;/code&gt; to a row and &lt;code&gt;Q3&lt;/code&gt; to a column → resolves to Q3 of FY 2025&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="add-a-time-element"&gt;Add a time element&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Select a column (or row)&lt;/strong&gt;
+ Time is most commonly applied to columns so each column shows a different period.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;In the Elements tab, expand Time&lt;/strong&gt;
+ Expand the calendar hierarchy to find the period you want: Year → Quarter → Month.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Drag the time element to your selection&lt;/strong&gt;
+ Drop it onto the selected column. Click &lt;strong&gt;Refresh&lt;/strong&gt;.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="add-a-context"&gt;Add a context&lt;/h2&gt;
+&lt;p&gt;Contexts layer a calculation on top of a time element. You apply a context in the same location as the time element, or as a worksheet/workbook filter.&lt;/p&gt;</description></item><item><title>Set Up Workday SSO</title><link>https://officeconnectpro.com/connect/workday-sso/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/connect/workday-sso/</guid><description>&lt;div class="admin-note" role="note"&gt;
+ &lt;strong&gt;🔧 IT Admin&lt;/strong&gt;
+ This page requires Workday Security Administrator access. End users don&amp;rsquo;t need to do anything — SSO is configured at the tenant level by admins.
+&lt;/div&gt;
+
+&lt;h2 id="what-workday-sso-does-for-officeconnect"&gt;What Workday SSO does for OfficeConnect&lt;/h2&gt;
+&lt;p&gt;With SSO enabled, users sign in to OfficeConnect using their existing Workday credentials through your identity provider. They don&amp;rsquo;t need a separate Adaptive Planning username and password.&lt;/p&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Workday Security Administrator role&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="steps"&gt;Steps&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Enable OfficeConnect in Workday&lt;/strong&gt;
+ In Workday, run the &lt;strong&gt;Enable Features After User Sync&lt;/strong&gt; task and enable the OfficeConnect feature for your tenant.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Generate the OfficeConnect API client&lt;/strong&gt;
+ &lt;p&gt;In Workday, create an API client specifically for OfficeConnect. This produces:&lt;/p&gt;</description></item><item><title>Deploy Tenants via Registry</title><link>https://officeconnectpro.com/connect/deploy-tenants-registry/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/connect/deploy-tenants-registry/</guid><description>&lt;div class="admin-note" role="note"&gt;
+ &lt;strong&gt;🔧 IT Admin&lt;/strong&gt;
+ This is an IT Admin task. It requires access to Windows group policy, deployment scripts, or software distribution tools (e.g., SCCM, Intune).
+&lt;/div&gt;
+
+&lt;p&gt;Instead of having each user manually enter tenant details, you can deploy tenant configuration directly to the Windows registry. This is the recommended approach for organizations with many users.&lt;/p&gt;
+&lt;h2 id="registry-locations"&gt;Registry locations&lt;/h2&gt;
+&lt;p&gt;Choose one:&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Location&lt;/th&gt;
+ &lt;th&gt;Scope&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;HKEY_LOCAL_MACHINE\Software\Adaptive Insights&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;All users on the machine (preferred)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;HKEY_CURRENT_USER\Software\Adaptive Insights&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;The current user only&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="configuration-file-format"&gt;Configuration file format&lt;/h2&gt;
+&lt;p&gt;Create an XML configuration file with your tenant details:&lt;/p&gt;</description></item><item><title>Filter Your Data</title><link>https://officeconnectpro.com/build-reports/filter-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/filter-data/</guid><description>&lt;p&gt;Filters let you restrict report data by accounts, levels, versions, currencies, attributes, or custom dimensions — without adding those elements to rows or columns.&lt;/p&gt;
+&lt;h2 id="worksheet-vs-workbook-filters"&gt;Worksheet vs workbook filters&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Filter type&lt;/th&gt;
+ &lt;th&gt;Scope&lt;/th&gt;
+ &lt;th&gt;Precedence&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Worksheet filter&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Applies to one sheet only&lt;/td&gt;
+ &lt;td&gt;Overrides workbook filters&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Workbook filter&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Applies to all sheets in the workbook&lt;/td&gt;
+ &lt;td&gt;Lower precedence than worksheet filters&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="apply-a-worksheet-filter"&gt;Apply a worksheet filter&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open the Filters tab in the Reporting pane&lt;/strong&gt;
+ In the Reporting pane, click the &lt;strong&gt;Filters&lt;/strong&gt; tab.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Click Worksheet Filters&lt;/strong&gt;
+ The Worksheet Filters dialog opens. It shows any previously selected filters.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Search or browse for elements to filter by&lt;/strong&gt;
+ Example: To filter by two specific levels, expand the Level hierarchy and select &lt;code&gt;Company A&lt;/code&gt; and &lt;code&gt;Company B&lt;/code&gt;.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;4&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Click OK&lt;/strong&gt;
+ Your selected elements appear in the Filters tab as a subset.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;5&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Enable the filters&lt;/strong&gt;
+ In the Filters tab, click &lt;strong&gt;Enable Filters&lt;/strong&gt;, then check the specific elements you want active.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;6&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Refresh&lt;/strong&gt;
+ The report now shows data only for the filtered elements.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="turn-filters-off-without-losing-selections"&gt;Turn filters off without losing selections&lt;/h2&gt;
+&lt;p&gt;In the Filters tab, uncheck &lt;strong&gt;Enable Filters&lt;/strong&gt;. Your filter selections are remembered — they&amp;rsquo;re just inactive. Re-check &lt;strong&gt;Enable Filters&lt;/strong&gt; to reapply them later.&lt;/p&gt;</description></item><item><title>Install as an IT Admin</title><link>https://officeconnectpro.com/get-started/install-admin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/install-admin/</guid><description>&lt;div class="admin-note" role="note"&gt;
+ &lt;strong&gt;🔧 IT Admin&lt;/strong&gt;
+ This page is for IT administrators deploying OfficeConnect to multiple users or machines. End users installing on their own machine should see &lt;a href="https://officeconnectpro.com/get-started/install-end-user/"&gt;Install as an End User&lt;/a&gt;.
+&lt;/div&gt;
+
+&lt;h2 id="two-installation-modes"&gt;Two installation modes&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Mode&lt;/th&gt;
+ &lt;th&gt;When to use&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Per-user&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Each user installs on their own workstation. Users can install future updates without admin permissions.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Per-machine&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Installed once on a shared machine for all users on that computer. Requires admin permissions for all updates.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Per-user installation is generally preferred — it lets users self-update and reduces IT overhead.&lt;/p&gt;</description></item><item><title>Numbers Not Shifting After Inserting Rows</title><link>https://officeconnectpro.com/troubleshoot/numbers-not-shifting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/numbers-not-shifting/</guid><description>&lt;p&gt;&lt;strong&gt;Symptom:&lt;/strong&gt; You insert rows into your Excel worksheet, but OfficeConnect data in rows below the insertion point doesn&amp;rsquo;t shift down — the elements stay in their original positions.&lt;/p&gt;
+&lt;h2 id="why-this-happens"&gt;Why this happens&lt;/h2&gt;
+&lt;p&gt;OfficeConnect element metadata is attached to specific cells. When you use standard Excel &lt;strong&gt;Insert Rows&lt;/strong&gt;, Excel moves the cell values but the OfficeConnect element assignments don&amp;rsquo;t follow — they remain anchored to the original row numbers.&lt;/p&gt;
+&lt;h2 id="fix-use-officeconnects-insertdelete-functions"&gt;Fix: Use OfficeConnect&amp;rsquo;s Insert/Delete functions&lt;/h2&gt;
+&lt;p&gt;Instead of Excel&amp;rsquo;s native Insert Rows/Delete Rows, always use OfficeConnect&amp;rsquo;s equivalent:&lt;/p&gt;</description></item><item><title>Check &amp; Update Your Version</title><link>https://officeconnectpro.com/get-started/check-version/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/check-version/</guid><description>&lt;p&gt;Keeping OfficeConnect up to date is important — users on different versions may not be able to share workbooks. Check your version regularly and update with your team.&lt;/p&gt;
+&lt;h2 id="check-your-current-version"&gt;Check your current version&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open Excel and click the OfficeConnect tab&lt;/strong&gt;
+ The OfficeConnect tab appears in the Excel ribbon after installation.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open the Help menu&lt;/strong&gt;
+ In the OfficeConnect tab, click the &lt;strong&gt;Help&lt;/strong&gt; drop-down.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Click About&lt;/strong&gt;
+ The About dialog shows your current version number (e.g., &lt;code&gt;2026.104.3019.3004&lt;/code&gt;).
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="understand-the-version-number"&gt;Understand the version number&lt;/h2&gt;
+&lt;p&gt;OfficeConnect version numbers follow the pattern &lt;code&gt;YYYY.release.weekday.build&lt;/code&gt;, where &lt;code&gt;weekday&lt;/code&gt; encodes the week and day of the build.&lt;/p&gt;</description></item><item><title>Cut, Copy &amp; Move Elements</title><link>https://officeconnectpro.com/build-reports/cut-copy-move-elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/cut-copy-move-elements/</guid><description>&lt;p&gt;OfficeConnect provides its own cut, copy, and paste commands that move elements together with their metadata.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt; Always use OfficeConnect&amp;rsquo;s own cut/copy/paste commands — not Excel&amp;rsquo;s standard Ctrl+C/Ctrl+V. Excel&amp;rsquo;s clipboard doesn&amp;rsquo;t carry the OfficeConnect element metadata; only OfficeConnect commands do.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="three-ways-to-cut-copy-and-paste"&gt;Three ways to cut, copy, and paste&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Ribbon buttons:&lt;/strong&gt; Use the functions in the &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab, not the Home tab.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Right-click menu:&lt;/strong&gt; Right-click the cell, row, or column → &lt;strong&gt;OfficeConnect&lt;/strong&gt; → &lt;strong&gt;Cut Elements&lt;/strong&gt; or &lt;strong&gt;Copy Elements&lt;/strong&gt;, then &lt;strong&gt;Paste Elements&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Suppress &amp; Hide Zeros and Blanks</title><link>https://officeconnectpro.com/troubleshoot/suppress-zeros-blanks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/suppress-zeros-blanks/</guid><description>&lt;p&gt;Zero suppression in OfficeConnect is a two-part system: &lt;strong&gt;Workbook Properties&lt;/strong&gt; controls the &lt;em&gt;default state&lt;/em&gt;, and the &lt;strong&gt;Hide Zeros &amp;amp; Blanks&lt;/strong&gt; ribbon button is a &lt;em&gt;toggle&lt;/em&gt; on top of that default.&lt;/p&gt;
+&lt;h2 id="how-it-works"&gt;How it works&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Workbook property&lt;/th&gt;
+ &lt;th&gt;Effect&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Hide rows with all zeroes&lt;/strong&gt; is &lt;strong&gt;checked&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Zero suppression is enabled by default. The &lt;strong&gt;Hide Zeros &amp;amp; Blanks&lt;/strong&gt; button on the ribbon toggles it on/off.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Hide rows with all zeroes&lt;/strong&gt; is &lt;strong&gt;unchecked&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Zero suppression is disabled. The &lt;strong&gt;Hide Zeros &amp;amp; Blanks&lt;/strong&gt; button will not work after refresh.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="enable-zero-suppression"&gt;Enable zero suppression&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open Workbook Properties&lt;/strong&gt;
+ In the OfficeConnect ribbon, click &lt;strong&gt;Workbook Properties&lt;/strong&gt;.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Check &amp;#39;Hide rows with all zeroes&amp;#39;&lt;/strong&gt;
+ In the &lt;strong&gt;Row Display&lt;/strong&gt; section, check the &lt;strong&gt;Hide rows with all zeroes&lt;/strong&gt; option.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Click Refresh&lt;/strong&gt;
+ After refreshing, click &lt;strong&gt;Hide Zeros &amp;amp; Blanks&lt;/strong&gt; in the OfficeConnect ribbon to activate suppression.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="per-row-overrides"&gt;Per-row overrides&lt;/h2&gt;
+&lt;p&gt;With the workbook default set, you can configure individual rows to behave differently:&lt;/p&gt;</description></item><item><title>Secure OfficeConnect Workbooks</title><link>https://officeconnectpro.com/connect/secure-workbooks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/connect/secure-workbooks/</guid><description>&lt;h2 id="automatic-timeout"&gt;Automatic timeout&lt;/h2&gt;
+&lt;p&gt;OfficeConnect uses a session timeout to keep your reports secure. If you haven&amp;rsquo;t refreshed your report in &lt;strong&gt;60 minutes&lt;/strong&gt; (or your configured timeout period), OfficeConnect prompts you to re-authenticate the next time you try to refresh.&lt;/p&gt;
+&lt;p&gt;The timeout duration is set by your Adaptive Planning administrator.&lt;/p&gt;
+&lt;h2 id="data-clearing-on-save"&gt;Data clearing on save&lt;/h2&gt;
+&lt;p&gt;By default, OfficeConnect &lt;strong&gt;clears all data when you save&lt;/strong&gt; a workbook. Connected cells display a placeholder (default: &lt;code&gt;n/a&lt;/code&gt;) until the next refresh. This means:&lt;/p&gt;</description></item><item><title>Remove Elements</title><link>https://officeconnectpro.com/troubleshoot/remove-elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/remove-elements/</guid><description>&lt;p&gt;&lt;strong&gt;Question:&lt;/strong&gt; How do I remove OfficeConnect elements from a range of cells?&lt;/p&gt;
+&lt;h2 id="steps"&gt;Steps&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Select the row, column, or cell&lt;/strong&gt;
+ Select the area where the element is applied. For best results, select the entire row or column (not just individual cells within it).
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Right-click and choose Clear Design Elements&lt;/strong&gt;
+ From the right-click context menu, select &lt;strong&gt;OfficeConnect → Clear Design Elements&lt;/strong&gt;.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="what-gets-cleared"&gt;What gets cleared&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The OfficeConnect element metadata is removed from the selection&lt;/li&gt;
+&lt;li&gt;The cells become plain Excel cells — no longer linked to Adaptive Planning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Labels&lt;/strong&gt; you added remain in place (they&amp;rsquo;re plain text, not elements)&lt;/li&gt;
+&lt;li&gt;The visual contents of the cells remain until you delete them manually or the next refresh would have populated them&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="remove-elements-from-multiple-locations"&gt;Remove elements from multiple locations&lt;/h2&gt;
+&lt;p&gt;To remove elements from several rows or columns at once:&lt;/p&gt;</description></item><item><title>Review &amp; Verify Applied Elements</title><link>https://officeconnectpro.com/build-reports/review-applied-elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/review-applied-elements/</guid><description>&lt;p&gt;The &lt;strong&gt;Review tab&lt;/strong&gt; in the Reporting pane shows you a complete picture of what&amp;rsquo;s driving data in your report. Use it to verify elements are applied correctly before sharing or distributing a report.&lt;/p&gt;
+&lt;h2 id="what-the-review-tab-shows"&gt;What the Review tab shows&lt;/h2&gt;
+&lt;p&gt;Select a cell, row, or column, then click the &lt;strong&gt;Review&lt;/strong&gt; tab. The sections you see depend on your selection:&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Section&lt;/th&gt;
+ &lt;th&gt;Shown when&lt;/th&gt;
+ &lt;th&gt;What it displays&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Net&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Cell selected&lt;/td&gt;
+ &lt;td&gt;All elements &lt;em&gt;actively affecting&lt;/em&gt; that cell&amp;rsquo;s data — the combined result of all applied elements&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Rows&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Cell or row selected&lt;/td&gt;
+ &lt;td&gt;All elements applied to that row&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Columns&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Cell or column selected&lt;/td&gt;
+ &lt;td&gt;All elements applied to that column&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Worksheet&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Cell selected&lt;/td&gt;
+ &lt;td&gt;Active worksheet filters&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Workbook&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Cell selected&lt;/td&gt;
+ &lt;td&gt;Active workbook filters&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;User Defaults&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Cell selected&lt;/td&gt;
+ &lt;td&gt;Default elements from your User Settings&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The Net section only appears for single-cell selections. It&amp;rsquo;s the most useful for diagnosing unexpected data — it shows what&amp;rsquo;s &lt;em&gt;actually&lt;/em&gt; driving the number.&lt;/p&gt;</description></item><item><title>Change Rounding Settings</title><link>https://officeconnectpro.com/troubleshoot/change-rounding-settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/change-rounding-settings/</guid><description>&lt;p&gt;OfficeConnect defaults to &lt;strong&gt;Thousands&lt;/strong&gt; rounding for Adaptive Planning data sources — so &lt;code&gt;100,000&lt;/code&gt; displays as &lt;code&gt;100&lt;/code&gt; and &lt;code&gt;1,000&lt;/code&gt; displays as &lt;code&gt;1&lt;/code&gt;. You can change this at three levels.&lt;/p&gt;
+&lt;h2 id="rounding-levels-highest-to-lowest-precedence"&gt;Rounding levels (highest to lowest precedence)&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Selection Properties&lt;/strong&gt; — for a specific row, column, or cell&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Workbook Properties&lt;/strong&gt; — for the current workbook&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;User Settings&lt;/strong&gt; — your personal default for all new workbooks&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="change-rounding-in-user-settings-affects-new-workbooks"&gt;Change rounding in User Settings (affects new workbooks)&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Click User Settings in the OfficeConnect ribbon&lt;/strong&gt;
+ 
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;In the Round to drop-down, select the rounding level&lt;/strong&gt;
+ Options: Hundreds, Thousands (default), Ten Thousands, Hundred Thousands, Millions, Ten Millions, Hundred Millions, Billions, No Rounding.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Click OK&lt;/strong&gt;
+ This applies to all new workbooks. The current open workbook is not affected.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="change-rounding-for-the-current-workbook"&gt;Change rounding for the current workbook&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Click Workbook Properties in the OfficeConnect ribbon&lt;/strong&gt;
+ 
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;On the Format tab, change the Round to setting&lt;/strong&gt;
+ 
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Click OK, then Refresh → All Sheets&lt;/strong&gt;
+ The new rounding applies to the entire workbook across all worksheets.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="change-rounding-for-a-specific-row-column-or-cell"&gt;Change rounding for a specific row, column, or cell&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Select the row, column, or cell&lt;/strong&gt;
+ 
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Right-click → OfficeConnect → Row/Column/Cell Properties&lt;/strong&gt;
+ 
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Change the Round to setting and click OK&lt;/strong&gt;
+ This overrides the workbook setting for this specific selection only.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="rounding-and-percentage-values"&gt;Rounding and percentage values&lt;/h2&gt;
+&lt;p&gt;If your report includes percentages, rounding to Thousands will distort them — &lt;code&gt;25.25%&lt;/code&gt; becomes &lt;code&gt;0.0002525&lt;/code&gt;. See &lt;a href="https://officeconnectpro.com/troubleshoot/display-percentage-values/"&gt;Display Percentage Values&lt;/a&gt; for the fix.&lt;/p&gt;</description></item><item><title>Workbook &amp; Worksheet Properties</title><link>https://officeconnectpro.com/build-reports/workbook-worksheet-properties/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/workbook-worksheet-properties/</guid><description>&lt;p&gt;OfficeConnect has three levels of settings that control report behavior, each overriding the one above it:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;User Settings&lt;/strong&gt; — your personal defaults for all new workbooks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Workbook Properties&lt;/strong&gt; — settings for the current workbook (overrides User Settings)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Selection Properties&lt;/strong&gt; — settings for a specific row, column, or cell (overrides Workbook Properties)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="user-settings"&gt;User Settings&lt;/h2&gt;
+&lt;p&gt;Access via &lt;strong&gt;OfficeConnect ribbon → User Settings&lt;/strong&gt;.&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Setting&lt;/th&gt;
+ &lt;th&gt;Default&lt;/th&gt;
+ &lt;th&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Round to&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Thousands&lt;/td&gt;
+ &lt;td&gt;How to round numbers. Options: Hundreds, Thousands, Ten Thousands, …, Billions, No Rounding&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Show zero in cells with no data&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;On&lt;/td&gt;
+ &lt;td&gt;Shows &lt;code&gt;0&lt;/code&gt; instead of blank for empty cells&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Security block result text&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;n/a&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;The placeholder text shown in linked cells after data is cleared on save&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Show refresh errors&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;On&lt;/td&gt;
+ &lt;td&gt;Shows a list of cell errors after refresh&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Show refresh warnings&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;On&lt;/td&gt;
+ &lt;td&gt;Shows a list of warnings after refresh&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;User Settings apply to all new workbooks you create. They don&amp;rsquo;t change existing open workbooks.&lt;/p&gt;</description></item><item><title>Display Percentage Values Correctly</title><link>https://officeconnectpro.com/troubleshoot/display-percentage-values/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/display-percentage-values/</guid><description>&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Percentage values from Adaptive Planning appear as tiny decimals in OfficeConnect. For example, &lt;code&gt;25.25%&lt;/code&gt; shows as &lt;code&gt;0.0002525&lt;/code&gt; when workbook rounding is set to Thousands.&lt;/p&gt;
+&lt;p&gt;This happens because OfficeConnect stores percentages as decimals (&lt;code&gt;0.2525&lt;/code&gt;) and then applies the workbook&amp;rsquo;s rounding setting on top — Thousands rounding divides by 1,000, making it &lt;code&gt;0.0002525&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="fix-option-1-set-rounding-to-no-rounding-whole-workbook"&gt;Fix option 1: Set rounding to No Rounding (whole workbook)&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open Workbook Properties&lt;/strong&gt;
+ In the OfficeConnect ribbon, click &lt;strong&gt;Workbook Properties&lt;/strong&gt;.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;On the Format tab, set Round to No Rounding&lt;/strong&gt;
+ 
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Format the percentage cells in Excel&lt;/strong&gt;
+ Select the cells and use Excel&amp;rsquo;s &lt;strong&gt;Format Cells → Percentage&lt;/strong&gt; to display them correctly.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;4&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Refresh&lt;/strong&gt;
+ 
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Trade-off:&lt;/strong&gt; This removes rounding from the entire workbook. All other numbers will display without rounding too.&lt;/p&gt;</description></item><item><title>Create Repeating Reports</title><link>https://officeconnectpro.com/build-reports/repeating-reports/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/repeating-reports/</guid><description>&lt;p&gt;The &lt;strong&gt;Repeating Reports&lt;/strong&gt; feature copies a finished report worksheet once for each element you choose — for example, one sheet per cost center or one sheet per region. Each copy is automatically filtered to show data for its element.&lt;/p&gt;
+&lt;h2 id="what-it-does"&gt;What it does&lt;/h2&gt;
+&lt;p&gt;When you create repeating reports, OfficeConnect:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Copies the worksheet for each selected element&lt;/li&gt;
+&lt;li&gt;Applies one element as a filter to each copy&lt;/li&gt;
+&lt;li&gt;Optionally refreshes each copy automatically&lt;/li&gt;
+&lt;li&gt;Names each worksheet based on your naming convention&lt;/li&gt;
+&lt;li&gt;Preserves all Excel formatting, formulas, and OfficeConnect metadata&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once created, each repeating report is &lt;strong&gt;independent&lt;/strong&gt; — it&amp;rsquo;s not linked to the original. To update them with new report formatting, delete and recreate them.&lt;/p&gt;</description></item><item><title>Financials vs. Adaptive Planning Data Sources</title><link>https://officeconnectpro.com/build-reports/financials-vs-adaptive-planning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials-vs-adaptive-planning/</guid><description>&lt;p&gt;OfficeConnect supports two data sources. Most organizations use &lt;strong&gt;Adaptive Planning&lt;/strong&gt; (budget and forecast data). Organizations using Workday Financial Management also have access to the &lt;strong&gt;Financials&lt;/strong&gt; data source (general ledger actuals).&lt;/p&gt;
+&lt;p&gt;The data source is set when you configure your tenant. Some OfficeConnect features behave differently depending on which source is active.&lt;/p&gt;
+&lt;h2 id="feature-comparison"&gt;Feature comparison&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Feature&lt;/th&gt;
+ &lt;th&gt;Adaptive Planning&lt;/th&gt;
+ &lt;th&gt;Financials&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Elements hierarchy&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Accounts, Level, Custom Dimensions&lt;/td&gt;
+ &lt;td&gt;Ledger Accounts, Company, Dimensions&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Minimum valid intersection&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Version + Level + Time + Account&lt;/td&gt;
+ &lt;td&gt;Version + Company + Time + Ledger Account&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Default rounding&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Thousands&lt;/td&gt;
+ &lt;td&gt;No Rounding&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Make new time elements relative&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;On by default&lt;/td&gt;
+ &lt;td&gt;Off by default&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Always clear data upon save&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;On by default&lt;/td&gt;
+ &lt;td&gt;Off by default&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Element groups&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Available&lt;/td&gt;
+ &lt;td&gt;Not available&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Cell Details&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Explore Cell (drill into cell data)&lt;/td&gt;
+ &lt;td&gt;Show Details (contributing journal lines; drill through to Workday)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Default version&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Depends on your model&lt;/td&gt;
+ &lt;td&gt;Actuals&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Exclude elimination on expand&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Not available&lt;/td&gt;
+ &lt;td&gt;Available (in user settings and Expand dialog)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="which-data-source-am-i-using"&gt;Which data source am I using?&lt;/h2&gt;
+&lt;p&gt;Check your tenant configuration: in the OfficeConnect sign-in drop-down, each tenant shows its data source type.&lt;/p&gt;</description></item><item><title>Create Fixed Date Columns</title><link>https://officeconnectpro.com/troubleshoot/fixed-date-columns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/fixed-date-columns/</guid><description>&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; You&amp;rsquo;ve set up a report with relative time elements (like &amp;ldquo;Current Month,&amp;rdquo; &amp;ldquo;Prior Month&amp;rdquo;) so it always shows recent data. But you want certain columns to stay fixed at a specific historical date — not roll forward with time.&lt;/p&gt;
+&lt;h2 id="why-relative-dates-roll"&gt;Why relative dates roll&lt;/h2&gt;
+&lt;p&gt;When you create a report using relative time elements, OfficeConnect automatically advances them when you refresh — &amp;ldquo;Current Month&amp;rdquo; always shows the current month. This is great for rolling reports but not for fixed comparisons.&lt;/p&gt;</description></item><item><title>Cell Explorer &amp; Drill-Down</title><link>https://officeconnectpro.com/build-reports/cell-explorer-drill-down/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/cell-explorer-drill-down/</guid><description>&lt;p&gt;When a number in your report looks unexpected, &lt;strong&gt;Explore Cell&lt;/strong&gt; lets you drill into the contributing details to find the source.&lt;/p&gt;
+&lt;h2 id="what-explore-cell-shows"&gt;What Explore Cell shows&lt;/h2&gt;
+&lt;p&gt;For any cell with data, Explore Cell reveals:&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Detail&lt;/th&gt;
+ &lt;th&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Contributing rows&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;The specific data intersections driving the value&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Account details&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Rollup values and links to child accounts&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Level details&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Rollup values and links to child levels&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Time details&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Breakdown by time period&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Audit trail&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Change history (if Audit Trail is enabled in Adaptive Planning)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Other sheets&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Links to other sheets that show the same value&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Source drills&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Drill into Transactions, Workday objects, or NetSuite (if configured)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Explore Cell applies to the &lt;strong&gt;Adaptive Planning&lt;/strong&gt; data source. For the &lt;strong&gt;Financials&lt;/strong&gt; data source, use &lt;strong&gt;Show Details&lt;/strong&gt; instead, which shows contributing journal line and plan line details.&lt;/p&gt;</description></item><item><title>Create a Trailing 12-Month Report</title><link>https://officeconnectpro.com/troubleshoot/trailing-12-month-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/trailing-12-month-report/</guid><description>&lt;p&gt;A trailing 12-month (T12M) report shows the 12 most recent calendar months and advances automatically each month. This is a common layout for rolling actuals analysis.&lt;/p&gt;
+&lt;h2 id="how-to-build-it"&gt;How to build it&lt;/h2&gt;
+&lt;p&gt;The key is using &lt;strong&gt;relative time elements&lt;/strong&gt; for each of the 12 columns — each column is defined as &amp;ldquo;N months ago&amp;rdquo; relative to today.&lt;/p&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Set up your rows with account elements&lt;/strong&gt;
+ Apply your account elements (e.g., Revenue, COGS, Gross Profit) to rows as usual.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;For the first column, apply &amp;#39;Current Month - 11&amp;#39;&lt;/strong&gt;
+ In the Elements tab, expand &lt;strong&gt;Time → Relative&lt;/strong&gt;. Find the relative time element for 11 months prior (the oldest month in your T12M window) and apply it to column C.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;For each subsequent column, apply the next relative month&lt;/strong&gt;
+ &lt;p&gt;Continue applying relative months across columns:&lt;/p&gt;</description></item><item><title>Link to External Excel Files</title><link>https://officeconnectpro.com/troubleshoot/link-external-excel-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/link-external-excel-files/</guid><description>&lt;p&gt;&lt;strong&gt;Question:&lt;/strong&gt; Can I create a link from my OfficeConnect workbook to a regular (non-OfficeConnect) Excel file?&lt;/p&gt;
+&lt;h2 id="yes--use-excels-standard-external-link"&gt;Yes — use Excel&amp;rsquo;s standard external link&lt;/h2&gt;
+&lt;p&gt;OfficeConnect workbooks are Excel files. You can use Excel&amp;rsquo;s standard external reference syntax to pull data from any other Excel file:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;=[OtherWorkbook.xlsx]Sheet1!$A$1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This creates a standard Excel external link — it&amp;rsquo;s not an OfficeConnect-managed link, so it works just like any other Excel cross-workbook reference.&lt;/p&gt;
+&lt;h2 id="create-an-excel-copy-without-officeconnect-links"&gt;Create an Excel copy without OfficeConnect links&lt;/h2&gt;
+&lt;p&gt;If you need to send a colleague a version of your OfficeConnect report that doesn&amp;rsquo;t contain any live OfficeConnect connections (e.g., they don&amp;rsquo;t have OfficeConnect installed and you want them to see the data, not &lt;code&gt;n/a&lt;/code&gt; placeholders):&lt;/p&gt;</description></item><item><title>Run the Troubleshooting Tool</title><link>https://officeconnectpro.com/troubleshoot/troubleshooting-tool/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/troubleshooting-tool/</guid><description>&lt;p&gt;When standard troubleshooting steps don&amp;rsquo;t resolve your issue, the &lt;strong&gt;OCSystemChecker&lt;/strong&gt; tool gathers detailed diagnostic information from your machine to help Workday Support investigate.&lt;/p&gt;
+&lt;h2 id="when-to-use-it"&gt;When to use it&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;You&amp;rsquo;re getting an error during installation or startup that other fixes haven&amp;rsquo;t resolved&lt;/li&gt;
+&lt;li&gt;Workday Support asks you to run the tool as part of a support case&lt;/li&gt;
+&lt;li&gt;You want a diagnostic log before reaching out to Support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="steps"&gt;Steps&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Download OCSystemChecker.zip&lt;/strong&gt;
+ Download the &lt;code&gt;OCSystemChecker.zip&lt;/code&gt; file from the Workday Community or ask your Workday Support contact for the link. Save it to your Desktop.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Extract the zip file&lt;/strong&gt;
+ Right-click &lt;code&gt;OCSystemChecker.zip&lt;/code&gt; → &lt;strong&gt;Extract All&lt;/strong&gt;. Open the extracted folder.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Launch OCSystemChecker.exe&lt;/strong&gt;
+ Double-click &lt;code&gt;OCSystemChecker.exe&lt;/code&gt;. Windows may prompt you to allow it to run — click &lt;strong&gt;Yes&lt;/strong&gt;.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;4&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Select the application with the error&lt;/strong&gt;
+ Choose &lt;strong&gt;OfficeConnect for Excel&lt;/strong&gt; (or the appropriate application) and click &lt;strong&gt;Next&lt;/strong&gt;.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;5&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Select the type of issue&lt;/strong&gt;
+ Choose the closest match (installation error, refresh error, startup error, etc.). If it&amp;rsquo;s file-specific, attach the problematic file when prompted. Click &lt;strong&gt;Next&lt;/strong&gt;.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;6&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Reproduce the error on the &amp;#39;Re-create Issue&amp;#39; page&lt;/strong&gt;
+ &lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt; While the Re-create Issue page is open, perform the action that causes the error. For example:&lt;/p&gt;</description></item></channel></rss>

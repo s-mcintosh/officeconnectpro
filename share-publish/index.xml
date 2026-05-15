@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Share &amp; Publish on OfficeConnect Pro</title><link>https://officeconnectpro.com/share-publish/</link><description>Recent content in Share &amp; Publish on OfficeConnect Pro</description><generator>Hugo</generator><language>en</language><atom:link href="https://officeconnectpro.com/share-publish/index.xml" rel="self" type="application/rss+xml"/><item><title>Share Reports via Teams, SharePoint &amp; OneDrive</title><link>https://officeconnectpro.com/share-publish/share-teams-sharepoint-onedrive/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/share-publish/share-teams-sharepoint-onedrive/</guid><description>&lt;p&gt;You can save OfficeConnect reports to shared locations in Microsoft Teams, SharePoint, or OneDrive so multiple colleagues can access them.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Limitation:&lt;/strong&gt; OfficeConnect does not support multiple users editing the same file simultaneously. There&amp;rsquo;s always a risk of data loss if two people work on the same file at the same time.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="how-to-share-a-report"&gt;How to share a report&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Finish building and refreshing your report&lt;/strong&gt;
+ Make sure the report is complete and you&amp;rsquo;ve clicked &lt;strong&gt;Refresh&lt;/strong&gt; to load the latest data.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Save to a shared location&lt;/strong&gt;
+ Use Excel&amp;rsquo;s standard &lt;strong&gt;File → Save As&lt;/strong&gt; to save the workbook to a Teams channel folder, SharePoint document library, or OneDrive shared folder.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Share the link&lt;/strong&gt;
+ Use the Teams or SharePoint sharing feature to send a link to colleagues. They can open the workbook and refresh it themselves if they have OfficeConnect installed and appropriate Adaptive Planning permissions.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="what-recipients-need"&gt;What recipients need&lt;/h2&gt;
+&lt;p&gt;For a colleague to open and refresh a shared OfficeConnect report, they need:&lt;/p&gt;</description></item><item><title>OfficeConnect for PowerPoint</title><link>https://officeconnectpro.com/share-publish/officeconnect-for-powerpoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/share-publish/officeconnect-for-powerpoint/</guid><description>&lt;p&gt;OfficeConnect for PowerPoint lets you link tables and charts from your Excel workbook directly into PowerPoint slides. When the underlying Excel data refreshes, you can update the presentation with one click — no copy-pasting.&lt;/p&gt;
+&lt;h2 id="how-it-works"&gt;How it works&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;You define &lt;strong&gt;named ranges&lt;/strong&gt; in your OfficeConnect Excel workbook (a named range is a labeled group of cells)&lt;/li&gt;
+&lt;li&gt;In PowerPoint, you link those named ranges into slides as tables or charts&lt;/li&gt;
+&lt;li&gt;When you&amp;rsquo;re ready to update the presentation (e.g., for a new reporting period), refresh the links&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="start-officeconnect-for-powerpoint"&gt;Start OfficeConnect for PowerPoint&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open PowerPoint&lt;/strong&gt;
+ After OfficeConnect is installed, an &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab appears in PowerPoint&amp;rsquo;s ribbon.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Click Log In&lt;/strong&gt;
+ Enter your Adaptive Planning credentials, or click &lt;strong&gt;Log in with Workday&lt;/strong&gt;. If you&amp;rsquo;re already signed in to OfficeConnect for Excel, PowerPoint logs you in automatically.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="create-a-named-range-in-excel"&gt;Create a named range in Excel&lt;/h2&gt;
+&lt;p&gt;Before linking to PowerPoint, you need to name the range in Excel:&lt;/p&gt;</description></item><item><title>OfficeConnect for Word</title><link>https://officeconnectpro.com/share-publish/officeconnect-for-word/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/share-publish/officeconnect-for-word/</guid><description>&lt;p&gt;OfficeConnect for Word lets you embed live tables and single-cell values from your OfficeConnect Excel workbook into Word documents. Board reports, investor letters, and executive narratives can update automatically when the underlying data changes.&lt;/p&gt;
+&lt;h2 id="what-you-can-link"&gt;What you can link&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tables&lt;/strong&gt; — complete tables from named ranges in Excel, formatted exactly as they appear in Excel&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Single cells&lt;/strong&gt; — individual values (e.g., a total revenue figure or a percentage)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qualitative text&lt;/strong&gt; — words like &amp;ldquo;increased&amp;rdquo; or &amp;ldquo;decreased&amp;rdquo; that update based on cell values&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="start-officeconnect-for-word"&gt;Start OfficeConnect for Word&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open Word&lt;/strong&gt;
+ After OfficeConnect is installed, an &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab appears in Word&amp;rsquo;s ribbon. An &lt;strong&gt;OfficeConnect links pane&lt;/strong&gt; docks to the left side.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Click Log In&lt;/strong&gt;
+ Enter your Adaptive Planning credentials, or click &lt;strong&gt;Log in with Workday&lt;/strong&gt;. If you&amp;rsquo;re already signed in to OfficeConnect for Excel, Word logs you in automatically.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="connect-to-an-excel-workbook"&gt;Connect to an Excel workbook&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;In the OfficeConnect tab, click Link to Workbook&lt;/strong&gt;
+ Browse to and open your OfficeConnect Excel workbook. The workbook&amp;rsquo;s named ranges appear in the OfficeConnect links pane under &lt;strong&gt;Table Links&lt;/strong&gt; (multi-cell ranges) and &lt;strong&gt;Single Links&lt;/strong&gt; (single cells).
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="link-a-table-into-word"&gt;Link a table into Word&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Place your cursor in the document&lt;/strong&gt;
+ Click where you want the table to appear.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;In the links pane, find the table link&lt;/strong&gt;
+ Right-click the named range under &lt;strong&gt;Table Links&lt;/strong&gt; and select &lt;strong&gt;Apply to Selection&lt;/strong&gt;.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The table appears formatted exactly as it looks in Excel. No reformatting required (unless the table is wider than the Word document margins, in which case OfficeConnect proportionally scales it down).&lt;/p&gt;</description></item></channel></rss>
