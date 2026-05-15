@@ -1,0 +1,7 @@
+<div class="step-block">
+  <div class="step-number">{{ .Get "n" }}</div>
+  <div class="step-content">
+    <strong>{{ .Get "title" }}</strong>
+    {{ .Inner | markdownify }}
+  </div>
+</div>

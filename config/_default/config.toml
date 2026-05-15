@@ -4,6 +4,11 @@ enableRobotsTXT = true
 enableGitInfo = true
 defaultContentLanguage = "en"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [module]
   proxy = "direct"
   [[module.imports]]
