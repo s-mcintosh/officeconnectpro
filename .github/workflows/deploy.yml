@@ -21,8 +21,6 @@ jobs:
           hugo-version: "0.161.1"
           extended: true
 
-      - run: hugo mod download
-
       - run: npm ci
 
       - run: hugo --minify
