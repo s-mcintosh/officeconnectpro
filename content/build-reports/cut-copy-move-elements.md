@@ -6,6 +6,8 @@ description: >
   How to move OfficeConnect elements within and between rows, columns, and cells.
 ---
 
+OfficeConnect provides its own cut, copy, and paste commands that move elements together with their metadata.
+
 > **Important:** Always use OfficeConnect's own cut/copy/paste commands — not Excel's standard Ctrl+C/Ctrl+V. Excel's clipboard doesn't carry the OfficeConnect element metadata; only OfficeConnect commands do.
 
 ## Three ways to cut, copy, and paste
@@ -58,3 +60,7 @@ When you drag and drop an element into a location that already has an element:
 ## Note on merged cells
 
 If your workbook uses merged cells, OfficeConnect cannot update or refresh elements applied to those merged cells. Avoid merging cells that contain OfficeConnect elements.
+
+## Next steps
+
+→ [Review & Verify Applied Elements](/build-reports/review-applied-elements/) to inspect which elements are driving each cell's data

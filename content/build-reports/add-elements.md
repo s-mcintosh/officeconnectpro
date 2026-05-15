@@ -52,11 +52,11 @@ All selected elements populate into the single row or column. Data rolls up by t
 
 In the Elements pane, right-click a parent element:
 - **Expand All** — shows all children and descendants of that element
-- **Collapse All** — hides children, showing only the top-level item and its siblings
+- **Collapse All** — hides all children and descendants, showing only that parent element collapsed
 
 ## Element groups
 
-Applying a bolded parent element creates an **element group** — each child gets its own row or column and the report updates dynamically when your Adaptive Planning structure changes. See [Create and Manage Element Groups](/build-reports/add-elements/) for details.
+Applying a bolded parent element creates an **element group** — each child gets its own row or column and the report updates dynamically when your Adaptive Planning structure changes.
 
 ## Next steps
 

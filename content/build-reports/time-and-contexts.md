@@ -55,6 +55,7 @@ The column now shows the context calculation for that time period.
 | **YTD Balance** | The balance as of the last month of the prior fiscal year |
 | **QTD** | Quarter-to-date: sum from the start of the quarter to the end of this period |
 | **QTD Balance** | The balance as of the last month of the prior quarter |
+| **MTD** | Month-to-date: sum from the start of the current month to the end of this period |
 
 > **Best practice:** For period-to-date contexts, use time elements *smaller* than the context period. Use QTD or YTD with monthly time elements. Using Month-to-Date with a quarter element doesn't make logical sense and OfficeConnect will correct it.
 
@@ -62,7 +63,7 @@ The column now shows the context calculation for that time period.
 
 Relative time elements automatically advance as time passes. For example, **Current Month** always shows the current calendar month when you refresh — no manual updates needed for rolling reports.
 
-To lock a relative date (make it absolute), right-click the time element in the **Review** pane and select **Switch to Absolute**.
+To lock a relative date (make it absolute), right-click the time element in the **Review** tab and select **Switch to Absolute**.
 
 ## Next steps
 
