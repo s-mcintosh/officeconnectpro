@@ -8,7 +8,7 @@ description: >
 
 ## Automatic timeout
 
-OfficeConnect uses a session timeout to keep your reports secure. If you haven't refreshed your report in **60 minutes** (or your configured timeout period), OfficeConnect prompts for your password the next time you try to refresh.
+OfficeConnect uses a session timeout to keep your reports secure. If you haven't refreshed your report in **60 minutes** (or your configured timeout period), OfficeConnect prompts you to re-authenticate the next time you try to refresh.
 
 The timeout duration is set by your Adaptive Planning administrator.
 
@@ -37,9 +37,17 @@ The new text replaces `n/a` the next time you clear data or save the workbook.
 
 If you want a workbook to retain data on save (not recommended for sensitive data):
 
-1. Open the workbook
-2. Click **Workbook Properties** in the OfficeConnect ribbon
-3. On the **General** tab, set **Clear Data** to **Never clear data upon save**
+{{< step n="1" title="Open the workbook" >}}
+Open the workbook you want to modify in Excel.
+{{< /step >}}
+
+{{< step n="2" title="Click Workbook Properties" >}}
+In the OfficeConnect ribbon tab, click **Workbook Properties**.
+{{< /step >}}
+
+{{< step n="3" title="Disable data clearing" >}}
+On the **General** tab, set **Clear Data** to **Never clear data upon save**.
+{{< /step >}}
 
 ## User-based data access
 

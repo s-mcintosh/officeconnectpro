@@ -17,7 +17,6 @@ With SSO enabled, users sign in to OfficeConnect using their existing Workday cr
 ## Prerequisites
 
 - Workday Security Administrator role
-- OfficeConnect API client set up in Workday (done before enabling SSO)
 
 ## Steps
 
@@ -29,7 +28,7 @@ In Workday, run the **Enable Features After User Sync** task and enable the Offi
 In Workday, create an API client specifically for OfficeConnect. This produces:
 - **Client ID**
 - **Authorization Endpoint URL**
-- **REST API Endpoint URL**
+- **API Endpoint URL**
 
 Record all three — users and IT will need them when configuring tenants.
 {{< /step >}}

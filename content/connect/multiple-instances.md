@@ -6,7 +6,7 @@ description: >
   How to switch between production, sandbox, and multi-instances in OfficeConnect.
 ---
 
-If your user ID has access to more than one Workday instance — a sandbox, a linked multi-instance hierarchy, or simply multiple tenants — OfficeConnect handles them through an **Instance** drop-down in the Reporting and Planning panes.
+If your user ID has access to more than one Workday instance — a sandbox, a linked multi-instance hierarchy, or simply multiple tenants — OfficeConnect handles them through an **Instance** drop-down in the Reporting pane.
 
 ## Types of multiple instances
 

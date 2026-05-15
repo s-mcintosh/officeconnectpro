@@ -48,7 +48,7 @@ For Workday Financial Management (Financials) connections, use `<Type>financials
 
 {{< step n="1" title="Add the registry key" >}}
 In the desired registry hive, create the key:
-`SOFTWARE\Adaptive Insights\Connections`
+`Software\Adaptive Insights\Connections`
 {{< /step >}}
 
 {{< step n="2" title="Deploy using your preferred method" >}}
