@@ -1,6 +1,7 @@
 copyright = "OfficeConnect Pro"
 
-github_repo = "https://github.com/officeconnectpro/docs"
+github_repo = "https://github.com/s-mcintosh/officeconnectpro"
+github_project_repo = "https://github.com/s-mcintosh/officeconnectpro"
 github_branch = "main"
 
 offlineSearch = true
