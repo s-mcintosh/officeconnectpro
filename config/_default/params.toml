@@ -17,3 +17,17 @@ enable = false
 
 [ui.readingtime]
 enable = false
+
+[links]
+  [[links.user]]
+    name = "GitHub"
+    url = "https://github.com/s-mcintosh"
+    icon = "fab fa-github"
+  [[links.user]]
+    name = "YouTube"
+    url = "https://www.youtube.com/@officeconnectpro"
+    icon = "fab fa-youtube"
+  [[links.user]]
+    name = "Ko-fi"
+    url = "https://ko-fi.com/smcintosh"
+    icon = "fas fa-mug-hot"
