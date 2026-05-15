@@ -1,5 +1,5 @@
 baseURL = "https://officeconnectpro.com/"
-title = "OfficeConnect Pro"
+title = "OfficeConnectPro"
 enableRobotsTXT = true
 enableGitInfo = true
 defaultContentLanguage = "en"

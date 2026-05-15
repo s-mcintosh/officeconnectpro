@@ -8,18 +8,42 @@
   span { color: $primary; }
 }
 
-// Sidebar
-.td-sidebar {
-  background-color: #18181b;
+// Sidebar — dark mode
+[data-bs-theme="dark"] {
+  .td-sidebar {
+    background-color: #18181b;
+  }
+  .td-sidebar-link__section {
+    color: #ffffff !important;
+    font-weight: 600;
+  }
+  .td-sidebar-link__page {
+    color: #9ca3af !important;
+  }
+  .td-sidebar-link__section:hover,
+  .td-sidebar-link__page:hover {
+    color: $primary !important;
+  }
+  .td-sidebar-nav-active-item {
+    color: $primary !important;
+    font-weight: 600;
+  }
 }
-.td-sidebar-nav__section-title a,
-.td-sidebar-nav a {
-  color: #d4d4d8;
-  &:hover { color: $primary; }
-}
-.td-sidebar-nav .active > a {
-  color: $primary;
-  font-weight: 600;
+
+// Sidebar — light mode
+[data-bs-theme="light"],
+:root:not([data-bs-theme="dark"]) {
+  .td-sidebar-link__section {
+    font-weight: 600;
+  }
+  .td-sidebar-link__section:hover,
+  .td-sidebar-link__page:hover {
+    color: $primary !important;
+  }
+  .td-sidebar-nav-active-item {
+    color: $primary !important;
+    font-weight: 600;
+  }
 }
 
 // Admin note callout
