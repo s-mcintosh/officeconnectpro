@@ -27,7 +27,7 @@ If you don't have admin rights, the installer will stop and tell you to contact 
 
 {{< step n="3" title="Complete the setup wizard" >}}
 Follow the on-screen prompts. The installer will:
-- Install any missing prerequisites (WebView2, .NET 4.8, VSTO 2010)
+- Install any missing prerequisites (WebView2, .NET 4.8, VSTO 2010, Workday Event Log Components)
 - Install the OfficeConnect add-in for Excel, Word, and PowerPoint
 {{< /step >}}
 

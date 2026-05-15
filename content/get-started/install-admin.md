@@ -32,7 +32,7 @@ Deploy these via your preferred software distribution tool (SCCM, Intune, etc.) 
 {{< /step >}}
 
 {{< step n="2" title="Run the per-machine installer" >}}
-Use the **per-machine** setup file (distinct from the per-user `OfficeConnectSetup.exe`). Run it with elevated privileges:
+Download the **per-machine** setup file from **Product Downloads** in your Workday Adaptive Planning instance (it is a separate file from the per-user `OfficeConnectSetup.exe`). Run it with elevated privileges:
 
 ```cmd
 OfficeConnectSetup-PerMachine.exe /quiet

@@ -24,9 +24,9 @@ The About dialog shows your current version number (e.g., `2026.104.3019.3004`).
 
 ## Understand the version number
 
-OfficeConnect version numbers follow this pattern: `YYYY.release.date.build`
+OfficeConnect version numbers follow the pattern `YYYY.release.weekday.build`, where `weekday` encodes the week and day of the build.
 
-Example: `2026.104.3019.3004` = 2026 release, release 104, built on the 30th of the 19th week.
+Example: `2026.104.3019.3004` = 2026 release, release 104, week 30 day 19 of the build calendar.
 
 ## Update OfficeConnect
 
