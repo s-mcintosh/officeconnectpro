@@ -15,6 +15,15 @@ This tutorial walks through building a basic departmental expense report from an
 
 ---
 
+<!-- VIDEO PLACEHOLDER
+When the YouTube video is ready, uncomment the section below and replace VIDEO_ID with the 11-character YouTube video ID (e.g. dQw4w9WgXcQ).
+
+## Watch
+
+{{< youtube VIDEO_ID >}}
+
+-->
+
 ## Step 1 — Open the Reporting pane
 
 {{< step n="1" title="Open Excel and activate OfficeConnect" >}}

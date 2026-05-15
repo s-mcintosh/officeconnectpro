@@ -14,6 +14,15 @@ A rolling 12-month report always shows the current month plus the 11 preceding m
 
 ---
 
+<!-- VIDEO PLACEHOLDER
+When the YouTube video is ready, uncomment the section below and replace VIDEO_ID with the 11-character YouTube video ID (e.g. dQw4w9WgXcQ).
+
+## Watch
+
+{{< youtube VIDEO_ID >}}
+
+-->
+
 ## How rolling time works in OfficeConnect
 
 OfficeConnect supports **relative time contexts** — time elements that are defined as offsets from the current period rather than as fixed calendar months. When you use *Current Month*, *Current Month -1*, *Current Month -2*, etc., OfficeConnect resolves each offset at refresh time against the current date.

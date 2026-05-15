@@ -15,6 +15,15 @@ This tutorial covers linking an OfficeConnect Excel report into a PowerPoint pre
 
 ---
 
+<!-- VIDEO PLACEHOLDER
+When the YouTube video is ready, uncomment the section below and replace VIDEO_ID with the 11-character YouTube video ID (e.g. dQw4w9WgXcQ).
+
+## Watch
+
+{{< youtube VIDEO_ID >}}
+
+-->
+
 ## How Excel-to-PowerPoint linking works
 
 OfficeConnect for PowerPoint creates links between named ranges or tables in your Excel workbook and shapes in your PowerPoint slides. When you click **Refresh** in PowerPoint, OfficeConnect re-reads the current Excel values and updates the slide content — even if you are not looking at the Excel file at the time.
