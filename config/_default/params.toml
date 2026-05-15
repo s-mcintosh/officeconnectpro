@@ -4,10 +4,9 @@ github_repo = "https://github.com/officeconnectpro/docs"
 github_branch = "main"
 
 offlineSearch = true
-algolia_docsearch = false
 prism_syntax_highlighting = false
 
-[params.ui]
+[ui]
 breadcrumb_disable = false
 navbar_logo = false
 sidebar_menu_compact = true
@@ -15,8 +14,8 @@ sidebar_menu_foldable = true
 sidebar_search_disable = false
 navbar_translucent_over_cover_disable = true
 
-[params.ui.feedback]
+[ui.feedback]
 enable = false
 
-[params.ui.readingtime]
+[ui.readingtime]
 enable = false

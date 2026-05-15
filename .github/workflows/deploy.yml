@@ -21,6 +21,8 @@ jobs:
           hugo-version: latest
           extended: true
 
+      - run: npm ci
+
       - run: hugo --minify
 
       - uses: peaceiris/actions-gh-pages@v4
