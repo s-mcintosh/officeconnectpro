@@ -1,0 +1,54 @@
+---
+title: "Set Up Workday SSO"
+linkTitle: "Workday SSO"
+weight: 3
+description: >
+  Configure OfficeConnect to use Workday Single Sign-On for your organization.
+---
+
+{{< admin-note >}}
+This page requires Workday Security Administrator access. End users don't need to do anything — SSO is configured at the tenant level by admins.
+{{< /admin-note >}}
+
+## What Workday SSO does for OfficeConnect
+
+With SSO enabled, users sign in to OfficeConnect using their existing Workday credentials through your identity provider. They don't need a separate Adaptive Planning username and password.
+
+## Prerequisites
+
+- Workday Security Administrator role
+- OfficeConnect API client set up in Workday (done before enabling SSO)
+
+## Steps
+
+{{< step n="1" title="Enable OfficeConnect in Workday" >}}
+In Workday, run the **Enable Features After User Sync** task and enable the OfficeConnect feature for your tenant.
+{{< /step >}}
+
+{{< step n="2" title="Generate the OfficeConnect API client" >}}
+In Workday, create an API client specifically for OfficeConnect. This produces:
+- **Client ID**
+- **Authorization Endpoint URL**
+- **REST API Endpoint URL**
+
+Record all three — users and IT will need them when configuring tenants.
+{{< /step >}}
+
+{{< step n="3" title="Assign the Access OfficeConnect permission" >}}
+In Workday, ensure users who need OfficeConnect access have the **Access OfficeConnect** permission in their security permission set.
+{{< /step >}}
+
+{{< step n="4" title="Configure the Connection user setting (optional)" >}}
+If your users are automatically signed in by your identity provider, enable the **Show tenant selector at sign-in** option in OfficeConnect user settings. This prompts users to select their tenant when signing in, which is useful when:
+- Multiple tenants are configured for SSO
+- Your identity provider auto-signs users in
+- Users work with both Financials and Adaptive Planning data sources
+{{< /step >}}
+
+## Result
+
+Users can sign in to OfficeConnect using their Workday credentials. They'll see the Workday sign-in page when they click **Log In** in the OfficeConnect tab.
+
+## Next steps
+
+→ [Deploy Tenants via Registry](/connect/deploy-tenants-registry/) to push tenant configuration to user machines automatically
