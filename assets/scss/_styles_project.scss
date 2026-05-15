@@ -1,0 +1,62 @@
+// Navbar
+.td-navbar {
+  background-color: #18181b !important;
+}
+.navbar-brand {
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  span { color: $primary; }
+}
+
+// Sidebar
+.td-sidebar {
+  background-color: #18181b;
+}
+.td-sidebar-nav__section-title a,
+.td-sidebar-nav a {
+  color: #d4d4d8;
+  &:hover { color: $primary; }
+}
+.td-sidebar-nav .active > a {
+  color: $primary;
+  font-weight: 600;
+}
+
+// Admin note callout
+.admin-note {
+  border-left: 4px solid $primary;
+  background: rgba(245, 158, 11, 0.08);
+  padding: 0.75rem 1rem;
+  margin: 1.25rem 0;
+  border-radius: 0 6px 6px 0;
+  strong { color: darken($primary, 10%); }
+}
+
+// Step blocks
+.step-block {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1.25rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 6px;
+  border-left: 4px solid $primary;
+}
+.step-number {
+  width: 2rem;
+  height: 2rem;
+  min-width: 2rem;
+  background: $primary;
+  color: #18181b;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+.step-content {
+  flex: 1;
+  strong { display: block; margin-bottom: 0.25rem; }
+}
