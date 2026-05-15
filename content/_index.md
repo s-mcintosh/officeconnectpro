@@ -29,7 +29,7 @@ Add elements, apply filters, and create live Excel reports from Adaptive Plannin
 {{% /blocks/feature %}}
 {{< /blocks/section >}}
 
-{{< blocks/section color="light" type="row" >}}
+{{< blocks/section color="white" type="row" >}}
 {{% blocks/feature icon="fa-share-alt" title="Share & Publish" url="/share-publish/" %}}
 Share reports via Teams, SharePoint, PowerPoint, and Word.
 {{% /blocks/feature %}}
