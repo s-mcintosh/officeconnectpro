@@ -12,7 +12,7 @@ description: >
 
 OfficeConnect workbooks are Excel files. You can use Excel's standard external reference syntax to pull data from any other Excel file:
 
-```excel
+```text
 =[OtherWorkbook.xlsx]Sheet1!$A$1
 ```
 
