@@ -32,9 +32,7 @@ Check your tenant configuration: in the OfficeConnect sign-in drop-down, each te
 
 When using the Financials data source, you can select an **effective date** for your report. This reflects your organization's structure as of that date — useful for reporting after reorganizations.
 
-{{< admin-note >}}
-Effective date support requires configuration in Workday's financial reporting data model. Contact your Workday Security Administrator to verify it's enabled.
-{{< /admin-note >}}
+> **Note:** Effective date support requires configuration in Workday's financial reporting data model. Contact your Workday Security Administrator to verify it's enabled.
 
 ## Alternate hierarchies (Financials only)
 

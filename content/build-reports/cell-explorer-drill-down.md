@@ -24,7 +24,7 @@ For any cell with data, Explore Cell reveals:
 
 > **Note:** Explore Cell applies to the **Adaptive Planning** data source. For the **Financials** data source, use **Show Details** instead, which shows contributing journal line and plan line details.
 
-## Use Explore Cell
+## Steps
 
 {{< step n="1" title="Select the cell you want to investigate" >}}
 Click on any cell in your OfficeConnect report that contains data.
@@ -42,7 +42,8 @@ Explore Cell opens showing the breakdown. Expand sections to drill deeper — yo
 
 Explore Cell automatically suppresses rows with all zeros or blanks by default — only rows that actually contribute to the value are shown. To see zero rows:
 1. Clear the **Suppress Rows if all Zeros or Blanks** setting on the Explore Cell page
-2. Note: This setting resets each time you launch Explore Cell
+
+Note: This setting resets each time you launch Explore Cell.
 
 ## Show Details (Financials data source)
 
