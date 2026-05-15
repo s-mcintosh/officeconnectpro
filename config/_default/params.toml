@@ -5,7 +5,7 @@ prism_syntax_highlighting = false
 
 [ui]
 breadcrumb_disable = false
-navbar_logo = false
+navbar_logo = true
 sidebar_menu_compact = true
 sidebar_menu_foldable = true
 sidebar_search_disable = false
