@@ -37,4 +37,8 @@ Share reports via Teams, SharePoint, PowerPoint, and Word.
 {{% blocks/feature icon="fa-wrench" title="Troubleshoot" url="/troubleshoot/" %}}
 Fix common errors and get answers to the most frequent questions.
 {{% /blocks/feature %}}
+
+{{% blocks/feature icon="fa-graduation-cap" title="Tutorials" url="/tutorials/" %}}
+End-to-end walkthroughs for building real-world OfficeConnect reports.
+{{% /blocks/feature %}}
 {{< /blocks/section >}}

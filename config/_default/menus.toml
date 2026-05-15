@@ -22,3 +22,8 @@
   name = "Troubleshoot"
   url = "/troubleshoot/"
   weight = 50
+
+[[main]]
+  name = "Tutorials"
+  url = "/tutorials/"
+  weight = 60
