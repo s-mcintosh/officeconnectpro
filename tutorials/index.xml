@@ -6,6 +6,17 @@
 &lt;li&gt;A blank Excel workbook&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+&lt;!-- VIDEO PLACEHOLDER
+When the YouTube video is ready, uncomment the section below and replace VIDEO_ID with the 11-character YouTube video ID (e.g. dQw4w9WgXcQ).
+
+## Watch
+
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/VIDEO_ID?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+--&gt;
 &lt;h2 id="step-1--open-the-reporting-pane"&gt;Step 1 — Open the Reporting pane&lt;/h2&gt;
 &lt;div class="step-block"&gt;
  &lt;div class="step-number"&gt;1&lt;/div&gt;
@@ -64,6 +75,17 @@
 &lt;li&gt;Your Adaptive Planning instance populated with at least 12 months of actuals or forecast data&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+&lt;!-- VIDEO PLACEHOLDER
+When the YouTube video is ready, uncomment the section below and replace VIDEO_ID with the 11-character YouTube video ID (e.g. dQw4w9WgXcQ).
+
+## Watch
+
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/VIDEO_ID?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+--&gt;
 &lt;h2 id="how-rolling-time-works-in-officeconnect"&gt;How rolling time works in OfficeConnect&lt;/h2&gt;
 &lt;p&gt;OfficeConnect supports &lt;strong&gt;relative time contexts&lt;/strong&gt; — time elements that are defined as offsets from the current period rather than as fixed calendar months. When you use &lt;em&gt;Current Month&lt;/em&gt;, &lt;em&gt;Current Month -1&lt;/em&gt;, &lt;em&gt;Current Month -2&lt;/em&gt;, etc., OfficeConnect resolves each offset at refresh time against the current date.&lt;/p&gt;</description></item><item><title>Publish a Report to PowerPoint</title><link>https://officeconnectpro.com/tutorials/publish-to-powerpoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/tutorials/publish-to-powerpoint/</guid><description>&lt;p&gt;This tutorial covers linking an OfficeConnect Excel report into a PowerPoint presentation. Once linked, refreshing OfficeConnect in Excel automatically updates the numbers in your slides — no copy-pasting needed.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
@@ -73,5 +95,16 @@
 &lt;li&gt;OfficeConnect installed on the same machine&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+&lt;!-- VIDEO PLACEHOLDER
+When the YouTube video is ready, uncomment the section below and replace VIDEO_ID with the 11-character YouTube video ID (e.g. dQw4w9WgXcQ).
+
+## Watch
+
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/VIDEO_ID?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+--&gt;
 &lt;h2 id="how-excel-to-powerpoint-linking-works"&gt;How Excel-to-PowerPoint linking works&lt;/h2&gt;
 &lt;p&gt;OfficeConnect for PowerPoint creates links between named ranges or tables in your Excel workbook and shapes in your PowerPoint slides. When you click &lt;strong&gt;Refresh&lt;/strong&gt; in PowerPoint, OfficeConnect re-reads the current Excel values and updates the slide content — even if you are not looking at the Excel file at the time.&lt;/p&gt;</description></item></channel></rss>
