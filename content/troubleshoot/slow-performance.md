@@ -32,7 +32,7 @@ One or more of the following:
 
 The number of OfficeConnect formulas is the primary driver of refresh time.
 
-1. In an empty cell, enter: `=COUNTIF(A1:ZZ1000,"=OC.*")` (adjust the range to cover your workbook). This counts the approximate number of OfficeConnect formulas. Alternatively, press **Ctrl+F**, check **Look in: Formulas**, and search for `OC.` to see how many cells match.
+1. Press **Ctrl+F** (Find). In the Find dialog, click **Options**, set **Look in** to **Formulas**, and search for `OC.`. The match count shown tells you how many cells contain OfficeConnect formulas. On Mac, use **Cmd+F** and set the same options.
 2. If you have more than 100 formulas, look for consolidation opportunities:
    - Replace 10 leaf-level account rows with 1 rollup account row
    - Remove columns or rows that are rarely used
