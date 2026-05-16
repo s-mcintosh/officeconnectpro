@@ -20,18 +20,8 @@ linkTitle: "Home"
 Install OfficeConnect and connect to your Workday instance in minutes.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fa-plug" title="Connect" url="/connect/" %}}
-Configure tenants, Workday SSO, and multi-instance setups.
-{{% /blocks/feature %}}
-
 {{% blocks/feature icon="fa-chart-bar" title="Build Reports" url="/build-reports/" %}}
 Add elements, apply filters, and create live Excel reports from Adaptive Planning data.
-{{% /blocks/feature %}}
-{{< /blocks/section >}}
-
-{{< blocks/section color="white" type="row" >}}
-{{% blocks/feature icon="fa-share-alt" title="Share & Publish" url="/share-publish/" %}}
-Share reports via Teams, SharePoint, PowerPoint, and Word.
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fa-wrench" title="Troubleshoot" url="/troubleshoot/" %}}
