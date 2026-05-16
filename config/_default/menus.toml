@@ -4,26 +4,11 @@
   weight = 10
 
 [[main]]
-  name = "Connect"
-  url = "/connect/"
-  weight = 20
-
-[[main]]
   name = "Build Reports"
   url = "/build-reports/"
-  weight = 30
-
-[[main]]
-  name = "Share & Publish"
-  url = "/share-publish/"
-  weight = 40
+  weight = 20
 
 [[main]]
   name = "Troubleshoot"
   url = "/troubleshoot/"
-  weight = 50
-
-[[main]]
-  name = "Tutorials"
-  url = "/tutorials/"
-  weight = 60
+  weight = 30
