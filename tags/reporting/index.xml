@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reporting on OfficeConnectPro</title><link>https://officeconnectpro.com/tags/reporting/</link><description>Recent content in Reporting on OfficeConnectPro</description><generator>Hugo</generator><language>en</language><atom:link href="https://officeconnectpro.com/tags/reporting/index.xml" rel="self" type="application/rss+xml"/><item><title>Build a Trial Balance Report with OfficeConnect (Financials)</title><link>https://officeconnectpro.com/build-reports/financials/trial-balance-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/trial-balance-report/</guid><description>&lt;p&gt;A trial balance lists every ledger account with its debit or credit balance for a given period. With OfficeConnect&amp;rsquo;s Financials data source, you can build one that refreshes directly from Workday Financial Management — no export, no copy-paste.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A trial balance report showing all ledger accounts grouped by type (Assets, Liabilities, Equity, Revenue, Expenses) for a selected company and period.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OfficeConnect installed and connected to a tenant configured for the &lt;strong&gt;Financials data source&lt;/strong&gt; (not Adaptive Planning)&lt;/li&gt;
+&lt;li&gt;Access to at least one company with posted journal entries in Workday Financial Management&lt;/li&gt;
+&lt;li&gt;The &lt;a href="https://officeconnectpro.com/build-reports/financials-vs-adaptive-planning/"&gt;Financials vs. Adaptive Planning&lt;/a&gt; page explains the difference if you&amp;rsquo;re unsure which data source you have&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="step-1--confirm-your-data-source"&gt;Step 1 — Confirm your data source&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Check your data source&lt;/strong&gt;
+ Click the &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab in Excel and sign in. In the Reporting pane, look at the top of the element tree. If you see &lt;strong&gt;Ledger Accounts&lt;/strong&gt; and &lt;strong&gt;Company&lt;/strong&gt;, you&amp;rsquo;re on the Financials data source. If you see &lt;strong&gt;Accounts&lt;/strong&gt; and &lt;strong&gt;Levels&lt;/strong&gt;, you&amp;rsquo;re on Adaptive Planning. This tutorial requires the Financials data source.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="step-2--add-company-and-period-context"&gt;Step 2 — Add Company and Period context&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add your Company element&lt;/strong&gt;
+ Click &lt;strong&gt;B1&lt;/strong&gt;. In the Reporting pane, expand &lt;strong&gt;Company&lt;/strong&gt; and drag your company (legal entity) into B1. If you have multiple companies, start with one — you can add more later.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add your Version&lt;/strong&gt;
+ Click &lt;strong&gt;B2&lt;/strong&gt;. In the Reporting pane, expand &lt;strong&gt;Versions&lt;/strong&gt; and drag &lt;strong&gt;Actuals&lt;/strong&gt; into B2.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;4&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add your Period&lt;/strong&gt;
+ Click &lt;strong&gt;B3&lt;/strong&gt;. In the Reporting pane, expand &lt;strong&gt;Time&lt;/strong&gt; and drag the period you want (e.g., December 2025) into B3. For a year-end trial balance, use the last period of your fiscal year.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="step-3--add-ledger-account-rows"&gt;Step 3 — Add ledger account rows&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;5&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add an Assets section header&lt;/strong&gt;
+ Click &lt;strong&gt;A5&lt;/strong&gt; and type &lt;code&gt;ASSETS&lt;/code&gt;. Bold it. This is a plain Excel label — not an OfficeConnect element.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;6&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add asset ledger accounts&lt;/strong&gt;
+ Click &lt;strong&gt;A6&lt;/strong&gt;. In the Reporting pane, expand &lt;strong&gt;Ledger Accounts → Assets&lt;/strong&gt; (or the equivalent group in your chart of accounts). Drag your first asset account (e.g., Cash) into A6. Continue adding asset accounts in A7, A8, etc.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;7&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add the data formula for assets&lt;/strong&gt;
+ Click &lt;strong&gt;B6&lt;/strong&gt;. The OfficeConnect formula references the company in B1, the version in B2, and the period in B3. Copy B6 down for all asset account rows.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;8&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Repeat for Liabilities, Equity, Revenue, Expenses&lt;/strong&gt;
+ Add section headers and ledger account rows for each account type. Copy the data formula from column B into each new row — OfficeConnect picks up the ledger account from column A automatically.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="step-4--add-subtotals"&gt;Step 4 — Add subtotals&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;9&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add SUM rows for each section&lt;/strong&gt;
+ Below each account group, add an Excel SUM row. For example, if your asset accounts are in B6:B12, add &lt;code&gt;=SUM(B6:B12)&lt;/code&gt; in B13 with the label &lt;strong&gt;Total Assets&lt;/strong&gt; in A13. Repeat for each section.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;10&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add a balance check&lt;/strong&gt;
+ &lt;p&gt;At the bottom of the report, add a row labeled &lt;strong&gt;Out of Balance&lt;/strong&gt; with the formula:&lt;/p&gt;</description></item><item><title>Drill Through to Workday Journal Lines from OfficeConnect</title><link>https://officeconnectpro.com/build-reports/financials/drill-through-journal-lines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/drill-through-journal-lines/</guid><description>&lt;p&gt;When a number in your OfficeConnect report doesn&amp;rsquo;t look right, you don&amp;rsquo;t need to leave Excel. OfficeConnect&amp;rsquo;s &lt;strong&gt;Show Details&lt;/strong&gt; feature opens a panel showing every journal line contributing to that cell&amp;rsquo;s balance. From there, you can drill through directly to the transaction in Workday Financial Management.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OfficeConnect connected to a &lt;strong&gt;Financials data source&lt;/strong&gt; tenant&lt;/li&gt;
+&lt;li&gt;A report with at least one populated cell (actuals data for a ledger account, company, and period)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="step-1--build-or-open-a-financials-report"&gt;Step 1 — Build or open a Financials report&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open a report with Financials data&lt;/strong&gt;
+ Open any OfficeConnect workbook using the Financials data source and click &lt;strong&gt;Refresh&lt;/strong&gt; to ensure cells are populated. If you need to build one from scratch, follow &lt;a href="https://officeconnectpro.com/build-reports/financials/trial-balance-report/"&gt;Build a Trial Balance Report&lt;/a&gt; first.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="step-2--open-show-details"&gt;Step 2 — Open Show Details&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Right-click a populated cell&lt;/strong&gt;
+ Right-click any cell containing an OfficeConnect Financials value (a cell with a balance, not a header or label cell).
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Select Show Details&lt;/strong&gt;
+ In the context menu, click &lt;strong&gt;Show Details&lt;/strong&gt;. A detail pane opens below or beside your report (depending on your OfficeConnect layout settings). This pane lists every journal line that contributed to the cell&amp;rsquo;s balance.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;4&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Review the journal lines&lt;/strong&gt;
+ &lt;p&gt;The Show Details pane shows each journal line with columns including:&lt;/p&gt;</description></item><item><title>Build an Actuals Trend Report in OfficeConnect (Financials)</title><link>https://officeconnectpro.com/build-reports/financials/actuals-trend-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/actuals-trend-report/</guid><description>&lt;p&gt;Trending actuals across 12 months in Workday&amp;rsquo;s native report writer means configuring a matrix report, setting up time period prompts, managing column layouts, and wrestling with formatting. In OfficeConnect, the same report takes about five minutes.&lt;/p&gt;
+&lt;p&gt;This tutorial shows you how — and explains why the difference matters for accounting teams who need monthly trend data on demand.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A 12-month actuals trend report showing GL account balances by period for a selected company, fully refreshable from Workday Financial Management.&lt;/p&gt;</description></item><item><title>Report on Actuals by Cost Center</title><link>https://officeconnectpro.com/build-reports/financials/actuals-by-cost-center/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/actuals-by-cost-center/</guid><description>&lt;p&gt;OfficeConnect&amp;rsquo;s Financials data source supports Workday worktags — including Cost Center — as dimension filters. Adding a cost center to your report scopes all data to that organizational unit.&lt;/p&gt;
+&lt;h2 id="steps"&gt;Steps&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open your OfficeConnect workbook and click the &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Set up your report with company, version, time, and ledger account rows as usual. If you need to start from scratch, see &lt;a href="https://officeconnectpro.com/build-reports/financials/actuals-trend-report/"&gt;Build an Actuals Trend Report&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click an empty row or column header where you want to add the cost center filter. A common layout puts the cost center in the same header area as the company, stacked in adjacent cells.&lt;/p&gt;</description></item><item><title>Use Effective Date Reporting After a Reorganization</title><link>https://officeconnectpro.com/build-reports/financials/effective-date-reporting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/effective-date-reporting/</guid><description>&lt;p&gt;When your organization restructures mid-year, historical reports can show cost centers, companies, or hierarchies that no longer exist — or omit ones that didn&amp;rsquo;t exist yet. OfficeConnect&amp;rsquo;s Financials data source supports &lt;strong&gt;effective date reporting&lt;/strong&gt;, which lets you select the org structure as it existed on a specific date.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Effective date reporting requires configuration in Workday&amp;rsquo;s financial reporting data model. If the effective date option isn&amp;rsquo;t available in your tenant, contact your Workday Security Administrator.&lt;/p&gt;</description></item><item><title>Filter Reports by Company in OfficeConnect (Financials)</title><link>https://officeconnectpro.com/build-reports/financials/filter-by-company/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/filter-by-company/</guid><description>&lt;p&gt;In the Financials data source, &lt;strong&gt;Company&lt;/strong&gt; is the top-level org dimension — the equivalent of a legal entity or subsidiary in Workday Financial Management. Every Financials report must include at least one Company element to pull data. Here&amp;rsquo;s how to use it effectively.&lt;/p&gt;
+&lt;h2 id="single-company-report"&gt;Single-company report&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open your OfficeConnect workbook and click the &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click your column header cell (e.g., &lt;strong&gt;B1&lt;/strong&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In the Reporting pane, expand &lt;strong&gt;Company&lt;/strong&gt; and drag your target company into B1.&lt;/p&gt;</description></item><item><title>Report on Intercompany Eliminations in OfficeConnect</title><link>https://officeconnectpro.com/build-reports/financials/intercompany-eliminations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/intercompany-eliminations/</guid><description>&lt;p&gt;Intercompany eliminations remove transactions between entities in a consolidated group — preventing double-counting of intercompany revenue and expenses. OfficeConnect&amp;rsquo;s Financials data source surfaces these as data you can include or exclude in your reports.&lt;/p&gt;
+&lt;h2 id="how-eliminations-appear-in-officeconnect"&gt;How eliminations appear in OfficeConnect&lt;/h2&gt;
+&lt;p&gt;When you report against a parent company (consolidated entity) in OfficeConnect, the data you see depends on your Workday Financial Management configuration:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If &lt;strong&gt;elimination journals are posted&lt;/strong&gt; in Workday, they are included in consolidated totals automatically&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;Exclude Elimination&lt;/strong&gt; option (available in Financials data source reports) lets you toggle whether elimination entries are included in your totals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The Exclude Elimination option is a Financials-only feature — it is not available in Adaptive Planning reports. See &lt;a href="https://officeconnectpro.com/build-reports/financials-vs-adaptive-planning/"&gt;Adaptive Planning vs. Financials Data Source&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Build a Balance Sheet with OfficeConnect (Financials)</title><link>https://officeconnectpro.com/build-reports/financials/balance-sheet-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/balance-sheet-report/</guid><description>&lt;p&gt;A balance sheet in OfficeConnect pulls directly from Workday Financial Management&amp;rsquo;s general ledger, so your assets, liabilities, and equity balances are always current without manual copy-paste from Workday Report Writer. This tutorial walks through building a structured balance sheet with the three standard sections.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A balance sheet workbook with Current Assets, Non-Current Assets, Current Liabilities, Non-Current Liabilities, and Equity sections — all refreshable from Workday Financial Management.&lt;/p&gt;</description></item><item><title>Build a Cash Flow Statement with OfficeConnect (Financials)</title><link>https://officeconnectpro.com/build-reports/financials/cash-flow-statement/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/cash-flow-statement/</guid><description>&lt;p&gt;A cash flow statement built in OfficeConnect pulls balance changes and net income directly from Workday Financial Management, eliminating the manual work of reconciling figures from Workday Report Writer into Excel. This tutorial builds an indirect-method statement — the most common format for external financial reporting.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A cash flow statement with Operating, Investing, and Financing Activities sections, all refreshable from Workday Financial Management.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OfficeConnect connected to the &lt;strong&gt;Financials&lt;/strong&gt; data source&lt;/li&gt;
+&lt;li&gt;Workday Financial Management with a current period closed and journal entries posted&lt;/li&gt;
+&lt;li&gt;A completed balance sheet workbook is helpful for cross-referencing — see &lt;a href="https://officeconnectpro.com/build-reports/financials/balance-sheet-report/"&gt;Build a Balance Sheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="step-1--set-up-the-version-and-period"&gt;Step 1 — Set up the version and period&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open Excel and activate OfficeConnect&lt;/strong&gt;
+ Open Excel, click &lt;strong&gt;OfficeConnect&lt;/strong&gt;, and sign in. The Reporting pane should show the Financials data source.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add version and time context&lt;/strong&gt;
+ Click &lt;strong&gt;B1&lt;/strong&gt; and drag &lt;strong&gt;Actuals&lt;/strong&gt; from the Reporting pane. Click &lt;strong&gt;B2&lt;/strong&gt; and drag your reporting period (for example, Q2 2026 or the full fiscal year). Cash flow statements cover a period of activity, so use a range period (a full quarter or year) rather than a point-in-time date.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="step-2--operating-activities-indirect-method"&gt;Step 2 — Operating activities (indirect method)&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add the Net Income starting line&lt;/strong&gt;
+ In &lt;strong&gt;A5&lt;/strong&gt;, type &lt;code&gt;OPERATING ACTIVITIES&lt;/code&gt;. Bold and underline. In &lt;strong&gt;A6&lt;/strong&gt;, drag &lt;strong&gt;Net Income&lt;/strong&gt; from the Reporting pane. This is the starting point for the indirect method — all adjustments are added or subtracted from net income.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;4&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add non-cash adjustments&lt;/strong&gt;
+ In &lt;strong&gt;A7&lt;/strong&gt;, drag &lt;strong&gt;Depreciation and Amortization&lt;/strong&gt; (a non-cash expense — added back to net income). In &lt;strong&gt;A8&lt;/strong&gt;, type &lt;code&gt;Changes in Working Capital&lt;/code&gt; and bold it as a sub-section header.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;5&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add working capital changes&lt;/strong&gt;
+ &lt;p&gt;In A9–A12, drag accounts that represent working capital changes:&lt;/p&gt;</description></item><item><title>Month-End Close Workflow with OfficeConnect</title><link>https://officeconnectpro.com/build-reports/financials/month-end-close-workflow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/month-end-close-workflow/</guid><description>&lt;p&gt;Month-end close in Workday Financial Management involves verifying journal completeness, reconciling account balances, and producing financial statements for management review. OfficeConnect lets your accounting team do all of this in Excel — pulling live data from Workday — without waiting for Report Writer outputs or PDF exports. This tutorial walks through a practical close workflow.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A close workbook with a trial balance check sheet, a journal completeness check, and a summary P&amp;amp;L — all refreshable as the close progresses.&lt;/p&gt;</description></item><item><title>Variance Analysis by Journal Source in OfficeConnect</title><link>https://officeconnectpro.com/build-reports/financials/variance-by-journal-source/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/variance-by-journal-source/</guid><description>&lt;p&gt;When a GL account balance moves unexpectedly, the first question is: what kind of journal entry caused it? Workday Financial Management categorizes journal entries by &lt;strong&gt;Journal Source&lt;/strong&gt; (Manual Journal, Accounts Payable, Payroll, etc.). OfficeConnect can filter by journal source, letting you isolate the impact of each source on any account balance.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OfficeConnect connected to the Financials data source&lt;/li&gt;
+&lt;li&gt;A report showing a balance or variance you want to investigate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="1-find-journal-source-elements-in-the-reporting-pane"&gt;1. Find journal source elements in the Reporting pane&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the OfficeConnect Reporting pane. Expand &lt;strong&gt;Filters&lt;/strong&gt; (or &lt;strong&gt;Journal Sources&lt;/strong&gt;, depending on your OfficeConnect version). You should see a list of journal sources configured in your Workday tenant — typically including: &lt;strong&gt;Manual Journal&lt;/strong&gt;, &lt;strong&gt;Accounts Payable&lt;/strong&gt;, &lt;strong&gt;Accounts Receivable&lt;/strong&gt;, &lt;strong&gt;Payroll&lt;/strong&gt;, &lt;strong&gt;Fixed Assets&lt;/strong&gt;, &lt;strong&gt;Intercompany&lt;/strong&gt;, and &lt;strong&gt;System&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;If you don&amp;rsquo;t see a journal source filter, confirm with your OfficeConnect admin that the Financials data source is configured to expose journal source dimensions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="2-build-a-journal-source-comparison-report"&gt;2. Build a journal source comparison report&lt;/h2&gt;
+&lt;ol start="3"&gt;
+&lt;li&gt;
+&lt;p&gt;Set up a basic account report:&lt;/p&gt;</description></item><item><title>Report on Worktag Combinations in OfficeConnect</title><link>https://officeconnectpro.com/build-reports/financials/worktag-combinations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/worktag-combinations/</guid><description>&lt;p&gt;Workday Financial Management uses &lt;strong&gt;worktags&lt;/strong&gt; to tag financial transactions — Cost Center, Fund, Program, Project, Grant, and any custom worktags your organization has defined. OfficeConnect exposes worktags as dimension filters, letting you report on specific combinations (for example, all expenses for Cost Center 1001 within Fund ABC).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OfficeConnect connected to the Financials data source&lt;/li&gt;
+&lt;li&gt;Knowledge of which worktags your organization uses (ask your Workday admin if unsure)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="1-find-worktag-dimensions-in-the-reporting-pane"&gt;1. Find worktag dimensions in the Reporting pane&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the OfficeConnect Reporting pane and expand &lt;strong&gt;Dimensions&lt;/strong&gt; (or &lt;strong&gt;Worktags&lt;/strong&gt;). You should see your organization&amp;rsquo;s configured worktags — common ones include: &lt;strong&gt;Cost Center&lt;/strong&gt;, &lt;strong&gt;Fund&lt;/strong&gt;, &lt;strong&gt;Program&lt;/strong&gt;, &lt;strong&gt;Project&lt;/strong&gt;, &lt;strong&gt;Grant&lt;/strong&gt;, &lt;strong&gt;Region&lt;/strong&gt;, and custom worktags.&lt;/li&gt;
+&lt;li&gt;Each worktag has members — for example, Cost Center might list CC-1001 (Sales), CC-1002 (Marketing), etc.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="2-filter-a-report-by-a-single-worktag"&gt;2. Filter a report by a single worktag&lt;/h2&gt;
+&lt;ol start="3"&gt;
+&lt;li&gt;Build a basic account report with an Actuals version and a reporting period.&lt;/li&gt;
+&lt;li&gt;To filter by a single worktag: drag a Cost Center member (for example, &lt;strong&gt;CC-1001&lt;/strong&gt;) into any empty header cell. This applies a filter to all OfficeConnect formulas in the workbook — all values now reflect only transactions tagged to CC-1001.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Refresh&lt;/strong&gt;. All account balances update to show only CC-1001 activity.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="3-combine-multiple-worktags"&gt;3. Combine multiple worktags&lt;/h2&gt;
+&lt;ol start="6"&gt;
+&lt;li&gt;
+&lt;p&gt;To filter by two worktags simultaneously — for example, CC-1001 AND Fund ABC:&lt;/p&gt;</description></item><item><title>Reconcile OfficeConnect Values to Workday Reports</title><link>https://officeconnectpro.com/build-reports/financials/reconcile-to-workday/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/reconcile-to-workday/</guid><description>&lt;p&gt;OfficeConnect and Workday Report Writer pull from the same underlying Workday Financial Management data, so their figures should agree. When they don&amp;rsquo;t, the difference almost always comes down to a filter, period definition, or configuration mismatch — not a data error. This guide walks through the most common causes and how to diagnose them.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OfficeConnect connected to the Financials data source&lt;/li&gt;
+&lt;li&gt;Access to Workday Report Writer or a Workday financial report for comparison&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="1-confirm-youre-comparing-the-same-period"&gt;1. Confirm you&amp;rsquo;re comparing the same period&lt;/h2&gt;
+&lt;p&gt;The most common cause of discrepancies is a period definition mismatch.&lt;/p&gt;</description></item><item><title>Build a Budget vs. Actuals Variance Report</title><link>https://officeconnectpro.com/build-reports/budget-vs-actuals-variance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/budget-vs-actuals-variance/</guid><description>&lt;p&gt;A budget vs. actuals variance report puts your plan and your reality in the same view. This tutorial walks through building one in OfficeConnect with a variance column that calculates automatically in Excel.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A report with monthly actuals and budget columns for each account, plus a variance column showing the difference — all refreshable from Adaptive Planning.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OfficeConnect installed and connected to an Adaptive Planning tenant (&lt;a href="https://officeconnectpro.com/get-started/"&gt;Get Started&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;An Adaptive Planning model with at least one Budget version and actuals loaded for the same period&lt;/li&gt;
+&lt;li&gt;Basic familiarity with adding elements (&lt;a href="https://officeconnectpro.com/build-reports/add-elements/"&gt;Add Elements&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="step-1--set-up-your-account-rows"&gt;Step 1 — Set up your account rows&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open a workbook and activate OfficeConnect&lt;/strong&gt;
+ Open Excel and click the &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab in the ribbon. Sign in if prompted. The Reporting pane opens on the right.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add your first account&lt;/strong&gt;
+ Click cell &lt;strong&gt;A3&lt;/strong&gt; — this will hold your first account label. In the Reporting pane, expand &lt;strong&gt;Accounts&lt;/strong&gt; and drag &lt;strong&gt;Revenue&lt;/strong&gt; (or your top-line account) into A3. OfficeConnect inserts a formula that resolves to the account name.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add remaining account rows&lt;/strong&gt;
+ Click A4, A5, A6, and so on. Drag in each account you need: Cost of Goods Sold, Gross Profit, Operating Expenses, Net Income. Place each in its own row. For rollup accounts, OfficeConnect automatically aggregates child accounts.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="step-2--add-actuals-and-budget-version-columns"&gt;Step 2 — Add Actuals and Budget version columns&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;4&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add an Actuals column header&lt;/strong&gt;
+ Click cell &lt;strong&gt;B1&lt;/strong&gt;. In the Reporting pane, expand &lt;strong&gt;Versions&lt;/strong&gt; and drag your &lt;strong&gt;Actuals&lt;/strong&gt; version into B1. OfficeConnect labels the cell with the version name.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;5&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add a Budget column header&lt;/strong&gt;
+ Click cell &lt;strong&gt;C1&lt;/strong&gt;. Drag your &lt;strong&gt;Budget&lt;/strong&gt; version into C1.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;6&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add a time context&lt;/strong&gt;
+ Click cell &lt;strong&gt;B2&lt;/strong&gt;. In the Reporting pane, expand &lt;strong&gt;Time&lt;/strong&gt; and drag the period you want to report on (for example, the current month or a full year) into B2. Copy B2 into C2 — both columns share the same time context.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="step-3--build-the-data-cells-and-variance-column"&gt;Step 3 — Build the data cells and variance column&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;7&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Populate the first data row&lt;/strong&gt;
+ Click &lt;strong&gt;B3&lt;/strong&gt;. OfficeConnect formulas reference the version in row 1 and the time in row 2, so B3 automatically resolves to Actuals for your chosen period. Copy B3 across to C3 — C3 resolves to Budget for the same period.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;8&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add a variance column header&lt;/strong&gt;
+ Click &lt;strong&gt;D1&lt;/strong&gt; and type &lt;code&gt;Variance&lt;/code&gt;. Click &lt;strong&gt;D2&lt;/strong&gt; and type &lt;code&gt;$&lt;/code&gt; (or leave it blank — this cell doesn&amp;rsquo;t need an OfficeConnect element).
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;9&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Write the variance formula&lt;/strong&gt;
+ &lt;p&gt;Click &lt;strong&gt;D3&lt;/strong&gt; and enter:&lt;/p&gt;</description></item><item><title>Build a Department P&amp;L Report in OfficeConnect</title><link>https://officeconnectpro.com/build-reports/department-pl-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/department-pl-report/</guid><description>&lt;p&gt;A department P&amp;amp;L shows revenue, expenses, and net income for each business unit in the same workbook. OfficeConnect&amp;rsquo;s Level dimension makes this straightforward — one row set per department, all pulling live data from the same Adaptive Planning model.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A P&amp;amp;L report with accounts as rows and departments as column groups, refreshable from Adaptive Planning.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OfficeConnect connected to an Adaptive Planning tenant with Levels configured for your org structure&lt;/li&gt;
+&lt;li&gt;An Adaptive Planning model with P&amp;amp;L accounts (Revenue, COGS, OpEx, Net Income)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="step-1--set-up-your-pl-account-rows"&gt;Step 1 — Set up your P&amp;amp;L account rows&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open Excel and activate OfficeConnect&lt;/strong&gt;
+ Open Excel, click the &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab, and sign in. The Reporting pane opens on the right.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add your P&amp;amp;L account hierarchy&lt;/strong&gt;
+ Click cell &lt;strong&gt;A3&lt;/strong&gt;. In the Reporting pane, expand &lt;strong&gt;Accounts&lt;/strong&gt; and drag &lt;strong&gt;Revenue&lt;/strong&gt; into A3. Continue in rows A4–A7 with: &lt;strong&gt;Cost of Goods Sold&lt;/strong&gt;, &lt;strong&gt;Gross Profit&lt;/strong&gt;, &lt;strong&gt;Operating Expenses&lt;/strong&gt;, and &lt;strong&gt;Net Income&lt;/strong&gt;. Gross Profit and Net Income are typically rollup accounts — OfficeConnect aggregates their child accounts automatically.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="step-2--add-department-level-columns"&gt;Step 2 — Add department (Level) columns&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add your version and time context&lt;/strong&gt;
+ Click &lt;strong&gt;B1&lt;/strong&gt; and drag your version (e.g., Actuals) from the Reporting pane into it. Click &lt;strong&gt;B2&lt;/strong&gt; and drag your time period (e.g., full year or current month) into it.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;4&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add the first department Level element&lt;/strong&gt;
+ Click &lt;strong&gt;B3&lt;/strong&gt;. In the Reporting pane, expand &lt;strong&gt;Levels&lt;/strong&gt; and find your first department (e.g., Sales). Drag it into &lt;strong&gt;B3&lt;/strong&gt;. OfficeConnect creates a formula that pulls data for the Actuals version, the time in B2, and the Sales level.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;5&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Copy B3 down for all account rows&lt;/strong&gt;
+ Copy &lt;strong&gt;B3&lt;/strong&gt; down to &lt;strong&gt;B4:B7&lt;/strong&gt;. Each row picks up its own account from column A while sharing the Level in B3&amp;rsquo;s formula structure.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;6&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add remaining departments&lt;/strong&gt;
+ Repeat Step 4–5 for each department, placing each in its own column (C, D, E, etc.). Add column headers in row 1 with the department name — you can type these as labels or drag the Level element into row 1 and OfficeConnect will label it automatically.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="step-3--add-a-company-total-column"&gt;Step 3 — Add a company total column&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;7&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add a Total column&lt;/strong&gt;
+ In the rightmost column header row, drag your &lt;strong&gt;top-level Level&lt;/strong&gt; (the parent of all departments) from the Reporting pane. This gives you a company-wide total column that rolls up all departments. Alternatively, use an Excel SUM formula across the department columns.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="step-4--refresh-and-verify"&gt;Step 4 — Refresh and verify&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;8&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Refresh the report&lt;/strong&gt;
+ Click &lt;strong&gt;Refresh&lt;/strong&gt; in the OfficeConnect ribbon. All department columns populate from Adaptive Planning.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;9&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Spot-check totals&lt;/strong&gt;
+ Confirm that each department&amp;rsquo;s Gross Profit = Revenue − COGS, and that Net Income = Gross Profit − Operating Expenses. If rollup accounts are showing unexpected values, check that the account hierarchy in your Adaptive Planning model is configured correctly.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="next-steps"&gt;Next steps&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Add a budget or prior-year comparison column — see &lt;a href="https://officeconnectpro.com/build-reports/budget-vs-actuals-variance/"&gt;Budget vs. Actuals Variance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Protect the report for distribution — see &lt;a href="https://officeconnectpro.com/build-reports/lock-protect-reports/"&gt;Lock and Protect Reports&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Publish to PowerPoint — see &lt;a href="https://officeconnectpro.com/share-publish/officeconnect-for-powerpoint/"&gt;OfficeConnect for PowerPoint&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Build a Year-over-Year Trend Report</title><link>https://officeconnectpro.com/build-reports/year-over-year-trend/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/year-over-year-trend/</guid><description>&lt;p&gt;A year-over-year trend report shows how each month compares to the same month last year — useful for spotting seasonal patterns and measuring real growth. OfficeConnect&amp;rsquo;s time elements let you pin both years in the same report.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A report with 12 months of current-year actuals alongside 12 months of prior-year actuals, plus a YoY variance row.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OfficeConnect connected to an Adaptive Planning tenant with at least two full years of actuals&lt;/li&gt;
+&lt;li&gt;Familiarity with adding elements (&lt;a href="https://officeconnectpro.com/build-reports/add-elements/"&gt;Add Elements&lt;/a&gt;) and time contexts (&lt;a href="https://officeconnectpro.com/build-reports/time-and-contexts/"&gt;Time and Contexts&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="step-1--set-up-current-year-monthly-columns"&gt;Step 1 — Set up current-year monthly columns&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open Excel and activate OfficeConnect&lt;/strong&gt;
+ Open Excel and click the &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab. Sign in if prompted.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add your Actuals version&lt;/strong&gt;
+ Click &lt;strong&gt;B1&lt;/strong&gt;. In the Reporting pane, expand &lt;strong&gt;Versions&lt;/strong&gt; and drag your &lt;strong&gt;Actuals&lt;/strong&gt; version into B1. This version applies to all columns that share row 1.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add current-year monthly time elements&lt;/strong&gt;
+ Click &lt;strong&gt;B2&lt;/strong&gt;. In the Reporting pane, expand &lt;strong&gt;Time → Months&lt;/strong&gt; and find January of the current year (e.g., Jan 2026). Drag it into B2. Continue across row 2 — C2 through M2 — adding Feb 2026 through Dec 2026. You should have 12 monthly time elements across row 2.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="step-2--set-up-prior-year-monthly-columns"&gt;Step 2 — Set up prior-year monthly columns&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;4&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add prior-year Actuals version&lt;/strong&gt;
+ Click &lt;strong&gt;N1&lt;/strong&gt;. Drag your &lt;strong&gt;Actuals&lt;/strong&gt; version into N1. (It&amp;rsquo;s the same version — the time elements in row 2 control which year&amp;rsquo;s data loads.)
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;5&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add prior-year monthly time elements&lt;/strong&gt;
+ Click &lt;strong&gt;N2&lt;/strong&gt;. Drag Jan 2025 into N2. Continue across — O2 through Y2 — adding Feb 2025 through Dec 2025.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="step-3--add-account-rows"&gt;Step 3 — Add account rows&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;6&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add your primary account&lt;/strong&gt;
+ Click &lt;strong&gt;A3&lt;/strong&gt;. In the Reporting pane, expand &lt;strong&gt;Accounts&lt;/strong&gt; and drag your key account (e.g., Revenue) into A3.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;7&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Populate the data row&lt;/strong&gt;
+ Click &lt;strong&gt;B3&lt;/strong&gt;. OfficeConnect formulas reference the version in row 1 and the time in row 2, so B3 returns Jan 2026 Actuals for Revenue. Copy B3 across to Y3 — each cell picks up the correct month and year from its column.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;8&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add remaining account rows&lt;/strong&gt;
+ Copy row 3 down for each additional account. Add more accounts to column A as needed.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="step-4--add-yoy-variance"&gt;Step 4 — Add YoY variance&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;9&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add a variance section header&lt;/strong&gt;
+ In column Z row 1, type &lt;code&gt;YoY Variance&lt;/code&gt;. Leave Z2 empty.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;10&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add monthly variance formulas&lt;/strong&gt;
+ &lt;p&gt;In &lt;strong&gt;B4&lt;/strong&gt; (one row below your last account row, or in a dedicated variance row), enter:&lt;/p&gt;</description></item><item><title>Compare Two Planning Versions Side by Side</title><link>https://officeconnectpro.com/build-reports/compare-planning-versions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/compare-planning-versions/</guid><description>&lt;p&gt;Any OfficeConnect report can show multiple versions at once. Here&amp;rsquo;s how to add a second version column alongside your existing data.&lt;/p&gt;
+&lt;h2 id="steps"&gt;Steps&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open your OfficeConnect workbook and click the &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click an empty column header cell (for example, &lt;strong&gt;C1&lt;/strong&gt; if your existing data is in column B).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In the Reporting pane, expand &lt;strong&gt;Versions&lt;/strong&gt; and drag the second version (e.g., Forecast) into C1.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;C2&lt;/strong&gt; and drag the same time element you used in B2 into C2. Both columns now share the same time period.&lt;/p&gt;</description></item><item><title>Fix Data Discrepancies Between OfficeConnect and Workday</title><link>https://officeconnectpro.com/troubleshoot/data-discrepancies/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/data-discrepancies/</guid><description>&lt;h2 id="symptom"&gt;Symptom&lt;/h2&gt;
+&lt;p&gt;One or more of the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;An account balance in OfficeConnect doesn&amp;rsquo;t match the same account in a Workday financial report&lt;/li&gt;
+&lt;li&gt;Figures match at the rollup level but differ at individual account or cost center level&lt;/li&gt;
+&lt;li&gt;Prior-period figures differ between OfficeConnect and Workday Report Writer after a restatement or adjustment&lt;/li&gt;
+&lt;li&gt;Totals agree but the breakdown by worktag or dimension differs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="causes"&gt;Causes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Period definition mismatch — OfficeConnect and Workday Report Writer using different period boundaries (fiscal vs. calendar, month-end vs. period-end)&lt;/li&gt;
+&lt;li&gt;Account scope mismatch — different account hierarchies or groupings used in each tool&lt;/li&gt;
+&lt;li&gt;Company or ledger filter mismatch — OfficeConnect showing all companies while Report Writer is scoped to one, or vice versa&lt;/li&gt;
+&lt;li&gt;Effective date vs. posting date difference — OfficeConnect set to effective-date view while Report Writer uses posting dates&lt;/li&gt;
+&lt;li&gt;Currency conversion mismatch — different exchange rate types or conversion dates&lt;/li&gt;
+&lt;li&gt;Journal source exclusions — Workday report configured to exclude certain journal sources that OfficeConnect includes&lt;/li&gt;
+&lt;li&gt;Retroactive adjustments — a prior period was restated in Workday after OfficeConnect data was last refreshed&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="fix-1-align-the-period-definition"&gt;Fix 1: Align the period definition&lt;/h2&gt;
+&lt;p&gt;This is the most common cause. Confirm both tools are using the exact same period.&lt;/p&gt;</description></item><item><title>Add Headcount Data to a Financial Report</title><link>https://officeconnectpro.com/build-reports/headcount-in-financial-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/headcount-in-financial-report/</guid><description>&lt;p&gt;OfficeConnect doesn&amp;rsquo;t separate financial and workforce accounts — they&amp;rsquo;re all elements in your Adaptive Planning model. You can add headcount rows to any financial report by dragging the right accounts from the Reporting pane.&lt;/p&gt;
+&lt;h2 id="steps"&gt;Steps&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open your financial report in Excel and click the &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click an empty row below your financial accounts — for example, &lt;strong&gt;A10&lt;/strong&gt; if your P&amp;amp;L ends at row 9.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In the Reporting pane, expand &lt;strong&gt;Accounts&lt;/strong&gt; and look for your workforce accounts. Common names include:&lt;/p&gt;</description></item><item><title>Set Up Scenario Comparison in OfficeConnect</title><link>https://officeconnectpro.com/build-reports/scenario-comparison/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/scenario-comparison/</guid><description>&lt;p&gt;Scenarios in Adaptive Planning are planning alternatives within a version — for example, a Base Case, Upside, and Downside within your annual Budget version. OfficeConnect can display multiple scenarios in the same report, making it easy to show a range of outcomes.&lt;/p&gt;
+&lt;h2 id="before-you-begin"&gt;Before you begin&lt;/h2&gt;
+&lt;p&gt;Scenarios must be configured in your Adaptive Planning model before they appear in OfficeConnect. If you don&amp;rsquo;t see scenarios in the Reporting pane, ask your Adaptive Planning administrator to confirm they are enabled and that you have read access.&lt;/p&gt;</description></item><item><title>Build a Formatted Executive Report for Distribution</title><link>https://officeconnectpro.com/build-reports/formatted-executive-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/formatted-executive-report/</guid><description>&lt;p&gt;A raw OfficeConnect report shows the right numbers, but an executive report needs to look the part. This tutorial walks through building a formatted P&amp;amp;L summary with branding, clean layout, and print-ready page setup — the kind of report you can share as a PDF without touching it in PowerPoint first.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A one-page executive P&amp;amp;L summary with a header, logo, formatted number columns, and page layout configured for PDF export.&lt;/p&gt;</description></item><item><title>Refresh Reports Automatically with Power Automate</title><link>https://officeconnectpro.com/build-reports/refresh-with-power-automate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/refresh-with-power-automate/</guid><description>&lt;p&gt;OfficeConnect doesn&amp;rsquo;t have a built-in scheduler, but you can automate report refresh using &lt;strong&gt;Power Automate Desktop&lt;/strong&gt; — Microsoft&amp;rsquo;s desktop automation tool included with Windows 10/11 and Microsoft 365. This how-to sets up a scheduled desktop flow that opens your report workbook, refreshes OfficeConnect data, saves, and closes — on any schedule you set.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 10 or 11 with Power Automate Desktop installed (&lt;a href="https://powerautomate.microsoft.com/en-us/desktop/"&gt;download from Microsoft&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Microsoft 365 subscription (Power Automate Desktop is included)&lt;/li&gt;
+&lt;li&gt;Your OfficeConnect report workbook saved to a local path or a network/SharePoint location accessible from the machine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The machine running the flow must be on and signed in for the scheduled flow to run. This approach works best on a server or shared workstation that stays online. For cloud-only approaches, consider saving the refreshed file to SharePoint so downstream users always see the latest version.&lt;/p&gt;</description></item><item><title>Work with Custom Dimensions and Attributes in OfficeConnect</title><link>https://officeconnectpro.com/build-reports/custom-dimensions-attributes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/custom-dimensions-attributes/</guid><description>&lt;p&gt;Adaptive Planning models often include custom dimensions beyond the standard account and level hierarchy — things like Product Line, Region, Project Code, or Customer Segment. OfficeConnect exposes these as &lt;strong&gt;Custom Dimensions&lt;/strong&gt; in the Reporting pane, letting you filter and report on any segment your model defines.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OfficeConnect connected to an Adaptive Planning model that includes custom dimensions&lt;/li&gt;
+&lt;li&gt;Familiarity with building basic reports — see &lt;a href="https://officeconnectpro.com/build-reports/budget-vs-actuals-variance/"&gt;Budget vs. Actuals Variance&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="1-find-your-custom-dimensions-in-the-reporting-pane"&gt;1. Find your custom dimensions in the Reporting pane&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the OfficeConnect Reporting pane. Scroll down past Accounts, Versions, Time, and Levels to find the &lt;strong&gt;Custom Dimensions&lt;/strong&gt; section (it may also appear as &lt;strong&gt;Dimensions&lt;/strong&gt; depending on your OfficeConnect version).&lt;/li&gt;
+&lt;li&gt;Expand &lt;strong&gt;Custom Dimensions&lt;/strong&gt; to see the dimensions your model administrator has defined. Each dimension has members — for example, a &amp;ldquo;Region&amp;rdquo; dimension might have members: North America, EMEA, APAC.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Custom dimensions are model-specific. If you don&amp;rsquo;t see a &lt;strong&gt;Custom Dimensions&lt;/strong&gt; section, your model may not have any configured. Contact your Adaptive Planning model administrator to confirm.&lt;/p&gt;</description></item><item><title>Optimize Performance for Large Models in OfficeConnect</title><link>https://officeconnectpro.com/build-reports/optimize-performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/optimize-performance/</guid><description>&lt;p&gt;OfficeConnect reports can slow down significantly when workbooks contain hundreds of formulas pulling from large Adaptive Planning models. Refresh times of 30–60 seconds are common in unoptimized workbooks; the techniques below typically cut that to under 10 seconds for the same data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OfficeConnect connected to an Adaptive Planning tenant&lt;/li&gt;
+&lt;li&gt;A workbook that is currently slow to refresh (more than 15 seconds)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="1-reduce-the-number-of-officeconnect-formulas"&gt;1. Reduce the number of OfficeConnect formulas&lt;/h2&gt;
+&lt;p&gt;The single biggest performance factor is formula count. Each OfficeConnect formula is a separate server call during refresh.&lt;/p&gt;</description></item></channel></rss>
