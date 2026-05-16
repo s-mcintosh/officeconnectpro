@@ -3,7 +3,7 @@ title: "OfficeConnect Pro"
 linkTitle: "Home"
 ---
 
-{{< blocks/cover title="Your Guide to OfficeConnect" image_anchor="Center" height="med" color="dark" >}}
+{{< blocks/cover title="Your Guide to OfficeConnect" image_anchor="Smart" height="med" color="dark" >}}
 <div class="mx-auto">
   <a class="btn btn-lg btn-primary me-3 mb-4" href="/get-started/">
     Get Started <i class="fas fa-arrow-alt-circle-right ms-2"></i>
