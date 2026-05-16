@@ -4,6 +4,7 @@ linkTitle: "Intercompany Eliminations"
 weight: 7
 description: >
   Use OfficeConnect's Financials data source to report on intercompany transactions and eliminations — with options to include or exclude eliminations from consolidated views.
+tags: ["financials", "how-to", "reporting"]
 ---
 
 Intercompany eliminations remove transactions between entities in a consolidated group — preventing double-counting of intercompany revenue and expenses. OfficeConnect's Financials data source surfaces these as data you can include or exclude in your reports.

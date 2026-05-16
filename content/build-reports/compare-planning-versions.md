@@ -4,6 +4,7 @@ linkTitle: "Compare Planning Versions"
 weight: 23
 description: >
   Add a second version column to any OfficeConnect report to compare Budget vs. Forecast, two plan iterations, or any two Adaptive Planning versions.
+tags: ["adaptive-planning", "how-to", "reporting"]
 ---
 
 Any OfficeConnect report can show multiple versions at once. Here's how to add a second version column alongside your existing data.

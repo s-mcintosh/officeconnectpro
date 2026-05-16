@@ -4,6 +4,7 @@ linkTitle: "Lock and Protect Reports"
 weight: 25
 description: >
   Protect an OfficeConnect workbook for distribution so recipients can't accidentally break formulas — while keeping Refresh working.
+tags: ["adaptive-planning", "how-to", "sharing"]
 ---
 
 When you share an OfficeConnect report with people who shouldn't edit it, Excel's sheet protection prevents accidental changes. The catch: you must leave OfficeConnect formula cells unlocked, or Refresh will fail with a "sheet is protected" error.

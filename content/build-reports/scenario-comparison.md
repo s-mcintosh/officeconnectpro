@@ -4,6 +4,7 @@ linkTitle: "Scenario Comparison"
 weight: 26
 description: >
   Compare planning scenarios side by side in OfficeConnect — useful for showing upside, base case, and downside in the same report.
+tags: ["adaptive-planning", "how-to", "reporting"]
 ---
 
 Scenarios in Adaptive Planning are planning alternatives within a version — for example, a Base Case, Upside, and Downside within your annual Budget version. OfficeConnect can display multiple scenarios in the same report, making it easy to show a range of outcomes.
