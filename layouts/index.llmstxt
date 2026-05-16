@@ -1,0 +1,12 @@
+# {{ .Site.Title }}
+
+> Step-by-step guides for Workday OfficeConnect
+
+All pages are available as raw Markdown by appending `index.md` to any page URL.
+
+{{ range .Site.Sections }}
+## {{ .Title }}
+{{ range .RegularPages }}
+- [{{ .Title }}]({{ .Permalink }}index.md){{ with .Description }}: {{ . }}{{ end }}
+{{- end }}
+{{ end }}

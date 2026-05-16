@@ -9,6 +9,28 @@ defaultContentLanguage = "en"
     [markup.goldmark.renderer]
       unsafe = true
 
+[mediaTypes]
+  [mediaTypes."text/markdown"]
+    suffixes = ["md"]
+
+[outputFormats]
+  [outputFormats.MarkdownSource]
+    mediaType = "text/markdown"
+    isPlainText = true
+    isHTML = false
+    notAlternative = false
+  [outputFormats.LLMsTxt]
+    mediaType = "text/plain"
+    isPlainText = true
+    isHTML = false
+    notAlternative = true
+    baseName = "llms"
+
+[outputs]
+  home = ["HTML", "RSS", "LLMsTxt"]
+  page = ["HTML", "MarkdownSource"]
+  section = ["HTML", "RSS"]
+
 [module]
   proxy = "direct"
   [[module.imports]]

@@ -39,7 +39,7 @@ Fix common errors and get answers to the most frequent questions.
 {{% /blocks/feature %}}
 {{< /blocks/section >}}
 
-{{< blocks/section color="light" >}}
+{{< blocks/section color="white" >}}
 <div class="col-12 text-center">
 <h2>Browse by Topic</h2>
 <p class="mt-3">
