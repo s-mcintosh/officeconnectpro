@@ -8,8 +8,8 @@ linkTitle: "Home"
   <a class="btn btn-lg btn-primary me-3 mb-4" href="/get-started/">
     Get Started <i class="fas fa-arrow-alt-circle-right ms-2"></i>
   </a>
-  <a class="btn btn-lg btn-secondary mb-4" href="/troubleshoot/">
-    Troubleshoot <i class="fas fa-wrench ms-2"></i>
+  <a class="btn btn-lg btn-secondary mb-4" href="/tutorials/">
+    Tutorials <i class="fas fa-graduation-cap ms-2"></i>
   </a>
 </div>
 <p class="lead mt-2">Step-by-step guides for Workday Adaptive Planning's OfficeConnect add-in — for finance teams and IT admins.</p>
