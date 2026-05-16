@@ -1,15 +1,16 @@
 ---
 title: "Create a Rolling 12-Month Report"
 linkTitle: "Rolling 12-Month Report"
-weight: 2
+weight: 12
 description: >
   Build a report whose time columns automatically advance each month without manual updates.
+tags: ["adaptive-planning", "tutorial", "reporting"]
 ---
 
 A rolling 12-month report always shows the current month plus the 11 preceding months — no matter when you open it. This tutorial shows how to build one using OfficeConnect's relative time contexts so the columns update automatically on each refresh.
 
 **What you'll need:**
-- An existing OfficeConnect workbook or a blank one ([Build Your First Report](/tutorials/build-first-report/))
+- An existing OfficeConnect workbook or a blank one ([Build Your First Report](/build-reports/build-first-report/))
 - Your Adaptive Planning instance populated with at least 12 months of actuals or forecast data
 
 ---

@@ -1,9 +1,10 @@
 ---
 title: "Build Your First OfficeConnect Report"
 linkTitle: "Build Your First Report"
-weight: 1
+weight: 11
 description: >
   A complete walkthrough for creating a live Adaptive Planning report in Excel from scratch.
+tags: ["adaptive-planning", "tutorial", "reporting"]
 ---
 
 This tutorial walks through building a basic departmental expense report from an empty workbook to a live, refreshable OfficeConnect report. By the end you will have a working report that pulls real data from Adaptive Planning with one click.

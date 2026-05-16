@@ -1,15 +1,16 @@
 ---
 title: "Publish a Report to PowerPoint"
 linkTitle: "Publish to PowerPoint"
-weight: 3
+weight: 13
 description: >
   Link a live OfficeConnect Excel report into a PowerPoint deck so slides update with one refresh.
+tags: ["adaptive-planning", "tutorial", "sharing"]
 ---
 
 This tutorial covers linking an OfficeConnect Excel report into a PowerPoint presentation. Once linked, refreshing OfficeConnect in Excel automatically updates the numbers in your slides — no copy-pasting needed.
 
 **What you'll need:**
-- A finished OfficeConnect Excel report with data populated ([Build Your First Report](/tutorials/build-first-report/))
+- A finished OfficeConnect Excel report with data populated ([Build Your First Report](/build-reports/build-first-report/))
 - PowerPoint (Microsoft 365 or Office 2019+)
 - OfficeConnect installed on the same machine
 
