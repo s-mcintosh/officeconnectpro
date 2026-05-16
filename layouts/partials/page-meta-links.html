@@ -47,6 +47,9 @@
 {{ end -}}
 {{ with .CurrentSection.AlternativeOutputFormats.Get "print" -}}
   <a id="print" href="{{ .RelPermalink | safeURL }}"><i class="fa-solid fa-print fa-fw"></i> {{ T "print_entire_section" }}</a>
-{{ end }}
+{{ end -}}
+{{ with .AlternativeOutputFormats.Get "MarkdownSource" -}}
+  <a href="{{ .RelPermalink | safeURL }}" class="td-page-meta__markdown d-block mt-1"><i class="fa-solid fa-file-code fa-fw"></i> View as Markdown</a>
+{{ end -}}
 </div>
 {{ end -}}
