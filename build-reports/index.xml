@@ -403,4 +403,299 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Explore Cell applies to the &lt;strong&gt;Adaptive Planning&lt;/strong&gt; data source. For the &lt;strong&gt;Financials&lt;/strong&gt; data source, use &lt;strong&gt;Show Details&lt;/strong&gt; instead, which shows contributing journal line and plan line details.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Explore Cell applies to the &lt;strong&gt;Adaptive Planning&lt;/strong&gt; data source. For the &lt;strong&gt;Financials&lt;/strong&gt; data source, use &lt;strong&gt;Show Details&lt;/strong&gt; instead, which shows contributing journal line and plan line details.&lt;/p&gt;</description></item><item><title>Build a Budget vs. Actuals Variance Report</title><link>https://officeconnectpro.com/build-reports/budget-vs-actuals-variance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/budget-vs-actuals-variance/</guid><description>&lt;p&gt;A budget vs. actuals variance report puts your plan and your reality in the same view. This tutorial walks through building one in OfficeConnect with a variance column that calculates automatically in Excel.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A report with monthly actuals and budget columns for each account, plus a variance column showing the difference — all refreshable from Adaptive Planning.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OfficeConnect installed and connected to an Adaptive Planning tenant (&lt;a href="https://officeconnectpro.com/get-started/"&gt;Get Started&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;An Adaptive Planning model with at least one Budget version and actuals loaded for the same period&lt;/li&gt;
+&lt;li&gt;Basic familiarity with adding elements (&lt;a href="https://officeconnectpro.com/build-reports/add-elements/"&gt;Add Elements&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="step-1--set-up-your-account-rows"&gt;Step 1 — Set up your account rows&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open a workbook and activate OfficeConnect&lt;/strong&gt;
+ Open Excel and click the &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab in the ribbon. Sign in if prompted. The Reporting pane opens on the right.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add your first account&lt;/strong&gt;
+ Click cell &lt;strong&gt;A3&lt;/strong&gt; — this will hold your first account label. In the Reporting pane, expand &lt;strong&gt;Accounts&lt;/strong&gt; and drag &lt;strong&gt;Revenue&lt;/strong&gt; (or your top-line account) into A3. OfficeConnect inserts a formula that resolves to the account name.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add remaining account rows&lt;/strong&gt;
+ Click A4, A5, A6, and so on. Drag in each account you need: Cost of Goods Sold, Gross Profit, Operating Expenses, Net Income. Place each in its own row. For rollup accounts, OfficeConnect automatically aggregates child accounts.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="step-2--add-actuals-and-budget-version-columns"&gt;Step 2 — Add Actuals and Budget version columns&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;4&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add an Actuals column header&lt;/strong&gt;
+ Click cell &lt;strong&gt;B1&lt;/strong&gt;. In the Reporting pane, expand &lt;strong&gt;Versions&lt;/strong&gt; and drag your &lt;strong&gt;Actuals&lt;/strong&gt; version into B1. OfficeConnect labels the cell with the version name.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;5&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add a Budget column header&lt;/strong&gt;
+ Click cell &lt;strong&gt;C1&lt;/strong&gt;. Drag your &lt;strong&gt;Budget&lt;/strong&gt; version into C1.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;6&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add a time context&lt;/strong&gt;
+ Click cell &lt;strong&gt;B2&lt;/strong&gt;. In the Reporting pane, expand &lt;strong&gt;Time&lt;/strong&gt; and drag the period you want to report on (for example, the current month or a full year) into B2. Copy B2 into C2 — both columns share the same time context.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="step-3--build-the-data-cells-and-variance-column"&gt;Step 3 — Build the data cells and variance column&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;7&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Populate the first data row&lt;/strong&gt;
+ Click &lt;strong&gt;B3&lt;/strong&gt;. OfficeConnect formulas reference the version in row 1 and the time in row 2, so B3 automatically resolves to Actuals for your chosen period. Copy B3 across to C3 — C3 resolves to Budget for the same period.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;8&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add a variance column header&lt;/strong&gt;
+ Click &lt;strong&gt;D1&lt;/strong&gt; and type &lt;code&gt;Variance&lt;/code&gt;. Click &lt;strong&gt;D2&lt;/strong&gt; and type &lt;code&gt;$&lt;/code&gt; (or leave it blank — this cell doesn&amp;rsquo;t need an OfficeConnect element).
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;9&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Write the variance formula&lt;/strong&gt;
+ &lt;p&gt;Click &lt;strong&gt;D3&lt;/strong&gt; and enter:&lt;/p&gt;</description></item><item><title>Build a Department P&amp;L Report in OfficeConnect</title><link>https://officeconnectpro.com/build-reports/department-pl-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/department-pl-report/</guid><description>&lt;p&gt;A department P&amp;amp;L shows revenue, expenses, and net income for each business unit in the same workbook. OfficeConnect&amp;rsquo;s Level dimension makes this straightforward — one row set per department, all pulling live data from the same Adaptive Planning model.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A P&amp;amp;L report with accounts as rows and departments as column groups, refreshable from Adaptive Planning.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OfficeConnect connected to an Adaptive Planning tenant with Levels configured for your org structure&lt;/li&gt;
+&lt;li&gt;An Adaptive Planning model with P&amp;amp;L accounts (Revenue, COGS, OpEx, Net Income)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="step-1--set-up-your-pl-account-rows"&gt;Step 1 — Set up your P&amp;amp;L account rows&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open Excel and activate OfficeConnect&lt;/strong&gt;
+ Open Excel, click the &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab, and sign in. The Reporting pane opens on the right.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add your P&amp;amp;L account hierarchy&lt;/strong&gt;
+ Click cell &lt;strong&gt;A3&lt;/strong&gt;. In the Reporting pane, expand &lt;strong&gt;Accounts&lt;/strong&gt; and drag &lt;strong&gt;Revenue&lt;/strong&gt; into A3. Continue in rows A4–A7 with: &lt;strong&gt;Cost of Goods Sold&lt;/strong&gt;, &lt;strong&gt;Gross Profit&lt;/strong&gt;, &lt;strong&gt;Operating Expenses&lt;/strong&gt;, and &lt;strong&gt;Net Income&lt;/strong&gt;. Gross Profit and Net Income are typically rollup accounts — OfficeConnect aggregates their child accounts automatically.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="step-2--add-department-level-columns"&gt;Step 2 — Add department (Level) columns&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add your version and time context&lt;/strong&gt;
+ Click &lt;strong&gt;B1&lt;/strong&gt; and drag your version (e.g., Actuals) from the Reporting pane into it. Click &lt;strong&gt;B2&lt;/strong&gt; and drag your time period (e.g., full year or current month) into it.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;4&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add the first department Level element&lt;/strong&gt;
+ Click &lt;strong&gt;B3&lt;/strong&gt;. In the Reporting pane, expand &lt;strong&gt;Levels&lt;/strong&gt; and find your first department (e.g., Sales). Drag it into &lt;strong&gt;B3&lt;/strong&gt;. OfficeConnect creates a formula that pulls data for the Actuals version, the time in B2, and the Sales level.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;5&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Copy B3 down for all account rows&lt;/strong&gt;
+ Copy &lt;strong&gt;B3&lt;/strong&gt; down to &lt;strong&gt;B4:B7&lt;/strong&gt;. Each row picks up its own account from column A while sharing the Level in B3&amp;rsquo;s formula structure.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;6&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add remaining departments&lt;/strong&gt;
+ Repeat Step 4–5 for each department, placing each in its own column (C, D, E, etc.). Add column headers in row 1 with the department name — you can type these as labels or drag the Level element into row 1 and OfficeConnect will label it automatically.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="step-3--add-a-company-total-column"&gt;Step 3 — Add a company total column&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;7&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add a Total column&lt;/strong&gt;
+ In the rightmost column header row, drag your &lt;strong&gt;top-level Level&lt;/strong&gt; (the parent of all departments) from the Reporting pane. This gives you a company-wide total column that rolls up all departments. Alternatively, use an Excel SUM formula across the department columns.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="step-4--refresh-and-verify"&gt;Step 4 — Refresh and verify&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;8&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Refresh the report&lt;/strong&gt;
+ Click &lt;strong&gt;Refresh&lt;/strong&gt; in the OfficeConnect ribbon. All department columns populate from Adaptive Planning.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;9&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Spot-check totals&lt;/strong&gt;
+ Confirm that each department&amp;rsquo;s Gross Profit = Revenue − COGS, and that Net Income = Gross Profit − Operating Expenses. If rollup accounts are showing unexpected values, check that the account hierarchy in your Adaptive Planning model is configured correctly.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="next-steps"&gt;Next steps&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Add a budget or prior-year comparison column — see &lt;a href="https://officeconnectpro.com/build-reports/budget-vs-actuals-variance/"&gt;Budget vs. Actuals Variance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Protect the report for distribution — see &lt;a href="https://officeconnectpro.com/build-reports/lock-protect-reports/"&gt;Lock and Protect Reports&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Publish to PowerPoint — see &lt;a href="https://officeconnectpro.com/share-publish/officeconnect-for-powerpoint/"&gt;OfficeConnect for PowerPoint&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Build a Year-over-Year Trend Report</title><link>https://officeconnectpro.com/build-reports/year-over-year-trend/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/year-over-year-trend/</guid><description>&lt;p&gt;A year-over-year trend report shows how each month compares to the same month last year — useful for spotting seasonal patterns and measuring real growth. OfficeConnect&amp;rsquo;s time elements let you pin both years in the same report.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A report with 12 months of current-year actuals alongside 12 months of prior-year actuals, plus a YoY variance row.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OfficeConnect connected to an Adaptive Planning tenant with at least two full years of actuals&lt;/li&gt;
+&lt;li&gt;Familiarity with adding elements (&lt;a href="https://officeconnectpro.com/build-reports/add-elements/"&gt;Add Elements&lt;/a&gt;) and time contexts (&lt;a href="https://officeconnectpro.com/build-reports/time-and-contexts/"&gt;Time and Contexts&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="step-1--set-up-current-year-monthly-columns"&gt;Step 1 — Set up current-year monthly columns&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open Excel and activate OfficeConnect&lt;/strong&gt;
+ Open Excel and click the &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab. Sign in if prompted.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add your Actuals version&lt;/strong&gt;
+ Click &lt;strong&gt;B1&lt;/strong&gt;. In the Reporting pane, expand &lt;strong&gt;Versions&lt;/strong&gt; and drag your &lt;strong&gt;Actuals&lt;/strong&gt; version into B1. This version applies to all columns that share row 1.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add current-year monthly time elements&lt;/strong&gt;
+ Click &lt;strong&gt;B2&lt;/strong&gt;. In the Reporting pane, expand &lt;strong&gt;Time → Months&lt;/strong&gt; and find January of the current year (e.g., Jan 2026). Drag it into B2. Continue across row 2 — C2 through M2 — adding Feb 2026 through Dec 2026. You should have 12 monthly time elements across row 2.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="step-2--set-up-prior-year-monthly-columns"&gt;Step 2 — Set up prior-year monthly columns&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;4&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add prior-year Actuals version&lt;/strong&gt;
+ Click &lt;strong&gt;N1&lt;/strong&gt;. Drag your &lt;strong&gt;Actuals&lt;/strong&gt; version into N1. (It&amp;rsquo;s the same version — the time elements in row 2 control which year&amp;rsquo;s data loads.)
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;5&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add prior-year monthly time elements&lt;/strong&gt;
+ Click &lt;strong&gt;N2&lt;/strong&gt;. Drag Jan 2025 into N2. Continue across — O2 through Y2 — adding Feb 2025 through Dec 2025.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="step-3--add-account-rows"&gt;Step 3 — Add account rows&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;6&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add your primary account&lt;/strong&gt;
+ Click &lt;strong&gt;A3&lt;/strong&gt;. In the Reporting pane, expand &lt;strong&gt;Accounts&lt;/strong&gt; and drag your key account (e.g., Revenue) into A3.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;7&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Populate the data row&lt;/strong&gt;
+ Click &lt;strong&gt;B3&lt;/strong&gt;. OfficeConnect formulas reference the version in row 1 and the time in row 2, so B3 returns Jan 2026 Actuals for Revenue. Copy B3 across to Y3 — each cell picks up the correct month and year from its column.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;8&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add remaining account rows&lt;/strong&gt;
+ Copy row 3 down for each additional account. Add more accounts to column A as needed.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="step-4--add-yoy-variance"&gt;Step 4 — Add YoY variance&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;9&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add a variance section header&lt;/strong&gt;
+ In column Z row 1, type &lt;code&gt;YoY Variance&lt;/code&gt;. Leave Z2 empty.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;10&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add monthly variance formulas&lt;/strong&gt;
+ &lt;p&gt;In &lt;strong&gt;B4&lt;/strong&gt; (one row below your last account row, or in a dedicated variance row), enter:&lt;/p&gt;</description></item><item><title>Compare Two Planning Versions Side by Side</title><link>https://officeconnectpro.com/build-reports/compare-planning-versions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/compare-planning-versions/</guid><description>&lt;p&gt;Any OfficeConnect report can show multiple versions at once. Here&amp;rsquo;s how to add a second version column alongside your existing data.&lt;/p&gt;
+&lt;h2 id="steps"&gt;Steps&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open your OfficeConnect workbook and click the &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click an empty column header cell (for example, &lt;strong&gt;C1&lt;/strong&gt; if your existing data is in column B).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In the Reporting pane, expand &lt;strong&gt;Versions&lt;/strong&gt; and drag the second version (e.g., Forecast) into C1.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;C2&lt;/strong&gt; and drag the same time element you used in B2 into C2. Both columns now share the same time period.&lt;/p&gt;</description></item><item><title>Add Headcount Data to a Financial Report</title><link>https://officeconnectpro.com/build-reports/headcount-in-financial-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/headcount-in-financial-report/</guid><description>&lt;p&gt;OfficeConnect doesn&amp;rsquo;t separate financial and workforce accounts — they&amp;rsquo;re all elements in your Adaptive Planning model. You can add headcount rows to any financial report by dragging the right accounts from the Reporting pane.&lt;/p&gt;
+&lt;h2 id="steps"&gt;Steps&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open your financial report in Excel and click the &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click an empty row below your financial accounts — for example, &lt;strong&gt;A10&lt;/strong&gt; if your P&amp;amp;L ends at row 9.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In the Reporting pane, expand &lt;strong&gt;Accounts&lt;/strong&gt; and look for your workforce accounts. Common names include:&lt;/p&gt;</description></item><item><title>Lock and Protect Reports for Distribution</title><link>https://officeconnectpro.com/build-reports/lock-protect-reports/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/lock-protect-reports/</guid><description>&lt;p&gt;When you share an OfficeConnect report with people who shouldn&amp;rsquo;t edit it, Excel&amp;rsquo;s sheet protection prevents accidental changes. The catch: you must leave OfficeConnect formula cells unlocked, or Refresh will fail with a &amp;ldquo;sheet is protected&amp;rdquo; error.&lt;/p&gt;
+&lt;h2 id="how-officeconnect-cells-work-with-protection"&gt;How OfficeConnect cells work with protection&lt;/h2&gt;
+&lt;p&gt;OfficeConnect stores data in formula cells. When you click Refresh, OfficeConnect writes new values into those cells. If the sheet is protected and those cells are locked, Refresh fails. The solution: unlock the OfficeConnect cells before protecting the sheet.&lt;/p&gt;</description></item><item><title>Set Up Scenario Comparison in OfficeConnect</title><link>https://officeconnectpro.com/build-reports/scenario-comparison/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/scenario-comparison/</guid><description>&lt;p&gt;Scenarios in Adaptive Planning are planning alternatives within a version — for example, a Base Case, Upside, and Downside within your annual Budget version. OfficeConnect can display multiple scenarios in the same report, making it easy to show a range of outcomes.&lt;/p&gt;
+&lt;h2 id="before-you-begin"&gt;Before you begin&lt;/h2&gt;
+&lt;p&gt;Scenarios must be configured in your Adaptive Planning model before they appear in OfficeConnect. If you don&amp;rsquo;t see scenarios in the Reporting pane, ask your Adaptive Planning administrator to confirm they are enabled and that you have read access.&lt;/p&gt;</description></item><item><title>Report in Constant Currency in OfficeConnect</title><link>https://officeconnectpro.com/build-reports/constant-currency-reporting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/constant-currency-reporting/</guid><description>&lt;p&gt;Constant currency reporting holds foreign exchange rates fixed at a baseline period so you can see underlying business performance without FX noise. In Adaptive Planning, this is done through a dedicated constant currency version. OfficeConnect surfaces that version like any other — you just need to know which one to select.&lt;/p&gt;
+&lt;h2 id="how-constant-currency-works-in-adaptive-planning"&gt;How constant currency works in Adaptive Planning&lt;/h2&gt;
+&lt;p&gt;Your Adaptive Planning administrator sets up a constant currency version by configuring currency conversion rules that use a fixed rate (for example, the prior-year average rate or a budget rate). When you report against this version, all values are translated at that fixed rate regardless of the reporting period.&lt;/p&gt;</description></item></channel></rss>
