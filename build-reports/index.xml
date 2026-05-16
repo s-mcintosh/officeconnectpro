@@ -403,7 +403,116 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Explore Cell applies to the &lt;strong&gt;Adaptive Planning&lt;/strong&gt; data source. For the &lt;strong&gt;Financials&lt;/strong&gt; data source, use &lt;strong&gt;Show Details&lt;/strong&gt; instead, which shows contributing journal line and plan line details.&lt;/p&gt;</description></item><item><title>Build a Budget vs. Actuals Variance Report</title><link>https://officeconnectpro.com/build-reports/budget-vs-actuals-variance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/budget-vs-actuals-variance/</guid><description>&lt;p&gt;A budget vs. actuals variance report puts your plan and your reality in the same view. This tutorial walks through building one in OfficeConnect with a variance column that calculates automatically in Excel.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Explore Cell applies to the &lt;strong&gt;Adaptive Planning&lt;/strong&gt; data source. For the &lt;strong&gt;Financials&lt;/strong&gt; data source, use &lt;strong&gt;Show Details&lt;/strong&gt; instead, which shows contributing journal line and plan line details.&lt;/p&gt;</description></item><item><title>Build Your First OfficeConnect Report</title><link>https://officeconnectpro.com/build-reports/build-first-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/build-first-report/</guid><description>&lt;p&gt;This tutorial walks through building a basic departmental expense report from an empty workbook to a live, refreshable OfficeConnect report. By the end you will have a working report that pulls real data from Adaptive Planning with one click.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OfficeConnect installed and connected to your Workday tenant (&lt;a href="https://officeconnectpro.com/get-started/"&gt;Get Started&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;An Adaptive Planning instance with at least one version of data loaded&lt;/li&gt;
+&lt;li&gt;A blank Excel workbook&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;!-- VIDEO PLACEHOLDER
+When the YouTube video is ready, uncomment the section below and replace VIDEO_ID with the 11-character YouTube video ID (e.g. dQw4w9WgXcQ).
+
+## Watch
+
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/VIDEO_ID?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+--&gt;
+&lt;h2 id="step-1--open-the-reporting-pane"&gt;Step 1 — Open the Reporting pane&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open Excel and activate OfficeConnect&lt;/strong&gt;
+ Open Excel. On the &lt;strong&gt;OfficeConnect&lt;/strong&gt; ribbon tab, click &lt;strong&gt;Open Pane&lt;/strong&gt;. The Reporting pane appears on the right side of the screen.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Sign in if prompted&lt;/strong&gt;
+ If the pane shows a sign-in prompt, click &lt;strong&gt;Sign In&lt;/strong&gt; and complete the Workday authentication flow. See &lt;a href="https://officeconnectpro.com/connect/sign-in-create-tenant/"&gt;Sign In and Create a Tenant&lt;/a&gt; if you need help.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="step-2--add-your-first-element"&gt;Step 2 — Add your first element&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Click a cell in your workbook&lt;/strong&gt;
+ Click cell &lt;strong&gt;B2&lt;/strong&gt; — this is where the first data value will land.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;4&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add an Account element&lt;/strong&gt;
+ In the Reporting pane, expand &lt;strong&gt;Accounts&lt;/strong&gt; and locate the account you want (for example, &lt;em&gt;Total Expenses&lt;/em&gt;). Double-click it or drag it to cell B2. OfficeConnect inserts a formula referencing that account.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;5&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add a Time element&lt;/strong&gt;
+ Click cell &lt;strong&gt;B1&lt;/strong&gt; (the header row). In the Reporting pane, expand &lt;strong&gt;Time&lt;/strong&gt; and drag the time period you want (for example, &lt;em&gt;Jan 2025&lt;/em&gt;) into B1. Repeat for as many months as you need across columns C1, D1, and so on.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;6&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Add a Version element&lt;/strong&gt;
+ Click cell &lt;strong&gt;A2&lt;/strong&gt;. Expand &lt;strong&gt;Versions&lt;/strong&gt; in the pane and drag your target version (for example, &lt;em&gt;Working Forecast&lt;/em&gt;) into A2.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For more detail on each element type, see &lt;a href="https://officeconnectpro.com/build-reports/add-elements/"&gt;Add Elements to a Report&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Create a Rolling 12-Month Report</title><link>https://officeconnectpro.com/build-reports/rolling-12-month-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/rolling-12-month-report/</guid><description>&lt;p&gt;A rolling 12-month report always shows the current month plus the 11 preceding months — no matter when you open it. This tutorial shows how to build one using OfficeConnect&amp;rsquo;s relative time contexts so the columns update automatically on each refresh.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;An existing OfficeConnect workbook or a blank one (&lt;a href="https://officeconnectpro.com/build-reports/build-first-report/"&gt;Build Your First Report&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Your Adaptive Planning instance populated with at least 12 months of actuals or forecast data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;!-- VIDEO PLACEHOLDER
+When the YouTube video is ready, uncomment the section below and replace VIDEO_ID with the 11-character YouTube video ID (e.g. dQw4w9WgXcQ).
+
+## Watch
+
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/VIDEO_ID?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+--&gt;
+&lt;h2 id="how-rolling-time-works-in-officeconnect"&gt;How rolling time works in OfficeConnect&lt;/h2&gt;
+&lt;p&gt;OfficeConnect supports &lt;strong&gt;relative time contexts&lt;/strong&gt; — time elements that are defined as offsets from the current period rather than as fixed calendar months. When you use &lt;em&gt;Current Month&lt;/em&gt;, &lt;em&gt;Current Month -1&lt;/em&gt;, &lt;em&gt;Current Month -2&lt;/em&gt;, etc., OfficeConnect resolves each offset at refresh time against the current date.&lt;/p&gt;</description></item><item><title>Publish a Report to PowerPoint</title><link>https://officeconnectpro.com/build-reports/publish-to-powerpoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/publish-to-powerpoint/</guid><description>&lt;p&gt;This tutorial covers linking an OfficeConnect Excel report into a PowerPoint presentation. Once linked, refreshing OfficeConnect in Excel automatically updates the numbers in your slides — no copy-pasting needed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A finished OfficeConnect Excel report with data populated (&lt;a href="https://officeconnectpro.com/build-reports/build-first-report/"&gt;Build Your First Report&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;PowerPoint (Microsoft 365 or Office 2019+)&lt;/li&gt;
+&lt;li&gt;OfficeConnect installed on the same machine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;!-- VIDEO PLACEHOLDER
+When the YouTube video is ready, uncomment the section below and replace VIDEO_ID with the 11-character YouTube video ID (e.g. dQw4w9WgXcQ).
+
+## Watch
+
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/VIDEO_ID?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+--&gt;
+&lt;h2 id="how-excel-to-powerpoint-linking-works"&gt;How Excel-to-PowerPoint linking works&lt;/h2&gt;
+&lt;p&gt;OfficeConnect for PowerPoint creates links between named ranges or tables in your Excel workbook and shapes in your PowerPoint slides. When you click &lt;strong&gt;Refresh&lt;/strong&gt; in PowerPoint, OfficeConnect re-reads the current Excel values and updates the slide content — even if you are not looking at the Excel file at the time.&lt;/p&gt;</description></item><item><title>Build a Budget vs. Actuals Variance Report</title><link>https://officeconnectpro.com/build-reports/budget-vs-actuals-variance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/budget-vs-actuals-variance/</guid><description>&lt;p&gt;A budget vs. actuals variance report puts your plan and your reality in the same view. This tutorial walks through building one in OfficeConnect with a variance column that calculates automatically in Excel.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A report with monthly actuals and budget columns for each account, plus a variance column showing the difference — all refreshable from Adaptive Planning.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
