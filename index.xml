@@ -53,8 +53,11 @@ to interface type &amp;#39;Microsoft.Office.Core.IRibbonUI&amp;#39;.
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id="the-reporting-pane"&gt;The Reporting pane&lt;/h2&gt;
-&lt;p&gt;The Reporting pane docks to the right side of your worksheet by default. It has three tabs:&lt;/p&gt;</description></item><item><title>Share Reports via Teams, SharePoint &amp; OneDrive</title><link>https://officeconnectpro.com/share-publish/share-teams-sharepoint-onedrive/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/share-publish/share-teams-sharepoint-onedrive/</guid><description>&lt;p&gt;You can save OfficeConnect reports to shared locations in Microsoft Teams, SharePoint, or OneDrive so multiple colleagues can access them.&lt;/p&gt;
+
+&lt;figure&gt;
+ &lt;img src="https://officeconnectpro.com/images/screenshots/oc-ribbon-tab.png"
+ alt="The OfficeConnect ribbon tab in Excel"/&gt; &lt;figcaption&gt;
+ &lt;p&gt;The OfficeConnect ribbon tab with Refresh, Show Reporting Pane, and other key buttons.&lt;/p&gt;</description></item><item><title>Share Reports via Teams, SharePoint &amp; OneDrive</title><link>https://officeconnectpro.com/share-publish/share-teams-sharepoint-onedrive/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/share-publish/share-teams-sharepoint-onedrive/</guid><description>&lt;p&gt;You can save OfficeConnect reports to shared locations in Microsoft Teams, SharePoint, or OneDrive so multiple colleagues can access them.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Limitation:&lt;/strong&gt; OfficeConnect does not support multiple users editing the same file simultaneously. There&amp;rsquo;s always a risk of data loss if two people work on the same file at the same time.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -257,7 +260,7 @@ to interface type &amp;#39;Microsoft.Office.Core.IRibbonUI&amp;#39;.
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id="how-it-works"&gt;How it works&lt;/h2&gt;
-&lt;p&gt;OfficeConnect appears as an extra tab in the Excel, Word, and PowerPoint ribbons after installation. In Excel, a &lt;strong&gt;Reporting pane&lt;/strong&gt; docks to the side of your worksheet — it contains three tabs:&lt;/p&gt;</description></item><item><title>Add Elements to Rows, Columns &amp; Cells</title><link>https://officeconnectpro.com/build-reports/add-elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/add-elements/</guid><description>&lt;p&gt;Elements are the building blocks of an OfficeConnect report. You add them to rows, columns, or cells in your worksheet to define what data appears at each intersection.&lt;/p&gt;
+&lt;p&gt;OfficeConnect appears as an extra tab in the Excel, Word, and PowerPoint ribbons after installation.&lt;/p&gt;</description></item><item><title>Add Elements to Rows, Columns &amp; Cells</title><link>https://officeconnectpro.com/build-reports/add-elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/add-elements/</guid><description>&lt;p&gt;Elements are the building blocks of an OfficeConnect report. You add them to rows, columns, or cells in your worksheet to define what data appears at each intersection.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Best practice:&lt;/strong&gt; Add elements to entire rows and columns rather than individual cells. When applied to a row or column, a bolded (parent) element also expands its children — each child gets its own row or column automatically.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -554,8 +557,11 @@ was closed: An unexpected error occurred on a send.
  &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h2 id="add-a-context"&gt;Add a context&lt;/h2&gt;
-&lt;p&gt;Contexts layer a calculation on top of a time element. You apply a context in the same location as the time element, or as a worksheet/workbook filter.&lt;/p&gt;</description></item><item><title>Set Up Workday SSO</title><link>https://officeconnectpro.com/connect/workday-sso/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/connect/workday-sso/</guid><description>&lt;div class="admin-note" role="note"&gt;
+
+&lt;figure&gt;
+ &lt;img src="https://officeconnectpro.com/images/screenshots/oc-time-elements.png"
+ alt="Time elements in the Elements tab showing years, quarters, and months"/&gt; &lt;figcaption&gt;
+ &lt;p&gt;The Time section in the Elements tab, expanded to show fiscal years, quarters, and individual months.&lt;/p&gt;</description></item><item><title>Set Up Workday SSO</title><link>https://officeconnectpro.com/connect/workday-sso/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/connect/workday-sso/</guid><description>&lt;div class="admin-note" role="note"&gt;
  &lt;strong&gt;🔧 IT Admin&lt;/strong&gt;
  This page requires Workday Security Administrator access. End users don&amp;rsquo;t need to do anything — SSO is configured at the tenant level by admins.
 &lt;/div&gt;
@@ -656,40 +662,11 @@ was closed: An unexpected error occurred on a send.
  &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;3&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Search or browse for elements to filter by&lt;/strong&gt;
- Example: To filter by two specific levels, expand the Level hierarchy and select &lt;code&gt;Company A&lt;/code&gt; and &lt;code&gt;Company B&lt;/code&gt;.
- &lt;/div&gt;
-&lt;/div&gt;
 
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;4&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Click OK&lt;/strong&gt;
- Your selected elements appear in the Filters tab as a subset.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;5&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Enable the filters&lt;/strong&gt;
- In the Filters tab, click &lt;strong&gt;Enable Filters&lt;/strong&gt;, then check the specific elements you want active.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;6&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Refresh&lt;/strong&gt;
- The report now shows data only for the filtered elements.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id="turn-filters-off-without-losing-selections"&gt;Turn filters off without losing selections&lt;/h2&gt;
-&lt;p&gt;In the Filters tab, uncheck &lt;strong&gt;Enable Filters&lt;/strong&gt;. Your filter selections are remembered — they&amp;rsquo;re just inactive. Re-check &lt;strong&gt;Enable Filters&lt;/strong&gt; to reapply them later.&lt;/p&gt;</description></item><item><title>Install as an IT Admin</title><link>https://officeconnectpro.com/get-started/install-admin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/install-admin/</guid><description>&lt;div class="admin-note" role="note"&gt;
+&lt;figure&gt;
+ &lt;img src="https://officeconnectpro.com/images/screenshots/oc-filter-dialog.png"
+ alt="The Worksheet Filters dialog in OfficeConnect"/&gt; &lt;figcaption&gt;
+ &lt;p&gt;The Worksheet Filters dialog — browse or search the hierarchy to select which elements to filter by.&lt;/p&gt;</description></item><item><title>Install as an IT Admin</title><link>https://officeconnectpro.com/get-started/install-admin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/install-admin/</guid><description>&lt;div class="admin-note" role="note"&gt;
  &lt;strong&gt;🔧 IT Admin&lt;/strong&gt;
  This page is for IT administrators deploying OfficeConnect to multiple users or machines. End users installing on their own machine should see &lt;a href="https://officeconnectpro.com/get-started/install-end-user/"&gt;Install as an End User&lt;/a&gt;.
 &lt;/div&gt;
@@ -1302,41 +1279,11 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
  &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;hr&gt;
-&lt;h2 id="step-2--add-your-first-element"&gt;Step 2 — Add your first element&lt;/h2&gt;
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;3&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Click a cell in your workbook&lt;/strong&gt;
- Click cell &lt;strong&gt;B2&lt;/strong&gt; — this is where the first data value will land.
- &lt;/div&gt;
-&lt;/div&gt;
 
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;4&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Add an Account element&lt;/strong&gt;
- In the Reporting pane, expand &lt;strong&gt;Accounts&lt;/strong&gt; and locate the account you want (for example, &lt;em&gt;Total Expenses&lt;/em&gt;). Double-click it or drag it to cell B2. OfficeConnect inserts a formula referencing that account.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;5&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Add a Time element&lt;/strong&gt;
- Click cell &lt;strong&gt;B1&lt;/strong&gt; (the header row). In the Reporting pane, expand &lt;strong&gt;Time&lt;/strong&gt; and drag the time period you want (for example, &lt;em&gt;Jan 2025&lt;/em&gt;) into B1. Repeat for as many months as you need across columns C1, D1, and so on.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;6&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Add a Version element&lt;/strong&gt;
- Click cell &lt;strong&gt;A2&lt;/strong&gt;. Expand &lt;strong&gt;Versions&lt;/strong&gt; in the pane and drag your target version (for example, &lt;em&gt;Working Forecast&lt;/em&gt;) into A2.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;For more detail on each element type, see &lt;a href="https://officeconnectpro.com/build-reports/add-elements/"&gt;Add Elements to a Report&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Link to External Excel Files</title><link>https://officeconnectpro.com/troubleshoot/link-external-excel-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/link-external-excel-files/</guid><description>&lt;p&gt;&lt;strong&gt;Question:&lt;/strong&gt; Can I create a link from my OfficeConnect workbook to a regular (non-OfficeConnect) Excel file?&lt;/p&gt;
+&lt;figure&gt;
+ &lt;img src="https://officeconnectpro.com/images/screenshots/oc-reporting-pane-open.png"
+ alt="The OfficeConnect Reporting pane open in Excel"/&gt; &lt;figcaption&gt;
+ &lt;p&gt;The Reporting pane docked to the right after clicking Open Pane, with the Elements tab active.&lt;/p&gt;</description></item><item><title>Link to External Excel Files</title><link>https://officeconnectpro.com/troubleshoot/link-external-excel-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/link-external-excel-files/</guid><description>&lt;p&gt;&lt;strong&gt;Question:&lt;/strong&gt; Can I create a link from my OfficeConnect workbook to a regular (non-OfficeConnect) Excel file?&lt;/p&gt;
 &lt;h2 id="yes--use-excels-standard-external-link"&gt;Yes — use Excel&amp;rsquo;s standard external link&lt;/h2&gt;
 &lt;p&gt;OfficeConnect workbooks are Excel files. You can use Excel&amp;rsquo;s standard external reference syntax to pull data from any other Excel file:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;=[OtherWorkbook.xlsx]Sheet1!$A$1

@@ -37,6 +37,8 @@ Open Microsoft Excel. You should see an **OfficeConnect** tab in the ribbon betw
 Open Word and PowerPoint to verify the tab also appears there.
 {{< /step >}}
 
+{{< figure src="/images/screenshots/oc-ribbon-tab.png" alt="The OfficeConnect tab in the Excel ribbon" caption="The OfficeConnect tab confirms successful installation. If it doesn't appear, see Troubleshooting below." >}}
+
 ## Result
 
 The OfficeConnect tab appears in Excel, Word, and PowerPoint. You're ready to [sign in and create your first tenant](/connect/sign-in-create-tenant/).

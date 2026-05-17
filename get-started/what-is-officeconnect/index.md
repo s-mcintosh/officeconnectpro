@@ -23,13 +23,19 @@ OfficeConnect is a Microsoft Office add-in that streams live data from Workday A
 
 ## How it works
 
-OfficeConnect appears as an extra tab in the Excel, Word, and PowerPoint ribbons after installation. In Excel, a **Reporting pane** docks to the side of your worksheet — it contains three tabs:
+OfficeConnect appears as an extra tab in the Excel, Word, and PowerPoint ribbons after installation.
+
+{{< figure src="/images/screenshots/oc-ribbon-tab.png" alt="The OfficeConnect ribbon tab in Excel" caption="The OfficeConnect ribbon tab appears between standard Excel tabs after installation." >}}
+
+In Excel, a **Reporting pane** docks to the side of your worksheet — it contains three tabs:
 
 - **Elements** — browse and drag accounts, time periods, versions, and levels into your report
 - **Filters** — apply worksheet and workbook-level filters
 - **Review** — inspect exactly which elements are affecting any cell
 
 When you click **Refresh**, OfficeConnect queries your Workday Adaptive Planning instance and populates the connected cells with current data.
+
+{{< figure src="/images/screenshots/oc-reporting-pane-overview.png" alt="The OfficeConnect Reporting pane docked to the right side of Excel" caption="The Reporting pane docked to the right of the worksheet, showing the Elements, Filters, and Review tabs." >}}
 
 ## Data sources
 

@@ -34,6 +34,8 @@ Open Excel. On the **OfficeConnect** ribbon tab, click **Open Pane**. The Report
 If the pane shows a sign-in prompt, click **Sign In** and complete the Workday authentication flow. See [Sign In and Create a Tenant](/connect/sign-in-create-tenant/) if you need help.
 {{< /step >}}
 
+{{< figure src="/images/screenshots/oc-reporting-pane-open.png" alt="The OfficeConnect Reporting pane open in Excel" caption="The Reporting pane docked to the right after clicking Open Pane, with the Elements tab active." >}}
+
 ---
 
 ## Step 2 — Add your first element
@@ -56,6 +58,8 @@ Click cell **A2**. Expand **Versions** in the pane and drag your target version 
 
 For more detail on each element type, see [Add Elements to a Report](/build-reports/add-elements/).
 
+{{< figure src="/images/screenshots/oc-elements-applied.png" alt="Elements applied to rows and columns in the Excel worksheet" caption="Account, Time, and Version elements applied to rows and columns — cells show formulas before the first Refresh." >}}
+
 ---
 
 ## Step 3 — Refresh and review
@@ -67,6 +71,8 @@ On the OfficeConnect ribbon, click **Refresh**. OfficeConnect queries Adaptive P
 {{< step n="8" title="Check for n/a values" >}}
 If any cell shows `n/a`, the element combination has no data for that intersection (account + time + version). Verify the version contains data for the selected time period in Adaptive Planning.
 {{< /step >}}
+
+{{< figure src="/images/screenshots/oc-refreshed-data.png" alt="Live data from Adaptive Planning populating the Excel report after Refresh" caption="After clicking Refresh, cells populate with live data from Adaptive Planning." >}}
 
 ---
 

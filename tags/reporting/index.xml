@@ -245,41 +245,11 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
  &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;hr&gt;
-&lt;h2 id="step-2--add-your-first-element"&gt;Step 2 — Add your first element&lt;/h2&gt;
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;3&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Click a cell in your workbook&lt;/strong&gt;
- Click cell &lt;strong&gt;B2&lt;/strong&gt; — this is where the first data value will land.
- &lt;/div&gt;
-&lt;/div&gt;
 
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;4&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Add an Account element&lt;/strong&gt;
- In the Reporting pane, expand &lt;strong&gt;Accounts&lt;/strong&gt; and locate the account you want (for example, &lt;em&gt;Total Expenses&lt;/em&gt;). Double-click it or drag it to cell B2. OfficeConnect inserts a formula referencing that account.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;5&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Add a Time element&lt;/strong&gt;
- Click cell &lt;strong&gt;B1&lt;/strong&gt; (the header row). In the Reporting pane, expand &lt;strong&gt;Time&lt;/strong&gt; and drag the time period you want (for example, &lt;em&gt;Jan 2025&lt;/em&gt;) into B1. Repeat for as many months as you need across columns C1, D1, and so on.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;6&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Add a Version element&lt;/strong&gt;
- Click cell &lt;strong&gt;A2&lt;/strong&gt;. Expand &lt;strong&gt;Versions&lt;/strong&gt; in the pane and drag your target version (for example, &lt;em&gt;Working Forecast&lt;/em&gt;) into A2.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;For more detail on each element type, see &lt;a href="https://officeconnectpro.com/build-reports/add-elements/"&gt;Add Elements to a Report&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Month-End Close Workflow with OfficeConnect</title><link>https://officeconnectpro.com/build-reports/financials/month-end-close-workflow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/month-end-close-workflow/</guid><description>&lt;p&gt;Month-end close in Workday Financial Management involves verifying journal completeness, reconciling account balances, and producing financial statements for management review. OfficeConnect lets your accounting team do all of this in Excel — pulling live data from Workday — without waiting for Report Writer outputs or PDF exports. This tutorial walks through a practical close workflow.&lt;/p&gt;
+&lt;figure&gt;
+ &lt;img src="https://officeconnectpro.com/images/screenshots/oc-reporting-pane-open.png"
+ alt="The OfficeConnect Reporting pane open in Excel"/&gt; &lt;figcaption&gt;
+ &lt;p&gt;The Reporting pane docked to the right after clicking Open Pane, with the Elements tab active.&lt;/p&gt;</description></item><item><title>Month-End Close Workflow with OfficeConnect</title><link>https://officeconnectpro.com/build-reports/financials/month-end-close-workflow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/month-end-close-workflow/</guid><description>&lt;p&gt;Month-end close in Workday Financial Management involves verifying journal completeness, reconciling account balances, and producing financial statements for management review. OfficeConnect lets your accounting team do all of this in Excel — pulling live data from Workday — without waiting for Report Writer outputs or PDF exports. This tutorial walks through a practical close workflow.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A close workbook with a trial balance check sheet, a journal completeness check, and a summary P&amp;amp;L — all refreshable as the close progresses.&lt;/p&gt;</description></item><item><title>Create a Rolling 12-Month Report</title><link>https://officeconnectpro.com/build-reports/rolling-12-month-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/rolling-12-month-report/</guid><description>&lt;p&gt;A rolling 12-month report always shows the current month plus the 11 preceding months — no matter when you open it. This tutorial shows how to build one using OfficeConnect&amp;rsquo;s relative time contexts so the columns update automatically on each refresh.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;

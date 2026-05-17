@@ -43,8 +43,11 @@
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id="the-reporting-pane"&gt;The Reporting pane&lt;/h2&gt;
-&lt;p&gt;The Reporting pane docks to the right side of your worksheet by default. It has three tabs:&lt;/p&gt;</description></item><item><title>Add Elements to Rows, Columns &amp; Cells</title><link>https://officeconnectpro.com/build-reports/add-elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/add-elements/</guid><description>&lt;p&gt;Elements are the building blocks of an OfficeConnect report. You add them to rows, columns, or cells in your worksheet to define what data appears at each intersection.&lt;/p&gt;
+
+&lt;figure&gt;
+ &lt;img src="https://officeconnectpro.com/images/screenshots/oc-ribbon-tab.png"
+ alt="The OfficeConnect ribbon tab in Excel"/&gt; &lt;figcaption&gt;
+ &lt;p&gt;The OfficeConnect ribbon tab with Refresh, Show Reporting Pane, and other key buttons.&lt;/p&gt;</description></item><item><title>Add Elements to Rows, Columns &amp; Cells</title><link>https://officeconnectpro.com/build-reports/add-elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/add-elements/</guid><description>&lt;p&gt;Elements are the building blocks of an OfficeConnect report. You add them to rows, columns, or cells in your worksheet to define what data appears at each intersection.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Best practice:&lt;/strong&gt; Add elements to entire rows and columns rather than individual cells. When applied to a row or column, a bolded (parent) element also expands its children — each child gets its own row or column automatically.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -122,8 +125,11 @@
  &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h2 id="add-a-context"&gt;Add a context&lt;/h2&gt;
-&lt;p&gt;Contexts layer a calculation on top of a time element. You apply a context in the same location as the time element, or as a worksheet/workbook filter.&lt;/p&gt;</description></item><item><title>Filter Your Data</title><link>https://officeconnectpro.com/build-reports/filter-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/filter-data/</guid><description>&lt;p&gt;Filters let you restrict report data by accounts, levels, versions, currencies, attributes, or custom dimensions — without adding those elements to rows or columns.&lt;/p&gt;
+
+&lt;figure&gt;
+ &lt;img src="https://officeconnectpro.com/images/screenshots/oc-time-elements.png"
+ alt="Time elements in the Elements tab showing years, quarters, and months"/&gt; &lt;figcaption&gt;
+ &lt;p&gt;The Time section in the Elements tab, expanded to show fiscal years, quarters, and individual months.&lt;/p&gt;</description></item><item><title>Filter Your Data</title><link>https://officeconnectpro.com/build-reports/filter-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/filter-data/</guid><description>&lt;p&gt;Filters let you restrict report data by accounts, levels, versions, currencies, attributes, or custom dimensions — without adding those elements to rows or columns.&lt;/p&gt;
 &lt;h2 id="worksheet-vs-workbook-filters"&gt;Worksheet vs workbook filters&lt;/h2&gt;
 &lt;table&gt;
  &lt;thead&gt;
@@ -163,40 +169,11 @@
  &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;3&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Search or browse for elements to filter by&lt;/strong&gt;
- Example: To filter by two specific levels, expand the Level hierarchy and select &lt;code&gt;Company A&lt;/code&gt; and &lt;code&gt;Company B&lt;/code&gt;.
- &lt;/div&gt;
-&lt;/div&gt;
 
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;4&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Click OK&lt;/strong&gt;
- Your selected elements appear in the Filters tab as a subset.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;5&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Enable the filters&lt;/strong&gt;
- In the Filters tab, click &lt;strong&gt;Enable Filters&lt;/strong&gt;, then check the specific elements you want active.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;6&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Refresh&lt;/strong&gt;
- The report now shows data only for the filtered elements.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id="turn-filters-off-without-losing-selections"&gt;Turn filters off without losing selections&lt;/h2&gt;
-&lt;p&gt;In the Filters tab, uncheck &lt;strong&gt;Enable Filters&lt;/strong&gt;. Your filter selections are remembered — they&amp;rsquo;re just inactive. Re-check &lt;strong&gt;Enable Filters&lt;/strong&gt; to reapply them later.&lt;/p&gt;</description></item><item><title>Cut, Copy &amp; Move Elements</title><link>https://officeconnectpro.com/build-reports/cut-copy-move-elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/cut-copy-move-elements/</guid><description>&lt;p&gt;OfficeConnect provides its own cut, copy, and paste commands that move elements together with their metadata.&lt;/p&gt;
+&lt;figure&gt;
+ &lt;img src="https://officeconnectpro.com/images/screenshots/oc-filter-dialog.png"
+ alt="The Worksheet Filters dialog in OfficeConnect"/&gt; &lt;figcaption&gt;
+ &lt;p&gt;The Worksheet Filters dialog — browse or search the hierarchy to select which elements to filter by.&lt;/p&gt;</description></item><item><title>Cut, Copy &amp; Move Elements</title><link>https://officeconnectpro.com/build-reports/cut-copy-move-elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/cut-copy-move-elements/</guid><description>&lt;p&gt;OfficeConnect provides its own cut, copy, and paste commands that move elements together with their metadata.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt; Always use OfficeConnect&amp;rsquo;s own cut/copy/paste commands — not Excel&amp;rsquo;s standard Ctrl+C/Ctrl+V. Excel&amp;rsquo;s clipboard doesn&amp;rsquo;t carry the OfficeConnect element metadata; only OfficeConnect commands do.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -439,41 +416,11 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
  &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;hr&gt;
-&lt;h2 id="step-2--add-your-first-element"&gt;Step 2 — Add your first element&lt;/h2&gt;
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;3&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Click a cell in your workbook&lt;/strong&gt;
- Click cell &lt;strong&gt;B2&lt;/strong&gt; — this is where the first data value will land.
- &lt;/div&gt;
-&lt;/div&gt;
 
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;4&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Add an Account element&lt;/strong&gt;
- In the Reporting pane, expand &lt;strong&gt;Accounts&lt;/strong&gt; and locate the account you want (for example, &lt;em&gt;Total Expenses&lt;/em&gt;). Double-click it or drag it to cell B2. OfficeConnect inserts a formula referencing that account.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;5&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Add a Time element&lt;/strong&gt;
- Click cell &lt;strong&gt;B1&lt;/strong&gt; (the header row). In the Reporting pane, expand &lt;strong&gt;Time&lt;/strong&gt; and drag the time period you want (for example, &lt;em&gt;Jan 2025&lt;/em&gt;) into B1. Repeat for as many months as you need across columns C1, D1, and so on.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;6&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Add a Version element&lt;/strong&gt;
- Click cell &lt;strong&gt;A2&lt;/strong&gt;. Expand &lt;strong&gt;Versions&lt;/strong&gt; in the pane and drag your target version (for example, &lt;em&gt;Working Forecast&lt;/em&gt;) into A2.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;For more detail on each element type, see &lt;a href="https://officeconnectpro.com/build-reports/add-elements/"&gt;Add Elements to a Report&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Create a Rolling 12-Month Report</title><link>https://officeconnectpro.com/build-reports/rolling-12-month-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/rolling-12-month-report/</guid><description>&lt;p&gt;A rolling 12-month report always shows the current month plus the 11 preceding months — no matter when you open it. This tutorial shows how to build one using OfficeConnect&amp;rsquo;s relative time contexts so the columns update automatically on each refresh.&lt;/p&gt;
+&lt;figure&gt;
+ &lt;img src="https://officeconnectpro.com/images/screenshots/oc-reporting-pane-open.png"
+ alt="The OfficeConnect Reporting pane open in Excel"/&gt; &lt;figcaption&gt;
+ &lt;p&gt;The Reporting pane docked to the right after clicking Open Pane, with the Elements tab active.&lt;/p&gt;</description></item><item><title>Create a Rolling 12-Month Report</title><link>https://officeconnectpro.com/build-reports/rolling-12-month-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/rolling-12-month-report/</guid><description>&lt;p&gt;A rolling 12-month report always shows the current month plus the 11 preceding months — no matter when you open it. This tutorial shows how to build one using OfficeConnect&amp;rsquo;s relative time contexts so the columns update automatically on each refresh.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;An existing OfficeConnect workbook or a blank one (&lt;a href="https://officeconnectpro.com/build-reports/build-first-report/"&gt;Build Your First Report&lt;/a&gt;)&lt;/li&gt;

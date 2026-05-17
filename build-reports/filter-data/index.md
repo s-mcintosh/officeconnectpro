@@ -25,6 +25,8 @@ In the Reporting pane, click the **Filters** tab.
 The Worksheet Filters dialog opens. It shows any previously selected filters.
 {{< /step >}}
 
+{{< figure src="/images/screenshots/oc-filter-dialog.png" alt="The Worksheet Filters dialog in OfficeConnect" caption="The Worksheet Filters dialog — browse or search the hierarchy to select which elements to filter by." >}}
+
 {{< step n="3" title="Search or browse for elements to filter by" >}}
 Example: To filter by two specific levels, expand the Level hierarchy and select `Company A` and `Company B`.
 {{< /step >}}
@@ -40,6 +42,8 @@ In the Filters tab, click **Enable Filters**, then check the specific elements y
 {{< step n="6" title="Refresh" >}}
 The report now shows data only for the filtered elements.
 {{< /step >}}
+
+{{< figure src="/images/screenshots/oc-filters-enabled.png" alt="Active filters shown in the Filters tab of the Reporting pane" caption="The Filters tab with Enable Filters checked and two level filters active." >}}
 
 ## Turn filters off without losing selections
 
