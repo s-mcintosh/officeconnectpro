@@ -46,6 +46,8 @@ Fill in the tenant form:
 Click **Save**.
 {{< /step >}}
 
+{{< figure src="/images/screenshots/oc-tenant-form.png" alt="The OfficeConnect tenant configuration form" caption="Enter your Client ID and endpoint URLs from the Workday API client configuration." >}}
+
 {{< step n="5" title="Sign in with your Workday credentials" >}}
 After saving the tenant, the Workday sign-in page appears. Enter your Workday username and password.
 {{< /step >}}
@@ -53,6 +55,8 @@ After saving the tenant, the Workday sign-in page appears. Enter your Workday us
 ## Result
 
 OfficeConnect connects to your tenant. The Reporting pane appears in Excel with your instance's accounts, time periods, and levels available.
+
+{{< figure src="/images/screenshots/oc-reporting-pane-connected.png" alt="The Reporting pane after successfully connecting to a tenant" caption="After sign-in, the Reporting pane populates with your Adaptive Planning accounts, time periods, and levels." >}}
 
 The tenant name appears in the sign-in drop-down for future sessions — you won't need to re-enter these details.
 

@@ -30,6 +30,8 @@ Expand the calendar hierarchy to find the period you want: Year → Quarter → 
 Drop it onto the selected column. Click **Refresh**.
 {{< /step >}}
 
+{{< figure src="/images/screenshots/oc-time-elements.png" alt="Time elements in the Elements tab showing years, quarters, and months" caption="The Time section in the Elements tab, expanded to show fiscal years, quarters, and individual months." >}}
+
 ## Add a context
 
 Contexts layer a calculation on top of a time element. You apply a context in the same location as the time element, or as a worksheet/workbook filter.
@@ -58,6 +60,8 @@ The column now shows the context calculation for that time period.
 | **MTD** | Month-to-date: sum from the start of the current month to the end of this period |
 
 > **Best practice:** For period-to-date contexts, use time elements *smaller* than the context period. Use QTD or YTD with monthly time elements. Using Month-to-Date with a quarter element doesn't make logical sense and OfficeConnect will correct it.
+
+{{< figure src="/images/screenshots/oc-context-applied.png" alt="YTD context applied alongside a monthly time element in the worksheet" caption="A YTD context applied to a monthly column — the cell shows the year-to-date total rather than the single month value." >}}
 
 ## Relative time
 

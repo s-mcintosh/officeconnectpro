@@ -23,6 +23,8 @@ The OfficeConnect tab appears between your standard Excel tabs. Key buttons incl
 | **Labels** | Add dynamic text labels (report date, level name, etc.) |
 | **Help** | Access version info, documentation, and the troubleshooting tool |
 
+{{< figure src="/images/screenshots/oc-ribbon-tab.png" alt="The OfficeConnect ribbon tab in Excel" caption="The OfficeConnect ribbon tab with Refresh, Show Reporting Pane, and other key buttons." >}}
+
 ## The Reporting pane
 
 The Reporting pane docks to the right side of your worksheet by default. It has three tabs:
@@ -40,13 +42,19 @@ Displays the full hierarchy of your Adaptive Planning instance:
 
 Browse by expanding nodes in the tree. Drag elements into your worksheet, or right-click and select **Apply to Selection**.
 
+{{< figure src="/images/screenshots/oc-elements-tab.png" alt="The Elements tab in the Reporting pane showing the Adaptive Planning hierarchy" caption="The Elements tab with Accounts, Time, Level, and Versions nodes expanded." >}}
+
 ### Filters tab
 
 Apply worksheet-level or workbook-level filters. Use the **Enable Filters** toggle to activate or deactivate them without losing your selections.
 
+{{< figure src="/images/screenshots/oc-filters-tab.png" alt="The Filters tab in the Reporting pane" caption="The Filters tab showing active worksheet-level filters with the Enable Filters toggle." >}}
+
 ### Review tab
 
 Select a cell, row, or column and the Review tab shows exactly which elements are affecting that data point — broken down by Net, Row, Column, Worksheet filters, Workbook filters, and User Defaults.
+
+{{< figure src="/images/screenshots/oc-review-tab.png" alt="The Review tab showing elements affecting a selected cell" caption="The Review tab with a cell selected, showing the breakdown of Row, Column, and Filter elements that determine its value." >}}
 
 ## Undocking the Reporting pane
 

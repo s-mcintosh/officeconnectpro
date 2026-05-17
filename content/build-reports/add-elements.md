@@ -35,6 +35,8 @@ Use any of these methods:
 - Click the element and click **Apply to Selection** in the Elements pane toolbar
 {{< /step >}}
 
+{{< figure src="/images/screenshots/oc-elements-drag-drop.png" alt="Dragging an account from the Elements tree onto a row in the worksheet" caption="Drag an account from the Elements tree and drop it onto a selected row — OfficeConnect inserts the element reference." >}}
+
 {{< step n="5" title="Click Refresh" >}}
 Click **Refresh** in the OfficeConnect ribbon to load the data.
 {{< /step >}}
@@ -57,6 +59,8 @@ In the Elements pane, right-click a parent element:
 ## Element groups
 
 Applying a bolded parent element creates an **element group** — each child gets its own row or column and the report updates dynamically when your Adaptive Planning structure changes.
+
+{{< figure src="/images/screenshots/oc-element-group-expanded.png" alt="A parent account element expanded into individual child rows in the worksheet" caption="A parent account applied to a row automatically expands its children — each child account gets its own row." >}}
 
 ## Next steps
 
