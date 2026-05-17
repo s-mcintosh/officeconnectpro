@@ -1,5 +1,5 @@
 ---
-title: "Check & Update Your Version"
+title: "Check & Update Your Version. Please."
 linkTitle: "Check Your Version"
 weight: 5
 description: >
