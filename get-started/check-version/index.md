@@ -1,4 +1,4 @@
-# Check & Update Your Version
+# Check & Update Your Version. Please.
 
 How to check which version of OfficeConnect you have and update to the latest release.
 
