@@ -15,7 +15,7 @@ All pages are available as raw Markdown by appending `index.md` to any page URL.
 
 - [Install as an IT Admin](https://officeconnectpro.com/get-started/install-admin/index.md): Deploy OfficeConnect to multiple users using per-machine installation and group policy or scripts.
 
-- [Check & Update Your Version. Please.](https://officeconnectpro.com/get-started/check-version/index.md): How to check which version of OfficeConnect you have and update to the latest release.
+- [Check & Update Your Version. ](https://officeconnectpro.com/get-started/check-version/index.md): How to check which version of OfficeConnect you have and update to the latest release.
 
 
 ## Connect
