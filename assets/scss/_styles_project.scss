@@ -1,3 +1,20 @@
+// Homepage tag buttons — filled amber by default, white outline on hover
+.home-tags {
+  .btn-outline-primary {
+    background-color: $primary;
+    color: #18181b;
+    border-color: $primary;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: #fff;
+      color: $primary;
+      border-color: $primary;
+    }
+  }
+}
+
 // Navbar
 .td-navbar {
   background-color: #18181b !important;

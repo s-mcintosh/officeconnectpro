@@ -30,7 +30,7 @@ Fix common errors and get answers to the most frequent questions.
 {{< /blocks/section >}}
 
 {{< blocks/section color="white" >}}
-<div class="col-12 text-center">
+<div class="col-12 text-center home-tags">
 <h2>Browse by Topic</h2>
 <p class="mt-3">
 <a href="/tags/adaptive-planning/" class="btn btn-outline-primary m-1">Adaptive Planning</a>
