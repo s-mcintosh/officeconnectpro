@@ -7,6 +7,10 @@ description: >
   How OfficeConnectPro started, what we're trying to build, and who's behind it.
 ---
 
+{{< tip >}}
+OfficeConnectPro is an independent site and is not affiliated with, endorsed by, or connected to Workday, Inc. in any way. See the [Legal Disclaimer](/about/disclaimer/) for full details.
+{{< /tip >}}
+
 OfficeConnectPro is an independent documentation site for Workday OfficeConnect. Workday's official docs have always been scattered and hard to navigate, so this site exists to give practitioners one clear, honest place to find answers — whether you're building your first report, managing a deployment, or troubleshooting something that's gone sideways.
 
 ## Helpful resources
