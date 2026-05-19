@@ -1,5 +1,5 @@
 ---
-title: "Add Elements to Rows, Columns & Cells"
+title: "Add Elements to Rows, Columns && Cells"
 linkTitle: "Add Elements"
 weight: 2
 description: >
