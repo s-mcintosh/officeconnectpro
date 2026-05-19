@@ -51,6 +51,23 @@ How OfficeConnectPro started, our goals, and a bit about the team behind the pro
   if (!el) return;
   var words = JSON.parse(el.dataset.words);
   var i = 0;
+
+  function lockWidth() {
+    document.fonts.load('italic 400 1em Caveat').then(function () {
+      var canvas = document.createElement('canvas');
+      var ctx = canvas.getContext('2d');
+      var size = parseFloat(getComputedStyle(el).fontSize);
+      ctx.font = 'italic 400 ' + (size * 1.15) + 'px Caveat';
+      var maxW = Math.max.apply(null, words.map(function (w) {
+        return ctx.measureText(w).width;
+      }));
+      el.style.width = Math.ceil(maxW + 6) + 'px';
+    });
+  }
+
+  lockWidth();
+  window.addEventListener('resize', lockWidth);
+
   setInterval(function () {
     el.classList.add('oc-cycle--out');
     setTimeout(function () {
