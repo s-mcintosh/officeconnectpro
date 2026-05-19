@@ -8,9 +8,7 @@ linkTitle: "Home"
   <a class="btn btn-lg btn-primary mb-4" href="https://www.youtube.com/@officeconnectpro" target="_blank" rel="noopener">
     <i class="fab fa-youtube me-2"></i>Watch on YouTube
   </a>
-</div>
-<p class="oc-hero-sub mt-3">Your go-to-guide for all things OfficeConnect</p>
-{{< /blocks/cover >}}
+</div>{{< /blocks/cover >}}
 
 {{< blocks/section color="white" type="row" >}}
 {{% blocks/feature icon="fa-rocket" title="Wiki" url="/wiki/" %}}
