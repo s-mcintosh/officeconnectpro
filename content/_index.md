@@ -9,7 +9,7 @@ linkTitle: "Home"
     <i class="fab fa-youtube me-2"></i>Watch on YouTube
   </a>
 </div>
-<p class="lead mt-2">Your go-to resource for all things OfficeConnect</p>
+<p class="oc-hero-sub mt-3">Your go-to resource for all things OfficeConnect</p>
 {{< /blocks/cover >}}
 
 {{< blocks/section color="white" type="row" >}}
