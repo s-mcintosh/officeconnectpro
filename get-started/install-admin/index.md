@@ -44,7 +44,7 @@ The installer creates install files, registry entries, and certificates in the m
 {{< step n="3" title="Deploy tenant configuration" >}}
 After installation, users need tenant details to sign in. You can push these via registry rather than having each user configure them manually.
 
-See [Deploy Tenants via Registry](/get-started/deploy-tenants-registry/) for the full registry deployment guide.
+See [Deploy Tenants via Registry](/admin/deploy/deploy-tenants-registry/) for the full registry deployment guide.
 {{< /step >}}
 
 {{< step n="4" title="Verify on a test machine" >}}
@@ -57,4 +57,4 @@ Make sure your team updates together — users on older versions cannot open wor
 
 ## Next steps
 
-→ [Deploy Tenants via Registry](/get-started/deploy-tenants-registry/) — push tenant config to user machines without manual setup
+→ [Deploy Tenants via Registry](/admin/deploy/deploy-tenants-registry/) — push tenant config to user machines without manual setup

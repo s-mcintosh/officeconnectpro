@@ -4,7 +4,7 @@
 &lt;ul&gt;
 &lt;li&gt;OfficeConnect installed and connected to a tenant configured for the &lt;strong&gt;Financials data source&lt;/strong&gt; (not Adaptive Planning)&lt;/li&gt;
 &lt;li&gt;Access to at least one company with posted journal entries in Workday Financial Management&lt;/li&gt;
-&lt;li&gt;The &lt;a href="https://officeconnectpro.com/build-reports/financials-vs-adaptive-planning/"&gt;Financials vs. Adaptive Planning&lt;/a&gt; page explains the difference if you&amp;rsquo;re unsure which data source you have&lt;/li&gt;
+&lt;li&gt;The &lt;a href="https://officeconnectpro.com/migration-comparison/financials-vs-adaptive-planning/"&gt;Financials vs. Adaptive Planning&lt;/a&gt; page explains the difference if you&amp;rsquo;re unsure which data source you have&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id="step-1--confirm-your-data-source"&gt;Step 1 — Confirm your data source&lt;/h2&gt;
@@ -160,7 +160,7 @@
 &lt;li&gt;The &lt;strong&gt;Exclude Elimination&lt;/strong&gt; option (available in Financials data source reports) lets you toggle whether elimination entries are included in your totals&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The Exclude Elimination option is a Financials-only feature — it is not available in Adaptive Planning reports. See &lt;a href="https://officeconnectpro.com/build-reports/financials-vs-adaptive-planning/"&gt;Adaptive Planning vs. Financials Data Source&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Multi-Currency Reporting with the Financials Data Source</title><link>https://officeconnectpro.com/build-reports/financials/multi-currency-financials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/multi-currency-financials/</guid><description>&lt;p&gt;Workday Financial Management supports multicurrency transactions — journals can be posted in a transaction currency and converted to a company (ledger) currency automatically. OfficeConnect surfaces these currency layers so you can choose which currency your report shows.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The Exclude Elimination option is a Financials-only feature — it is not available in Adaptive Planning reports. See &lt;a href="https://officeconnectpro.com/migration-comparison/financials-vs-adaptive-planning/"&gt;Adaptive Planning vs. Financials Data Source&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Multi-Currency Reporting with the Financials Data Source</title><link>https://officeconnectpro.com/build-reports/financials/multi-currency-financials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/multi-currency-financials/</guid><description>&lt;p&gt;Workday Financial Management supports multicurrency transactions — journals can be posted in a transaction currency and converted to a company (ledger) currency automatically. OfficeConnect surfaces these currency layers so you can choose which currency your report shows.&lt;/p&gt;
 &lt;h2 id="currency-options-in-the-financials-data-source"&gt;Currency options in the Financials data source&lt;/h2&gt;
 &lt;table&gt;
  &lt;thead&gt;

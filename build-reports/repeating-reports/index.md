@@ -6,7 +6,7 @@ Automatically generate one copy of a report per department, region, or any other
 ---
 
 
-The **Repeating Reports** feature copies a finished report worksheet once for each element you choose — for example, one sheet per cost center or one sheet per region. Each copy is automatically filtered to show data for its element.
+The **Repeating Reports** feature in Workday OfficeConnect copies a finished report worksheet once for each element you choose — for example, one sheet per cost center or one sheet per region. Each copy is automatically filtered to show data for its element. Start from a polished single-sheet template, such as the one built in [Build a Department P&L Report](/build-reports/department-pl-report/).
 
 ## What it does
 
@@ -64,3 +64,9 @@ Repeating reports don't stay linked to the original. To incorporate structural c
 1. Delete the existing repeating report worksheets
 2. Update the original template
 3. Re-run the Repeating Reports process
+
+## Next steps
+
+- [Build a Department P&L Report](/build-reports/department-pl-report/) for a strong single-sheet template to repeat
+- [Lock and Protect Reports for Distribution](/build-reports/lock-protect-reports/) before sharing the multi-sheet pack with stakeholders
+- [Optimize OfficeConnect Performance](/performance/optimize-performance/) if generating dozens of sheets makes refresh slow

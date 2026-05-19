@@ -4,7 +4,7 @@
 &lt;ul&gt;
 &lt;li&gt;OfficeConnect installed and connected to a tenant configured for the &lt;strong&gt;Financials data source&lt;/strong&gt; (not Adaptive Planning)&lt;/li&gt;
 &lt;li&gt;Access to at least one company with posted journal entries in Workday Financial Management&lt;/li&gt;
-&lt;li&gt;The &lt;a href="https://officeconnectpro.com/build-reports/financials-vs-adaptive-planning/"&gt;Financials vs. Adaptive Planning&lt;/a&gt; page explains the difference if you&amp;rsquo;re unsure which data source you have&lt;/li&gt;
+&lt;li&gt;The &lt;a href="https://officeconnectpro.com/migration-comparison/financials-vs-adaptive-planning/"&gt;Financials vs. Adaptive Planning&lt;/a&gt; page explains the difference if you&amp;rsquo;re unsure which data source you have&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id="step-1--confirm-your-data-source"&gt;Step 1 — Confirm your data source&lt;/h2&gt;
@@ -90,7 +90,32 @@
  &lt;div class="step-number"&gt;10&lt;/div&gt;
  &lt;div class="step-content"&gt;
  &lt;strong&gt;Add a balance check&lt;/strong&gt;
- &lt;p&gt;At the bottom of the report, add a row labeled &lt;strong&gt;Out of Balance&lt;/strong&gt; with the formula:&lt;/p&gt;</description></item><item><title>Drill Through to Workday Journal Lines from OfficeConnect</title><link>https://officeconnectpro.com/build-reports/financials/drill-through-journal-lines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/drill-through-journal-lines/</guid><description>&lt;p&gt;When a number in your OfficeConnect report doesn&amp;rsquo;t look right, you don&amp;rsquo;t need to leave Excel. OfficeConnect&amp;rsquo;s &lt;strong&gt;Show Details&lt;/strong&gt; feature opens a panel showing every journal line contributing to that cell&amp;rsquo;s balance. From there, you can drill through directly to the transaction in Workday Financial Management.&lt;/p&gt;
+ &lt;p&gt;At the bottom of the report, add a row labeled &lt;strong&gt;Out of Balance&lt;/strong&gt; with the formula:&lt;/p&gt;</description></item><item><title>Add Elements to Rows, Columns &amp; Cells</title><link>https://officeconnectpro.com/build-reports/add-elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/add-elements/</guid><description>&lt;p&gt;Elements are the building blocks of an OfficeConnect report. You add them to rows, columns, or cells in your worksheet to define what data appears at each intersection.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Best practice:&lt;/strong&gt; Add elements to entire rows and columns rather than individual cells. When applied to a row or column, a bolded (parent) element also expands its children — each child gets its own row or column automatically.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="basic-steps"&gt;Basic steps&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Select your target in the grid&lt;/strong&gt;
+ Click to select the cells, rows, or columns where you want data to appear. To select an entire row or column, click the row number or column letter.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open the Elements tab in the Reporting pane&lt;/strong&gt;
+ Click &lt;strong&gt;Show Reporting Pane&lt;/strong&gt; if the pane is hidden, then click the &lt;strong&gt;Elements&lt;/strong&gt; tab.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Browse to the element you want&lt;/strong&gt;
+ &lt;p&gt;Expand the element tree to find what you need:&lt;/p&gt;</description></item><item><title>Drill Through to Workday Journal Lines from OfficeConnect</title><link>https://officeconnectpro.com/build-reports/financials/drill-through-journal-lines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/drill-through-journal-lines/</guid><description>&lt;p&gt;When a number in your OfficeConnect report doesn&amp;rsquo;t look right, you don&amp;rsquo;t need to leave Excel. OfficeConnect&amp;rsquo;s &lt;strong&gt;Show Details&lt;/strong&gt; feature opens a panel showing every journal line contributing to that cell&amp;rsquo;s balance. From there, you can drill through directly to the transaction in Workday Financial Management.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;OfficeConnect connected to a &lt;strong&gt;Financials data source&lt;/strong&gt; tenant&lt;/li&gt;
@@ -128,9 +153,58 @@
  &lt;div class="step-number"&gt;4&lt;/div&gt;
  &lt;div class="step-content"&gt;
  &lt;strong&gt;Review the journal lines&lt;/strong&gt;
- &lt;p&gt;The Show Details pane shows each journal line with columns including:&lt;/p&gt;</description></item><item><title>Build an Actuals Trend Report in OfficeConnect (Financials)</title><link>https://officeconnectpro.com/build-reports/financials/actuals-trend-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/actuals-trend-report/</guid><description>&lt;p&gt;Trending actuals across 12 months in Workday&amp;rsquo;s native report writer means configuring a matrix report, setting up time period prompts, managing column layouts, and wrestling with formatting. In OfficeConnect, the same report takes about five minutes.&lt;/p&gt;
+ &lt;p&gt;The Show Details pane shows each journal line with columns including:&lt;/p&gt;</description></item><item><title>Your First 30 Minutes with Workday OfficeConnect</title><link>https://officeconnectpro.com/get-started/first-30-minutes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/first-30-minutes/</guid><description>&lt;p&gt;This is the fastest path from &amp;ldquo;Workday OfficeConnect isn&amp;rsquo;t installed yet&amp;rdquo; to &amp;ldquo;I have a refreshable Excel report showing live Adaptive Planning data.&amp;rdquo; It threads together the canonical guides for each step so you don&amp;rsquo;t have to figure out the right order.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll have at the end:&lt;/strong&gt; A working OfficeConnect installation, a tenant connection, and an Excel workbook with at least one live account/period/version intersection pulling from your Workday tenant.&lt;/p&gt;</description></item><item><title>Build an Actuals Trend Report in OfficeConnect (Financials)</title><link>https://officeconnectpro.com/build-reports/financials/actuals-trend-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/actuals-trend-report/</guid><description>&lt;p&gt;Trending actuals across 12 months in Workday&amp;rsquo;s native report writer means configuring a matrix report, setting up time period prompts, managing column layouts, and wrestling with formatting. In OfficeConnect, the same report takes about five minutes.&lt;/p&gt;
 &lt;p&gt;This tutorial shows you how — and explains why the difference matters for accounting teams who need monthly trend data on demand.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A 12-month actuals trend report showing GL account balances by period for a selected company, fully refreshable from Workday Financial Management.&lt;/p&gt;</description></item><item><title>Build a Balance Sheet with OfficeConnect (Financials)</title><link>https://officeconnectpro.com/build-reports/financials/balance-sheet-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/balance-sheet-report/</guid><description>&lt;p&gt;A balance sheet in OfficeConnect pulls directly from Workday Financial Management&amp;rsquo;s general ledger, so your assets, liabilities, and equity balances are always current without manual copy-paste from Workday Report Writer. This tutorial walks through building a structured balance sheet with the three standard sections.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A 12-month actuals trend report showing GL account balances by period for a selected company, fully refreshable from Workday Financial Management.&lt;/p&gt;</description></item><item><title>Install as an End User</title><link>https://officeconnectpro.com/get-started/install-end-user/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/install-end-user/</guid><description>&lt;p&gt;Follow these steps to install OfficeConnect on your own Windows machine. You&amp;rsquo;ll need administrator rights, or IT must pre-install the prerequisites.&lt;/p&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;All &lt;a href="https://officeconnectpro.com/get-started/system-requirements/"&gt;system requirements&lt;/a&gt; are met&lt;/li&gt;
+&lt;li&gt;You have your Workday Adaptive Planning login credentials&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="steps"&gt;Steps&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Download the installer&lt;/strong&gt;
+ Go to &lt;strong&gt;Product Downloads&lt;/strong&gt; in your Workday Adaptive Planning instance (ask your admin for the link if you don&amp;rsquo;t have it). Download &lt;strong&gt;OfficeConnectSetup.exe&lt;/strong&gt; — always use the latest version.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Run the installer&lt;/strong&gt;
+ &lt;p&gt;Double-click &lt;code&gt;OfficeConnectSetup.exe&lt;/code&gt;. If you have administrator rights on your machine, Windows will prompt you to allow the installation to run elevated — click &lt;strong&gt;Yes&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Install as an IT Admin</title><link>https://officeconnectpro.com/get-started/install-admin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/install-admin/</guid><description>&lt;div class="oc-callout oc-callout--admin admin-note" role="note"&gt;
+ &lt;div class="oc-callout__icon" aria-hidden="true"&gt;
+ &lt;i class="fas fa-wrench"&gt;&lt;/i&gt;
+ &lt;/div&gt;
+ &lt;div class="oc-callout__body"&gt;
+ &lt;strong class="oc-callout__label"&gt;For admins &amp;amp; power users&lt;/strong&gt;
+ This page is for IT administrators deploying OfficeConnect to multiple users or machines. End users installing on their own machine should see &lt;a href="https://officeconnectpro.com/get-started/install-end-user/"&gt;Install as an End User&lt;/a&gt;.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="two-installation-modes"&gt;Two installation modes&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Mode&lt;/th&gt;
+ &lt;th&gt;When to use&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Per-user&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Each user installs on their own workstation. Users can install future updates without admin permissions.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Per-machine&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Installed once on a shared machine for all users on that computer. Requires admin permissions for all updates.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Per-user installation is generally preferred — it lets users self-update and reduces IT overhead.&lt;/p&gt;</description></item><item><title>Build a Balance Sheet with OfficeConnect (Financials)</title><link>https://officeconnectpro.com/build-reports/financials/balance-sheet-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/balance-sheet-report/</guid><description>&lt;p&gt;A balance sheet in OfficeConnect pulls directly from Workday Financial Management&amp;rsquo;s general ledger, so your assets, liabilities, and equity balances are always current without manual copy-paste from Workday Report Writer. This tutorial walks through building a structured balance sheet with the three standard sections.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A balance sheet workbook with Current Assets, Non-Current Assets, Current Liabilities, Non-Current Liabilities, and Equity sections — all refreshable from Workday Financial Management.&lt;/p&gt;</description></item><item><title>Build a Cash Flow Statement with OfficeConnect (Financials)</title><link>https://officeconnectpro.com/build-reports/financials/cash-flow-statement/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/cash-flow-statement/</guid><description>&lt;p&gt;A cash flow statement built in OfficeConnect pulls balance changes and net income directly from Workday Financial Management, eliminating the manual work of reconciling figures from Workday Report Writer into Excel. This tutorial builds an indirect-method statement — the most common format for external financial reporting.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A cash flow statement with Operating, Investing, and Financing Activities sections, all refreshable from Workday Financial Management.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
@@ -179,7 +253,108 @@
  &lt;div class="step-number"&gt;5&lt;/div&gt;
  &lt;div class="step-content"&gt;
  &lt;strong&gt;Add working capital changes&lt;/strong&gt;
- &lt;p&gt;In A9–A12, drag accounts that represent working capital changes:&lt;/p&gt;</description></item><item><title>Build Your First OfficeConnect Report</title><link>https://officeconnectpro.com/build-reports/build-first-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/build-first-report/</guid><description>&lt;p&gt;This tutorial walks through building a basic departmental expense report from an empty workbook to a live, refreshable OfficeConnect report. By the end you will have a working report that pulls real data from Adaptive Planning with one click.&lt;/p&gt;
+ &lt;p&gt;In A9–A12, drag accounts that represent working capital changes:&lt;/p&gt;</description></item><item><title>Enter Budget Data in Excel with OfficeConnect</title><link>https://officeconnectpro.com/data-entry-writeback/enter-budget-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/data-entry-writeback/enter-budget-data/</guid><description>&lt;p&gt;Workday OfficeConnect isn&amp;rsquo;t just for reading data from Adaptive Planning — it can write data back. This tutorial walks through setting up a data entry workbook that lets planners enter budget figures in Excel and submit them directly to an Adaptive Planning version.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A data entry workbook with account rows and period columns where planners type figures and click Submit to push them into a Budget version in Adaptive Planning.&lt;/p&gt;</description></item><item><title>OfficeConnect for PowerPoint</title><link>https://officeconnectpro.com/word-powerpoint/powerpoint/officeconnect-for-powerpoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/word-powerpoint/powerpoint/officeconnect-for-powerpoint/</guid><description>&lt;p&gt;Workday OfficeConnect for PowerPoint lets you link tables and charts from your Excel workbook directly into PowerPoint slides. When the underlying Excel data refreshes, you can update the presentation with one click — no copy-pasting.&lt;/p&gt;
+&lt;h2 id="how-it-works"&gt;How it works&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;You define &lt;strong&gt;named ranges&lt;/strong&gt; in your Workday OfficeConnect Excel workbook (a named range is a labeled group of cells)&lt;/li&gt;
+&lt;li&gt;In PowerPoint, you link those named ranges into slides as tables or charts&lt;/li&gt;
+&lt;li&gt;When you&amp;rsquo;re ready to update the presentation (e.g., for a new reporting period), refresh the links&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="start-officeconnect-for-powerpoint"&gt;Start OfficeConnect for PowerPoint&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open PowerPoint&lt;/strong&gt;
+ After Workday OfficeConnect is installed (see &lt;a href="https://officeconnectpro.com/get-started/install-end-user/"&gt;Install for End Users&lt;/a&gt;), an &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab appears in PowerPoint&amp;rsquo;s ribbon.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Click Log In&lt;/strong&gt;
+ Enter your Adaptive Planning credentials, or click &lt;strong&gt;Log in with Workday&lt;/strong&gt;. If you&amp;rsquo;re already signed in to OfficeConnect for Excel, PowerPoint logs you in automatically. See &lt;a href="https://officeconnectpro.com/admin/configure/sign-in-create-tenant/"&gt;Sign In &amp;amp; Create a Tenant&lt;/a&gt; if you haven&amp;rsquo;t set up the connection yet.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="create-a-named-range-in-excel"&gt;Create a named range in Excel&lt;/h2&gt;
+&lt;p&gt;Before linking to PowerPoint, you need to name the range in Excel:&lt;/p&gt;</description></item><item><title>OfficeConnect for Word</title><link>https://officeconnectpro.com/word-powerpoint/word/officeconnect-for-word/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/word-powerpoint/word/officeconnect-for-word/</guid><description>&lt;p&gt;Workday OfficeConnect for Word lets you embed live tables and single-cell values from your OfficeConnect Excel workbook into Word documents. Board reports, investor letters, and executive narratives can update automatically when the underlying data changes.&lt;/p&gt;
+&lt;h2 id="what-you-can-link"&gt;What you can link&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tables&lt;/strong&gt; — complete tables from named ranges in Excel, formatted exactly as they appear in Excel&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Single cells&lt;/strong&gt; — individual values (e.g., a total revenue figure or a percentage)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qualitative text&lt;/strong&gt; — words like &amp;ldquo;increased&amp;rdquo; or &amp;ldquo;decreased&amp;rdquo; that update based on cell values&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="start-officeconnect-for-word"&gt;Start OfficeConnect for Word&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open Word&lt;/strong&gt;
+ After Workday OfficeConnect is installed (see &lt;a href="https://officeconnectpro.com/get-started/install-end-user/"&gt;Install for End Users&lt;/a&gt;), an &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab appears in Word&amp;rsquo;s ribbon. An &lt;strong&gt;OfficeConnect links pane&lt;/strong&gt; docks to the left side.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Click Log In&lt;/strong&gt;
+ Enter your Adaptive Planning credentials, or click &lt;strong&gt;Log in with Workday&lt;/strong&gt;. If you&amp;rsquo;re already signed in to OfficeConnect for Excel, Word logs you in automatically. See &lt;a href="https://officeconnectpro.com/admin/configure/sign-in-create-tenant/"&gt;Sign In &amp;amp; Create a Tenant&lt;/a&gt; for first-time setup.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="connect-to-an-excel-workbook"&gt;Connect to an Excel workbook&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;In the OfficeConnect tab, click Link to Workbook&lt;/strong&gt;
+ Browse to and open your Workday OfficeConnect Excel workbook. The workbook&amp;rsquo;s named ranges appear in the OfficeConnect links pane under &lt;strong&gt;Table Links&lt;/strong&gt; (multi-cell ranges) and &lt;strong&gt;Single Links&lt;/strong&gt; (single cells).
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="link-a-table-into-word"&gt;Link a table into Word&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Place your cursor in the document&lt;/strong&gt;
+ Click where you want the table to appear.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;In the links pane, find the table link&lt;/strong&gt;
+ Right-click the named range under &lt;strong&gt;Table Links&lt;/strong&gt; and select &lt;strong&gt;Apply to Selection&lt;/strong&gt;.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The table appears formatted exactly as it looks in Excel. No reformatting required (unless the table is wider than the Word document margins, in which case OfficeConnect proportionally scales it down).&lt;/p&gt;</description></item><item><title>Sign In &amp; Create Your First Tenant</title><link>https://officeconnectpro.com/admin/configure/sign-in-create-tenant/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/admin/configure/sign-in-create-tenant/</guid><description>&lt;p&gt;A &lt;strong&gt;tenant&lt;/strong&gt; in Workday OfficeConnect is a saved connection to a Workday instance. You create it once, and OfficeConnect remembers it for future sessions.&lt;/p&gt;
+&lt;h2 id="what-youll-need"&gt;What you&amp;rsquo;ll need&lt;/h2&gt;
+&lt;p&gt;Before you start, gather these details from your Workday administrator:&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Detail&lt;/th&gt;
+ &lt;th&gt;Where to find it&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Client ID&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Workday OfficeConnect API client&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;API Endpoint URL&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Workday OfficeConnect API client&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Authorization Endpoint URL&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Workday OfficeConnect API client&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;If your admin hasn&amp;rsquo;t yet generated these, see &lt;a href="https://officeconnectpro.com/admin/configure/workday-sso/"&gt;Set Up Workday SSO&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Build Your First OfficeConnect Report</title><link>https://officeconnectpro.com/build-reports/build-first-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/build-first-report/</guid><description>&lt;p&gt;This tutorial walks through building a basic departmental expense report from an empty workbook to a live, refreshable OfficeConnect report. By the end you will have a working report that pulls real data from Adaptive Planning with one click.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;OfficeConnect installed and connected to your Workday tenant (&lt;a href="https://officeconnectpro.com/get-started/"&gt;Get Started&lt;/a&gt;)&lt;/li&gt;
@@ -211,7 +386,7 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
  &lt;div class="step-number"&gt;2&lt;/div&gt;
  &lt;div class="step-content"&gt;
  &lt;strong&gt;Sign in if prompted&lt;/strong&gt;
- If the pane shows a sign-in prompt, click &lt;strong&gt;Sign In&lt;/strong&gt; and complete the Workday authentication flow. See &lt;a href="https://officeconnectpro.com/get-started/sign-in-create-tenant/"&gt;Sign In and Create a Tenant&lt;/a&gt; if you need help.
+ If the pane shows a sign-in prompt, click &lt;strong&gt;Sign In&lt;/strong&gt; and complete the Workday authentication flow. See &lt;a href="https://officeconnectpro.com/admin/configure/sign-in-create-tenant/"&gt;Sign In and Create a Tenant&lt;/a&gt; if you need help.
  &lt;/div&gt;
 &lt;/div&gt;
 
@@ -220,26 +395,7 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
  &lt;img src="https://officeconnectpro.com/images/screenshots/oc-reporting-pane-open.png"
  alt="The OfficeConnect Reporting pane open in Excel"/&gt; &lt;figcaption&gt;
  &lt;p&gt;The Reporting pane docked to the right after clicking Open Pane, with the Elements tab active.&lt;/p&gt;</description></item><item><title>Month-End Close Workflow with OfficeConnect</title><link>https://officeconnectpro.com/build-reports/financials/month-end-close-workflow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/month-end-close-workflow/</guid><description>&lt;p&gt;Month-end close in Workday Financial Management involves verifying journal completeness, reconciling account balances, and producing financial statements for management review. OfficeConnect lets your accounting team do all of this in Excel — pulling live data from Workday — without waiting for Report Writer outputs or PDF exports. This tutorial walks through a practical close workflow.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A close workbook with a trial balance check sheet, a journal completeness check, and a summary P&amp;amp;L — all refreshable as the close progresses.&lt;/p&gt;</description></item><item><title>Create a Rolling 12-Month Report</title><link>https://officeconnectpro.com/build-reports/rolling-12-month-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/rolling-12-month-report/</guid><description>&lt;p&gt;A rolling 12-month report always shows the current month plus the 11 preceding months — no matter when you open it. This tutorial shows how to build one using OfficeConnect&amp;rsquo;s relative time contexts so the columns update automatically on each refresh.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;An existing OfficeConnect workbook or a blank one (&lt;a href="https://officeconnectpro.com/build-reports/build-first-report/"&gt;Build Your First Report&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Your Adaptive Planning instance populated with at least 12 months of actuals or forecast data&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;!-- VIDEO PLACEHOLDER
-When the YouTube video is ready, uncomment the section below and replace VIDEO_ID with the 11-character YouTube video ID (e.g. dQw4w9WgXcQ).
-
-## Watch
-
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
- &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/VIDEO_ID?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
---&gt;
-&lt;h2 id="how-rolling-time-works-in-officeconnect"&gt;How rolling time works in OfficeConnect&lt;/h2&gt;
-&lt;p&gt;OfficeConnect supports &lt;strong&gt;relative time contexts&lt;/strong&gt; — time elements that are defined as offsets from the current period rather than as fixed calendar months. When you use &lt;em&gt;Current Month&lt;/em&gt;, &lt;em&gt;Current Month -1&lt;/em&gt;, &lt;em&gt;Current Month -2&lt;/em&gt;, etc., OfficeConnect resolves each offset at refresh time against the current date.&lt;/p&gt;</description></item><item><title>Publish a Report to PowerPoint</title><link>https://officeconnectpro.com/build-reports/publish-to-powerpoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/publish-to-powerpoint/</guid><description>&lt;p&gt;This tutorial covers linking an OfficeConnect Excel report into a PowerPoint presentation. Once linked, refreshing OfficeConnect in Excel automatically updates the numbers in your slides — no copy-pasting needed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A close workbook with a trial balance check sheet, a journal completeness check, and a summary P&amp;amp;L — all refreshable as the close progresses.&lt;/p&gt;</description></item><item><title>Publish a Report to PowerPoint</title><link>https://officeconnectpro.com/build-reports/publish-to-powerpoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/publish-to-powerpoint/</guid><description>&lt;p&gt;This tutorial covers linking an OfficeConnect Excel report into a PowerPoint presentation. Once linked, refreshing OfficeConnect in Excel automatically updates the numbers in your slides — no copy-pasting needed.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A finished OfficeConnect Excel report with data populated (&lt;a href="https://officeconnectpro.com/build-reports/build-first-report/"&gt;Build Your First Report&lt;/a&gt;)&lt;/li&gt;
@@ -259,7 +415,8 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
 
 --&gt;
 &lt;h2 id="how-excel-to-powerpoint-linking-works"&gt;How Excel-to-PowerPoint linking works&lt;/h2&gt;
-&lt;p&gt;OfficeConnect for PowerPoint creates links between named ranges or tables in your Excel workbook and shapes in your PowerPoint slides. When you click &lt;strong&gt;Refresh&lt;/strong&gt; in PowerPoint, OfficeConnect re-reads the current Excel values and updates the slide content — even if you are not looking at the Excel file at the time.&lt;/p&gt;</description></item><item><title>Build a Budget vs. Actuals Variance Report</title><link>https://officeconnectpro.com/build-reports/budget-vs-actuals-variance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/budget-vs-actuals-variance/</guid><description>&lt;p&gt;A budget vs. actuals variance report puts your plan and your reality in the same view. This tutorial walks through building one in OfficeConnect with a variance column that calculates automatically in Excel.&lt;/p&gt;
+&lt;p&gt;OfficeConnect for PowerPoint creates links between named ranges or tables in your Excel workbook and shapes in your PowerPoint slides. When you click &lt;strong&gt;Refresh&lt;/strong&gt; in PowerPoint, OfficeConnect re-reads the current Excel values and updates the slide content — even if you are not looking at the Excel file at the time.&lt;/p&gt;</description></item><item><title>Designing a Board Pack Template in Workday OfficeConnect</title><link>https://officeconnectpro.com/word-powerpoint/powerpoint/board-pack-template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/word-powerpoint/powerpoint/board-pack-template/</guid><description>&lt;p&gt;The monthly board pack is the most visible artifact your FP&amp;amp;A team ships. Done well, the entire deck refreshes from the OfficeConnect Excel workbook in five minutes; done poorly, a junior analyst spends two days re-pasting tables. This article walks through a reusable template design that&amp;rsquo;s biased toward the five-minute version.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A 14-slide PowerPoint board pack template with linked tables and charts pulling from one OfficeConnect Excel workbook. Refresh discipline is built in.&lt;/p&gt;</description></item><item><title>Build a Budget vs. Actuals Variance Report</title><link>https://officeconnectpro.com/build-reports/budget-vs-actuals-variance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/budget-vs-actuals-variance/</guid><description>&lt;p&gt;A budget vs. actuals variance report puts your plan and your reality in the same view. This tutorial walks through building one in OfficeConnect with a variance column that calculates automatically in Excel.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A report with monthly actuals and budget columns for each account, plus a variance column showing the difference — all refreshable from Adaptive Planning.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -341,7 +498,27 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
  &lt;div class="step-number"&gt;9&lt;/div&gt;
  &lt;div class="step-content"&gt;
  &lt;strong&gt;Write the variance formula&lt;/strong&gt;
- &lt;p&gt;Click &lt;strong&gt;D3&lt;/strong&gt; and enter:&lt;/p&gt;</description></item><item><title>Build a Department P&amp;L Report in OfficeConnect</title><link>https://officeconnectpro.com/build-reports/department-pl-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/department-pl-report/</guid><description>&lt;p&gt;A department P&amp;amp;L shows revenue, expenses, and net income for each business unit in the same workbook. OfficeConnect&amp;rsquo;s Level dimension makes this straightforward — one row set per department, all pulling live data from the same Adaptive Planning model.&lt;/p&gt;
+ &lt;p&gt;Click &lt;strong&gt;D3&lt;/strong&gt; and enter:&lt;/p&gt;</description></item><item><title>View By — Open Cell Data in a New Sheet (2026R1)</title><link>https://officeconnectpro.com/whats-new/2026r1-view-by/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/whats-new/2026r1-view-by/</guid><description>&lt;div class="oc-callout oc-callout--new" role="note" data-release="2026R1"&gt;
+ &lt;div class="oc-callout__icon" aria-hidden="true"&gt;
+ &lt;i class="fas fa-sparkles"&gt;&lt;/i&gt;
+ &lt;/div&gt;
+ &lt;div class="oc-callout__body"&gt;
+ &lt;strong class="oc-callout__label"&gt;New in 2026R1&lt;/strong&gt;
+ &lt;strong&gt;View By&lt;/strong&gt; is new in Workday OfficeConnect 2026R1 (released March 14, 2026). It opens the data underlying any cell in a separate worksheet — so you can ad-hoc slice and filter without touching your formatted main report.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Before 2026R1, the typical way to dig into a number was &lt;a href="https://officeconnectpro.com/build-reports/cell-explorer-drill-down/"&gt;Cell Explorer / Drill Down&lt;/a&gt;, which is great for understanding &lt;strong&gt;which&lt;/strong&gt; elements contribute to a cell, but doesn&amp;rsquo;t give you a sandbox to manipulate the underlying intersection.&lt;/p&gt;</description></item><item><title>Write-Back to Adaptive from Excel: A Complete Guide</title><link>https://officeconnectpro.com/data-entry-writeback/writeback-complete-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/data-entry-writeback/writeback-complete-guide/</guid><description>&lt;div class="oc-callout oc-callout--new" role="note" data-release="2025R1"&gt;
+ &lt;div class="oc-callout__icon" aria-hidden="true"&gt;
+ &lt;i class="fas fa-sparkles"&gt;&lt;/i&gt;
+ &lt;/div&gt;
+ &lt;div class="oc-callout__body"&gt;
+ &lt;strong class="oc-callout__label"&gt;New in 2025R1&lt;/strong&gt;
+ &lt;strong&gt;Write-back&lt;/strong&gt; — submitting data from Excel cells back to Workday Adaptive Planning — became generally available in OfficeConnect 2025R1 (March 2025). It changes OfficeConnect from a one-way reporting surface into a two-way planning surface.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This guide is the canonical reference for write-back: the concept, what it can and can&amp;rsquo;t do, how to design a workbook for it, and what to do when something goes wrong.&lt;/p&gt;</description></item><item><title>Build a Department P&amp;L Report in OfficeConnect</title><link>https://officeconnectpro.com/build-reports/department-pl-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/department-pl-report/</guid><description>&lt;p&gt;A department P&amp;amp;L shows revenue, expenses, and net income for each business unit in the same workbook. OfficeConnect&amp;rsquo;s Level dimension makes this straightforward — one row set per department, all pulling live data from the same Adaptive Planning model.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A P&amp;amp;L report with accounts as rows and departments as column groups, refreshable from Adaptive Planning.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -433,98 +610,30 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
 &lt;ul&gt;
 &lt;li&gt;Add a budget or prior-year comparison column — see &lt;a href="https://officeconnectpro.com/build-reports/budget-vs-actuals-variance/"&gt;Budget vs. Actuals Variance&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Protect the report for distribution — see &lt;a href="https://officeconnectpro.com/build-reports/lock-protect-reports/"&gt;Lock and Protect Reports&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Publish to PowerPoint — see &lt;a href="https://officeconnectpro.com/build-reports/officeconnect-for-powerpoint/"&gt;OfficeConnect for PowerPoint&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Build a Year-over-Year Trend Report</title><link>https://officeconnectpro.com/build-reports/year-over-year-trend/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/year-over-year-trend/</guid><description>&lt;p&gt;A year-over-year trend report shows how each month compares to the same month last year — useful for spotting seasonal patterns and measuring real growth. OfficeConnect&amp;rsquo;s time elements let you pin both years in the same report.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A report with 12 months of current-year actuals alongside 12 months of prior-year actuals, plus a YoY variance row.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;OfficeConnect connected to an Adaptive Planning tenant with at least two full years of actuals&lt;/li&gt;
-&lt;li&gt;Familiarity with adding elements (&lt;a href="https://officeconnectpro.com/build-reports/add-elements/"&gt;Add Elements&lt;/a&gt;) and time contexts (&lt;a href="https://officeconnectpro.com/build-reports/time-and-contexts/"&gt;Time and Contexts&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id="step-1--set-up-current-year-monthly-columns"&gt;Step 1 — Set up current-year monthly columns&lt;/h2&gt;
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;1&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Open Excel and activate OfficeConnect&lt;/strong&gt;
- Open Excel and click the &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab. Sign in if prompted.
+&lt;li&gt;Publish to PowerPoint — see &lt;a href="https://officeconnectpro.com/word-powerpoint/powerpoint/officeconnect-for-powerpoint/"&gt;OfficeConnect for PowerPoint&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Build a Formatted Executive Report for Distribution</title><link>https://officeconnectpro.com/build-reports/formatted-executive-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/formatted-executive-report/</guid><description>&lt;p&gt;A raw OfficeConnect report shows the right numbers, but an executive report needs to look the part. This tutorial walks through building a formatted P&amp;amp;L summary with branding, clean layout, and print-ready page setup — the kind of report you can share as a PDF without touching it in PowerPoint first.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A one-page executive P&amp;amp;L summary with a header, logo, formatted number columns, and page layout configured for PDF export.&lt;/p&gt;</description></item><item><title>Automated MD&amp;A Draft with Workday OfficeConnect for Word</title><link>https://officeconnectpro.com/word-powerpoint/word/mda-automated-draft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/word-powerpoint/word/mda-automated-draft/</guid><description>&lt;p&gt;The Management Discussion &amp;amp; Analysis (MD&amp;amp;A) narrative is the financial story that accompanies the numbers. Done well, it explains the period&amp;rsquo;s results in plain language. Done manually, every quarter someone types numbers from a closed P&amp;amp;L into Word and prays they get every comma right.&lt;/p&gt;
+&lt;p&gt;This article walks through building an MD&amp;amp;A Word template where every quantitative phrase pulls live from the Workday OfficeConnect Excel workbook. The CFO still writes the narrative; OfficeConnect handles the numbers.&lt;/p&gt;</description></item><item><title>Personal What-If Scenarios (2026R1)</title><link>https://officeconnectpro.com/whats-new/2026r1-personal-scenarios/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/whats-new/2026r1-personal-scenarios/</guid><description>&lt;div class="oc-callout oc-callout--new" role="note" data-release="2026R1"&gt;
+ &lt;div class="oc-callout__icon" aria-hidden="true"&gt;
+ &lt;i class="fas fa-sparkles"&gt;&lt;/i&gt;
+ &lt;/div&gt;
+ &lt;div class="oc-callout__body"&gt;
+ &lt;strong class="oc-callout__label"&gt;New in 2026R1&lt;/strong&gt;
+ &lt;strong&gt;Personal what-if scenarios&lt;/strong&gt; are new in Workday OfficeConnect 2026R1. End users can create their own scenario versions in Excel, branched from a parent version, without involving an Adaptive Planning administrator and without cluttering the shared version list.
  &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;2&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Add your Actuals version&lt;/strong&gt;
- Click &lt;strong&gt;B1&lt;/strong&gt;. In the Reporting pane, expand &lt;strong&gt;Versions&lt;/strong&gt; and drag your &lt;strong&gt;Actuals&lt;/strong&gt; version into B1. This version applies to all columns that share row 1.
+&lt;p&gt;Before 2026R1, every what-if version had to be created in Adaptive Planning by a planning admin or modeler — a slow process that produced a long, shared list of one-off versions. Personal scenarios solve both problems at once.&lt;/p&gt;</description></item><item><title>Set Up Workday SSO</title><link>https://officeconnectpro.com/admin/configure/workday-sso/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/admin/configure/workday-sso/</guid><description>&lt;div class="oc-callout oc-callout--admin admin-note" role="note"&gt;
+ &lt;div class="oc-callout__icon" aria-hidden="true"&gt;
+ &lt;i class="fas fa-wrench"&gt;&lt;/i&gt;
+ &lt;/div&gt;
+ &lt;div class="oc-callout__body"&gt;
+ &lt;strong class="oc-callout__label"&gt;For admins &amp;amp; power users&lt;/strong&gt;
+ This page requires Workday Security Administrator access. End users don&amp;rsquo;t need to do anything — SSO is configured at the tenant level by admins and power users.
  &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;3&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Add current-year monthly time elements&lt;/strong&gt;
- Click &lt;strong&gt;B2&lt;/strong&gt;. In the Reporting pane, expand &lt;strong&gt;Time → Months&lt;/strong&gt; and find January of the current year (e.g., Jan 2026). Drag it into B2. Continue across row 2 — C2 through M2 — adding Feb 2026 through Dec 2026. You should have 12 monthly time elements across row 2.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;hr&gt;
-&lt;h2 id="step-2--set-up-prior-year-monthly-columns"&gt;Step 2 — Set up prior-year monthly columns&lt;/h2&gt;
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;4&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Add prior-year Actuals version&lt;/strong&gt;
- Click &lt;strong&gt;N1&lt;/strong&gt;. Drag your &lt;strong&gt;Actuals&lt;/strong&gt; version into N1. (It&amp;rsquo;s the same version — the time elements in row 2 control which year&amp;rsquo;s data loads.)
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;5&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Add prior-year monthly time elements&lt;/strong&gt;
- Click &lt;strong&gt;N2&lt;/strong&gt;. Drag Jan 2025 into N2. Continue across — O2 through Y2 — adding Feb 2025 through Dec 2025.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;hr&gt;
-&lt;h2 id="step-3--add-account-rows"&gt;Step 3 — Add account rows&lt;/h2&gt;
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;6&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Add your primary account&lt;/strong&gt;
- Click &lt;strong&gt;A3&lt;/strong&gt;. In the Reporting pane, expand &lt;strong&gt;Accounts&lt;/strong&gt; and drag your key account (e.g., Revenue) into A3.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;7&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Populate the data row&lt;/strong&gt;
- Click &lt;strong&gt;B3&lt;/strong&gt;. OfficeConnect formulas reference the version in row 1 and the time in row 2, so B3 returns Jan 2026 Actuals for Revenue. Copy B3 across to Y3 — each cell picks up the correct month and year from its column.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;8&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Add remaining account rows&lt;/strong&gt;
- Copy row 3 down for each additional account. Add more accounts to column A as needed.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;hr&gt;
-&lt;h2 id="step-4--add-yoy-variance"&gt;Step 4 — Add YoY variance&lt;/h2&gt;
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;9&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Add a variance section header&lt;/strong&gt;
- In column Z row 1, type &lt;code&gt;YoY Variance&lt;/code&gt;. Leave Z2 empty.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;10&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Add monthly variance formulas&lt;/strong&gt;
- &lt;p&gt;In &lt;strong&gt;B4&lt;/strong&gt; (one row below your last account row, or in a dedicated variance row), enter:&lt;/p&gt;</description></item><item><title>Enter Budget Data in Excel with OfficeConnect</title><link>https://officeconnectpro.com/build-reports/enter-budget-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/enter-budget-data/</guid><description>&lt;p&gt;OfficeConnect isn&amp;rsquo;t just for reading data from Adaptive Planning — it can write data back. This tutorial walks through setting up a data entry workbook that lets planners enter budget figures in Excel and submit them directly to an Adaptive Planning version.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A data entry workbook with account rows and period columns where planners type figures and click Submit to push them into a Budget version in Adaptive Planning.&lt;/p&gt;</description></item><item><title>Build a Formatted Executive Report for Distribution</title><link>https://officeconnectpro.com/build-reports/formatted-executive-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/formatted-executive-report/</guid><description>&lt;p&gt;A raw OfficeConnect report shows the right numbers, but an executive report needs to look the part. This tutorial walks through building a formatted P&amp;amp;L summary with branding, clean layout, and print-ready page setup — the kind of report you can share as a PDF without touching it in PowerPoint first.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A one-page executive P&amp;amp;L summary with a header, logo, formatted number columns, and page layout configured for PDF export.&lt;/p&gt;</description></item></channel></rss>
+&lt;h2 id="what-workday-sso-does-for-officeconnect"&gt;What Workday SSO does for OfficeConnect&lt;/h2&gt;
+&lt;p&gt;With SSO enabled, users sign in to Workday OfficeConnect using their existing Workday credentials through your identity provider. They don&amp;rsquo;t need a separate Adaptive Planning username and password.&lt;/p&gt;
+&lt;p&gt;For identity-provider-specific guides, see SSO with Okta, SSO with Microsoft Entra ID, or SSO with Ping Identity (coming soon under &lt;a href="https://officeconnectpro.com/admin/configure/"&gt;Admin → Configure&lt;/a&gt;).&lt;/p&gt;</description></item><item><title>Build an Investor Letter Template with Workday OfficeConnect for Word</title><link>https://officeconnectpro.com/word-powerpoint/word/investor-letter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/word-powerpoint/word/investor-letter/</guid><description>&lt;p&gt;The CEO&amp;rsquo;s quarterly investor letter is part narrative, part numbers. The narrative changes; the numbers are the same fields every quarter — revenue, growth, margin, cash, headcount, segment results. Templating it once means subsequent quarters take an hour instead of a day, and the numbers can&amp;rsquo;t go out wrong.&lt;/p&gt;
+&lt;p&gt;This guide walks through building a reusable investor-letter Word template with Workday OfficeConnect-linked cells. It builds on the same pattern as &lt;a href="https://officeconnectpro.com/word-powerpoint/word/mda-automated-draft/"&gt;MD&amp;amp;A Automated Draft&lt;/a&gt;; the difference is voice and structure.&lt;/p&gt;</description></item></channel></rss>

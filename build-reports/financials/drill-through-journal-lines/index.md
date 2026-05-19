@@ -68,7 +68,7 @@ If you're switching between Adaptive Planning and Financials tenants, note that 
 | Financials | Show Details | Contributing journal lines, with drill-through to Workday |
 | Adaptive Planning | Explore Cell | Contributing dimension splits within the Adaptive Planning model |
 
-See [Adaptive Planning vs. Financials Data Source](/build-reports/financials-vs-adaptive-planning/) for a full comparison.
+See [Adaptive Planning vs. Financials Data Source](/migration-comparison/financials-vs-adaptive-planning/) for a full comparison.
 
 ---
 

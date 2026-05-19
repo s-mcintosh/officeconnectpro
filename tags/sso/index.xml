@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sso on OfficeConnectPro</title><link>https://officeconnectpro.com/tags/sso/</link><description>Recent content in Sso on OfficeConnectPro</description><generator>Hugo</generator><language>en</language><atom:link href="https://officeconnectpro.com/tags/sso/index.xml" rel="self" type="application/rss+xml"/><item><title>Sign In &amp; Create Your First Tenant</title><link>https://officeconnectpro.com/admin/configure/sign-in-create-tenant/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/admin/configure/sign-in-create-tenant/</guid><description>&lt;p&gt;A &lt;strong&gt;tenant&lt;/strong&gt; in Workday OfficeConnect is a saved connection to a Workday instance. You create it once, and OfficeConnect remembers it for future sessions.&lt;/p&gt;
+&lt;h2 id="what-youll-need"&gt;What you&amp;rsquo;ll need&lt;/h2&gt;
+&lt;p&gt;Before you start, gather these details from your Workday administrator:&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Detail&lt;/th&gt;
+ &lt;th&gt;Where to find it&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Client ID&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Workday OfficeConnect API client&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;API Endpoint URL&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Workday OfficeConnect API client&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Authorization Endpoint URL&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Workday OfficeConnect API client&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;If your admin hasn&amp;rsquo;t yet generated these, see &lt;a href="https://officeconnectpro.com/admin/configure/workday-sso/"&gt;Set Up Workday SSO&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Configure</title><link>https://officeconnectpro.com/admin/configure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/admin/configure/</guid><description>&lt;p&gt;Tenant configuration, single sign-on, and the network plumbing OfficeConnect needs to reach Workday Adaptive Planning.&lt;/p&gt;
+&lt;h2 id="articles-in-this-section"&gt;Articles in this section&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://officeconnectpro.com/admin/configure/sign-in-create-tenant/"&gt;Sign In &amp;amp; Create Tenant&lt;/a&gt; — Sign in to Workday OfficeConnect for the first time and configure your Workday tenant connection&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://officeconnectpro.com/admin/configure/multiple-instances/"&gt;Multiple Instances&lt;/a&gt; — How to switch between production, sandbox, and multi-instances in Workday OfficeConnect&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://officeconnectpro.com/admin/configure/workday-sso/"&gt;Workday SSO&lt;/a&gt; — Configure Workday OfficeConnect to use Workday Single Sign-On for your organization&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://officeconnectpro.com/admin/configure/sso-okta/"&gt;SSO with Okta&lt;/a&gt; — Configure Okta to authenticate Workday OfficeConnect users via Workday SSO — application setup, claim mapping, MFA pairing, and the common failure modes&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://officeconnectpro.com/admin/configure/sso-entra/"&gt;SSO with Microsoft Entra ID&lt;/a&gt; — Configure Microsoft Entra ID (formerly Azure AD) to authenticate Workday OfficeConnect users via Workday SSO — enterprise application setup, claim mapping, and Conditional Access tuning&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://officeconnectpro.com/admin/configure/refresh-with-power-automate/"&gt;Refresh with Power Automate&lt;/a&gt; — Use Power Automate Desktop to schedule Workday OfficeConnect report refreshes automatically — keep distributed Excel reports up to date without manual intervention&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Fix Authentication and Token Errors in OfficeConnect</title><link>https://officeconnectpro.com/troubleshoot/authentication-token-errors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/authentication-token-errors/</guid><description>&lt;p&gt;Token and sign-in errors usually mean the SSO session has lapsed or the tenant configuration has drifted. Confirm Workday OfficeConnect is pointed at a valid tenant on &lt;a href="https://officeconnectpro.com/admin/configure/sign-in-create-tenant/"&gt;Sign In &amp;amp; Create a Tenant&lt;/a&gt;, and review your &lt;a href="https://officeconnectpro.com/admin/configure/workday-sso/"&gt;Workday SSO configuration&lt;/a&gt; if multiple users hit the same error.&lt;/p&gt;
+&lt;h2 id="symptom"&gt;Symptom&lt;/h2&gt;
+&lt;p&gt;One or more of the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OfficeConnect shows an error message containing words like &amp;ldquo;Authentication failed&amp;rdquo;, &amp;ldquo;Token expired&amp;rdquo;, &amp;ldquo;Unauthorized&amp;rdquo;, or &amp;ldquo;401&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;The sign-in browser window opens but returns an error after you authenticate&lt;/li&gt;
+&lt;li&gt;OfficeConnect repeatedly asks you to sign in even after a successful authentication&lt;/li&gt;
+&lt;li&gt;Refresh fails immediately with an authentication-related error rather than a network error&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="causes"&gt;Causes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The Workday SSO session has expired and the access token needs to be refreshed&lt;/li&gt;
+&lt;li&gt;The OfficeConnect client ID or tenant configuration is incorrect or has changed&lt;/li&gt;
+&lt;li&gt;A browser cookie or cached token is corrupted, preventing new authentication from completing&lt;/li&gt;
+&lt;li&gt;The Workday tenant&amp;rsquo;s OAuth application for OfficeConnect has been disabled or its credentials rotated&lt;/li&gt;
+&lt;li&gt;Multi-factor authentication (MFA) requirements have changed and OfficeConnect&amp;rsquo;s browser flow isn&amp;rsquo;t handling the new MFA step&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="fix-1-sign-out-and-sign-back-in"&gt;Fix 1: Sign out and sign back in&lt;/h2&gt;
+&lt;p&gt;The fastest fix for most token errors is a clean sign-out and re-authentication.&lt;/p&gt;</description></item><item><title>Set Up Workday SSO</title><link>https://officeconnectpro.com/admin/configure/workday-sso/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/admin/configure/workday-sso/</guid><description>&lt;div class="oc-callout oc-callout--admin admin-note" role="note"&gt;
+ &lt;div class="oc-callout__icon" aria-hidden="true"&gt;
+ &lt;i class="fas fa-wrench"&gt;&lt;/i&gt;
+ &lt;/div&gt;
+ &lt;div class="oc-callout__body"&gt;
+ &lt;strong class="oc-callout__label"&gt;For admins &amp;amp; power users&lt;/strong&gt;
+ This page requires Workday Security Administrator access. End users don&amp;rsquo;t need to do anything — SSO is configured at the tenant level by admins and power users.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="what-workday-sso-does-for-officeconnect"&gt;What Workday SSO does for OfficeConnect&lt;/h2&gt;
+&lt;p&gt;With SSO enabled, users sign in to Workday OfficeConnect using their existing Workday credentials through your identity provider. They don&amp;rsquo;t need a separate Adaptive Planning username and password.&lt;/p&gt;
+&lt;p&gt;For identity-provider-specific guides, see SSO with Okta, SSO with Microsoft Entra ID, or SSO with Ping Identity (coming soon under &lt;a href="https://officeconnectpro.com/admin/configure/"&gt;Admin → Configure&lt;/a&gt;).&lt;/p&gt;</description></item><item><title>Single Sign-On for Workday OfficeConnect with Okta</title><link>https://officeconnectpro.com/admin/configure/sso-okta/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/admin/configure/sso-okta/</guid><description>&lt;div class="oc-callout oc-callout--admin admin-note" role="note"&gt;
+ &lt;div class="oc-callout__icon" aria-hidden="true"&gt;
+ &lt;i class="fas fa-wrench"&gt;&lt;/i&gt;
+ &lt;/div&gt;
+ &lt;div class="oc-callout__body"&gt;
+ &lt;strong class="oc-callout__label"&gt;For admins &amp;amp; power users&lt;/strong&gt;
+ Requires Okta administrator access and Workday Security Administrator access. End users don&amp;rsquo;t change anything on their side; this is a tenant-level configuration.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Workday OfficeConnect doesn&amp;rsquo;t authenticate to Okta directly. Instead, OfficeConnect authenticates to Workday, and Workday uses Okta as its identity provider. This indirection is important — the configuration lives on the Workday side, not directly in OfficeConnect — and explains why many SSO problems surface as Workday auth failures rather than Okta errors.&lt;/p&gt;</description></item><item><title>Single Sign-On for Workday OfficeConnect with Microsoft Entra ID</title><link>https://officeconnectpro.com/admin/configure/sso-entra/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/admin/configure/sso-entra/</guid><description>&lt;div class="oc-callout oc-callout--admin admin-note" role="note"&gt;
+ &lt;div class="oc-callout__icon" aria-hidden="true"&gt;
+ &lt;i class="fas fa-wrench"&gt;&lt;/i&gt;
+ &lt;/div&gt;
+ &lt;div class="oc-callout__body"&gt;
+ &lt;strong class="oc-callout__label"&gt;For admins &amp;amp; power users&lt;/strong&gt;
+ Requires Entra ID Application Administrator (or higher) and Workday Security Administrator access. End users don&amp;rsquo;t change anything; this is a tenant-level configuration.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Workday OfficeConnect doesn&amp;rsquo;t authenticate to Microsoft Entra ID directly. OfficeConnect authenticates to Workday, and Workday uses Entra ID as its identity provider. The configuration sits on the Workday side, with Entra ID providing the SAML or OIDC backbone.&lt;/p&gt;
+&lt;p&gt;This guide assumes Entra ID-to-Workday SSO is already working for the Workday web app. If not, do that integration first (Entra&amp;rsquo;s enterprise app gallery has a &amp;ldquo;Workday&amp;rdquo; SAML template).&lt;/p&gt;</description></item></channel></rss>

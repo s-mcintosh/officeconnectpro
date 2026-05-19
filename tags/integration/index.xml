@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Integration on OfficeConnectPro</title><link>https://officeconnectpro.com/tags/integration/</link><description>Recent content in Integration on OfficeConnectPro</description><generator>Hugo</generator><language>en</language><atom:link href="https://officeconnectpro.com/tags/integration/index.xml" rel="self" type="application/rss+xml"/><item><title>Refresh Reports Automatically with Power Automate</title><link>https://officeconnectpro.com/admin/configure/refresh-with-power-automate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/admin/configure/refresh-with-power-automate/</guid><description>&lt;p&gt;Workday OfficeConnect doesn&amp;rsquo;t have a built-in scheduler, but you can automate report refresh using &lt;strong&gt;Power Automate Desktop&lt;/strong&gt; — Microsoft&amp;rsquo;s desktop automation tool included with Windows 10/11 and Microsoft 365. This how-to sets up a scheduled desktop flow that opens your report workbook, refreshes OfficeConnect data, saves, and closes — on any schedule you set.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 10 or 11 with Power Automate Desktop installed (&lt;a href="https://powerautomate.microsoft.com/en-us/desktop/"&gt;download from Microsoft&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Microsoft 365 subscription (Power Automate Desktop is included)&lt;/li&gt;
+&lt;li&gt;Your Workday OfficeConnect report workbook saved to a local path or a network/SharePoint location accessible from the machine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="oc-callout oc-callout--admin admin-note" role="note"&gt;
+ &lt;div class="oc-callout__icon" aria-hidden="true"&gt;
+ &lt;i class="fas fa-wrench"&gt;&lt;/i&gt;
+ &lt;/div&gt;
+ &lt;div class="oc-callout__body"&gt;
+ &lt;strong class="oc-callout__label"&gt;For admins &amp;amp; power users&lt;/strong&gt;
+ The machine running the flow must be on and signed in for the scheduled flow to run. This approach works best on a server or shared workstation that stays online. For cloud-only approaches, consider saving the refreshed file to SharePoint so downstream users always see the latest version.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="1-create-the-desktop-flow"&gt;1. Create the desktop flow&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Open &lt;strong&gt;Power Automate Desktop&lt;/strong&gt; from the Start menu.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;+ New flow&lt;/strong&gt;, give it a name like &lt;code&gt;Refresh OfficeConnect Monthly Report&lt;/code&gt;, and click &lt;strong&gt;Create&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;The flow designer opens. You will build the flow by adding actions from the left panel.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="2-add-actions-to-open-refresh-save-and-close-the-workbook"&gt;2. Add actions to open, refresh, save, and close the workbook&lt;/h2&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;
+&lt;p&gt;In the &lt;strong&gt;Actions&lt;/strong&gt; panel, search for &lt;strong&gt;Launch Excel&lt;/strong&gt; and drag it into the flow. Set:&lt;/p&gt;</description></item></channel></rss>

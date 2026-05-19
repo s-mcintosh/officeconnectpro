@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Upgrade on OfficeConnectPro</title><link>https://officeconnectpro.com/tags/upgrade/</link><description>Recent content in Upgrade on OfficeConnectPro</description><generator>Hugo</generator><language>en</language><atom:link href="https://officeconnectpro.com/tags/upgrade/index.xml" rel="self" type="application/rss+xml"/><item><title>Resolve OfficeConnect Update Errors</title><link>https://officeconnectpro.com/troubleshoot/update-errors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/update-errors/</guid><description>&lt;p&gt;&lt;strong&gt;Symptom:&lt;/strong&gt; When updating OfficeConnect, you see:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;An error occurred while downloading the update. Details: The underlying connection
+was closed: An unexpected error occurred on a send.
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="common-causes-and-fixes"&gt;Common causes and fixes&lt;/h2&gt;
+&lt;h3 id="cause-1-network-or-proxy-blocking-the-update"&gt;Cause 1: Network or proxy blocking the update&lt;/h3&gt;
+&lt;p&gt;Your corporate network or proxy may be blocking the update download.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fix:&lt;/strong&gt; Work with your IT team to allowlist the Workday update servers. Alternatively, download the latest installer manually from &lt;strong&gt;Product Downloads&lt;/strong&gt; in Workday and install it directly — bypassing the auto-update.&lt;/p&gt;</description></item><item><title>Check &amp; Update Your Version.</title><link>https://officeconnectpro.com/get-started/check-version/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/check-version/</guid><description>&lt;p&gt;Keeping OfficeConnect up to date is important — users on different versions may not be able to share workbooks. Check your version regularly and update with your team.&lt;/p&gt;
+&lt;h2 id="check-your-current-version"&gt;Check your current version&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open Excel and click the OfficeConnect tab&lt;/strong&gt;
+ The OfficeConnect tab appears in the Excel ribbon after installation.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open the Help menu&lt;/strong&gt;
+ In the OfficeConnect tab, click the &lt;strong&gt;Help&lt;/strong&gt; drop-down.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Click About&lt;/strong&gt;
+ The About dialog shows your current version number (e.g., &lt;code&gt;2026.104.3019.3004&lt;/code&gt;).
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="understand-the-version-number"&gt;Understand the version number&lt;/h2&gt;
+&lt;p&gt;OfficeConnect version numbers follow the pattern &lt;code&gt;YYYY.release.weekday.build&lt;/code&gt;, where &lt;code&gt;weekday&lt;/code&gt; encodes the week and day of the build.&lt;/p&gt;</description></item><item><title>Upgrade</title><link>https://officeconnectpro.com/admin/upgrade/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/admin/upgrade/</guid><description>&lt;p&gt;Workday ships OfficeConnect on a roughly six-month release cadence with mandatory upgrades. These guides help you stay ahead of the prompt.&lt;/p&gt;
+&lt;h2 id="articles-in-this-section"&gt;Articles in this section&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Articles for this section are being authored. Check back soon, or browse the &lt;a href="https://officeconnectpro.com/"&gt;main sections from the homepage&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Workday OfficeConnect Version Compatibility Matrix</title><link>https://officeconnectpro.com/reference/version-compatibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/reference/version-compatibility/</guid><description>&lt;p&gt;Workday ships OfficeConnect alongside Adaptive Planning releases on a roughly six-month cadence (R1 in spring, R2 in fall). Each release ships a new OfficeConnect client, and the older client is blocked at sign-in after a grace period.&lt;/p&gt;
+&lt;p&gt;This matrix tracks what&amp;rsquo;s compatible right now and what&amp;rsquo;s coming.&lt;/p&gt;
+&lt;div class="oc-callout oc-callout--new" role="note" data-release="2026R1"&gt;
+ &lt;div class="oc-callout__icon" aria-hidden="true"&gt;
+ &lt;i class="fas fa-sparkles"&gt;&lt;/i&gt;
+ &lt;/div&gt;
+ &lt;div class="oc-callout__body"&gt;
+ &lt;strong class="oc-callout__label"&gt;New in 2026R1&lt;/strong&gt;
+ Currently shipping: &lt;strong&gt;OfficeConnect 2026R1&lt;/strong&gt;, released March 14, 2026. See &lt;a href="https://officeconnectpro.com/whats-new/2026r1/"&gt;What&amp;rsquo;s New in 2026R1&lt;/a&gt;.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="current-support-matrix"&gt;Current support matrix&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Workday Release&lt;/th&gt;
+ &lt;th&gt;OfficeConnect client&lt;/th&gt;
+ &lt;th&gt;Status&lt;/th&gt;
+ &lt;th&gt;Notes&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;2026R1&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;2026R1&lt;/td&gt;
+ &lt;td&gt;Current — fully supported&lt;/td&gt;
+ &lt;td&gt;Released March 14, 2026. Adds View By and personal what-if scenarios.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;2025R2&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;2025R2 or 2026R1&lt;/td&gt;
+ &lt;td&gt;Supported with grace period&lt;/td&gt;
+ &lt;td&gt;September 2025 release. End-of-life when 2026R2 ships (fall 2026).&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;2025R1&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;2025R1 or newer&lt;/td&gt;
+ &lt;td&gt;Outside grace window — clients blocked at sign-in&lt;/td&gt;
+ &lt;td&gt;Introduced write-back. Upgrade is mandatory.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;2024R2&lt;/strong&gt; and earlier&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;Unsupported&lt;/td&gt;
+ &lt;td&gt;Client blocked at sign-in. Upgrade immediately.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="forced-upgrade-grace-periods"&gt;Forced-upgrade grace periods&lt;/h2&gt;
+&lt;p&gt;Each release has a grace period during which the prior client can still sign in. After the grace ends, the older client is blocked.&lt;/p&gt;</description></item></channel></rss>

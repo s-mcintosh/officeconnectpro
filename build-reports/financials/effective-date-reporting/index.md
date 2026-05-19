@@ -41,4 +41,4 @@ When your organization restructures mid-year, historical reports can show cost c
 
 - [Report on Actuals by Cost Center](/build-reports/financials/actuals-by-cost-center/)
 - [Filter Reports by Company](/build-reports/financials/filter-by-company/)
-- [Adaptive Planning vs. Financials Data Source](/build-reports/financials-vs-adaptive-planning/) — effective date is a Financials-only feature
+- [Adaptive Planning vs. Financials Data Source](/migration-comparison/financials-vs-adaptive-planning/) — effective date is a Financials-only feature

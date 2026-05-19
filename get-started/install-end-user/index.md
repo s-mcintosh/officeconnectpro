@@ -41,7 +41,7 @@ Open Word and PowerPoint to verify the tab also appears there.
 
 ## Result
 
-The OfficeConnect tab appears in Excel, Word, and PowerPoint. You're ready to [sign in and create your first tenant](/get-started/sign-in-create-tenant/).
+The OfficeConnect tab appears in Excel, Word, and PowerPoint. You're ready to [sign in and create your first tenant](/admin/configure/sign-in-create-tenant/).
 
 ## Troubleshooting
 
@@ -49,4 +49,4 @@ If the OfficeConnect tab doesn't appear after installation, see [Task Pane Not D
 
 ## Next steps
 
-→ [Sign in and create your first tenant](/get-started/sign-in-create-tenant/)
+→ [Sign in and create your first tenant](/admin/configure/sign-in-create-tenant/)

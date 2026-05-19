@@ -72,4 +72,4 @@ Confirm that each department's Gross Profit = Revenue − COGS, and that Net Inc
 
 - Add a budget or prior-year comparison column — see [Budget vs. Actuals Variance](/build-reports/budget-vs-actuals-variance/)
 - Protect the report for distribution — see [Lock and Protect Reports](/build-reports/lock-protect-reports/)
-- Publish to PowerPoint — see [OfficeConnect for PowerPoint](/build-reports/officeconnect-for-powerpoint/)
+- Publish to PowerPoint — see [OfficeConnect for PowerPoint](/word-powerpoint/powerpoint/officeconnect-for-powerpoint/)

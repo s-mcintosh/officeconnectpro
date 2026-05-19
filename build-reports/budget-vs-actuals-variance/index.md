@@ -95,4 +95,4 @@ Add column E with the header `Var %` and the formula `=(B3-C3)/ABS(C3)`. Format 
 
 - Expand to multiple months by adding more time columns — see [Time and Contexts](/build-reports/time-and-contexts/)
 - Add department rows using Level elements — see [Build a Department P&L Report](/build-reports/department-pl-report/)
-- Share the finished report with your team — see [Share via Teams & SharePoint](/build-reports/share-teams-sharepoint-onedrive/)
+- Share the finished report with your team — see [Share via Teams & SharePoint](/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)

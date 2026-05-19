@@ -15,7 +15,7 @@ When you report against a parent company (consolidated entity) in OfficeConnect,
 - If **elimination journals are posted** in Workday, they are included in consolidated totals automatically
 - The **Exclude Elimination** option (available in Financials data source reports) lets you toggle whether elimination entries are included in your totals
 
-> **Note:** The Exclude Elimination option is a Financials-only feature — it is not available in Adaptive Planning reports. See [Adaptive Planning vs. Financials Data Source](/build-reports/financials-vs-adaptive-planning/).
+> **Note:** The Exclude Elimination option is a Financials-only feature — it is not available in Adaptive Planning reports. See [Adaptive Planning vs. Financials Data Source](/migration-comparison/financials-vs-adaptive-planning/).
 
 ## View intercompany eliminations separately
 

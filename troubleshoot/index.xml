@@ -1,14 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Troubleshoot &amp; FAQ on OfficeConnectPro</title><link>https://officeconnectpro.com/troubleshoot/</link><description>Recent content in Troubleshoot &amp; FAQ on OfficeConnectPro</description><generator>Hugo</generator><language>en</language><atom:link href="https://officeconnectpro.com/troubleshoot/index.xml" rel="self" type="application/rss+xml"/><item><title>Fix COM Registration Errors</title><link>https://officeconnectpro.com/troubleshoot/com-registration-error/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/com-registration-error/</guid><description>&lt;p&gt;&lt;strong&gt;Symptom:&lt;/strong&gt; You receive an error like the following when trying to install or update OfficeConnect:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Troubleshoot &amp; FAQ on OfficeConnectPro</title><link>https://officeconnectpro.com/troubleshoot/</link><description>Recent content in Troubleshoot &amp; FAQ on OfficeConnectPro</description><generator>Hugo</generator><language>en</language><atom:link href="https://officeconnectpro.com/troubleshoot/index.xml" rel="self" type="application/rss+xml"/><item><title>Fix COM Registration Errors</title><link>https://officeconnectpro.com/troubleshoot/com-registration-error/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/com-registration-error/</guid><description>&lt;p&gt;COM registration errors usually surface during a Workday OfficeConnect install or upgrade and point to a broken Microsoft Office add-in registration. Confirm your machine meets the &lt;a href="https://officeconnectpro.com/get-started/system-requirements/"&gt;system requirements&lt;/a&gt; before working through the fixes — multiple Office versions installed side by side is the most common root cause.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Symptom:&lt;/strong&gt; You receive an error like the following when trying to install or update OfficeConnect:&lt;/p&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;System.InvalidCastException: Unable to cast COM object of type &amp;#39;System.__ComObject&amp;#39;
 to interface type &amp;#39;Microsoft.Office.Core.IRibbonUI&amp;#39;.
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id="why-this-happens"&gt;Why this happens&lt;/h2&gt;
-&lt;p&gt;OfficeConnect is an Excel COM add-in that relies on Excel objects registered correctly by your Microsoft Office installation. This error occurs when:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Excel&amp;rsquo;s COM objects aren&amp;rsquo;t registered correctly&lt;/li&gt;
-&lt;li&gt;You have multiple versions of Microsoft Office installed (e.g., Project 2016 and Excel 2013), leading to conflicting versions of the MS-VSTO library&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="fix-option-1-repair-microsoft-office"&gt;Fix option 1: Repair Microsoft Office&lt;/h2&gt;
-&lt;p&gt;Many users resolve this by repairing the Office installation:&lt;/p&gt;</description></item><item><title>Resolve OfficeConnect Update Errors</title><link>https://officeconnectpro.com/troubleshoot/update-errors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/update-errors/</guid><description>&lt;p&gt;&lt;strong&gt;Symptom:&lt;/strong&gt; When updating OfficeConnect, you see:&lt;/p&gt;
+&lt;p&gt;OfficeConnect is an Excel COM add-in that relies on Excel objects registered correctly by your Microsoft Office installation. This error occurs when:&lt;/p&gt;</description></item><item><title>Resolve OfficeConnect Update Errors</title><link>https://officeconnectpro.com/troubleshoot/update-errors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/update-errors/</guid><description>&lt;p&gt;&lt;strong&gt;Symptom:&lt;/strong&gt; When updating OfficeConnect, you see:&lt;/p&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;An error occurred while downloading the update. Details: The underlying connection
 was closed: An unexpected error occurred on a send.
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id="common-causes-and-fixes"&gt;Common causes and fixes&lt;/h2&gt;
@@ -42,11 +37,8 @@ was closed: An unexpected error occurred on a send.
 &lt;/div&gt;
 
 &lt;h2 id="symptom-floating-pane-has-disappeared"&gt;Symptom: Floating pane has disappeared&lt;/h2&gt;
-&lt;p&gt;If you undocked the Reporting pane and lost it:&lt;/p&gt;</description></item><item><title>Numbers Not Shifting After Inserting Rows</title><link>https://officeconnectpro.com/troubleshoot/numbers-not-shifting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/numbers-not-shifting/</guid><description>&lt;p&gt;&lt;strong&gt;Symptom:&lt;/strong&gt; You insert rows into your Excel worksheet, but OfficeConnect data in rows below the insertion point doesn&amp;rsquo;t shift down — the elements stay in their original positions.&lt;/p&gt;
-&lt;h2 id="why-this-happens"&gt;Why this happens&lt;/h2&gt;
-&lt;p&gt;OfficeConnect element metadata is attached to specific cells. When you use standard Excel &lt;strong&gt;Insert Rows&lt;/strong&gt;, Excel moves the cell values but the OfficeConnect element assignments don&amp;rsquo;t follow — they remain anchored to the original row numbers.&lt;/p&gt;
-&lt;h2 id="fix-use-officeconnects-insertdelete-functions"&gt;Fix: Use OfficeConnect&amp;rsquo;s Insert/Delete functions&lt;/h2&gt;
-&lt;p&gt;Instead of Excel&amp;rsquo;s native Insert Rows/Delete Rows, always use OfficeConnect&amp;rsquo;s equivalent:&lt;/p&gt;</description></item><item><title>Suppress &amp; Hide Zeros and Blanks</title><link>https://officeconnectpro.com/troubleshoot/suppress-zeros-blanks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/suppress-zeros-blanks/</guid><description>&lt;p&gt;Zero suppression in OfficeConnect is a two-part system: &lt;strong&gt;Workbook Properties&lt;/strong&gt; controls the &lt;em&gt;default state&lt;/em&gt;, and the &lt;strong&gt;Hide Zeros &amp;amp; Blanks&lt;/strong&gt; ribbon button is a &lt;em&gt;toggle&lt;/em&gt; on top of that default.&lt;/p&gt;
+&lt;p&gt;If you undocked the Reporting pane and lost it:&lt;/p&gt;</description></item><item><title>Numbers Not Shifting After Inserting Rows</title><link>https://officeconnectpro.com/troubleshoot/numbers-not-shifting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/numbers-not-shifting/</guid><description>&lt;p&gt;When you edit a report&amp;rsquo;s structure with native Excel commands, Workday OfficeConnect element bindings stay glued to the original row numbers — which is why a row insert can leave your data behind. The fix is to use OfficeConnect&amp;rsquo;s own insert/delete commands; see &lt;a href="https://officeconnectpro.com/build-reports/cut-copy-move-elements/"&gt;Cut, Copy &amp;amp; Move Elements&lt;/a&gt; for the equivalent move pattern.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Symptom:&lt;/strong&gt; You insert rows into your Excel worksheet, but OfficeConnect data in rows below the insertion point doesn&amp;rsquo;t shift down — the elements stay in their original positions.&lt;/p&gt;</description></item><item><title>Suppress &amp; Hide Zeros and Blanks</title><link>https://officeconnectpro.com/troubleshoot/suppress-zeros-blanks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/suppress-zeros-blanks/</guid><description>&lt;p&gt;Hiding empty rows in a Workday OfficeConnect report is a two-part system: &lt;strong&gt;Workbook Properties&lt;/strong&gt; controls the &lt;em&gt;default state&lt;/em&gt;, and the &lt;strong&gt;Hide Zeros &amp;amp; Blanks&lt;/strong&gt; ribbon button is a &lt;em&gt;toggle&lt;/em&gt; on top of that default. Review the full settings layout in &lt;a href="https://officeconnectpro.com/build-reports/workbook-worksheet-properties/"&gt;Workbook &amp;amp; Worksheet Properties&lt;/a&gt; so you set the default in the right place.&lt;/p&gt;
 &lt;h2 id="how-it-works"&gt;How it works&lt;/h2&gt;
 &lt;table&gt;
  &lt;thead&gt;
@@ -92,7 +84,8 @@ was closed: An unexpected error occurred on a send.
 &lt;/div&gt;
 
 &lt;h2 id="per-row-overrides"&gt;Per-row overrides&lt;/h2&gt;
-&lt;p&gt;With the workbook default set, you can configure individual rows to behave differently:&lt;/p&gt;</description></item><item><title>Remove Elements</title><link>https://officeconnectpro.com/troubleshoot/remove-elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/remove-elements/</guid><description>&lt;p&gt;&lt;strong&gt;Question:&lt;/strong&gt; How do I remove OfficeConnect elements from a range of cells?&lt;/p&gt;
+&lt;p&gt;With the workbook default set, you can configure individual rows to behave differently:&lt;/p&gt;</description></item><item><title>Remove Elements</title><link>https://officeconnectpro.com/troubleshoot/remove-elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/remove-elements/</guid><description>&lt;p&gt;When you clear cells in a Workday OfficeConnect report with Excel&amp;rsquo;s normal delete, the element metadata can linger and confuse later refreshes — so use OfficeConnect&amp;rsquo;s own clear command instead. For the related move and copy workflows, see &lt;a href="https://officeconnectpro.com/build-reports/cut-copy-move-elements/"&gt;Cut, Copy &amp;amp; Move Elements&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Question:&lt;/strong&gt; How do I remove OfficeConnect elements from a range of cells?&lt;/p&gt;
 &lt;h2 id="steps"&gt;Steps&lt;/h2&gt;
 &lt;div class="step-block"&gt;
  &lt;div class="step-number"&gt;1&lt;/div&gt;
@@ -118,7 +111,7 @@ was closed: An unexpected error occurred on a send.
 &lt;li&gt;The visual contents of the cells remain until you delete them manually or the next refresh would have populated them&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="remove-elements-from-multiple-locations"&gt;Remove elements from multiple locations&lt;/h2&gt;
-&lt;p&gt;To remove elements from several rows or columns at once:&lt;/p&gt;</description></item><item><title>Change Rounding Settings</title><link>https://officeconnectpro.com/troubleshoot/change-rounding-settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/change-rounding-settings/</guid><description>&lt;p&gt;OfficeConnect defaults to &lt;strong&gt;Thousands&lt;/strong&gt; rounding for Adaptive Planning data sources — so &lt;code&gt;100,000&lt;/code&gt; displays as &lt;code&gt;100&lt;/code&gt; and &lt;code&gt;1,000&lt;/code&gt; displays as &lt;code&gt;1&lt;/code&gt;. You can change this at three levels.&lt;/p&gt;
+&lt;p&gt;To remove elements from several rows or columns at once:&lt;/p&gt;</description></item><item><title>Change Rounding Settings</title><link>https://officeconnectpro.com/troubleshoot/change-rounding-settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/change-rounding-settings/</guid><description>&lt;p&gt;Workday OfficeConnect defaults to &lt;strong&gt;Thousands&lt;/strong&gt; rounding for Adaptive Planning data sources — so &lt;code&gt;100,000&lt;/code&gt; displays as &lt;code&gt;100&lt;/code&gt; and &lt;code&gt;1,000&lt;/code&gt; displays as &lt;code&gt;1&lt;/code&gt;. You can change this at three levels. The same dialog drives several other display defaults; see &lt;a href="https://officeconnectpro.com/build-reports/workbook-worksheet-properties/"&gt;Workbook &amp;amp; Worksheet Properties&lt;/a&gt; for the full picture.&lt;/p&gt;
 &lt;h2 id="rounding-levels-highest-to-lowest-precedence"&gt;Rounding levels (highest to lowest precedence)&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Selection Properties&lt;/strong&gt; — for a specific row, column, or cell&lt;/li&gt;
@@ -201,42 +194,9 @@ was closed: An unexpected error occurred on a send.
 &lt;/div&gt;
 
 &lt;h2 id="rounding-and-percentage-values"&gt;Rounding and percentage values&lt;/h2&gt;
-&lt;p&gt;If your report includes percentages, rounding to Thousands will distort them — &lt;code&gt;25.25%&lt;/code&gt; becomes &lt;code&gt;0.0002525&lt;/code&gt;. See &lt;a href="https://officeconnectpro.com/troubleshoot/display-percentage-values/"&gt;Display Percentage Values&lt;/a&gt; for the fix.&lt;/p&gt;</description></item><item><title>Display Percentage Values Correctly</title><link>https://officeconnectpro.com/troubleshoot/display-percentage-values/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/display-percentage-values/</guid><description>&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Percentage values from Adaptive Planning appear as tiny decimals in OfficeConnect. For example, &lt;code&gt;25.25%&lt;/code&gt; shows as &lt;code&gt;0.0002525&lt;/code&gt; when workbook rounding is set to Thousands.&lt;/p&gt;
-&lt;p&gt;This happens because OfficeConnect stores percentages as decimals (&lt;code&gt;0.2525&lt;/code&gt;) and then applies the workbook&amp;rsquo;s rounding setting on top — Thousands rounding divides by 1,000, making it &lt;code&gt;0.0002525&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id="fix-option-1-set-rounding-to-no-rounding-whole-workbook"&gt;Fix option 1: Set rounding to No Rounding (whole workbook)&lt;/h2&gt;
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;1&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Open Workbook Properties&lt;/strong&gt;
- In the OfficeConnect ribbon, click &lt;strong&gt;Workbook Properties&lt;/strong&gt;.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;2&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;On the Format tab, set Round to No Rounding&lt;/strong&gt;
- 
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;3&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Format the percentage cells in Excel&lt;/strong&gt;
- Select the cells and use Excel&amp;rsquo;s &lt;strong&gt;Format Cells → Percentage&lt;/strong&gt; to display them correctly.
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="step-block"&gt;
- &lt;div class="step-number"&gt;4&lt;/div&gt;
- &lt;div class="step-content"&gt;
- &lt;strong&gt;Refresh&lt;/strong&gt;
- 
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Trade-off:&lt;/strong&gt; This removes rounding from the entire workbook. All other numbers will display without rounding too.&lt;/p&gt;</description></item><item><title>Create Fixed Date Columns</title><link>https://officeconnectpro.com/troubleshoot/fixed-date-columns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/fixed-date-columns/</guid><description>&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; You&amp;rsquo;ve set up a report with relative time elements (like &amp;ldquo;Current Month,&amp;rdquo; &amp;ldquo;Prior Month&amp;rdquo;) so it always shows recent data. But you want certain columns to stay fixed at a specific historical date — not roll forward with time.&lt;/p&gt;
+&lt;p&gt;If your report includes percentages, rounding to Thousands will distort them — &lt;code&gt;25.25%&lt;/code&gt; becomes &lt;code&gt;0.0002525&lt;/code&gt;. See &lt;a href="https://officeconnectpro.com/troubleshoot/display-percentage-values/"&gt;Display Percentage Values&lt;/a&gt; for the fix.&lt;/p&gt;</description></item><item><title>Display Percentage Values Correctly</title><link>https://officeconnectpro.com/troubleshoot/display-percentage-values/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/display-percentage-values/</guid><description>&lt;p&gt;Percentages are a classic gotcha when Workday OfficeConnect&amp;rsquo;s default Thousands rounding interacts with Adaptive Planning values stored as decimals. Before changing settings, review where rounding is configured in &lt;a href="https://officeconnectpro.com/troubleshoot/change-rounding-settings/"&gt;Change Rounding Settings&lt;/a&gt; so you fix the right level.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Percentage values from Adaptive Planning appear as tiny decimals in OfficeConnect. For example, &lt;code&gt;25.25%&lt;/code&gt; shows as &lt;code&gt;0.0002525&lt;/code&gt; when workbook rounding is set to Thousands.&lt;/p&gt;
+&lt;p&gt;This happens because OfficeConnect stores percentages as decimals (&lt;code&gt;0.2525&lt;/code&gt;) and then applies the workbook&amp;rsquo;s rounding setting on top — Thousands rounding divides by 1,000, making it &lt;code&gt;0.0002525&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Create Fixed Date Columns</title><link>https://officeconnectpro.com/troubleshoot/fixed-date-columns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/fixed-date-columns/</guid><description>&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; You&amp;rsquo;ve set up a report with relative time elements (like &amp;ldquo;Current Month,&amp;rdquo; &amp;ldquo;Prior Month&amp;rdquo;) so it always shows recent data. But you want certain columns to stay fixed at a specific historical date — not roll forward with time.&lt;/p&gt;
 &lt;h2 id="why-relative-dates-roll"&gt;Why relative dates roll&lt;/h2&gt;
 &lt;p&gt;When you create a report using relative time elements, OfficeConnect automatically advances them when you refresh — &amp;ldquo;Current Month&amp;rdquo; always shows the current month. This is great for rolling reports but not for fixed comparisons.&lt;/p&gt;</description></item><item><title>Create a Trailing 12-Month Report</title><link>https://officeconnectpro.com/troubleshoot/trailing-12-month-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/trailing-12-month-report/</guid><description>&lt;p&gt;A trailing 12-month (T12M) report shows the 12 most recent calendar months and advances automatically each month. This is a common layout for rolling actuals analysis.&lt;/p&gt;
 &lt;h2 id="how-to-build-it"&gt;How to build it&lt;/h2&gt;
@@ -319,7 +279,25 @@ was closed: An unexpected error occurred on a send.
  &lt;div class="step-number"&gt;6&lt;/div&gt;
  &lt;div class="step-content"&gt;
  &lt;strong&gt;Reproduce the error on the &amp;#39;Re-create Issue&amp;#39; page&lt;/strong&gt;
- &lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt; While the Re-create Issue page is open, perform the action that causes the error. For example:&lt;/p&gt;</description></item><item><title>Fix OfficeConnect Not Refreshing</title><link>https://officeconnectpro.com/troubleshoot/not-refreshing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/not-refreshing/</guid><description>&lt;h2 id="symptom"&gt;Symptom&lt;/h2&gt;
+ &lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt; While the Re-create Issue page is open, perform the action that causes the error. For example:&lt;/p&gt;</description></item><item><title>Re-Enabling a Disabled OfficeConnect COM Add-in</title><link>https://officeconnectpro.com/troubleshoot/reenable-com-addin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/reenable-com-addin/</guid><description>&lt;p&gt;When Excel crashes or hangs while Workday OfficeConnect is running, Excel sometimes responds by disabling the add-in to prevent future crashes. The next time you open Excel, the OfficeConnect tab is gone — and reinstalling OfficeConnect doesn&amp;rsquo;t bring it back.&lt;/p&gt;
+&lt;p&gt;The fix is to re-enable it from Excel&amp;rsquo;s &lt;strong&gt;Disabled Items&lt;/strong&gt; list. This article walks through it.&lt;/p&gt;
+&lt;p&gt;If your OfficeConnect tab is missing for a different reason (never installed, install corrupted, JavaScript add-in on Mac), see also &lt;a href="https://officeconnectpro.com/troubleshoot/task-pane-not-displaying/"&gt;Task Pane Not Displaying&lt;/a&gt; and &lt;a href="https://officeconnectpro.com/get-started/install-end-user/"&gt;Install for End Users&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Why Your Refresh Shows 'Contact Technical Support'</title><link>https://officeconnectpro.com/troubleshoot/refresh-contact-support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/refresh-contact-support/</guid><description>&lt;p&gt;You click &lt;strong&gt;Refresh&lt;/strong&gt; in Workday OfficeConnect. After 5-30 seconds, a dialog appears:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Refresh failed. Please contact technical support.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The dialog is famously unhelpful — it doesn&amp;rsquo;t say what went wrong. In practice, almost every instance of this error has one of five concrete causes. Work through them in order.&lt;/p&gt;
+&lt;h2 id="what-youll-see"&gt;What you&amp;rsquo;ll see&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Excel freezes briefly during refresh&lt;/li&gt;
+&lt;li&gt;A modal dialog appears: &lt;em&gt;&amp;ldquo;Refresh failed. Please contact technical support.&amp;rdquo;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;After dismissing, your OfficeConnect cells either show stale values or &lt;code&gt;n/a&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;No error code is shown&lt;/li&gt;
+&lt;li&gt;The Excel status bar may briefly show an OfficeConnect error before the dialog appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="root-causes-in-order-of-frequency"&gt;Root causes (in order of frequency)&lt;/h2&gt;
+&lt;h3 id="1-your-session-has-timed-out"&gt;1. Your session has timed out&lt;/h3&gt;
+&lt;p&gt;By far the most common cause. After 60 minutes of inactivity (or your tenant&amp;rsquo;s configured timeout), OfficeConnect&amp;rsquo;s token expires. The next refresh fails with this generic dialog instead of a clear &amp;ldquo;session expired&amp;rdquo; message.&lt;/p&gt;</description></item><item><title>Fix OfficeConnect Not Refreshing</title><link>https://officeconnectpro.com/troubleshoot/not-refreshing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/not-refreshing/</guid><description>&lt;p&gt;If Workday OfficeConnect won&amp;rsquo;t pull fresh data, the cause is almost always a session, formula, or connection problem rather than a corrupted workbook. Confirm your tenant connection on &lt;a href="https://officeconnectpro.com/admin/configure/sign-in-create-tenant/"&gt;Sign In &amp;amp; Create a Tenant&lt;/a&gt; before working through the fixes below.&lt;/p&gt;
+&lt;h2 id="symptom"&gt;Symptom&lt;/h2&gt;
 &lt;p&gt;You click &lt;strong&gt;Refresh&lt;/strong&gt; in the OfficeConnect ribbon and one of the following happens:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Nothing happens — the button appears to do nothing&lt;/li&gt;
@@ -360,7 +338,8 @@ was closed: An unexpected error occurred on a send.
 &lt;li&gt;In the Excel ribbon, click the &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab → &lt;strong&gt;Show Pane&lt;/strong&gt; (or equivalent button to re-open the pane). This reloads the add-in&amp;rsquo;s JavaScript runtime.&lt;/li&gt;
 &lt;li&gt;Sign in again if prompted, then click &lt;strong&gt;Refresh&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;If reloading the pane doesn&amp;rsquo;t help, close Excel entirely, reopen it, and open the workbook again. Full Excel restart clears add-in state more completely than closing the pane.&lt;/p&gt;</description></item><item><title>Fix Authentication and Token Errors in OfficeConnect</title><link>https://officeconnectpro.com/troubleshoot/authentication-token-errors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/authentication-token-errors/</guid><description>&lt;h2 id="symptom"&gt;Symptom&lt;/h2&gt;
+&lt;p&gt;If reloading the pane doesn&amp;rsquo;t help, close Excel entirely, reopen it, and open the workbook again. Full Excel restart clears add-in state more completely than closing the pane.&lt;/p&gt;</description></item><item><title>Fix Authentication and Token Errors in OfficeConnect</title><link>https://officeconnectpro.com/troubleshoot/authentication-token-errors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/authentication-token-errors/</guid><description>&lt;p&gt;Token and sign-in errors usually mean the SSO session has lapsed or the tenant configuration has drifted. Confirm Workday OfficeConnect is pointed at a valid tenant on &lt;a href="https://officeconnectpro.com/admin/configure/sign-in-create-tenant/"&gt;Sign In &amp;amp; Create a Tenant&lt;/a&gt;, and review your &lt;a href="https://officeconnectpro.com/admin/configure/workday-sso/"&gt;Workday SSO configuration&lt;/a&gt; if multiple users hit the same error.&lt;/p&gt;
+&lt;h2 id="symptom"&gt;Symptom&lt;/h2&gt;
 &lt;p&gt;One or more of the following:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;OfficeConnect shows an error message containing words like &amp;ldquo;Authentication failed&amp;rdquo;, &amp;ldquo;Token expired&amp;rdquo;, &amp;ldquo;Unauthorized&amp;rdquo;, or &amp;ldquo;401&amp;rdquo;&lt;/li&gt;
@@ -379,7 +358,8 @@ was closed: An unexpected error occurred on a send.
 &lt;/ol&gt;
 &lt;hr&gt;
 &lt;h2 id="fix-1-sign-out-and-sign-back-in"&gt;Fix 1: Sign out and sign back in&lt;/h2&gt;
-&lt;p&gt;The fastest fix for most token errors is a clean sign-out and re-authentication.&lt;/p&gt;</description></item><item><title>Fix Slow Performance in Large Reports</title><link>https://officeconnectpro.com/troubleshoot/slow-performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/slow-performance/</guid><description>&lt;h2 id="symptom"&gt;Symptom&lt;/h2&gt;
+&lt;p&gt;The fastest fix for most token errors is a clean sign-out and re-authentication.&lt;/p&gt;</description></item><item><title>Fix Slow Performance in Large Reports</title><link>https://officeconnectpro.com/troubleshoot/slow-performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/slow-performance/</guid><description>&lt;p&gt;Large Workday OfficeConnect workbooks can grind to a halt if formula counts, dimension scope, or network paths aren&amp;rsquo;t tuned. Before tearing the report apart, review the workbook-level techniques in &lt;a href="https://officeconnectpro.com/performance/optimize-performance/"&gt;Optimize OfficeConnect Performance&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="symptom"&gt;Symptom&lt;/h2&gt;
 &lt;p&gt;One or more of the following:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;OfficeConnect refresh takes more than 30 seconds to complete&lt;/li&gt;
@@ -420,4 +400,32 @@ was closed: An unexpected error occurred on a send.
 &lt;/ol&gt;
 &lt;hr&gt;
 &lt;h2 id="fix-1-align-the-period-definition"&gt;Fix 1: Align the period definition&lt;/h2&gt;
-&lt;p&gt;This is the most common cause. Confirm both tools are using the exact same period.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;This is the most common cause. Confirm both tools are using the exact same period.&lt;/p&gt;</description></item><item><title>Workday OfficeConnect + think-cell: Resolving the Conflict</title><link>https://officeconnectpro.com/troubleshoot/think-cell-conflict/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/think-cell-conflict/</guid><description>&lt;p&gt;If your finance team uses both Workday OfficeConnect and think-cell (the PowerPoint chart add-in), you&amp;rsquo;ve probably hit a conflict: Excel crashes during OfficeConnect refresh, think-cell charts won&amp;rsquo;t update, or one of the two add-ins quietly disables the other. This article documents the conflict and the workaround.&lt;/p&gt;
+&lt;h2 id="symptom"&gt;Symptom&lt;/h2&gt;
+&lt;p&gt;Any of the following with both add-ins installed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Excel crashes during OfficeConnect &lt;strong&gt;Refresh&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;think-cell PowerPoint charts won&amp;rsquo;t refresh from the Excel source&lt;/li&gt;
+&lt;li&gt;One ribbon tab disappears after a crash (more often OfficeConnect — see &lt;a href="https://officeconnectpro.com/troubleshoot/reenable-com-addin/"&gt;Re-enabling a Disabled COM Add-in&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&amp;ldquo;OfficeConnect has encountered an error&amp;rdquo;&lt;/em&gt; dialog with no error code&lt;/li&gt;
+&lt;li&gt;Sluggish Excel performance with both add-ins loaded&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="root-cause"&gt;Root cause&lt;/h2&gt;
+&lt;p&gt;Both OfficeConnect and think-cell are COM add-ins that hook deeply into Excel through &lt;strong&gt;subclassing&lt;/strong&gt; — they intercept Excel&amp;rsquo;s internal Windows messages to extend behavior. When two add-ins subclass the same Excel window in incompatible ways, the second one to load can break the first, or both can corrupt Excel&amp;rsquo;s message handling.&lt;/p&gt;</description></item><item><title>Use OfficeConnect on Mac</title><link>https://officeconnectpro.com/troubleshoot/officeconnect-on-mac/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/officeconnect-on-mac/</guid><description>&lt;p&gt;Workday OfficeConnect runs on Excel for Mac (Microsoft 365 subscription required). The core reporting experience — building reports, refreshing data, and navigating the Reporting pane — works the same as Windows. A few things are different, and a handful of Windows-only features are unavailable. This guide covers what you need to know.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A Mac running macOS 12 (Monterey) or later&lt;/li&gt;
+&lt;li&gt;Microsoft 365 with Excel for Mac (version 16.54 or later)&lt;/li&gt;
+&lt;li&gt;Workday OfficeConnect deployed by your IT admin, or access to install it from the Microsoft AppSource&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="1-install-officeconnect-on-mac"&gt;1. Install OfficeConnect on Mac&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Open &lt;strong&gt;Excel for Mac&lt;/strong&gt; and sign in with your Microsoft 365 account.&lt;/li&gt;
+&lt;li&gt;Click the &lt;strong&gt;Insert&lt;/strong&gt; tab in the menu bar, then click &lt;strong&gt;Add-ins&lt;/strong&gt; (or &lt;strong&gt;Get Add-ins&lt;/strong&gt; depending on your Excel version).&lt;/li&gt;
+&lt;li&gt;In the Office Add-ins dialog, search for &lt;strong&gt;OfficeConnect&lt;/strong&gt; in the Store tab. If your IT admin deployed it centrally, look in the &lt;strong&gt;Admin Managed&lt;/strong&gt; tab instead.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Add&lt;/strong&gt;. After a moment, an &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab appears in the Excel ribbon.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If your organization deploys Workday OfficeConnect via a custom manifest URL, ask your IT admin for the manifest URL and install it via &lt;strong&gt;Insert → Add-ins → Upload My Add-in&lt;/strong&gt; (or the equivalent in your version of Excel for Mac).&lt;/p&gt;</description></item><item><title>Workday OfficeConnect on Mac: The VDI Workflow</title><link>https://officeconnectpro.com/troubleshoot/mac-vdi-workflow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/mac-vdi-workflow/</guid><description>&lt;p&gt;The native Mac version of Workday OfficeConnect (Excel for Mac JavaScript add-in) supports most reporting workflows, but a few power-user features remain Windows-only — most notably Power Automate Desktop integration, configurable refresh shortcuts, and the broadest set of add-in interop. For Mac users who need parity with their Windows colleagues, a VDI (virtual desktop infrastructure) is the established workaround.&lt;/p&gt;
+&lt;p&gt;This article compares the three realistic options and walks through the simplest setup.&lt;/p&gt;</description></item></channel></rss>

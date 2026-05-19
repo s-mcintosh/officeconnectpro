@@ -13,7 +13,7 @@ A trial balance lists every ledger account with its debit or credit balance for 
 **What you'll need:**
 - OfficeConnect installed and connected to a tenant configured for the **Financials data source** (not Adaptive Planning)
 - Access to at least one company with posted journal entries in Workday Financial Management
-- The [Financials vs. Adaptive Planning](/build-reports/financials-vs-adaptive-planning/) page explains the difference if you're unsure which data source you have
+- The [Financials vs. Adaptive Planning](/migration-comparison/financials-vs-adaptive-planning/) page explains the difference if you're unsure which data source you have
 
 ---
 
