@@ -14,7 +14,7 @@ Any of the following with both add-ins installed:
 
 - Excel crashes during OfficeConnect **Refresh**
 - think-cell PowerPoint charts won't refresh from the Excel source
-- One ribbon tab disappears after a crash (more often OfficeConnect — see [Re-enabling a Disabled COM Add-in](/troubleshoot/reenable-com-addin/))
+- One ribbon tab disappears after a crash (more often OfficeConnect — see [Re-enabling a Disabled COM Add-in](/reference/troubleshoot/reenable-com-addin/))
 - *"OfficeConnect has encountered an error"* dialog with no error code
 - Sluggish Excel performance with both add-ins loaded
 
@@ -22,7 +22,7 @@ Any of the following with both add-ins installed:
 
 Both OfficeConnect and think-cell are COM add-ins that hook deeply into Excel through **subclassing** — they intercept Excel's internal Windows messages to extend behavior. When two add-ins subclass the same Excel window in incompatible ways, the second one to load can break the first, or both can corrupt Excel's message handling.
 
-think-cell documents this conflict from their side in [KB0231](https://www.think-cell.com/en/resources/kb/0231). The fix is symmetric — it works the same regardless of which add-in you "prefer."
+think-cell documents this conflict from their side in [KB0231](https://www.think-cell.com/en/reference/resources/kb/0231). The fix is symmetric — it works the same regardless of which add-in you "prefer."
 
 ## Fix — Load order workaround
 
@@ -96,6 +96,6 @@ Both add-ins coexist in the same Excel install without crashing, even if you hav
 
 ## Next steps
 
-- [Re-Enabling a Disabled COM Add-in](/troubleshoot/reenable-com-addin/) — if a crash left OfficeConnect disabled.
-- [Optimize Performance](/performance/optimize-performance/) — reduces the refresh windows where crashes are most likely.
+- [Re-Enabling a Disabled COM Add-in](/reference/troubleshoot/reenable-com-addin/) — if a crash left OfficeConnect disabled.
+- [Optimize Performance](/get-started/performance/optimize-performance/) — reduces the refresh windows where crashes are most likely.
 - [Check & Update Your Version](/get-started/check-version/) — make sure you're on a current OfficeConnect build.

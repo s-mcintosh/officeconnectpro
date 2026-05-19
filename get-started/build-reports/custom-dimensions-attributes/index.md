@@ -10,7 +10,7 @@ Adaptive Planning models often include custom dimensions beyond the standard acc
 
 **What you'll need:**
 - OfficeConnect connected to an Adaptive Planning model that includes custom dimensions
-- Familiarity with building basic reports — see [Budget vs. Actuals Variance](/build-reports/budget-vs-actuals-variance/)
+- Familiarity with building basic reports — see [Budget vs. Actuals Variance](/get-started/build-reports/budget-vs-actuals-variance/)
 
 ---
 
@@ -23,7 +23,7 @@ Adaptive Planning models often include custom dimensions beyond the standard acc
 
 ## 2. Add a custom dimension filter to a report
 
-3. Build a basic report with account rows, a version header, and a time context — see [Budget vs. Actuals Variance](/build-reports/budget-vs-actuals-variance/) for a walkthrough.
+3. Build a basic report with account rows, a version header, and a time context — see [Budget vs. Actuals Variance](/get-started/build-reports/budget-vs-actuals-variance/) for a walkthrough.
 4. To filter the entire report by a single dimension member (for example, show only North America figures): In the Reporting pane, expand **Custom Dimensions → Region** and drag the **North America** member into any blank cell in the header area of your report (for example, E1). OfficeConnect adds a filter element — this restricts all formulas in the workbook to that member of the dimension.
 5. Click **Refresh**. All data cells update to show values scoped to North America only.
 
@@ -50,6 +50,6 @@ Adaptive Planning models often include custom dimensions beyond the standard acc
 
 ## Related links
 
-- [Budget vs. Actuals Variance](/build-reports/budget-vs-actuals-variance/)
-- [Set Up Scenario Comparison](/build-reports/scenario-comparison/)
-- [Build a Department P&L Report](/build-reports/department-pl-report/)
+- [Budget vs. Actuals Variance](/get-started/build-reports/budget-vs-actuals-variance/)
+- [Set Up Scenario Comparison](/get-started/build-reports/scenario-comparison/)
+- [Build a Department P&L Report](/get-started/build-reports/department-pl-report/)

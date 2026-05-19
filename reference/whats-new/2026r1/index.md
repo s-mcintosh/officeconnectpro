@@ -14,8 +14,8 @@ Released **March 14, 2026**. This page summarizes every OfficeConnect change in 
 
 | Change | Audience | Action |
 |---|---|---|
-| **View By** ribbon command | FP&A end users | Read [View By deep dive](/whats-new/2026r1-view-by/) |
-| **Personal what-if scenarios** | FP&A end users | Read [Personal scenarios deep dive](/whats-new/2026r1-personal-scenarios/) |
+| **View By** ribbon command | FP&A end users | Read [View By deep dive](/reference/whats-new/2026r1-view-by/) |
+| **Personal what-if scenarios** | FP&A end users | Read [Personal scenarios deep dive](/reference/whats-new/2026r1-personal-scenarios/) |
 | Forced upgrade prompt at sign-in | All users + admins | See [Check & Update Your Version](/get-started/check-version/) |
 | Broader Adaptive 2026R1 updates (Predictive Forecaster, Hubs, collaborative modeling security) | Adaptive admins (outside OfficeConnect) | Not covered here — see Workday docs |
 
@@ -25,13 +25,13 @@ Released **March 14, 2026**. This page summarizes every OfficeConnect change in 
 
 A new ribbon command, **View By**, opens the underlying data behind any cell in a separate worksheet so you can manipulate it without breaking your main report. Useful for ad-hoc filtering and what-if analysis when you don't want to touch the formatted template.
 
-Read the deep dive: [View By (2026R1)](/whats-new/2026r1-view-by/).
+Read the deep dive: [View By (2026R1)](/reference/whats-new/2026r1-view-by/).
 
 ### Personal what-if scenarios
 
 End users can now create their own what-if versions without involving an Adaptive Planning administrator. These personal scenarios are scoped to the individual, branch from a parent version, and don't pollute the shared version list.
 
-Read the deep dive: [Personal what-if scenarios (2026R1)](/whats-new/2026r1-personal-scenarios/).
+Read the deep dive: [Personal what-if scenarios (2026R1)](/reference/whats-new/2026r1-personal-scenarios/).
 
 ### The forced-upgrade prompt is back
 
@@ -41,13 +41,13 @@ For IT admins managing rollout:
 
 - Distribute the new MSI/EXE through Intune, SCCM, or your existing channel
 - See [Check & Update Your Version](/get-started/check-version/) for the user-facing flow
-- See [Deploy Tenants via Registry](/admin/deploy/deploy-tenants-registry/) for the IT-side install
+- See [Deploy Tenants via Registry](/get-started/admin/deploy/deploy-tenants-registry/) for the IT-side install
 
 ## What didn't change
 
 - The Reporting pane layout, Elements/Filters/Review tabs, and core formula structure are unchanged
 - All existing reports built in 2025R1 or 2025R2 continue to work after the upgrade
-- Write-back from 2025R1 is unchanged — see [Enter Budget Data](/data-entry-writeback/enter-budget-data/)
+- Write-back from 2025R1 is unchanged — see [Enter Budget Data](/get-started/data-entry-writeback/enter-budget-data/)
 
 ## Compatibility
 
@@ -55,7 +55,7 @@ For IT admins managing rollout:
 |---|---|
 | Windows + Excel 365 (current build) | Fully supported |
 | Windows + Excel 2021 (Office Standalone) | Fully supported |
-| Mac + Excel 365 | Supported with platform caveats — see [OfficeConnect on Mac](/troubleshoot/officeconnect-on-mac/) |
+| Mac + Excel 365 | Supported with platform caveats — see [OfficeConnect on Mac](/reference/troubleshoot/officeconnect-on-mac/) |
 | Excel for the Web | Not supported |
 | Excel mobile | Not supported |
 
@@ -65,6 +65,6 @@ After upgrading to 2026R1, you'll see a **View By** button in the ribbon and (if
 
 ## Next steps
 
-- [View By (2026R1)](/whats-new/2026r1-view-by/) — step-by-step usage.
-- [Personal what-if scenarios (2026R1)](/whats-new/2026r1-personal-scenarios/) — when and how to use them.
+- [View By (2026R1)](/reference/whats-new/2026r1-view-by/) — step-by-step usage.
+- [Personal what-if scenarios (2026R1)](/reference/whats-new/2026r1-personal-scenarios/) — when and how to use them.
 - [OfficeConnect Version Compatibility Matrix](/reference/version-compatibility/) — which features arrived in which release.

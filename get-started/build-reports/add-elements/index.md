@@ -64,4 +64,4 @@ Applying a bolded parent element creates an **element group** — each child get
 
 ## Next steps
 
-→ [Work with Time & Contexts](/build-reports/time-and-contexts/) to add time periods and period-to-date comparisons
+→ [Work with Time & Contexts](/get-started/build-reports/time-and-contexts/) to add time periods and period-to-date comparisons

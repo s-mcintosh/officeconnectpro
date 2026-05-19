@@ -64,4 +64,4 @@ Applied filters are listed under **Elements** in each section.
 
 ## Next steps
 
-→ [Cut, Copy & Move Elements](/build-reports/cut-copy-move-elements/) to rearrange elements in your report
+→ [Cut, Copy & Move Elements](/get-started/build-reports/cut-copy-move-elements/) to rearrange elements in your report

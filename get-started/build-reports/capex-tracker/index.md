@@ -11,11 +11,11 @@ Capital expenditure usually starts the year as a tidy plan and ends it as a spra
 **What you'll build:** A project-level tracker with Planned, Actual YTD, Forecast Remaining, Total Forecast, and Variance to Plan columns — refreshable from Adaptive Planning.
 
 **What you'll need:**
-- OfficeConnect installed and signed in ([Build Your First Report](/build-reports/build-first-report/))
+- OfficeConnect installed and signed in ([Build Your First Report](/get-started/build-reports/build-first-report/))
 - A **Project Code** custom dimension in your model with each active CapEx project loaded
 - CapEx accounts (Capital Expenditures or specific asset categories) dimensionalized by Project Code
 - A Plan/Budget version and an Actuals version for the current year
-- Familiarity with custom dimensions ([Custom Dimensions and Attributes](/build-reports/custom-dimensions-attributes/))
+- Familiarity with custom dimensions ([Custom Dimensions and Attributes](/get-started/build-reports/custom-dimensions-attributes/))
 
 ---
 
@@ -74,7 +74,7 @@ For projects renamed or restructured under a new Project Code mid-year, the dime
 ## Step 4 — Scale across projects
 
 {{< step n="10" title="Use repeating rows by Project Code" >}}
-Rather than copying the row manually per project, configure row 2 as a repeating row scoped on the **Project Code** dimension. OfficeConnect generates one row per active project on refresh. The full pattern is covered in [Repeating Reports](/build-reports/repeating-reports/).
+Rather than copying the row manually per project, configure row 2 as a repeating row scoped on the **Project Code** dimension. OfficeConnect generates one row per active project on refresh. The full pattern is covered in [Repeating Reports](/get-started/build-reports/repeating-reports/).
 {{< /step >}}
 
 {{< step n="11" title="Add a Total row" >}}
@@ -97,6 +97,6 @@ You now have a project-by-project CapEx tracker that shows in one view which pro
 
 ## Next steps
 
-- Pair the tracker with a cash impact view — see [Cash Flow Statement](/build-reports/financials/cash-flow-statement/)
-- Add a forecast accuracy view against the original plan — see [Build a Forecast Accuracy Report](/build-reports/forecast-accuracy/)
-- Drill down into any project's underlying transactions — see [Cell Explorer Drill-Down](/build-reports/cell-explorer-drill-down/)
+- Pair the tracker with a cash impact view — see [Cash Flow Statement](/get-started/build-reports/financials/cash-flow-statement/)
+- Add a forecast accuracy view against the original plan — see [Build a Forecast Accuracy Report](/get-started/build-reports/forecast-accuracy/)
+- Drill down into any project's underlying transactions — see [Cell Explorer Drill-Down](/get-started/build-reports/cell-explorer-drill-down/)

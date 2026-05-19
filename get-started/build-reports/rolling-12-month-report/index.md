@@ -9,7 +9,7 @@ Build a report whose time columns automatically advance each month without manua
 A rolling 12-month report always shows the current month plus the 11 preceding months — no matter when you open it. This tutorial shows how to build one using OfficeConnect's relative time contexts so the columns update automatically on each refresh.
 
 **What you'll need:**
-- An existing OfficeConnect workbook or a blank one ([Build Your First Report](/build-reports/build-first-report/))
+- An existing OfficeConnect workbook or a blank one ([Build Your First Report](/get-started/build-reports/build-first-report/))
 - Your Adaptive Planning instance populated with at least 12 months of actuals or forecast data
 
 ---
@@ -61,7 +61,7 @@ OfficeConnect formulas reference the time element in the header row, so you can 
 Copy row 2 down for each account you need (Gross Profit, Operating Expenses, Net Income, etc.). The time headers are shared, so the copies resolve correctly.
 {{< /step >}}
 
-For repeating rows across many accounts, see [Repeating Reports](/build-reports/repeating-reports/).
+For repeating rows across many accounts, see [Repeating Reports](/get-started/build-reports/repeating-reports/).
 
 ---
 
@@ -91,6 +91,6 @@ Save the workbook. Each month, open the file and click **Refresh** — the windo
 
 ## Next steps
 
-- Learn about fixed date ranges alongside rolling ones in [Fixed Date Columns](/troubleshoot/fixed-date-columns/)
-- See how to set up a trailing 12-month view in [Trailing 12-Month Report](/troubleshoot/trailing-12-month-report/)
-- Share the finished report via SharePoint so the whole team always has the latest version — [Share via Teams & SharePoint](/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)
+- Learn about fixed date ranges alongside rolling ones in [Fixed Date Columns](/reference/troubleshoot/fixed-date-columns/)
+- See how to set up a trailing 12-month view in [Trailing 12-Month Report](/reference/troubleshoot/trailing-12-month-report/)
+- Share the finished report via SharePoint so the whole team always has the latest version — [Share via Teams & SharePoint](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)

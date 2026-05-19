@@ -6,7 +6,7 @@ OfficeConnect shows authentication errors, token expired messages, or fails to s
 ---
 
 
-Token and sign-in errors usually mean the SSO session has lapsed or the tenant configuration has drifted. Confirm Workday OfficeConnect is pointed at a valid tenant on [Sign In & Create a Tenant](/admin/configure/sign-in-create-tenant/), and review your [Workday SSO configuration](/admin/configure/workday-sso/) if multiple users hit the same error.
+Token and sign-in errors usually mean the SSO session has lapsed or the tenant configuration has drifted. Confirm Workday OfficeConnect is pointed at a valid tenant on [Sign In & Create a Tenant](/get-started/admin/configure/sign-in-create-tenant/), and review your [Workday SSO configuration](/get-started/admin/configure/workday-sso/) if multiple users hit the same error.
 
 ## Symptom
 
@@ -82,6 +82,6 @@ If the tenant URL was recently changed by your Workday admin (for example, after
 
 ## Next steps
 
-- [Fix OfficeConnect not refreshing](/troubleshoot/not-refreshing/) once sign-in succeeds but data still won't load
-- [Configure Workday SSO](/admin/configure/workday-sso/) to keep token issues from recurring
-- [Run the troubleshooting tool](/troubleshoot/troubleshooting-tool/) if you need to share diagnostic logs with Workday Support
+- [Fix OfficeConnect not refreshing](/reference/troubleshoot/not-refreshing/) once sign-in succeeds but data still won't load
+- [Configure Workday SSO](/get-started/admin/configure/workday-sso/) to keep token issues from recurring
+- [Run the troubleshooting tool](/reference/troubleshoot/troubleshooting-tool/) if you need to share diagnostic logs with Workday Support

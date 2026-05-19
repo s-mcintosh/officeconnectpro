@@ -10,7 +10,7 @@ The 2026R1 View By ribbon command opens the data behind any Workday OfficeConnec
 **View By** is new in Workday OfficeConnect 2026R1 (released March 14, 2026). It opens the data underlying any cell in a separate worksheet — so you can ad-hoc slice and filter without touching your formatted main report.
 {{< /new-in-release >}}
 
-Before 2026R1, the typical way to dig into a number was [Cell Explorer / Drill Down](/build-reports/cell-explorer-drill-down/), which is great for understanding **which** elements contribute to a cell, but doesn't give you a sandbox to manipulate the underlying intersection.
+Before 2026R1, the typical way to dig into a number was [Cell Explorer / Drill Down](/get-started/build-reports/cell-explorer-drill-down/), which is great for understanding **which** elements contribute to a cell, but doesn't give you a sandbox to manipulate the underlying intersection.
 
 **View By** complements drill-down: it materializes the data behind a cell as a fresh sheet, where you can pivot, sort, or apply additional Excel transformations without ever touching the original report.
 
@@ -79,6 +79,6 @@ You have an ad-hoc breakout of any cell's underlying data without any risk to th
 
 ## Next steps
 
-- [Personal what-if scenarios (2026R1)](/whats-new/2026r1-personal-scenarios/) — the other big 2026R1 feature.
-- [Cell Explorer / Drill Down](/build-reports/cell-explorer-drill-down/) — sister tool for inspecting elements on a cell.
-- [2026R1 Overview](/whats-new/2026r1/) — the rest of the release.
+- [Personal what-if scenarios (2026R1)](/reference/whats-new/2026r1-personal-scenarios/) — the other big 2026R1 feature.
+- [Cell Explorer / Drill Down](/get-started/build-reports/cell-explorer-drill-down/) — sister tool for inspecting elements on a cell.
+- [2026R1 Overview](/reference/whats-new/2026r1/) — the rest of the release.

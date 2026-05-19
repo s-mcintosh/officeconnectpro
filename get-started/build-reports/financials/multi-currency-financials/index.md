@@ -43,6 +43,6 @@ The rate type applied to your OfficeConnect data is determined by your Workday c
 
 ## Related
 
-- [Report in Constant Currency in OfficeConnect](/build-reports/constant-currency-reporting/) — constant currency for Adaptive Planning users
-- [Filter Reports by Company](/build-reports/financials/filter-by-company/)
-- [Effective Date Reporting](/build-reports/financials/effective-date-reporting/)
+- [Report in Constant Currency in OfficeConnect](/get-started/build-reports/constant-currency-reporting/) — constant currency for Adaptive Planning users
+- [Filter Reports by Company](/get-started/build-reports/financials/filter-by-company/)
+- [Effective Date Reporting](/get-started/build-reports/financials/effective-date-reporting/)

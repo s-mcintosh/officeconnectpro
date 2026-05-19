@@ -68,6 +68,6 @@ Your Workday OfficeConnect report refreshes on schedule, even when no one is at 
 
 ## Next steps
 
-- [Build a Formatted Executive Report for Distribution](/build-reports/formatted-executive-report/)
-- [Share via Teams & SharePoint](/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)
-- [Lock and Protect Reports](/build-reports/lock-protect-reports/)
+- [Build a Formatted Executive Report for Distribution](/get-started/build-reports/formatted-executive-report/)
+- [Share via Teams & SharePoint](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)
+- [Lock and Protect Reports](/get-started/build-reports/lock-protect-reports/)

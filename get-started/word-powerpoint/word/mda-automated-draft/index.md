@@ -10,7 +10,7 @@ The Management Discussion & Analysis (MD&A) narrative is the financial story tha
 
 This article walks through building an MD&A Word template where every quantitative phrase pulls live from the Workday OfficeConnect Excel workbook. The CFO still writes the narrative; OfficeConnect handles the numbers.
 
-If you're new to Word linking, start with [OfficeConnect for Word](/word-powerpoint/word/officeconnect-for-word/).
+If you're new to Word linking, start with [OfficeConnect for Word](/get-started/word-powerpoint/word/officeconnect-for-word/).
 
 **What you'll build:** A reusable Word MD&A template where revenue figures, growth percentages, margin changes, and directional words ("increased", "declined") refresh from the source Excel workbook with one click.
 
@@ -132,6 +132,6 @@ The MD&A draft refreshes from the source workbook in minutes. The CFO works on t
 
 ## Next steps
 
-- [OfficeConnect for Word](/word-powerpoint/word/officeconnect-for-word/) — the underlying Word linking mechanics.
-- [Investor Letter Template](/word-powerpoint/word/investor-letter/) — the same pattern applied to investor communications.
-- [Charts That Update with the Period](/word-powerpoint/powerpoint/period-aware-charts/) — period-aware text and narrative for PowerPoint.
+- [OfficeConnect for Word](/get-started/word-powerpoint/word/officeconnect-for-word/) — the underlying Word linking mechanics.
+- [Investor Letter Template](/get-started/word-powerpoint/word/investor-letter/) — the same pattern applied to investor communications.
+- [Charts That Update with the Period](/get-started/word-powerpoint/powerpoint/period-aware-charts/) — period-aware text and narrative for PowerPoint.

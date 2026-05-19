@@ -21,7 +21,7 @@ After Workday OfficeConnect is installed (see [Install for End Users](/get-start
 {{< /step >}}
 
 {{< step n="2" title="Click Log In" >}}
-Enter your Adaptive Planning credentials, or click **Log in with Workday**. If you're already signed in to OfficeConnect for Excel, PowerPoint logs you in automatically. See [Sign In & Create a Tenant](/admin/configure/sign-in-create-tenant/) if you haven't set up the connection yet.
+Enter your Adaptive Planning credentials, or click **Log in with Workday**. If you're already signed in to OfficeConnect for Excel, PowerPoint logs you in automatically. See [Sign In & Create a Tenant](/get-started/admin/configure/sign-in-create-tenant/) if you haven't set up the connection yet.
 {{< /step >}}
 
 ## Create a named range in Excel
@@ -82,6 +82,6 @@ Your PowerPoint deck refreshes from Excel with one click each period. No more co
 
 ## Next steps
 
-- [Publish to PowerPoint (full tutorial)](/build-reports/publish-to-powerpoint/) — a step-by-step walkthrough of building a deck.
-- [OfficeConnect for Word](/word-powerpoint/word/officeconnect-for-word/) — the same workflow for narrative reports.
-- [Share Reports via Teams, SharePoint & OneDrive](/word-powerpoint/sharing/share-teams-sharepoint-onedrive/) — distribute the final deck.
+- [Publish to PowerPoint (full tutorial)](/get-started/build-reports/publish-to-powerpoint/) — a step-by-step walkthrough of building a deck.
+- [OfficeConnect for Word](/get-started/word-powerpoint/word/officeconnect-for-word/) — the same workflow for narrative reports.
+- [Share Reports via Teams, SharePoint & OneDrive](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/) — distribute the final deck.

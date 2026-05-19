@@ -64,4 +64,4 @@ If you lose a floating pane, click **Show Reporting Pane** in the OfficeConnect 
 
 ## Next steps
 
-→ [Add Elements to Rows, Columns & Cells](/build-reports/add-elements/) to start building your first report
+→ [Add Elements to Rows, Columns & Cells](/get-started/build-reports/add-elements/) to start building your first report

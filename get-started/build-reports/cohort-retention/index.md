@@ -11,10 +11,10 @@ For SaaS and subscription businesses, cohort retention is the most important dia
 **What you'll build:** A triangular cohort matrix showing each signup cohort's starting revenue across its starting month and every subsequent month, with NRR computed at the 12-month mark.
 
 **What you'll need:**
-- OfficeConnect installed and signed in ([Build Your First Report](/build-reports/build-first-report/))
+- OfficeConnect installed and signed in ([Build Your First Report](/get-started/build-reports/build-first-report/))
 - A model with a **Signup Cohort** custom dimension (for example, monthly cohorts: `2024-01`, `2024-02`, etc.)
 - A subscription revenue account dimensionalized by cohort
-- Familiarity with custom dimensions ([Custom Dimensions and Attributes](/build-reports/custom-dimensions-attributes/)) and repeating rows ([Repeating Reports](/build-reports/repeating-reports/))
+- Familiarity with custom dimensions ([Custom Dimensions and Attributes](/get-started/build-reports/custom-dimensions-attributes/)) and repeating rows ([Repeating Reports](/get-started/build-reports/repeating-reports/))
 
 ---
 
@@ -49,7 +49,7 @@ In C2 (M1 for the 2024-01 cohort), drag the same Subscription Revenue account, f
 {{< /step >}}
 
 {{< step n="6" title="Use repeating rows to scale" >}}
-Rather than building this matrix cohort by cohort manually, configure the row block as a repeating row scoped on the **Signup Cohort** dimension, with each column resolving to *cohort start month + N*. OfficeConnect generates one row per cohort on refresh. The full pattern is covered in [Repeating Reports](/build-reports/repeating-reports/).
+Rather than building this matrix cohort by cohort manually, configure the row block as a repeating row scoped on the **Signup Cohort** dimension, with each column resolving to *cohort start month + N*. OfficeConnect generates one row per cohort on refresh. The full pattern is covered in [Repeating Reports](/get-started/build-reports/repeating-reports/).
 {{< /step >}}
 
 {{< admin-note >}}
@@ -88,6 +88,6 @@ You now have a cohort retention report that surfaces subscription health in one 
 
 ## Next steps
 
-- Build a top-line subscription revenue trend to pair with this — see [Year-over-Year Trend Report](/build-reports/year-over-year-trend/)
-- Add scenario overlays for retention assumptions — see [Scenario Comparison](/build-reports/scenario-comparison/)
-- Use repeating rows for other multi-dimension reports — see [Repeating Reports](/build-reports/repeating-reports/)
+- Build a top-line subscription revenue trend to pair with this — see [Year-over-Year Trend Report](/get-started/build-reports/year-over-year-trend/)
+- Add scenario overlays for retention assumptions — see [Scenario Comparison](/get-started/build-reports/scenario-comparison/)
+- Use repeating rows for other multi-dimension reports — see [Repeating Reports](/get-started/build-reports/repeating-reports/)

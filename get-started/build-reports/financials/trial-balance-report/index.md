@@ -13,7 +13,7 @@ A trial balance lists every ledger account with its debit or credit balance for 
 **What you'll need:**
 - OfficeConnect installed and connected to a tenant configured for the **Financials data source** (not Adaptive Planning)
 - Access to at least one company with posted journal entries in Workday Financial Management
-- The [Financials vs. Adaptive Planning](/migration-comparison/financials-vs-adaptive-planning/) page explains the difference if you're unsure which data source you have
+- The [Financials vs. Adaptive Planning](/get-started/migration-comparison/financials-vs-adaptive-planning/) page explains the difference if you're unsure which data source you have
 
 ---
 
@@ -91,6 +91,6 @@ Confirm the Out of Balance cell shows zero (or near-zero for rounding). If it's 
 
 ## Next steps
 
-- Drill into any balance to see the contributing journal lines — see [Drill Through to Workday Journal Lines](/build-reports/financials/drill-through-journal-lines/)
-- Add prior-period columns for comparison — see [Build an Actuals Trend Report](/build-reports/financials/actuals-trend-report/)
-- Filter to a specific cost center — see [Report on Actuals by Cost Center](/build-reports/financials/actuals-by-cost-center/)
+- Drill into any balance to see the contributing journal lines — see [Drill Through to Workday Journal Lines](/get-started/build-reports/financials/drill-through-journal-lines/)
+- Add prior-period columns for comparison — see [Build an Actuals Trend Report](/get-started/build-reports/financials/actuals-trend-report/)
+- Filter to a specific cost center — see [Report on Actuals by Cost Center](/get-started/build-reports/financials/actuals-by-cost-center/)

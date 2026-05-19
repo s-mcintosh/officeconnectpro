@@ -71,10 +71,10 @@ Open Excel on a test machine. Click **Log In** in the OfficeConnect tab. Your de
 
 ## Note on authentication URLs
 
-Authorization URLs and API endpoint URLs vary based on your Workday data center location. Get the exact URLs from your Workday Security Administrator or from the OfficeConnect API client in Workday — see [Set Up Workday SSO](/admin/configure/workday-sso/).
+Authorization URLs and API endpoint URLs vary based on your Workday data center location. Get the exact URLs from your Workday Security Administrator or from the OfficeConnect API client in Workday — see [Set Up Workday SSO](/get-started/admin/configure/workday-sso/).
 
 ## Next steps
 
 - [Install for Admins](/get-started/install-admin/) — the install side of the same rollout.
-- [Set Up Workday SSO](/admin/configure/workday-sso/) — get the API client values you'll deploy.
-- [Sign In & Create a Tenant](/admin/configure/sign-in-create-tenant/) — what your users will see after registry deploy.
+- [Set Up Workday SSO](/get-started/admin/configure/workday-sso/) — get the API client values you'll deploy.
+- [Sign In & Create a Tenant](/get-started/admin/configure/sign-in-create-tenant/) — what your users will see after registry deploy.

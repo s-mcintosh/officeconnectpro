@@ -10,7 +10,7 @@ A static PowerPoint chart with the title "Revenue Trend: Jan 2026 - Mar 2026" is
 
 This article walks through building **period-aware** PowerPoint charts: the axis range, title, and data all roll forward when you refresh.
 
-If you're new to PowerPoint linking, start with [OfficeConnect for PowerPoint](/word-powerpoint/powerpoint/officeconnect-for-powerpoint/).
+If you're new to PowerPoint linking, start with [OfficeConnect for PowerPoint](/get-started/word-powerpoint/powerpoint/officeconnect-for-powerpoint/).
 
 ## What "period-aware" means
 
@@ -35,7 +35,7 @@ Common choices for a trend chart:
 {{< /step >}}
 
 {{< step n="2" title="Use the relative Time element in the source workbook" >}}
-In the Reporting pane, expand **Time** and find the relative version of your choice. Drag it into the header row of your chart's source range. See [Time and Contexts](/build-reports/time-and-contexts/) for the catalog of relative time elements.
+In the Reporting pane, expand **Time** and find the relative version of your choice. Drag it into the header row of your chart's source range. See [Time and Contexts](/get-started/build-reports/time-and-contexts/) for the catalog of relative time elements.
 {{< /step >}}
 
 ## Step 2 — Let Excel resolve the labels
@@ -107,7 +107,7 @@ The same pattern works for narrative text. In Excel, build a cell:
 ="Revenue for " & TEXT(M2,"mmm yyyy") & " was " & TEXT(M5,"$#,##0M") & ", " & IF(M5>M4,"up","down") & " " & TEXT(ABS(M5-M4)/M4,"0.0%") & " from the prior month."
 ```
 
-Name it `Narrative_Revenue_CurrentMonth`. Link the cell into a Word narrative or a PowerPoint text box. See [OfficeConnect for Word](/word-powerpoint/word/officeconnect-for-word/) — the qualitative-text refresh pattern is well-suited to this kind of period-aware narrative.
+Name it `Narrative_Revenue_CurrentMonth`. Link the cell into a Word narrative or a PowerPoint text box. See [OfficeConnect for Word](/get-started/word-powerpoint/word/officeconnect-for-word/) — the qualitative-text refresh pattern is well-suited to this kind of period-aware narrative.
 
 ## Result
 
@@ -115,6 +115,6 @@ Your board-pack charts and titles roll forward automatically when the period cha
 
 ## Next steps
 
-- [Designing a Board Pack Template](/word-powerpoint/powerpoint/board-pack-template/) — the slide template that hosts these charts.
-- [Refreshing All Slides Safely](/word-powerpoint/powerpoint/refresh-all-slides/) — the refresh discipline that surfaces the updates.
-- [Time and Contexts](/build-reports/time-and-contexts/) — the catalog of relative time elements that drive period awareness.
+- [Designing a Board Pack Template](/get-started/word-powerpoint/powerpoint/board-pack-template/) — the slide template that hosts these charts.
+- [Refreshing All Slides Safely](/get-started/word-powerpoint/powerpoint/refresh-all-slides/) — the refresh discipline that surfaces the updates.
+- [Time and Contexts](/get-started/build-reports/time-and-contexts/) — the catalog of relative time elements that drive period awareness.

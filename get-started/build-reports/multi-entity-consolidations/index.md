@@ -11,10 +11,10 @@ Multi-entity consolidation is one of the harder reporting problems in finance �
 **What you'll build:** A P&L report with one column per legal entity, a dedicated Eliminations column, and a Consolidated total column — all refreshable from Adaptive Planning.
 
 **What you'll need:**
-- OfficeConnect installed and signed in ([Build Your First Report](/build-reports/build-first-report/))
+- OfficeConnect installed and signed in ([Build Your First Report](/get-started/build-reports/build-first-report/))
 - A model with multiple legal entity Levels (for example, US Inc., UK Ltd., APAC Pte.)
-- An Eliminations entity or Level configured in your model — see [Intercompany Eliminations](/build-reports/financials/intercompany-eliminations/)
-- Familiarity with selecting Levels in the Reporting pane ([Add Elements](/build-reports/add-elements/))
+- An Eliminations entity or Level configured in your model — see [Intercompany Eliminations](/get-started/build-reports/financials/intercompany-eliminations/)
+- Familiarity with selecting Levels in the Reporting pane ([Add Elements](/get-started/build-reports/add-elements/))
 
 ---
 
@@ -69,7 +69,7 @@ Apply a light gray fill to the Eliminations column so reviewers immediately reco
 ## Step 4 — Refresh and document
 
 {{< step n="9" title="Refresh and validate" >}}
-Click **Refresh**. Every entity column populates from Adaptive Planning. Spot-check the Consolidated Net Income against the official consolidated trial balance — see [Trial Balance Report](/build-reports/financials/trial-balance-report/) for the supporting view.
+Click **Refresh**. Every entity column populates from Adaptive Planning. Spot-check the Consolidated Net Income against the official consolidated trial balance — see [Trial Balance Report](/get-started/build-reports/financials/trial-balance-report/) for the supporting view.
 {{< /step >}}
 
 {{< step n="10" title="Add a commentary column" >}}
@@ -84,6 +84,6 @@ You now have a consolidated P&L that any finance reviewer can read — entity by
 
 ## Next steps
 
-- Dig into the elimination logic itself — see [Intercompany Eliminations](/build-reports/financials/intercompany-eliminations/)
-- Pair this with a cash flow view — see [Cash Flow Statement](/build-reports/financials/cash-flow-statement/)
-- Report in a single reporting currency across entities — see [Constant Currency Reporting](/build-reports/constant-currency-reporting/)
+- Dig into the elimination logic itself — see [Intercompany Eliminations](/get-started/build-reports/financials/intercompany-eliminations/)
+- Pair this with a cash flow view — see [Cash Flow Statement](/get-started/build-reports/financials/cash-flow-statement/)
+- Report in a single reporting currency across entities — see [Constant Currency Reporting](/get-started/build-reports/constant-currency-reporting/)

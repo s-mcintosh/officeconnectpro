@@ -15,7 +15,7 @@ You can save Workday OfficeConnect reports to shared locations in Microsoft Team
 ## How to share a report
 
 {{< step n="1" title="Finish building and refreshing your report" >}}
-Make sure the report is complete and you've clicked **Refresh** to load the latest data. See [Build Your First Report](/build-reports/build-first-report/) if you're still in the build phase.
+Make sure the report is complete and you've clicked **Refresh** to load the latest data. See [Build Your First Report](/get-started/build-reports/build-first-report/) if you're still in the build phase.
 {{< /step >}}
 
 {{< step n="2" title="Save to a shared location" >}}
@@ -44,7 +44,7 @@ For a colleague to open and refresh a shared OfficeConnect report, they need:
 
 ## Data clearing on shared files
 
-By default, Workday OfficeConnect clears data on save (replacing it with `n/a`). When someone without OfficeConnect opens a shared file, they'll see placeholder text rather than financial data. This is intentional — it prevents sensitive data from being visible to users who haven't authenticated. See [Secure OfficeConnect Workbooks](/admin/govern/secure-workbooks/) for the security model.
+By default, Workday OfficeConnect clears data on save (replacing it with `n/a`). When someone without OfficeConnect opens a shared file, they'll see placeholder text rather than financial data. This is intentional — it prevents sensitive data from being visible to users who haven't authenticated. See [Secure OfficeConnect Workbooks](/get-started/admin/govern/secure-workbooks/) for the security model.
 
 Recipients with OfficeConnect can click **Refresh** to load their data view.
 
@@ -54,6 +54,6 @@ The workbook lives in your team's shared location, and authorized users can refr
 
 ## Next steps
 
-- [OfficeConnect for PowerPoint](/word-powerpoint/powerpoint/officeconnect-for-powerpoint/) — embed live charts and tables in presentations.
-- [OfficeConnect for Word](/word-powerpoint/word/officeconnect-for-word/) — embed live data into narrative reports.
-- [Secure OfficeConnect Workbooks](/admin/govern/secure-workbooks/) — harden saved files against data leakage.
+- [OfficeConnect for PowerPoint](/get-started/word-powerpoint/powerpoint/officeconnect-for-powerpoint/) — embed live charts and tables in presentations.
+- [OfficeConnect for Word](/get-started/word-powerpoint/word/officeconnect-for-word/) — embed live data into narrative reports.
+- [Secure OfficeConnect Workbooks](/get-started/admin/govern/secure-workbooks/) — harden saved files against data leakage.

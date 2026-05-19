@@ -50,6 +50,6 @@ The new default applies to all new workbooks you create.
 
 ## Next steps
 
-- [Sign In & Create a Tenant](/admin/configure/sign-in-create-tenant/) — if you haven't added the sandbox tenant yet.
-- [Deploy Tenants via Registry](/admin/deploy/deploy-tenants-registry/) — push the same tenant list to every user machine.
-- [Secure OfficeConnect Workbooks](/admin/govern/secure-workbooks/) — keep production data out of the wrong sandbox.
+- [Sign In & Create a Tenant](/get-started/admin/configure/sign-in-create-tenant/) — if you haven't added the sandbox tenant yet.
+- [Deploy Tenants via Registry](/get-started/admin/deploy/deploy-tenants-registry/) — push the same tenant list to every user machine.
+- [Secure OfficeConnect Workbooks](/get-started/admin/govern/secure-workbooks/) — keep production data out of the wrong sandbox.

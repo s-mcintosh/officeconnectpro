@@ -11,7 +11,7 @@ Workday ships OfficeConnect alongside Adaptive Planning releases on a roughly si
 This matrix tracks what's compatible right now and what's coming.
 
 {{< new-in-release version="2026R1" >}}
-Currently shipping: **OfficeConnect 2026R1**, released March 14, 2026. See [What's New in 2026R1](/whats-new/2026r1/).
+Currently shipping: **OfficeConnect 2026R1**, released March 14, 2026. See [What's New in 2026R1](/reference/whats-new/2026r1/).
 {{< /new-in-release >}}
 
 ## Current support matrix
@@ -57,14 +57,14 @@ The grace clock starts on the **release date** (not the day your tenant adopts i
 | Excel for the Web | Not supported | Not supported |
 | Excel mobile (iOS/Android) | Not supported | Not supported |
 
-For the Mac-specific story including the VDI fallback, see [OfficeConnect on Mac](/troubleshoot/officeconnect-on-mac/) and [Mac VDI Workflow](/troubleshoot/mac-vdi-workflow/).
+For the Mac-specific story including the VDI fallback, see [OfficeConnect on Mac](/reference/troubleshoot/officeconnect-on-mac/) and [Mac VDI Workflow](/reference/troubleshoot/mac-vdi-workflow/).
 
 ## How this matrix is maintained
 
 Articles on this site carry `minVersion` and `releaseAdded` fields in their front matter. The maintenance cadence:
 
 1. When Workday announces a release date, this page gets a "next release" row marked **Preview**.
-2. On release day, the row flips to **Current** and a new "What's new" article ships within 14 days — see [What's New](/whats-new/) hub.
+2. On release day, the row flips to **Current** and a new "What's new" article ships within 14 days — see [What's New](/reference/whats-new/) hub.
 3. When the next release ships, the prior version moves to "Supported with grace period."
 4. Once the grace period expires, the version moves to "Outside grace window."
 
@@ -74,8 +74,8 @@ For organizations on a managed deployment cadence:
 
 - **Pilot the new version on 5-10 users for 2 weeks** before broad rollout. See Upgrade Governance (coming soon).
 - **Re-check tenant compatibility.** Workday occasionally introduces a tenant-side change that requires the new client (e.g., write-back required 2025R1+).
-- **Re-validate add-in conflicts.** Each release can subtly change Excel hook behavior — see [think-cell Conflict](/troubleshoot/think-cell-conflict/) if your finance team uses both.
-- **Update Intune/SCCM packages.** Bump app version so deployment systems recognize the upgrade — see [Intune Win32 Packaging](/admin/deploy/intune-win32/) and [SCCM/MECM Deployment](/admin/deploy/sccm-mecm/).
+- **Re-validate add-in conflicts.** Each release can subtly change Excel hook behavior — see [think-cell Conflict](/reference/troubleshoot/think-cell-conflict/) if your finance team uses both.
+- **Update Intune/SCCM packages.** Bump app version so deployment systems recognize the upgrade — see [Intune Win32 Packaging](/get-started/admin/deploy/intune-win32/) and [SCCM/MECM Deployment](/get-started/admin/deploy/sccm-mecm/).
 
 ## End-user upgrade flow
 
@@ -92,6 +92,6 @@ You can answer the "is this version still supported?" question in seconds, plan 
 
 ## Next steps
 
-- [What's New in 2026R1](/whats-new/2026r1/) — most recent release.
+- [What's New in 2026R1](/reference/whats-new/2026r1/) — most recent release.
 - [Check & Update Your Version](/get-started/check-version/) — end-user upgrade flow.
 - Upgrade Governance (coming soon) — managing the forced-upgrade cadence at scale.

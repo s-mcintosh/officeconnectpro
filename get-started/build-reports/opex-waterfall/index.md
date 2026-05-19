@@ -11,7 +11,7 @@ A waterfall walk is how finance teams explain *why* a number moved. Instead of j
 **What you'll build:** A two-column table of OpEx changes by account category, paired with an Excel waterfall chart that shows prior month, the adds and reductions in between, and the current month total.
 
 **What you'll need:**
-- OfficeConnect installed and signed in ([Build Your First Report](/build-reports/build-first-report/))
+- OfficeConnect installed and signed in ([Build Your First Report](/get-started/build-reports/build-first-report/))
 - Actuals loaded for the current and prior month
 - An OpEx account hierarchy in your model (Salaries, Marketing, Software, T&E, Other)
 - Excel 2016 or later (for the built-in waterfall chart)
@@ -84,6 +84,6 @@ You now have a self-refreshing OpEx waterfall that explains the month's movement
 
 ## Next steps
 
-- Apply the same pattern to revenue or gross margin walks — see [Year-over-Year Trend Report](/build-reports/year-over-year-trend/)
-- Pair the waterfall with budget variance context — see [Budget vs. Actuals Variance](/build-reports/budget-vs-actuals-variance/)
-- Use rolling periods so the walk always shows the latest month — see [Rolling 12-Month Report](/build-reports/rolling-12-month-report/)
+- Apply the same pattern to revenue or gross margin walks — see [Year-over-Year Trend Report](/get-started/build-reports/year-over-year-trend/)
+- Pair the waterfall with budget variance context — see [Budget vs. Actuals Variance](/get-started/build-reports/budget-vs-actuals-variance/)
+- Use rolling periods so the walk always shows the latest month — see [Rolling 12-Month Report](/get-started/build-reports/rolling-12-month-report/)

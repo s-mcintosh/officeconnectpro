@@ -76,6 +76,6 @@ You can build OfficeConnect reports that span hundreds or thousands of rows with
 
 ## Next steps
 
-- [Reduce OfficeConnect Element Count](/performance/reduce-element-count/) — the broader element-count playbook this article extends.
-- [Refresh Time Benchmarks](/performance/refresh-benchmarks/) — what a well-built large report should refresh in.
-- [Optimize Performance for Large Models](/performance/optimize-performance/) — the parent guide.
+- [Reduce OfficeConnect Element Count](/get-started/performance/reduce-element-count/) — the broader element-count playbook this article extends.
+- [Refresh Time Benchmarks](/get-started/performance/refresh-benchmarks/) — what a well-built large report should refresh in.
+- [Optimize Performance for Large Models](/get-started/performance/optimize-performance/) — the parent guide.

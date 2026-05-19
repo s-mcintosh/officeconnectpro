@@ -29,7 +29,7 @@ The numbers below assume a healthy Adaptive Planning tenant, a wired or strong w
 A workbook in the "slow" column isn't necessarily broken — it might be running against a heavily-loaded tenant or pulling unusually complex modeled accounts — but it's almost always optimizable.
 
 {{< tip >}}
-Repeating rows count as a single element regardless of how many rows they expand into on refresh. A 200-row report built from one repeating element behaves like a 1-formula workbook, not a 200-formula one. See [Large Repeating Reports](/performance/large-repeating-reports/).
+Repeating rows count as a single element regardless of how many rows they expand into on refresh. A 200-row report built from one repeating element behaves like a 1-formula workbook, not a 200-formula one. See [Large Repeating Reports](/get-started/performance/large-repeating-reports/).
 {{< /tip >}}
 
 ## Factors that move the benchmark
@@ -80,6 +80,6 @@ You have a defensible answer to "is this workbook slow?" — measured against a 
 
 ## Next steps
 
-- [Optimize Performance for Large Models](/performance/optimize-performance/) — the canonical tuning checklist once you've decided action is warranted.
-- [Reduce OfficeConnect Element Count](/performance/reduce-element-count/) — the single biggest lever, in detail.
-- [Fix Slow Performance in Large Reports](/troubleshoot/slow-performance/) — diagnostic walkthrough when refresh is far outside the benchmark.
+- [Optimize Performance for Large Models](/get-started/performance/optimize-performance/) — the canonical tuning checklist once you've decided action is warranted.
+- [Reduce OfficeConnect Element Count](/get-started/performance/reduce-element-count/) — the single biggest lever, in detail.
+- [Fix Slow Performance in Large Reports](/reference/troubleshoot/slow-performance/) — diagnostic walkthrough when refresh is far outside the benchmark.

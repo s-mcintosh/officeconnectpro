@@ -23,7 +23,7 @@
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;If your admin hasn&amp;rsquo;t yet generated these, see &lt;a href="https://officeconnectpro.com/admin/configure/workday-sso/"&gt;Set Up Workday SSO&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Work with Multiple Instances</title><link>https://officeconnectpro.com/get-started/admin/configure/multiple-instances/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/admin/configure/multiple-instances/</guid><description>&lt;p&gt;If your user ID has access to more than one Workday instance — a sandbox, a linked multi-instance hierarchy, or simply multiple tenants — Workday OfficeConnect handles them through an &lt;strong&gt;Instance&lt;/strong&gt; drop-down in the Reporting pane.&lt;/p&gt;
+&lt;p&gt;If your admin hasn&amp;rsquo;t yet generated these, see &lt;a href="https://officeconnectpro.com/get-started/admin/configure/workday-sso/"&gt;Set Up Workday SSO&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Work with Multiple Instances</title><link>https://officeconnectpro.com/get-started/admin/configure/multiple-instances/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/admin/configure/multiple-instances/</guid><description>&lt;p&gt;If your user ID has access to more than one Workday instance — a sandbox, a linked multi-instance hierarchy, or simply multiple tenants — Workday OfficeConnect handles them through an &lt;strong&gt;Instance&lt;/strong&gt; drop-down in the Reporting pane.&lt;/p&gt;
 &lt;h2 id="types-of-multiple-instances"&gt;Types of multiple instances&lt;/h2&gt;
 &lt;table&gt;
  &lt;thead&gt;
@@ -56,7 +56,7 @@
 
 &lt;h2 id="what-workday-sso-does-for-officeconnect"&gt;What Workday SSO does for OfficeConnect&lt;/h2&gt;
 &lt;p&gt;With SSO enabled, users sign in to Workday OfficeConnect using their existing Workday credentials through your identity provider. They don&amp;rsquo;t need a separate Adaptive Planning username and password.&lt;/p&gt;
-&lt;p&gt;For identity-provider-specific guides, see SSO with Okta, SSO with Microsoft Entra ID, or SSO with Ping Identity (coming soon under &lt;a href="https://officeconnectpro.com/admin/configure/"&gt;Admin → Configure&lt;/a&gt;).&lt;/p&gt;</description></item><item><title>Single Sign-On for Workday OfficeConnect with Okta</title><link>https://officeconnectpro.com/get-started/admin/configure/sso-okta/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/admin/configure/sso-okta/</guid><description>&lt;div class="oc-callout oc-callout--admin admin-note" role="note"&gt;
+&lt;p&gt;For identity-provider-specific guides, see SSO with Okta, SSO with Microsoft Entra ID, or SSO with Ping Identity (coming soon under &lt;a href="https://officeconnectpro.com/get-started/admin/configure/"&gt;Admin → Configure&lt;/a&gt;).&lt;/p&gt;</description></item><item><title>Single Sign-On for Workday OfficeConnect with Okta</title><link>https://officeconnectpro.com/get-started/admin/configure/sso-okta/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/admin/configure/sso-okta/</guid><description>&lt;div class="oc-callout oc-callout--admin admin-note" role="note"&gt;
  &lt;div class="oc-callout__icon" aria-hidden="true"&gt;
  &lt;i class="fas fa-wrench"&gt;&lt;/i&gt;
  &lt;/div&gt;

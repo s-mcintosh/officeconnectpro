@@ -95,6 +95,6 @@ Large OfficeConnect workbooks that previously crashed or hung mid-refresh now op
 
 ## Next steps
 
-- [Refresh Time Benchmarks](/performance/refresh-benchmarks/) — measure your improvement after switching.
-- [Reduce OfficeConnect Element Count](/performance/reduce-element-count/) — tuning that complements the memory upgrade.
-- [Optimize Performance for Large Models](/performance/optimize-performance/) — the broader optimization playbook.
+- [Refresh Time Benchmarks](/get-started/performance/refresh-benchmarks/) — measure your improvement after switching.
+- [Reduce OfficeConnect Element Count](/get-started/performance/reduce-element-count/) — tuning that complements the memory upgrade.
+- [Optimize Performance for Large Models](/get-started/performance/optimize-performance/) — the broader optimization playbook.

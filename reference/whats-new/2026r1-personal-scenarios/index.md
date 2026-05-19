@@ -47,11 +47,11 @@ Give it a memorable name like `WhatIf_HiringFreeze_2026Q3`. The name appears onl
 ## Step 2 — Use the scenario in a report
 
 {{< step n="4" title="Drag the scenario into a Version slot like any other" >}}
-The new scenario appears under **My Scenarios** in the Reporting pane. Drag it into a worksheet cell exactly as you would a shared version. See [Add Elements](/build-reports/add-elements/) for the standard workflow.
+The new scenario appears under **My Scenarios** in the Reporting pane. Drag it into a worksheet cell exactly as you would a shared version. See [Add Elements](/get-started/build-reports/add-elements/) for the standard workflow.
 {{< /step >}}
 
 {{< step n="5" title="Write data back to the scenario" >}}
-If you have write-back enabled, you can modify values in the scenario and submit them — the changes affect only your personal scenario, not the parent version. See [Enter Budget Data](/data-entry-writeback/enter-budget-data/).
+If you have write-back enabled, you can modify values in the scenario and submit them — the changes affect only your personal scenario, not the parent version. See [Enter Budget Data](/get-started/data-entry-writeback/enter-budget-data/).
 {{< /step >}}
 
 ## Step 3 — Compare to the parent
@@ -86,6 +86,6 @@ You can branch any shared version into your own private what-if without admin in
 
 ## Next steps
 
-- [View By (2026R1)](/whats-new/2026r1-view-by/) — the other big 2026R1 feature.
-- [Compare Planning Versions](/build-reports/compare-planning-versions/) — patterns for comparing any two versions, including personal vs parent.
-- [Enter Budget Data](/data-entry-writeback/enter-budget-data/) — write-back to a personal scenario uses the same flow.
+- [View By (2026R1)](/reference/whats-new/2026r1-view-by/) — the other big 2026R1 feature.
+- [Compare Planning Versions](/get-started/build-reports/compare-planning-versions/) — patterns for comparing any two versions, including personal vs parent.
+- [Enter Budget Data](/get-started/data-entry-writeback/enter-budget-data/) — write-back to a personal scenario uses the same flow.

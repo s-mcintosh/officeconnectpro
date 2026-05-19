@@ -13,7 +13,7 @@ A budget vs. actuals variance report puts your plan and your reality in the same
 **What you'll need:**
 - OfficeConnect installed and connected to an Adaptive Planning tenant ([Get Started](/get-started/))
 - An Adaptive Planning model with at least one Budget version and actuals loaded for the same period
-- Basic familiarity with adding elements ([Add Elements](/build-reports/add-elements/))
+- Basic familiarity with adding elements ([Add Elements](/get-started/build-reports/add-elements/))
 
 ---
 
@@ -93,6 +93,6 @@ Add column E with the header `Var %` and the formula `=(B3-C3)/ABS(C3)`. Format 
 
 ## Next steps
 
-- Expand to multiple months by adding more time columns — see [Time and Contexts](/build-reports/time-and-contexts/)
-- Add department rows using Level elements — see [Build a Department P&L Report](/build-reports/department-pl-report/)
-- Share the finished report with your team — see [Share via Teams & SharePoint](/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)
+- Expand to multiple months by adding more time columns — see [Time and Contexts](/get-started/build-reports/time-and-contexts/)
+- Add department rows using Level elements — see [Build a Department P&L Report](/get-started/build-reports/department-pl-report/)
+- Share the finished report with your team — see [Share via Teams & SharePoint](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)

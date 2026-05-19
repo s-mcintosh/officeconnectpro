@@ -55,6 +55,6 @@ Workday Financial Management uses **worktags** to tag financial transactions —
 
 ## Related links
 
-- [Report on Actuals by Cost Center](/build-reports/financials/actuals-by-cost-center/)
-- [Filter Reports by Company](/build-reports/financials/filter-by-company/)
-- [Variance Analysis by Journal Source](/build-reports/financials/variance-by-journal-source/)
+- [Report on Actuals by Cost Center](/get-started/build-reports/financials/actuals-by-cost-center/)
+- [Filter Reports by Company](/get-started/build-reports/financials/filter-by-company/)
+- [Variance Analysis by Journal Source](/get-started/build-reports/financials/variance-by-journal-source/)

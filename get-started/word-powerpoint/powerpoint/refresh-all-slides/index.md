@@ -8,7 +8,7 @@ The disciplined refresh workflow that keeps Workday OfficeConnect PowerPoint dec
 
 The single failure mode that destroys a board-pack workflow is shipping a deck where some slides have current numbers and others have last month's. Recipients lose trust in every number on every page. This article documents the refresh discipline that prevents it.
 
-If you're still building your first linked deck, start with [OfficeConnect for PowerPoint](/word-powerpoint/powerpoint/officeconnect-for-powerpoint/) and [Designing a Board Pack Template](/word-powerpoint/powerpoint/board-pack-template/).
+If you're still building your first linked deck, start with [OfficeConnect for PowerPoint](/get-started/word-powerpoint/powerpoint/officeconnect-for-powerpoint/) and [Designing a Board Pack Template](/get-started/word-powerpoint/powerpoint/board-pack-template/).
 
 ## The refresh order rule
 
@@ -52,7 +52,7 @@ OfficeConnect ribbon → **Refresh Links**. Every linked table and chart updates
 {{< /step >}}
 
 {{< step n="8" title="Watch for refresh errors" >}}
-If a link fails to refresh, PowerPoint flags it. Common causes: the workbook moved, was renamed, or a named range was deleted. See [Recovering Broken Links](/word-powerpoint/powerpoint/recovering-broken-links/).
+If a link fails to refresh, PowerPoint flags it. Common causes: the workbook moved, was renamed, or a named range was deleted. See [Recovering Broken Links](/get-started/word-powerpoint/powerpoint/recovering-broken-links/).
 {{< /step >}}
 
 ## Step 3 — Visual scan every slide
@@ -75,7 +75,7 @@ Pick three numbers on different slides and verify they match the Excel workbook.
 ## Step 4 — Lock the deck before distribution
 
 {{< step n="11" title="Break links for the distributed copy (optional)" >}}
-For the version you actually email or post, you may want to break links so recipients can't accidentally refresh and pull future data. See [Recovering Broken Links](/word-powerpoint/powerpoint/recovering-broken-links/) for the break-link procedure.
+For the version you actually email or post, you may want to break links so recipients can't accidentally refresh and pull future data. See [Recovering Broken Links](/get-started/word-powerpoint/powerpoint/recovering-broken-links/) for the break-link procedure.
 
 Keep the live version with intact links in your team's working folder for next month.
 {{< /step >}}
@@ -91,7 +91,7 @@ If PowerPoint shows some slides refreshed and others didn't:
 1. **Don't save yet** — preserve your ability to undo
 2. Run **Refresh Links** again — most transient failures clear on retry
 3. If a specific slide consistently fails, check the linked named range in the Excel source (it may have been renamed or deleted)
-4. See [Recovering Broken Links](/word-powerpoint/powerpoint/recovering-broken-links/) for the link-repair procedure
+4. See [Recovering Broken Links](/get-started/word-powerpoint/powerpoint/recovering-broken-links/) for the link-repair procedure
 
 ## Common refresh-day mistakes
 
@@ -109,6 +109,6 @@ Every deck you ship has a consistent point-in-time view of the data, with no mix
 
 ## Next steps
 
-- [Designing a Board Pack Template](/word-powerpoint/powerpoint/board-pack-template/) — the upstream template design that makes refresh easy.
-- [Recovering Broken Links](/word-powerpoint/powerpoint/recovering-broken-links/) — when refresh doesn't go smoothly.
-- [Charts That Update with the Period](/word-powerpoint/powerpoint/period-aware-charts/) — the chart-side of period-aware design.
+- [Designing a Board Pack Template](/get-started/word-powerpoint/powerpoint/board-pack-template/) — the upstream template design that makes refresh easy.
+- [Recovering Broken Links](/get-started/word-powerpoint/powerpoint/recovering-broken-links/) — when refresh doesn't go smoothly.
+- [Charts That Update with the Period](/get-started/word-powerpoint/powerpoint/period-aware-charts/) — the chart-side of period-aware design.

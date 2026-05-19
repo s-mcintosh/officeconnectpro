@@ -14,7 +14,7 @@ This page requires Workday Security Administrator access. End users don't need t
 
 With SSO enabled, users sign in to Workday OfficeConnect using their existing Workday credentials through your identity provider. They don't need a separate Adaptive Planning username and password.
 
-For identity-provider-specific guides, see SSO with Okta, SSO with Microsoft Entra ID, or SSO with Ping Identity (coming soon under [Admin → Configure](/admin/configure/)).
+For identity-provider-specific guides, see SSO with Okta, SSO with Microsoft Entra ID, or SSO with Ping Identity (coming soon under [Admin → Configure](/get-started/admin/configure/)).
 
 ## Prerequisites
 
@@ -32,7 +32,7 @@ In Workday, create an API client specifically for OfficeConnect. This produces:
 - **Authorization Endpoint URL**
 - **API Endpoint URL**
 
-Record all three — users and IT will need them when configuring tenants. These are the same values referenced in [Sign In & Create a Tenant](/admin/configure/sign-in-create-tenant/).
+Record all three — users and IT will need them when configuring tenants. These are the same values referenced in [Sign In & Create a Tenant](/get-started/admin/configure/sign-in-create-tenant/).
 {{< /step >}}
 
 {{< step n="3" title="Assign the Access OfficeConnect permission" >}}
@@ -52,6 +52,6 @@ Users can sign in to Workday OfficeConnect using their Workday credentials. They
 
 ## Next steps
 
-- [Deploy Tenants via Registry](/admin/deploy/deploy-tenants-registry/) to push tenant configuration to user machines automatically.
-- [Authentication Token Errors](/troubleshoot/authentication-token-errors/) if users hit sign-in problems.
-- [Secure OfficeConnect Workbooks](/admin/govern/secure-workbooks/) to harden saved files.
+- [Deploy Tenants via Registry](/get-started/admin/deploy/deploy-tenants-registry/) to push tenant configuration to user machines automatically.
+- [Authentication Token Errors](/reference/troubleshoot/authentication-token-errors/) if users hit sign-in problems.
+- [Secure OfficeConnect Workbooks](/get-started/admin/govern/secure-workbooks/) to harden saved files.

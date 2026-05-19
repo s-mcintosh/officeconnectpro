@@ -63,4 +63,4 @@ If your workbook uses merged cells, OfficeConnect cannot update or refresh eleme
 
 ## Next steps
 
-→ [Review & Verify Applied Elements](/build-reports/review-applied-elements/) to inspect which elements are driving each cell's data
+→ [Review & Verify Applied Elements](/get-started/build-reports/review-applied-elements/) to inspect which elements are driving each cell's data

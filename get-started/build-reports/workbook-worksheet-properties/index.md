@@ -6,7 +6,7 @@ Configure rounding, data clearing, filters, and display options for your reports
 ---
 
 
-Workday OfficeConnect has three levels of settings that control report behavior, each overriding the one above it. If you're new to the Excel side of the product, get oriented with the [Reporting Pane Tour](/build-reports/reporting-pane-tour/) first — these properties dialogs all hang off that same ribbon.
+Workday OfficeConnect has three levels of settings that control report behavior, each overriding the one above it. If you're new to the Excel side of the product, get oriented with the [Reporting Pane Tour](/get-started/build-reports/reporting-pane-tour/) first — these properties dialogs all hang off that same ribbon.
 
 1. **User Settings** — your personal defaults for all new workbooks
 2. **Workbook Properties** — settings for the current workbook (overrides User Settings)
@@ -67,6 +67,6 @@ The most specific setting always wins.
 
 ## Next steps
 
-- [Change Rounding Settings](/troubleshoot/change-rounding-settings/) for the most common reason to override workbook defaults
-- [Suppress & Hide Zeros and Blanks](/troubleshoot/suppress-zeros-blanks/) to fine-tune row display
-- [Lock and Protect Reports for Distribution](/build-reports/lock-protect-reports/) once your workbook settings are finalized
+- [Change Rounding Settings](/reference/troubleshoot/change-rounding-settings/) for the most common reason to override workbook defaults
+- [Suppress & Hide Zeros and Blanks](/reference/troubleshoot/suppress-zeros-blanks/) to fine-tune row display
+- [Lock and Protect Reports for Distribution](/get-started/build-reports/lock-protect-reports/) once your workbook settings are finalized

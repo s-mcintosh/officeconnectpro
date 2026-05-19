@@ -179,16 +179,16 @@
 &lt;/blockquote&gt;
 &lt;h2 id="three-ways-to-cut-copy-and-paste"&gt;Three ways to cut, copy, and paste&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Ribbon buttons:&lt;/strong&gt; Use the functions in the &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab, not the Home tab.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Right-click menu:&lt;/strong&gt; Right-click the cell, row, or column → &lt;strong&gt;OfficeConnect&lt;/strong&gt; → &lt;strong&gt;Cut Elements&lt;/strong&gt; or &lt;strong&gt;Copy Elements&lt;/strong&gt;, then &lt;strong&gt;Paste Elements&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Review &amp; Verify Applied Elements</title><link>https://officeconnectpro.com/get-started/build-reports/review-applied-elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/review-applied-elements/</guid><description>&lt;p&gt;The &lt;strong&gt;Review tab&lt;/strong&gt; in the Workday OfficeConnect Reporting pane shows you a complete picture of what&amp;rsquo;s driving data in your report. Use it to verify elements are applied correctly before sharing or distributing a report — especially after you&amp;rsquo;ve used &lt;a href="https://officeconnectpro.com/build-reports/add-elements/"&gt;Add Elements&lt;/a&gt; to assemble rows and columns.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Right-click menu:&lt;/strong&gt; Right-click the cell, row, or column → &lt;strong&gt;OfficeConnect&lt;/strong&gt; → &lt;strong&gt;Cut Elements&lt;/strong&gt; or &lt;strong&gt;Copy Elements&lt;/strong&gt;, then &lt;strong&gt;Paste Elements&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Review &amp; Verify Applied Elements</title><link>https://officeconnectpro.com/get-started/build-reports/review-applied-elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/review-applied-elements/</guid><description>&lt;p&gt;The &lt;strong&gt;Review tab&lt;/strong&gt; in the Workday OfficeConnect Reporting pane shows you a complete picture of what&amp;rsquo;s driving data in your report. Use it to verify elements are applied correctly before sharing or distributing a report — especially after you&amp;rsquo;ve used &lt;a href="https://officeconnectpro.com/get-started/build-reports/add-elements/"&gt;Add Elements&lt;/a&gt; to assemble rows and columns.&lt;/p&gt;
 &lt;h2 id="what-the-review-tab-shows"&gt;What the Review tab shows&lt;/h2&gt;
-&lt;p&gt;Select a cell, row, or column, then click the &lt;strong&gt;Review&lt;/strong&gt; tab. The sections you see depend on your selection:&lt;/p&gt;</description></item><item><title>Workbook &amp; Worksheet Properties</title><link>https://officeconnectpro.com/get-started/build-reports/workbook-worksheet-properties/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/workbook-worksheet-properties/</guid><description>&lt;p&gt;Workday OfficeConnect has three levels of settings that control report behavior, each overriding the one above it. If you&amp;rsquo;re new to the Excel side of the product, get oriented with the &lt;a href="https://officeconnectpro.com/build-reports/reporting-pane-tour/"&gt;Reporting Pane Tour&lt;/a&gt; first — these properties dialogs all hang off that same ribbon.&lt;/p&gt;
+&lt;p&gt;Select a cell, row, or column, then click the &lt;strong&gt;Review&lt;/strong&gt; tab. The sections you see depend on your selection:&lt;/p&gt;</description></item><item><title>Workbook &amp; Worksheet Properties</title><link>https://officeconnectpro.com/get-started/build-reports/workbook-worksheet-properties/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/workbook-worksheet-properties/</guid><description>&lt;p&gt;Workday OfficeConnect has three levels of settings that control report behavior, each overriding the one above it. If you&amp;rsquo;re new to the Excel side of the product, get oriented with the &lt;a href="https://officeconnectpro.com/get-started/build-reports/reporting-pane-tour/"&gt;Reporting Pane Tour&lt;/a&gt; first — these properties dialogs all hang off that same ribbon.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;User Settings&lt;/strong&gt; — your personal defaults for all new workbooks&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Workbook Properties&lt;/strong&gt; — settings for the current workbook (overrides User Settings)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Selection Properties&lt;/strong&gt; — settings for a specific row, column, or cell (overrides Workbook Properties)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="user-settings"&gt;User Settings&lt;/h2&gt;
-&lt;p&gt;Access via &lt;strong&gt;OfficeConnect ribbon → User Settings&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Create Repeating Reports</title><link>https://officeconnectpro.com/get-started/build-reports/repeating-reports/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/repeating-reports/</guid><description>&lt;p&gt;The &lt;strong&gt;Repeating Reports&lt;/strong&gt; feature in Workday OfficeConnect copies a finished report worksheet once for each element you choose — for example, one sheet per cost center or one sheet per region. Each copy is automatically filtered to show data for its element. Start from a polished single-sheet template, such as the one built in &lt;a href="https://officeconnectpro.com/build-reports/department-pl-report/"&gt;Build a Department P&amp;amp;L Report&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Access via &lt;strong&gt;OfficeConnect ribbon → User Settings&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Create Repeating Reports</title><link>https://officeconnectpro.com/get-started/build-reports/repeating-reports/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/repeating-reports/</guid><description>&lt;p&gt;The &lt;strong&gt;Repeating Reports&lt;/strong&gt; feature in Workday OfficeConnect copies a finished report worksheet once for each element you choose — for example, one sheet per cost center or one sheet per region. Each copy is automatically filtered to show data for its element. Start from a polished single-sheet template, such as the one built in &lt;a href="https://officeconnectpro.com/get-started/build-reports/department-pl-report/"&gt;Build a Department P&amp;amp;L Report&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id="what-it-does"&gt;What it does&lt;/h2&gt;
 &lt;p&gt;When you create repeating reports, OfficeConnect:&lt;/p&gt;
 &lt;ul&gt;
@@ -198,7 +198,7 @@
 &lt;li&gt;Names each worksheet based on your naming convention&lt;/li&gt;
 &lt;li&gt;Preserves all Excel formatting, formulas, and OfficeConnect metadata&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Once created, each repeating report is &lt;strong&gt;independent&lt;/strong&gt; — it&amp;rsquo;s not linked to the original. To update them with new report formatting, delete and recreate them.&lt;/p&gt;</description></item><item><title>Cell Explorer &amp; Drill-Down</title><link>https://officeconnectpro.com/get-started/build-reports/cell-explorer-drill-down/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/cell-explorer-drill-down/</guid><description>&lt;p&gt;When a number in your Workday OfficeConnect report looks unexpected, &lt;strong&gt;Explore Cell&lt;/strong&gt; lets you drill into the contributing details to find the source. It pairs naturally with &lt;a href="https://officeconnectpro.com/build-reports/review-applied-elements/"&gt;Review &amp;amp; Verify Applied Elements&lt;/a&gt; — Review shows which elements drive a cell, while Explore Cell shows the underlying data behind the result.&lt;/p&gt;
+&lt;p&gt;Once created, each repeating report is &lt;strong&gt;independent&lt;/strong&gt; — it&amp;rsquo;s not linked to the original. To update them with new report formatting, delete and recreate them.&lt;/p&gt;</description></item><item><title>Cell Explorer &amp; Drill-Down</title><link>https://officeconnectpro.com/get-started/build-reports/cell-explorer-drill-down/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/cell-explorer-drill-down/</guid><description>&lt;p&gt;When a number in your Workday OfficeConnect report looks unexpected, &lt;strong&gt;Explore Cell&lt;/strong&gt; lets you drill into the contributing details to find the source. It pairs naturally with &lt;a href="https://officeconnectpro.com/get-started/build-reports/review-applied-elements/"&gt;Review &amp;amp; Verify Applied Elements&lt;/a&gt; — Review shows which elements drive a cell, while Explore Cell shows the underlying data behind the result.&lt;/p&gt;
 &lt;h2 id="what-explore-cell-shows"&gt;What Explore Cell shows&lt;/h2&gt;
 &lt;p&gt;For any cell with data, Explore Cell reveals:&lt;/p&gt;
 &lt;table&gt;
@@ -272,7 +272,7 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
  &lt;div class="step-number"&gt;2&lt;/div&gt;
  &lt;div class="step-content"&gt;
  &lt;strong&gt;Sign in if prompted&lt;/strong&gt;
- If the pane shows a sign-in prompt, click &lt;strong&gt;Sign In&lt;/strong&gt; and complete the Workday authentication flow. See &lt;a href="https://officeconnectpro.com/admin/configure/sign-in-create-tenant/"&gt;Sign In and Create a Tenant&lt;/a&gt; if you need help.
+ If the pane shows a sign-in prompt, click &lt;strong&gt;Sign In&lt;/strong&gt; and complete the Workday authentication flow. See &lt;a href="https://officeconnectpro.com/get-started/admin/configure/sign-in-create-tenant/"&gt;Sign In and Create a Tenant&lt;/a&gt; if you need help.
  &lt;/div&gt;
 &lt;/div&gt;
 
@@ -283,7 +283,7 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
  &lt;p&gt;The Reporting pane docked to the right after clicking Open Pane, with the Elements tab active.&lt;/p&gt;</description></item><item><title>Create a Rolling 12-Month Report</title><link>https://officeconnectpro.com/get-started/build-reports/rolling-12-month-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/rolling-12-month-report/</guid><description>&lt;p&gt;A rolling 12-month report always shows the current month plus the 11 preceding months — no matter when you open it. This tutorial shows how to build one using OfficeConnect&amp;rsquo;s relative time contexts so the columns update automatically on each refresh.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;An existing OfficeConnect workbook or a blank one (&lt;a href="https://officeconnectpro.com/build-reports/build-first-report/"&gt;Build Your First Report&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;An existing OfficeConnect workbook or a blank one (&lt;a href="https://officeconnectpro.com/get-started/build-reports/build-first-report/"&gt;Build Your First Report&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Your Adaptive Planning instance populated with at least 12 months of actuals or forecast data&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
@@ -302,7 +302,7 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
 &lt;p&gt;OfficeConnect supports &lt;strong&gt;relative time contexts&lt;/strong&gt; — time elements that are defined as offsets from the current period rather than as fixed calendar months. When you use &lt;em&gt;Current Month&lt;/em&gt;, &lt;em&gt;Current Month -1&lt;/em&gt;, &lt;em&gt;Current Month -2&lt;/em&gt;, etc., OfficeConnect resolves each offset at refresh time against the current date.&lt;/p&gt;</description></item><item><title>Publish a Report to PowerPoint</title><link>https://officeconnectpro.com/get-started/build-reports/publish-to-powerpoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/publish-to-powerpoint/</guid><description>&lt;p&gt;This tutorial covers linking an OfficeConnect Excel report into a PowerPoint presentation. Once linked, refreshing OfficeConnect in Excel automatically updates the numbers in your slides — no copy-pasting needed.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;A finished OfficeConnect Excel report with data populated (&lt;a href="https://officeconnectpro.com/build-reports/build-first-report/"&gt;Build Your First Report&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;A finished OfficeConnect Excel report with data populated (&lt;a href="https://officeconnectpro.com/get-started/build-reports/build-first-report/"&gt;Build Your First Report&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;PowerPoint (Microsoft 365 or Office 2019+)&lt;/li&gt;
 &lt;li&gt;OfficeConnect installed on the same machine&lt;/li&gt;
 &lt;/ul&gt;
@@ -325,7 +325,7 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
 &lt;ul&gt;
 &lt;li&gt;OfficeConnect installed and connected to an Adaptive Planning tenant (&lt;a href="https://officeconnectpro.com/get-started/"&gt;Get Started&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;An Adaptive Planning model with at least one Budget version and actuals loaded for the same period&lt;/li&gt;
-&lt;li&gt;Basic familiarity with adding elements (&lt;a href="https://officeconnectpro.com/build-reports/add-elements/"&gt;Add Elements&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Basic familiarity with adding elements (&lt;a href="https://officeconnectpro.com/get-started/build-reports/add-elements/"&gt;Add Elements&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id="step-1--set-up-your-account-rows"&gt;Step 1 — Set up your account rows&lt;/h2&gt;
@@ -491,15 +491,15 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
 &lt;hr&gt;
 &lt;h2 id="next-steps"&gt;Next steps&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Add a budget or prior-year comparison column — see &lt;a href="https://officeconnectpro.com/build-reports/budget-vs-actuals-variance/"&gt;Budget vs. Actuals Variance&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Protect the report for distribution — see &lt;a href="https://officeconnectpro.com/build-reports/lock-protect-reports/"&gt;Lock and Protect Reports&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Publish to PowerPoint — see &lt;a href="https://officeconnectpro.com/word-powerpoint/powerpoint/officeconnect-for-powerpoint/"&gt;OfficeConnect for PowerPoint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add a budget or prior-year comparison column — see &lt;a href="https://officeconnectpro.com/get-started/build-reports/budget-vs-actuals-variance/"&gt;Budget vs. Actuals Variance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Protect the report for distribution — see &lt;a href="https://officeconnectpro.com/get-started/build-reports/lock-protect-reports/"&gt;Lock and Protect Reports&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Publish to PowerPoint — see &lt;a href="https://officeconnectpro.com/get-started/word-powerpoint/powerpoint/officeconnect-for-powerpoint/"&gt;OfficeConnect for PowerPoint&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Build a Year-over-Year Trend Report</title><link>https://officeconnectpro.com/get-started/build-reports/year-over-year-trend/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/year-over-year-trend/</guid><description>&lt;p&gt;A year-over-year trend report shows how each month compares to the same month last year — useful for spotting seasonal patterns and measuring real growth. OfficeConnect&amp;rsquo;s time elements let you pin both years in the same report.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A report with 12 months of current-year actuals alongside 12 months of prior-year actuals, plus a YoY variance row.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;OfficeConnect connected to an Adaptive Planning tenant with at least two full years of actuals&lt;/li&gt;
-&lt;li&gt;Familiarity with adding elements (&lt;a href="https://officeconnectpro.com/build-reports/add-elements/"&gt;Add Elements&lt;/a&gt;) and time contexts (&lt;a href="https://officeconnectpro.com/build-reports/time-and-contexts/"&gt;Time and Contexts&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Familiarity with adding elements (&lt;a href="https://officeconnectpro.com/get-started/build-reports/add-elements/"&gt;Add Elements&lt;/a&gt;) and time contexts (&lt;a href="https://officeconnectpro.com/get-started/build-reports/time-and-contexts/"&gt;Time and Contexts&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id="step-1--set-up-current-year-monthly-columns"&gt;Step 1 — Set up current-year monthly columns&lt;/h2&gt;
@@ -619,7 +619,7 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;OfficeConnect connected to an Adaptive Planning model that includes custom dimensions&lt;/li&gt;
-&lt;li&gt;Familiarity with building basic reports — see &lt;a href="https://officeconnectpro.com/build-reports/budget-vs-actuals-variance/"&gt;Budget vs. Actuals Variance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Familiarity with building basic reports — see &lt;a href="https://officeconnectpro.com/get-started/build-reports/budget-vs-actuals-variance/"&gt;Budget vs. Actuals Variance&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id="1-find-your-custom-dimensions-in-the-reporting-pane"&gt;1. Find your custom dimensions in the Reporting pane&lt;/h2&gt;

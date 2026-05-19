@@ -5,7 +5,7 @@
 &lt;p&gt;Open your OfficeConnect workbook and click the &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Set up your report with company, version, time, and ledger account rows as usual. If you need to start from scratch, see &lt;a href="https://officeconnectpro.com/build-reports/financials/actuals-trend-report/"&gt;Build an Actuals Trend Report&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Set up your report with company, version, time, and ledger account rows as usual. If you need to start from scratch, see &lt;a href="https://officeconnectpro.com/get-started/build-reports/financials/actuals-trend-report/"&gt;Build an Actuals Trend Report&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Click an empty row or column header where you want to add the cost center filter. A common layout puts the cost center in the same header area as the company, stacked in adjacent cells.&lt;/p&gt;</description></item><item><title>Report on Intercompany Eliminations in OfficeConnect</title><link>https://officeconnectpro.com/get-started/build-reports/financials/intercompany-eliminations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/financials/intercompany-eliminations/</guid><description>&lt;p&gt;Intercompany eliminations remove transactions between entities in a consolidated group — preventing double-counting of intercompany revenue and expenses. OfficeConnect&amp;rsquo;s Financials data source surfaces these as data you can include or exclude in your reports.&lt;/p&gt;
@@ -16,7 +16,7 @@
 &lt;li&gt;The &lt;strong&gt;Exclude Elimination&lt;/strong&gt; option (available in Financials data source reports) lets you toggle whether elimination entries are included in your totals&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The Exclude Elimination option is a Financials-only feature — it is not available in Adaptive Planning reports. See &lt;a href="https://officeconnectpro.com/migration-comparison/financials-vs-adaptive-planning/"&gt;Adaptive Planning vs. Financials Data Source&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Create Repeating Reports</title><link>https://officeconnectpro.com/get-started/build-reports/repeating-reports/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/repeating-reports/</guid><description>&lt;p&gt;The &lt;strong&gt;Repeating Reports&lt;/strong&gt; feature in Workday OfficeConnect copies a finished report worksheet once for each element you choose — for example, one sheet per cost center or one sheet per region. Each copy is automatically filtered to show data for its element. Start from a polished single-sheet template, such as the one built in &lt;a href="https://officeconnectpro.com/build-reports/department-pl-report/"&gt;Build a Department P&amp;amp;L Report&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The Exclude Elimination option is a Financials-only feature — it is not available in Adaptive Planning reports. See &lt;a href="https://officeconnectpro.com/get-started/migration-comparison/financials-vs-adaptive-planning/"&gt;Adaptive Planning vs. Financials Data Source&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Create Repeating Reports</title><link>https://officeconnectpro.com/get-started/build-reports/repeating-reports/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/repeating-reports/</guid><description>&lt;p&gt;The &lt;strong&gt;Repeating Reports&lt;/strong&gt; feature in Workday OfficeConnect copies a finished report worksheet once for each element you choose — for example, one sheet per cost center or one sheet per region. Each copy is automatically filtered to show data for its element. Start from a polished single-sheet template, such as the one built in &lt;a href="https://officeconnectpro.com/get-started/build-reports/department-pl-report/"&gt;Build a Department P&amp;amp;L Report&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id="what-it-does"&gt;What it does&lt;/h2&gt;
 &lt;p&gt;When you create repeating reports, OfficeConnect:&lt;/p&gt;
 &lt;ul&gt;
@@ -52,7 +52,7 @@
  &lt;p&gt;Continue applying relative months across columns:&lt;/p&gt;</description></item><item><title>Create a Rolling 12-Month Report</title><link>https://officeconnectpro.com/get-started/build-reports/rolling-12-month-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/rolling-12-month-report/</guid><description>&lt;p&gt;A rolling 12-month report always shows the current month plus the 11 preceding months — no matter when you open it. This tutorial shows how to build one using OfficeConnect&amp;rsquo;s relative time contexts so the columns update automatically on each refresh.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;An existing OfficeConnect workbook or a blank one (&lt;a href="https://officeconnectpro.com/build-reports/build-first-report/"&gt;Build Your First Report&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;An existing OfficeConnect workbook or a blank one (&lt;a href="https://officeconnectpro.com/get-started/build-reports/build-first-report/"&gt;Build Your First Report&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Your Adaptive Planning instance populated with at least 12 months of actuals or forecast data&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
@@ -88,7 +88,7 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;OfficeConnect connected to an Adaptive Planning tenant with at least two full years of actuals&lt;/li&gt;
-&lt;li&gt;Familiarity with adding elements (&lt;a href="https://officeconnectpro.com/build-reports/add-elements/"&gt;Add Elements&lt;/a&gt;) and time contexts (&lt;a href="https://officeconnectpro.com/build-reports/time-and-contexts/"&gt;Time and Contexts&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Familiarity with adding elements (&lt;a href="https://officeconnectpro.com/get-started/build-reports/add-elements/"&gt;Add Elements&lt;/a&gt;) and time contexts (&lt;a href="https://officeconnectpro.com/get-started/build-reports/time-and-contexts/"&gt;Time and Contexts&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id="step-1--set-up-current-year-monthly-columns"&gt;Step 1 — Set up current-year monthly columns&lt;/h2&gt;

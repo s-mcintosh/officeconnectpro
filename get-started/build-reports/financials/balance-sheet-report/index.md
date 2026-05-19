@@ -13,7 +13,7 @@ A balance sheet in OfficeConnect pulls directly from Workday Financial Managemen
 **What you'll need:**
 - OfficeConnect installed and connected to the **Financials** data source (not Adaptive Planning) ([Get Started](/get-started/))
 - Workday Financial Management with balance sheet accounts (Assets, Liabilities, Equity) loaded with actuals
-- Basic familiarity with the Financials data source — see [Build a Trial Balance Report](/build-reports/financials/trial-balance-report/)
+- Basic familiarity with the Financials data source — see [Build a Trial Balance Report](/get-started/build-reports/financials/trial-balance-report/)
 
 ---
 
@@ -95,6 +95,6 @@ Format the number columns with Accounting format (no decimals). Bold the rollup 
 
 ## Next steps
 
-- Build a cash flow statement — see [Build a Cash Flow Statement](/build-reports/financials/cash-flow-statement/)
-- Add prior-period comparison columns — see [Report on Actuals by Cost Center](/build-reports/financials/actuals-by-cost-center/)
-- Reconcile balances to Workday Report Writer — see [Reconcile OfficeConnect Values to Workday Reports](/build-reports/financials/reconcile-to-workday/)
+- Build a cash flow statement — see [Build a Cash Flow Statement](/get-started/build-reports/financials/cash-flow-statement/)
+- Add prior-period comparison columns — see [Report on Actuals by Cost Center](/get-started/build-reports/financials/actuals-by-cost-center/)
+- Reconcile balances to Workday Report Writer — see [Reconcile OfficeConnect Values to Workday Reports](/get-started/build-reports/financials/reconcile-to-workday/)

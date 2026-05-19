@@ -44,6 +44,6 @@ To show a consolidated total across all companies:
 
 ## Related
 
-- [Report on Actuals by Cost Center](/build-reports/financials/actuals-by-cost-center/)
-- [Report on Intercompany Eliminations](/build-reports/financials/intercompany-eliminations/)
-- [Build a Trial Balance Report](/build-reports/financials/trial-balance-report/)
+- [Report on Actuals by Cost Center](/get-started/build-reports/financials/actuals-by-cost-center/)
+- [Report on Intercompany Eliminations](/get-started/build-reports/financials/intercompany-eliminations/)
+- [Build a Trial Balance Report](/get-started/build-reports/financials/trial-balance-report/)

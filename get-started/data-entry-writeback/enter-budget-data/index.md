@@ -97,6 +97,6 @@ You have a distributable Excel data entry workbook that writes back to Workday A
 
 ## Next steps
 
-- Protect the workbook before sharing — see [Lock and Protect Reports](/build-reports/lock-protect-reports/)
-- Compare submitted budget to actuals — see [Budget vs. Actuals Variance](/build-reports/budget-vs-actuals-variance/)
-- Distribute the workbook via SharePoint — see [Share via Teams & SharePoint](/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)
+- Protect the workbook before sharing — see [Lock and Protect Reports](/get-started/build-reports/lock-protect-reports/)
+- Compare submitted budget to actuals — see [Budget vs. Actuals Variance](/get-started/build-reports/budget-vs-actuals-variance/)
+- Distribute the workbook via SharePoint — see [Share via Teams & SharePoint](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)

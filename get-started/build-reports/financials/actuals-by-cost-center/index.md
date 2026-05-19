@@ -12,7 +12,7 @@ OfficeConnect's Financials data source supports Workday worktags — including C
 
 1. Open your OfficeConnect workbook and click the **OfficeConnect** tab.
 
-2. Set up your report with company, version, time, and ledger account rows as usual. If you need to start from scratch, see [Build an Actuals Trend Report](/build-reports/financials/actuals-trend-report/).
+2. Set up your report with company, version, time, and ledger account rows as usual. If you need to start from scratch, see [Build an Actuals Trend Report](/get-started/build-reports/financials/actuals-trend-report/).
 
 3. Click an empty row or column header where you want to add the cost center filter. A common layout puts the cost center in the same header area as the company, stacked in adjacent cells.
 
@@ -33,6 +33,6 @@ Each additional dimension narrows the data further. OfficeConnect resolves the i
 
 ## Related
 
-- [Filter Reports by Company](/build-reports/financials/filter-by-company/)
-- [Build an Actuals Trend Report](/build-reports/financials/actuals-trend-report/)
-- [Drill Through to Workday Journal Lines](/build-reports/financials/drill-through-journal-lines/)
+- [Filter Reports by Company](/get-started/build-reports/financials/filter-by-company/)
+- [Build an Actuals Trend Report](/get-started/build-reports/financials/actuals-trend-report/)
+- [Drill Through to Workday Journal Lines](/get-started/build-reports/financials/drill-through-journal-lines/)

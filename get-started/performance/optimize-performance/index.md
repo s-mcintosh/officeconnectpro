@@ -54,6 +54,6 @@ A workbook that previously took 30-60 seconds to refresh should now complete in 
 
 ## Next steps
 
-- [Fix Slow Performance in Large Reports](/troubleshoot/slow-performance/) — if you're still seeing slowness after these changes.
-- [Cell Explorer / Drill Down](/build-reports/cell-explorer-drill-down/) — find the cells driving slow refresh.
-- [Filter Data](/build-reports/filter-data/) — scope reports for faster queries.
+- [Fix Slow Performance in Large Reports](/reference/troubleshoot/slow-performance/) — if you're still seeing slowness after these changes.
+- [Cell Explorer / Drill Down](/get-started/build-reports/cell-explorer-drill-down/) — find the cells driving slow refresh.
+- [Filter Data](/get-started/build-reports/filter-data/) — scope reports for faster queries.

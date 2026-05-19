@@ -11,10 +11,10 @@ A board pack is the quarterly artifact every finance team produces and the one m
 **What you'll build:** A four-tab Excel workbook (P&L, KPIs, Variance, Cash) with consistent formatting, refreshable from Adaptive Planning, and ready to link to slides.
 
 **What you'll need:**
-- OfficeConnect installed and signed in ([Build Your First Report](/build-reports/build-first-report/))
+- OfficeConnect installed and signed in ([Build Your First Report](/get-started/build-reports/build-first-report/))
 - Actuals loaded for the closing quarter plus a Budget or Forecast version
 - A blank workbook with four named tabs: `PL`, `KPIs`, `Variance`, `Cash`
-- The [OfficeConnect for PowerPoint](/word-powerpoint/powerpoint/officeconnect-for-powerpoint/) add-in installed for downstream linking
+- The [OfficeConnect for PowerPoint](/get-started/word-powerpoint/powerpoint/officeconnect-for-powerpoint/) add-in installed for downstream linking
 
 ---
 
@@ -29,7 +29,7 @@ In column A, list the standard P&L lines: Revenue, COGS, Gross Profit, Operating
 {{< /step >}}
 
 {{< step n="3" title="Add a variance column" >}}
-In **D1** type `Variance`. In **D3** write `=B3-C3` and copy down. This mirrors the pattern from [Budget vs. Actuals Variance](/build-reports/budget-vs-actuals-variance/).
+In **D1** type `Variance`. In **D3** write `=B3-C3` and copy down. This mirrors the pattern from [Budget vs. Actuals Variance](/get-started/build-reports/budget-vs-actuals-variance/).
 {{< /step >}}
 
 ---
@@ -41,7 +41,7 @@ On the `KPIs` tab, lay out six merged-cell tiles for the metrics the board revie
 {{< /step >}}
 
 {{< step n="5" title="Populate each tile" >}}
-For each tile, drop a single OfficeConnect cell that resolves to the metric for the closing quarter, and a small comparison cell underneath for the prior quarter. The full mechanics are covered in [Build a KPI Dashboard](/build-reports/kpi-dashboard/).
+For each tile, drop a single OfficeConnect cell that resolves to the metric for the closing quarter, and a small comparison cell underneath for the prior quarter. The full mechanics are covered in [Build a KPI Dashboard](/get-started/build-reports/kpi-dashboard/).
 {{< /step >}}
 
 ---
@@ -57,7 +57,7 @@ Add a wide column F titled `Commentary`. This is plain Excel text — finance ow
 {{< /step >}}
 
 {{< admin-note >}}
-Lock all OfficeConnect cells but leave the Commentary column unlocked so reviewers can edit explanations without breaking the structure. See [Lock and Protect Reports](/build-reports/lock-protect-reports/).
+Lock all OfficeConnect cells but leave the Commentary column unlocked so reviewers can edit explanations without breaking the structure. See [Lock and Protect Reports](/get-started/build-reports/lock-protect-reports/).
 {{< /admin-note >}}
 
 ---
@@ -81,7 +81,7 @@ Click **Refresh** once — all four tabs update together.
 {{< /step >}}
 
 {{< step n="11" title="Link tables and charts into the deck" >}}
-Open your board deck in PowerPoint. Use [Publish to PowerPoint](/build-reports/publish-to-powerpoint/) or paste-as-linked-object so each refresh of the workbook flows directly into the slides. The [OfficeConnect for PowerPoint](/word-powerpoint/powerpoint/officeconnect-for-powerpoint/) add-in supports an end-to-end refresh from the slide side.
+Open your board deck in PowerPoint. Use [Publish to PowerPoint](/get-started/build-reports/publish-to-powerpoint/) or paste-as-linked-object so each refresh of the workbook flows directly into the slides. The [OfficeConnect for PowerPoint](/get-started/word-powerpoint/powerpoint/officeconnect-for-powerpoint/) add-in supports an end-to-end refresh from the slide side.
 {{< /step >}}
 
 ---
@@ -92,6 +92,6 @@ You now have a structured, four-tab board pack workbook whose every number is so
 
 ## Next steps
 
-- Polish the look of each tab — see [Formatted Executive Report](/build-reports/formatted-executive-report/)
-- Add scenario overlays for the forward outlook — see [Scenario Comparison](/build-reports/scenario-comparison/)
-- Push the final tables and KPIs into slides — see [Publish to PowerPoint](/build-reports/publish-to-powerpoint/)
+- Polish the look of each tab — see [Formatted Executive Report](/get-started/build-reports/formatted-executive-report/)
+- Add scenario overlays for the forward outlook — see [Scenario Comparison](/get-started/build-reports/scenario-comparison/)
+- Push the final tables and KPIs into slides — see [Publish to PowerPoint](/get-started/build-reports/publish-to-powerpoint/)

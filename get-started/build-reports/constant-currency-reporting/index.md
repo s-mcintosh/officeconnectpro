@@ -38,5 +38,5 @@ Constant currency reports can confuse readers who don't know which rates were us
 
 ## Related
 
-- [Compare Two Planning Versions Side by Side](/build-reports/compare-planning-versions/)
-- [Multi-Currency Reporting with the Financials Data Source](/build-reports/financials/multi-currency-financials/) — currency options for accounting teams on the Financials data source
+- [Compare Two Planning Versions Side by Side](/get-started/build-reports/compare-planning-versions/)
+- [Multi-Currency Reporting with the Financials Data Source](/get-started/build-reports/financials/multi-currency-financials/) — currency options for accounting teams on the Financials data source

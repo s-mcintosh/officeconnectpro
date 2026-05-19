@@ -21,7 +21,7 @@ After Workday OfficeConnect is installed (see [Install for End Users](/get-start
 {{< /step >}}
 
 {{< step n="2" title="Click Log In" >}}
-Enter your Adaptive Planning credentials, or click **Log in with Workday**. If you're already signed in to OfficeConnect for Excel, Word logs you in automatically. See [Sign In & Create a Tenant](/admin/configure/sign-in-create-tenant/) for first-time setup.
+Enter your Adaptive Planning credentials, or click **Log in with Workday**. If you're already signed in to OfficeConnect for Excel, Word logs you in automatically. See [Sign In & Create a Tenant](/get-started/admin/configure/sign-in-create-tenant/) for first-time setup.
 {{< /step >}}
 
 ## Connect to an Excel workbook
@@ -79,6 +79,6 @@ Your Word documents refresh from the OfficeConnect workbook each period. Numbers
 
 ## Next steps
 
-- [OfficeConnect for PowerPoint](/word-powerpoint/powerpoint/officeconnect-for-powerpoint/) — same workflow for slide decks.
-- [Share Reports via Teams, SharePoint & OneDrive](/word-powerpoint/sharing/share-teams-sharepoint-onedrive/) — distribute the finished document.
-- [Formatted Executive Report](/build-reports/formatted-executive-report/) — design the source workbook for presentation.
+- [OfficeConnect for PowerPoint](/get-started/word-powerpoint/powerpoint/officeconnect-for-powerpoint/) — same workflow for slide decks.
+- [Share Reports via Teams, SharePoint & OneDrive](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/) — distribute the finished document.
+- [Formatted Executive Report](/get-started/build-reports/formatted-executive-report/) — design the source workbook for presentation.

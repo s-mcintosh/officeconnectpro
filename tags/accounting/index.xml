@@ -4,7 +4,7 @@
 &lt;ul&gt;
 &lt;li&gt;OfficeConnect installed and connected to a tenant configured for the &lt;strong&gt;Financials data source&lt;/strong&gt; (not Adaptive Planning)&lt;/li&gt;
 &lt;li&gt;Access to at least one company with posted journal entries in Workday Financial Management&lt;/li&gt;
-&lt;li&gt;The &lt;a href="https://officeconnectpro.com/migration-comparison/financials-vs-adaptive-planning/"&gt;Financials vs. Adaptive Planning&lt;/a&gt; page explains the difference if you&amp;rsquo;re unsure which data source you have&lt;/li&gt;
+&lt;li&gt;The &lt;a href="https://officeconnectpro.com/get-started/migration-comparison/financials-vs-adaptive-planning/"&gt;Financials vs. Adaptive Planning&lt;/a&gt; page explains the difference if you&amp;rsquo;re unsure which data source you have&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id="step-1--confirm-your-data-source"&gt;Step 1 — Confirm your data source&lt;/h2&gt;
@@ -102,7 +102,7 @@
  &lt;div class="step-number"&gt;1&lt;/div&gt;
  &lt;div class="step-content"&gt;
  &lt;strong&gt;Open a report with Financials data&lt;/strong&gt;
- Open any OfficeConnect workbook using the Financials data source and click &lt;strong&gt;Refresh&lt;/strong&gt; to ensure cells are populated. If you need to build one from scratch, follow &lt;a href="https://officeconnectpro.com/build-reports/financials/trial-balance-report/"&gt;Build a Trial Balance Report&lt;/a&gt; first.
+ Open any OfficeConnect workbook using the Financials data source and click &lt;strong&gt;Refresh&lt;/strong&gt; to ensure cells are populated. If you need to build one from scratch, follow &lt;a href="https://officeconnectpro.com/get-started/build-reports/financials/trial-balance-report/"&gt;Build a Trial Balance Report&lt;/a&gt; first.
  &lt;/div&gt;
 &lt;/div&gt;
 
@@ -137,7 +137,7 @@
 &lt;p&gt;Open your OfficeConnect workbook and click the &lt;strong&gt;OfficeConnect&lt;/strong&gt; tab.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Set up your report with company, version, time, and ledger account rows as usual. If you need to start from scratch, see &lt;a href="https://officeconnectpro.com/build-reports/financials/actuals-trend-report/"&gt;Build an Actuals Trend Report&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Set up your report with company, version, time, and ledger account rows as usual. If you need to start from scratch, see &lt;a href="https://officeconnectpro.com/get-started/build-reports/financials/actuals-trend-report/"&gt;Build an Actuals Trend Report&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Click an empty row or column header where you want to add the cost center filter. A common layout puts the cost center in the same header area as the company, stacked in adjacent cells.&lt;/p&gt;</description></item><item><title>Set Up Your Reporting Model</title><link>https://officeconnectpro.com/get-started/set-up-reporting-model/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/set-up-reporting-model/</guid><description>&lt;div class="oc-callout oc-callout--admin admin-note" role="note"&gt;
@@ -171,7 +171,7 @@
 &lt;li&gt;The &lt;strong&gt;Exclude Elimination&lt;/strong&gt; option (available in Financials data source reports) lets you toggle whether elimination entries are included in your totals&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The Exclude Elimination option is a Financials-only feature — it is not available in Adaptive Planning reports. See &lt;a href="https://officeconnectpro.com/migration-comparison/financials-vs-adaptive-planning/"&gt;Adaptive Planning vs. Financials Data Source&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Multi-Currency Reporting with the Financials Data Source</title><link>https://officeconnectpro.com/get-started/build-reports/financials/multi-currency-financials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/financials/multi-currency-financials/</guid><description>&lt;p&gt;Workday Financial Management supports multicurrency transactions — journals can be posted in a transaction currency and converted to a company (ledger) currency automatically. OfficeConnect surfaces these currency layers so you can choose which currency your report shows.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The Exclude Elimination option is a Financials-only feature — it is not available in Adaptive Planning reports. See &lt;a href="https://officeconnectpro.com/get-started/migration-comparison/financials-vs-adaptive-planning/"&gt;Adaptive Planning vs. Financials Data Source&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Multi-Currency Reporting with the Financials Data Source</title><link>https://officeconnectpro.com/get-started/build-reports/financials/multi-currency-financials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/financials/multi-currency-financials/</guid><description>&lt;p&gt;Workday Financial Management supports multicurrency transactions — journals can be posted in a transaction currency and converted to a company (ledger) currency automatically. OfficeConnect surfaces these currency layers so you can choose which currency your report shows.&lt;/p&gt;
 &lt;h2 id="currency-options-in-the-financials-data-source"&gt;Currency options in the Financials data source&lt;/h2&gt;
 &lt;table&gt;
  &lt;thead&gt;
@@ -205,7 +205,7 @@
 &lt;ul&gt;
 &lt;li&gt;OfficeConnect connected to the &lt;strong&gt;Financials&lt;/strong&gt; data source&lt;/li&gt;
 &lt;li&gt;Workday Financial Management with a current period closed and journal entries posted&lt;/li&gt;
-&lt;li&gt;A completed balance sheet workbook is helpful for cross-referencing — see &lt;a href="https://officeconnectpro.com/build-reports/financials/balance-sheet-report/"&gt;Build a Balance Sheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A completed balance sheet workbook is helpful for cross-referencing — see &lt;a href="https://officeconnectpro.com/get-started/build-reports/financials/balance-sheet-report/"&gt;Build a Balance Sheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id="step-1--set-up-the-version-and-period"&gt;Step 1 — Set up the version and period&lt;/h2&gt;
@@ -248,7 +248,7 @@
  &lt;div class="step-content"&gt;
  &lt;strong&gt;Add working capital changes&lt;/strong&gt;
  &lt;p&gt;In A9–A12, drag accounts that represent working capital changes:&lt;/p&gt;</description></item><item><title>Financials vs. Adaptive Planning Data Sources</title><link>https://officeconnectpro.com/get-started/migration-comparison/financials-vs-adaptive-planning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/migration-comparison/financials-vs-adaptive-planning/</guid><description>&lt;p&gt;Workday OfficeConnect supports two data sources. Most organizations use &lt;strong&gt;Adaptive Planning&lt;/strong&gt; (budget and forecast data). Organizations using Workday Financial Management also have access to the &lt;strong&gt;Financials&lt;/strong&gt; data source (general ledger actuals).&lt;/p&gt;
-&lt;p&gt;The data source is set when you configure your tenant — see &lt;a href="https://officeconnectpro.com/admin/configure/sign-in-create-tenant/"&gt;Sign In &amp;amp; Create a Tenant&lt;/a&gt;. Some OfficeConnect features behave differently depending on which source is active.&lt;/p&gt;
+&lt;p&gt;The data source is set when you configure your tenant — see &lt;a href="https://officeconnectpro.com/get-started/admin/configure/sign-in-create-tenant/"&gt;Sign In &amp;amp; Create a Tenant&lt;/a&gt;. Some OfficeConnect features behave differently depending on which source is active.&lt;/p&gt;
 &lt;h2 id="feature-comparison"&gt;Feature comparison&lt;/h2&gt;
 &lt;table&gt;
  &lt;thead&gt;
