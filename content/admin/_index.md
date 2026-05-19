@@ -1,6 +1,6 @@
 ---
 title: System Admins
-linkTitle: Admin
+linkTitle: System Admins
 weight: 50
 type: docs
 description: 'Deploy, configure, govern, and optimize Workday OfficeConnect — for

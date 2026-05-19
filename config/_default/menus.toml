@@ -19,7 +19,7 @@
   weight = 40
 
 [[main]]
-  name = "Admin"
+  name = "System Admins"
   url = "/admin/"
   weight = 50
 
