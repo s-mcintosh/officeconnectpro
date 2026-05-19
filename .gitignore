@@ -3,5 +3,7 @@ public/
 .hugo_build.lock
 node_modules/
 .superpowers/
+docs/superpowers/
+.claude/
 **/.DS_Store
 **/.obsidian/
