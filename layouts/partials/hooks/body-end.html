@@ -1,0 +1,18 @@
+{{ if .IsHome }}
+<script>
+(function () {
+  var el = document.querySelector('.oc-cycle');
+  if (!el) return;
+  var words = JSON.parse(el.dataset.words);
+  var i = 0;
+  setInterval(function () {
+    el.classList.add('oc-cycle--out');
+    setTimeout(function () {
+      i = (i + 1) % words.length;
+      el.innerHTML = '<u>' + words[i] + '</u>';
+      el.classList.remove('oc-cycle--out');
+    }, 300);
+  }, 2200);
+})();
+</script>
+{{ end }}
