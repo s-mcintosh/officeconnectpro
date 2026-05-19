@@ -114,8 +114,26 @@
 }
 
 // =============================================================================
-// Footer tagline
+// Footer — amber icons + handwritten text throughout
 // =============================================================================
+.td-footer {
+  // Icons inherit color from their list-item parent
+  .td-footer__links-item {
+    color: #f59e0b;
+  }
+
+  // Center column: copyright, authors, links
+  .td-footer__center,
+  .td-footer__copyright,
+  .td-footer__authors,
+  a {
+    font-family: 'Caveat', cursive !important;
+    font-weight: 400 !important;
+    color: #f59e0b !important;
+    letter-spacing: 0.02em;
+  }
+}
+
 .oc-footer-tagline {
   font-family: 'Caveat', cursive;
   font-weight: 400;
