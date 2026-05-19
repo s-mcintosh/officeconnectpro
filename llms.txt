@@ -30,3 +30,6 @@ All pages are available as raw Markdown by appending `index.md` to any page URL.
 
 - [Workday OfficeConnect Version Compatibility Matrix](https://officeconnectpro.com/reference/version-compatibility/index.md): Which Workday OfficeConnect client versions work with which Workday Adaptive Planning releases — including the forced-upgrade grace periods.
 
+
+## About OfficeConnectPro
+
