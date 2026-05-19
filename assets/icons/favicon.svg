@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Dark background -->
+  <rect width="32" height="32" rx="6" fill="#403f4c"/>
+  <!-- 3 solid amber bars, sized for legibility at 16x16 -->
+  <rect x="5" y="7"  width="22" height="5" rx="1.5" fill="#f59e0b"/>
+  <rect x="5" y="15" width="15" height="4" rx="1.5" fill="#f59e0b"/>
+  <rect x="5" y="22" width="9"  height="4" rx="1.5" fill="#f59e0b"/>
+</svg>
