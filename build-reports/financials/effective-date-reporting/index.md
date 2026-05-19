@@ -8,7 +8,7 @@ Use OfficeConnect's effective date setting to report against your organization's
 
 When your organization restructures mid-year, historical reports can show cost centers, companies, or hierarchies that no longer exist — or omit ones that didn't exist yet. OfficeConnect's Financials data source supports **effective date reporting**, which lets you select the org structure as it existed on a specific date.
 
-> **Note:** Effective date reporting requires configuration in Workday's financial reporting data model. If the effective date option isn't available in your tenant, contact your Workday Security Administrator.
+> **Note:** Effective date reporting requires configuration in your Workday reporting model. If the effective date option isn't available in your tenant, ask your System Administrator to check the time period settings via the **Run Set Up Reporting Model** task in Workday, or contact your Workday Security Administrator.
 
 ## When to use effective date reporting
 

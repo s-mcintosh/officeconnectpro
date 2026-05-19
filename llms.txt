@@ -15,6 +15,8 @@ All pages are available as raw Markdown by appending `index.md` to any page URL.
 
 - [Install as an IT Admin](https://officeconnectpro.com/get-started/install-admin/index.md): Deploy OfficeConnect to multiple users using per-machine installation and group policy or scripts.
 
+- [Set Up Your Reporting Model](https://officeconnectpro.com/get-started/set-up-reporting-model/index.md): Use the Run Set Up Reporting Model task in Workday to configure how OfficeConnect Financials reports are structured.
+
 - [Check & Update Your Version. ](https://officeconnectpro.com/get-started/check-version/index.md): How to check which version of OfficeConnect you have and update to the latest release.
 
 
