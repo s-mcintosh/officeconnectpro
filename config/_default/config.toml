@@ -9,6 +9,13 @@ defaultContentLanguage = "en"
     [markup.goldmark.renderer]
       unsafe = true
 
+# Taxonomies that drive audience filtering, content-type pages, and the version-compatibility matrix.
+[taxonomies]
+  tag = "tags"
+  audience = "audiences"
+  content_type = "content-types"
+  release = "releases"
+
 [mediaTypes]
   [mediaTypes."text/markdown"]
     suffixes = ["md"]

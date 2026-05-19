@@ -9,6 +9,37 @@
   weight = 20
 
 [[main]]
+  name = "Word & PowerPoint"
+  url = "/word-powerpoint/"
+  weight = 30
+
+[[main]]
+  name = "Data Entry"
+  url = "/data-entry-writeback/"
+  weight = 40
+
+[[main]]
+  name = "Admin"
+  url = "/admin/"
+  weight = 50
+
+[[main]]
   name = "Troubleshoot"
   url = "/troubleshoot/"
-  weight = 30
+  weight = 60
+
+[[main]]
+  name = "Reference"
+  url = "/reference/"
+  weight = 70
+
+# Utility (top-right) nav — surfaced via a partial override if Docsy doesn't render this menu by default.
+[[utility]]
+  name = "What's New"
+  url = "/whats-new/"
+  weight = 10
+
+[[utility]]
+  name = "Resources"
+  url = "/resources/"
+  weight = 20

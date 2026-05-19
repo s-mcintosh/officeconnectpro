@@ -1,0 +1,13 @@
+{{- /*
+  {{< warning >}} Red callout panel.
+  Use for: will-break-something risks, data-loss potential, irreversible actions.
+*/ -}}
+<div class="oc-callout oc-callout--warning" role="alert">
+  <div class="oc-callout__icon" aria-hidden="true">
+    <i class="fas fa-exclamation-triangle"></i>
+  </div>
+  <div class="oc-callout__body">
+    <strong class="oc-callout__label">Warning</strong>
+    {{ .Inner | markdownify }}
+  </div>
+</div>

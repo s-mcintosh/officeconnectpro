@@ -4,8 +4,10 @@ linkTitle: "Not Refreshing"
 weight: 20
 description: >
   OfficeConnect shows stale data or the Refresh button does nothing — causes and step-by-step fixes.
-tags: ["troubleshoot", "how-to"]
+tags: ["adaptive-planning", "performance", "fp-and-a", "admin-power-user", "troubleshoot"]
 ---
+
+If Workday OfficeConnect won't pull fresh data, the cause is almost always a session, formula, or connection problem rather than a corrupted workbook. Confirm your tenant connection on [Sign In & Create a Tenant](/admin/configure/sign-in-create-tenant/) before working through the fixes below.
 
 ## Symptom
 
@@ -64,3 +66,9 @@ If reloading the pane doesn't help, close Excel entirely, reopen it, and open th
 - Check your OfficeConnect version: click **OfficeConnect → Help → About**. If you're on a version older than 6 months, ask your IT admin to update to the latest version — older versions may lose compatibility with Workday API changes.
 - Contact Workday support with your tenant URL, OfficeConnect version, and a description of the steps you've already tried.
 - Check the [Workday Community](https://community.workday.com) for known issues with your OfficeConnect version.
+
+## Next steps
+
+- [Fix authentication and token errors](/troubleshoot/authentication-token-errors/) if Sign In keeps failing
+- [Optimize OfficeConnect performance](/performance/optimize-performance/) if refresh completes but takes too long
+- [Run the troubleshooting tool](/troubleshoot/troubleshooting-tool/) to collect logs before contacting Workday Support

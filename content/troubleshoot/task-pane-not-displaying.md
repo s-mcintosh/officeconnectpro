@@ -4,6 +4,7 @@ linkTitle: "Task Pane Issues"
 weight: 3
 description: >
   How to fix the OfficeConnect Reporting pane when it's not showing or displaying incorrectly.
+tags: ["deployment", "fp-and-a", "admin-power-user", "troubleshoot"]
 ---
 
 ## Symptom: Reporting pane is invisible or blank

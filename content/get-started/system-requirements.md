@@ -1,9 +1,10 @@
 ---
 title: "System Requirements"
 linkTitle: "System Requirements"
-weight: 2
+weight: 3
 description: >
   Hardware and software prerequisites before installing OfficeConnect.
+tags: ["deployment", "admin-power-user", "reference"]
 ---
 
 Verify your machine meets these requirements before installing OfficeConnect.

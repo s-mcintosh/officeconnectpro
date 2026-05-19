@@ -4,7 +4,7 @@ linkTitle: "Drill Through to Journal Lines"
 weight: 2
 description: >
   Use OfficeConnect's Show Details feature to see the individual journal lines behind any GL balance — and drill through to the source transaction in Workday.
-tags: ["financials", "tutorial", "reporting"]
+tags: ["financials", "reporting", "fp-and-a", "tutorial"]
 ---
 
 When a number in your OfficeConnect report doesn't look right, you don't need to leave Excel. OfficeConnect's **Show Details** feature opens a panel showing every journal line contributing to that cell's balance. From there, you can drill through directly to the transaction in Workday Financial Management.
@@ -69,7 +69,7 @@ If you're switching between Adaptive Planning and Financials tenants, note that 
 | Financials | Show Details | Contributing journal lines, with drill-through to Workday |
 | Adaptive Planning | Explore Cell | Contributing dimension splits within the Adaptive Planning model |
 
-See [Adaptive Planning vs. Financials Data Source](/build-reports/financials-vs-adaptive-planning/) for a full comparison.
+See [Adaptive Planning vs. Financials Data Source](/migration-comparison/financials-vs-adaptive-planning/) for a full comparison.
 
 ---
 

@@ -4,7 +4,7 @@ linkTitle: "Custom Dimensions and Attributes"
 weight: 31
 description: >
   Report on custom dimensions and attributes defined in your Adaptive Planning model — filter by product line, region, project, or any other custom segment your team uses.
-tags: ["adaptive-planning", "how-to", "reporting"]
+tags: ["adaptive-planning", "reporting", "fp-and-a", "how-to"]
 ---
 
 Adaptive Planning models often include custom dimensions beyond the standard account and level hierarchy — things like Product Line, Region, Project Code, or Customer Segment. OfficeConnect exposes these as **Custom Dimensions** in the Reporting pane, letting you filter and report on any segment your model defines.

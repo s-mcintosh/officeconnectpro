@@ -4,7 +4,7 @@ linkTitle: "Budget vs. Actuals Variance"
 weight: 20
 description: >
   Build an OfficeConnect report that shows budget, actuals, and variance side by side — the most common FP&A report in Adaptive Planning.
-tags: ["adaptive-planning", "tutorial", "reporting"]
+tags: ["adaptive-planning", "reporting", "fp-and-a", "tutorial"]
 ---
 
 A budget vs. actuals variance report puts your plan and your reality in the same view. This tutorial walks through building one in OfficeConnect with a variance column that calculates automatically in Excel.
@@ -96,4 +96,4 @@ Add column E with the header `Var %` and the formula `=(B3-C3)/ABS(C3)`. Format 
 
 - Expand to multiple months by adding more time columns — see [Time and Contexts](/build-reports/time-and-contexts/)
 - Add department rows using Level elements — see [Build a Department P&L Report](/build-reports/department-pl-report/)
-- Share the finished report with your team — see [Share via Teams & SharePoint](/build-reports/share-teams-sharepoint-onedrive/)
+- Share the finished report with your team — see [Share via Teams & SharePoint](/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)

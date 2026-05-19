@@ -4,6 +4,7 @@ linkTitle: "Reporting Pane Tour"
 weight: 1
 description: >
   A quick tour of the OfficeConnect interface in Excel — the ribbon tab and the Reporting pane.
+tags: ["reporting", "adaptive-planning", "fp-and-a", "reference"]
 ---
 
 OfficeConnect adds two things to Excel: a **ribbon tab** and a **Reporting pane** that docks to the side of your worksheet.

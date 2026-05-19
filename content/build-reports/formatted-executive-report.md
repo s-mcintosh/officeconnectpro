@@ -4,7 +4,7 @@ linkTitle: "Formatted Executive Report"
 weight: 29
 description: >
   Build a polished, print-ready executive summary report in OfficeConnect with custom formatting, logos, and page layout — ready to share as PDF or Excel.
-tags: ["adaptive-planning", "tutorial", "reporting", "sharing"]
+tags: ["adaptive-planning", "reporting", "sharing", "fp-and-a", "tutorial"]
 ---
 
 A raw OfficeConnect report shows the right numbers, but an executive report needs to look the part. This tutorial walks through building a formatted P&L summary with branding, clean layout, and print-ready page setup — the kind of report you can share as a PDF without touching it in PowerPoint first.
@@ -96,6 +96,6 @@ Click **Refresh** in the OfficeConnect ribbon to populate the latest figures. Th
 
 ## Next steps
 
-- Share the PDF automatically — see [Share via Teams & SharePoint](/build-reports/share-teams-sharepoint-onedrive/)
-- Schedule the refresh automatically — see [Refresh Reports Automatically with Power Automate](/build-reports/refresh-with-power-automate/)
-- Add it to a PowerPoint deck — see [OfficeConnect for PowerPoint](/build-reports/officeconnect-for-powerpoint/)
+- Share the PDF automatically — see [Share via Teams & SharePoint](/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)
+- Schedule the refresh automatically — see [Refresh Reports Automatically with Power Automate](/admin/configure/refresh-with-power-automate/)
+- Add it to a PowerPoint deck — see [OfficeConnect for PowerPoint](/word-powerpoint/powerpoint/officeconnect-for-powerpoint/)

@@ -1,0 +1,24 @@
+{{- /*
+  {{< related slugs="build-reports/build-first-report,build-reports/filter-data,build-reports/repeating-reports" >}}
+  Renders a three-card module of related Workday OfficeConnect articles.
+  Looks up each slug relative to the site root and pulls Title + Description.
+*/ -}}
+{{- $slugs := split (.Get "slugs" | default "") "," -}}
+{{- $site := .Site -}}
+<div class="oc-related">
+  <h4 class="oc-related__heading">Related</h4>
+  <div class="oc-related__cards">
+    {{- range $slug := $slugs -}}
+      {{- $slug := trim $slug " " -}}
+      {{- $url := printf "/%s/" $slug -}}
+      {{- with $site.GetPage $url -}}
+        <a class="oc-related__card" href="{{ .Permalink }}">
+          <strong class="oc-related__title">{{ .Title }}</strong>
+          {{- with .Description }}
+          <p class="oc-related__desc">{{ . }}</p>
+          {{- end }}
+        </a>
+      {{- end -}}
+    {{- end -}}
+  </div>
+</div>

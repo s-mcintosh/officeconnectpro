@@ -4,6 +4,7 @@ linkTitle: "Trailing 12-Month Report"
 weight: 10
 description: >
   How to build a report that always shows the most recent 12 months of data.
+tags: ["reporting", "adaptive-planning", "fp-and-a", "recipe"]
 ---
 
 A trailing 12-month (T12M) report shows the 12 most recent calendar months and advances automatically each month. This is a common layout for rolling actuals analysis.

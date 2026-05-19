@@ -4,7 +4,7 @@ linkTitle: "Publish to PowerPoint"
 weight: 13
 description: >
   Link a live OfficeConnect Excel report into a PowerPoint deck so slides update with one refresh.
-tags: ["adaptive-planning", "tutorial", "sharing"]
+tags: ["adaptive-planning", "sharing", "fp-and-a", "tutorial"]
 ---
 
 This tutorial covers linking an OfficeConnect Excel report into a PowerPoint presentation. Once linked, refreshing OfficeConnect in Excel automatically updates the numbers in your slides — no copy-pasting needed.
@@ -97,5 +97,5 @@ Switch to PowerPoint and click **Refresh** again. The slides update to reflect t
 
 ## Next steps
 
-- Link data into Word for board reports and narratives — [OfficeConnect for Word](/build-reports/officeconnect-for-word/)
-- Share your Excel source report so colleagues can refresh it themselves — [Share via Teams & SharePoint](/build-reports/share-teams-sharepoint-onedrive/)
+- Link data into Word for board reports and narratives — [OfficeConnect for Word](/word-powerpoint/word/officeconnect-for-word/)
+- Share your Excel source report so colleagues can refresh it themselves — [Share via Teams & SharePoint](/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)

@@ -4,7 +4,7 @@ linkTitle: "Intercompany Eliminations"
 weight: 7
 description: >
   Use OfficeConnect's Financials data source to report on intercompany transactions and eliminations — with options to include or exclude eliminations from consolidated views.
-tags: ["financials", "how-to", "reporting"]
+tags: ["financials", "reporting", "fp-and-a", "recipe"]
 ---
 
 Intercompany eliminations remove transactions between entities in a consolidated group — preventing double-counting of intercompany revenue and expenses. OfficeConnect's Financials data source surfaces these as data you can include or exclude in your reports.
@@ -16,7 +16,7 @@ When you report against a parent company (consolidated entity) in OfficeConnect,
 - If **elimination journals are posted** in Workday, they are included in consolidated totals automatically
 - The **Exclude Elimination** option (available in Financials data source reports) lets you toggle whether elimination entries are included in your totals
 
-> **Note:** The Exclude Elimination option is a Financials-only feature — it is not available in Adaptive Planning reports. See [Adaptive Planning vs. Financials Data Source](/build-reports/financials-vs-adaptive-planning/).
+> **Note:** The Exclude Elimination option is a Financials-only feature — it is not available in Adaptive Planning reports. See [Adaptive Planning vs. Financials Data Source](/migration-comparison/financials-vs-adaptive-planning/).
 
 ## View intercompany eliminations separately
 

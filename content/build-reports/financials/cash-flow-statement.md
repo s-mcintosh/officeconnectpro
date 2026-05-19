@@ -4,7 +4,7 @@ linkTitle: "Cash Flow Statement"
 weight: 10
 description: >
   Build an indirect-method cash flow statement in Excel using OfficeConnect's Financials data source — operating, investing, and financing activities from Workday Financial Management.
-tags: ["financials", "tutorial", "reporting"]
+tags: ["financials", "reporting", "fp-and-a", "tutorial"]
 ---
 
 A cash flow statement built in OfficeConnect pulls balance changes and net income directly from Workday Financial Management, eliminating the manual work of reconciling figures from Workday Report Writer into Excel. This tutorial builds an indirect-method statement — the most common format for external financial reporting.

@@ -3,29 +3,43 @@ title: "OfficeConnect Pro"
 linkTitle: "Home"
 ---
 
-{{< blocks/cover title="Master OfficeConnect Reporting" image_anchor="Center" height="med" color="dark" >}}
+{{< blocks/cover title="Master Workday OfficeConnect" image_anchor="Center" height="med" color="dark" >}}
 <div class="mx-auto">
   <a class="btn btn-lg btn-primary me-3 mb-4" href="/get-started/">
-    Get Started <i class="fas fa-arrow-alt-circle-right ms-2"></i>
+    For FP&amp;A users <i class="fas fa-chart-line ms-2"></i>
   </a>
-  <a class="btn btn-lg btn-secondary mb-4" href="/build-reports/">
-    Build Reports <i class="fas fa-chart-bar ms-2"></i>
+  <a class="btn btn-lg btn-secondary mb-4" href="/admin/">
+    For admins &amp; power users <i class="fas fa-wrench ms-2"></i>
   </a>
 </div>
-<p class="lead mt-2">Step-by-step guides for Workday OfficeConnect</p>
+<p class="lead mt-2">The definitive resource for Workday OfficeConnect — for FP&amp;A end users and the admins and power users who own the system.</p>
 {{< /blocks/cover >}}
 
 {{< blocks/section color="white" type="row" >}}
 {{% blocks/feature icon="fa-rocket" title="Get Started" url="/get-started/" %}}
-Install OfficeConnect and connect to your Workday instance in minutes.
+Install Workday OfficeConnect, connect to your tenant, and build your first report in 30 minutes.
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fa-chart-bar" title="Build Reports" url="/build-reports/" %}}
-Add elements, apply filters, and create live Excel reports from Adaptive Planning data.
+Add elements, apply filters, and build live Excel reports — including a deep Financials section for general-ledger reporting.
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fa-file-powerpoint" title="Word &amp; PowerPoint" url="/word-powerpoint/" %}}
+Link OfficeConnect data into board books, narratives, and decks that refresh with one click.
+{{% /blocks/feature %}}
+{{< /blocks/section >}}
+
+{{< blocks/section color="light" type="row" >}}
+{{% blocks/feature icon="fa-edit" title="Data Entry &amp; Write-Back" url="/data-entry-writeback/" %}}
+Submit budget and forecast data from Excel back to Workday Adaptive Planning — the 2025R1 write-back feature.
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fa-server" title="Admin &amp; Power Users" url="/admin/" %}}
+Deploy, configure SSO, govern, and upgrade Workday OfficeConnect across the organization.
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fa-wrench" title="Troubleshoot" url="/troubleshoot/" %}}
-Fix common errors and get answers to the most frequent questions.
+Fix common errors — refresh failures, COM add-in conflicts, SSO loops, Mac/VDI issues.
 {{% /blocks/feature %}}
 {{< /blocks/section >}}
 
@@ -35,13 +49,19 @@ Fix common errors and get answers to the most frequent questions.
 <p class="mt-3">
 <a href="/tags/adaptive-planning/" class="btn btn-outline-primary m-1">Adaptive Planning</a>
 <a href="/tags/financials/" class="btn btn-outline-primary m-1">Financials</a>
-<a href="/tags/tutorial/" class="btn btn-outline-primary m-1">Tutorials</a>
 <a href="/tags/reporting/" class="btn btn-outline-primary m-1">Reporting</a>
-<a href="/tags/how-to/" class="btn btn-outline-primary m-1">How-To Guides</a>
-<a href="/tags/troubleshoot/" class="btn btn-outline-primary m-1">Troubleshoot</a>
-<a href="/tags/sharing/" class="btn btn-outline-primary m-1">Sharing</a>
 <a href="/tags/data-entry/" class="btn btn-outline-primary m-1">Data Entry</a>
-<a href="/tags/administration/" class="btn btn-outline-primary m-1">Administration</a>
+<a href="/tags/write-back/" class="btn btn-outline-primary m-1">Write-Back</a>
+<a href="/tags/sso/" class="btn btn-outline-primary m-1">SSO</a>
+<a href="/tags/deployment/" class="btn btn-outline-primary m-1">Deployment</a>
+<a href="/tags/performance/" class="btn btn-outline-primary m-1">Performance</a>
+<a href="/tags/sharing/" class="btn btn-outline-primary m-1">Sharing</a>
+<a href="/tags/security/" class="btn btn-outline-primary m-1">Security</a>
+</p>
+<p class="mt-4 mb-0"><strong>Or browse by audience:</strong></p>
+<p class="mt-2">
+<a href="/audiences/fp-and-a/" class="btn btn-outline-primary m-1">FP&amp;A</a>
+<a href="/audiences/admin-power-user/" class="btn btn-outline-primary m-1">Admin &amp; Power Users</a>
 </p>
 </div>
 {{< /blocks/section >}}

@@ -4,6 +4,7 @@ linkTitle: "Cut, Copy & Move"
 weight: 5
 description: >
   How to move OfficeConnect elements within and between rows, columns, and cells.
+tags: ["reporting", "adaptive-planning", "fp-and-a", "how-to"]
 ---
 
 OfficeConnect provides its own cut, copy, and paste commands that move elements together with their metadata.

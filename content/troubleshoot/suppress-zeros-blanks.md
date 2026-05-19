@@ -4,9 +4,10 @@ linkTitle: "Hide Zeros & Blanks"
 weight: 5
 description: >
   How to hide rows with all zeros or blank values in your OfficeConnect workbook.
+tags: ["reporting", "fp-and-a", "admin-power-user", "troubleshoot"]
 ---
 
-Zero suppression in OfficeConnect is a two-part system: **Workbook Properties** controls the *default state*, and the **Hide Zeros & Blanks** ribbon button is a *toggle* on top of that default.
+Hiding empty rows in a Workday OfficeConnect report is a two-part system: **Workbook Properties** controls the *default state*, and the **Hide Zeros & Blanks** ribbon button is a *toggle* on top of that default. Review the full settings layout in [Workbook & Worksheet Properties](/build-reports/workbook-worksheet-properties/) so you set the default in the right place.
 
 ## How it works
 
@@ -41,3 +42,9 @@ This lets some rows follow the workbook default while others always show (or alw
 ## Zero suppression and Excel's Hide Rows
 
 Within OfficeConnect-linked data ranges, you can also use Excel's native **Hide** capability on rows and columns. These behave independently from OfficeConnect's zero suppression.
+
+## Next steps
+
+- [Workbook & Worksheet Properties](/build-reports/workbook-worksheet-properties/) for the rest of the workbook-wide display settings
+- [Filter Your Data](/build-reports/filter-data/) if you want to exclude rows by value or attribute rather than just hide zeros
+- [Display Percentage Values Correctly](/troubleshoot/display-percentage-values/) when suppression behavior interacts with rounded percentage rows

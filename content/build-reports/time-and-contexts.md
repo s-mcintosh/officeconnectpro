@@ -4,6 +4,7 @@ linkTitle: "Time & Contexts"
 weight: 3
 description: >
   Add time periods to your report and use contexts like YTD, QTD, and Beginning Balance.
+tags: ["reporting", "adaptive-planning", "fp-and-a", "how-to"]
 ---
 
 Time elements define which periods display in your report. Contexts add a calculation lens to those periods — like showing the year-to-date total instead of a single month's value.

@@ -1,0 +1,13 @@
+{{- /*
+  {{< tip >}} Blue callout panel.
+  Use for: optional better-practice notes, time-saver shortcuts.
+*/ -}}
+<div class="oc-callout oc-callout--tip" role="note">
+  <div class="oc-callout__icon" aria-hidden="true">
+    <i class="fas fa-lightbulb"></i>
+  </div>
+  <div class="oc-callout__body">
+    <strong class="oc-callout__label">Tip</strong>
+    {{ .Inner | markdownify }}
+  </div>
+</div>

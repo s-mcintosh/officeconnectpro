@@ -1,4 +1,14 @@
-<div class="admin-note" role="note">
-  <strong>🔧 IT Admin</strong>
-  {{ .Inner | markdownify }}
+{{- /*
+  {{< admin-note >}}
+  Amber callout for actions admins and power users take.
+  Inclusive of system-savvy FP&A power users — not only IT admins.
+*/ -}}
+<div class="oc-callout oc-callout--admin admin-note" role="note">
+  <div class="oc-callout__icon" aria-hidden="true">
+    <i class="fas fa-wrench"></i>
+  </div>
+  <div class="oc-callout__body">
+    <strong class="oc-callout__label">For admins &amp; power users</strong>
+    {{ .Inner | markdownify }}
+  </div>
 </div>

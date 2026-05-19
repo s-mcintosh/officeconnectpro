@@ -1,0 +1,16 @@
+{{- /*
+  {{< new-in-release version="2026R1" >}}
+    Body explaining what's new.
+  {{< /new-in-release >}}
+  Green badge + callout. The version arg is required.
+*/ -}}
+{{- $version := .Get "version" | default "" -}}
+<div class="oc-callout oc-callout--new" role="note" data-release="{{ $version }}">
+  <div class="oc-callout__icon" aria-hidden="true">
+    <i class="fas fa-sparkles"></i>
+  </div>
+  <div class="oc-callout__body">
+    <strong class="oc-callout__label">New in {{ $version }}</strong>
+    {{ .Inner | markdownify }}
+  </div>
+</div>

@@ -4,7 +4,7 @@ linkTitle: "Rolling 12-Month Report"
 weight: 12
 description: >
   Build a report whose time columns automatically advance each month without manual updates.
-tags: ["adaptive-planning", "tutorial", "reporting"]
+tags: ["adaptive-planning", "reporting", "fp-and-a", "recipe"]
 ---
 
 A rolling 12-month report always shows the current month plus the 11 preceding months — no matter when you open it. This tutorial shows how to build one using OfficeConnect's relative time contexts so the columns update automatically on each refresh.
@@ -94,4 +94,4 @@ Save the workbook. Each month, open the file and click **Refresh** — the windo
 
 - Learn about fixed date ranges alongside rolling ones in [Fixed Date Columns](/troubleshoot/fixed-date-columns/)
 - See how to set up a trailing 12-month view in [Trailing 12-Month Report](/troubleshoot/trailing-12-month-report/)
-- Share the finished report via SharePoint so the whole team always has the latest version — [Share via Teams & SharePoint](/build-reports/share-teams-sharepoint-onedrive/)
+- Share the finished report via SharePoint so the whole team always has the latest version — [Share via Teams & SharePoint](/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)

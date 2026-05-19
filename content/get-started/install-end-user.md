@@ -1,9 +1,10 @@
 ---
 title: "Install as an End User"
 linkTitle: "Install (End User)"
-weight: 3
+weight: 4
 description: >
   Install OfficeConnect on your own machine without requiring IT involvement.
+tags: ["deployment", "fp-and-a", "tutorial"]
 ---
 
 Follow these steps to install OfficeConnect on your own Windows machine. You'll need administrator rights, or IT must pre-install the prerequisites.
@@ -41,7 +42,7 @@ Open Word and PowerPoint to verify the tab also appears there.
 
 ## Result
 
-The OfficeConnect tab appears in Excel, Word, and PowerPoint. You're ready to [sign in and create your first tenant](/get-started/sign-in-create-tenant/).
+The OfficeConnect tab appears in Excel, Word, and PowerPoint. You're ready to [sign in and create your first tenant](/admin/configure/sign-in-create-tenant/).
 
 ## Troubleshooting
 
@@ -49,4 +50,4 @@ If the OfficeConnect tab doesn't appear after installation, see [Task Pane Not D
 
 ## Next steps
 
-→ [Sign in and create your first tenant](/get-started/sign-in-create-tenant/)
+→ [Sign in and create your first tenant](/admin/configure/sign-in-create-tenant/)

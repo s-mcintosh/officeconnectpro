@@ -1,0 +1,16 @@
+{{- /*
+  {{< deprecated since="2025R1" >}}
+    Body explaining the deprecation.
+  {{< /deprecated >}}
+  Gray faded callout for content that may not apply to newer Workday OfficeConnect versions.
+*/ -}}
+{{- $since := .Get "since" | default "" -}}
+<div class="oc-callout oc-callout--deprecated" role="note" data-since="{{ $since }}">
+  <div class="oc-callout__icon" aria-hidden="true">
+    <i class="fas fa-history"></i>
+  </div>
+  <div class="oc-callout__body">
+    <strong class="oc-callout__label">Deprecated{{ with $since }} since {{ . }}{{ end }}</strong>
+    {{ .Inner | markdownify }}
+  </div>
+</div>

@@ -4,6 +4,7 @@ linkTitle: "Filter Data"
 weight: 4
 description: >
   Apply worksheet and workbook filters to limit which data appears in your report.
+tags: ["reporting", "adaptive-planning", "fp-and-a", "how-to"]
 ---
 
 Filters let you restrict report data by accounts, levels, versions, currencies, attributes, or custom dimensions — without adding those elements to rows or columns.

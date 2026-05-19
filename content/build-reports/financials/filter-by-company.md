@@ -4,7 +4,7 @@ linkTitle: "Filter by Company"
 weight: 6
 description: >
   Scope an OfficeConnect Financials report to a specific legal entity, or build a multi-company view showing each entity in its own column.
-tags: ["financials", "how-to", "reporting"]
+tags: ["financials", "reporting", "fp-and-a", "how-to"]
 ---
 
 In the Financials data source, **Company** is the top-level org dimension — the equivalent of a legal entity or subsidiary in Workday Financial Management. Every Financials report must include at least one Company element to pull data. Here's how to use it effectively.
