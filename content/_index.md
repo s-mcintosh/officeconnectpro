@@ -3,7 +3,7 @@ title: "OfficeConnect Pro"
 linkTitle: "Home"
 ---
 
-{{< blocks/cover title="The best way to learn OfficeConnect." image_anchor="Center" height="med" color="dark" >}}
+{{< blocks/cover title="The <u>best</u> way to learn OfficeConnect." image_anchor="Center" height="med" color="dark" >}}
 <div class="mx-auto">
   <a class="btn btn-lg btn-primary mb-4" href="https://www.youtube.com/@officeconnectpro" target="_blank" rel="noopener">
     <i class="fab fa-youtube me-2"></i>Watch on YouTube
