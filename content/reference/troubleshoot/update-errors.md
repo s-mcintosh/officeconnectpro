@@ -48,4 +48,4 @@ Install fresh. This eliminates any partial-update state.
 
 ## Still stuck?
 
-Run the [Troubleshooting Tool](/troubleshoot/troubleshooting-tool/) to generate a diagnostic log and send it to Workday Support.
+Run the [Troubleshooting Tool](/reference/troubleshoot/troubleshooting-tool/) to generate a diagnostic log and send it to Workday Support.

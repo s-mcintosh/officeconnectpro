@@ -11,7 +11,7 @@ The native Mac version of Workday OfficeConnect (Excel for Mac JavaScript add-in
 
 This article compares the three realistic options and walks through the simplest setup.
 
-If you only need the native Mac experience and are okay with the limitations, see [OfficeConnect on Mac](/troubleshoot/officeconnect-on-mac/) first.
+If you only need the native Mac experience and are okay with the limitations, see [OfficeConnect on Mac](/reference/troubleshoot/officeconnect-on-mac/) first.
 
 ## When you actually need a VDI
 
@@ -34,7 +34,7 @@ If none of your work hits a "VDI required" row, stay on native Mac.
 - Lives in Azure; users connect via the AVD client or browser
 - Microsoft 365 + Office is licensed naturally through your Microsoft tenant
 - Identity integration with Microsoft Entra ID is automatic
-- IT admin can pre-install Workday OfficeConnect and deploy tenant config via [registry](/admin/deploy/deploy-tenants-registry/)
+- IT admin can pre-install Workday OfficeConnect and deploy tenant config via [registry](/get-started/admin/deploy/deploy-tenants-registry/)
 
 **Setup:** Have your IT team provision an AVD host pool with Office installed, then push OfficeConnect via Intune. The Mac user opens the AVD client, signs in to their session, and uses Excel + OfficeConnect normally.
 
@@ -57,7 +57,7 @@ If none of your work hits a "VDI required" row, stay on native Mac.
 - No reliance on cloud / network — works offline
 - IT can't centrally manage it; the user is on the hook for Windows patching and OfficeConnect upgrades
 
-**Setup:** Buy and install Parallels Desktop. Install Windows 11. Install Microsoft 365. Install Workday OfficeConnect via [Install for End Users](/get-started/install-end-user/). Configure your tenant via [Sign In & Create a Tenant](/admin/configure/sign-in-create-tenant/).
+**Setup:** Buy and install Parallels Desktop. Install Windows 11. Install Microsoft 365. Install Workday OfficeConnect via [Install for End Users](/get-started/install-end-user/). Configure your tenant via [Sign In & Create a Tenant](/get-started/admin/configure/sign-in-create-tenant/).
 
 ## Workflow tips for any VDI
 
@@ -68,7 +68,7 @@ If none of your work hits a "VDI required" row, stay on native Mac.
 
 ## Tenant config in a VDI
 
-Whichever VDI you pick, install OfficeConnect once on the VDI image and deploy tenant config centrally — your Mac users shouldn't have to configure tenants manually. See [Deploy Tenants via Registry](/admin/deploy/deploy-tenants-registry/).
+Whichever VDI you pick, install OfficeConnect once on the VDI image and deploy tenant config centrally — your Mac users shouldn't have to configure tenants manually. See [Deploy Tenants via Registry](/get-started/admin/deploy/deploy-tenants-registry/).
 
 ## What about Office for the Web?
 
@@ -87,6 +87,6 @@ Mac users get parity with Windows for Workday OfficeConnect features that genuin
 
 ## Next steps
 
-- [OfficeConnect on Mac](/troubleshoot/officeconnect-on-mac/) — the native Mac path if you don't need VDI.
-- [Deploy Tenants via Registry](/admin/deploy/deploy-tenants-registry/) — push tenant config to the VDI image.
+- [OfficeConnect on Mac](/reference/troubleshoot/officeconnect-on-mac/) — the native Mac path if you don't need VDI.
+- [Deploy Tenants via Registry](/get-started/admin/deploy/deploy-tenants-registry/) — push tenant config to the VDI image.
 - [Install for Admins](/get-started/install-admin/) — admin-side install patterns that apply inside the VDI.

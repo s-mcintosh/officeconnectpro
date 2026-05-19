@@ -43,4 +43,4 @@ Coordinate updates across your team. A workbook saved with a newer version of Of
 
 ## Next steps
 
-→ [Sign in and create your first tenant](/admin/configure/sign-in-create-tenant/)
+→ [Sign in and create your first tenant](/get-started/admin/configure/sign-in-create-tenant/)

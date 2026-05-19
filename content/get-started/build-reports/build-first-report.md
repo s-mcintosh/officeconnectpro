@@ -32,7 +32,7 @@ Open Excel. On the **OfficeConnect** ribbon tab, click **Open Pane**. The Report
 {{< /step >}}
 
 {{< step n="2" title="Sign in if prompted" >}}
-If the pane shows a sign-in prompt, click **Sign In** and complete the Workday authentication flow. See [Sign In and Create a Tenant](/admin/configure/sign-in-create-tenant/) if you need help.
+If the pane shows a sign-in prompt, click **Sign In** and complete the Workday authentication flow. See [Sign In and Create a Tenant](/get-started/admin/configure/sign-in-create-tenant/) if you need help.
 {{< /step >}}
 
 {{< figure src="/images/screenshots/oc-reporting-pane-open.png" alt="The OfficeConnect Reporting pane open in Excel" caption="The Reporting pane docked to the right after clicking Open Pane, with the Elements tab active." >}}
@@ -57,7 +57,7 @@ Click cell **B1** (the header row). In the Reporting pane, expand **Time** and d
 Click cell **A2**. Expand **Versions** in the pane and drag your target version (for example, *Working Forecast*) into A2.
 {{< /step >}}
 
-For more detail on each element type, see [Add Elements to a Report](/build-reports/add-elements/).
+For more detail on each element type, see [Add Elements to a Report](/get-started/build-reports/add-elements/).
 
 {{< figure src="/images/screenshots/oc-elements-applied.png" alt="Elements applied to rows and columns in the Excel worksheet" caption="Account, Time, and Version elements applied to rows and columns — cells show formulas before the first Refresh." >}}
 
@@ -91,6 +91,6 @@ Save the file as a standard `.xlsx`. The OfficeConnect formulas are preserved an
 
 ## Next steps
 
-- **Add filters** to scope data to a specific department or cost center — see [Filter Data](/build-reports/filter-data/)
-- **Repeat rows** to build multi-account reports automatically — see [Repeating Reports](/build-reports/repeating-reports/)
-- **Share the report** with a colleague via SharePoint — see [Share via Teams & SharePoint](/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)
+- **Add filters** to scope data to a specific department or cost center — see [Filter Data](/get-started/build-reports/filter-data/)
+- **Repeat rows** to build multi-account reports automatically — see [Repeating Reports](/get-started/build-reports/repeating-reports/)
+- **Share the report** with a colleague via SharePoint — see [Share via Teams & SharePoint](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)

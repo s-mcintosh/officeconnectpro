@@ -39,5 +39,5 @@ Headcount values are typically whole numbers while financial values are in thous
 
 ## Related
 
-- [Workbook and Worksheet Properties](/build-reports/workbook-worksheet-properties/) — set default rounding for the whole workbook
-- [Build a Department P&L Report](/build-reports/department-pl-report/) — organize by Level before adding headcount rows
+- [Workbook and Worksheet Properties](/get-started/build-reports/workbook-worksheet-properties/) — set default rounding for the whole workbook
+- [Build a Department P&L Report](/get-started/build-reports/department-pl-report/) — organize by Level before adding headcount rows

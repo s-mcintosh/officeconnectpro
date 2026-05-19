@@ -12,10 +12,10 @@ Workforce planning is where most operating expense lives, and getting it right m
 **What you'll build:** A report that shows beginning headcount, attrition losses, planned hires, ending headcount, and fully-loaded cost — by Level, by month, for the next 12 months.
 
 **What you'll need:**
-- OfficeConnect installed and signed in ([Build Your First Report](/build-reports/build-first-report/))
+- OfficeConnect installed and signed in ([Build Your First Report](/get-started/build-reports/build-first-report/))
 - A model with headcount-related accounts (Beginning Headcount, Hires, Attrition, Ending Headcount) plus a personnel cost account
 - An organizational structure with multiple Levels you want to break out
-- Familiarity with repeating rows ([Repeating Reports](/build-reports/repeating-reports/))
+- Familiarity with repeating rows ([Repeating Reports](/get-started/build-reports/repeating-reports/))
 
 ---
 
@@ -66,7 +66,7 @@ Attrition is often modeled as a percentage rate in Adaptive Planning rather than
 ## Step 4 — Use repeating rows across Levels
 
 {{< step n="8" title="Convert to repeating rows" >}}
-Rather than copying the five-row block manually per Level, configure the block as a repeating row scoped on the **Level** dimension. OfficeConnect will expand the block automatically on refresh — one set per Level. The full repeating-rows pattern is covered in [Repeating Reports](/build-reports/repeating-reports/).
+Rather than copying the five-row block manually per Level, configure the block as a repeating row scoped on the **Level** dimension. OfficeConnect will expand the block automatically on refresh — one set per Level. The full repeating-rows pattern is covered in [Repeating Reports](/get-started/build-reports/repeating-reports/).
 {{< /step >}}
 
 {{< step n="9" title="Add a Total row" >}}
@@ -89,6 +89,6 @@ You now have a 12-month workforce plan that shows where every FTE comes from and
 
 ## Next steps
 
-- Pull headcount into your operating P&L — see [Show Headcount in a Financial Report](/build-reports/headcount-in-financial-report/)
-- Build a department-level operating view to pair with this — see [Build a Department P&L Report](/build-reports/department-pl-report/)
-- Use the repeating-rows pattern for other dimensions too — see [Repeating Reports](/build-reports/repeating-reports/)
+- Pull headcount into your operating P&L — see [Show Headcount in a Financial Report](/get-started/build-reports/headcount-in-financial-report/)
+- Build a department-level operating view to pair with this — see [Build a Department P&L Report](/get-started/build-reports/department-pl-report/)
+- Use the repeating-rows pattern for other dimensions too — see [Repeating Reports](/get-started/build-reports/repeating-reports/)

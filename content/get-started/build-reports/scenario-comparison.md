@@ -44,5 +44,5 @@ Copy down for all rows. This is a plain Excel formula — it updates automatical
 
 ## Related
 
-- [Compare Two Planning Versions Side by Side](/build-reports/compare-planning-versions/)
-- [Budget vs. Actuals Variance](/build-reports/budget-vs-actuals-variance/)
+- [Compare Two Planning Versions Side by Side](/get-started/build-reports/compare-planning-versions/)
+- [Budget vs. Actuals Variance](/get-started/build-reports/budget-vs-actuals-variance/)

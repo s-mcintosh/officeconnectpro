@@ -12,11 +12,11 @@ The 13-week cash forecast is the treasury team's most-used artifact. It projects
 **What you'll build:** A treasury-format report with 13 weekly columns showing Beginning Balance, Receipts (by category), Disbursements (by category), Net Cash Flow, and Ending Balance — refreshable from Adaptive Planning.
 
 **What you'll need:**
-- OfficeConnect installed and signed in ([Build Your First Report](/build-reports/build-first-report/))
+- OfficeConnect installed and signed in ([Build Your First Report](/get-started/build-reports/build-first-report/))
 - A model configured with weekly time granularity for cash accounts
 - Cash flow accounts broken into Receipts (AR collections, other inflows) and Disbursements (Payroll, AP, Tax, Debt Service, CapEx, Other)
 - An opening cash balance loaded for the first week
-- Familiarity with time contexts ([Time and Contexts](/build-reports/time-and-contexts/))
+- Familiarity with time contexts ([Time and Contexts](/get-started/build-reports/time-and-contexts/))
 
 ---
 
@@ -83,7 +83,7 @@ Click **Refresh**. The 13-week grid populates. Spot-check week 1's Ending Balanc
 {{< /step >}}
 
 {{< step n="11" title="Stress-test with a scenario" >}}
-Drop a second copy of the report on another tab and swap the version to a downside scenario (collections delayed 30 days, for example). Compare Ending Balances side by side. Cross-version comparisons are covered in [Scenario Comparison](/build-reports/scenario-comparison/).
+Drop a second copy of the report on another tab and swap the version to a downside scenario (collections delayed 30 days, for example). Compare Ending Balances side by side. Cross-version comparisons are covered in [Scenario Comparison](/get-started/build-reports/scenario-comparison/).
 {{< /step >}}
 
 ---
@@ -94,6 +94,6 @@ You now have a rolling 13-week cash forecast that updates automatically each Mon
 
 ## Next steps
 
-- Pair the cash forecast with the period close cash flow statement — see [Cash Flow Statement](/build-reports/financials/cash-flow-statement/)
-- Make the rolling-period mechanic do the same job for monthly views — see [Rolling 12-Month Report](/build-reports/rolling-12-month-report/)
-- Run downside scenarios alongside the base case — see [Scenario Comparison](/build-reports/scenario-comparison/)
+- Pair the cash forecast with the period close cash flow statement — see [Cash Flow Statement](/get-started/build-reports/financials/cash-flow-statement/)
+- Make the rolling-period mechanic do the same job for monthly views — see [Rolling 12-Month Report](/get-started/build-reports/rolling-12-month-report/)
+- Run downside scenarios alongside the base case — see [Scenario Comparison](/get-started/build-reports/scenario-comparison/)

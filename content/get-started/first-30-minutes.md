@@ -12,7 +12,7 @@ This is the fastest path from "Workday OfficeConnect isn't installed yet" to "I 
 **What you'll have at the end:** A working OfficeConnect installation, a tenant connection, and an Excel workbook with at least one live account/period/version intersection pulling from your Workday tenant.
 
 **What you'll need:**
-- A Windows PC running Excel (Microsoft 365 or Excel 2021 standalone) — Mac works too, see [OfficeConnect on Mac](/troubleshoot/officeconnect-on-mac/)
+- A Windows PC running Excel (Microsoft 365 or Excel 2021 standalone) — Mac works too, see [OfficeConnect on Mac](/reference/troubleshoot/officeconnect-on-mac/)
 - Your Workday OfficeConnect API client details from your Workday administrator (Client ID + two endpoint URLs)
 - Workday sign-in credentials with the **Access OfficeConnect** permission
 - 30 minutes
@@ -42,7 +42,7 @@ The OfficeConnect tab appears between the standard Excel ribbon tabs after insta
 {{< /step >}}
 
 {{< step n="4" title="Sign in and configure your tenant" >}}
-Follow [Sign In & Create Your First Tenant](/admin/configure/sign-in-create-tenant/). You'll need the Client ID and two endpoint URLs from your Workday administrator. The tenant configuration is one-time; OfficeConnect remembers it for future sessions.
+Follow [Sign In & Create Your First Tenant](/get-started/admin/configure/sign-in-create-tenant/). You'll need the Client ID and two endpoint URLs from your Workday administrator. The tenant configuration is one-time; OfficeConnect remembers it for future sessions.
 {{< /step >}}
 
 After sign-in, the Reporting pane appears on the right side of Excel populated with your Adaptive Planning accounts, time periods, and levels.
@@ -52,11 +52,11 @@ After sign-in, the Reporting pane appears on the right side of Excel populated w
 ## Minutes 15-25 — Build your first report
 
 {{< step n="5" title="Tour the Reporting pane" >}}
-Spend two minutes on the [Reporting Pane Tour](/build-reports/reporting-pane-tour/) to understand the three tabs (Elements, Filters, Review) and how dragging works.
+Spend two minutes on the [Reporting Pane Tour](/get-started/build-reports/reporting-pane-tour/) to understand the three tabs (Elements, Filters, Review) and how dragging works.
 {{< /step >}}
 
 {{< step n="6" title="Build the report" >}}
-Follow [Build Your First Report](/build-reports/build-first-report/). It's a 10-step walkthrough that produces a refreshable departmental expense report from an empty workbook.
+Follow [Build Your First Report](/get-started/build-reports/build-first-report/). It's a 10-step walkthrough that produces a refreshable departmental expense report from an empty workbook.
 {{< /step >}}
 
 ---
@@ -68,7 +68,7 @@ Save as a standard `.xlsx`. The OfficeConnect formulas are preserved.
 {{< /step >}}
 
 {{< step n="8" title="Explore a cell with Cell Explorer" >}}
-Click any data cell in your report, then click **Cell Explorer** in the OfficeConnect ribbon. See how the value is constructed from individual elements. This is your most-used debugging tool — see [Cell Explorer / Drill Down](/build-reports/cell-explorer-drill-down/).
+Click any data cell in your report, then click **Cell Explorer** in the OfficeConnect ribbon. See how the value is constructed from individual elements. This is your most-used debugging tool — see [Cell Explorer / Drill Down](/get-started/build-reports/cell-explorer-drill-down/).
 {{< /step >}}
 
 {{< step n="9" title="Re-open the workbook tomorrow" >}}
@@ -81,6 +81,6 @@ You have a live, refreshable Workday OfficeConnect report and you understand the
 
 ## Next steps
 
-- **Common next builds:** [Rolling 12-Month Report](/build-reports/rolling-12-month-report/), [Budget vs Actuals Variance](/build-reports/budget-vs-actuals-variance/), [Department P&L](/build-reports/department-pl-report/).
-- **Working with Financials data?** Jump straight to [Trial Balance Report](/build-reports/financials/trial-balance-report/).
-- **Picking between OfficeConnect and Adaptive web reports?** See the [decision framework](/migration-comparison/oc-vs-web-reports/).
+- **Common next builds:** [Rolling 12-Month Report](/get-started/build-reports/rolling-12-month-report/), [Budget vs Actuals Variance](/get-started/build-reports/budget-vs-actuals-variance/), [Department P&L](/get-started/build-reports/department-pl-report/).
+- **Working with Financials data?** Jump straight to [Trial Balance Report](/get-started/build-reports/financials/trial-balance-report/).
+- **Picking between OfficeConnect and Adaptive web reports?** See the [decision framework](/get-started/migration-comparison/oc-vs-web-reports/).

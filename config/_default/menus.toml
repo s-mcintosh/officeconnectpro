@@ -5,33 +5,38 @@
 
 [[main]]
   name = "Build Reports"
-  url = "/build-reports/"
+  url = "/get-started/build-reports/"
   weight = 20
 
 [[main]]
   name = "Word & PowerPoint"
-  url = "/word-powerpoint/"
+  url = "/get-started/word-powerpoint/"
   weight = 30
 
 [[main]]
   name = "Data Entry"
-  url = "/data-entry-writeback/"
+  url = "/get-started/data-entry-writeback/"
   weight = 40
 
 [[main]]
   name = "System Admins"
-  url = "/admin/"
+  url = "/get-started/admin/"
   weight = 50
 
 [[main]]
   name = "Troubleshoot"
-  url = "/troubleshoot/"
+  url = "/reference/troubleshoot/"
   weight = 60
 
 [[main]]
   name = "Performance"
-  url = "/performance/"
+  url = "/get-started/performance/"
   weight = 62
+
+[[main]]
+  name = "Migration Guide"
+  url = "/get-started/migration-comparison/"
+  weight = 65
 
 [[main]]
   name = "Reference"
@@ -39,27 +44,22 @@
   weight = 70
 
 [[main]]
-  name = "Migration Guide"
-  url = "/migration-comparison/"
-  weight = 65
-
-[[main]]
   name = "What's New"
-  url = "/whats-new/"
+  url = "/reference/whats-new/"
   weight = 72
 
 [[main]]
   name = "Resources"
-  url = "/resources/"
+  url = "/reference/resources/"
   weight = 80
 
 # Utility (top-right) nav — kept for any theme partials that render it
 [[utility]]
   name = "What's New"
-  url = "/whats-new/"
+  url = "/reference/whats-new/"
   weight = 10
 
 [[utility]]
   name = "Resources"
-  url = "/resources/"
+  url = "/reference/resources/"
   weight = 20

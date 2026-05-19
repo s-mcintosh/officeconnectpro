@@ -44,12 +44,12 @@ When a GL account balance moves unexpectedly, the first question is: what kind o
 
 9. The journal source with the largest variance between months is typically the one to investigate. For example, if the Manual Journal column shows a $50,000 variance and all other sources are flat, search in Workday for manual journals posted to that account in April.
 
-> **Tip:** After identifying the journal source, use OfficeConnect's drill-through to jump directly to the journal lines. See [Drill Through to Workday Journal Lines](/build-reports/financials/drill-through-journal-lines/) for how to set up the drill-through link.
+> **Tip:** After identifying the journal source, use OfficeConnect's drill-through to jump directly to the journal lines. See [Drill Through to Workday Journal Lines](/get-started/build-reports/financials/drill-through-journal-lines/) for how to set up the drill-through link.
 
 ---
 
 ## Related links
 
-- [Drill Through to Workday Journal Lines](/build-reports/financials/drill-through-journal-lines/)
-- [Build a Trial Balance Report](/build-reports/financials/trial-balance-report/)
-- [Reconcile OfficeConnect Values to Workday Reports](/build-reports/financials/reconcile-to-workday/)
+- [Drill Through to Workday Journal Lines](/get-started/build-reports/financials/drill-through-journal-lines/)
+- [Build a Trial Balance Report](/get-started/build-reports/financials/trial-balance-report/)
+- [Reconcile OfficeConnect Values to Workday Reports](/get-started/build-reports/financials/reconcile-to-workday/)

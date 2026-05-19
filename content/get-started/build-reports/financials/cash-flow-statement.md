@@ -14,7 +14,7 @@ A cash flow statement built in OfficeConnect pulls balance changes and net incom
 **What you'll need:**
 - OfficeConnect connected to the **Financials** data source
 - Workday Financial Management with a current period closed and journal entries posted
-- A completed balance sheet workbook is helpful for cross-referencing — see [Build a Balance Sheet](/build-reports/financials/balance-sheet-report/)
+- A completed balance sheet workbook is helpful for cross-referencing — see [Build a Balance Sheet](/get-started/build-reports/financials/balance-sheet-report/)
 
 ---
 
@@ -106,6 +106,6 @@ Apply Accounting number format. Bold all subtotal rows (Net Cash from Operating,
 
 ## Next steps
 
-- Cross-reference with your balance sheet — see [Build a Balance Sheet](/build-reports/financials/balance-sheet-report/)
-- Add prior-year comparison columns to show YoY cash flow — see [Build an Actuals Trend Report](/build-reports/financials/actuals-trend-report/)
-- Reconcile figures to Workday Report Writer — see [Reconcile OfficeConnect Values to Workday Reports](/build-reports/financials/reconcile-to-workday/)
+- Cross-reference with your balance sheet — see [Build a Balance Sheet](/get-started/build-reports/financials/balance-sheet-report/)
+- Add prior-year comparison columns to show YoY cash flow — see [Build an Actuals Trend Report](/get-started/build-reports/financials/actuals-trend-report/)
+- Reconcile figures to Workday Report Writer — see [Reconcile OfficeConnect Values to Workday Reports](/get-started/build-reports/financials/reconcile-to-workday/)

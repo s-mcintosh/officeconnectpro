@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /performance/
 title: Performance & Optimization
 linkTitle: Performance
 weight: 55
@@ -20,8 +22,8 @@ A slow OfficeConnect report is usually a design problem, not a product limitatio
 
 ## Articles in this section
 
-- [Optimize Performance](/performance/optimize-performance/) — Speed up Workday OfficeConnect reports that are slow to refresh — reduce formula count, use efficient time contexts, and configure workbook settings for large Adaptive Planning models
-- [Refresh Benchmarks](/performance/refresh-benchmarks/) — Rough benchmarks for what a normal Workday OfficeConnect refresh should take by formula count, what moves the numbers, and how to measure your own workbooks
-- [32-bit vs 64-bit Excel](/performance/32-vs-64-bit/) — Why 64-bit Excel matters for large Workday OfficeConnect workbooks, how to check which version you're running, and how to switch without breaking other add-ins
-- [Reduce Element Count](/performance/reduce-element-count/) — Element count is the single biggest performance lever in Workday OfficeConnect — five concrete tactics to cut it without losing the report you need
-- [Large Repeating Reports](/performance/large-repeating-reports/) — Patterns and pitfalls for Workday OfficeConnect reports that use repeating rows to generate hundreds of lines from a single element
+- [Optimize Performance](/get-started/performance/optimize-performance/) — Speed up Workday OfficeConnect reports that are slow to refresh — reduce formula count, use efficient time contexts, and configure workbook settings for large Adaptive Planning models
+- [Refresh Benchmarks](/get-started/performance/refresh-benchmarks/) — Rough benchmarks for what a normal Workday OfficeConnect refresh should take by formula count, what moves the numbers, and how to measure your own workbooks
+- [32-bit vs 64-bit Excel](/get-started/performance/32-vs-64-bit/) — Why 64-bit Excel matters for large Workday OfficeConnect workbooks, how to check which version you're running, and how to switch without breaking other add-ins
+- [Reduce Element Count](/get-started/performance/reduce-element-count/) — Element count is the single biggest performance lever in Workday OfficeConnect — five concrete tactics to cut it without losing the report you need
+- [Large Repeating Reports](/get-started/performance/large-repeating-reports/) — Patterns and pitfalls for Workday OfficeConnect reports that use repeating rows to generate hundreds of lines from a single element

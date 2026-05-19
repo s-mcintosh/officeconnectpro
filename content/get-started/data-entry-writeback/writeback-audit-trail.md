@@ -105,6 +105,6 @@ You have a defensible, repeatable audit process around OfficeConnect write-back.
 
 ## Next steps
 
-- [Designing Write-Back Permissions](/data-entry-writeback/writeback-permissions/) — the prevention side; good permissions reduce the volume of anomalies you'll see in the log.
-- [Common Write-Back Errors](/data-entry-writeback/writeback-errors/) — failed submits also appear in the audit log; this article explains what each error means.
-- [Secure Workbooks (Admin)](/admin/govern/secure-workbooks/) — broader workbook governance practices that complement the write-back controls.
+- [Designing Write-Back Permissions](/get-started/data-entry-writeback/writeback-permissions/) — the prevention side; good permissions reduce the volume of anomalies you'll see in the log.
+- [Common Write-Back Errors](/get-started/data-entry-writeback/writeback-errors/) — failed submits also appear in the audit log; this article explains what each error means.
+- [Secure Workbooks (Admin)](/get-started/admin/govern/secure-workbooks/) — broader workbook governance practices that complement the write-back controls.

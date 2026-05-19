@@ -6,12 +6,12 @@ description: >
   Key differences in Workday OfficeConnect behavior depending on whether you're using the Adaptive Planning or Financials data source.
 tags: ["adaptive-planning", "financials", "accounting", "fpna", "system-admin", "comparison"]
 aliases:
-  - /build-reports/financials-vs-adaptive-planning/
+  - /get-started/build-reports/financials-vs-adaptive-planning/
 ---
 
 Workday OfficeConnect supports two data sources. Most organizations use **Adaptive Planning** (budget and forecast data). Organizations using Workday Financial Management also have access to the **Financials** data source (general ledger actuals).
 
-The data source is set when you configure your tenant — see [Sign In & Create a Tenant](/admin/configure/sign-in-create-tenant/). Some OfficeConnect features behave differently depending on which source is active.
+The data source is set when you configure your tenant — see [Sign In & Create a Tenant](/get-started/admin/configure/sign-in-create-tenant/). Some OfficeConnect features behave differently depending on which source is active.
 
 ## Feature comparison
 
@@ -33,7 +33,7 @@ Check your tenant configuration: in the OfficeConnect sign-in drop-down, each te
 
 ## Effective dates (Financials only)
 
-When using the Financials data source, you can select an **effective date** for your report. This reflects your organization's structure as of that date — useful for reporting after reorganizations. See [Effective-Date Reporting](/build-reports/financials/effective-date-reporting/).
+When using the Financials data source, you can select an **effective date** for your report. This reflects your organization's structure as of that date — useful for reporting after reorganizations. See [Effective-Date Reporting](/get-started/build-reports/financials/effective-date-reporting/).
 
 {{< admin-note >}}
 Effective date support requires configuration in Workday's financial reporting data model. Contact your Workday Security Administrator to verify it's enabled.
@@ -45,6 +45,6 @@ If your administrator configures alternate hierarchies for dimensions in the fin
 
 ## Next steps
 
-- [Reconcile to Workday](/build-reports/financials/reconcile-to-workday/) — verify the Financials data source matches Workday.
-- [Drill-through to Journal Lines](/build-reports/financials/drill-through-journal-lines/) — Financials-only feature deep dive.
-- [Multi-Currency Financials](/build-reports/financials/multi-currency-financials/) — currency handling differences.
+- [Reconcile to Workday](/get-started/build-reports/financials/reconcile-to-workday/) — verify the Financials data source matches Workday.
+- [Drill-through to Journal Lines](/get-started/build-reports/financials/drill-through-journal-lines/) — Financials-only feature deep dive.
+- [Multi-Currency Financials](/get-started/build-reports/financials/multi-currency-financials/) — currency handling differences.

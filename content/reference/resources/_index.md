@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /resources/
 title: Resources
 linkTitle: Resources
 weight: 80

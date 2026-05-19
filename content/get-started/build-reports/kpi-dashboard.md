@@ -12,9 +12,9 @@ A KPI dashboard is the one page an executive will actually read. This tutorial w
 **What you'll build:** A formatted Excel sheet with KPI tiles, each containing a current-period value, a prior-period value, and a delta — all driven by single OfficeConnect cells.
 
 **What you'll need:**
-- OfficeConnect installed and signed in ([Build Your First Report](/build-reports/build-first-report/))
+- OfficeConnect installed and signed in ([Build Your First Report](/get-started/build-reports/build-first-report/))
 - A model with Actuals loaded for the current and prior period
-- Comfort dragging Account, Version, and Time elements ([Add Elements](/build-reports/add-elements/))
+- Comfort dragging Account, Version, and Time elements ([Add Elements](/get-started/build-reports/add-elements/))
 - A blank workbook to start fresh
 
 ---
@@ -70,7 +70,7 @@ Use a single fill color per tile, white text for labels, and a subtle border. Hi
 {{< /step >}}
 
 {{< step n="9" title="Lock the layout" >}}
-Once you're happy with the layout, protect the sheet so executives can't accidentally drag a tile out of place — see [Lock and Protect Reports](/build-reports/lock-protect-reports/).
+Once you're happy with the layout, protect the sheet so executives can't accidentally drag a tile out of place — see [Lock and Protect Reports](/get-started/build-reports/lock-protect-reports/).
 {{< /step >}}
 
 ---
@@ -81,6 +81,6 @@ You now have an executive-ready single-sheet dashboard with eight live KPI tiles
 
 ## Next steps
 
-- Apply executive-grade formatting across the rest of your reporting pack — see [Formatted Executive Report](/build-reports/formatted-executive-report/)
-- Push the dashboard into a slide deck — see [Publish to PowerPoint](/build-reports/publish-to-powerpoint/)
-- Add a current vs. prior-year layer — see [Year-over-Year Trend Report](/build-reports/year-over-year-trend/)
+- Apply executive-grade formatting across the rest of your reporting pack — see [Formatted Executive Report](/get-started/build-reports/formatted-executive-report/)
+- Push the dashboard into a slide deck — see [Publish to PowerPoint](/get-started/build-reports/publish-to-powerpoint/)
+- Add a current vs. prior-year layer — see [Year-over-Year Trend Report](/get-started/build-reports/year-over-year-trend/)

@@ -45,12 +45,12 @@ The single most useful pattern: **Budget 2026 Draft** stays open with planners' 
 Adaptive's submit/approve workflow gives you a review gate. Planners submit through OfficeConnect into Draft; a reviewer in Adaptive approves into Approved. Because OfficeConnect submits go to the version in its current state, if Draft is the only Input-state version, OfficeConnect physically cannot bypass the reviewer.
 
 {{< admin-note >}}
-For SOX-relevant planning data, document the write-back permission model as IT general controls: "Only authorized planners can modify planning data; modifications are restricted by version state and Level scope; an immutable Approved version exists as baseline; all submissions are logged." See [Auditing Write-Back Submissions](/data-entry-writeback/writeback-audit-trail/).
+For SOX-relevant planning data, document the write-back permission model as IT general controls: "Only authorized planners can modify planning data; modifications are restricted by version state and Level scope; an immutable Approved version exists as baseline; all submissions are logged." See [Auditing Write-Back Submissions](/get-started/data-entry-writeback/writeback-audit-trail/).
 {{< /admin-note >}}
 
 ## The role of Personal what-if scenarios (2026R1)
 
-Personal what-if scenarios, introduced in 2026R1, give individual users a private space to model changes without touching a shared version. For one-off exploration, this is safer than granting Input on a shared scratch version. Rule of thumb: shared collaborative plan → versioned Input with the patterns above; individual exploration → Personal what-if scenario; reference data → no Input granted, ever. See [Personal what-if scenarios (2026R1)](/whats-new/2026r1-personal-scenarios/) for the feature mechanics.
+Personal what-if scenarios, introduced in 2026R1, give individual users a private space to model changes without touching a shared version. For one-off exploration, this is safer than granting Input on a shared scratch version. Rule of thumb: shared collaborative plan → versioned Input with the patterns above; individual exploration → Personal what-if scenario; reference data → no Input granted, ever. See [Personal what-if scenarios (2026R1)](/reference/whats-new/2026r1-personal-scenarios/) for the feature mechanics.
 
 {{< tip >}}
 For new planners, default them to Personal what-if scenarios for their first cycle. Promote them to Input on the shared draft only after they've shown they understand the data model.
@@ -62,6 +62,6 @@ Your OfficeConnect users can write back productively without the ability to dama
 
 ## Next steps
 
-- [Common Write-Back Errors](/data-entry-writeback/writeback-errors/) — the errors users will see when permissions don't align, and how to fix each.
-- [Auditing Write-Back Submissions](/data-entry-writeback/writeback-audit-trail/) — review what was actually submitted, by whom.
-- [Write-Back Complete Guide](/data-entry-writeback/writeback-complete-guide/) — the canonical reference for the write-back feature.
+- [Common Write-Back Errors](/get-started/data-entry-writeback/writeback-errors/) — the errors users will see when permissions don't align, and how to fix each.
+- [Auditing Write-Back Submissions](/get-started/data-entry-writeback/writeback-audit-trail/) — review what was actually submitted, by whom.
+- [Write-Back Complete Guide](/get-started/data-entry-writeback/writeback-complete-guide/) — the canonical reference for the write-back feature.

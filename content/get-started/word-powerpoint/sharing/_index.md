@@ -15,4 +15,4 @@ Once your OfficeConnect workbook is built, getting it to the right people withou
 
 ## Articles in this section
 
-- [Share via Teams & SharePoint](/word-powerpoint/sharing/share-teams-sharepoint-onedrive/) — Save and share Workday OfficeConnect workbooks through Microsoft Teams, SharePoint, or OneDrive
+- [Share via Teams & SharePoint](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/) — Save and share Workday OfficeConnect workbooks through Microsoft Teams, SharePoint, or OneDrive

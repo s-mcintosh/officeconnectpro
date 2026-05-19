@@ -18,7 +18,7 @@ When a number in your OfficeConnect report doesn't look right, you don't need to
 ## Step 1 — Build or open a Financials report
 
 {{< step n="1" title="Open a report with Financials data" >}}
-Open any OfficeConnect workbook using the Financials data source and click **Refresh** to ensure cells are populated. If you need to build one from scratch, follow [Build a Trial Balance Report](/build-reports/financials/trial-balance-report/) first.
+Open any OfficeConnect workbook using the Financials data source and click **Refresh** to ensure cells are populated. If you need to build one from scratch, follow [Build a Trial Balance Report](/get-started/build-reports/financials/trial-balance-report/) first.
 {{< /step >}}
 
 ---
@@ -69,11 +69,11 @@ If you're switching between Adaptive Planning and Financials tenants, note that 
 | Financials | Show Details | Contributing journal lines, with drill-through to Workday |
 | Adaptive Planning | Explore Cell | Contributing dimension splits within the Adaptive Planning model |
 
-See [Adaptive Planning vs. Financials Data Source](/migration-comparison/financials-vs-adaptive-planning/) for a full comparison.
+See [Adaptive Planning vs. Financials Data Source](/get-started/migration-comparison/financials-vs-adaptive-planning/) for a full comparison.
 
 ---
 
 ## Next steps
 
-- Build a trial balance to have a full set of balances to drill into — see [Trial Balance Report](/build-reports/financials/trial-balance-report/)
-- Build an actuals trend to find the period where a variance appears — see [Actuals Trend Report](/build-reports/financials/actuals-trend-report/)
+- Build a trial balance to have a full set of balances to drill into — see [Trial Balance Report](/get-started/build-reports/financials/trial-balance-report/)
+- Build an actuals trend to find the period where a variance appears — see [Actuals Trend Report](/get-started/build-reports/financials/actuals-trend-report/)

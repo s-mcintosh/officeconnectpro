@@ -13,7 +13,7 @@ This is an IT admin / power-user task. Requires Microsoft Configuration Manager 
 
 Microsoft Configuration Manager (MECM, formerly SCCM) is still the dominant on-prem software-deployment tool in many organizations. This guide packages Workday OfficeConnect as an Application in MECM, with silent install, supersedence-aware upgrade behavior, and reliable detection.
 
-For Intune, see [Intune Win32 Packaging](/admin/deploy/intune-win32/). For tenant configuration after install, see [Deploy Tenants via Registry](/admin/deploy/deploy-tenants-registry/).
+For Intune, see [Intune Win32 Packaging](/get-started/admin/deploy/intune-win32/). For tenant configuration after install, see [Deploy Tenants via Registry](/get-started/admin/deploy/deploy-tenants-registry/).
 
 ## What you'll need
 
@@ -154,7 +154,7 @@ On the test machine:
 
 - **Detection method too narrow:** A registry-key-only detection often misses upgrade scenarios. File-based detection is more reliable.
 - **User vs system install:** If users complain OfficeConnect is missing despite the deploy succeeding, the installer may have run per-user instead of per-machine. See Per-User vs Per-Machine Install (coming soon).
-- **Conflict with other Excel COM add-ins:** A successful install on a machine that already has think-cell loaded can mask refresh failures — see [think-cell Conflict](/troubleshoot/think-cell-conflict/).
+- **Conflict with other Excel COM add-ins:** A successful install on a machine that already has think-cell loaded can mask refresh failures — see [think-cell Conflict](/reference/troubleshoot/think-cell-conflict/).
 - **Workday version compatibility:** Make sure the version you're deploying is accepted by your Workday tenant. See the [Version Compatibility Matrix](/reference/version-compatibility/).
 
 ## Result
@@ -163,6 +163,6 @@ Workday OfficeConnect deploys silently across MECM-managed devices, upgrades cle
 
 ## Next steps
 
-- [Deploy Tenants via Registry](/admin/deploy/deploy-tenants-registry/) — push tenant configuration in the same wave.
-- [Intune Win32 Packaging](/admin/deploy/intune-win32/) — the Intune equivalent for cloud-managed devices.
+- [Deploy Tenants via Registry](/get-started/admin/deploy/deploy-tenants-registry/) — push tenant configuration in the same wave.
+- [Intune Win32 Packaging](/get-started/admin/deploy/intune-win32/) — the Intune equivalent for cloud-managed devices.
 - Upgrade Governance (coming soon) — managing the forced-upgrade cadence at scale.

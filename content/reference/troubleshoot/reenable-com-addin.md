@@ -11,7 +11,7 @@ When Excel crashes or hangs while Workday OfficeConnect is running, Excel someti
 
 The fix is to re-enable it from Excel's **Disabled Items** list. This article walks through it.
 
-If your OfficeConnect tab is missing for a different reason (never installed, install corrupted, JavaScript add-in on Mac), see also [Task Pane Not Displaying](/troubleshoot/task-pane-not-displaying/) and [Install for End Users](/get-started/install-end-user/).
+If your OfficeConnect tab is missing for a different reason (never installed, install corrupted, JavaScript add-in on Mac), see also [Task Pane Not Displaying](/reference/troubleshoot/task-pane-not-displaying/) and [Install for End Users](/get-started/install-end-user/).
 
 ## Symptom
 
@@ -76,13 +76,13 @@ The Disabled Items mechanism is Windows-specific (it's tied to COM add-ins). On 
 2. Verify OfficeConnect is listed as active
 3. If listed but inactive, click it to re-enable
 
-See [OfficeConnect on Mac](/troubleshoot/officeconnect-on-mac/) for the full Mac troubleshooting flow.
+See [OfficeConnect on Mac](/reference/troubleshoot/officeconnect-on-mac/) for the full Mac troubleshooting flow.
 
 ## Prevent it from happening again
 
 - **Don't force-close Excel.** Always use File → Close or File → Exit. Force-quit while OfficeConnect is mid-refresh is the most common trigger.
 - **Save large workbooks before refreshing.** A refresh that takes 30+ seconds is much more likely to be force-closed by an impatient user.
-- **Tune performance.** See [Optimize Performance](/performance/optimize-performance/) to keep refresh times under 10 seconds so users don't reach for force-quit.
+- **Tune performance.** See [Optimize Performance](/get-started/performance/optimize-performance/) to keep refresh times under 10 seconds so users don't reach for force-quit.
 
 ## Result
 
@@ -90,6 +90,6 @@ OfficeConnect is back in the ribbon, and Excel will load it normally on next sta
 
 ## Next steps
 
-- [Optimize Performance](/performance/optimize-performance/) — reduce the refresh times that cause force-quits in the first place.
-- [Task Pane Not Displaying](/troubleshoot/task-pane-not-displaying/) — if the tab is there but the pane won't show.
-- [Authentication Token Errors](/troubleshoot/authentication-token-errors/) — if you re-enabled but sign-in fails.
+- [Optimize Performance](/get-started/performance/optimize-performance/) — reduce the refresh times that cause force-quits in the first place.
+- [Task Pane Not Displaying](/reference/troubleshoot/task-pane-not-displaying/) — if the tab is there but the pane won't show.
+- [Authentication Token Errors](/reference/troubleshoot/authentication-token-errors/) — if you re-enabled but sign-in fails.

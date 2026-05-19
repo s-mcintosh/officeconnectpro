@@ -16,4 +16,4 @@ Governance topics for keeping OfficeConnect deployments secure, auditable, and c
 
 ## Articles in this section
 
-- [Secure Workbooks](/admin/govern/secure-workbooks/) — How Workday OfficeConnect handles security, timeouts, and data clearing to protect sensitive financial data
+- [Secure Workbooks](/get-started/admin/govern/secure-workbooks/) — How Workday OfficeConnect handles security, timeouts, and data clearing to protect sensitive financial data

@@ -37,13 +37,13 @@ Although you shouldn't hand-edit the function call, the cell behaves like any Ex
 - **Wrap it in Excel functions.** `=IF(A1<0, "Over budget", A1)` works fine — the OfficeConnect value is evaluated first, then your wrapper.
 - **Reference it elsewhere.** `=A1*1.05` for a manual override.
 - **Format it.** Excel number, currency, and percentage formatting all apply.
-- **Inspect it with Cell Explorer.** Click the cell, then OfficeConnect ribbon → **Cell Explorer** — much more readable than the raw formula. See [Cell Explorer / Drill Down](/build-reports/cell-explorer-drill-down/).
+- **Inspect it with Cell Explorer.** Click the cell, then OfficeConnect ribbon → **Cell Explorer** — much more readable than the raw formula. See [Cell Explorer / Drill Down](/get-started/build-reports/cell-explorer-drill-down/).
 
 ## What you should not do
 
 - **Don't edit the function arguments by hand.** OfficeConnect will not warn you; the cell may stop refreshing, or refresh to a wrong value.
-- **Don't copy-paste OfficeConnect cells with standard Excel copy.** Use the OfficeConnect ribbon's copy/paste commands — see [Cut, Copy, Move Elements](/build-reports/cut-copy-move-elements/). Standard Excel paste breaks the linkage.
-- **Don't put `NOW()`, `TODAY()`, `RAND()`, or `OFFSET()` in the same sheet.** These volatile Excel functions trigger OfficeConnect recalcs on every keystroke. See [Optimize Performance](/performance/optimize-performance/).
+- **Don't copy-paste OfficeConnect cells with standard Excel copy.** Use the OfficeConnect ribbon's copy/paste commands — see [Cut, Copy, Move Elements](/get-started/build-reports/cut-copy-move-elements/). Standard Excel paste breaks the linkage.
+- **Don't put `NOW()`, `TODAY()`, `RAND()`, or `OFFSET()` in the same sheet.** These volatile Excel functions trigger OfficeConnect recalcs on every keystroke. See [Optimize Performance](/get-started/performance/optimize-performance/).
 
 ## Common formula behaviors
 
@@ -51,12 +51,12 @@ Although you shouldn't hand-edit the function call, the cell behaves like any Ex
 |---|---|
 | `n/a` value | The element combination has no data at that intersection (e.g., that account has no value in that version for that time period). |
 | `#VALUE!` | An element reference can no longer be resolved — usually an account was deleted or renamed in Adaptive Planning. |
-| Empty cell after refresh | The intersection is genuinely zero or null. Check workbook **Suppress Zeros** setting. See [Suppress Zeros and Blanks](/troubleshoot/suppress-zeros-blanks/). |
-| Cell shows old value | Workbook hasn't been refreshed since the source changed. Click **Refresh**. If that fails, see [Not Refreshing](/troubleshoot/not-refreshing/). |
+| Empty cell after refresh | The intersection is genuinely zero or null. Check workbook **Suppress Zeros** setting. See [Suppress Zeros and Blanks](/reference/troubleshoot/suppress-zeros-blanks/). |
+| Cell shows old value | Workbook hasn't been refreshed since the source changed. Click **Refresh**. If that fails, see [Not Refreshing](/reference/troubleshoot/not-refreshing/). |
 
 ## Data-entry formulas (Write-back)
 
-When data entry is enabled on the workbook, typing a value over an OfficeConnect formula replaces the formula with the typed number (highlighted as a pending input). After **Submit**, OfficeConnect restores the formula and the underlying Adaptive Planning value reflects what you entered. See [Enter Budget Data](/data-entry-writeback/enter-budget-data/).
+When data entry is enabled on the workbook, typing a value over an OfficeConnect formula replaces the formula with the typed number (highlighted as a pending input). After **Submit**, OfficeConnect restores the formula and the underlying Adaptive Planning value reflects what you entered. See [Enter Budget Data](/get-started/data-entry-writeback/enter-budget-data/).
 
 ## Result
 
@@ -65,5 +65,5 @@ Reading an OfficeConnect formula tells you exactly which intersection it queries
 ## Next steps
 
 - [Element Types Reference](/reference/element-types/) — every element you'll see inside formulas.
-- [Cell Explorer / Drill Down](/build-reports/cell-explorer-drill-down/) — the friendlier formula inspector.
+- [Cell Explorer / Drill Down](/get-started/build-reports/cell-explorer-drill-down/) — the friendlier formula inspector.
 - [Glossary](/reference/glossary/) — definitions for every term used here.

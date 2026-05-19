@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /word-powerpoint/
 title: Word & PowerPoint
 linkTitle: Word & PowerPoint
 weight: 30
@@ -19,15 +21,15 @@ Workday OfficeConnect isn't only an Excel tool. Linked tables and charts can flo
 
 Pick where you're working:
 
-- **[PowerPoint board books](/word-powerpoint/powerpoint/)** — board packs, refresh patterns, broken-link recovery.
-- **[Word reports & narratives](/word-powerpoint/word/)** — MD&A drafts, narrative templates, named ranges.
-- **[Sharing your decks](/word-powerpoint/sharing/)** — Teams, SharePoint, OneDrive, co-authoring caveats.
+- **[PowerPoint board books](/get-started/word-powerpoint/powerpoint/)** — board packs, refresh patterns, broken-link recovery.
+- **[Word reports & narratives](/get-started/word-powerpoint/word/)** — MD&A drafts, narrative templates, named ranges.
+- **[Sharing your decks](/get-started/word-powerpoint/sharing/)** — Teams, SharePoint, OneDrive, co-authoring caveats.
 
 ## Articles in this section
 
 ### Sub-sections
 
-- [**PowerPoint**](/word-powerpoint/powerpoint/) — Build PowerPoint board books and presentation decks that refresh from your Workday OfficeConnect Excel workbook
-- [**Sharing**](/word-powerpoint/sharing/) — Share Workday OfficeConnect workbooks and linked decks via Microsoft Teams, SharePoint, and OneDrive — including co-authoring caveats and recipient permissions
-- [**Word**](/word-powerpoint/word/) — Build Word documents — board narratives, MD&A drafts, investor letters — with named ranges from your Workday OfficeConnect workbook
+- [**PowerPoint**](/get-started/word-powerpoint/powerpoint/) — Build PowerPoint board books and presentation decks that refresh from your Workday OfficeConnect Excel workbook
+- [**Sharing**](/get-started/word-powerpoint/sharing/) — Share Workday OfficeConnect workbooks and linked decks via Microsoft Teams, SharePoint, and OneDrive — including co-authoring caveats and recipient permissions
+- [**Word**](/get-started/word-powerpoint/word/) — Build Word documents — board narratives, MD&A drafts, investor letters — with named ranges from your Workday OfficeConnect workbook
 

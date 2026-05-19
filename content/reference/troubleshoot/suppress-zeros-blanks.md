@@ -7,7 +7,7 @@ description: >
 tags: ["reporting", "fpna", "system-admin", "troubleshoot"]
 ---
 
-Hiding empty rows in a Workday OfficeConnect report is a two-part system: **Workbook Properties** controls the *default state*, and the **Hide Zeros & Blanks** ribbon button is a *toggle* on top of that default. Review the full settings layout in [Workbook & Worksheet Properties](/build-reports/workbook-worksheet-properties/) so you set the default in the right place.
+Hiding empty rows in a Workday OfficeConnect report is a two-part system: **Workbook Properties** controls the *default state*, and the **Hide Zeros & Blanks** ribbon button is a *toggle* on top of that default. Review the full settings layout in [Workbook & Worksheet Properties](/get-started/build-reports/workbook-worksheet-properties/) so you set the default in the right place.
 
 ## How it works
 
@@ -45,6 +45,6 @@ Within OfficeConnect-linked data ranges, you can also use Excel's native **Hide*
 
 ## Next steps
 
-- [Workbook & Worksheet Properties](/build-reports/workbook-worksheet-properties/) for the rest of the workbook-wide display settings
-- [Filter Your Data](/build-reports/filter-data/) if you want to exclude rows by value or attribute rather than just hide zeros
-- [Display Percentage Values Correctly](/troubleshoot/display-percentage-values/) when suppression behavior interacts with rounded percentage rows
+- [Workbook & Worksheet Properties](/get-started/build-reports/workbook-worksheet-properties/) for the rest of the workbook-wide display settings
+- [Filter Your Data](/get-started/build-reports/filter-data/) if you want to exclude rows by value or attribute rather than just hide zeros
+- [Display Percentage Values Correctly](/reference/troubleshoot/display-percentage-values/) when suppression behavior interacts with rounded percentage rows

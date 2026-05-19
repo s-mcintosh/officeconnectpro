@@ -15,7 +15,7 @@ Workday OfficeConnect doesn't authenticate to Okta directly. Instead, OfficeConn
 
 This guide assumes you already have Okta-to-Workday SSO working for the regular Workday web app. If not, set that up first (in Okta's catalog: "Workday" with SAML 2.0 or OpenID Connect).
 
-For the generic SSO concepts, see [Set Up Workday SSO](/admin/configure/workday-sso/).
+For the generic SSO concepts, see [Set Up Workday SSO](/get-started/admin/configure/workday-sso/).
 
 ## Step 1 — Verify the Workday OfficeConnect API client is in place
 
@@ -24,7 +24,7 @@ In Workday: run **Enable Features After User Sync** and confirm OfficeConnect is
 {{< /step >}}
 
 {{< step n="2" title="Confirm the OfficeConnect API client exists" >}}
-The API client provides the **Client ID** and two endpoint URLs OfficeConnect needs. If not yet created, see [Set Up Workday SSO](/admin/configure/workday-sso/) Step 2.
+The API client provides the **Client ID** and two endpoint URLs OfficeConnect needs. If not yet created, see [Set Up Workday SSO](/get-started/admin/configure/workday-sso/) Step 2.
 {{< /step >}}
 
 ## Step 2 — Configure the Okta application for Workday (if not already done)
@@ -95,6 +95,6 @@ Workday OfficeConnect users sign in with their Okta credentials, MFA flows work,
 
 ## Next steps
 
-- [Set Up Workday SSO](/admin/configure/workday-sso/) — the generic concepts.
-- [SSO with Microsoft Entra ID](/admin/configure/sso-entra/) — the Entra equivalent.
-- [Authentication Token Errors](/troubleshoot/authentication-token-errors/) — when sign-in succeeds but tokens fail.
+- [Set Up Workday SSO](/get-started/admin/configure/workday-sso/) — the generic concepts.
+- [SSO with Microsoft Entra ID](/get-started/admin/configure/sso-entra/) — the Entra equivalent.
+- [Authentication Token Errors](/reference/troubleshoot/authentication-token-errors/) — when sign-in succeeds but tokens fail.

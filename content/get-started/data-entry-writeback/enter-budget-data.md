@@ -6,7 +6,7 @@ description: >
   Use Workday OfficeConnect's data entry mode to write budget figures directly from Excel into Adaptive Planning — no need to log in to the Adaptive Planning web interface.
 tags: ["adaptive-planning", "data-entry", "write-back", "fpna", "tutorial"]
 aliases:
-  - /build-reports/enter-budget-data/
+  - /get-started/build-reports/enter-budget-data/
 ---
 
 Workday OfficeConnect isn't just for reading data from Adaptive Planning — it can write data back. This tutorial walks through setting up a data entry workbook that lets planners enter budget figures in Excel and submit them directly to an Adaptive Planning version.
@@ -100,6 +100,6 @@ You have a distributable Excel data entry workbook that writes back to Workday A
 
 ## Next steps
 
-- Protect the workbook before sharing — see [Lock and Protect Reports](/build-reports/lock-protect-reports/)
-- Compare submitted budget to actuals — see [Budget vs. Actuals Variance](/build-reports/budget-vs-actuals-variance/)
-- Distribute the workbook via SharePoint — see [Share via Teams & SharePoint](/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)
+- Protect the workbook before sharing — see [Lock and Protect Reports](/get-started/build-reports/lock-protect-reports/)
+- Compare submitted budget to actuals — see [Budget vs. Actuals Variance](/get-started/build-reports/budget-vs-actuals-variance/)
+- Distribute the workbook via SharePoint — see [Share via Teams & SharePoint](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)

@@ -12,10 +12,10 @@ Pipeline-to-revenue forecasting bridges the gap between the CRM and the financia
 **What you'll build:** A report that lists pipeline by stage, applies a stage-weighted probability, and projects expected revenue by month for the next two quarters.
 
 **What you'll need:**
-- OfficeConnect installed and signed in ([Build Your First Report](/build-reports/build-first-report/))
+- OfficeConnect installed and signed in ([Build Your First Report](/get-started/build-reports/build-first-report/))
 - A **Pipeline Stage** custom dimension in Adaptive Planning (Prospect, Qualified, Proposal, Negotiation, Closed Won)
 - A **Pipeline Amount** account loaded with deal values dimensionalized by stage and expected close month
-- Familiarity with custom dimensions ([Custom Dimensions and Attributes](/build-reports/custom-dimensions-attributes/))
+- Familiarity with custom dimensions ([Custom Dimensions and Attributes](/get-started/build-reports/custom-dimensions-attributes/))
 
 ---
 
@@ -70,7 +70,7 @@ Click **Refresh**. The raw pipeline rows populate from the custom dimension. Wei
 {{< /step >}}
 
 {{< step n="9" title="Add stage drilldown" >}}
-For any cell that looks off, use [Cell Explorer Drill-Down](/build-reports/cell-explorer-drill-down/) to see exactly which deals contribute to the value.
+For any cell that looks off, use [Cell Explorer Drill-Down](/get-started/build-reports/cell-explorer-drill-down/) to see exactly which deals contribute to the value.
 {{< /step >}}
 
 ---
@@ -81,6 +81,6 @@ You now have a probability-weighted revenue forecast driven directly by your pip
 
 ## Next steps
 
-- Add additional pipeline cuts by region or product — see [Custom Dimensions and Attributes](/build-reports/custom-dimensions-attributes/)
-- Compare this bottom-up forecast against the top-down plan — see [Compare Planning Versions](/build-reports/compare-planning-versions/)
-- Score the forecast against actuals after the quarter closes — see [Build a Forecast Accuracy Report](/build-reports/forecast-accuracy/)
+- Add additional pipeline cuts by region or product — see [Custom Dimensions and Attributes](/get-started/build-reports/custom-dimensions-attributes/)
+- Compare this bottom-up forecast against the top-down plan — see [Compare Planning Versions](/get-started/build-reports/compare-planning-versions/)
+- Score the forecast against actuals after the quarter closes — see [Build a Forecast Accuracy Report](/get-started/build-reports/forecast-accuracy/)

@@ -17,25 +17,25 @@ linkTitle: "Home"
 Install Workday OfficeConnect, connect to your tenant, and build your first report in 30 minutes.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fa-chart-bar" title="Build Reports" url="/build-reports/" %}}
+{{% blocks/feature icon="fa-chart-bar" title="Build Reports" url="/get-started/build-reports/" %}}
 Add elements, apply filters, and build live Excel reports — including a deep Financials section for general-ledger reporting.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fa-file-powerpoint" title="Word &amp; PowerPoint" url="/word-powerpoint/" %}}
+{{% blocks/feature icon="fa-file-powerpoint" title="Word &amp; PowerPoint" url="/get-started/word-powerpoint/" %}}
 Link OfficeConnect data into board books, narratives, and decks that refresh with one click.
 {{% /blocks/feature %}}
 {{< /blocks/section >}}
 
 {{< blocks/section color="white" type="row" >}}
-{{% blocks/feature icon="fa-edit" title="Data Entry &amp; Write-Back" url="/data-entry-writeback/" %}}
+{{% blocks/feature icon="fa-edit" title="Data Entry &amp; Write-Back" url="/get-started/data-entry-writeback/" %}}
 Submit budget and forecast data from Excel back to Workday Adaptive Planning — the 2025R1 write-back feature.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fa-server" title="System Admins" url="/admin/" %}}
+{{% blocks/feature icon="fa-server" title="System Admins" url="/get-started/admin/" %}}
 Deploy, configure SSO, govern, and upgrade Workday OfficeConnect across the organization.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fa-wrench" title="Troubleshoot" url="/troubleshoot/" %}}
+{{% blocks/feature icon="fa-wrench" title="Troubleshoot" url="/reference/troubleshoot/" %}}
 Fix common errors — refresh failures, COM add-in conflicts, SSO loops, Mac/VDI issues.
 {{% /blocks/feature %}}
 {{< /blocks/section >}}

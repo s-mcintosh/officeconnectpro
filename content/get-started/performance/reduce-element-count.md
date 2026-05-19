@@ -67,7 +67,7 @@ Before deleting anything you didn't create, save a copy of the workbook. Hidden 
 
 A **repeating row** is one element that expands to many rows on refresh based on a Level or dimension list. A repeating row generating 200 cost-center rows is one element, not 200. This is huge — for any report listing all the children of a parent, repeating rows are dramatically more efficient than dragging each child in manually.
 
-The catch: repeating rows that overlap with manually-placed rows, or with another repeating row, create unpredictable element counts and breakage. Keep repeats clean — one repeating range per sheet, scoped tightly with a Level filter. See [Large Repeating Reports](/performance/large-repeating-reports/) for the patterns.
+The catch: repeating rows that overlap with manually-placed rows, or with another repeating row, create unpredictable element counts and breakage. Keep repeats clean — one repeating range per sheet, scoped tightly with a Level filter. See [Large Repeating Reports](/get-started/performance/large-repeating-reports/) for the patterns.
 
 ## Putting it together
 
@@ -83,6 +83,6 @@ A workbook with one-fifth to one-tenth the original element count and a refresh 
 
 ## Next steps
 
-- [Refresh Time Benchmarks](/performance/refresh-benchmarks/) — confirm your new element count puts you in the expected refresh bucket.
-- [Large Repeating Reports](/performance/large-repeating-reports/) — for tactic 5 in depth.
-- [Optimize Performance for Large Models](/performance/optimize-performance/) — the broader playbook this article fits into.
+- [Refresh Time Benchmarks](/get-started/performance/refresh-benchmarks/) — confirm your new element count puts you in the expected refresh bucket.
+- [Large Repeating Reports](/get-started/performance/large-repeating-reports/) — for tactic 5 in depth.
+- [Optimize Performance for Large Models](/get-started/performance/optimize-performance/) — the broader playbook this article fits into.

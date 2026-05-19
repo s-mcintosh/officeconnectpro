@@ -59,10 +59,10 @@ Workday OfficeConnect respects Adaptive Planning's security model. Each user see
 
 ## Sharing workbooks
 
-See [Share Reports via Teams, SharePoint & OneDrive](/word-powerpoint/sharing/share-teams-sharepoint-onedrive/) for guidelines on sharing workbooks through Microsoft collaboration tools.
+See [Share Reports via Teams, SharePoint & OneDrive](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/) for guidelines on sharing workbooks through Microsoft collaboration tools.
 
 ## Next steps
 
-- [Set Up Workday SSO](/admin/configure/workday-sso/) — tie sign-in to your identity provider.
-- [Authentication Token Errors](/troubleshoot/authentication-token-errors/) — when timeouts surprise users.
-- [Share Reports via Teams, SharePoint & OneDrive](/word-powerpoint/sharing/share-teams-sharepoint-onedrive/) — collaboration best practices.
+- [Set Up Workday SSO](/get-started/admin/configure/workday-sso/) — tie sign-in to your identity provider.
+- [Authentication Token Errors](/reference/troubleshoot/authentication-token-errors/) — when timeouts surprise users.
+- [Share Reports via Teams, SharePoint & OneDrive](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/) — collaboration best practices.

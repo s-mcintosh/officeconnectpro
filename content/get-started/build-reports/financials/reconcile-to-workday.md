@@ -35,13 +35,13 @@ The most common cause of discrepancies is a period definition mismatch.
 
 ## 4. Check company and currency filters
 
-8. If your organization has multiple companies, confirm that both OfficeConnect and Workday Report Writer are scoped to the same company. In OfficeConnect, check for a Company element in the workbook header — see [Filter Reports by Company](/build-reports/financials/filter-by-company/).
+8. If your organization has multiple companies, confirm that both OfficeConnect and Workday Report Writer are scoped to the same company. In OfficeConnect, check for a Company element in the workbook header — see [Filter Reports by Company](/get-started/build-reports/financials/filter-by-company/).
 9. If your report uses currency conversion, confirm that both tools are using the same exchange rate type and conversion date. OfficeConnect supports both transaction currency and converted currency reporting — check which is active.
 
 ## 5. Check for journal sources excluded by Report Writer
 
 10. Some Workday reports are configured to exclude certain journal sources (for example, intercompany elimination entries or system-generated allocations). OfficeConnect by default includes all journal sources.
-11. To scope OfficeConnect to match, apply a journal source filter — see [Variance Analysis by Journal Source](/build-reports/financials/variance-by-journal-source/).
+11. To scope OfficeConnect to match, apply a journal source filter — see [Variance Analysis by Journal Source](/get-started/build-reports/financials/variance-by-journal-source/).
 
 ## 6. When you can't find the cause
 
@@ -56,6 +56,6 @@ The most common cause of discrepancies is a period definition mismatch.
 
 ## Related links
 
-- [Fix Data Discrepancies Between OfficeConnect and Workday](/troubleshoot/data-discrepancies/)
-- [Filter Reports by Company](/build-reports/financials/filter-by-company/)
-- [Variance Analysis by Journal Source](/build-reports/financials/variance-by-journal-source/)
+- [Fix Data Discrepancies Between OfficeConnect and Workday](/reference/troubleshoot/data-discrepancies/)
+- [Filter Reports by Company](/get-started/build-reports/financials/filter-by-company/)
+- [Variance Analysis by Journal Source](/get-started/build-reports/financials/variance-by-journal-source/)

@@ -14,7 +14,7 @@ The monthly board pack is the most visible artifact your FP&A team ships. Done w
 **What you'll need:**
 - Workday OfficeConnect installed in both Excel and PowerPoint — see [Install for End Users](/get-started/install-end-user/)
 - A working OfficeConnect Excel workbook with the data you want to surface (P&L, KPIs, cash, headcount)
-- PowerPoint with the OfficeConnect tab visible — see [OfficeConnect for PowerPoint](/word-powerpoint/powerpoint/officeconnect-for-powerpoint/)
+- PowerPoint with the OfficeConnect tab visible — see [OfficeConnect for PowerPoint](/get-started/word-powerpoint/powerpoint/officeconnect-for-powerpoint/)
 - 60 minutes for the first build; subsequent months take under 10
 
 ---
@@ -50,7 +50,7 @@ The `BP_` prefix groups all board-pack ranges so they sort together in Excel's N
 {{< /step >}}
 
 {{< step n="4" title="Create the ranges" >}}
-For each slide element, select the cells in Excel, click the **Name Box**, type the name, press Enter. See [OfficeConnect for PowerPoint](/word-powerpoint/powerpoint/officeconnect-for-powerpoint/) for the named-range mechanics.
+For each slide element, select the cells in Excel, click the **Name Box**, type the name, press Enter. See [OfficeConnect for PowerPoint](/get-started/word-powerpoint/powerpoint/officeconnect-for-powerpoint/) for the named-range mechanics.
 {{< /step >}}
 
 ## Step 3 — Build the PowerPoint template
@@ -80,7 +80,7 @@ Always refresh **Excel first**, then PowerPoint. Doing it in the other order pul
 {{< /step >}}
 
 {{< step n="9" title="Refresh-all-or-refresh-none" >}}
-Refresh every linked element in the deck, not a subset. Partial refreshes produce decks where some numbers are from this month and some are from last — the worst possible state. See [Refreshing All Slides Safely](/word-powerpoint/powerpoint/refresh-all-slides/).
+Refresh every linked element in the deck, not a subset. Partial refreshes produce decks where some numbers are from this month and some are from last — the worst possible state. See [Refreshing All Slides Safely](/get-started/word-powerpoint/powerpoint/refresh-all-slides/).
 {{< /step >}}
 
 {{< warning >}}
@@ -105,6 +105,6 @@ You have a board-pack template that refreshes in minutes, follows a consistent n
 
 ## Next steps
 
-- [Refreshing All Slides Safely](/word-powerpoint/powerpoint/refresh-all-slides/) — the discipline that prevents broken decks.
-- [Recovering Broken Links](/word-powerpoint/powerpoint/recovering-broken-links/) — when a refresh doesn't go smoothly.
-- [Quarterly Board Pack](/build-reports/quarterly-board-pack/) — the source-workbook side of the same workflow.
+- [Refreshing All Slides Safely](/get-started/word-powerpoint/powerpoint/refresh-all-slides/) — the discipline that prevents broken decks.
+- [Recovering Broken Links](/get-started/word-powerpoint/powerpoint/recovering-broken-links/) — when a refresh doesn't go smoothly.
+- [Quarterly Board Pack](/get-started/build-reports/quarterly-board-pack/) — the source-workbook side of the same workflow.

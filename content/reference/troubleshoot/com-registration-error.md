@@ -47,7 +47,7 @@ After the repair completes, run the OfficeConnect installer again.
 
 If the repair doesn't work, the troubleshooting tool will identify the specific registry key causing the problem. Your IT department can make adjustments to the registry keys listed in the tool's output.
 
-See [Run the Troubleshooting Tool](/troubleshoot/troubleshooting-tool/) to generate a diagnostic log.
+See [Run the Troubleshooting Tool](/reference/troubleshoot/troubleshooting-tool/) to generate a diagnostic log.
 
 ## Fix option 3: Disable conflicting add-ins
 
@@ -69,6 +69,6 @@ If this resolves the issue, re-enable add-ins one at a time to identify the conf
 
 ## Next steps
 
-- [Resolve OfficeConnect Update Errors](/troubleshoot/update-errors/) if the issue only appears during version updates
-- [Run the troubleshooting tool](/troubleshoot/troubleshooting-tool/) to capture the exact registry keys at fault
+- [Resolve OfficeConnect Update Errors](/reference/troubleshoot/update-errors/) if the issue only appears during version updates
+- [Run the troubleshooting tool](/reference/troubleshoot/troubleshooting-tool/) to capture the exact registry keys at fault
 - [Install as an IT Admin](/get-started/install-admin/) to redeploy a clean per-machine installation across users

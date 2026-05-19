@@ -72,4 +72,4 @@ To lock a relative date (make it absolute), right-click the time element in the 
 
 ## Next steps
 
-→ [Filter Your Data](/build-reports/filter-data/) to limit report data by level, version, or custom dimension
+→ [Filter Your Data](/get-started/build-reports/filter-data/) to limit report data by level, version, or custom dimension

@@ -9,7 +9,7 @@ tags: ["sharing", "troubleshoot", "fpna", "how-to"]
 
 A linked PowerPoint deck breaks the first time someone moves the source Excel workbook, renames a named range, or saves a copy under a new filename without updating the deck. This article documents how to recognize a broken link and the cheapest fix.
 
-If you're new to linked decks, start with [OfficeConnect for PowerPoint](/word-powerpoint/powerpoint/officeconnect-for-powerpoint/).
+If you're new to linked decks, start with [OfficeConnect for PowerPoint](/get-started/word-powerpoint/powerpoint/officeconnect-for-powerpoint/).
 
 ## How a broken link looks
 
@@ -121,6 +121,6 @@ You can recover from any link breakage in a few minutes instead of rebuilding th
 
 ## Next steps
 
-- [Refreshing All Slides Safely](/word-powerpoint/powerpoint/refresh-all-slides/) — the discipline that keeps refresh from breaking.
-- [Designing a Board Pack Template](/word-powerpoint/powerpoint/board-pack-template/) — naming conventions that minimize breakage risk.
-- [OfficeConnect for PowerPoint](/word-powerpoint/powerpoint/officeconnect-for-powerpoint/) — the underlying linking workflow.
+- [Refreshing All Slides Safely](/get-started/word-powerpoint/powerpoint/refresh-all-slides/) — the discipline that keeps refresh from breaking.
+- [Designing a Board Pack Template](/get-started/word-powerpoint/powerpoint/board-pack-template/) — naming conventions that minimize breakage risk.
+- [OfficeConnect for PowerPoint](/get-started/word-powerpoint/powerpoint/officeconnect-for-powerpoint/) — the underlying linking workflow.

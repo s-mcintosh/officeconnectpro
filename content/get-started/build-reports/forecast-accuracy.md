@@ -12,10 +12,10 @@ Every FP&A team is asked the same question eventually: how accurate is the forec
 **What you'll build:** A table with Forecast, Actual, Absolute Error, and Error % columns by account and month, plus a MAPE summary row.
 
 **What you'll need:**
-- OfficeConnect installed and signed in ([Build Your First Report](/build-reports/build-first-report/))
+- OfficeConnect installed and signed in ([Build Your First Report](/get-started/build-reports/build-first-report/))
 - At least one snapshot forecast version (for example, `Forecast Q1` or `Forecast 3-Month-Ago`) preserved in Adaptive Planning
 - Actuals loaded for the same period the forecast covered
-- Familiarity with version selection ([Compare Planning Versions](/build-reports/compare-planning-versions/))
+- Familiarity with version selection ([Compare Planning Versions](/get-started/build-reports/compare-planning-versions/))
 
 ---
 
@@ -101,6 +101,6 @@ You now have an objective forecast accuracy scorecard. Each month or quarter, re
 
 ## Next steps
 
-- Compare multiple forecast vintages side by side — see [Compare Planning Versions](/build-reports/compare-planning-versions/)
-- Pair accuracy data with budget variance — see [Budget vs. Actuals Variance](/build-reports/budget-vs-actuals-variance/)
-- Run accuracy across multiple scenarios — see [Scenario Comparison](/build-reports/scenario-comparison/)
+- Compare multiple forecast vintages side by side — see [Compare Planning Versions](/get-started/build-reports/compare-planning-versions/)
+- Pair accuracy data with budget variance — see [Budget vs. Actuals Variance](/get-started/build-reports/budget-vs-actuals-variance/)
+- Run accuracy across multiple scenarios — see [Scenario Comparison](/get-started/build-reports/scenario-comparison/)

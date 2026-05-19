@@ -14,7 +14,7 @@ Month-end close in Workday Financial Management involves verifying journal compl
 **What you'll need:**
 - OfficeConnect connected to the **Financials** data source
 - Workday Financial Management with the current period in a close-in-progress state
-- Familiarity with trial balance reports — see [Build a Trial Balance Report](/build-reports/financials/trial-balance-report/)
+- Familiarity with trial balance reports — see [Build a Trial Balance Report](/get-started/build-reports/financials/trial-balance-report/)
 
 ---
 
@@ -97,6 +97,6 @@ Go to Workday → **Financial Accounting** → **Close Accounting Period** (or t
 
 ## Next steps
 
-- Build a full balance sheet for the close package — see [Build a Balance Sheet](/build-reports/financials/balance-sheet-report/)
-- Drill into specific journal lines to investigate variances — see [Drill Through to Workday Journal Lines](/build-reports/financials/drill-through-journal-lines/)
-- Reconcile final figures to Workday Report Writer — see [Reconcile OfficeConnect Values to Workday Reports](/build-reports/financials/reconcile-to-workday/)
+- Build a full balance sheet for the close package — see [Build a Balance Sheet](/get-started/build-reports/financials/balance-sheet-report/)
+- Drill into specific journal lines to investigate variances — see [Drill Through to Workday Journal Lines](/get-started/build-reports/financials/drill-through-journal-lines/)
+- Reconcile final figures to Workday Report Writer — see [Reconcile OfficeConnect Values to Workday Reports](/get-started/build-reports/financials/reconcile-to-workday/)

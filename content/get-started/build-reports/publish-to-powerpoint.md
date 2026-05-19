@@ -10,7 +10,7 @@ tags: ["adaptive-planning", "sharing", "fpna", "tutorial"]
 This tutorial covers linking an OfficeConnect Excel report into a PowerPoint presentation. Once linked, refreshing OfficeConnect in Excel automatically updates the numbers in your slides — no copy-pasting needed.
 
 **What you'll need:**
-- A finished OfficeConnect Excel report with data populated ([Build Your First Report](/build-reports/build-first-report/))
+- A finished OfficeConnect Excel report with data populated ([Build Your First Report](/get-started/build-reports/build-first-report/))
 - PowerPoint (Microsoft 365 or Office 2019+)
 - OfficeConnect installed on the same machine
 
@@ -97,5 +97,5 @@ Switch to PowerPoint and click **Refresh** again. The slides update to reflect t
 
 ## Next steps
 
-- Link data into Word for board reports and narratives — [OfficeConnect for Word](/word-powerpoint/word/officeconnect-for-word/)
-- Share your Excel source report so colleagues can refresh it themselves — [Share via Teams & SharePoint](/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)
+- Link data into Word for board reports and narratives — [OfficeConnect for Word](/get-started/word-powerpoint/word/officeconnect-for-word/)
+- Share your Excel source report so colleagues can refresh it themselves — [Share via Teams & SharePoint](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)

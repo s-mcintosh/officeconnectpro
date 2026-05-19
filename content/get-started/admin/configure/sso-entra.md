@@ -15,7 +15,7 @@ Workday OfficeConnect doesn't authenticate to Microsoft Entra ID directly. Offic
 
 This guide assumes Entra ID-to-Workday SSO is already working for the Workday web app. If not, do that integration first (Entra's enterprise app gallery has a "Workday" SAML template).
 
-For generic SSO concepts, see [Set Up Workday SSO](/admin/configure/workday-sso/).
+For generic SSO concepts, see [Set Up Workday SSO](/get-started/admin/configure/workday-sso/).
 
 ## Step 1 — Verify OfficeConnect is enabled and the API client exists
 
@@ -24,7 +24,7 @@ Run **Enable Features After User Sync** in Workday and confirm OfficeConnect is 
 {{< /step >}}
 
 {{< step n="2" title="Confirm the OfficeConnect API client is in place" >}}
-The API client provides Client ID + two endpoint URLs. See [Set Up Workday SSO](/admin/configure/workday-sso/) Step 2 if not yet created.
+The API client provides Client ID + two endpoint URLs. See [Set Up Workday SSO](/get-started/admin/configure/workday-sso/) Step 2 if not yet created.
 {{< /step >}}
 
 ## Step 2 — Configure (or verify) Workday in the Entra ID enterprise app gallery
@@ -83,7 +83,7 @@ Most organizations apply Entra Conditional Access policies that require MFA or c
 {{< /step >}}
 
 {{< step n="13" title="Be deliberate about device compliance" >}}
-If a Conditional Access policy requires a compliant or Entra-joined device, Mac users running OfficeConnect from Excel for Mac may be blocked. Consider either: an exception for the OfficeConnect path, a VDI-only access pattern (see [Mac VDI Workflow](/troubleshoot/mac-vdi-workflow/)), or a compliance baseline that includes Macs.
+If a Conditional Access policy requires a compliant or Entra-joined device, Mac users running OfficeConnect from Excel for Mac may be blocked. Consider either: an exception for the OfficeConnect path, a VDI-only access pattern (see [Mac VDI Workflow](/reference/troubleshoot/mac-vdi-workflow/)), or a compliance baseline that includes Macs.
 {{< /step >}}
 
 ## Step 6 — Test from Excel
@@ -113,6 +113,6 @@ Workday OfficeConnect users sign in with their Entra credentials, MFA and Condit
 
 ## Next steps
 
-- [Set Up Workday SSO](/admin/configure/workday-sso/) — generic SSO concepts.
-- [SSO with Okta](/admin/configure/sso-okta/) — the Okta equivalent.
-- [Authentication Token Errors](/troubleshoot/authentication-token-errors/) — when sign-in succeeds but tokens later fail.
+- [Set Up Workday SSO](/get-started/admin/configure/workday-sso/) — generic SSO concepts.
+- [SSO with Okta](/get-started/admin/configure/sso-okta/) — the Okta equivalent.
+- [Authentication Token Errors](/reference/troubleshoot/authentication-token-errors/) — when sign-in succeeds but tokens later fail.

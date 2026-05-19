@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /migration-comparison/
 title: Migration & Comparison
 linkTitle: Migration
 weight: 65
@@ -21,5 +23,5 @@ Whether you're picking OfficeConnect over the Workday Adaptive Planning web repo
 
 ## Articles in this section
 
-- [Financials vs Adaptive Planning](/migration-comparison/financials-vs-adaptive-planning/) — Key differences in Workday OfficeConnect behavior depending on whether you're using the Adaptive Planning or Financials data source
-- [OC vs Web Reports](/migration-comparison/oc-vs-web-reports/) — When to use Workday OfficeConnect vs Workday Adaptive Planning's built-in web reports — a scoring framework with concrete recommendations
+- [Financials vs Adaptive Planning](/get-started/migration-comparison/financials-vs-adaptive-planning/) — Key differences in Workday OfficeConnect behavior depending on whether you're using the Adaptive Planning or Financials data source
+- [OC vs Web Reports](/get-started/migration-comparison/oc-vs-web-reports/) — When to use Workday OfficeConnect vs Workday Adaptive Planning's built-in web reports — a scoring framework with concrete recommendations

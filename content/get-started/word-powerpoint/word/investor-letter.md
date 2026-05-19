@@ -9,7 +9,7 @@ tags: ["sharing", "reporting", "fpna", "tutorial"]
 
 The CEO's quarterly investor letter is part narrative, part numbers. The narrative changes; the numbers are the same fields every quarter — revenue, growth, margin, cash, headcount, segment results. Templating it once means subsequent quarters take an hour instead of a day, and the numbers can't go out wrong.
 
-This guide walks through building a reusable investor-letter Word template with Workday OfficeConnect-linked cells. It builds on the same pattern as [MD&A Automated Draft](/word-powerpoint/word/mda-automated-draft/); the difference is voice and structure.
+This guide walks through building a reusable investor-letter Word template with Workday OfficeConnect-linked cells. It builds on the same pattern as [MD&A Automated Draft](/get-started/word-powerpoint/word/mda-automated-draft/); the difference is voice and structure.
 
 **What you'll build:** A reusable Word investor-letter template with 15-20 linked phrases covering opening, segment results, balance-sheet snapshot, and forward guidance — refreshes from Excel each quarter.
 
@@ -86,7 +86,7 @@ The "driven by" tail is hand-written (qualitative); the numbers come from cells.
 - `IL_Guidance_FY_Revenue` — full-year revenue guidance
 - `IL_Guidance_Phrase` — *"For the next quarter, we expect revenue of [IL_Guidance_NextQ_Low] to [IL_Guidance_NextQ_High]."*
 
-Guidance comes from your latest forecast version in Adaptive Planning. See [Compare Planning Versions](/build-reports/compare-planning-versions/) if you maintain multiple forecast versions.
+Guidance comes from your latest forecast version in Adaptive Planning. See [Compare Planning Versions](/get-started/build-reports/compare-planning-versions/) if you maintain multiple forecast versions.
 {{< /step >}}
 
 ## Step 3 — Build the Word template
@@ -96,7 +96,7 @@ Start a new Word document with the section headings. Leave the narrative paragra
 {{< /step >}}
 
 {{< step n="7" title="Link the cells into the template" >}}
-For each section, use the OfficeConnect Word links pane to insert the named cells in place. See [OfficeConnect for Word](/word-powerpoint/word/officeconnect-for-word/) for the linking mechanics.
+For each section, use the OfficeConnect Word links pane to insert the named cells in place. See [OfficeConnect for Word](/get-started/word-powerpoint/word/officeconnect-for-word/) for the linking mechanics.
 
 Example linked sentence in the opening paragraph:
 
@@ -126,7 +126,7 @@ The CEO writes the qualitative narrative around the now-current numbers: what dr
 {{< /step >}}
 
 {{< step n="12" title="Final review and disconnection" >}}
-Once the CEO has finalized the narrative, you can optionally break the links to lock the file as a static historical record. See [Recovering Broken Links](/word-powerpoint/powerpoint/recovering-broken-links/) (the PowerPoint guide; the Word break-link procedure is similar via **Manage Links → Break Link**).
+Once the CEO has finalized the narrative, you can optionally break the links to lock the file as a static historical record. See [Recovering Broken Links](/get-started/word-powerpoint/powerpoint/recovering-broken-links/) (the PowerPoint guide; the Word break-link procedure is similar via **Manage Links → Break Link**).
 {{< /step >}}
 
 {{< warning >}}
@@ -145,6 +145,6 @@ Each quarter the investor letter takes an hour of CEO time plus 30 minutes of re
 
 ## Next steps
 
-- [MD&A Automated Draft](/word-powerpoint/word/mda-automated-draft/) — the related management-discussion document.
-- [OfficeConnect for Word](/word-powerpoint/word/officeconnect-for-word/) — the underlying linking mechanics.
-- [Charts That Update with the Period](/word-powerpoint/powerpoint/period-aware-charts/) — period-aware chart patterns for the accompanying deck.
+- [MD&A Automated Draft](/get-started/word-powerpoint/word/mda-automated-draft/) — the related management-discussion document.
+- [OfficeConnect for Word](/get-started/word-powerpoint/word/officeconnect-for-word/) — the underlying linking mechanics.
+- [Charts That Update with the Period](/get-started/word-powerpoint/powerpoint/period-aware-charts/) — period-aware chart patterns for the accompanying deck.

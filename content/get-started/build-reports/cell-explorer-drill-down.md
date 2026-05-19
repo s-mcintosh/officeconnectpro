@@ -7,7 +7,7 @@ description: >
 tags: ["reporting", "adaptive-planning", "fpna", "how-to"]
 ---
 
-When a number in your Workday OfficeConnect report looks unexpected, **Explore Cell** lets you drill into the contributing details to find the source. It pairs naturally with [Review & Verify Applied Elements](/build-reports/review-applied-elements/) — Review shows which elements drive a cell, while Explore Cell shows the underlying data behind the result.
+When a number in your Workday OfficeConnect report looks unexpected, **Explore Cell** lets you drill into the contributing details to find the source. It pairs naturally with [Review & Verify Applied Elements](/get-started/build-reports/review-applied-elements/) — Review shows which elements drive a cell, while Explore Cell shows the underlying data behind the result.
 
 ## What Explore Cell shows
 
@@ -58,6 +58,6 @@ For Financials data source users, **Show Details** is the equivalent feature:
 
 ## Next steps
 
-- [Drill Through to Workday Journal Lines](/build-reports/financials/drill-through-journal-lines/) for the Financials-data-source equivalent
-- [Review & Verify Applied Elements](/build-reports/review-applied-elements/) to confirm the elements driving a cell
-- [Fix Data Discrepancies Between OfficeConnect and Workday](/troubleshoot/data-discrepancies/) when the drill-down reveals an unexpected variance
+- [Drill Through to Workday Journal Lines](/get-started/build-reports/financials/drill-through-journal-lines/) for the Financials-data-source equivalent
+- [Review & Verify Applied Elements](/get-started/build-reports/review-applied-elements/) to confirm the elements driving a cell
+- [Fix Data Discrepancies Between OfficeConnect and Workday](/reference/troubleshoot/data-discrepancies/) when the drill-down reveals an unexpected variance

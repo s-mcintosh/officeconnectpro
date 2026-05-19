@@ -13,7 +13,7 @@ This is an IT admin / power-user task. Requires Microsoft Intune admin access an
 
 Microsoft Intune deploys Workday OfficeConnect cleanly through its Win32 app model — silent install, mandatory assignment, automatic upgrade on new releases. This guide walks through packaging, uploading, and assigning the app.
 
-For the SCCM/MECM equivalent, see [Silent Install with SCCM/MECM](/admin/deploy/sccm-mecm/). For tenant configuration after install, see [Deploy Tenants via Registry](/admin/deploy/deploy-tenants-registry/).
+For the SCCM/MECM equivalent, see [Silent Install with SCCM/MECM](/get-started/admin/deploy/sccm-mecm/). For tenant configuration after install, see [Deploy Tenants via Registry](/get-started/admin/deploy/deploy-tenants-registry/).
 
 ## What you'll need
 
@@ -115,7 +115,7 @@ Excel should show the OfficeConnect ribbon tab. If your registry tenant deploy i
 - **App version mismatch:** Intune uses the version field to detect upgrades. Increment it each new OfficeConnect release so Intune knows to redeploy.
 - **Detection rule fails after upgrade:** If the install path or DLL name changes between releases, your detection rule will think the upgrade failed. Test detection after each version bump.
 - **Per-user installs in a per-machine deployment:** Some OfficeConnect installer variants default to per-user. Confirm `/AllUsers` or equivalent switch if you need per-machine — see Per-User vs Per-Machine Install (coming soon).
-- **Slow first refresh after install:** If users see slow first refresh after the deploy, the **Adaptive Insights** registry path may need pre-population. Pair this deploy with [Deploy Tenants via Registry](/admin/deploy/deploy-tenants-registry/).
+- **Slow first refresh after install:** If users see slow first refresh after the deploy, the **Adaptive Insights** registry path may need pre-population. Pair this deploy with [Deploy Tenants via Registry](/get-started/admin/deploy/deploy-tenants-registry/).
 
 ## Result
 
@@ -123,6 +123,6 @@ Workday OfficeConnect installs silently across your organization on the Intune a
 
 ## Next steps
 
-- [Deploy Tenants via Registry](/admin/deploy/deploy-tenants-registry/) — push tenant configuration alongside the install.
-- [Silent Install with SCCM/MECM](/admin/deploy/sccm-mecm/) — the SCCM equivalent for non-Intune shops.
-- [Set Up Workday SSO](/admin/configure/workday-sso/) — wire up identity so users don't enter credentials manually.
+- [Deploy Tenants via Registry](/get-started/admin/deploy/deploy-tenants-registry/) — push tenant configuration alongside the install.
+- [Silent Install with SCCM/MECM](/get-started/admin/deploy/sccm-mecm/) — the SCCM equivalent for non-Intune shops.
+- [Set Up Workday SSO](/get-started/admin/configure/workday-sso/) — wire up identity so users don't enter credentials manually.

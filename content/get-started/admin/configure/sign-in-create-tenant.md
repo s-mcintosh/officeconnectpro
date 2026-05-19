@@ -22,7 +22,7 @@ Before you start, gather these details from your Workday administrator:
 | **API Endpoint URL** | Workday OfficeConnect API client |
 | **Authorization Endpoint URL** | Workday OfficeConnect API client |
 
-If your admin hasn't yet generated these, see [Set Up Workday SSO](/admin/configure/workday-sso/).
+If your admin hasn't yet generated these, see [Set Up Workday SSO](/get-started/admin/configure/workday-sso/).
 
 ## Steps
 
@@ -72,6 +72,6 @@ From the Log In drop-down, select **Manage Tenants** to add, edit, or remove ten
 
 ## Next steps
 
-- [Work with Multiple Instances](/admin/configure/multiple-instances/) if your organization has sandbox or multi-instance setups.
-- [Build Your First Report](/build-reports/build-first-report/) now that you're signed in.
-- Push tenant config to many machines via [Deploy Tenants via Registry](/admin/deploy/deploy-tenants-registry/).
+- [Work with Multiple Instances](/get-started/admin/configure/multiple-instances/) if your organization has sandbox or multi-instance setups.
+- [Build Your First Report](/get-started/build-reports/build-first-report/) now that you're signed in.
+- Push tenant config to many machines via [Deploy Tenants via Registry](/get-started/admin/deploy/deploy-tenants-registry/).

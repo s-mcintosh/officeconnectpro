@@ -31,7 +31,7 @@ Write-back errors in Workday OfficeConnect look intimidating but almost always t
 
 **Fix.** Ask your Adaptive admin to re-open the version for input if appropriate. If intentionally closed, the planner needs to write to a different version — usually a new Draft.
 
-**Prevention.** Add a visible label to the workbook showing the target version and its state. See [Write-Back Permissions](/data-entry-writeback/writeback-permissions/) for the broader version-state pattern.
+**Prevention.** Add a visible label to the workbook showing the target version and its state. See [Write-Back Permissions](/get-started/data-entry-writeback/writeback-permissions/) for the broader version-state pattern.
 
 ## Error 3 — "Insufficient permission"
 
@@ -101,6 +101,6 @@ You can triage any write-back error in under a minute: match the symptom to one 
 
 ## Next steps
 
-- [Designing Write-Back Permissions](/data-entry-writeback/writeback-permissions/) — most "Insufficient permission" and "Version is locked" errors are permission-design issues.
-- [Auditing Write-Back Submissions](/data-entry-writeback/writeback-audit-trail/) — confirm what actually landed after a partial-failure scenario.
-- [Write-Back Complete Guide](/data-entry-writeback/writeback-complete-guide/) — the canonical reference for how write-back works end to end.
+- [Designing Write-Back Permissions](/get-started/data-entry-writeback/writeback-permissions/) — most "Insufficient permission" and "Version is locked" errors are permission-design issues.
+- [Auditing Write-Back Submissions](/get-started/data-entry-writeback/writeback-audit-trail/) — confirm what actually landed after a partial-failure scenario.
+- [Write-Back Complete Guide](/get-started/data-entry-writeback/writeback-complete-guide/) — the canonical reference for how write-back works end to end.

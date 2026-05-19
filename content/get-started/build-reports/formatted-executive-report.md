@@ -14,7 +14,7 @@ A raw OfficeConnect report shows the right numbers, but an executive report need
 **What you'll need:**
 - OfficeConnect installed and connected to an Adaptive Planning tenant ([Get Started](/get-started/))
 - An Adaptive Planning model with P&L accounts, actuals, and budget loaded
-- Basic familiarity with building variance reports — see [Budget vs. Actuals Variance](/build-reports/budget-vs-actuals-variance/)
+- Basic familiarity with building variance reports — see [Budget vs. Actuals Variance](/get-started/build-reports/budget-vs-actuals-variance/)
 
 ---
 
@@ -96,6 +96,6 @@ Click **Refresh** in the OfficeConnect ribbon to populate the latest figures. Th
 
 ## Next steps
 
-- Share the PDF automatically — see [Share via Teams & SharePoint](/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)
-- Schedule the refresh automatically — see [Refresh Reports Automatically with Power Automate](/admin/configure/refresh-with-power-automate/)
-- Add it to a PowerPoint deck — see [OfficeConnect for PowerPoint](/word-powerpoint/powerpoint/officeconnect-for-powerpoint/)
+- Share the PDF automatically — see [Share via Teams & SharePoint](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)
+- Schedule the refresh automatically — see [Refresh Reports Automatically with Power Automate](/get-started/admin/configure/refresh-with-power-automate/)
+- Add it to a PowerPoint deck — see [OfficeConnect for PowerPoint](/get-started/word-powerpoint/powerpoint/officeconnect-for-powerpoint/)

@@ -13,7 +13,7 @@ A year-over-year trend report shows how each month compares to the same month la
 
 **What you'll need:**
 - OfficeConnect connected to an Adaptive Planning tenant with at least two full years of actuals
-- Familiarity with adding elements ([Add Elements](/build-reports/add-elements/)) and time contexts ([Time and Contexts](/build-reports/time-and-contexts/))
+- Familiarity with adding elements ([Add Elements](/get-started/build-reports/add-elements/)) and time contexts ([Time and Contexts](/get-started/build-reports/time-and-contexts/))
 
 ---
 
@@ -95,6 +95,6 @@ Click **Refresh** in the OfficeConnect ribbon. Both years of data populate. Chec
 
 ## Next steps
 
-- Add a rolling 12-month view alongside fixed years — see [Create a Rolling 12-Month Report](/build-reports/rolling-12-month-report/)
-- Compare budget and actuals for the same period — see [Budget vs. Actuals Variance](/build-reports/budget-vs-actuals-variance/)
-- Share the finished report — see [Share via Teams & SharePoint](/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)
+- Add a rolling 12-month view alongside fixed years — see [Create a Rolling 12-Month Report](/get-started/build-reports/rolling-12-month-report/)
+- Compare budget and actuals for the same period — see [Budget vs. Actuals Variance](/get-started/build-reports/budget-vs-actuals-variance/)
+- Share the finished report — see [Share via Teams & SharePoint](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)

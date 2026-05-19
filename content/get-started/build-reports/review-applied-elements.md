@@ -7,7 +7,7 @@ description: >
 tags: ["reporting", "adaptive-planning", "fpna", "how-to"]
 ---
 
-The **Review tab** in the Workday OfficeConnect Reporting pane shows you a complete picture of what's driving data in your report. Use it to verify elements are applied correctly before sharing or distributing a report — especially after you've used [Add Elements](/build-reports/add-elements/) to assemble rows and columns.
+The **Review tab** in the Workday OfficeConnect Reporting pane shows you a complete picture of what's driving data in your report. Use it to verify elements are applied correctly before sharing or distributing a report — especially after you've used [Add Elements](/get-started/build-reports/add-elements/) to assemble rows and columns.
 
 ## What the Review tab shows
 
@@ -59,6 +59,6 @@ If a row or column is part of an expansion (element group), the Review tab shows
 
 ## Next steps
 
-- [Cell Explorer & Drill-Down](/build-reports/cell-explorer-drill-down/) to inspect the data behind a specific cell
-- [Filter Your Data](/build-reports/filter-data/) when Review shows an unexpected workbook or worksheet filter
-- [Fix Data Discrepancies Between OfficeConnect and Workday](/troubleshoot/data-discrepancies/) if Review confirms the right elements but figures still look wrong
+- [Cell Explorer & Drill-Down](/get-started/build-reports/cell-explorer-drill-down/) to inspect the data behind a specific cell
+- [Filter Your Data](/get-started/build-reports/filter-data/) when Review shows an unexpected workbook or worksheet filter
+- [Fix Data Discrepancies Between OfficeConnect and Workday](/reference/troubleshoot/data-discrepancies/) if Review confirms the right elements but figures still look wrong

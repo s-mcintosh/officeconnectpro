@@ -30,19 +30,19 @@ Score your report on each dimension. More OfficeConnect points → use OfficeCon
 | **Annotation needs** — will someone add commentary alongside the numbers? | Yes (board narrative, MD&A draft, exec memo) | Rarely |
 | **Manipulation needs** — will recipients sort, filter, or model on top of the data? | Yes (analyst working paper, what-if modeling) | No (read and move on) |
 | **Refresh frequency** — how often does it update? | Monthly / quarterly / on-demand | Daily / continuous |
-| **Automation** — does it need to refresh unattended? | Possible but requires a Windows machine running Power Automate Desktop (see [Refresh with Power Automate](/admin/configure/refresh-with-power-automate/)) | Native — refreshes on every load |
+| **Automation** — does it need to refresh unattended? | Possible but requires a Windows machine running Power Automate Desktop (see [Refresh with Power Automate](/get-started/admin/configure/refresh-with-power-automate/)) | Native — refreshes on every load |
 | **Sharing model** — how do people get it? | File attachment, SharePoint/Teams link, OneDrive co-edit | URL link |
 | **Mobile** — do recipients view on phones/tablets? | No (Excel mobile + OfficeConnect not supported) | Yes |
-| **Write-back** — does the user need to enter data? | Yes — [Write-Back Complete Guide](/data-entry-writeback/writeback-complete-guide/) | No (Adaptive web has its own input forms) |
+| **Write-back** — does the user need to enter data? | Yes — [Write-Back Complete Guide](/get-started/data-entry-writeback/writeback-complete-guide/) | No (Adaptive web has its own input forms) |
 
 ## Concrete examples
 
 ### Use OfficeConnect
 
-- **Monthly board pack** — formatted P&L, variance commentary, charts, all in a PowerPoint deck that refreshes from the source workbook. See [Publish to PowerPoint](/build-reports/publish-to-powerpoint/).
+- **Monthly board pack** — formatted P&L, variance commentary, charts, all in a PowerPoint deck that refreshes from the source workbook. See [Publish to PowerPoint](/get-started/build-reports/publish-to-powerpoint/).
 - **FP&A working paper** — analyst pulls actuals + forecast into Excel, models a what-if on top, hands to the CFO.
-- **Budget submission** — planners enter departmental budgets in Excel and submit back to Adaptive. See [Enter Budget Data](/data-entry-writeback/enter-budget-data/).
-- **Investor letter** — qualitative narrative with embedded financial numbers that update when the period changes. See [OfficeConnect for Word](/word-powerpoint/word/officeconnect-for-word/).
+- **Budget submission** — planners enter departmental budgets in Excel and submit back to Adaptive. See [Enter Budget Data](/get-started/data-entry-writeback/enter-budget-data/).
+- **Investor letter** — qualitative narrative with embedded financial numbers that update when the period changes. See [OfficeConnect for Word](/get-started/word-powerpoint/word/officeconnect-for-word/).
 - **Variance bridge with annotation** — formatted bridge chart with analyst commentary in callout boxes.
 
 ### Use Adaptive web reports
@@ -78,6 +78,6 @@ Use the scoring framework on your next report request. Most of the time the answ
 
 ## Next steps
 
-- [Financials vs. Adaptive Planning Data Sources](/migration-comparison/financials-vs-adaptive-planning/) — the other major "which data source?" decision.
-- [Write-Back Complete Guide](/data-entry-writeback/writeback-complete-guide/) — the 2025R1 feature that changed the calculus.
-- [What's New in 2026R1](/whats-new/2026r1/) — the features that further tilt toward OfficeConnect.
+- [Financials vs. Adaptive Planning Data Sources](/get-started/migration-comparison/financials-vs-adaptive-planning/) — the other major "which data source?" decision.
+- [Write-Back Complete Guide](/get-started/data-entry-writeback/writeback-complete-guide/) — the 2025R1 feature that changed the calculus.
+- [What's New in 2026R1](/reference/whats-new/2026r1/) — the features that further tilt toward OfficeConnect.

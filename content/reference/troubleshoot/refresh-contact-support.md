@@ -37,7 +37,7 @@ In the OfficeConnect ribbon, click **Log Out** (or **Sign Out**). Then click **L
 If a stale session was the cause, refresh now succeeds.
 {{< /step >}}
 
-If sign-in itself fails, see [Authentication Token Errors](/troubleshoot/authentication-token-errors/).
+If sign-in itself fails, see [Authentication Token Errors](/reference/troubleshoot/authentication-token-errors/).
 
 ### 2. The Adaptive Planning server is locked or under load
 
@@ -60,7 +60,7 @@ In the Reporting pane, click the **Review** tab. It shows every element used in 
 {{< /step >}}
 
 {{< step n="4" title="Replace or remove broken elements" >}}
-For each missing element, either remove it from the workbook or replace it with the renamed equivalent. See [Review Applied Elements](/build-reports/review-applied-elements/).
+For each missing element, either remove it from the workbook or replace it with the renamed equivalent. See [Review Applied Elements](/get-started/build-reports/review-applied-elements/).
 {{< /step >}}
 
 ### 4. Workbook is too large; the refresh times out
@@ -70,8 +70,8 @@ Some refreshes fail because the underlying query exceeds OfficeConnect's timeout
 **Fix:**
 
 1. **Split the refresh.** Refresh one sheet at a time via Sheet Properties → **Refresh this sheet only**, instead of the workbook-wide Refresh.
-2. **Reduce formula count.** Use rollup accounts, consolidate time elements, scope by Level. See [Optimize Performance](/performance/optimize-performance/).
-3. **Check for repeating rows that exploded.** A misconfigured repeating range can generate thousands of unintended formulas. See [Repeating Reports](/build-reports/repeating-reports/).
+2. **Reduce formula count.** Use rollup accounts, consolidate time elements, scope by Level. See [Optimize Performance](/get-started/performance/optimize-performance/).
+3. **Check for repeating rows that exploded.** A misconfigured repeating range can generate thousands of unintended formulas. See [Repeating Reports](/get-started/build-reports/repeating-reports/).
 
 ### 5. Add-in conflict (think-cell, Bloomberg, Power Pivot, Macabacus)
 
@@ -105,6 +105,6 @@ You'll resolve "Contact technical support" in seconds instead of opening a Workd
 
 ## Next steps
 
-- [Authentication Token Errors](/troubleshoot/authentication-token-errors/) — the related token-side issues.
-- [Not Refreshing](/troubleshoot/not-refreshing/) — when Refresh doesn't fail but produces no update.
-- [Optimize Performance](/performance/optimize-performance/) — fix the workbook-size variant.
+- [Authentication Token Errors](/reference/troubleshoot/authentication-token-errors/) — the related token-side issues.
+- [Not Refreshing](/reference/troubleshoot/not-refreshing/) — when Refresh doesn't fail but produces no update.
+- [Optimize Performance](/get-started/performance/optimize-performance/) — fix the workbook-size variant.

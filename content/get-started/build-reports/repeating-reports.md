@@ -7,7 +7,7 @@ description: >
 tags: ["reporting", "adaptive-planning", "fpna", "recipe"]
 ---
 
-The **Repeating Reports** feature in Workday OfficeConnect copies a finished report worksheet once for each element you choose — for example, one sheet per cost center or one sheet per region. Each copy is automatically filtered to show data for its element. Start from a polished single-sheet template, such as the one built in [Build a Department P&L Report](/build-reports/department-pl-report/).
+The **Repeating Reports** feature in Workday OfficeConnect copies a finished report worksheet once for each element you choose — for example, one sheet per cost center or one sheet per region. Each copy is automatically filtered to show data for its element. Start from a polished single-sheet template, such as the one built in [Build a Department P&L Report](/get-started/build-reports/department-pl-report/).
 
 ## What it does
 
@@ -68,6 +68,6 @@ Repeating reports don't stay linked to the original. To incorporate structural c
 
 ## Next steps
 
-- [Build a Department P&L Report](/build-reports/department-pl-report/) for a strong single-sheet template to repeat
-- [Lock and Protect Reports for Distribution](/build-reports/lock-protect-reports/) before sharing the multi-sheet pack with stakeholders
-- [Optimize OfficeConnect Performance](/performance/optimize-performance/) if generating dozens of sheets makes refresh slow
+- [Build a Department P&L Report](/get-started/build-reports/department-pl-report/) for a strong single-sheet template to repeat
+- [Lock and Protect Reports for Distribution](/get-started/build-reports/lock-protect-reports/) before sharing the multi-sheet pack with stakeholders
+- [Optimize OfficeConnect Performance](/get-started/performance/optimize-performance/) if generating dozens of sheets makes refresh slow

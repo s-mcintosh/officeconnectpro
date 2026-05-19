@@ -7,7 +7,7 @@ description: >
 tags: ["reporting", "fpna", "system-admin", "troubleshoot"]
 ---
 
-Percentages are a classic gotcha when Workday OfficeConnect's default Thousands rounding interacts with Adaptive Planning values stored as decimals. Before changing settings, review where rounding is configured in [Change Rounding Settings](/troubleshoot/change-rounding-settings/) so you fix the right level.
+Percentages are a classic gotcha when Workday OfficeConnect's default Thousands rounding interacts with Adaptive Planning values stored as decimals. Before changing settings, review where rounding is configured in [Change Rounding Settings](/reference/troubleshoot/change-rounding-settings/) so you fix the right level.
 
 **Problem:** Percentage values from Adaptive Planning appear as tiny decimals in OfficeConnect. For example, `25.25%` shows as `0.0002525` when workbook rounding is set to Thousands.
 
@@ -54,6 +54,6 @@ Select the cells → **Home tab → Number format → Percentage** (or use the `
 
 ## Next steps
 
-- [Change Rounding Settings](/troubleshoot/change-rounding-settings/) to adjust workbook- or user-level rounding defaults
-- [Workbook & Worksheet Properties](/build-reports/workbook-worksheet-properties/) for the rest of the format controls
-- [Build a Budget vs. Actuals Variance Report](/build-reports/budget-vs-actuals-variance/) for a worked example mixing percentages and currency amounts
+- [Change Rounding Settings](/reference/troubleshoot/change-rounding-settings/) to adjust workbook- or user-level rounding defaults
+- [Workbook & Worksheet Properties](/get-started/build-reports/workbook-worksheet-properties/) for the rest of the format controls
+- [Build a Budget vs. Actuals Variance Report](/get-started/build-reports/budget-vs-actuals-variance/) for a worked example mixing percentages and currency amounts

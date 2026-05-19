@@ -36,4 +36,4 @@ Any OfficeConnect report can show multiple versions at once. Here's how to add a
 | Board case vs. management case | Board Plan | Mgmt Plan |
 | Actuals vs. prior year actuals | Actuals (current year) | Actuals (prior year) |
 
-For a full budget vs. actuals report with a variance column, see [Budget vs. Actuals Variance](/build-reports/budget-vs-actuals-variance/).
+For a full budget vs. actuals report with a variance column, see [Budget vs. Actuals Variance](/get-started/build-reports/budget-vs-actuals-variance/).

@@ -6,7 +6,7 @@ description: >
   Speed up Workday OfficeConnect reports that are slow to refresh — reduce formula count, use efficient time contexts, and configure workbook settings for large Adaptive Planning models.
 tags: ["adaptive-planning", "performance", "fpna", "system-admin", "how-to"]
 aliases:
-  - /build-reports/optimize-performance/
+  - /get-started/build-reports/optimize-performance/
 ---
 
 Workday OfficeConnect reports can slow down significantly when workbooks contain hundreds of formulas pulling from large Adaptive Planning models. Refresh times of 30–60 seconds are common in unoptimized workbooks; the techniques below typically cut that to under 10 seconds for the same data.
@@ -57,6 +57,6 @@ A workbook that previously took 30-60 seconds to refresh should now complete in 
 
 ## Next steps
 
-- [Fix Slow Performance in Large Reports](/troubleshoot/slow-performance/) — if you're still seeing slowness after these changes.
-- [Cell Explorer / Drill Down](/build-reports/cell-explorer-drill-down/) — find the cells driving slow refresh.
-- [Filter Data](/build-reports/filter-data/) — scope reports for faster queries.
+- [Fix Slow Performance in Large Reports](/reference/troubleshoot/slow-performance/) — if you're still seeing slowness after these changes.
+- [Cell Explorer / Drill Down](/get-started/build-reports/cell-explorer-drill-down/) — find the cells driving slow refresh.
+- [Filter Data](/get-started/build-reports/filter-data/) — scope reports for faster queries.

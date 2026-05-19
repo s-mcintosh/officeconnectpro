@@ -102,6 +102,6 @@ Pick one account and one month. Compare the value in your report against the sam
 
 ## Next steps
 
-- Drill into any cell to see contributing journal lines — see [Drill Through to Workday Journal Lines](/build-reports/financials/drill-through-journal-lines/)
-- Add a prior-year comparison column — see [Compare Two Planning Versions Side by Side](/build-reports/compare-planning-versions/)
-- Filter by cost center — see [Report on Actuals by Cost Center](/build-reports/financials/actuals-by-cost-center/)
+- Drill into any cell to see contributing journal lines — see [Drill Through to Workday Journal Lines](/get-started/build-reports/financials/drill-through-journal-lines/)
+- Add a prior-year comparison column — see [Compare Two Planning Versions Side by Side](/get-started/build-reports/compare-planning-versions/)
+- Filter by cost center — see [Report on Actuals by Cost Center](/get-started/build-reports/financials/actuals-by-cost-center/)

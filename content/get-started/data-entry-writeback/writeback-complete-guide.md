@@ -17,7 +17,7 @@ This guide is the canonical reference for write-back: the concept, what it can a
 - Workday OfficeConnect 2025R1 or later
 - An Adaptive Planning tenant with at least one version that's open for input
 - A user account with **Input** permission on that version
-- This article assumes you've already built basic OfficeConnect reports — start with [Build Your First Report](/build-reports/build-first-report/) if not.
+- This article assumes you've already built basic OfficeConnect reports — start with [Build Your First Report](/get-started/build-reports/build-first-report/) if not.
 
 ## How write-back works
 
@@ -61,7 +61,7 @@ The **Submit** button in the ribbon is now active. OfficeConnect formulas in thi
 
 ## Step 3 — Build the input region
 
-The full step-by-step is in [Enter Budget Data](/data-entry-writeback/enter-budget-data/), but the short version:
+The full step-by-step is in [Enter Budget Data](/get-started/data-entry-writeback/enter-budget-data/), but the short version:
 
 1. **Rows** = leaf input accounts (one per row)
 2. **Columns** = single time periods (one per column)
@@ -92,7 +92,7 @@ Click **Refresh** after submit. The cells you submitted should show your new val
 A few patterns make write-back workbooks safer to distribute:
 
 - **One version per workbook.** Mixing two input versions in one file is the fastest way to accidentally submit to the wrong one.
-- **Lock non-input cells.** Use Excel's **Protect Sheet** to lock everything except the input region. See [Lock and Protect Reports](/build-reports/lock-protect-reports/).
+- **Lock non-input cells.** Use Excel's **Protect Sheet** to lock everything except the input region. See [Lock and Protect Reports](/get-started/build-reports/lock-protect-reports/).
 - **Show the version name on the sheet.** A visible label like *"Submitting to: Budget 2026 Draft"* prevents misroutes.
 - **Add a Cell Explorer reminder.** Note in the workbook that planners should run Cell Explorer on any cell that doesn't accept their input.
 - **Pre-flight with a small region first.** Submit 1-2 cells before submitting hundreds — confirms the path is open.
@@ -105,7 +105,7 @@ A few patterns make write-back workbooks safer to distribute:
 | *"Version is locked"* | Target version is not in Input state | Ask the Adaptive admin to open the version |
 | *"Insufficient permission"* | User lacks Input on this version or level | Adjust permissions in Adaptive Planning |
 | *"Value overridden after submit"* | An allocation rule or modeled-account formula recalculated the cell | Submit at the source of the calculation, not the result |
-| *"Submit failed: timeout"* | Slow network or very large submit (hundreds+ cells) | Split the submit into batches; see [Optimize Performance](/performance/optimize-performance/) |
+| *"Submit failed: timeout"* | Slow network or very large submit (hundreds+ cells) | Split the submit into batches; see [Optimize Performance](/get-started/performance/optimize-performance/) |
 
 ## Governance: who should have Input permission?
 
@@ -113,7 +113,7 @@ Write-back grants users the ability to change planning data directly from Excel.
 
 - **Production budget/forecast versions:** restricted to designated planners per Level, with review/approval workflow in Adaptive Planning
 - **Working drafts:** broader Input access, snapshot to a locked version when finalized
-- **What-if scenarios:** in 2026R1+, use [Personal what-if scenarios](/whats-new/2026r1-personal-scenarios/) instead of granting Input to a shared version
+- **What-if scenarios:** in 2026R1+, use [Personal what-if scenarios](/reference/whats-new/2026r1-personal-scenarios/) instead of granting Input to a shared version
 - **Audit trail:** every submit is logged in Adaptive Planning with timestamp + user. Review periodically.
 
 ## Result
@@ -122,6 +122,6 @@ Your team can plan and re-plan in Excel without leaving the tool they live in. W
 
 ## Next steps
 
-- [Enter Budget Data](/data-entry-writeback/enter-budget-data/) — full step-by-step tutorial.
-- [Personal what-if scenarios (2026R1)](/whats-new/2026r1-personal-scenarios/) — the safer alternative for one-off branches.
-- [Lock and Protect Reports](/build-reports/lock-protect-reports/) — protect the workbook before distributing.
+- [Enter Budget Data](/get-started/data-entry-writeback/enter-budget-data/) — full step-by-step tutorial.
+- [Personal what-if scenarios (2026R1)](/reference/whats-new/2026r1-personal-scenarios/) — the safer alternative for one-off branches.
+- [Lock and Protect Reports](/get-started/build-reports/lock-protect-reports/) — protect the workbook before distributing.
