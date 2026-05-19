@@ -2,6 +2,7 @@
 title: About OfficeConnectPro
 linkTitle: About
 weight: 90
+type: docs
 description: >
   How OfficeConnectPro started, what we're trying to build, and who's behind it.
 ---
