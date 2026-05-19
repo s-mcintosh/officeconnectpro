@@ -21,7 +21,6 @@ Stable, factual surfaces you'll come back to. Glossary, formula reference, eleme
 ## Quick-reference articles
 
 - [Glossary](/reference/glossary/) — Alphabetical reference for every Workday OfficeConnect term — elements, filters, contexts, write-back, tenants, and more
-- [Formula Reference](/reference/formula-reference/) — What's actually inside a Workday OfficeConnect cell — formula structure, components, and how to read it
 - [Element Types](/reference/element-types/) — Every element type you can drag from the Workday OfficeConnect Reporting pane, what it represents, and where it lives in each data source
 - [Version Compatibility](/reference/version-compatibility/) — Which Workday OfficeConnect client versions work with which Workday Adaptive Planning releases — including the forced-upgrade grace periods
 

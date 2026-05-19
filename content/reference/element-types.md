@@ -92,6 +92,5 @@ You can now pick the right element type for whatever column or row you're buildi
 
 ## Next steps
 
-- [Formula Reference](/reference/formula-reference/) — what these elements look like inside the cell formula.
 - [Add Elements](/get-started/build-reports/add-elements/) — step-by-step on dragging each type into a worksheet.
 - [Filter Data](/get-started/build-reports/filter-data/) — how Attributes and Custom Dimensions work as filters.

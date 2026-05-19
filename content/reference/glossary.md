@@ -123,6 +123,5 @@ The vocabulary for Workday OfficeConnect overlaps with Workday Adaptive Planning
 
 ## Next steps
 
-- [Formula Reference](/reference/formula-reference/) — what's actually inside an OfficeConnect cell.
 - [Element Types Reference](/reference/element-types/) — every element you can drag.
 - [Version Compatibility Matrix](/reference/version-compatibility/) — which features arrived in which release.
