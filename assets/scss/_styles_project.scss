@@ -6,7 +6,6 @@
   font-family: 'Caveat', cursive;
   font-weight: 400;
   font-size: 1.15em;
-  margin-right: 0.2em;
   color: #f59e0b;
   text-align: center;
   vertical-align: bottom; // keep baseline stable while width is locked
@@ -16,6 +15,16 @@
     opacity: 0;
     transform: translateY(-6px);
   }
+}
+
+.oc-asterisk {
+  display: inline-block;
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  font-size: 1.15em;
+  color: #f59e0b;
+  vertical-align: bottom;
+  margin-right: 0.2em;
 }
 
 // =============================================================================
