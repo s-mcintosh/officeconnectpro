@@ -5,7 +5,6 @@ weight: 1
 description: >
   An overview of OfficeConnect — what it does, who it's for, and how it works with Workday Adaptive Planning.
 ---
-
 OfficeConnect is a Microsoft Office add-in that streams live data from Workday Adaptive Planning directly into Excel, Word, and PowerPoint. Instead of exporting static spreadsheets, your reports stay connected to your planning instance and refresh on demand.
 
 ## What OfficeConnect does
