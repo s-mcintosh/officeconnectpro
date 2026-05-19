@@ -49,22 +49,22 @@ This is the most common cause. Confirm both tools are using the exact same perio
 ## Fix 3: Check company filter
 
 6. In your OfficeConnect workbook, look for a Company element in the header cells. If no Company filter is applied, OfficeConnect shows data for all companies. If the Workday report is scoped to a single company, the figures will differ.
-7. Apply a Company filter in OfficeConnect — see [Filter Reports by Company](/get-started/build-reports/financials/filter-by-company/). Re-compare.
+7. Apply a Company filter in OfficeConnect — see [Filter Reports by Company](/wiki/build-reports/financials/filter-by-company/). Re-compare.
 
 ## Fix 4: Check effective date settings
 
 8. OfficeConnect can be configured to use effective-date reporting, which reflects the org structure (cost centers, levels) as of a specific date rather than the transaction posting date. If your OfficeConnect workbook has an effective date applied, cost center assignments may differ from what Workday Report Writer shows.
-9. In the Reporting pane, look for an Effective Date element in the workbook. Remove it and refresh — if figures now match, effective-date was the cause. See [Use Effective Date Reporting After a Reorganization](/get-started/build-reports/financials/effective-date-reporting/) for when to use it intentionally.
+9. In the Reporting pane, look for an Effective Date element in the workbook. Remove it and refresh — if figures now match, effective-date was the cause. See [Use Effective Date Reporting After a Reorganization](/wiki/build-reports/financials/effective-date-reporting/) for when to use it intentionally.
 
 ## Fix 5: Check currency settings
 
 10. In the Reporting pane, confirm whether your report is showing figures in transaction currency or a converted currency. If the Workday report uses a different currency or rate type, figures will differ for any account with multi-currency transactions.
-11. Align both to the same currency and rate type — see [Multi-Currency Reporting with the Financials Data Source](/get-started/build-reports/financials/multi-currency-financials/).
+11. Align both to the same currency and rate type — see [Multi-Currency Reporting with the Financials Data Source](/wiki/build-reports/financials/multi-currency-financials/).
 
 ## Fix 6: Check journal source scope
 
 12. Some Workday financial reports exclude certain journal sources — intercompany, system-generated allocations, or eliminations. OfficeConnect includes all journal sources by default.
-13. Apply journal source filters in OfficeConnect to match what the Workday report includes. See [Variance Analysis by Journal Source](/get-started/build-reports/financials/variance-by-journal-source/).
+13. Apply journal source filters in OfficeConnect to match what the Workday report includes. See [Variance Analysis by Journal Source](/wiki/build-reports/financials/variance-by-journal-source/).
 
 ## Fix 7: Refresh after checking for retroactive adjustments
 
@@ -75,6 +75,6 @@ This is the most common cause. Confirm both tools are using the exact same perio
 
 ## If none of these work
 
-- See [Reconcile OfficeConnect Values to Workday Reports](/get-started/build-reports/financials/reconcile-to-workday/) for a systematic reconciliation process.
+- See [Reconcile OfficeConnect Values to Workday Reports](/wiki/build-reports/financials/reconcile-to-workday/) for a systematic reconciliation process.
 - Collect the exact account, period, filter settings, and specific figures that differ from both tools, and share with your Workday admin or Workday Support.
 - Rounding differences of less than $1 between OfficeConnect and Workday are expected in some multi-currency configurations and are not data errors.

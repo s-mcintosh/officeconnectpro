@@ -7,7 +7,7 @@ description: >
 tags: ["performance", "adaptive-planning", "fpna", "system-admin", "troubleshoot"]
 ---
 
-Large Workday OfficeConnect workbooks can grind to a halt if formula counts, dimension scope, or network paths aren't tuned. Before tearing the report apart, review the workbook-level techniques in [Optimize OfficeConnect Performance](/get-started/performance/optimize-performance/).
+Large Workday OfficeConnect workbooks can grind to a halt if formula counts, dimension scope, or network paths aren't tuned. Before tearing the report apart, review the workbook-level techniques in [Optimize OfficeConnect Performance](/wiki/performance/optimize-performance/).
 
 ## Symptom
 
@@ -48,12 +48,12 @@ The number of OfficeConnect formulas is the primary driver of refresh time.
 ## Fix 3: Narrow the dimension scope
 
 5. If formulas don't have Level or Cost Center filters, they pull data across all levels in the model — which takes longer for large org structures. Add Level or worktag filters to scope each formula to the relevant part of the hierarchy.
-6. See [Work with Custom Dimensions and Attributes](/get-started/build-reports/custom-dimensions-attributes/) and [Optimize OfficeConnect Performance](/get-started/performance/optimize-performance/) for detailed techniques.
+6. See [Work with Custom Dimensions and Attributes](/wiki/build-reports/custom-dimensions-attributes/) and [Optimize OfficeConnect Performance](/wiki/performance/optimize-performance/) for detailed techniques.
 
 ## Fix 4: Test at off-peak hours
 
 7. Workday tenants experience heavier load during business hours, especially at month-end close. If your refresh is slow during peak hours but fast at other times, the bottleneck is server-side rather than workbook-related.
-8. For time-sensitive reports, schedule refresh during off-peak hours — see [Refresh Reports Automatically with Power Automate](/get-started/admin/configure/refresh-with-power-automate/).
+8. For time-sensitive reports, schedule refresh during off-peak hours — see [Refresh Reports Automatically with Power Automate](/wiki/admin/configure/refresh-with-power-automate/).
 
 ## Fix 5: Check network latency
 
@@ -70,11 +70,11 @@ The number of OfficeConnect formulas is the primary driver of refresh time.
 ## If none of these work
 
 - Check whether the workbook performs better on a different machine or network — this helps isolate whether the issue is workbook-specific, machine-specific, or network-specific.
-- Review [Optimize OfficeConnect Performance](/get-started/performance/optimize-performance/) for additional workbook-level optimizations.
+- Review [Optimize OfficeConnect Performance](/wiki/performance/optimize-performance/) for additional workbook-level optimizations.
 - Contact Workday Support if refresh times are consistently over 60 seconds for a workbook with fewer than 50 formulas — this may indicate a tenant configuration issue.
 
 ## Next steps
 
-- [Optimize OfficeConnect Performance](/get-started/performance/optimize-performance/) for the full set of workbook tuning tips
+- [Optimize OfficeConnect Performance](/wiki/performance/optimize-performance/) for the full set of workbook tuning tips
 - [Fix OfficeConnect not refreshing](/reference/troubleshoot/not-refreshing/) if refresh stalls completely rather than runs slowly
-- [Refresh Reports Automatically with Power Automate](/get-started/admin/configure/refresh-with-power-automate/) to move heavy refreshes to off-peak hours
+- [Refresh Reports Automatically with Power Automate](/wiki/admin/configure/refresh-with-power-automate/) to move heavy refreshes to off-peak hours

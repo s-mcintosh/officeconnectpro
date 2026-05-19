@@ -1,6 +1,6 @@
 [[main]]
-  name = "Get Started"
-  url = "/get-started/"
+  name = "Wiki"
+  url = "/wiki/"
   weight = 10
 
 [[main]]

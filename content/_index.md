@@ -13,7 +13,7 @@ linkTitle: "Home"
 {{< /blocks/cover >}}
 
 {{< blocks/section color="white" type="row" >}}
-{{% blocks/feature icon="fa-rocket" title="Get Started" url="/get-started/" %}}
+{{% blocks/feature icon="fa-rocket" title="Wiki" url="/wiki/" %}}
 Install Workday OfficeConnect, build reports, manage data entry, configure SSO, and optimize performance — everything in one place.
 {{% /blocks/feature %}}
 

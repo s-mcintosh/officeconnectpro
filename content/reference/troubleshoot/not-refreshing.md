@@ -7,7 +7,7 @@ description: >
 tags: ["adaptive-planning", "performance", "fpna", "system-admin", "troubleshoot"]
 ---
 
-If Workday OfficeConnect won't pull fresh data, the cause is almost always a session, formula, or connection problem rather than a corrupted workbook. Confirm your tenant connection on [Sign In & Create a Tenant](/get-started/admin/configure/sign-in-create-tenant/) before working through the fixes below.
+If Workday OfficeConnect won't pull fresh data, the cause is almost always a session, formula, or connection problem rather than a corrupted workbook. Confirm your tenant connection on [Sign In & Create a Tenant](/wiki/admin/configure/sign-in-create-tenant/) before working through the fixes below.
 
 ## Symptom
 
@@ -70,5 +70,5 @@ If reloading the pane doesn't help, close Excel entirely, reopen it, and open th
 ## Next steps
 
 - [Fix authentication and token errors](/reference/troubleshoot/authentication-token-errors/) if Sign In keeps failing
-- [Optimize OfficeConnect performance](/get-started/performance/optimize-performance/) if refresh completes but takes too long
+- [Optimize OfficeConnect performance](/wiki/performance/optimize-performance/) if refresh completes but takes too long
 - [Run the troubleshooting tool](/reference/troubleshoot/troubleshooting-tool/) to collect logs before contacting Workday Support

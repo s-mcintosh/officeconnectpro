@@ -106,5 +106,5 @@ Both add-ins coexist in the same Excel install without crashing, even if you hav
 ## Next steps
 
 - [Re-Enabling a Disabled COM Add-in](/reference/troubleshoot/reenable-com-addin/) — if a crash left OfficeConnect disabled.
-- [Optimize Performance](/get-started/performance/optimize-performance/) — reduces the refresh windows where crashes are most likely.
-- [Check & Update Your Version](/get-started/check-version/) — make sure you're on a current OfficeConnect build.
+- [Optimize Performance](/wiki/performance/optimize-performance/) — reduces the refresh windows where crashes are most likely.
+- [Check & Update Your Version](/wiki/check-version/) — make sure you're on a current OfficeConnect build.

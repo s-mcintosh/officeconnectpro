@@ -7,7 +7,7 @@ description: >
 tags: ["deployment", "system-admin", "fpna", "troubleshoot"]
 ---
 
-COM registration errors usually surface during a Workday OfficeConnect install or upgrade and point to a broken Microsoft Office add-in registration. Confirm your machine meets the [system requirements](/get-started/system-requirements/) before working through the fixes — multiple Office versions installed side by side is the most common root cause.
+COM registration errors usually surface during a Workday OfficeConnect install or upgrade and point to a broken Microsoft Office add-in registration. Confirm your machine meets the [system requirements](/wiki/system-requirements/) before working through the fixes — multiple Office versions installed side by side is the most common root cause.
 
 **Symptom:** You receive an error like the following when trying to install or update OfficeConnect:
 
@@ -71,4 +71,4 @@ If this resolves the issue, re-enable add-ins one at a time to identify the conf
 
 - [Resolve OfficeConnect Update Errors](/reference/troubleshoot/update-errors/) if the issue only appears during version updates
 - [Run the troubleshooting tool](/reference/troubleshoot/troubleshooting-tool/) to capture the exact registry keys at fault
-- [Install as an IT Admin](/get-started/install-admin/) to redeploy a clean per-machine installation across users
+- [Install as an IT Admin](/wiki/install-admin/) to redeploy a clean per-machine installation across users

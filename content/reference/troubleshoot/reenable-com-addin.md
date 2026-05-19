@@ -11,7 +11,7 @@ When Excel crashes or hangs while Workday OfficeConnect is running, Excel someti
 
 The fix is to re-enable it from Excel's **Disabled Items** list. This article walks through it.
 
-If your OfficeConnect tab is missing for a different reason (never installed, install corrupted, JavaScript add-in on Mac), see also [Task Pane Not Displaying](/reference/troubleshoot/task-pane-not-displaying/) and [Install for End Users](/get-started/install-end-user/).
+If your OfficeConnect tab is missing for a different reason (never installed, install corrupted, JavaScript add-in on Mac), see also [Task Pane Not Displaying](/reference/troubleshoot/task-pane-not-displaying/) and [Install for End Users](/wiki/install-end-user/).
 
 ## Symptom
 
@@ -63,7 +63,7 @@ Close Excel completely (all open workbooks) and reopen it. The OfficeConnect tab
 Excel re-disables add-ins that crash on the next startup. If you enabled and Excel disabled it again, you're hitting an underlying crash.
 
 {{< step n="7" title="Make sure you're on a supported OfficeConnect version" >}}
-See [Check & Update Your Version](/get-started/check-version/).
+See [Check & Update Your Version](/wiki/check-version/).
 {{< /step >}}
 
 {{< step n="8" title="Check for add-in conflicts" >}}
@@ -75,7 +75,7 @@ Hold Ctrl while clicking Excel to start in Safe Mode. If the OfficeConnect tab a
 {{< /step >}}
 
 {{< step n="10" title="Reset the add-in registration" >}}
-As an Admin, repair the OfficeConnect install via Control Panel → Programs and Features. See [Install for Admins](/get-started/install-admin/).
+As an Admin, repair the OfficeConnect install via Control Panel → Programs and Features. See [Install for Admins](/wiki/install-admin/).
 {{< /step >}}
 
 {{< step n="11" title="Capture logs and contact Workday support" >}}
@@ -104,7 +104,7 @@ See [OfficeConnect on Mac](/reference/troubleshoot/officeconnect-on-mac/) for th
 
 - **Don't force-close Excel.** Always use File → Close or File → Exit. Force-quit while OfficeConnect is mid-refresh is the most common trigger.
 - **Save large workbooks before refreshing.** A refresh that takes 30+ seconds is much more likely to be force-closed by an impatient user.
-- **Tune performance.** See [Optimize Performance](/get-started/performance/optimize-performance/) to keep refresh times under 10 seconds so users don't reach for force-quit.
+- **Tune performance.** See [Optimize Performance](/wiki/performance/optimize-performance/) to keep refresh times under 10 seconds so users don't reach for force-quit.
 
 ## Result
 
@@ -112,6 +112,6 @@ OfficeConnect is back in the ribbon, and Excel will load it normally on next sta
 
 ## Next steps
 
-- [Optimize Performance](/get-started/performance/optimize-performance/) — reduce the refresh times that cause force-quits in the first place.
+- [Optimize Performance](/wiki/performance/optimize-performance/) — reduce the refresh times that cause force-quits in the first place.
 - [Task Pane Not Displaying](/reference/troubleshoot/task-pane-not-displaying/) — if the tab is there but the pane won't show.
 - [Authentication Token Errors](/reference/troubleshoot/authentication-token-errors/) — if you re-enabled but sign-in fails.
