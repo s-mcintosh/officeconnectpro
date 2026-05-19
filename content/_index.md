@@ -8,8 +8,11 @@ linkTitle: "Home"
   <a class="btn btn-lg btn-primary me-3 mb-4" href="/get-started/">
     For FP&amp;A users <i class="fas fa-chart-line ms-2"></i>
   </a>
-  <a class="btn btn-lg btn-secondary mb-4" href="/admin/">
+  <a class="btn btn-lg btn-secondary me-3 mb-4" href="/admin/">
     For system admins <i class="fas fa-wrench ms-2"></i>
+  </a>
+  <a class="btn btn-lg btn-outline-light mb-4" href="https://www.youtube.com/@officeconnectpro" target="_blank" rel="noopener">
+    <i class="fab fa-youtube me-2"></i>Watch on YouTube
   </a>
 </div>
 <p class="lead mt-2">The definitive resource for Workday OfficeConnect — for FP&amp;A end users and the system admins who own the platform.</p>
