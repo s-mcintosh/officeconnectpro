@@ -233,8 +233,11 @@
 &lt;li&gt;A workbook that is currently slow to refresh (more than 15 seconds)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id="1-reduce-the-number-of-officeconnect-formulas"&gt;1. Reduce the number of OfficeConnect formulas&lt;/h2&gt;
-&lt;p&gt;The single biggest performance factor is formula count. Each OfficeConnect formula is a separate server call during refresh.&lt;/p&gt;</description></item><item><title>Secure OfficeConnect Workbooks</title><link>https://officeconnectpro.com/get-started/admin/govern/secure-workbooks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/admin/govern/secure-workbooks/</guid><description>&lt;h2 id="automatic-timeout"&gt;Automatic timeout&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Reduce the number of OfficeConnect formulas&lt;/strong&gt;
+ &lt;p&gt;The single biggest performance factor is formula count. Each OfficeConnect formula is a separate server call during refresh.&lt;/p&gt;</description></item><item><title>Secure OfficeConnect Workbooks</title><link>https://officeconnectpro.com/get-started/admin/govern/secure-workbooks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/admin/govern/secure-workbooks/</guid><description>&lt;h2 id="automatic-timeout"&gt;Automatic timeout&lt;/h2&gt;
 &lt;p&gt;Workday OfficeConnect uses a session timeout to keep your reports secure. If you haven&amp;rsquo;t refreshed your report in &lt;strong&gt;60 minutes&lt;/strong&gt; (or your configured timeout period), OfficeConnect prompts you to re-authenticate the next time you try to refresh.&lt;/p&gt;
 &lt;p&gt;The timeout duration is set by your Adaptive Planning administrator.&lt;/p&gt;
 &lt;h2 id="data-clearing-on-save"&gt;Data clearing on save&lt;/h2&gt;
@@ -282,21 +285,27 @@
 &lt;li&gt;Knowledge of which worktags your organization uses (ask your Workday admin if unsure)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id="1-find-worktag-dimensions-in-the-reporting-pane"&gt;1. Find worktag dimensions in the Reporting pane&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Open the OfficeConnect Reporting pane and expand &lt;strong&gt;Dimensions&lt;/strong&gt; (or &lt;strong&gt;Worktags&lt;/strong&gt;). You should see your organization&amp;rsquo;s configured worktags — common ones include: &lt;strong&gt;Cost Center&lt;/strong&gt;, &lt;strong&gt;Fund&lt;/strong&gt;, &lt;strong&gt;Program&lt;/strong&gt;, &lt;strong&gt;Project&lt;/strong&gt;, &lt;strong&gt;Grant&lt;/strong&gt;, &lt;strong&gt;Region&lt;/strong&gt;, and custom worktags.&lt;/li&gt;
-&lt;li&gt;Each worktag has members — for example, Cost Center might list CC-1001 (Sales), CC-1002 (Marketing), etc.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="2-filter-a-report-by-a-single-worktag"&gt;2. Filter a report by a single worktag&lt;/h2&gt;
-&lt;ol start="3"&gt;
-&lt;li&gt;Build a basic account report with an Actuals version and a reporting period.&lt;/li&gt;
-&lt;li&gt;To filter by a single worktag: drag a Cost Center member (for example, &lt;strong&gt;CC-1001&lt;/strong&gt;) into any empty header cell. This applies a filter to all OfficeConnect formulas in the workbook — all values now reflect only transactions tagged to CC-1001.&lt;/li&gt;
-&lt;li&gt;Click &lt;strong&gt;Refresh&lt;/strong&gt;. All account balances update to show only CC-1001 activity.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="3-combine-multiple-worktags"&gt;3. Combine multiple worktags&lt;/h2&gt;
-&lt;ol start="6"&gt;
-&lt;li&gt;
-&lt;p&gt;To filter by two worktags simultaneously — for example, CC-1001 AND Fund ABC:&lt;/p&gt;</description></item><item><title>Work with Multiple Instances</title><link>https://officeconnectpro.com/get-started/admin/configure/multiple-instances/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/admin/configure/multiple-instances/</guid><description>&lt;p&gt;If your user ID has access to more than one Workday instance — a sandbox, a linked multi-instance hierarchy, or simply multiple tenants — Workday OfficeConnect handles them through an &lt;strong&gt;Instance&lt;/strong&gt; drop-down in the Reporting pane.&lt;/p&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Find worktag dimensions in the Reporting pane&lt;/strong&gt;
+ Open the OfficeConnect Reporting pane and expand &lt;strong&gt;Dimensions&lt;/strong&gt; (or &lt;strong&gt;Worktags&lt;/strong&gt;). You should see your organization&amp;rsquo;s configured worktags — common ones include: &lt;strong&gt;Cost Center&lt;/strong&gt;, &lt;strong&gt;Fund&lt;/strong&gt;, &lt;strong&gt;Program&lt;/strong&gt;, &lt;strong&gt;Project&lt;/strong&gt;, &lt;strong&gt;Grant&lt;/strong&gt;, &lt;strong&gt;Region&lt;/strong&gt;, and custom worktags. Each worktag has members — for example, Cost Center might list CC-1001 (Sales), CC-1002 (Marketing), etc.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Filter a report by a single worktag&lt;/strong&gt;
+ Build a basic account report with an Actuals version and a reporting period. To filter by a single worktag, drag a Cost Center member (for example, &lt;strong&gt;CC-1001&lt;/strong&gt;) into any empty header cell. This applies a filter to all OfficeConnect formulas in the workbook — all values now reflect only transactions tagged to CC-1001. Click &lt;strong&gt;Refresh&lt;/strong&gt;. All account balances update to show only CC-1001 activity.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Combine multiple worktags&lt;/strong&gt;
+ &lt;p&gt;To filter by two worktags simultaneously — for example, CC-1001 AND Fund ABC:&lt;/p&gt;</description></item><item><title>Work with Multiple Instances</title><link>https://officeconnectpro.com/get-started/admin/configure/multiple-instances/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/admin/configure/multiple-instances/</guid><description>&lt;p&gt;If your user ID has access to more than one Workday instance — a sandbox, a linked multi-instance hierarchy, or simply multiple tenants — Workday OfficeConnect handles them through an &lt;strong&gt;Instance&lt;/strong&gt; drop-down in the Reporting pane.&lt;/p&gt;
 &lt;h2 id="types-of-multiple-instances"&gt;Types of multiple instances&lt;/h2&gt;
 &lt;table&gt;
  &lt;thead&gt;
@@ -374,13 +383,11 @@
 &lt;li&gt;Familiarity with building basic reports — see &lt;a href="https://officeconnectpro.com/get-started/build-reports/budget-vs-actuals-variance/"&gt;Budget vs. Actuals Variance&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id="1-find-your-custom-dimensions-in-the-reporting-pane"&gt;1. Find your custom dimensions in the Reporting pane&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Open the OfficeConnect Reporting pane. Scroll down past Accounts, Versions, Time, and Levels to find the &lt;strong&gt;Custom Dimensions&lt;/strong&gt; section (it may also appear as &lt;strong&gt;Dimensions&lt;/strong&gt; depending on your OfficeConnect version).&lt;/li&gt;
-&lt;li&gt;Expand &lt;strong&gt;Custom Dimensions&lt;/strong&gt; to see the dimensions your model administrator has defined. Each dimension has members — for example, a &amp;ldquo;Region&amp;rdquo; dimension might have members: North America, EMEA, APAC.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Custom dimensions are model-specific. If you don&amp;rsquo;t see a &lt;strong&gt;Custom Dimensions&lt;/strong&gt; section, your model may not have any configured. Contact your Adaptive Planning model administrator to confirm.&lt;/p&gt;</description></item><item><title>Workday OfficeConnect on Mac: The VDI Workflow</title><link>https://officeconnectpro.com/reference/troubleshoot/mac-vdi-workflow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/reference/troubleshoot/mac-vdi-workflow/</guid><description>&lt;p&gt;The native Mac version of Workday OfficeConnect (Excel for Mac JavaScript add-in) supports most reporting workflows, but a few power-user features remain Windows-only — most notably Power Automate Desktop integration, configurable refresh shortcuts, and the broadest set of add-in interop. For Mac users who need parity with their Windows colleagues, a VDI (virtual desktop infrastructure) is the established workaround.&lt;/p&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Find your custom dimensions in the Reporting pane&lt;/strong&gt;
+ &lt;p&gt;Open the OfficeConnect Reporting pane. Scroll down past Accounts, Versions, Time, and Levels to find the &lt;strong&gt;Custom Dimensions&lt;/strong&gt; section (it may also appear as &lt;strong&gt;Dimensions&lt;/strong&gt; depending on your OfficeConnect version). Expand &lt;strong&gt;Custom Dimensions&lt;/strong&gt; to see the dimensions your model administrator has defined. Each dimension has members — for example, a &amp;ldquo;Region&amp;rdquo; dimension might have members: North America, EMEA, APAC.&lt;/p&gt;</description></item><item><title>Workday OfficeConnect on Mac: The VDI Workflow</title><link>https://officeconnectpro.com/reference/troubleshoot/mac-vdi-workflow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/reference/troubleshoot/mac-vdi-workflow/</guid><description>&lt;p&gt;The native Mac version of Workday OfficeConnect (Excel for Mac JavaScript add-in) supports most reporting workflows, but a few power-user features remain Windows-only — most notably Power Automate Desktop integration, configurable refresh shortcuts, and the broadest set of add-in interop. For Mac users who need parity with their Windows colleagues, a VDI (virtual desktop infrastructure) is the established workaround.&lt;/p&gt;
 &lt;p&gt;This article compares the three realistic options and walks through the simplest setup.&lt;/p&gt;</description></item><item><title>Recovering Broken Links in a Workday OfficeConnect PowerPoint Deck</title><link>https://officeconnectpro.com/get-started/word-powerpoint/powerpoint/recovering-broken-links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/word-powerpoint/powerpoint/recovering-broken-links/</guid><description>&lt;p&gt;A linked PowerPoint deck breaks the first time someone moves the source Excel workbook, renames a named range, or saves a copy under a new filename without updating the deck. This article documents how to recognize a broken link and the cheapest fix.&lt;/p&gt;
 &lt;p&gt;If you&amp;rsquo;re new to linked decks, start with &lt;a href="https://officeconnectpro.com/get-started/word-powerpoint/powerpoint/officeconnect-for-powerpoint/"&gt;OfficeConnect for PowerPoint&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id="how-a-broken-link-looks"&gt;How a broken link looks&lt;/h2&gt;

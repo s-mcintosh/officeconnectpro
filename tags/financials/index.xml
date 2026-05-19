@@ -315,44 +315,97 @@
 &lt;li&gt;A report showing a balance or variance you want to investigate&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id="1-find-journal-source-elements-in-the-reporting-pane"&gt;1. Find journal source elements in the Reporting pane&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Open the OfficeConnect Reporting pane. Expand &lt;strong&gt;Filters&lt;/strong&gt; (or &lt;strong&gt;Journal Sources&lt;/strong&gt;, depending on your OfficeConnect version). You should see a list of journal sources configured in your Workday tenant — typically including: &lt;strong&gt;Manual Journal&lt;/strong&gt;, &lt;strong&gt;Accounts Payable&lt;/strong&gt;, &lt;strong&gt;Accounts Receivable&lt;/strong&gt;, &lt;strong&gt;Payroll&lt;/strong&gt;, &lt;strong&gt;Fixed Assets&lt;/strong&gt;, &lt;strong&gt;Intercompany&lt;/strong&gt;, and &lt;strong&gt;System&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;If you don&amp;rsquo;t see a journal source filter, confirm with your OfficeConnect admin that the Financials data source is configured to expose journal source dimensions.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="2-build-a-journal-source-comparison-report"&gt;2. Build a journal source comparison report&lt;/h2&gt;
-&lt;ol start="3"&gt;
-&lt;li&gt;
-&lt;p&gt;Set up a basic account report:&lt;/p&gt;</description></item><item><title>Report on Worktag Combinations in OfficeConnect</title><link>https://officeconnectpro.com/get-started/build-reports/financials/worktag-combinations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/financials/worktag-combinations/</guid><description>&lt;p&gt;Workday Financial Management uses &lt;strong&gt;worktags&lt;/strong&gt; to tag financial transactions — Cost Center, Fund, Program, Project, Grant, and any custom worktags your organization has defined. OfficeConnect exposes worktags as dimension filters, letting you report on specific combinations (for example, all expenses for Cost Center 1001 within Fund ABC).&lt;/p&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Find journal source elements in the Reporting pane&lt;/strong&gt;
+ Open the OfficeConnect Reporting pane. Expand &lt;strong&gt;Filters&lt;/strong&gt; (or &lt;strong&gt;Journal Sources&lt;/strong&gt;, depending on your OfficeConnect version). You should see a list of journal sources configured in your Workday tenant — typically including: &lt;strong&gt;Manual Journal&lt;/strong&gt;, &lt;strong&gt;Accounts Payable&lt;/strong&gt;, &lt;strong&gt;Accounts Receivable&lt;/strong&gt;, &lt;strong&gt;Payroll&lt;/strong&gt;, &lt;strong&gt;Fixed Assets&lt;/strong&gt;, &lt;strong&gt;Intercompany&lt;/strong&gt;, and &lt;strong&gt;System&lt;/strong&gt;. If you don&amp;rsquo;t see a journal source filter, confirm with your OfficeConnect admin that the Financials data source is configured to expose journal source dimensions.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Build a journal source comparison report&lt;/strong&gt;
+ &lt;p&gt;Set up a basic account report:&lt;/p&gt;</description></item><item><title>Report on Worktag Combinations in OfficeConnect</title><link>https://officeconnectpro.com/get-started/build-reports/financials/worktag-combinations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/financials/worktag-combinations/</guid><description>&lt;p&gt;Workday Financial Management uses &lt;strong&gt;worktags&lt;/strong&gt; to tag financial transactions — Cost Center, Fund, Program, Project, Grant, and any custom worktags your organization has defined. OfficeConnect exposes worktags as dimension filters, letting you report on specific combinations (for example, all expenses for Cost Center 1001 within Fund ABC).&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;OfficeConnect connected to the Financials data source&lt;/li&gt;
 &lt;li&gt;Knowledge of which worktags your organization uses (ask your Workday admin if unsure)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id="1-find-worktag-dimensions-in-the-reporting-pane"&gt;1. Find worktag dimensions in the Reporting pane&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Open the OfficeConnect Reporting pane and expand &lt;strong&gt;Dimensions&lt;/strong&gt; (or &lt;strong&gt;Worktags&lt;/strong&gt;). You should see your organization&amp;rsquo;s configured worktags — common ones include: &lt;strong&gt;Cost Center&lt;/strong&gt;, &lt;strong&gt;Fund&lt;/strong&gt;, &lt;strong&gt;Program&lt;/strong&gt;, &lt;strong&gt;Project&lt;/strong&gt;, &lt;strong&gt;Grant&lt;/strong&gt;, &lt;strong&gt;Region&lt;/strong&gt;, and custom worktags.&lt;/li&gt;
-&lt;li&gt;Each worktag has members — for example, Cost Center might list CC-1001 (Sales), CC-1002 (Marketing), etc.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="2-filter-a-report-by-a-single-worktag"&gt;2. Filter a report by a single worktag&lt;/h2&gt;
-&lt;ol start="3"&gt;
-&lt;li&gt;Build a basic account report with an Actuals version and a reporting period.&lt;/li&gt;
-&lt;li&gt;To filter by a single worktag: drag a Cost Center member (for example, &lt;strong&gt;CC-1001&lt;/strong&gt;) into any empty header cell. This applies a filter to all OfficeConnect formulas in the workbook — all values now reflect only transactions tagged to CC-1001.&lt;/li&gt;
-&lt;li&gt;Click &lt;strong&gt;Refresh&lt;/strong&gt;. All account balances update to show only CC-1001 activity.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="3-combine-multiple-worktags"&gt;3. Combine multiple worktags&lt;/h2&gt;
-&lt;ol start="6"&gt;
-&lt;li&gt;
-&lt;p&gt;To filter by two worktags simultaneously — for example, CC-1001 AND Fund ABC:&lt;/p&gt;</description></item><item><title>Reconcile OfficeConnect Values to Workday Reports</title><link>https://officeconnectpro.com/get-started/build-reports/financials/reconcile-to-workday/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/financials/reconcile-to-workday/</guid><description>&lt;p&gt;OfficeConnect and Workday Report Writer pull from the same underlying Workday Financial Management data, so their figures should agree. When they don&amp;rsquo;t, the difference almost always comes down to a filter, period definition, or configuration mismatch — not a data error. This guide walks through the most common causes and how to diagnose them.&lt;/p&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Find worktag dimensions in the Reporting pane&lt;/strong&gt;
+ Open the OfficeConnect Reporting pane and expand &lt;strong&gt;Dimensions&lt;/strong&gt; (or &lt;strong&gt;Worktags&lt;/strong&gt;). You should see your organization&amp;rsquo;s configured worktags — common ones include: &lt;strong&gt;Cost Center&lt;/strong&gt;, &lt;strong&gt;Fund&lt;/strong&gt;, &lt;strong&gt;Program&lt;/strong&gt;, &lt;strong&gt;Project&lt;/strong&gt;, &lt;strong&gt;Grant&lt;/strong&gt;, &lt;strong&gt;Region&lt;/strong&gt;, and custom worktags. Each worktag has members — for example, Cost Center might list CC-1001 (Sales), CC-1002 (Marketing), etc.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Filter a report by a single worktag&lt;/strong&gt;
+ Build a basic account report with an Actuals version and a reporting period. To filter by a single worktag, drag a Cost Center member (for example, &lt;strong&gt;CC-1001&lt;/strong&gt;) into any empty header cell. This applies a filter to all OfficeConnect formulas in the workbook — all values now reflect only transactions tagged to CC-1001. Click &lt;strong&gt;Refresh&lt;/strong&gt;. All account balances update to show only CC-1001 activity.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Combine multiple worktags&lt;/strong&gt;
+ &lt;p&gt;To filter by two worktags simultaneously — for example, CC-1001 AND Fund ABC:&lt;/p&gt;</description></item><item><title>Reconcile OfficeConnect Values to Workday Reports</title><link>https://officeconnectpro.com/get-started/build-reports/financials/reconcile-to-workday/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/financials/reconcile-to-workday/</guid><description>&lt;p&gt;OfficeConnect and Workday Report Writer pull from the same underlying Workday Financial Management data, so their figures should agree. When they don&amp;rsquo;t, the difference almost always comes down to a filter, period definition, or configuration mismatch — not a data error. This guide walks through the most common causes and how to diagnose them.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;OfficeConnect connected to the Financials data source&lt;/li&gt;
 &lt;li&gt;Access to Workday Report Writer or a Workday financial report for comparison&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id="1-confirm-youre-comparing-the-same-period"&gt;1. Confirm you&amp;rsquo;re comparing the same period&lt;/h2&gt;
-&lt;p&gt;The most common cause of discrepancies is a period definition mismatch.&lt;/p&gt;</description></item><item><title>Financials Data Source</title><link>https://officeconnectpro.com/get-started/build-reports/financials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/financials/</guid><description>&lt;p&gt;This section covers OfficeConnect with the &lt;strong&gt;Financials data source&lt;/strong&gt; — Workday Financial Management&amp;rsquo;s general ledger actuals. If your organization uses Workday Financial Management alongside Adaptive Planning, accounting teams use this data source to report on posted journal entries, trial balances, and actuals by cost center.&lt;/p&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Confirm you&amp;#39;re comparing the same period&lt;/strong&gt;
+ The most common cause of discrepancies is a period definition mismatch. In your OfficeConnect workbook, note the exact period element you&amp;rsquo;ve dragged into the time context cell. Click the cell and check the element details in the Reporting pane — is it a month, a quarter, or a fiscal year? Is it calendar year or fiscal year? In Workday Report Writer, check the &lt;strong&gt;Accounting Date&lt;/strong&gt; range or period parameter used to run the report. Workday may default to calendar month while OfficeConnect is set to a fiscal period, or vice versa. Set both to the identical period definition and refresh. If the figures converge, period was the cause.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Check effective date settings&lt;/strong&gt;
+ OfficeConnect supports effective-date reporting, which reflects the organization structure as of a specific date rather than the posting date of transactions. If OfficeConnect is set to an effective date that differs from Report Writer&amp;rsquo;s configuration, cost center or department allocations may differ. In the Reporting pane, check whether an effective date element is applied to the workbook. Remove it to revert to the default posting-date view, then compare to Report Writer.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Verify account scope&lt;/strong&gt;
+ Confirm that the accounts in your OfficeConnect report match exactly what the Workday report includes. OfficeConnect rollup accounts aggregate all child accounts — if Workday&amp;rsquo;s report uses a different account grouping, figures will differ. Build a side-by-side: list the same leaf-level accounts in OfficeConnect (not rollups) and compare each one to the same account line in Workday. This isolates which account has the discrepancy, narrowing the investigation.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;4&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Check company and currency filters&lt;/strong&gt;
+ If your organization has multiple companies, confirm that both OfficeConnect and Workday Report Writer are scoped to the same company. In OfficeConnect, check for a Company element in the workbook header — see &lt;a href="https://officeconnectpro.com/get-started/build-reports/financials/filter-by-company/"&gt;Filter Reports by Company&lt;/a&gt;. If your report uses currency conversion, confirm that both tools are using the same exchange rate type and conversion date. OfficeConnect supports both transaction currency and converted currency reporting — check which is active.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;5&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Check for journal sources excluded by Report Writer&lt;/strong&gt;
+ Some Workday reports are configured to exclude certain journal sources (for example, intercompany elimination entries or system-generated allocations). OfficeConnect by default includes all journal sources. To scope OfficeConnect to match, apply a journal source filter — see &lt;a href="https://officeconnectpro.com/get-started/build-reports/financials/variance-by-journal-source/"&gt;Variance Analysis by Journal Source&lt;/a&gt;.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;6&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;When you can&amp;#39;t find the cause&lt;/strong&gt;
+ &lt;p&gt;If the figures still don&amp;rsquo;t reconcile after checking all of the above, collect the following and share with your Workday admin or OfficeConnect support:&lt;/p&gt;</description></item><item><title>Financials Data Source</title><link>https://officeconnectpro.com/get-started/build-reports/financials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/financials/</guid><description>&lt;p&gt;This section covers OfficeConnect with the &lt;strong&gt;Financials data source&lt;/strong&gt; — Workday Financial Management&amp;rsquo;s general ledger actuals. If your organization uses Workday Financial Management alongside Adaptive Planning, accounting teams use this data source to report on posted journal entries, trial balances, and actuals by cost center.&lt;/p&gt;
 &lt;p&gt;Not sure which data source you&amp;rsquo;re on? See &lt;a href="https://officeconnectpro.com/get-started/migration-comparison/financials-vs-adaptive-planning/"&gt;Adaptive Planning vs. Financials Data Source&lt;/a&gt; for a full comparison.&lt;/p&gt;
 &lt;h2 id="articles-in-this-section"&gt;Articles in this section&lt;/h2&gt;
 &lt;ul&gt;

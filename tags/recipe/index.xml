@@ -75,15 +75,19 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
 &lt;li&gt;A report showing a balance or variance you want to investigate&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id="1-find-journal-source-elements-in-the-reporting-pane"&gt;1. Find journal source elements in the Reporting pane&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Open the OfficeConnect Reporting pane. Expand &lt;strong&gt;Filters&lt;/strong&gt; (or &lt;strong&gt;Journal Sources&lt;/strong&gt;, depending on your OfficeConnect version). You should see a list of journal sources configured in your Workday tenant — typically including: &lt;strong&gt;Manual Journal&lt;/strong&gt;, &lt;strong&gt;Accounts Payable&lt;/strong&gt;, &lt;strong&gt;Accounts Receivable&lt;/strong&gt;, &lt;strong&gt;Payroll&lt;/strong&gt;, &lt;strong&gt;Fixed Assets&lt;/strong&gt;, &lt;strong&gt;Intercompany&lt;/strong&gt;, and &lt;strong&gt;System&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;If you don&amp;rsquo;t see a journal source filter, confirm with your OfficeConnect admin that the Financials data source is configured to expose journal source dimensions.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="2-build-a-journal-source-comparison-report"&gt;2. Build a journal source comparison report&lt;/h2&gt;
-&lt;ol start="3"&gt;
-&lt;li&gt;
-&lt;p&gt;Set up a basic account report:&lt;/p&gt;</description></item><item><title>Build a Year-over-Year Trend Report</title><link>https://officeconnectpro.com/get-started/build-reports/year-over-year-trend/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/year-over-year-trend/</guid><description>&lt;p&gt;A year-over-year trend report shows how each month compares to the same month last year — useful for spotting seasonal patterns and measuring real growth. OfficeConnect&amp;rsquo;s time elements let you pin both years in the same report.&lt;/p&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Find journal source elements in the Reporting pane&lt;/strong&gt;
+ Open the OfficeConnect Reporting pane. Expand &lt;strong&gt;Filters&lt;/strong&gt; (or &lt;strong&gt;Journal Sources&lt;/strong&gt;, depending on your OfficeConnect version). You should see a list of journal sources configured in your Workday tenant — typically including: &lt;strong&gt;Manual Journal&lt;/strong&gt;, &lt;strong&gt;Accounts Payable&lt;/strong&gt;, &lt;strong&gt;Accounts Receivable&lt;/strong&gt;, &lt;strong&gt;Payroll&lt;/strong&gt;, &lt;strong&gt;Fixed Assets&lt;/strong&gt;, &lt;strong&gt;Intercompany&lt;/strong&gt;, and &lt;strong&gt;System&lt;/strong&gt;. If you don&amp;rsquo;t see a journal source filter, confirm with your OfficeConnect admin that the Financials data source is configured to expose journal source dimensions.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Build a journal source comparison report&lt;/strong&gt;
+ &lt;p&gt;Set up a basic account report:&lt;/p&gt;</description></item><item><title>Build a Year-over-Year Trend Report</title><link>https://officeconnectpro.com/get-started/build-reports/year-over-year-trend/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/year-over-year-trend/</guid><description>&lt;p&gt;A year-over-year trend report shows how each month compares to the same month last year — useful for spotting seasonal patterns and measuring real growth. OfficeConnect&amp;rsquo;s time elements let you pin both years in the same report.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A report with 12 months of current-year actuals alongside 12 months of prior-year actuals, plus a YoY variance row.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;

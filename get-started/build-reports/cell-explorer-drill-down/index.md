@@ -41,17 +41,32 @@ Explore Cell opens showing the breakdown. Expand sections to drill deeper — yo
 ## Zeros and blanks in Explore Cell
 
 Explore Cell automatically suppresses rows with all zeros or blanks by default — only rows that actually contribute to the value are shown. To see zero rows:
-1. Clear the **Suppress Rows if all Zeros or Blanks** setting on the Explore Cell page
+
+{{< step n="4" title="Clear the Suppress Rows if all Zeros or Blanks setting" >}}
+In the Explore Cell page, uncheck the **Suppress Rows if all Zeros or Blanks** option to show all rows including zero-value contributors.
+{{< /step >}}
 
 Note: This setting resets each time you launch Explore Cell.
 
 ## Show Details (Financials data source)
 
 For Financials data source users, **Show Details** is the equivalent feature:
-1. Right-click any report cell with data
-2. Select **Show Details**
-3. A new Excel worksheet opens showing contributing journal lines and plan lines
-4. From there you can drill through to Workday to view related journals and transactions
+
+{{< step n="1" title="Right-click any report cell with data" >}}
+Click to select the cell, then right-click to open the context menu.
+{{< /step >}}
+
+{{< step n="2" title="Select Show Details" >}}
+Choose **Show Details** from the context menu.
+{{< /step >}}
+
+{{< step n="3" title="Review the contributing journal lines in the new worksheet" >}}
+A new Excel worksheet opens showing contributing journal lines and plan lines.
+{{< /step >}}
+
+{{< step n="4" title="Drill through to Workday" >}}
+From the new worksheet, you can drill through to Workday to view related journals and transactions.
+{{< /step >}}
 
 > For large worksheets, Show Details performs better with 64-bit Excel.
 

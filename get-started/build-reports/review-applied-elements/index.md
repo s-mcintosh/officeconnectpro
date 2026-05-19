@@ -48,9 +48,18 @@ If the Net section shows an unexpected element, expand **Rows** and **Columns** 
 ## Switch time elements between relative and absolute
 
 From the Review tab, you can also change how time elements behave:
-1. Right-click the time element metadata line
-2. Select **Switch to Absolute** or **Switch to Relative**
-3. Refresh to see the effect
+
+{{< step n="5" title="Right-click the time element metadata line" >}}
+In the Review tab, right-click the time element you want to change.
+{{< /step >}}
+
+{{< step n="6" title="Select Switch to Absolute or Switch to Relative" >}}
+Choose **Switch to Absolute** to lock the element to a fixed date, or **Switch to Relative** to make it roll with the current period.
+{{< /step >}}
+
+{{< step n="7" title="Refresh to see the effect" >}}
+Click **Refresh** to apply the change and see the updated data.
+{{< /step >}}
 
 ## Identify element groups
 

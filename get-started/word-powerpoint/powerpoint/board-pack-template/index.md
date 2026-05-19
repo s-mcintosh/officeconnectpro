@@ -92,9 +92,17 @@ Each board cycle, save a date-stamped copy: `BoardPack_2026Q2.pptx`. Keep a clea
 
 For the next period:
 
-1. Copy the master template to a new dated file
-2. Update the linked Excel workbook for the new period (change time elements or refresh against a new version)
-3. Open the new deck, refresh links, scan, save
+{{< step n="10" title="Copy the master template to a new dated file" >}}
+Duplicate `BoardPack_Template.pptx` and name it for the new period (e.g., `BoardPack_2026Q3.pptx`).
+{{< /step >}}
+
+{{< step n="11" title="Update the linked Excel workbook for the new period" >}}
+Change time elements or refresh against a new version in the source workbook.
+{{< /step >}}
+
+{{< step n="12" title="Open the new deck, refresh links, scan, and save" >}}
+Open the dated deck, click **Refresh Links** in the OfficeConnect tab, do a visual scan of every slide, then save.
+{{< /step >}}
 
 Total time once the template exists: 10-15 minutes.
 

@@ -36,15 +36,39 @@ The report shows 12 months of data. Each month you refresh, the window advances 
 ## Add a YTD column
 
 After the 12 monthly columns, add a YTD column:
-1. Select the column after your last month
-2. Apply `Current Month` as the time element
-3. Apply `YTD` as a context element in the same column
-4. Refresh — this column shows the year-to-date sum as of the current month
+
+{{< step n="5" title="Select the column after your last month" >}}
+Click the column letter immediately to the right of your final monthly column.
+{{< /step >}}
+
+{{< step n="6" title="Apply Current Month as the time element" >}}
+Drag `Current Month` from the Reporting pane into the header cell of this column.
+{{< /step >}}
+
+{{< step n="7" title="Apply YTD as a context element" >}}
+In the same column, drag `YTD` as a context element alongside the time element.
+{{< /step >}}
+
+{{< step n="8" title="Refresh" >}}
+Click **Refresh** — this column shows the year-to-date sum as of the current month.
+{{< /step >}}
 
 ## Formatting tip
 
 Use Excel's column headers to show friendly month names using an OfficeConnect label:
-1. Select the header cell above a monthly column
-2. In the OfficeConnect ribbon, click **Labels**
-3. Select **Time** as the Label Type and the appropriate format for the Label Type Value
-4. Refresh — the header automatically shows the correct month name
+
+{{< step n="1" title="Select the header cell above a monthly column" >}}
+Click the header cell (the cell directly above a monthly data column).
+{{< /step >}}
+
+{{< step n="2" title="Click Labels in the OfficeConnect ribbon" >}}
+In the OfficeConnect ribbon, click **Labels**.
+{{< /step >}}
+
+{{< step n="3" title="Set the Label Type and format" >}}
+Select **Time** as the Label Type and the appropriate format for the Label Type Value.
+{{< /step >}}
+
+{{< step n="4" title="Refresh" >}}
+Click **Refresh** — the header automatically shows the correct month name.
+{{< /step >}}

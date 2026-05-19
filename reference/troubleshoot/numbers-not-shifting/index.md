@@ -30,8 +30,13 @@ This inserts a row and correctly shifts all OfficeConnect element assignments.
 
 ## If you already inserted rows with Excel's native function
 
-1. Undo the insert with **Ctrl+Z** (undo until you're back to the pre-insert state)
-2. Reinsert using OfficeConnect's Insert Row function
+{{< step n="3" title="Undo the insert with Ctrl+Z" >}}
+Press **Ctrl+Z** repeatedly until you're back to the pre-insert state.
+{{< /step >}}
+
+{{< step n="4" title="Reinsert using OfficeConnect's Insert Row function" >}}
+Follow the steps above — right-click the row and choose **OfficeConnect → Insert Row**.
+{{< /step >}}
 
 If undo isn't available, you'll need to re-apply elements to the affected rows manually.
 

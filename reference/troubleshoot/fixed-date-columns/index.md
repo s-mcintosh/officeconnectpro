@@ -38,8 +38,16 @@ The column now shows a fixed date that won't advance when you refresh.
 
 Component dates let you create combinations like "Q4 of FY 2024" without locking a single absolute date:
 
-1. Apply a **year** element (e.g., `FY 2024`) to a row
-2. Apply a **quarter component** (e.g., `Q4`) to a column
-3. The intersection resolves to Q4 2024 specifically
+{{< step n="7" title="Apply a year element to a row" >}}
+Drag a **year** element (e.g., `FY 2024`) from the Reporting pane onto a row.
+{{< /step >}}
+
+{{< step n="8" title="Apply a quarter component to a column" >}}
+Drag a **quarter component** (e.g., `Q4`) from the Reporting pane onto a column.
+{{< /step >}}
+
+{{< step n="9" title="Refresh to resolve the intersection" >}}
+The intersection resolves to Q4 2024 specifically. Click **Refresh** to populate the data.
+{{< /step >}}
 
 See the **Components** section under Time in the Elements tab. Components are listed under `Time → Components` in the Reporting pane.

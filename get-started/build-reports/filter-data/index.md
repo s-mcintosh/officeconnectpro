@@ -56,9 +56,18 @@ You can select multiple elements at once by right-clicking an element in the fil
 ## Review active filters
 
 To verify which filters are active on a worksheet:
-1. In the Reporting pane, click the **Review** tab
-2. Expand **Worksheet** to see active worksheet filters
-3. Expand **Workbook** to see active workbook filters
+
+{{< step n="7" title="Click the Review tab in the Reporting pane" >}}
+In the Reporting pane, click the **Review** tab.
+{{< /step >}}
+
+{{< step n="8" title="Expand Worksheet to see active worksheet filters" >}}
+Click the **Worksheet** section to expand it and see which filters are active on this sheet.
+{{< /step >}}
+
+{{< step n="9" title="Expand Workbook to see active workbook filters" >}}
+Click the **Workbook** section to see filters that apply across all sheets.
+{{< /step >}}
 
 Applied filters are listed under **Elements** in each section.
 

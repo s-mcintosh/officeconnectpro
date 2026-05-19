@@ -145,9 +145,17 @@ Distribute and deploy the new version. MECM identifies machines with the old ver
 
 On the test machine:
 
-1. **Trigger Software Center policy refresh:** `Configuration Manager Properties → Actions → Application Deployment Evaluation Cycle → Run Now`.
-2. **Watch `C:\Windows\CCM\Logs\AppEnforce.log`** for the install execution.
-3. **Open Excel** and verify the OfficeConnect tab.
+{{< step n="18" title="Trigger Software Center policy refresh" >}}
+Open `Configuration Manager Properties → Actions → Application Deployment Evaluation Cycle → Run Now`.
+{{< /step >}}
+
+{{< step n="19" title="Watch AppEnforce.log for the install execution" >}}
+Monitor `C:\Windows\CCM\Logs\AppEnforce.log` to confirm the install runs successfully.
+{{< /step >}}
+
+{{< step n="20" title="Open Excel and verify the OfficeConnect tab" >}}
+Launch Excel on the test machine and confirm the OfficeConnect tab appears in the ribbon.
+{{< /step >}}
 
 ## Common gotchas
 

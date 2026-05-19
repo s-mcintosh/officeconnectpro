@@ -5,8 +5,11 @@
 &lt;li&gt;A workbook that is currently slow to refresh (more than 15 seconds)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id="1-reduce-the-number-of-officeconnect-formulas"&gt;1. Reduce the number of OfficeConnect formulas&lt;/h2&gt;
-&lt;p&gt;The single biggest performance factor is formula count. Each OfficeConnect formula is a separate server call during refresh.&lt;/p&gt;</description></item><item><title>Fix OfficeConnect Not Refreshing</title><link>https://officeconnectpro.com/reference/troubleshoot/not-refreshing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/reference/troubleshoot/not-refreshing/</guid><description>&lt;p&gt;If Workday OfficeConnect won&amp;rsquo;t pull fresh data, the cause is almost always a session, formula, or connection problem rather than a corrupted workbook. Confirm your tenant connection on &lt;a href="https://officeconnectpro.com/get-started/admin/configure/sign-in-create-tenant/"&gt;Sign In &amp;amp; Create a Tenant&lt;/a&gt; before working through the fixes below.&lt;/p&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Reduce the number of OfficeConnect formulas&lt;/strong&gt;
+ &lt;p&gt;The single biggest performance factor is formula count. Each OfficeConnect formula is a separate server call during refresh.&lt;/p&gt;</description></item><item><title>Fix OfficeConnect Not Refreshing</title><link>https://officeconnectpro.com/reference/troubleshoot/not-refreshing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/reference/troubleshoot/not-refreshing/</guid><description>&lt;p&gt;If Workday OfficeConnect won&amp;rsquo;t pull fresh data, the cause is almost always a session, formula, or connection problem rather than a corrupted workbook. Confirm your tenant connection on &lt;a href="https://officeconnectpro.com/get-started/admin/configure/sign-in-create-tenant/"&gt;Sign In &amp;amp; Create a Tenant&lt;/a&gt; before working through the fixes below.&lt;/p&gt;
 &lt;h2 id="symptom"&gt;Symptom&lt;/h2&gt;
 &lt;p&gt;You click &lt;strong&gt;Refresh&lt;/strong&gt; in the OfficeConnect ribbon and one of the following happens:&lt;/p&gt;
 &lt;ul&gt;

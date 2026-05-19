@@ -5,8 +5,11 @@
 &lt;li&gt;A workbook that is currently slow to refresh (more than 15 seconds)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id="1-reduce-the-number-of-officeconnect-formulas"&gt;1. Reduce the number of OfficeConnect formulas&lt;/h2&gt;
-&lt;p&gt;The single biggest performance factor is formula count. Each OfficeConnect formula is a separate server call during refresh.&lt;/p&gt;</description></item><item><title>Workday OfficeConnect Refresh Time Benchmarks</title><link>https://officeconnectpro.com/get-started/performance/refresh-benchmarks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/performance/refresh-benchmarks/</guid><description>&lt;p&gt;&amp;ldquo;Is my workbook slow?&amp;rdquo; is a question with no universal answer — refresh time depends on formula count, server load, network path, and how complex your Adaptive Planning model is. This reference gives you rough Workday OfficeConnect benchmarks to compare against, and a method for measuring your own.&lt;/p&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Reduce the number of OfficeConnect formulas&lt;/strong&gt;
+ &lt;p&gt;The single biggest performance factor is formula count. Each OfficeConnect formula is a separate server call during refresh.&lt;/p&gt;</description></item><item><title>Workday OfficeConnect Refresh Time Benchmarks</title><link>https://officeconnectpro.com/get-started/performance/refresh-benchmarks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/performance/refresh-benchmarks/</guid><description>&lt;p&gt;&amp;ldquo;Is my workbook slow?&amp;rdquo; is a question with no universal answer — refresh time depends on formula count, server load, network path, and how complex your Adaptive Planning model is. This reference gives you rough Workday OfficeConnect benchmarks to compare against, and a method for measuring your own.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A Workday OfficeConnect workbook you can refresh end-to-end&lt;/li&gt;

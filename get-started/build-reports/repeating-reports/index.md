@@ -61,9 +61,18 @@ OfficeConnect creates one worksheet per selected element and refreshes each one 
 ## Updating repeating reports
 
 Repeating reports don't stay linked to the original. To incorporate structural changes to the report:
-1. Delete the existing repeating report worksheets
-2. Update the original template
-3. Re-run the Repeating Reports process
+
+{{< step n="8" title="Delete the existing repeating report worksheets" >}}
+Right-click each repeating report tab and choose **Delete** to remove the old copies.
+{{< /step >}}
+
+{{< step n="9" title="Update the original template" >}}
+Make your structural changes on the original template worksheet.
+{{< /step >}}
+
+{{< step n="10" title="Re-run the Repeating Reports process" >}}
+Click **Repeating Reports** in the OfficeConnect ribbon and create new copies from the updated template.
+{{< /step >}}
 
 ## Next steps
 

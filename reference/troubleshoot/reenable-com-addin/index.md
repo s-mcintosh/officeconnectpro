@@ -61,19 +61,41 @@ Close Excel completely (all open workbooks) and reopen it. The OfficeConnect tab
 
 Excel re-disables add-ins that crash on the next startup. If you enabled and Excel disabled it again, you're hitting an underlying crash.
 
-1. **Make sure you're on a supported OfficeConnect version.** See [Check & Update Your Version](/get-started/check-version/).
-2. **Check for add-in conflicts.** OfficeConnect has known conflicts with think-cell, Bloomberg, Macabacus, and Power Pivot. See *Troubleshoot → Add-in Conflicts* (coming soon).
-3. **Try Safe Mode.** Hold Ctrl while clicking Excel to start in Safe Mode. If OfficeConnect tab appears, the crash is caused by another add-in or a workbook auto-load script.
-4. **Reset the add-in registration.** As an Admin, repair the OfficeConnect install via Control Panel → Programs and Features. See [Install for Admins](/get-started/install-admin/).
-5. **Capture logs and contact Workday support.** See *Troubleshoot → Capture Logs for Workday Support* (coming soon).
+{{< step n="7" title="Make sure you're on a supported OfficeConnect version" >}}
+See [Check & Update Your Version](/get-started/check-version/).
+{{< /step >}}
+
+{{< step n="8" title="Check for add-in conflicts" >}}
+OfficeConnect has known conflicts with think-cell, Bloomberg, Macabacus, and Power Pivot. See *Troubleshoot → Add-in Conflicts* (coming soon).
+{{< /step >}}
+
+{{< step n="9" title="Try Safe Mode" >}}
+Hold Ctrl while clicking Excel to start in Safe Mode. If the OfficeConnect tab appears, the crash is caused by another add-in or a workbook auto-load script.
+{{< /step >}}
+
+{{< step n="10" title="Reset the add-in registration" >}}
+As an Admin, repair the OfficeConnect install via Control Panel → Programs and Features. See [Install for Admins](/get-started/install-admin/).
+{{< /step >}}
+
+{{< step n="11" title="Capture logs and contact Workday support" >}}
+See *Troubleshoot → Capture Logs for Workday Support* (coming soon).
+{{< /step >}}
 
 ## Mac
 
 The Disabled Items mechanism is Windows-specific (it's tied to COM add-ins). On Mac, OfficeConnect runs as a JavaScript add-in and doesn't get "disabled" the same way. If your OfficeConnect tab is missing on Mac:
 
-1. **Insert → Add-ins** in Excel for Mac
-2. Verify OfficeConnect is listed as active
-3. If listed but inactive, click it to re-enable
+{{< step n="1" title="Open Insert → Add-ins in Excel for Mac" >}}
+In Excel for Mac, go to **Insert → Add-ins** to view your installed add-ins.
+{{< /step >}}
+
+{{< step n="2" title="Verify OfficeConnect is listed as active" >}}
+Check that OfficeConnect appears in the add-ins list and shows as active.
+{{< /step >}}
+
+{{< step n="3" title="Re-enable if listed but inactive" >}}
+If OfficeConnect appears but is inactive, click it to re-enable it.
+{{< /step >}}
 
 See [OfficeConnect on Mac](/reference/troubleshoot/officeconnect-on-mac/) for the full Mac troubleshooting flow.
 

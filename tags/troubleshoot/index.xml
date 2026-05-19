@@ -280,8 +280,51 @@ was closed: An unexpected error occurred on a send.
 &lt;li&gt;Access to Workday Report Writer or a Workday financial report for comparison&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id="1-confirm-youre-comparing-the-same-period"&gt;1. Confirm you&amp;rsquo;re comparing the same period&lt;/h2&gt;
-&lt;p&gt;The most common cause of discrepancies is a period definition mismatch.&lt;/p&gt;</description></item><item><title>Fix OfficeConnect Not Refreshing</title><link>https://officeconnectpro.com/reference/troubleshoot/not-refreshing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/reference/troubleshoot/not-refreshing/</guid><description>&lt;p&gt;If Workday OfficeConnect won&amp;rsquo;t pull fresh data, the cause is almost always a session, formula, or connection problem rather than a corrupted workbook. Confirm your tenant connection on &lt;a href="https://officeconnectpro.com/get-started/admin/configure/sign-in-create-tenant/"&gt;Sign In &amp;amp; Create a Tenant&lt;/a&gt; before working through the fixes below.&lt;/p&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Confirm you&amp;#39;re comparing the same period&lt;/strong&gt;
+ The most common cause of discrepancies is a period definition mismatch. In your OfficeConnect workbook, note the exact period element you&amp;rsquo;ve dragged into the time context cell. Click the cell and check the element details in the Reporting pane — is it a month, a quarter, or a fiscal year? Is it calendar year or fiscal year? In Workday Report Writer, check the &lt;strong&gt;Accounting Date&lt;/strong&gt; range or period parameter used to run the report. Workday may default to calendar month while OfficeConnect is set to a fiscal period, or vice versa. Set both to the identical period definition and refresh. If the figures converge, period was the cause.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Check effective date settings&lt;/strong&gt;
+ OfficeConnect supports effective-date reporting, which reflects the organization structure as of a specific date rather than the posting date of transactions. If OfficeConnect is set to an effective date that differs from Report Writer&amp;rsquo;s configuration, cost center or department allocations may differ. In the Reporting pane, check whether an effective date element is applied to the workbook. Remove it to revert to the default posting-date view, then compare to Report Writer.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Verify account scope&lt;/strong&gt;
+ Confirm that the accounts in your OfficeConnect report match exactly what the Workday report includes. OfficeConnect rollup accounts aggregate all child accounts — if Workday&amp;rsquo;s report uses a different account grouping, figures will differ. Build a side-by-side: list the same leaf-level accounts in OfficeConnect (not rollups) and compare each one to the same account line in Workday. This isolates which account has the discrepancy, narrowing the investigation.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;4&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Check company and currency filters&lt;/strong&gt;
+ If your organization has multiple companies, confirm that both OfficeConnect and Workday Report Writer are scoped to the same company. In OfficeConnect, check for a Company element in the workbook header — see &lt;a href="https://officeconnectpro.com/get-started/build-reports/financials/filter-by-company/"&gt;Filter Reports by Company&lt;/a&gt;. If your report uses currency conversion, confirm that both tools are using the same exchange rate type and conversion date. OfficeConnect supports both transaction currency and converted currency reporting — check which is active.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;5&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Check for journal sources excluded by Report Writer&lt;/strong&gt;
+ Some Workday reports are configured to exclude certain journal sources (for example, intercompany elimination entries or system-generated allocations). OfficeConnect by default includes all journal sources. To scope OfficeConnect to match, apply a journal source filter — see &lt;a href="https://officeconnectpro.com/get-started/build-reports/financials/variance-by-journal-source/"&gt;Variance Analysis by Journal Source&lt;/a&gt;.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;6&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;When you can&amp;#39;t find the cause&lt;/strong&gt;
+ &lt;p&gt;If the figures still don&amp;rsquo;t reconcile after checking all of the above, collect the following and share with your Workday admin or OfficeConnect support:&lt;/p&gt;</description></item><item><title>Fix OfficeConnect Not Refreshing</title><link>https://officeconnectpro.com/reference/troubleshoot/not-refreshing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/reference/troubleshoot/not-refreshing/</guid><description>&lt;p&gt;If Workday OfficeConnect won&amp;rsquo;t pull fresh data, the cause is almost always a session, formula, or connection problem rather than a corrupted workbook. Confirm your tenant connection on &lt;a href="https://officeconnectpro.com/get-started/admin/configure/sign-in-create-tenant/"&gt;Sign In &amp;amp; Create a Tenant&lt;/a&gt; before working through the fixes below.&lt;/p&gt;
 &lt;h2 id="symptom"&gt;Symptom&lt;/h2&gt;
 &lt;p&gt;You click &lt;strong&gt;Refresh&lt;/strong&gt; in the OfficeConnect ribbon and one of the following happens:&lt;/p&gt;
 &lt;ul&gt;

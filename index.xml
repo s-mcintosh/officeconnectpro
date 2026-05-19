@@ -1013,8 +1013,11 @@ was closed: An unexpected error occurred on a send.
 &lt;li&gt;A workbook that is currently slow to refresh (more than 15 seconds)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id="1-reduce-the-number-of-officeconnect-formulas"&gt;1. Reduce the number of OfficeConnect formulas&lt;/h2&gt;
-&lt;p&gt;The single biggest performance factor is formula count. Each OfficeConnect formula is a separate server call during refresh.&lt;/p&gt;</description></item><item><title>Secure OfficeConnect Workbooks</title><link>https://officeconnectpro.com/get-started/admin/govern/secure-workbooks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/admin/govern/secure-workbooks/</guid><description>&lt;h2 id="automatic-timeout"&gt;Automatic timeout&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Reduce the number of OfficeConnect formulas&lt;/strong&gt;
+ &lt;p&gt;The single biggest performance factor is formula count. Each OfficeConnect formula is a separate server call during refresh.&lt;/p&gt;</description></item><item><title>Secure OfficeConnect Workbooks</title><link>https://officeconnectpro.com/get-started/admin/govern/secure-workbooks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/admin/govern/secure-workbooks/</guid><description>&lt;h2 id="automatic-timeout"&gt;Automatic timeout&lt;/h2&gt;
 &lt;p&gt;Workday OfficeConnect uses a session timeout to keep your reports secure. If you haven&amp;rsquo;t refreshed your report in &lt;strong&gt;60 minutes&lt;/strong&gt; (or your configured timeout period), OfficeConnect prompts you to re-authenticate the next time you try to refresh.&lt;/p&gt;
 &lt;p&gt;The timeout duration is set by your Adaptive Planning administrator.&lt;/p&gt;
 &lt;h2 id="data-clearing-on-save"&gt;Data clearing on save&lt;/h2&gt;
@@ -1228,15 +1231,19 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
 &lt;li&gt;A report showing a balance or variance you want to investigate&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id="1-find-journal-source-elements-in-the-reporting-pane"&gt;1. Find journal source elements in the Reporting pane&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Open the OfficeConnect Reporting pane. Expand &lt;strong&gt;Filters&lt;/strong&gt; (or &lt;strong&gt;Journal Sources&lt;/strong&gt;, depending on your OfficeConnect version). You should see a list of journal sources configured in your Workday tenant — typically including: &lt;strong&gt;Manual Journal&lt;/strong&gt;, &lt;strong&gt;Accounts Payable&lt;/strong&gt;, &lt;strong&gt;Accounts Receivable&lt;/strong&gt;, &lt;strong&gt;Payroll&lt;/strong&gt;, &lt;strong&gt;Fixed Assets&lt;/strong&gt;, &lt;strong&gt;Intercompany&lt;/strong&gt;, and &lt;strong&gt;System&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;If you don&amp;rsquo;t see a journal source filter, confirm with your OfficeConnect admin that the Financials data source is configured to expose journal source dimensions.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="2-build-a-journal-source-comparison-report"&gt;2. Build a journal source comparison report&lt;/h2&gt;
-&lt;ol start="3"&gt;
-&lt;li&gt;
-&lt;p&gt;Set up a basic account report:&lt;/p&gt;</description></item><item><title>Publish a Report to PowerPoint</title><link>https://officeconnectpro.com/get-started/build-reports/publish-to-powerpoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/publish-to-powerpoint/</guid><description>&lt;p&gt;This tutorial covers linking an OfficeConnect Excel report into a PowerPoint presentation. Once linked, refreshing OfficeConnect in Excel automatically updates the numbers in your slides — no copy-pasting needed.&lt;/p&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Find journal source elements in the Reporting pane&lt;/strong&gt;
+ Open the OfficeConnect Reporting pane. Expand &lt;strong&gt;Filters&lt;/strong&gt; (or &lt;strong&gt;Journal Sources&lt;/strong&gt;, depending on your OfficeConnect version). You should see a list of journal sources configured in your Workday tenant — typically including: &lt;strong&gt;Manual Journal&lt;/strong&gt;, &lt;strong&gt;Accounts Payable&lt;/strong&gt;, &lt;strong&gt;Accounts Receivable&lt;/strong&gt;, &lt;strong&gt;Payroll&lt;/strong&gt;, &lt;strong&gt;Fixed Assets&lt;/strong&gt;, &lt;strong&gt;Intercompany&lt;/strong&gt;, and &lt;strong&gt;System&lt;/strong&gt;. If you don&amp;rsquo;t see a journal source filter, confirm with your OfficeConnect admin that the Financials data source is configured to expose journal source dimensions.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Build a journal source comparison report&lt;/strong&gt;
+ &lt;p&gt;Set up a basic account report:&lt;/p&gt;</description></item><item><title>Publish a Report to PowerPoint</title><link>https://officeconnectpro.com/get-started/build-reports/publish-to-powerpoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/publish-to-powerpoint/</guid><description>&lt;p&gt;This tutorial covers linking an OfficeConnect Excel report into a PowerPoint presentation. Once linked, refreshing OfficeConnect in Excel automatically updates the numbers in your slides — no copy-pasting needed.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A finished OfficeConnect Excel report with data populated (&lt;a href="https://officeconnectpro.com/get-started/build-reports/build-first-report/"&gt;Build Your First Report&lt;/a&gt;)&lt;/li&gt;
@@ -1265,21 +1272,27 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
 &lt;li&gt;Knowledge of which worktags your organization uses (ask your Workday admin if unsure)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id="1-find-worktag-dimensions-in-the-reporting-pane"&gt;1. Find worktag dimensions in the Reporting pane&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Open the OfficeConnect Reporting pane and expand &lt;strong&gt;Dimensions&lt;/strong&gt; (or &lt;strong&gt;Worktags&lt;/strong&gt;). You should see your organization&amp;rsquo;s configured worktags — common ones include: &lt;strong&gt;Cost Center&lt;/strong&gt;, &lt;strong&gt;Fund&lt;/strong&gt;, &lt;strong&gt;Program&lt;/strong&gt;, &lt;strong&gt;Project&lt;/strong&gt;, &lt;strong&gt;Grant&lt;/strong&gt;, &lt;strong&gt;Region&lt;/strong&gt;, and custom worktags.&lt;/li&gt;
-&lt;li&gt;Each worktag has members — for example, Cost Center might list CC-1001 (Sales), CC-1002 (Marketing), etc.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="2-filter-a-report-by-a-single-worktag"&gt;2. Filter a report by a single worktag&lt;/h2&gt;
-&lt;ol start="3"&gt;
-&lt;li&gt;Build a basic account report with an Actuals version and a reporting period.&lt;/li&gt;
-&lt;li&gt;To filter by a single worktag: drag a Cost Center member (for example, &lt;strong&gt;CC-1001&lt;/strong&gt;) into any empty header cell. This applies a filter to all OfficeConnect formulas in the workbook — all values now reflect only transactions tagged to CC-1001.&lt;/li&gt;
-&lt;li&gt;Click &lt;strong&gt;Refresh&lt;/strong&gt;. All account balances update to show only CC-1001 activity.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="3-combine-multiple-worktags"&gt;3. Combine multiple worktags&lt;/h2&gt;
-&lt;ol start="6"&gt;
-&lt;li&gt;
-&lt;p&gt;To filter by two worktags simultaneously — for example, CC-1001 AND Fund ABC:&lt;/p&gt;</description></item><item><title>Why Your Refresh Shows 'Contact Technical Support'</title><link>https://officeconnectpro.com/reference/troubleshoot/refresh-contact-support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/reference/troubleshoot/refresh-contact-support/</guid><description>&lt;p&gt;You click &lt;strong&gt;Refresh&lt;/strong&gt; in Workday OfficeConnect. After 5-30 seconds, a dialog appears:&lt;/p&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Find worktag dimensions in the Reporting pane&lt;/strong&gt;
+ Open the OfficeConnect Reporting pane and expand &lt;strong&gt;Dimensions&lt;/strong&gt; (or &lt;strong&gt;Worktags&lt;/strong&gt;). You should see your organization&amp;rsquo;s configured worktags — common ones include: &lt;strong&gt;Cost Center&lt;/strong&gt;, &lt;strong&gt;Fund&lt;/strong&gt;, &lt;strong&gt;Program&lt;/strong&gt;, &lt;strong&gt;Project&lt;/strong&gt;, &lt;strong&gt;Grant&lt;/strong&gt;, &lt;strong&gt;Region&lt;/strong&gt;, and custom worktags. Each worktag has members — for example, Cost Center might list CC-1001 (Sales), CC-1002 (Marketing), etc.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Filter a report by a single worktag&lt;/strong&gt;
+ Build a basic account report with an Actuals version and a reporting period. To filter by a single worktag, drag a Cost Center member (for example, &lt;strong&gt;CC-1001&lt;/strong&gt;) into any empty header cell. This applies a filter to all OfficeConnect formulas in the workbook — all values now reflect only transactions tagged to CC-1001. Click &lt;strong&gt;Refresh&lt;/strong&gt;. All account balances update to show only CC-1001 activity.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Combine multiple worktags&lt;/strong&gt;
+ &lt;p&gt;To filter by two worktags simultaneously — for example, CC-1001 AND Fund ABC:&lt;/p&gt;</description></item><item><title>Why Your Refresh Shows 'Contact Technical Support'</title><link>https://officeconnectpro.com/reference/troubleshoot/refresh-contact-support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/reference/troubleshoot/refresh-contact-support/</guid><description>&lt;p&gt;You click &lt;strong&gt;Refresh&lt;/strong&gt; in Workday OfficeConnect. After 5-30 seconds, a dialog appears:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&amp;ldquo;Refresh failed. Please contact technical support.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1301,8 +1314,51 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
 &lt;li&gt;Access to Workday Report Writer or a Workday financial report for comparison&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id="1-confirm-youre-comparing-the-same-period"&gt;1. Confirm you&amp;rsquo;re comparing the same period&lt;/h2&gt;
-&lt;p&gt;The most common cause of discrepancies is a period definition mismatch.&lt;/p&gt;</description></item><item><title>Designing a Board Pack Template in Workday OfficeConnect</title><link>https://officeconnectpro.com/get-started/word-powerpoint/powerpoint/board-pack-template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/word-powerpoint/powerpoint/board-pack-template/</guid><description>&lt;p&gt;The monthly board pack is the most visible artifact your FP&amp;amp;A team ships. Done well, the entire deck refreshes from the OfficeConnect Excel workbook in five minutes; done poorly, a junior analyst spends two days re-pasting tables. This article walks through a reusable template design that&amp;rsquo;s biased toward the five-minute version.&lt;/p&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Confirm you&amp;#39;re comparing the same period&lt;/strong&gt;
+ The most common cause of discrepancies is a period definition mismatch. In your OfficeConnect workbook, note the exact period element you&amp;rsquo;ve dragged into the time context cell. Click the cell and check the element details in the Reporting pane — is it a month, a quarter, or a fiscal year? Is it calendar year or fiscal year? In Workday Report Writer, check the &lt;strong&gt;Accounting Date&lt;/strong&gt; range or period parameter used to run the report. Workday may default to calendar month while OfficeConnect is set to a fiscal period, or vice versa. Set both to the identical period definition and refresh. If the figures converge, period was the cause.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Check effective date settings&lt;/strong&gt;
+ OfficeConnect supports effective-date reporting, which reflects the organization structure as of a specific date rather than the posting date of transactions. If OfficeConnect is set to an effective date that differs from Report Writer&amp;rsquo;s configuration, cost center or department allocations may differ. In the Reporting pane, check whether an effective date element is applied to the workbook. Remove it to revert to the default posting-date view, then compare to Report Writer.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Verify account scope&lt;/strong&gt;
+ Confirm that the accounts in your OfficeConnect report match exactly what the Workday report includes. OfficeConnect rollup accounts aggregate all child accounts — if Workday&amp;rsquo;s report uses a different account grouping, figures will differ. Build a side-by-side: list the same leaf-level accounts in OfficeConnect (not rollups) and compare each one to the same account line in Workday. This isolates which account has the discrepancy, narrowing the investigation.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;4&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Check company and currency filters&lt;/strong&gt;
+ If your organization has multiple companies, confirm that both OfficeConnect and Workday Report Writer are scoped to the same company. In OfficeConnect, check for a Company element in the workbook header — see &lt;a href="https://officeconnectpro.com/get-started/build-reports/financials/filter-by-company/"&gt;Filter Reports by Company&lt;/a&gt;. If your report uses currency conversion, confirm that both tools are using the same exchange rate type and conversion date. OfficeConnect supports both transaction currency and converted currency reporting — check which is active.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;5&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Check for journal sources excluded by Report Writer&lt;/strong&gt;
+ Some Workday reports are configured to exclude certain journal sources (for example, intercompany elimination entries or system-generated allocations). OfficeConnect by default includes all journal sources. To scope OfficeConnect to match, apply a journal source filter — see &lt;a href="https://officeconnectpro.com/get-started/build-reports/financials/variance-by-journal-source/"&gt;Variance Analysis by Journal Source&lt;/a&gt;.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;6&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;When you can&amp;#39;t find the cause&lt;/strong&gt;
+ &lt;p&gt;If the figures still don&amp;rsquo;t reconcile after checking all of the above, collect the following and share with your Workday admin or OfficeConnect support:&lt;/p&gt;</description></item><item><title>Designing a Board Pack Template in Workday OfficeConnect</title><link>https://officeconnectpro.com/get-started/word-powerpoint/powerpoint/board-pack-template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/word-powerpoint/powerpoint/board-pack-template/</guid><description>&lt;p&gt;The monthly board pack is the most visible artifact your FP&amp;amp;A team ships. Done well, the entire deck refreshes from the OfficeConnect Excel workbook in five minutes; done poorly, a junior analyst spends two days re-pasting tables. This article walks through a reusable template design that&amp;rsquo;s biased toward the five-minute version.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A 14-slide PowerPoint board pack template with linked tables and charts pulling from one OfficeConnect Excel workbook. Refresh discipline is built in.&lt;/p&gt;</description></item><item><title>Build a Budget vs. Actuals Variance Report</title><link>https://officeconnectpro.com/get-started/build-reports/budget-vs-actuals-variance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/budget-vs-actuals-variance/</guid><description>&lt;p&gt;A budget vs. actuals variance report puts your plan and your reality in the same view. This tutorial walks through building one in OfficeConnect with a variance column that calculates automatically in Excel.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A report with monthly actuals and budget columns for each account, plus a variance column showing the difference — all refreshable from Adaptive Planning.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
@@ -1919,13 +1975,11 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
 &lt;li&gt;Familiarity with building basic reports — see &lt;a href="https://officeconnectpro.com/get-started/build-reports/budget-vs-actuals-variance/"&gt;Budget vs. Actuals Variance&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id="1-find-your-custom-dimensions-in-the-reporting-pane"&gt;1. Find your custom dimensions in the Reporting pane&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Open the OfficeConnect Reporting pane. Scroll down past Accounts, Versions, Time, and Levels to find the &lt;strong&gt;Custom Dimensions&lt;/strong&gt; section (it may also appear as &lt;strong&gt;Dimensions&lt;/strong&gt; depending on your OfficeConnect version).&lt;/li&gt;
-&lt;li&gt;Expand &lt;strong&gt;Custom Dimensions&lt;/strong&gt; to see the dimensions your model administrator has defined. Each dimension has members — for example, a &amp;ldquo;Region&amp;rdquo; dimension might have members: North America, EMEA, APAC.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Custom dimensions are model-specific. If you don&amp;rsquo;t see a &lt;strong&gt;Custom Dimensions&lt;/strong&gt; section, your model may not have any configured. Contact your Adaptive Planning model administrator to confirm.&lt;/p&gt;</description></item><item><title>Workday OfficeConnect on Mac: The VDI Workflow</title><link>https://officeconnectpro.com/reference/troubleshoot/mac-vdi-workflow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/reference/troubleshoot/mac-vdi-workflow/</guid><description>&lt;p&gt;The native Mac version of Workday OfficeConnect (Excel for Mac JavaScript add-in) supports most reporting workflows, but a few power-user features remain Windows-only — most notably Power Automate Desktop integration, configurable refresh shortcuts, and the broadest set of add-in interop. For Mac users who need parity with their Windows colleagues, a VDI (virtual desktop infrastructure) is the established workaround.&lt;/p&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Find your custom dimensions in the Reporting pane&lt;/strong&gt;
+ &lt;p&gt;Open the OfficeConnect Reporting pane. Scroll down past Accounts, Versions, Time, and Levels to find the &lt;strong&gt;Custom Dimensions&lt;/strong&gt; section (it may also appear as &lt;strong&gt;Dimensions&lt;/strong&gt; depending on your OfficeConnect version). Expand &lt;strong&gt;Custom Dimensions&lt;/strong&gt; to see the dimensions your model administrator has defined. Each dimension has members — for example, a &amp;ldquo;Region&amp;rdquo; dimension might have members: North America, EMEA, APAC.&lt;/p&gt;</description></item><item><title>Workday OfficeConnect on Mac: The VDI Workflow</title><link>https://officeconnectpro.com/reference/troubleshoot/mac-vdi-workflow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/reference/troubleshoot/mac-vdi-workflow/</guid><description>&lt;p&gt;The native Mac version of Workday OfficeConnect (Excel for Mac JavaScript add-in) supports most reporting workflows, but a few power-user features remain Windows-only — most notably Power Automate Desktop integration, configurable refresh shortcuts, and the broadest set of add-in interop. For Mac users who need parity with their Windows colleagues, a VDI (virtual desktop infrastructure) is the established workaround.&lt;/p&gt;
 &lt;p&gt;This article compares the three realistic options and walks through the simplest setup.&lt;/p&gt;</description></item><item><title>Build an Investor Letter Template with Workday OfficeConnect for Word</title><link>https://officeconnectpro.com/get-started/word-powerpoint/word/investor-letter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/word-powerpoint/word/investor-letter/</guid><description>&lt;p&gt;The CEO&amp;rsquo;s quarterly investor letter is part narrative, part numbers. The narrative changes; the numbers are the same fields every quarter — revenue, growth, margin, cash, headcount, segment results. Templating it once means subsequent quarters take an hour instead of a day, and the numbers can&amp;rsquo;t go out wrong.&lt;/p&gt;
 &lt;p&gt;This guide walks through building a reusable investor-letter Word template with Workday OfficeConnect-linked cells. It builds on the same pattern as &lt;a href="https://officeconnectpro.com/get-started/word-powerpoint/word/mda-automated-draft/"&gt;MD&amp;amp;A Automated Draft&lt;/a&gt;; the difference is voice and structure.&lt;/p&gt;</description></item><item><title>Build a Quarterly Board Pack</title><link>https://officeconnectpro.com/get-started/build-reports/quarterly-board-pack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/quarterly-board-pack/</guid><description>&lt;p&gt;A board pack is the quarterly artifact every finance team produces and the one most prone to last-minute spreadsheet panic. This tutorial walks through building a structured, multi-sheet Workday OfficeConnect workbook that acts as the single source for your quarterly board deck — P&amp;amp;L summary, KPI page, variance commentary, and cash snapshot — with each tab designed to link directly into PowerPoint.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A four-tab Excel workbook (P&amp;amp;L, KPIs, Variance, Cash) with consistent formatting, refreshable from Adaptive Planning, and ready to link to slides.&lt;/p&gt;</description></item><item><title>Recovering Broken Links in a Workday OfficeConnect PowerPoint Deck</title><link>https://officeconnectpro.com/get-started/word-powerpoint/powerpoint/recovering-broken-links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/word-powerpoint/powerpoint/recovering-broken-links/</guid><description>&lt;p&gt;A linked PowerPoint deck breaks the first time someone moves the source Excel workbook, renames a named range, or saves a copy under a new filename without updating the deck. This article documents how to recognize a broken link and the cheapest fix.&lt;/p&gt;

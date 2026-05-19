@@ -14,39 +14,41 @@ Workday OfficeConnect reports can slow down significantly when workbooks contain
 
 ---
 
-## 1. Reduce the number of OfficeConnect formulas
-
+{{< step n="1" title="Reduce the number of OfficeConnect formulas" >}}
 The single biggest performance factor is formula count. Each OfficeConnect formula is a separate server call during refresh.
 
-1. **Use rollup accounts instead of leaf accounts.** If you're reporting on 50 leaf-level expense accounts when a single "Total Operating Expenses" rollup account would suffice, replace them. One rollup formula = one server call instead of 50.
-2. **Delete unused rows and columns.** Workbooks accumulate leftover OfficeConnect formulas in hidden rows or off-screen columns. Select unused areas, delete the cells entirely (not just clear contents), and save.
-3. **Consolidate time contexts.** If every data cell has its own Time element, replace them with a single Time element in the header row that all data cells reference. OfficeConnect reads the shared element rather than re-querying time for each cell.
+- **Use rollup accounts instead of leaf accounts.** If you're reporting on 50 leaf-level expense accounts when a single "Total Operating Expenses" rollup account would suffice, replace them. One rollup formula = one server call instead of 50.
+- **Delete unused rows and columns.** Workbooks accumulate leftover OfficeConnect formulas in hidden rows or off-screen columns. Select unused areas, delete the cells entirely (not just clear contents), and save.
+- **Consolidate time contexts.** If every data cell has its own Time element, replace them with a single Time element in the header row that all data cells reference. OfficeConnect reads the shared element rather than re-querying time for each cell.
+{{< /step >}}
 
-## 2. Use summary time periods instead of month-by-month
+{{< step n="2" title="Use summary time periods instead of month-by-month" >}}
+A report showing 24 monthly columns (2 years of months) makes many more server calls than a report showing 8 quarterly columns covering the same period. If your use case allows quarterly or annual granularity, switch to it — refresh time drops proportionally.
 
-4. A report showing 24 monthly columns (2 years of months) makes many more server calls than a report showing 8 quarterly columns covering the same period. If your use case allows quarterly or annual granularity, switch to it — refresh time drops proportionally.
-5. For trend reports that must show months, consider building two separate sheets: a summary sheet with quarterly data (fast refresh, for sharing) and a detail sheet with monthly data (slower, used only when drilling in).
+For trend reports that must show months, consider building two separate sheets: a summary sheet with quarterly data (fast refresh, for sharing) and a detail sheet with monthly data (slower, used only when drilling in).
+{{< /step >}}
 
-## 3. Enable background refresh
+{{< step n="3" title="Enable background refresh" >}}
+In the OfficeConnect ribbon, click **Workbook Properties**. Look for a **Refresh** section and enable **Background Refresh** if available in your version. Background refresh lets Excel remain responsive while the data loads, instead of freezing the UI.
+{{< /step >}}
 
-6. In the OfficeConnect ribbon, click **Workbook Properties**. Look for a **Refresh** section and enable **Background Refresh** if available in your version. Background refresh lets Excel remain responsive while the data loads, instead of freezing the UI.
+{{< step n="4" title="Avoid volatile Excel functions in the same sheet" >}}
+Excel functions like `NOW()`, `TODAY()`, `RAND()`, and `OFFSET()` recalculate on every keystroke, which can trigger OfficeConnect recalculations repeatedly. Move these functions to a separate sheet, or replace them with static values where possible.
+{{< /step >}}
 
-## 4. Avoid volatile Excel functions in the same sheet
-
-7. Excel functions like `NOW()`, `TODAY()`, `RAND()`, and `OFFSET()` recalculate on every keystroke, which can trigger OfficeConnect recalculations repeatedly. Move these functions to a separate sheet, or replace them with static values where possible.
-
-## 5. Limit the Level scope
-
-8. If your report pulls data for all Levels (all departments) in a large org hierarchy, consider adding a Level filter to scope it to the levels your audience actually needs. A report scoped to a single division refreshes much faster than one showing all 200 cost centers.
+{{< step n="5" title="Limit the Level scope" >}}
+If your report pulls data for all Levels (all departments) in a large org hierarchy, consider adding a Level filter to scope it to the levels your audience actually needs. A report scoped to a single division refreshes much faster than one showing all 200 cost centers.
+{{< /step >}}
 
 > **Tip:** Use the Cell Explorer (OfficeConnect ribbon → **Cell Explorer**) to inspect any slow-refreshing cell. It shows exactly which elements the formula is querying — account, version, time, level, and dimensions. This is the fastest way to spot an unexpectedly broad query.
 
-## 6. Check your network and tenant performance
+{{< step n="6" title="Check your network and tenant performance" >}}
+Workday OfficeConnect refresh performance is partly determined by Adaptive Planning server response time. If refresh is slow even on a simple workbook, check:
 
-9. Workday OfficeConnect refresh performance is partly determined by Adaptive Planning server response time. If refresh is slow even on a simple workbook, check:
-   - Whether other users are running large reports or processes on the tenant at the same time (peak usage hours are slower)
-   - Your network connection to Workday's servers (VPN can add latency)
-   - Whether your Adaptive Planning model has recently been optimized (contact your admin)
+- Whether other users are running large reports or processes on the tenant at the same time (peak usage hours are slower)
+- Your network connection to Workday's servers (VPN can add latency)
+- Whether your Adaptive Planning model has recently been optimized (contact your admin)
+{{< /step >}}
 
 ## Result
 

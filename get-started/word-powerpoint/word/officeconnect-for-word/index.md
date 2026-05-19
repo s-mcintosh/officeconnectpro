@@ -58,20 +58,35 @@ All linked data updates from the Excel workbook.
 
 If you save your Excel workbook under a new filename for each period (e.g., `Board_Report_Q3_2025.xlsx`):
 
-1. In the OfficeConnect tab, click **Manage Links**
-2. Check the links you want to update
-3. Click **Change Source** and browse to the new file
-4. Click **Close**
+{{< step n="1" title="Click Manage Links in the OfficeConnect tab" >}}
+In Word, open the **OfficeConnect** tab and click **Manage Links**.
+{{< /step >}}
 
-Because the new file is a copy of the old one, the named ranges are identical and the links transfer cleanly.
+{{< step n="2" title="Check the links you want to update" >}}
+Select the checkboxes next to the links that need to point to the new file.
+{{< /step >}}
+
+{{< step n="3" title="Click Change Source and browse to the new file" >}}
+Click **Change Source**, navigate to the new workbook, and open it.
+{{< /step >}}
+
+{{< step n="4" title="Click Close" >}}
+Click **Close** to apply the change. Because the new file is a copy of the old one, the named ranges are identical and the links transfer cleanly.
+{{< /step >}}
 
 ## Disconnect a link
 
-1. In the OfficeConnect tab, click **Manage Links**
-2. Check the link(s) to disconnect
-3. Click **Break Link**
+{{< step n="1" title="Click Manage Links in the OfficeConnect tab" >}}
+In Word, open the **OfficeConnect** tab and click **Manage Links**.
+{{< /step >}}
 
-The data remains in the document as static text/table, but no longer updates from Excel.
+{{< step n="2" title="Check the links to disconnect" >}}
+Select the checkboxes next to the link or links you want to break.
+{{< /step >}}
+
+{{< step n="3" title="Click Break Link" >}}
+Click **Break Link**. The data remains in the document as static text or table, but no longer updates from Excel.
+{{< /step >}}
 
 ## Result
 
