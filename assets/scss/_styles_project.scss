@@ -159,3 +159,45 @@ $oc-radius: 6px;
     line-height: 1.4;
   }
 }
+
+// -----------------------------------------------------------------------------
+// Step blocks ({{< step n="1" title="..." >}} shortcode)
+// -----------------------------------------------------------------------------
+.step-block {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin: 1.25rem 0;
+
+  .step-number {
+    flex: 0 0 2rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: #f59e0b;
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.95rem;
+    line-height: 2rem;
+    text-align: center;
+    margin-top: 0.1rem;
+  }
+
+  .step-content {
+    flex: 1;
+
+    > strong:first-child {
+      display: block;
+      font-size: 1rem;
+      margin-bottom: 0.35rem;
+    }
+
+    > p:last-child { margin-bottom: 0; }
+
+    // Sub-lists inside steps — indent slightly and use a smaller bullet
+    ol, ul {
+      margin-top: 0.4rem;
+      padding-left: 1.25rem;
+    }
+  }
+}
