@@ -11,7 +11,7 @@ description: >
 OfficeConnectPro is an independent site and is not affiliated with, endorsed by, or connected to Workday, Inc. in any way. See the [Legal Disclaimer](/about/disclaimer/) for full details.
 {{< /tip >}}
 
-OfficeConnectPro is an independent documentation site for Workday OfficeConnect. Workday's official docs have always been scattered and hard to navigate, so this site exists to give practitioners one clear, honest place to find answers — whether you're building your first report, managing a deployment, or troubleshooting something that's gone sideways.
+OfficeConnectPro is an independent documentation and video resource built by practitioners, for practitioners — and it will always be completely free. Most OfficeConnect content that exists today was produced by vendors and consultants with a product to sell, making it difficult for everyday users to find honest, practical guidance without sitting through a sales pitch. This site exists to change that. Whether you are configuring your first report, managing a company-wide deployment, or troubleshooting something that has gone sideways at the worst possible time, OfficeConnectPro is here to give you clear, approachable answers with no agenda attached. The community of people who rely on OfficeConnect every day knows this tool better than anyone else, and this platform is built on that knowledge — shared openly, maintained collaboratively, and free to everyone who needs it.
 
 ## Helpful resources
 
