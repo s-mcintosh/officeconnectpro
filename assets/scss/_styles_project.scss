@@ -6,6 +6,7 @@
   font-family: 'Caveat', cursive;
   font-weight: 400;
   font-size: 1.15em; // slightly larger to match visual weight of surrounding text
+  margin-right: 0.2em;
   transition: opacity 0.3s ease, transform 0.3s ease;
 
   &.oc-cycle--out {
