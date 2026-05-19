@@ -5,9 +5,11 @@
   display: inline-block;
   font-family: 'Caveat', cursive;
   font-weight: 400;
-  font-size: 1.15em; // slightly larger to match visual weight of surrounding text
+  font-size: 1.15em;
   margin-right: 0.2em;
   color: #f59e0b;
+  text-align: center;
+  vertical-align: bottom; // keep baseline stable while width is locked
   transition: opacity 0.3s ease, transform 0.3s ease;
 
   &.oc-cycle--out {
@@ -44,8 +46,11 @@
   }
   &::after {
     content: "Pro";
-    font-size: 1rem;
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    font-size: 1.2rem;
     color: #f59e0b;
+    vertical-align: baseline;
   }
 }
 
