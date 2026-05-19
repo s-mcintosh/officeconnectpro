@@ -43,5 +43,5 @@ OfficeConnect stores data in formula cells. When you click Refresh, OfficeConnec
 
 ## Related
 
-- [Share via Teams & SharePoint](/share-publish/share-teams-sharepoint-onedrive/) — distribute the protected workbook
-- [Secure Workbooks](/connect/secure-workbooks/) — additional security options at the tenant level
+- [Share via Teams & SharePoint](/build-reports/share-teams-sharepoint-onedrive/) — distribute the protected workbook
+- [Secure Workbooks](/get-started/secure-workbooks/) — additional security options at the tenant level

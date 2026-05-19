@@ -48,4 +48,4 @@ Recipients with OfficeConnect can click **Refresh** to load their data view.
 
 ## Next steps
 
-→ [OfficeConnect for PowerPoint](/share-publish/officeconnect-for-powerpoint/) — embed live charts and tables in presentations
+→ [OfficeConnect for PowerPoint](/build-reports/officeconnect-for-powerpoint/) — embed live charts and tables in presentations

@@ -50,4 +50,4 @@ Users can sign in to OfficeConnect using their Workday credentials. They'll see 
 
 ## Next steps
 
-→ [Deploy Tenants via Registry](/connect/deploy-tenants-registry/) to push tenant configuration to user machines automatically
+→ [Deploy Tenants via Registry](/get-started/deploy-tenants-registry/) to push tenant configuration to user machines automatically

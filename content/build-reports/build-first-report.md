@@ -32,7 +32,7 @@ Open Excel. On the **OfficeConnect** ribbon tab, click **Open Pane**. The Report
 {{< /step >}}
 
 {{< step n="2" title="Sign in if prompted" >}}
-If the pane shows a sign-in prompt, click **Sign In** and complete the Workday authentication flow. See [Sign In and Create a Tenant](/connect/sign-in-create-tenant/) if you need help.
+If the pane shows a sign-in prompt, click **Sign In** and complete the Workday authentication flow. See [Sign In and Create a Tenant](/get-started/sign-in-create-tenant/) if you need help.
 {{< /step >}}
 
 {{< figure src="/images/screenshots/oc-reporting-pane-open.png" alt="The OfficeConnect Reporting pane open in Excel" caption="The Reporting pane docked to the right after clicking Open Pane, with the Elements tab active." >}}
@@ -93,4 +93,4 @@ Save the file as a standard `.xlsx`. The OfficeConnect formulas are preserved an
 
 - **Add filters** to scope data to a specific department or cost center — see [Filter Data](/build-reports/filter-data/)
 - **Repeat rows** to build multi-account reports automatically — see [Repeating Reports](/build-reports/repeating-reports/)
-- **Share the report** with a colleague via SharePoint — see [Share via Teams & SharePoint](/share-publish/share-teams-sharepoint-onedrive/)
+- **Share the report** with a colleague via SharePoint — see [Share via Teams & SharePoint](/build-reports/share-teams-sharepoint-onedrive/)

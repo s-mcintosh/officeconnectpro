@@ -96,6 +96,6 @@ Click **Refresh** in the OfficeConnect ribbon to populate the latest figures. Th
 
 ## Next steps
 
-- Share the PDF automatically — see [Share via Teams & SharePoint](/share-publish/share-teams-sharepoint-onedrive/)
+- Share the PDF automatically — see [Share via Teams & SharePoint](/build-reports/share-teams-sharepoint-onedrive/)
 - Schedule the refresh automatically — see [Refresh Reports Automatically with Power Automate](/build-reports/refresh-with-power-automate/)
-- Add it to a PowerPoint deck — see [OfficeConnect for PowerPoint](/share-publish/officeconnect-for-powerpoint/)
+- Add it to a PowerPoint deck — see [OfficeConnect for PowerPoint](/build-reports/officeconnect-for-powerpoint/)

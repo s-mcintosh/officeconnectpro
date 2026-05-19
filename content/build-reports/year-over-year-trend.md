@@ -97,4 +97,4 @@ Click **Refresh** in the OfficeConnect ribbon. Both years of data populate. Chec
 
 - Add a rolling 12-month view alongside fixed years — see [Create a Rolling 12-Month Report](/build-reports/rolling-12-month-report/)
 - Compare budget and actuals for the same period — see [Budget vs. Actuals Variance](/build-reports/budget-vs-actuals-variance/)
-- Share the finished report — see [Share via Teams & SharePoint](/share-publish/share-teams-sharepoint-onedrive/)
+- Share the finished report — see [Share via Teams & SharePoint](/build-reports/share-teams-sharepoint-onedrive/)

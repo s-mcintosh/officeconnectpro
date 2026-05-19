@@ -10,12 +10,9 @@ Live at **[officeconnectpro.com](https://officeconnectpro.com)**
 
 | Section | Description |
 |---|---|
-| [Get Started](content/get-started/) | System requirements, installation (admin and end-user), first sign-in, and Financials data model setup |
-| [Connect](content/connect/) | Tenant setup, Workday SSO, multi-instance configs, and registry deployment |
-| [Build Reports](content/build-reports/) | Adding elements, filters, time contexts, cell explorer, and workbook properties |
-| [Share & Publish](content/share-publish/) | Distributing reports via Teams, SharePoint, PowerPoint, and Word |
+| [Get Started](content/get-started/) | System requirements, installation (admin and end-user), first sign-in, tenant setup, SSO, registry deployment, and Financials data model setup |
+| [Build Reports](content/build-reports/) | Adding elements, filters, time contexts, cell explorer, workbook properties, sharing, and publishing to PowerPoint and Word |
 | [Troubleshoot](content/troubleshoot/) | Common errors and fixes |
-| [Tutorials](content/tutorials/) | End-to-end walkthroughs for real-world reporting scenarios |
 
 ---
 
