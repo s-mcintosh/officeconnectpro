@@ -38,10 +38,5 @@ Glossary, formula reference, version compatibility, troubleshooting guides, rele
 <a href="/tags/sharing/" class="btn btn-outline-primary m-1">Sharing</a>
 <a href="/tags/security/" class="btn btn-outline-primary m-1">Security</a>
 </p>
-<p class="mt-4 mb-0"><strong>Or browse by audience:</strong></p>
-<p class="mt-2">
-<a href="/tags/fpna/" class="btn btn-outline-primary m-1">FPnA</a>
-<a href="/tags/system-admin/" class="btn btn-outline-primary m-1">System Admin</a>
-</p>
 </div>
 {{< /blocks/section >}}
