@@ -7,33 +7,36 @@ description: >
   How OfficeConnectPro started, what we're trying to build, and who's behind it.
 ---
 
-## Why we built this
+OfficeConnectPro is an independent documentation and tutorial site for Workday OfficeConnect — written by practitioners, for practitioners.
 
-Workday OfficeConnect is a powerful tool — but documentation for it has always been scattered, shallow, or locked behind support tickets. FP&A teams spend hours figuring out things that should take minutes. System admins deploy it without a clear guide. And the gap between "it's installed" and "we're actually getting value from it" is wider than it should be.
+## Why this exists
 
-OfficeConnectPro exists to close that gap. Everything here is written for people who are actually using the product — not for people selling it.
+Workday OfficeConnect is a capable tool, but its documentation has always been scattered, shallow, or buried in support portals. FP&A teams spend hours figuring out things that should take minutes. System admins deploy it without a clear runbook. The gap between "it's installed" and "we're getting real value from it" is wider than it should be.
 
-## What you'll find here
+This site exists to close that gap — with honest, hands-on guidance that assumes you're actually using the product, not evaluating it.
 
-- **Step-by-step guides** for end users, system admins, and consultants
-- **Deep Financials coverage** — general ledger reporting, multi-entity consolidations, reconciliation workflows
-- **Admin runbooks** — deployment, SSO configuration, governance, and upgrade management
-- **Honest troubleshooting** — real fixes for real errors, not generic "contact support" advice
-- **Comparisons and migration guides** — to help teams evaluate OfficeConnect against alternatives or migrate from legacy tools
+## What's covered
+
+| Section | What you'll find |
+|---|---|
+| **Get Started** | Installation, first report, system requirements, version management |
+| **Build Reports** | Elements, filters, Financials GL reporting, templates, and advanced patterns |
+| **Word & PowerPoint** | Linked board books, decks, and narratives that refresh automatically |
+| **Data Entry** | Write-back to Workday Adaptive Planning from Excel (2025R1+) |
+| **System Admins** | Deployment, SSO, governance, upgrade management |
+| **Reference** | Troubleshooting, release notes, version compatibility, glossary |
 
 ## Who this is for
 
-This site is primarily written for:
+- **FP&A analysts and managers** — building and maintaining live Excel reports against Workday Adaptive Planning or Financials
+- **System administrators and IT teams** — deploying, securing, and upgrading OfficeConnect at scale
+- **Workday consultants** — implementing OfficeConnect for clients and needing a reliable reference
 
-- **FP&A analysts and managers** building reports and managing data entry in Excel
-- **System administrators and IT teams** deploying and governing OfficeConnect at scale
-- **Workday consultants** implementing OfficeConnect for clients
+## A note on accuracy
 
-## About the content
-
-All articles are written based on hands-on experience with Workday OfficeConnect. Where we're not certain about something, we say so. If you spot an error or have a correction, the **Edit this page** link on every article goes straight to GitHub — pull requests are welcome.
+Articles are based on hands-on experience with the product. When something is uncertain or version-specific, we say so. If you spot an error, use the **Edit this page** link on any article — it opens the source directly in GitHub and pull requests are welcome.
 
 ## Stay connected
 
-- **YouTube:** [youtube.com/@officeconnectpro](https://www.youtube.com/@officeconnectpro) — walkthroughs, tips, and release coverage
-- **GitHub:** [github.com/s-mcintosh/officeconnectpro](https://github.com/s-mcintosh) — source for this site
+- **YouTube** — [youtube.com/@officeconnectpro](https://www.youtube.com/@officeconnectpro) — video walkthroughs, tips, and release coverage
+- **GitHub** — [github.com/s-mcintosh/officeconnectpro](https://github.com/s-mcintosh/officeconnectpro) — source for this site
