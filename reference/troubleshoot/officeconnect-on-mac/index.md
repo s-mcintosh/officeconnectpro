@@ -32,7 +32,7 @@ Workday OfficeConnect runs on Excel for Mac (Microsoft 365 subscription required
 6. A browser window opens for Workday SSO authentication. Sign in with your Workday credentials. After successful authentication, the browser closes and the Reporting pane opens in Excel.
 7. If the browser doesn't open automatically, look for a pop-up notification in Excel and click **Allow**.
 
-See [Sign In & Create a Tenant](/get-started/admin/configure/sign-in-create-tenant/) for the full tenant setup walkthrough.
+See [Sign In & Create a Tenant](/wiki/admin/configure/sign-in-create-tenant/) for the full tenant setup walkthrough.
 
 ## 3. Build and refresh reports
 
@@ -42,7 +42,7 @@ Building reports on Mac works identically to Windows — drag elements from the 
 - Tutorials in the FP&A and Financials sections of this site apply as written
 - Keyboard shortcuts for cell navigation (Tab, Enter, arrow keys) work as expected
 
-See [Build Your First Report](/get-started/build-reports/build-first-report/) for the standard tutorial.
+See [Build Your First Report](/wiki/build-reports/build-first-report/) for the standard tutorial.
 
 ## 4. Mac-specific differences
 
@@ -63,7 +63,7 @@ Close and reopen Excel completely. If the tab is still missing, go to **Insert �
 macOS sometimes blocks the authentication pop-up. Check the Safari pop-up blocker settings or try signing in from a different browser by copying the authentication URL. If your organization uses Workday SSO through an identity provider, confirm the SSO flow supports browser-based authentication from Mac. See [Authentication Token Errors](/reference/troubleshoot/authentication-token-errors/).
 
 **Refresh is slower than on Windows:**
-Excel for Mac add-ins run in a sandboxed JavaScript environment, which adds some overhead compared to the COM-based add-in on Windows. Performance is generally acceptable for standard reports; very large workbooks (200+ OfficeConnect formulas) may feel noticeably slower. See [Optimize Performance for Large Models](/get-started/performance/optimize-performance/) for techniques to reduce formula count.
+Excel for Mac add-ins run in a sandboxed JavaScript environment, which adds some overhead compared to the COM-based add-in on Windows. Performance is generally acceptable for standard reports; very large workbooks (200+ OfficeConnect formulas) may feel noticeably slower. See [Optimize Performance for Large Models](/wiki/performance/optimize-performance/) for techniques to reduce formula count.
 
 **Formulas show `#VALUE!` after opening a workbook built on Windows:**
 This usually means the workbook was saved in a format that includes Windows-specific metadata. Close and reopen the file, then click Refresh to let OfficeConnect re-resolve the formulas.
@@ -74,7 +74,7 @@ You can build, refresh, and submit Workday OfficeConnect reports from Excel for 
 
 ## Next steps
 
-- [Optimize Performance for Large Models](/get-started/performance/optimize-performance/) — if refresh feels slow on Mac.
+- [Optimize Performance for Large Models](/wiki/performance/optimize-performance/) — if refresh feels slow on Mac.
 - [Authentication Token Errors](/reference/troubleshoot/authentication-token-errors/) — if sign-in misbehaves.
-- [Get Started with OfficeConnect](/get-started/) — the broader onboarding flow.
+- [Get Started with OfficeConnect](/wiki/) — the broader onboarding flow.
 

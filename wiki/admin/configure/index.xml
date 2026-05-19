@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Configure on OfficeConnectPro</title><link>https://officeconnectpro.com/wiki/admin/configure/</link><description>Recent content in Configure on OfficeConnectPro</description><generator>Hugo</generator><language>en</language><atom:link href="https://officeconnectpro.com/wiki/admin/configure/index.xml" rel="self" type="application/rss+xml"/><item><title>Sign In &amp; Create Your First Tenant</title><link>https://officeconnectpro.com/wiki/admin/configure/sign-in-create-tenant/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/wiki/admin/configure/sign-in-create-tenant/</guid><description>&lt;p&gt;A &lt;strong&gt;tenant&lt;/strong&gt; in Workday OfficeConnect is a saved connection to a Workday instance. You create it once, and OfficeConnect remembers it for future sessions.&lt;/p&gt;
+&lt;h2 id="what-youll-need"&gt;What you&amp;rsquo;ll need&lt;/h2&gt;
+&lt;p&gt;Before you start, gather these details from your Workday administrator:&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Detail&lt;/th&gt;
+ &lt;th&gt;Where to find it&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Client ID&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Workday OfficeConnect API client&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;API Endpoint URL&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Workday OfficeConnect API client&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Authorization Endpoint URL&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Workday OfficeConnect API client&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;If your admin hasn&amp;rsquo;t yet generated these, see &lt;a href="https://officeconnectpro.com/wiki/admin/configure/workday-sso/"&gt;Set Up Workday SSO&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Work with Multiple Instances</title><link>https://officeconnectpro.com/wiki/admin/configure/multiple-instances/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/wiki/admin/configure/multiple-instances/</guid><description>&lt;p&gt;If your user ID has access to more than one Workday instance — a sandbox, a linked multi-instance hierarchy, or simply multiple tenants — Workday OfficeConnect handles them through an &lt;strong&gt;Instance&lt;/strong&gt; drop-down in the Reporting pane.&lt;/p&gt;
+&lt;h2 id="types-of-multiple-instances"&gt;Types of multiple instances&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Type&lt;/th&gt;
+ &lt;th&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Sandbox&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;A clone of your production instance. Use it for testing reports and what-if scenarios without affecting live data.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Multi-instances&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Linked instances in a hierarchical relationship that share data through account and dimension mapping.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="switching-instances"&gt;Switching instances&lt;/h2&gt;
+&lt;p&gt;When your user ID has access to multiple instances, an &lt;strong&gt;Instance&lt;/strong&gt; drop-down appears in the Reporting pane.&lt;/p&gt;</description></item><item><title>Set Up Workday SSO</title><link>https://officeconnectpro.com/wiki/admin/configure/workday-sso/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/wiki/admin/configure/workday-sso/</guid><description>&lt;div class="oc-callout oc-callout--admin admin-note" role="note"&gt;
+ &lt;div class="oc-callout__icon" aria-hidden="true"&gt;
+ &lt;i class="fas fa-wrench"&gt;&lt;/i&gt;
+ &lt;/div&gt;
+ &lt;div class="oc-callout__body"&gt;
+ &lt;strong class="oc-callout__label"&gt;For admins &amp;amp; power users&lt;/strong&gt;
+ This page requires Workday Security Administrator access. End users don&amp;rsquo;t need to do anything — SSO is configured at the tenant level by admins and power users.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="what-workday-sso-does-for-officeconnect"&gt;What Workday SSO does for OfficeConnect&lt;/h2&gt;
+&lt;p&gt;With SSO enabled, users sign in to Workday OfficeConnect using their existing Workday credentials through your identity provider. They don&amp;rsquo;t need a separate Adaptive Planning username and password.&lt;/p&gt;
+&lt;p&gt;For identity-provider-specific guides, see SSO with Okta, SSO with Microsoft Entra ID, or SSO with Ping Identity (coming soon under &lt;a href="https://officeconnectpro.com/wiki/admin/configure/"&gt;Admin → Configure&lt;/a&gt;).&lt;/p&gt;</description></item><item><title>Single Sign-On for Workday OfficeConnect with Okta</title><link>https://officeconnectpro.com/wiki/admin/configure/sso-okta/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/wiki/admin/configure/sso-okta/</guid><description>&lt;div class="oc-callout oc-callout--admin admin-note" role="note"&gt;
+ &lt;div class="oc-callout__icon" aria-hidden="true"&gt;
+ &lt;i class="fas fa-wrench"&gt;&lt;/i&gt;
+ &lt;/div&gt;
+ &lt;div class="oc-callout__body"&gt;
+ &lt;strong class="oc-callout__label"&gt;For admins &amp;amp; power users&lt;/strong&gt;
+ Requires Okta administrator access and Workday Security Administrator access. End users don&amp;rsquo;t change anything on their side; this is a tenant-level configuration.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Workday OfficeConnect doesn&amp;rsquo;t authenticate to Okta directly. Instead, OfficeConnect authenticates to Workday, and Workday uses Okta as its identity provider. This indirection is important — the configuration lives on the Workday side, not directly in OfficeConnect — and explains why many SSO problems surface as Workday auth failures rather than Okta errors.&lt;/p&gt;</description></item><item><title>Single Sign-On for Workday OfficeConnect with Microsoft Entra ID</title><link>https://officeconnectpro.com/wiki/admin/configure/sso-entra/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/wiki/admin/configure/sso-entra/</guid><description>&lt;div class="oc-callout oc-callout--admin admin-note" role="note"&gt;
+ &lt;div class="oc-callout__icon" aria-hidden="true"&gt;
+ &lt;i class="fas fa-wrench"&gt;&lt;/i&gt;
+ &lt;/div&gt;
+ &lt;div class="oc-callout__body"&gt;
+ &lt;strong class="oc-callout__label"&gt;For admins &amp;amp; power users&lt;/strong&gt;
+ Requires Entra ID Application Administrator (or higher) and Workday Security Administrator access. End users don&amp;rsquo;t change anything; this is a tenant-level configuration.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Workday OfficeConnect doesn&amp;rsquo;t authenticate to Microsoft Entra ID directly. OfficeConnect authenticates to Workday, and Workday uses Entra ID as its identity provider. The configuration sits on the Workday side, with Entra ID providing the SAML or OIDC backbone.&lt;/p&gt;
+&lt;p&gt;This guide assumes Entra ID-to-Workday SSO is already working for the Workday web app. If not, do that integration first (Entra&amp;rsquo;s enterprise app gallery has a &amp;ldquo;Workday&amp;rdquo; SAML template).&lt;/p&gt;</description></item><item><title>Refresh Reports Automatically with Power Automate</title><link>https://officeconnectpro.com/wiki/admin/configure/refresh-with-power-automate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/wiki/admin/configure/refresh-with-power-automate/</guid><description>&lt;p&gt;Workday OfficeConnect doesn&amp;rsquo;t have a built-in scheduler, but you can automate report refresh using &lt;strong&gt;Power Automate Desktop&lt;/strong&gt; — Microsoft&amp;rsquo;s desktop automation tool included with Windows 10/11 and Microsoft 365. This how-to sets up a scheduled desktop flow that opens your report workbook, refreshes OfficeConnect data, saves, and closes — on any schedule you set.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 10 or 11 with Power Automate Desktop installed (&lt;a href="https://powerautomate.microsoft.com/en-us/desktop/"&gt;download from Microsoft&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Microsoft 365 subscription (Power Automate Desktop is included)&lt;/li&gt;
+&lt;li&gt;Your Workday OfficeConnect report workbook saved to a local path or a network/SharePoint location accessible from the machine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="oc-callout oc-callout--admin admin-note" role="note"&gt;
+ &lt;div class="oc-callout__icon" aria-hidden="true"&gt;
+ &lt;i class="fas fa-wrench"&gt;&lt;/i&gt;
+ &lt;/div&gt;
+ &lt;div class="oc-callout__body"&gt;
+ &lt;strong class="oc-callout__label"&gt;For admins &amp;amp; power users&lt;/strong&gt;
+ The machine running the flow must be on and signed in for the scheduled flow to run. This approach works best on a server or shared workstation that stays online. For cloud-only approaches, consider saving the refreshed file to SharePoint so downstream users always see the latest version.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id="1-create-the-desktop-flow"&gt;1. Create the desktop flow&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Open &lt;strong&gt;Power Automate Desktop&lt;/strong&gt; from the Start menu.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;+ New flow&lt;/strong&gt;, give it a name like &lt;code&gt;Refresh OfficeConnect Monthly Report&lt;/code&gt;, and click &lt;strong&gt;Create&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;The flow designer opens. You will build the flow by adding actions from the left panel.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="2-add-actions-to-open-refresh-save-and-close-the-workbook"&gt;2. Add actions to open, refresh, save, and close the workbook&lt;/h2&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;
+&lt;p&gt;In the &lt;strong&gt;Actions&lt;/strong&gt; panel, search for &lt;strong&gt;Launch Excel&lt;/strong&gt; and drag it into the flow. Set:&lt;/p&gt;</description></item></channel></rss>

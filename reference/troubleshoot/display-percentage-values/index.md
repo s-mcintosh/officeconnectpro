@@ -56,6 +56,6 @@ Select the cells → **Home tab → Number format → Percentage** (or use the `
 ## Next steps
 
 - [Change Rounding Settings](/reference/troubleshoot/change-rounding-settings/) to adjust workbook- or user-level rounding defaults
-- [Workbook & Worksheet Properties](/get-started/build-reports/workbook-worksheet-properties/) for the rest of the format controls
-- [Build a Budget vs. Actuals Variance Report](/get-started/build-reports/budget-vs-actuals-variance/) for a worked example mixing percentages and currency amounts
+- [Workbook & Worksheet Properties](/wiki/build-reports/workbook-worksheet-properties/) for the rest of the format controls
+- [Build a Budget vs. Actuals Variance Report](/wiki/build-reports/budget-vs-actuals-variance/) for a worked example mixing percentages and currency amounts
 

@@ -8,7 +8,7 @@ lastmod: "2026-05-19"
 ---
 
 
-When you clear cells in a Workday OfficeConnect report with Excel's normal delete, the element metadata can linger and confuse later refreshes — so use OfficeConnect's own clear command instead. For the related move and copy workflows, see [Cut, Copy & Move Elements](/get-started/build-reports/cut-copy-move-elements/).
+When you clear cells in a Workday OfficeConnect report with Excel's normal delete, the element metadata can linger and confuse later refreshes — so use OfficeConnect's own clear command instead. For the related move and copy workflows, see [Cut, Copy & Move Elements](/wiki/build-reports/cut-copy-move-elements/).
 
 **Question:** How do I remove OfficeConnect elements from a range of cells?
 
@@ -65,7 +65,7 @@ Then clear each one individually or use **Replace** to swap it with a different 
 
 ## Next steps
 
-- [Review & Verify Applied Elements](/get-started/build-reports/review-applied-elements/) to confirm the right elements were cleared
-- [Add Elements to Rows, Columns & Cells](/get-started/build-reports/add-elements/) to re-apply elements after a clean-up
-- [Cut, Copy & Move Elements](/get-started/build-reports/cut-copy-move-elements/) for relocating rather than removing elements
+- [Review & Verify Applied Elements](/wiki/build-reports/review-applied-elements/) to confirm the right elements were cleared
+- [Add Elements to Rows, Columns & Cells](/wiki/build-reports/add-elements/) to re-apply elements after a clean-up
+- [Cut, Copy & Move Elements](/wiki/build-reports/cut-copy-move-elements/) for relocating rather than removing elements
 

@@ -45,6 +45,6 @@ Change **Manage** to **COM Add-ins** and click **Go**. Make sure **Adaptive Plan
 {{< /step >}}
 
 {{< step n="3" title="Reinstall if needed" >}}
-If the add-in isn't listed, it may need reinstalling. See [Install as an End User](/get-started/install-end-user/).
+If the add-in isn't listed, it may need reinstalling. See [Install as an End User](/wiki/install-end-user/).
 {{< /step >}}
 

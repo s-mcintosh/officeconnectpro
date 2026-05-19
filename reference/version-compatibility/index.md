@@ -77,16 +77,16 @@ For organizations on a managed deployment cadence:
 - **Pilot the new version on 5-10 users for 2 weeks** before broad rollout. See Upgrade Governance (coming soon).
 - **Re-check tenant compatibility.** Workday occasionally introduces a tenant-side change that requires the new client (e.g., write-back required 2025R1+).
 - **Re-validate add-in conflicts.** Each release can subtly change Excel hook behavior — see [think-cell Conflict](/reference/troubleshoot/think-cell-conflict/) if your finance team uses both.
-- **Update Intune/SCCM packages.** Bump app version so deployment systems recognize the upgrade — see [Intune Win32 Packaging](/get-started/admin/deploy/intune-win32/) and [SCCM/MECM Deployment](/get-started/admin/deploy/sccm-mecm/).
+- **Update Intune/SCCM packages.** Bump app version so deployment systems recognize the upgrade — see [Intune Win32 Packaging](/wiki/admin/deploy/intune-win32/) and [SCCM/MECM Deployment](/wiki/admin/deploy/sccm-mecm/).
 
 ## End-user upgrade flow
 
 End users hit the forced-upgrade prompt at sign-in once their grace period expires. They can either:
 
-- Run the installer themselves (per [Install for End Users](/get-started/install-end-user/))
+- Run the installer themselves (per [Install for End Users](/wiki/install-end-user/))
 - Wait for the IT-managed deployment to push the new version automatically
 
-See [Check & Update Your Version](/get-started/check-version/) for the end-user-facing flow.
+See [Check & Update Your Version](/wiki/check-version/) for the end-user-facing flow.
 
 ## Result
 
@@ -95,6 +95,6 @@ You can answer the "is this version still supported?" question in seconds, plan 
 ## Next steps
 
 - [What's New in 2026R1](/reference/whats-new/2026r1/) — most recent release.
-- [Check & Update Your Version](/get-started/check-version/) — end-user upgrade flow.
+- [Check & Update Your Version](/wiki/check-version/) — end-user upgrade flow.
 - Upgrade Governance (coming soon) — managing the forced-upgrade cadence at scale.
 

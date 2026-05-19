@@ -30,7 +30,7 @@ The Reporting pane in Workday OfficeConnect groups all available content into **
 
 **Financials:** Called **Ledger Account**. Same idea: a chart-of-accounts line item that holds general-ledger values.
 
-Where to find: `Reporting pane → Accounts`. See [Add Elements](/get-started/build-reports/add-elements/).
+Where to find: `Reporting pane → Accounts`. See [Add Elements](/wiki/build-reports/add-elements/).
 
 ## Version
 
@@ -41,7 +41,7 @@ A snapshot or variant of plan data. Examples:
 - *Budget 2026* — a locked annual budget
 - *Plan vs Reforecast — Q3* — an analyst's variance comparison
 
-Where to find: `Reporting pane → Versions`. See [Compare Planning Versions](/get-started/build-reports/compare-planning-versions/).
+Where to find: `Reporting pane → Versions`. See [Compare Planning Versions](/wiki/build-reports/compare-planning-versions/).
 
 ## Time
 
@@ -51,7 +51,7 @@ A time period — typically a month, quarter, or year. Time elements can be:
 - **Relative** — *This Month*, *Prior Year YTD*. Rolls forward automatically.
 - **Range** — *Jan 2026 through Dec 2026*. Used in repeating reports.
 
-Where to find: `Reporting pane → Time`. See [Time and Contexts](/get-started/build-reports/time-and-contexts/).
+Where to find: `Reporting pane → Time`. See [Time and Contexts](/wiki/build-reports/time-and-contexts/).
 
 ## Level
 
@@ -59,19 +59,19 @@ The organizational unit in the Adaptive Planning hierarchy. A Level can be a dep
 
 In the Financials data source, the equivalent is **Company**.
 
-Where to find: `Reporting pane → Levels`. See [Department P&L Report](/get-started/build-reports/department-pl-report/).
+Where to find: `Reporting pane → Levels`. See [Department P&L Report](/wiki/build-reports/department-pl-report/).
 
 ## Attribute
 
 A categorical tag applied to accounts or other elements. Examples: *Department Type = Cost Center*, *Product Family = SaaS*. Useful as filters or slicers.
 
-Where to find: `Reporting pane → Attributes`. See [Custom Dimensions & Attributes](/get-started/build-reports/custom-dimensions-attributes/).
+Where to find: `Reporting pane → Attributes`. See [Custom Dimensions & Attributes](/wiki/build-reports/custom-dimensions-attributes/).
 
 ## Custom Dimension
 
 An additional reporting dimension defined in your Adaptive Planning model — typical examples are *Project Code*, *Customer*, *Region*, *Channel*. Each Custom Dimension appears under its configured name in the Reporting pane.
 
-In the Financials data source, custom dimensions are called **Worktags**. See [Worktag Combinations](/get-started/build-reports/financials/worktag-combinations/).
+In the Financials data source, custom dimensions are called **Worktags**. See [Worktag Combinations](/wiki/build-reports/financials/worktag-combinations/).
 
 ## Element Group
 
@@ -93,6 +93,6 @@ You can now pick the right element type for whatever column or row you're buildi
 
 ## Next steps
 
-- [Add Elements](/get-started/build-reports/add-elements/) — step-by-step on dragging each type into a worksheet.
-- [Filter Data](/get-started/build-reports/filter-data/) — how Attributes and Custom Dimensions work as filters.
+- [Add Elements](/wiki/build-reports/add-elements/) — step-by-step on dragging each type into a worksheet.
+- [Filter Data](/wiki/build-reports/filter-data/) — how Attributes and Custom Dimensions work as filters.
 

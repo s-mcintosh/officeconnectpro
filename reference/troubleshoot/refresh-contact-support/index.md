@@ -69,7 +69,7 @@ In the Reporting pane, click the **Review** tab. It shows every element used in 
 {{< /step >}}
 
 {{< step n="4" title="Replace or remove broken elements" >}}
-For each missing element, either remove it from the workbook or replace it with the renamed equivalent. See [Review Applied Elements](/get-started/build-reports/review-applied-elements/).
+For each missing element, either remove it from the workbook or replace it with the renamed equivalent. See [Review Applied Elements](/wiki/build-reports/review-applied-elements/).
 {{< /step >}}
 
 ### 4. Workbook is too large; the refresh times out
@@ -83,11 +83,11 @@ Refresh one sheet at a time via Sheet Properties → **Refresh this sheet only**
 {{< /step >}}
 
 {{< step n="2" title="Reduce formula count" >}}
-Use rollup accounts, consolidate time elements, and scope by Level to cut the number of server calls. See [Optimize Performance](/get-started/performance/optimize-performance/).
+Use rollup accounts, consolidate time elements, and scope by Level to cut the number of server calls. See [Optimize Performance](/wiki/performance/optimize-performance/).
 {{< /step >}}
 
 {{< step n="3" title="Check for repeating rows that exploded" >}}
-A misconfigured repeating range can generate thousands of unintended formulas. See [Repeating Reports](/get-started/build-reports/repeating-reports/).
+A misconfigured repeating range can generate thousands of unintended formulas. See [Repeating Reports](/wiki/build-reports/repeating-reports/).
 {{< /step >}}
 
 ### 5. Add-in conflict (think-cell, Bloomberg, Power Pivot, Macabacus)
@@ -140,5 +140,5 @@ You'll resolve "Contact technical support" in seconds instead of opening a Workd
 
 - [Authentication Token Errors](/reference/troubleshoot/authentication-token-errors/) — the related token-side issues.
 - [Not Refreshing](/reference/troubleshoot/not-refreshing/) — when Refresh doesn't fail but produces no update.
-- [Optimize Performance](/get-started/performance/optimize-performance/) — fix the workbook-size variant.
+- [Optimize Performance](/wiki/performance/optimize-performance/) — fix the workbook-size variant.
 

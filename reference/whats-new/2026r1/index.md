@@ -18,7 +18,7 @@ Released **March 14, 2026**. This page summarizes every OfficeConnect change in 
 |---|---|---|
 | **View By** ribbon command | FP&A end users | Read [View By deep dive](/reference/whats-new/2026r1-view-by/) |
 | **Personal what-if scenarios** | FP&A end users | Read [Personal scenarios deep dive](/reference/whats-new/2026r1-personal-scenarios/) |
-| Forced upgrade prompt at sign-in | All users + admins | See [Check & Update Your Version](/get-started/check-version/) |
+| Forced upgrade prompt at sign-in | All users + admins | See [Check & Update Your Version](/wiki/check-version/) |
 | Broader Adaptive 2026R1 updates (Predictive Forecaster, Hubs, collaborative modeling security) | Adaptive admins (outside OfficeConnect) | Not covered here — see Workday docs |
 
 ## The headline features
@@ -42,14 +42,14 @@ Like every R1/R2 release, 2026R1 enforces an upgrade window. After the grace per
 For IT admins managing rollout:
 
 - Distribute the new MSI/EXE through Intune, SCCM, or your existing channel
-- See [Check & Update Your Version](/get-started/check-version/) for the user-facing flow
-- See [Deploy Tenants via Registry](/get-started/admin/deploy/deploy-tenants-registry/) for the IT-side install
+- See [Check & Update Your Version](/wiki/check-version/) for the user-facing flow
+- See [Deploy Tenants via Registry](/wiki/admin/deploy/deploy-tenants-registry/) for the IT-side install
 
 ## What didn't change
 
 - The Reporting pane layout, Elements/Filters/Review tabs, and core formula structure are unchanged
 - All existing reports built in 2025R1 or 2025R2 continue to work after the upgrade
-- Write-back from 2025R1 is unchanged — see [Enter Budget Data](/get-started/data-entry-writeback/enter-budget-data/)
+- Write-back from 2025R1 is unchanged — see [Enter Budget Data](/wiki/data-entry-writeback/enter-budget-data/)
 
 ## Compatibility
 

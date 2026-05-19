@@ -8,7 +8,7 @@ lastmod: "2026-05-19"
 ---
 
 
-Workday OfficeConnect defaults to **Thousands** rounding for Adaptive Planning data sources — so `100,000` displays as `100` and `1,000` displays as `1`. You can change this at three levels. The same dialog drives several other display defaults; see [Workbook & Worksheet Properties](/get-started/build-reports/workbook-worksheet-properties/) for the full picture.
+Workday OfficeConnect defaults to **Thousands** rounding for Adaptive Planning data sources — so `100,000` displays as `100` and `1,000` displays as `1`. You can change this at three levels. The same dialog drives several other display defaults; see [Workbook & Worksheet Properties](/wiki/build-reports/workbook-worksheet-properties/) for the full picture.
 
 ## Rounding levels (highest to lowest precedence)
 
@@ -60,6 +60,6 @@ If your report includes percentages, rounding to Thousands will distort them —
 ## Next steps
 
 - [Display Percentage Values Correctly](/reference/troubleshoot/display-percentage-values/) for the related rounding-vs-percentage gotcha
-- [Workbook & Worksheet Properties](/get-started/build-reports/workbook-worksheet-properties/) for every workbook-wide setting in one place
-- [Build a Formatted Executive Report](/get-started/build-reports/formatted-executive-report/) for a worked example of mixed rounding in a polished deliverable
+- [Workbook & Worksheet Properties](/wiki/build-reports/workbook-worksheet-properties/) for every workbook-wide setting in one place
+- [Build a Formatted Executive Report](/wiki/build-reports/formatted-executive-report/) for a worked example of mixed rounding in a polished deliverable
 

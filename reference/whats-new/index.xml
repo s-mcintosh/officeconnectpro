@@ -31,7 +31,7 @@
  &lt;tr&gt;
  &lt;td&gt;Forced upgrade prompt at sign-in&lt;/td&gt;
  &lt;td&gt;All users + admins&lt;/td&gt;
- &lt;td&gt;See &lt;a href="https://officeconnectpro.com/get-started/check-version/"&gt;Check &amp;amp; Update Your Version&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;See &lt;a href="https://officeconnectpro.com/wiki/check-version/"&gt;Check &amp;amp; Update Your Version&lt;/a&gt;&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;Broader Adaptive 2026R1 updates (Predictive Forecaster, Hubs, collaborative modeling security)&lt;/td&gt;
@@ -52,7 +52,7 @@
  &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Before 2026R1, the typical way to dig into a number was &lt;a href="https://officeconnectpro.com/get-started/build-reports/cell-explorer-drill-down/"&gt;Cell Explorer / Drill Down&lt;/a&gt;, which is great for understanding &lt;strong&gt;which&lt;/strong&gt; elements contribute to a cell, but doesn&amp;rsquo;t give you a sandbox to manipulate the underlying intersection.&lt;/p&gt;</description></item><item><title>Personal What-If Scenarios (2026R1)</title><link>https://officeconnectpro.com/reference/whats-new/2026r1-personal-scenarios/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/reference/whats-new/2026r1-personal-scenarios/</guid><description>&lt;div class="oc-callout oc-callout--new" role="note" data-release="2026R1"&gt;
+&lt;p&gt;Before 2026R1, the typical way to dig into a number was &lt;a href="https://officeconnectpro.com/wiki/build-reports/cell-explorer-drill-down/"&gt;Cell Explorer / Drill Down&lt;/a&gt;, which is great for understanding &lt;strong&gt;which&lt;/strong&gt; elements contribute to a cell, but doesn&amp;rsquo;t give you a sandbox to manipulate the underlying intersection.&lt;/p&gt;</description></item><item><title>Personal What-If Scenarios (2026R1)</title><link>https://officeconnectpro.com/reference/whats-new/2026r1-personal-scenarios/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/reference/whats-new/2026r1-personal-scenarios/</guid><description>&lt;div class="oc-callout oc-callout--new" role="note" data-release="2026R1"&gt;
  &lt;div class="oc-callout__icon" aria-hidden="true"&gt;
  &lt;i class="fas fa-sparkles"&gt;&lt;/i&gt;
  &lt;/div&gt;

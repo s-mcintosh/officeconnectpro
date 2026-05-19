@@ -8,7 +8,7 @@ lastmod: "2026-05-19"
 ---
 
 
-When you edit a report's structure with native Excel commands, Workday OfficeConnect element bindings stay glued to the original row numbers — which is why a row insert can leave your data behind. The fix is to use OfficeConnect's own insert/delete commands; see [Cut, Copy & Move Elements](/get-started/build-reports/cut-copy-move-elements/) for the equivalent move pattern.
+When you edit a report's structure with native Excel commands, Workday OfficeConnect element bindings stay glued to the original row numbers — which is why a row insert can leave your data behind. The fix is to use OfficeConnect's own insert/delete commands; see [Cut, Copy & Move Elements](/wiki/build-reports/cut-copy-move-elements/) for the equivalent move pattern.
 
 **Symptom:** You insert rows into your Excel worksheet, but OfficeConnect data in rows below the insertion point doesn't shift down — the elements stay in their original positions.
 
@@ -44,7 +44,7 @@ If undo isn't available, you'll need to re-apply elements to the affected rows m
 
 ## Next steps
 
-- [Cut, Copy & Move Elements](/get-started/build-reports/cut-copy-move-elements/) for the correct way to relocate existing elements
-- [Review & Verify Applied Elements](/get-started/build-reports/review-applied-elements/) to confirm the right elements landed on the right rows after edits
-- [Add Elements to Rows, Columns & Cells](/get-started/build-reports/add-elements/) if you need to re-apply elements that were lost
+- [Cut, Copy & Move Elements](/wiki/build-reports/cut-copy-move-elements/) for the correct way to relocate existing elements
+- [Review & Verify Applied Elements](/wiki/build-reports/review-applied-elements/) to confirm the right elements landed on the right rows after edits
+- [Add Elements to Rows, Columns & Cells](/wiki/build-reports/add-elements/) if you need to re-apply elements that were lost
 
