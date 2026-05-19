@@ -1,4 +1,12 @@
 // =============================================================================
+// Navbar — use the site's dark charcoal instead of the amber primary color
+// =============================================================================
+.td-navbar,
+.navbar-bg-onscroll {
+  background: #403f4c !important;
+}
+
+// =============================================================================
 // OfficeConnect Pro — callout shortcodes
 // Used by: admin-note, tip, warning, new-in-release, deprecated, audience-badge
 // =============================================================================

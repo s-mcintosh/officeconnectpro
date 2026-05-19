@@ -29,7 +29,7 @@ Link OfficeConnect data into board books, narratives, and decks that refresh wit
 {{% /blocks/feature %}}
 {{< /blocks/section >}}
 
-{{< blocks/section color="light" type="row" >}}
+{{< blocks/section color="white" type="row" >}}
 {{% blocks/feature icon="fa-edit" title="Data Entry &amp; Write-Back" url="/data-entry-writeback/" %}}
 Submit budget and forecast data from Excel back to Workday Adaptive Planning — the 2025R1 write-back feature.
 {{% /blocks/feature %}}
