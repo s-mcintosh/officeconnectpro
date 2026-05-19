@@ -152,7 +152,7 @@ On the test machine:
 ## Common gotchas
 
 - **Detection method too narrow:** A registry-key-only detection often misses upgrade scenarios. File-based detection is more reliable.
-- **User vs system install:** If users complain OfficeConnect is missing despite the deploy succeeding, the installer may have run per-user instead of per-machine. See [Per-User vs Per-Machine Install](/admin/deploy/per-user-vs-per-machine/) (coming soon).
+- **User vs system install:** If users complain OfficeConnect is missing despite the deploy succeeding, the installer may have run per-user instead of per-machine. See Per-User vs Per-Machine Install (coming soon).
 - **Conflict with other Excel COM add-ins:** A successful install on a machine that already has think-cell loaded can mask refresh failures — see [think-cell Conflict](/troubleshoot/think-cell-conflict/).
 - **Workday version compatibility:** Make sure the version you're deploying is accepted by your Workday tenant. See the [Version Compatibility Matrix](/reference/version-compatibility/).
 
@@ -164,4 +164,4 @@ Workday OfficeConnect deploys silently across MECM-managed devices, upgrades cle
 
 - [Deploy Tenants via Registry](/admin/deploy/deploy-tenants-registry/) — push tenant configuration in the same wave.
 - [Intune Win32 Packaging](/admin/deploy/intune-win32/) — the Intune equivalent for cloud-managed devices.
-- [Upgrade Governance](/admin/upgrade/upgrade-governance/) (coming soon) — managing the forced-upgrade cadence at scale.
+- Upgrade Governance (coming soon) — managing the forced-upgrade cadence at scale.

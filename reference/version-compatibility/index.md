@@ -72,7 +72,7 @@ Articles on this site carry `minVersion` and `releaseAdded` fields in their fron
 
 For organizations on a managed deployment cadence:
 
-- **Pilot the new version on 5-10 users for 2 weeks** before broad rollout. See [Upgrade Governance](/admin/upgrade/upgrade-governance/) (coming soon).
+- **Pilot the new version on 5-10 users for 2 weeks** before broad rollout. See Upgrade Governance (coming soon).
 - **Re-check tenant compatibility.** Workday occasionally introduces a tenant-side change that requires the new client (e.g., write-back required 2025R1+).
 - **Re-validate add-in conflicts.** Each release can subtly change Excel hook behavior — see [think-cell Conflict](/troubleshoot/think-cell-conflict/) if your finance team uses both.
 - **Update Intune/SCCM packages.** Bump app version so deployment systems recognize the upgrade — see [Intune Win32 Packaging](/admin/deploy/intune-win32/) and [SCCM/MECM Deployment](/admin/deploy/sccm-mecm/).
@@ -94,4 +94,4 @@ You can answer the "is this version still supported?" question in seconds, plan 
 
 - [What's New in 2026R1](/whats-new/2026r1/) — most recent release.
 - [Check & Update Your Version](/get-started/check-version/) — end-user upgrade flow.
-- [Upgrade Governance](/admin/upgrade/upgrade-governance/) (coming soon) — managing the forced-upgrade cadence at scale.
+- Upgrade Governance (coming soon) — managing the forced-upgrade cadence at scale.

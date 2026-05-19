@@ -192,3 +192,6 @@ All pages are available as raw Markdown by appending `index.md` to any page URL.
 
 - [Personal What-If Scenarios (2026R1)](https://officeconnectpro.com/whats-new/2026r1-personal-scenarios/index.md): Workday OfficeConnect 2026R1 lets end users create personal what-if scenarios without involving an Adaptive Planning admin — scoped to the individual, branched from a parent version, and invisible to others.
 
+
+## Resources
+
