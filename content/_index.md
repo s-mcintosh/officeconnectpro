@@ -75,6 +75,6 @@ How OfficeConnectPro started, our goals, and a bit about the team behind the pro
       el.innerHTML = '<em>' + words[i] + '</em>';
       el.classList.remove('oc-cycle--out');
     }, 300);
-  }, 2700);
+  }, 3200);
 })();
 </script>
