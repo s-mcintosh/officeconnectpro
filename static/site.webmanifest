@@ -1,0 +1,21 @@
+{
+  "name": "OfficeConnectPro",
+  "short_name": "OCPro",
+  "description": "Your go-to resource for all things OfficeConnect",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#403f4c",
+  "theme_color": "#403f4c",
+  "icons": [
+    {
+      "src": "/favicons/android-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
