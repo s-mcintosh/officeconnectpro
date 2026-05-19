@@ -1,13 +1,13 @@
 {{- /*
   {{< audience-badge type="fp-and-a" >}}
-  {{< audience-badge type="admin-power-user" >}}
+  {{< audience-badge type="system-admin" >}}
   {{< audience-badge type="consultant" >}}
   Inline colored pill identifying the article's primary audience.
 */ -}}
 {{- $type := .Get "type" | default "fp-and-a" -}}
 {{- $label := "FP&A" -}}
-{{- if eq $type "admin-power-user" -}}
-  {{- $label = "Admin / Power User" -}}
+{{- if eq $type "system-admin" -}}
+  {{- $label = "System Admin" -}}
 {{- else if eq $type "consultant" -}}
   {{- $label = "Consultant" -}}
 {{- else if eq $type "executive" -}}

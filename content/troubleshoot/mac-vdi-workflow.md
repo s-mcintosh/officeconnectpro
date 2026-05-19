@@ -4,7 +4,7 @@ linkTitle: "Mac VDI Workflow"
 weight: 32
 description: >
   Mac users can run the full Windows OfficeConnect experience through a VDI like Azure Virtual Desktop, AWS WorkSpaces, or Parallels — here's the realistic decision guide and setup.
-tags: ["troubleshoot", "deployment", "fp-and-a", "admin-power-user", "how-to"]
+tags: ["troubleshoot", "deployment", "fp-and-a", "system-admin", "how-to"]
 ---
 
 The native Mac version of Workday OfficeConnect (Excel for Mac JavaScript add-in) supports most reporting workflows, but a few power-user features remain Windows-only — most notably Power Automate Desktop integration, configurable refresh shortcuts, and the broadest set of add-in interop. For Mac users who need parity with their Windows colleagues, a VDI (virtual desktop infrastructure) is the established workaround.

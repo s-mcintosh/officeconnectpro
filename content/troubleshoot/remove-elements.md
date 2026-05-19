@@ -4,7 +4,7 @@ linkTitle: "Remove Elements"
 weight: 6
 description: >
   How to clear OfficeConnect elements from cells, rows, or columns.
-tags: ["reporting", "fp-and-a", "admin-power-user", "troubleshoot"]
+tags: ["reporting", "fp-and-a", "system-admin", "troubleshoot"]
 ---
 
 When you clear cells in a Workday OfficeConnect report with Excel's normal delete, the element metadata can linger and confuse later refreshes — so use OfficeConnect's own clear command instead. For the related move and copy workflows, see [Cut, Copy & Move Elements](/build-reports/cut-copy-move-elements/).

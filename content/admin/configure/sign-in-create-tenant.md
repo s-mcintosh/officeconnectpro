@@ -4,7 +4,7 @@ linkTitle: "Sign In & Create Tenant"
 weight: 10
 description: >
   Sign in to Workday OfficeConnect for the first time and configure your Workday tenant connection.
-tags: ["sso", "deployment", "admin-power-user", "tutorial"]
+tags: ["sso", "deployment", "system-admin", "tutorial"]
 aliases:
   - /connect/sign-in-create-tenant/
   - /get-started/sign-in-create-tenant/

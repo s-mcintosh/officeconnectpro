@@ -4,7 +4,7 @@ linkTitle: "Refresh with Power Automate"
 weight: 90
 description: >
   Use Power Automate Desktop to schedule Workday OfficeConnect report refreshes automatically — keep distributed Excel reports up to date without manual intervention.
-tags: ["integration", "adaptive-planning", "admin-power-user", "how-to"]
+tags: ["integration", "adaptive-planning", "system-admin", "how-to"]
 aliases:
   - /build-reports/refresh-with-power-automate/
 ---

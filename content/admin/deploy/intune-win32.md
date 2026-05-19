@@ -4,7 +4,7 @@ linkTitle: "Intune Win32 Packaging"
 weight: 60
 description: >
   Package Workday OfficeConnect as a Win32 app for Microsoft Intune, push to all users silently, and verify deployment.
-tags: ["deployment", "admin-power-user", "how-to"]
+tags: ["deployment", "system-admin", "how-to"]
 ---
 
 {{< admin-note >}}

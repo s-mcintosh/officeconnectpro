@@ -4,7 +4,7 @@ linkTitle: "OC vs Web Reports"
 weight: 20
 description: >
   When to use Workday OfficeConnect vs Workday Adaptive Planning's built-in web reports — a scoring framework with concrete recommendations.
-tags: ["comparison", "adaptive-planning", "reporting", "fp-and-a", "admin-power-user"]
+tags: ["comparison", "adaptive-planning", "reporting", "fp-and-a", "system-admin"]
 ---
 
 Both Workday OfficeConnect and the native Workday Adaptive Planning web reports can answer most questions a finance team asks. They're optimized for different things, and most teams should use both. This article gives you a scoring framework so you don't have to relitigate the decision every time.

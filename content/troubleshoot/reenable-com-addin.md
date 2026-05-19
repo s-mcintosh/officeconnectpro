@@ -4,7 +4,7 @@ linkTitle: "Re-Enable Disabled COM Add-in"
 weight: 13
 description: >
   If Excel disabled Workday OfficeConnect after a crash or stall, the ribbon tab disappears and reinstalling doesn't help — re-enable it from Excel's Disabled Items list.
-tags: ["troubleshoot", "fp-and-a", "admin-power-user"]
+tags: ["troubleshoot", "fp-and-a", "system-admin"]
 ---
 
 When Excel crashes or hangs while Workday OfficeConnect is running, Excel sometimes responds by disabling the add-in to prevent future crashes. The next time you open Excel, the OfficeConnect tab is gone — and reinstalling OfficeConnect doesn't bring it back.

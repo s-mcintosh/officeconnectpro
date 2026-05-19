@@ -4,7 +4,7 @@ linkTitle: "Update Errors"
 weight: 2
 description: >
   How to fix errors that occur when updating OfficeConnect to a new version.
-tags: ["upgrade", "deployment", "admin-power-user", "fp-and-a", "troubleshoot"]
+tags: ["upgrade", "deployment", "system-admin", "fp-and-a", "troubleshoot"]
 ---
 
 **Symptom:** When updating OfficeConnect, you see:

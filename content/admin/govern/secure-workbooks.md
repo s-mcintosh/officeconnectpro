@@ -4,7 +4,7 @@ linkTitle: "Secure Workbooks"
 weight: 10
 description: >
   How Workday OfficeConnect handles security, timeouts, and data clearing to protect sensitive financial data.
-tags: ["security", "governance", "admin-power-user", "how-to"]
+tags: ["security", "governance", "system-admin", "how-to"]
 aliases:
   - /connect/secure-workbooks/
   - /get-started/secure-workbooks/

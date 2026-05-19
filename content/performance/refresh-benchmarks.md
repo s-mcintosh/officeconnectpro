@@ -4,7 +4,7 @@ linkTitle: "Refresh Benchmarks"
 weight: 20
 description: >
   Rough benchmarks for what a normal Workday OfficeConnect refresh should take by formula count, what moves the numbers, and how to measure your own workbooks.
-tags: ["performance", "fp-and-a", "admin-power-user", "reference"]
+tags: ["performance", "fp-and-a", "system-admin", "reference"]
 ---
 
 "Is my workbook slow?" is a question with no universal answer — refresh time depends on formula count, server load, network path, and how complex your Adaptive Planning model is. This reference gives you rough Workday OfficeConnect benchmarks to compare against, and a method for measuring your own.

@@ -4,7 +4,7 @@ linkTitle: "Variance by Journal Source"
 weight: 12
 description: >
   Break down account variances by journal source in OfficeConnect — see how much of a balance movement came from manual journals, system-generated entries, or specific subledgers.
-tags: ["financials", "reporting", "fp-and-a", "recipe"]
+tags: ["financials", "accounting", "reporting", "fp-and-a", "recipe"]
 ---
 
 When a GL account balance moves unexpectedly, the first question is: what kind of journal entry caused it? Workday Financial Management categorizes journal entries by **Journal Source** (Manual Journal, Accounts Payable, Payroll, etc.). OfficeConnect can filter by journal source, letting you isolate the impact of each source on any account balance.

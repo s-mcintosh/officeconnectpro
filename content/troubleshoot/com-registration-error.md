@@ -4,7 +4,7 @@ linkTitle: "COM Registration Error"
 weight: 1
 description: >
   How to resolve COM registration errors when installing or updating OfficeConnect.
-tags: ["deployment", "admin-power-user", "fp-and-a", "troubleshoot"]
+tags: ["deployment", "system-admin", "fp-and-a", "troubleshoot"]
 ---
 
 COM registration errors usually surface during a Workday OfficeConnect install or upgrade and point to a broken Microsoft Office add-in registration. Confirm your machine meets the [system requirements](/get-started/system-requirements/) before working through the fixes — multiple Office versions installed side by side is the most common root cause.

@@ -4,7 +4,7 @@ linkTitle: "Month-End Close Workflow"
 weight: 11
 description: >
   Use OfficeConnect to run a faster month-end close — verify trial balances, check journal completeness, and produce final financial statements directly from Workday Financial Management.
-tags: ["financials", "reporting", "fp-and-a", "tutorial"]
+tags: ["financials", "accounting", "reporting", "fp-and-a", "tutorial"]
 ---
 
 Month-end close in Workday Financial Management involves verifying journal completeness, reconciling account balances, and producing financial statements for management review. OfficeConnect lets your accounting team do all of this in Excel — pulling live data from Workday — without waiting for Report Writer outputs or PDF exports. This tutorial walks through a practical close workflow.

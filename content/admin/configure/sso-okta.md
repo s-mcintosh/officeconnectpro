@@ -4,7 +4,7 @@ linkTitle: "SSO with Okta"
 weight: 40
 description: >
   Configure Okta to authenticate Workday OfficeConnect users via Workday SSO — application setup, claim mapping, MFA pairing, and the common failure modes.
-tags: ["sso", "security", "admin-power-user", "how-to"]
+tags: ["sso", "security", "system-admin", "how-to"]
 ---
 
 {{< admin-note >}}

@@ -4,7 +4,7 @@ linkTitle: "Install (IT Admin)"
 weight: 5
 description: >
   Deploy OfficeConnect to multiple users using per-machine installation and group policy or scripts.
-tags: ["deployment", "admin-power-user", "tutorial"]
+tags: ["deployment", "system-admin", "tutorial"]
 ---
 
 {{< admin-note >}}

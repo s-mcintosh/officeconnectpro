@@ -4,7 +4,7 @@ linkTitle: "Workday SSO"
 weight: 30
 description: >
   Configure Workday OfficeConnect to use Workday Single Sign-On for your organization.
-tags: ["sso", "admin-power-user", "tutorial"]
+tags: ["sso", "system-admin", "tutorial"]
 aliases:
   - /connect/workday-sso/
   - /get-started/workday-sso/

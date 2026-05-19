@@ -4,7 +4,7 @@ linkTitle: "Troubleshooting Tool"
 weight: 12
 description: >
   How to use the OCSystemChecker tool to generate a diagnostic log for Workday Support.
-tags: ["deployment", "admin-power-user", "fp-and-a", "troubleshoot"]
+tags: ["deployment", "system-admin", "fp-and-a", "troubleshoot"]
 ---
 
 When standard troubleshooting steps don't resolve your issue, the **OCSystemChecker** tool gathers detailed diagnostic information from your machine to help Workday Support investigate.

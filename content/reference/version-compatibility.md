@@ -4,7 +4,7 @@ linkTitle: "Version Compatibility"
 weight: 40
 description: >
   Which Workday OfficeConnect client versions work with which Workday Adaptive Planning releases — including the forced-upgrade grace periods.
-tags: ["reference", "upgrade", "admin-power-user"]
+tags: ["reference", "upgrade", "system-admin"]
 ---
 
 Workday ships OfficeConnect alongside Adaptive Planning releases on a roughly six-month cadence (R1 in spring, R2 in fall). Each release ships a new OfficeConnect client, and the older client is blocked at sign-in after a grace period.

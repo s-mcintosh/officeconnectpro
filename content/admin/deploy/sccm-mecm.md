@@ -4,7 +4,7 @@ linkTitle: "SCCM / MECM Deployment"
 weight: 70
 description: >
   Deploy Workday OfficeConnect through Microsoft Configuration Manager (SCCM/MECM) with silent install switches, detection methods, and required user-rights handling.
-tags: ["deployment", "admin-power-user", "how-to"]
+tags: ["deployment", "system-admin", "how-to"]
 ---
 
 {{< admin-note >}}

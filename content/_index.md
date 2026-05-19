@@ -49,6 +49,7 @@ Fix common errors — refresh failures, COM add-in conflicts, SSO loops, Mac/VDI
 <p class="mt-3">
 <a href="/tags/adaptive-planning/" class="btn btn-outline-primary m-1">Adaptive Planning</a>
 <a href="/tags/financials/" class="btn btn-outline-primary m-1">Financials</a>
+<a href="/tags/accounting/" class="btn btn-outline-primary m-1">Accounting</a>
 <a href="/tags/reporting/" class="btn btn-outline-primary m-1">Reporting</a>
 <a href="/tags/data-entry/" class="btn btn-outline-primary m-1">Data Entry</a>
 <a href="/tags/write-back/" class="btn btn-outline-primary m-1">Write-Back</a>
@@ -60,8 +61,8 @@ Fix common errors — refresh failures, COM add-in conflicts, SSO loops, Mac/VDI
 </p>
 <p class="mt-4 mb-0"><strong>Or browse by audience:</strong></p>
 <p class="mt-2">
-<a href="/audiences/fp-and-a/" class="btn btn-outline-primary m-1">FP&amp;A</a>
-<a href="/audiences/admin-power-user/" class="btn btn-outline-primary m-1">Admin &amp; Power Users</a>
+<a href="/tags/fp-and-a/" class="btn btn-outline-primary m-1">FP&amp;A</a>
+<a href="/tags/system-admin/" class="btn btn-outline-primary m-1">System Admin</a>
 </p>
 </div>
 {{< /blocks/section >}}

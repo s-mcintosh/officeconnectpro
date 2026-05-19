@@ -4,7 +4,7 @@ linkTitle: "Rounding Settings"
 weight: 7
 description: >
   How to change how numbers are rounded in OfficeConnect reports.
-tags: ["reporting", "fp-and-a", "admin-power-user", "troubleshoot"]
+tags: ["reporting", "fp-and-a", "system-admin", "troubleshoot"]
 ---
 
 Workday OfficeConnect defaults to **Thousands** rounding for Adaptive Planning data sources — so `100,000` displays as `100` and `1,000` displays as `1`. You can change this at three levels. The same dialog drives several other display defaults; see [Workbook & Worksheet Properties](/build-reports/workbook-worksheet-properties/) for the full picture.

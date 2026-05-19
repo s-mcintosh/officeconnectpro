@@ -4,7 +4,7 @@ linkTitle: "Percentage Values"
 weight: 8
 description: >
   How to prevent rounding from distorting percentage values in OfficeConnect.
-tags: ["reporting", "fp-and-a", "admin-power-user", "troubleshoot"]
+tags: ["reporting", "fp-and-a", "system-admin", "troubleshoot"]
 ---
 
 Percentages are a classic gotcha when Workday OfficeConnect's default Thousands rounding interacts with Adaptive Planning values stored as decimals. Before changing settings, review where rounding is configured in [Change Rounding Settings](/troubleshoot/change-rounding-settings/) so you fix the right level.

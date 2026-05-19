@@ -4,7 +4,7 @@ linkTitle: "Numbers Not Shifting"
 weight: 4
 description: >
   Why OfficeConnect elements don't move when you insert Excel rows, and how to fix it.
-tags: ["reporting", "fp-and-a", "admin-power-user", "troubleshoot"]
+tags: ["reporting", "fp-and-a", "system-admin", "troubleshoot"]
 ---
 
 When you edit a report's structure with native Excel commands, Workday OfficeConnect element bindings stay glued to the original row numbers — which is why a row insert can leave your data behind. The fix is to use OfficeConnect's own insert/delete commands; see [Cut, Copy & Move Elements](/build-reports/cut-copy-move-elements/) for the equivalent move pattern.

@@ -4,7 +4,7 @@ linkTitle: "SSO with Microsoft Entra ID"
 weight: 50
 description: >
   Configure Microsoft Entra ID (formerly Azure AD) to authenticate Workday OfficeConnect users via Workday SSO — enterprise application setup, claim mapping, and Conditional Access tuning.
-tags: ["sso", "security", "admin-power-user", "how-to"]
+tags: ["sso", "security", "system-admin", "how-to"]
 ---
 
 {{< admin-note >}}

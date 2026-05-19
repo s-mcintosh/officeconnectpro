@@ -4,6 +4,7 @@ linkTitle: "Reporting Model Setup"
 weight: 4
 description: >
   Use the Run Set Up Reporting Model task in Workday to configure how OfficeConnect Financials reports are structured.
+tags: ["financials", "accounting", "system-admin", "how-to"]
 ---
 
 {{< admin-note >}}

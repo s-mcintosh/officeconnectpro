@@ -4,7 +4,7 @@ linkTitle: "Write-Back Audit Trail"
 weight: 50
 description: >
   Where Workday OfficeConnect write-back submissions are logged in Adaptive Planning, what's captured, and how to build a SOX-grade review process around the audit trail.
-tags: ["write-back", "governance", "security", "admin-power-user", "reference"]
+tags: ["write-back", "governance", "security", "system-admin", "reference"]
 ---
 
 Every Workday OfficeConnect write-back submission is logged server-side in Adaptive Planning. The audit trail captures who changed what, when, and to what value — the foundation of any control around write-back. This reference covers where to find the logs, what's captured, and how to operationalize a review cadence for internal audit or SOX.

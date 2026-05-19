@@ -4,7 +4,7 @@ linkTitle: "Fixed Date Columns"
 weight: 9
 description: >
   How to prevent date columns from rolling forward when using relative time elements.
-tags: ["reporting", "adaptive-planning", "fp-and-a", "admin-power-user", "troubleshoot"]
+tags: ["reporting", "adaptive-planning", "fp-and-a", "system-admin", "troubleshoot"]
 ---
 
 **Problem:** You've set up a report with relative time elements (like "Current Month," "Prior Month") so it always shows recent data. But you want certain columns to stay fixed at a specific historical date — not roll forward with time.

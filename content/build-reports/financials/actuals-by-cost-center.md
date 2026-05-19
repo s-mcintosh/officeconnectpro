@@ -4,7 +4,7 @@ linkTitle: "Actuals by Cost Center"
 weight: 4
 description: >
   Filter an OfficeConnect Financials report to a specific cost center or worktag to see GL actuals for a single department or team.
-tags: ["financials", "reporting", "fp-and-a", "recipe"]
+tags: ["financials", "accounting", "reporting", "fp-and-a", "recipe"]
 ---
 
 OfficeConnect's Financials data source supports Workday worktags — including Cost Center — as dimension filters. Adding a cost center to your report scopes all data to that organizational unit.

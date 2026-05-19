@@ -4,7 +4,7 @@ linkTitle: "Multiple Instances"
 weight: 20
 description: >
   How to switch between production, sandbox, and multi-instances in Workday OfficeConnect.
-tags: ["deployment", "admin-power-user", "how-to"]
+tags: ["deployment", "system-admin", "how-to"]
 aliases:
   - /connect/multiple-instances/
   - /get-started/multiple-instances/

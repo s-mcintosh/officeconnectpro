@@ -4,7 +4,7 @@ linkTitle: "Write-Back Errors"
 weight: 40
 description: >
   Diagnose and fix the most common Workday OfficeConnect write-back errors — symptoms, root causes, fixes, and how to prevent each from recurring.
-tags: ["write-back", "troubleshoot", "fp-and-a", "admin-power-user"]
+tags: ["write-back", "troubleshoot", "fp-and-a", "system-admin"]
 ---
 
 Write-back errors in Workday OfficeConnect look intimidating but almost always trace to one of seven causes. This article is the catalog — symptom, root cause, fix, prevention — to use as a lookup when a submit fails.

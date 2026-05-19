@@ -4,7 +4,7 @@ linkTitle: "Check Your Version"
 weight: 6
 description: >
   How to check which version of OfficeConnect you have and update to the latest release.
-tags: ["upgrade", "admin-power-user", "how-to"]
+tags: ["upgrade", "system-admin", "how-to"]
 ---
 
 Keeping OfficeConnect up to date is important — users on different versions may not be able to share workbooks. Check your version regularly and update with your team.

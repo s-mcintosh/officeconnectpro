@@ -4,7 +4,7 @@ linkTitle: "Write-Back Permissions"
 weight: 30
 description: >
   Design Adaptive Planning permissions so Workday OfficeConnect write-back is safe by default — least-privilege roles, version-state gates, and Level-scoped assignments.
-tags: ["write-back", "data-entry", "security", "admin-power-user", "how-to"]
+tags: ["write-back", "data-entry", "security", "system-admin", "how-to"]
 ---
 
 Workday OfficeConnect write-back inherits Adaptive Planning's permission model. There is no separate "OfficeConnect role" — if a user's Adaptive role grants Input on a version and a Level, they can write to it from Excel. That means good permission design in Adaptive is good write-back governance in OfficeConnect. This article lays out the design principles and the patterns that make write-back safe by default.

@@ -4,7 +4,7 @@ linkTitle: "Deploy via Registry"
 weight: 50
 description: >
   Push Workday OfficeConnect tenant configuration to user machines using the Windows registry.
-tags: ["deployment", "admin-power-user", "how-to"]
+tags: ["deployment", "system-admin", "how-to"]
 aliases:
   - /connect/deploy-tenants-registry/
   - /get-started/deploy-tenants-registry/

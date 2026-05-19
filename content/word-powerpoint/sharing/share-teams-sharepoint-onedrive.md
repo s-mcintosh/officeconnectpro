@@ -4,7 +4,7 @@ linkTitle: "Share via Teams & SharePoint"
 weight: 10
 description: >
   Save and share Workday OfficeConnect workbooks through Microsoft Teams, SharePoint, or OneDrive.
-tags: ["sharing", "fp-and-a", "admin-power-user", "how-to"]
+tags: ["sharing", "fp-and-a", "system-admin", "how-to"]
 aliases:
   - /share-publish/share-teams-sharepoint-onedrive/
   - /build-reports/share-teams-sharepoint-onedrive/
