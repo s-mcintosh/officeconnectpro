@@ -99,7 +99,18 @@
 &lt;figure&gt;
  &lt;img src="https://officeconnectpro.com/images/screenshots/oc-filter-dialog.png"
  alt="The Worksheet Filters dialog in OfficeConnect"/&gt; &lt;figcaption&gt;
- &lt;p&gt;The Worksheet Filters dialog — browse or search the hierarchy to select which elements to filter by.&lt;/p&gt;</description></item><item><title>Cut, Copy &amp; Move Elements</title><link>https://officeconnectpro.com/build-reports/cut-copy-move-elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/cut-copy-move-elements/</guid><description>&lt;p&gt;OfficeConnect provides its own cut, copy, and paste commands that move elements together with their metadata.&lt;/p&gt;
+ &lt;p&gt;The Worksheet Filters dialog — browse or search the hierarchy to select which elements to filter by.&lt;/p&gt;</description></item><item><title>Set Up Your Reporting Model</title><link>https://officeconnectpro.com/get-started/set-up-reporting-model/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/set-up-reporting-model/</guid><description>&lt;div class="oc-callout oc-callout--admin admin-note" role="note"&gt;
+ &lt;div class="oc-callout__icon" aria-hidden="true"&gt;
+ &lt;i class="fas fa-wrench"&gt;&lt;/i&gt;
+ &lt;/div&gt;
+ &lt;div class="oc-callout__body"&gt;
+ &lt;strong class="oc-callout__label"&gt;For admins &amp;amp; power users&lt;/strong&gt;
+ This page is for Workday System Administrators. End users don&amp;rsquo;t need to complete this — it&amp;rsquo;s a one-time configuration step that controls what data OfficeConnect Financials reports can access.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="what-this-task-does"&gt;What this task does&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;Run Set Up Reporting Model&lt;/strong&gt; task replaced the earlier &lt;strong&gt;Set Up Financial Reporting and Analytics Data Model&lt;/strong&gt; task. It allows System Administrators to edit existing reporting data models — controlling the OfficeConnect-specific fields that determine how Financials data is structured and surfaced in Excel.&lt;/p&gt;</description></item><item><title>Cut, Copy &amp; Move Elements</title><link>https://officeconnectpro.com/build-reports/cut-copy-move-elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/cut-copy-move-elements/</guid><description>&lt;p&gt;OfficeConnect provides its own cut, copy, and paste commands that move elements together with their metadata.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt; Always use OfficeConnect&amp;rsquo;s own cut/copy/paste commands — not Excel&amp;rsquo;s standard Ctrl+C/Ctrl+V. Excel&amp;rsquo;s clipboard doesn&amp;rsquo;t carry the OfficeConnect element metadata; only OfficeConnect commands do.&lt;/p&gt;
 &lt;/blockquote&gt;
