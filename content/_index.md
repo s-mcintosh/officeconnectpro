@@ -9,7 +9,7 @@ linkTitle: "Home"
     <i class="fab fa-youtube me-2"></i>Watch on YouTube
   </a>
 </div>
-<p class="lead mt-2">The definitive resource for Workday OfficeConnect — for FP&amp;A end users and the system admins who own the platform.</p>
+<p class="lead mt-2">Your go-to resource for all things OfficeConnect</p>
 {{< /blocks/cover >}}
 
 {{< blocks/section color="white" type="row" >}}
