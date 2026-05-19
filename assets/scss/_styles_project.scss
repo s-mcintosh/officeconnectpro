@@ -4,6 +4,12 @@
 .td-navbar,
 .navbar-bg-onscroll {
   background: #403f4c !important;
+
+  // Pin navbar text to light grey in both light and dark mode
+  --bs-navbar-color:        rgba(255, 255, 255, 0.75);
+  --bs-navbar-hover-color:  rgba(255, 255, 255, 1);
+  --bs-navbar-active-color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.75);
 }
 
 // Wordmark — "OfficeConnect" white, "Pro" amber
