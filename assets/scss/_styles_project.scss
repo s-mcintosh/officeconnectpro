@@ -117,6 +117,9 @@
 // Footer — amber icons + handwritten text throughout
 // =============================================================================
 .td-footer {
+  background-color: var(--bs-body-bg) !important;
+  border-top-color: transparent !important;
+
   // Icons inherit color from their list-item parent
   .td-footer__links-item {
     color: #f59e0b;
