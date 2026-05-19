@@ -1,6 +1,6 @@
 # OfficeConnectPro
 
-Documentation site for [OfficeConnect](https://officeconnectpro.com) — Workday Adaptive Planning's Excel add-in. Written for finance teams and IT admins who need clear, step-by-step guidance without digging through Workday's official docs.
+Documentation site for [OfficeConnect](https://officeconnectpro.com) — a Microsoft Office add-in for Workday Adaptive Planning and Workday Financials. Written for finance teams and IT admins who need clear, step-by-step guidance without digging through Workday's official docs.
 
 Live at **[officeconnectpro.com](https://officeconnectpro.com)**
 
@@ -10,7 +10,7 @@ Live at **[officeconnectpro.com](https://officeconnectpro.com)**
 
 | Section | Description |
 |---|---|
-| [Get Started](content/get-started/) | System requirements, installation (admin and end-user), and first sign-in |
+| [Get Started](content/get-started/) | System requirements, installation (admin and end-user), first sign-in, and Financials data model setup |
 | [Connect](content/connect/) | Tenant setup, Workday SSO, multi-instance configs, and registry deployment |
 | [Build Reports](content/build-reports/) | Adding elements, filters, time contexts, cell explorer, and workbook properties |
 | [Share & Publish](content/share-publish/) | Distributing reports via Teams, SharePoint, PowerPoint, and Word |
