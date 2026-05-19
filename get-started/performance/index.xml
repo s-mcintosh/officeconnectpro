@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Performance &amp; Optimization on OfficeConnectPro</title><link>https://officeconnectpro.com/get-started/performance/</link><description>Recent content in Performance &amp; Optimization on OfficeConnectPro</description><generator>Hugo</generator><language>en</language><atom:link href="https://officeconnectpro.com/get-started/performance/index.xml" rel="self" type="application/rss+xml"/><item><title>Optimize Performance for Large Models in OfficeConnect</title><link>https://officeconnectpro.com/get-started/performance/optimize-performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/performance/optimize-performance/</guid><description>&lt;p&gt;Workday OfficeConnect reports can slow down significantly when workbooks contain hundreds of formulas pulling from large Adaptive Planning models. Refresh times of 30–60 seconds are common in unoptimized workbooks; the techniques below typically cut that to under 10 seconds for the same data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Workday OfficeConnect connected to an Adaptive Planning tenant&lt;/li&gt;
+&lt;li&gt;A workbook that is currently slow to refresh (more than 15 seconds)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="1-reduce-the-number-of-officeconnect-formulas"&gt;1. Reduce the number of OfficeConnect formulas&lt;/h2&gt;
+&lt;p&gt;The single biggest performance factor is formula count. Each OfficeConnect formula is a separate server call during refresh.&lt;/p&gt;</description></item><item><title>Workday OfficeConnect Refresh Time Benchmarks</title><link>https://officeconnectpro.com/get-started/performance/refresh-benchmarks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/performance/refresh-benchmarks/</guid><description>&lt;p&gt;&amp;ldquo;Is my workbook slow?&amp;rdquo; is a question with no universal answer — refresh time depends on formula count, server load, network path, and how complex your Adaptive Planning model is. This reference gives you rough Workday OfficeConnect benchmarks to compare against, and a method for measuring your own.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A Workday OfficeConnect workbook you can refresh end-to-end&lt;/li&gt;
+&lt;li&gt;A stopwatch (your phone is fine) or the Excel status bar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="benchmark-table"&gt;Benchmark table&lt;/h2&gt;
+&lt;p&gt;The numbers below assume a healthy Adaptive Planning tenant, a wired or strong wireless network, and 64-bit Excel. Cut the workbook into one of these buckets by counting OfficeConnect formulas (Reporting pane → &lt;strong&gt;Review&lt;/strong&gt; tab → &lt;strong&gt;Workbook Elements&lt;/strong&gt; count).&lt;/p&gt;</description></item><item><title>32-bit vs 64-bit Excel for Workday OfficeConnect</title><link>https://officeconnectpro.com/get-started/performance/32-vs-64-bit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/performance/32-vs-64-bit/</guid><description>&lt;p&gt;The single biggest hardware-level ceiling for large Workday OfficeConnect workbooks isn&amp;rsquo;t your laptop&amp;rsquo;s RAM — it&amp;rsquo;s whether you&amp;rsquo;re running 32-bit or 64-bit Excel. 32-bit Excel caps each Excel process at roughly 2 GB of memory regardless of how much RAM you have. 64-bit Excel removes that ceiling. For OfficeConnect users pushing past a few hundred formulas with repeating rows and charts, this is often the difference between a workbook that opens and one that crashes.&lt;/p&gt;</description></item><item><title>How to Reduce OfficeConnect Element Count for Faster Refresh</title><link>https://officeconnectpro.com/get-started/performance/reduce-element-count/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/performance/reduce-element-count/</guid><description>&lt;p&gt;Each Workday OfficeConnect element in a workbook is a server query on refresh. Cutting element count from 500 to 100 cuts refresh time roughly proportionally — far more impact than any other lever. This is a tactical guide to doing exactly that, without losing the report your audience actually needs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;An OfficeConnect workbook with measurable refresh time (15+ seconds)&lt;/li&gt;
+&lt;li&gt;The Reporting pane open (OfficeConnect ribbon → &lt;strong&gt;Reporting&lt;/strong&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="how-to-count-elements-in-a-workbook"&gt;How to count elements in a workbook&lt;/h2&gt;
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;1&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Open the Reporting pane&lt;/strong&gt;
+ Click &lt;strong&gt;Reporting&lt;/strong&gt; in the OfficeConnect ribbon.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;2&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Switch to the Review tab&lt;/strong&gt;
+ At the top of the Reporting pane, click &lt;strong&gt;Review&lt;/strong&gt;. The pane now lists every element in the workbook, grouped by type (Account, Time, Version, Level, Custom Dimensions).
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="step-block"&gt;
+ &lt;div class="step-number"&gt;3&lt;/div&gt;
+ &lt;div class="step-content"&gt;
+ &lt;strong&gt;Note the totals&lt;/strong&gt;
+ The total at the top of the Review tab is your element count. Capture it now — you&amp;rsquo;ll compare against it after each tactic below.
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;A workbook with 80 elements should refresh in under 10 seconds on a healthy tenant. If yours is much higher, the tactics below should each take a chunk out.&lt;/p&gt;</description></item><item><title>Workday OfficeConnect Patterns for Large Repeating Reports</title><link>https://officeconnectpro.com/get-started/performance/large-repeating-reports/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/performance/large-repeating-reports/</guid><description>&lt;p&gt;Repeating rows are the most powerful performance feature in Workday OfficeConnect. One element can expand to 500 rows on refresh, querying the server as a single operation rather than 500 individual ones. But the same feature, used carelessly, produces workbooks that grow unpredictably, break charts, and confuse the next person who opens them. This guide is the pattern catalog.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A workbook where repeating rows are appropriate (cost-center lists, account lists, project rosters)&lt;/li&gt;
+&lt;li&gt;Reporting pane open, with at least one element that has children (a Level rollup or account rollup)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="how-repeating-rows-work"&gt;How repeating rows work&lt;/h2&gt;
+&lt;p&gt;A normal OfficeConnect formula resolves one intersection. A &lt;strong&gt;repeating&lt;/strong&gt; formula resolves one intersection per child of a parent element — make &amp;ldquo;Total US Operations&amp;rdquo; a repeating Level and the row expands on refresh into one row per cost center under it.&lt;/p&gt;</description></item></channel></rss>
