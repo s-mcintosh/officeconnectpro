@@ -1,6 +1,6 @@
 # OfficeConnectPro
 
-Documentation site for [OfficeConnect](https://officeconnectpro.com) — a Microsoft Office add-in for Workday Adaptive Planning and Workday Financials. Written for finance teams and IT admins who need clear, step-by-step guidance without digging through Workday's official docs.
+Independent documentation site for Workday OfficeConnect — written for finance teams and IT admins who need clear, step-by-step guidance without digging through Workday's official docs.
 
 Live at **[officeconnectpro.com](https://officeconnectpro.com)**
 
@@ -10,9 +10,9 @@ Live at **[officeconnectpro.com](https://officeconnectpro.com)**
 
 | Section | Description |
 |---|---|
-| [Get Started](content/get-started/) | System requirements, installation (admin and end-user), first sign-in, tenant setup, SSO, registry deployment, and Financials data model setup |
-| [Build Reports](content/build-reports/) | Adding elements, filters, time contexts, cell explorer, workbook properties, sharing, and publishing to PowerPoint and Word |
-| [Troubleshoot](content/troubleshoot/) | Common errors and fixes |
+| [Get Started](content/get-started/) | Installation, first report, system requirements, SSO, registry deployment, build reports, data entry/write-back, Word & PowerPoint, performance, and admin configuration |
+| [Reference](content/reference/) | Troubleshooting guides, release notes, version compatibility, element types, glossary, and resources |
+| [About](content/about/) | Why this site exists |
 
 ---
 
@@ -45,11 +45,14 @@ The local server runs at `http://localhost:1313`.
 Content lives in `content/` as Markdown files with Hugo front matter. Each section has an `_index.md` for the section landing page, plus individual topic pages.
 
 Custom shortcodes are in `layouts/shortcodes/`:
+- `step` — numbered step block for procedural content
 - `admin-note` — highlights steps that require admin access
-- `step` — numbered step block used in procedural content
+- `tip`, `warning`, `deprecated`, `new-in-release` — callout blocks
+- `audience-badge` — inline pill for FP&A / Admin / Consultant / Executive content
+- `related` — related articles module used at article footers
 
 ## Links
 
+- [officeconnectpro.com](https://officeconnectpro.com)
 - [YouTube](https://www.youtube.com/@officeconnectpro)
 - [Ko-fi](https://ko-fi.com/smcintosh)
-- [GitHub](https://github.com/s-mcintosh)
