@@ -44,10 +44,21 @@ Click **Refresh** in the OfficeConnect ribbon to load the data.
 
 ## Add multiple elements to one row or column
 
-1. Select the target row or column
-2. Hold **Ctrl** and click each element you want
-3. Drag them all at once into the selection
-4. Click **Refresh**
+{{< step n="6" title="Select the target row or column" >}}
+Click the row number or column letter to select the entire row or column.
+{{< /step >}}
+
+{{< step n="7" title="Hold Ctrl and click each element you want" >}}
+In the Elements pane, hold **Ctrl** and click each element to build your selection.
+{{< /step >}}
+
+{{< step n="8" title="Drag them all at once into the selection" >}}
+Drag the selected elements from the pane onto your target row or column.
+{{< /step >}}
+
+{{< step n="9" title="Click Refresh" >}}
+Click **Refresh** in the OfficeConnect ribbon to load the data.
+{{< /step >}}
 
 All selected elements populate into the single row or column. Data rolls up by the elements.
 

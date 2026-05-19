@@ -89,10 +89,21 @@ A cleaner pattern: maintain the live linked deck as `BoardPack_Apr2026_LIVE.pptx
 
 If PowerPoint shows some slides refreshed and others didn't:
 
-1. **Don't save yet** — preserve your ability to undo
-2. Run **Refresh Links** again — most transient failures clear on retry
-3. If a specific slide consistently fails, check the linked named range in the Excel source (it may have been renamed or deleted)
-4. See [Recovering Broken Links](/get-started/word-powerpoint/powerpoint/recovering-broken-links/) for the link-repair procedure
+{{< step n="12" title="Don't save yet" >}}
+Preserve your ability to undo — do not save the partially-refreshed deck.
+{{< /step >}}
+
+{{< step n="13" title="Run Refresh Links again" >}}
+Click **Refresh Links** a second time — most transient failures clear on retry.
+{{< /step >}}
+
+{{< step n="14" title="Check the named range if a specific slide consistently fails" >}}
+If one slide keeps failing, inspect the linked named range in the Excel source — it may have been renamed or deleted.
+{{< /step >}}
+
+{{< step n="15" title="Follow the link-repair procedure if needed" >}}
+See [Recovering Broken Links](/get-started/word-powerpoint/powerpoint/recovering-broken-links/) for the full repair procedure.
+{{< /step >}}
 
 ## Common refresh-day mistakes
 

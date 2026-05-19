@@ -31,8 +31,6 @@ A personal scenario is a **version** like any other, with three differences:
 
 Personal scenarios are stored on the Adaptive Planning server (so they survive workbook deletion and Excel crashes) but never appear in anyone else's version list.
 
-## Step 1 — Create a personal scenario
-
 {{< step n="1" title="Open the Reporting pane and find Versions" >}}
 In the OfficeConnect Reporting pane, expand the **Versions** node. You'll see your normal shared versions plus a new **My Scenarios** group (only present in 2026R1+ tenants with the feature enabled).
 {{< /step >}}
@@ -45,8 +43,6 @@ Right-click any version you can read — typically *Working Forecast* or *Budget
 Give it a memorable name like `WhatIf_HiringFreeze_2026Q3`. The name appears only to you.
 {{< /step >}}
 
-## Step 2 — Use the scenario in a report
-
 {{< step n="4" title="Drag the scenario into a Version slot like any other" >}}
 The new scenario appears under **My Scenarios** in the Reporting pane. Drag it into a worksheet cell exactly as you would a shared version. See [Add Elements](/get-started/build-reports/add-elements/) for the standard workflow.
 {{< /step >}}
@@ -54,8 +50,6 @@ The new scenario appears under **My Scenarios** in the Reporting pane. Drag it i
 {{< step n="5" title="Write data back to the scenario" >}}
 If you have write-back enabled, you can modify values in the scenario and submit them — the changes affect only your personal scenario, not the parent version. See [Enter Budget Data](/get-started/data-entry-writeback/enter-budget-data/).
 {{< /step >}}
-
-## Step 3 — Compare to the parent
 
 A common pattern: build a variance report comparing your personal scenario to its parent.
 

@@ -20,8 +20,6 @@ Before 2026R1, the typical way to dig into a number was [Cell Explorer / Drill D
 - A refreshed report with at least one OfficeConnect cell
 - Standard Excel familiarity (sheets, filters, sort)
 
-## Step 1 — Select a cell to expand
-
 {{< step n="1" title="Open your refreshed OfficeConnect report" >}}
 The cell you select can be any data cell — a single intersection, a rollup, or even an `n/a` cell. View By works on the cell's element references, not on the resulting value.
 {{< /step >}}
@@ -29,8 +27,6 @@ The cell you select can be any data cell — a single intersection, a rollup, or
 {{< step n="2" title="Click the cell once to select it" >}}
 Don't enter edit mode; a single click is enough.
 {{< /step >}}
-
-## Step 2 — Run View By
 
 {{< step n="3" title="In the OfficeConnect ribbon, click View By" >}}
 The View By dialog opens. It lists every dimension referenced by the cell: typically Version, Time, Account, Level, plus any Custom Dimensions or Attributes in play.
@@ -47,8 +43,6 @@ For a *Total Expenses* cell, common choices are:
 Pick one and click **OK**.
 {{< /step >}}
 
-## Step 3 — Work with the generated sheet
-
 {{< step n="5" title="A new sheet appears in the workbook" >}}
 The new sheet is named after the dimension you chose (for example, **View By Account — Total Expenses**) and contains the contribution of each member of that dimension to the original cell.
 
@@ -58,8 +52,6 @@ The new sheet is a **standalone OfficeConnect worksheet** — it has its own Off
 {{< step n="6" title="Manipulate freely" >}}
 You can apply standard Excel sort, filter, and conditional formatting to the new sheet without any risk to the main report. Treat it like a scratch pad.
 {{< /step >}}
-
-## Step 4 — Discard or keep
 
 {{< step n="7" title="Delete the View By sheet when you're done" >}}
 Right-click the sheet tab and click **Delete**. The main report is untouched.

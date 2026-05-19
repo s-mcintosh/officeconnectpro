@@ -33,9 +33,18 @@ After refreshing, click **Hide Zeros & Blanks** in the OfficeConnect ribbon to a
 ## Per-row overrides
 
 With the workbook default set, you can configure individual rows to behave differently:
-1. Select the row
-2. Right-click → **OfficeConnect → Row Properties**
-3. Set a different zero suppression behavior for that specific row
+
+{{< step n="4" title="Select the row" >}}
+Click the row number to select the entire row.
+{{< /step >}}
+
+{{< step n="5" title="Open Row Properties" >}}
+Right-click the row and choose **OfficeConnect → Row Properties**.
+{{< /step >}}
+
+{{< step n="6" title="Set the zero suppression behavior for this row" >}}
+Choose a different zero suppression behavior for that specific row.
+{{< /step >}}
 
 This lets some rows follow the workbook default while others always show (or always hide) zeros.
 

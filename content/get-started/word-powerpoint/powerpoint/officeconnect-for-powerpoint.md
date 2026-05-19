@@ -66,17 +66,37 @@ It's now a live link — formatted exactly as it appears in Excel.
 
 When you're ready to update the presentation (e.g., for the next month's board deck):
 
-1. Update the data in your Workday OfficeConnect Excel workbook (change the time element or refresh)
-2. In PowerPoint, go to the OfficeConnect tab and click **Refresh Links**
-3. Go to the linked slides and verify the data has updated
-4. Save the presentation
+{{< step n="1" title="Update the data in your Excel workbook" >}}
+In your Workday OfficeConnect Excel workbook, change the time element or click **Refresh** to pull current data.
+{{< /step >}}
+
+{{< step n="2" title="Click Refresh Links in PowerPoint" >}}
+In PowerPoint, go to the OfficeConnect tab and click **Refresh Links**.
+{{< /step >}}
+
+{{< step n="3" title="Verify the data has updated" >}}
+Click through the linked slides and confirm the data reflects the new period.
+{{< /step >}}
+
+{{< step n="4" title="Save the presentation" >}}
+Save the presentation with the updated data.
+{{< /step >}}
 
 ## Disconnect a link
 
 If you want to stop a slide's data from updating:
-1. In PowerPoint, go to **File → Info → Edit Links to Files**
-2. Select the link you want to disconnect
-3. Click **Break Link**
+
+{{< step n="1" title="Go to File → Info → Edit Links to Files" >}}
+In PowerPoint, navigate to **File → Info → Edit Links to Files**.
+{{< /step >}}
+
+{{< step n="2" title="Select the link you want to disconnect" >}}
+Click the link in the list to highlight it.
+{{< /step >}}
+
+{{< step n="3" title="Click Break Link" >}}
+Click **Break Link** to disconnect the slide element from the Excel source.
+{{< /step >}}
 
 The table or chart remains as a static object on the slide.
 

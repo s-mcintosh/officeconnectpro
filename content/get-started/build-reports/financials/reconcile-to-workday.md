@@ -15,40 +15,33 @@ OfficeConnect and Workday Report Writer pull from the same underlying Workday Fi
 
 ---
 
-## 1. Confirm you're comparing the same period
+{{< step n="1" title="Confirm you're comparing the same period" >}}
+The most common cause of discrepancies is a period definition mismatch. In your OfficeConnect workbook, note the exact period element you've dragged into the time context cell. Click the cell and check the element details in the Reporting pane — is it a month, a quarter, or a fiscal year? Is it calendar year or fiscal year? In Workday Report Writer, check the **Accounting Date** range or period parameter used to run the report. Workday may default to calendar month while OfficeConnect is set to a fiscal period, or vice versa. Set both to the identical period definition and refresh. If the figures converge, period was the cause.
+{{< /step >}}
 
-The most common cause of discrepancies is a period definition mismatch.
+{{< step n="2" title="Check effective date settings" >}}
+OfficeConnect supports effective-date reporting, which reflects the organization structure as of a specific date rather than the posting date of transactions. If OfficeConnect is set to an effective date that differs from Report Writer's configuration, cost center or department allocations may differ. In the Reporting pane, check whether an effective date element is applied to the workbook. Remove it to revert to the default posting-date view, then compare to Report Writer.
+{{< /step >}}
 
-1. In your OfficeConnect workbook, note the exact period element you've dragged into the time context cell. Click the cell and check the element details in the Reporting pane — is it a month, a quarter, or a fiscal year? Is it calendar year or fiscal year?
-2. In Workday Report Writer, check the **Accounting Date** range or period parameter used to run the report. Workday may default to calendar month while OfficeConnect is set to a fiscal period, or vice versa.
-3. Set both to the identical period definition and refresh. If the figures converge, period was the cause.
+{{< step n="3" title="Verify account scope" >}}
+Confirm that the accounts in your OfficeConnect report match exactly what the Workday report includes. OfficeConnect rollup accounts aggregate all child accounts — if Workday's report uses a different account grouping, figures will differ. Build a side-by-side: list the same leaf-level accounts in OfficeConnect (not rollups) and compare each one to the same account line in Workday. This isolates which account has the discrepancy, narrowing the investigation.
+{{< /step >}}
 
-## 2. Check effective date settings
+{{< step n="4" title="Check company and currency filters" >}}
+If your organization has multiple companies, confirm that both OfficeConnect and Workday Report Writer are scoped to the same company. In OfficeConnect, check for a Company element in the workbook header — see [Filter Reports by Company](/get-started/build-reports/financials/filter-by-company/). If your report uses currency conversion, confirm that both tools are using the same exchange rate type and conversion date. OfficeConnect supports both transaction currency and converted currency reporting — check which is active.
+{{< /step >}}
 
-4. OfficeConnect supports effective-date reporting, which reflects the organization structure as of a specific date rather than the posting date of transactions. If OfficeConnect is set to an effective date that differs from Report Writer's configuration, cost center or department allocations may differ.
-5. In the Reporting pane, check whether an effective date element is applied to the workbook. Remove it to revert to the default posting-date view, then compare to Report Writer.
+{{< step n="5" title="Check for journal sources excluded by Report Writer" >}}
+Some Workday reports are configured to exclude certain journal sources (for example, intercompany elimination entries or system-generated allocations). OfficeConnect by default includes all journal sources. To scope OfficeConnect to match, apply a journal source filter — see [Variance Analysis by Journal Source](/get-started/build-reports/financials/variance-by-journal-source/).
+{{< /step >}}
 
-## 3. Verify account scope
+{{< step n="6" title="When you can't find the cause" >}}
+If the figures still don't reconcile after checking all of the above, collect the following and share with your Workday admin or OfficeConnect support:
 
-6. Confirm that the accounts in your OfficeConnect report match exactly what the Workday report includes. OfficeConnect rollup accounts aggregate all child accounts — if Workday's report uses a different account grouping, figures will differ.
-7. Build a side-by-side: list the same leaf-level accounts in OfficeConnect (not rollups) and compare each one to the same account line in Workday. This isolates which account has the discrepancy, narrowing the investigation.
-
-## 4. Check company and currency filters
-
-8. If your organization has multiple companies, confirm that both OfficeConnect and Workday Report Writer are scoped to the same company. In OfficeConnect, check for a Company element in the workbook header — see [Filter Reports by Company](/get-started/build-reports/financials/filter-by-company/).
-9. If your report uses currency conversion, confirm that both tools are using the same exchange rate type and conversion date. OfficeConnect supports both transaction currency and converted currency reporting — check which is active.
-
-## 5. Check for journal sources excluded by Report Writer
-
-10. Some Workday reports are configured to exclude certain journal sources (for example, intercompany elimination entries or system-generated allocations). OfficeConnect by default includes all journal sources.
-11. To scope OfficeConnect to match, apply a journal source filter — see [Variance Analysis by Journal Source](/get-started/build-reports/financials/variance-by-journal-source/).
-
-## 6. When you can't find the cause
-
-12. If the figures still don't reconcile after checking all of the above, collect the following and share with your Workday admin or OfficeConnect support:
-    - The exact account, period, and filter settings in both OfficeConnect and Workday Report Writer
-    - The specific figures that differ (both the OfficeConnect amount and the Workday Report Writer amount)
-    - Whether the discrepancy is consistent across periods or appears in a specific month only
+- The exact account, period, and filter settings in both OfficeConnect and Workday Report Writer
+- The specific figures that differ (both the OfficeConnect amount and the Workday Report Writer amount)
+- Whether the discrepancy is consistent across periods or appears in a specific month only
+{{< /step >}}
 
 > **Note:** Small rounding differences (< $1) between OfficeConnect and Workday Report Writer are expected in some configurations due to currency conversion rounding. These are cosmetic and do not indicate a data problem.
 

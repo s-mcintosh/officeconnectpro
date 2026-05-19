@@ -87,9 +87,17 @@ If you're managing the conflict at scale, capture which users hit crashes and ho
 
 If the load-order workaround doesn't resolve crashes:
 
-1. Capture an OfficeConnect log (see *Troubleshoot → Capturing Logs* — coming soon).
-2. Open a ticket with **both** Workday support and think-cell support, referencing think-cell KB0231 and providing the OfficeConnect log.
-3. Note Excel version (File → Account → About Excel), OfficeConnect version, and think-cell version in the ticket.
+{{< step n="8" title="Capture an OfficeConnect log" >}}
+See *Troubleshoot → Capturing Logs* (coming soon) for the procedure.
+{{< /step >}}
+
+{{< step n="9" title="Open a ticket with both Workday support and think-cell support" >}}
+Reference think-cell KB0231 and provide the OfficeConnect log in the ticket.
+{{< /step >}}
+
+{{< step n="10" title="Include version details in the ticket" >}}
+Note your Excel version (File → Account → About Excel), OfficeConnect version, and think-cell version.
+{{< /step >}}
 
 ## Result
 
