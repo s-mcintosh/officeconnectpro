@@ -9,7 +9,7 @@
     el.classList.add('oc-cycle--out');
     setTimeout(function () {
       i = (i + 1) % words.length;
-      el.innerHTML = '<u><em>' + words[i] + '</em></u>';
+      el.innerHTML = '<em>' + words[i] + '</em>';
       el.classList.remove('oc-cycle--out');
     }, 300);
   }, 2200);
