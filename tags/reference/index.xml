@@ -43,10 +43,8 @@
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-
-&lt;figure&gt;
- &lt;img src="https://officeconnectpro.com/images/screenshots/oc-ribbon-tab.png"
- alt="The OfficeConnect ribbon tab in Excel"/&gt; &lt;figcaption&gt;
+&lt;figure&gt;&lt;img src="https://officeconnectpro.com/images/screenshots/oc-ribbon-tab.png"
+ alt="The OfficeConnect ribbon tab in Excel"&gt;&lt;figcaption&gt;
  &lt;p&gt;The OfficeConnect ribbon tab with Refresh, Show Reporting Pane, and other key buttons.&lt;/p&gt;</description></item><item><title>What is OfficeConnect?</title><link>https://officeconnectpro.com/get-started/what-is-officeconnect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/what-is-officeconnect/</guid><description>&lt;p&gt;OfficeConnect is a Microsoft Office add-in that streams live data from Workday Adaptive Planning directly into Excel, Word, and PowerPoint. Instead of exporting static spreadsheets, your reports stay connected to your planning instance and refresh on demand.&lt;/p&gt;
 &lt;p&gt;![[what-is-officeconnect-1779155892920.webp]]&lt;/p&gt;
 &lt;h2 id="what-officeconnect-does"&gt;What OfficeConnect does&lt;/h2&gt;

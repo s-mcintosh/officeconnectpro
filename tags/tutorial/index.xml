@@ -390,10 +390,8 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
  &lt;/div&gt;
 &lt;/div&gt;
 
-
-&lt;figure&gt;
- &lt;img src="https://officeconnectpro.com/images/screenshots/oc-reporting-pane-open.png"
- alt="The OfficeConnect Reporting pane open in Excel"/&gt; &lt;figcaption&gt;
+&lt;figure&gt;&lt;img src="https://officeconnectpro.com/images/screenshots/oc-reporting-pane-open.png"
+ alt="The OfficeConnect Reporting pane open in Excel"&gt;&lt;figcaption&gt;
  &lt;p&gt;The Reporting pane docked to the right after clicking Open Pane, with the Elements tab active.&lt;/p&gt;</description></item><item><title>Month-End Close Workflow with OfficeConnect</title><link>https://officeconnectpro.com/get-started/build-reports/financials/month-end-close-workflow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/financials/month-end-close-workflow/</guid><description>&lt;p&gt;Month-end close in Workday Financial Management involves verifying journal completeness, reconciling account balances, and producing financial statements for management review. OfficeConnect lets your accounting team do all of this in Excel — pulling live data from Workday — without waiting for Report Writer outputs or PDF exports. This tutorial walks through a practical close workflow.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A close workbook with a trial balance check sheet, a journal completeness check, and a summary P&amp;amp;L — all refreshable as the close progresses.&lt;/p&gt;</description></item><item><title>Publish a Report to PowerPoint</title><link>https://officeconnectpro.com/get-started/build-reports/publish-to-powerpoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/publish-to-powerpoint/</guid><description>&lt;p&gt;This tutorial covers linking an OfficeConnect Excel report into a PowerPoint presentation. Once linked, refreshing OfficeConnect in Excel automatically updates the numbers in your slides — no copy-pasting needed.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;

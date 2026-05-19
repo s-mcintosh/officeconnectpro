@@ -43,10 +43,8 @@
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-
-&lt;figure&gt;
- &lt;img src="https://officeconnectpro.com/images/screenshots/oc-ribbon-tab.png"
- alt="The OfficeConnect ribbon tab in Excel"/&gt; &lt;figcaption&gt;
+&lt;figure&gt;&lt;img src="https://officeconnectpro.com/images/screenshots/oc-ribbon-tab.png"
+ alt="The OfficeConnect ribbon tab in Excel"&gt;&lt;figcaption&gt;
  &lt;p&gt;The OfficeConnect ribbon tab with Refresh, Show Reporting Pane, and other key buttons.&lt;/p&gt;</description></item><item><title>What is OfficeConnect?</title><link>https://officeconnectpro.com/get-started/what-is-officeconnect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/what-is-officeconnect/</guid><description>&lt;p&gt;OfficeConnect is a Microsoft Office add-in that streams live data from Workday Adaptive Planning directly into Excel, Word, and PowerPoint. Instead of exporting static spreadsheets, your reports stay connected to your planning instance and refresh on demand.&lt;/p&gt;
 &lt;p&gt;![[what-is-officeconnect-1779155892920.webp]]&lt;/p&gt;
 &lt;h2 id="what-officeconnect-does"&gt;What OfficeConnect does&lt;/h2&gt;
@@ -154,10 +152,8 @@
  &lt;/div&gt;
 &lt;/div&gt;
 
-
-&lt;figure&gt;
- &lt;img src="https://officeconnectpro.com/images/screenshots/oc-time-elements.png"
- alt="Time elements in the Elements tab showing years, quarters, and months"/&gt; &lt;figcaption&gt;
+&lt;figure&gt;&lt;img src="https://officeconnectpro.com/images/screenshots/oc-time-elements.png"
+ alt="Time elements in the Elements tab showing years, quarters, and months"&gt;&lt;figcaption&gt;
  &lt;p&gt;The Time section in the Elements tab, expanded to show fiscal years, quarters, and individual months.&lt;/p&gt;</description></item><item><title>Filter Your Data</title><link>https://officeconnectpro.com/get-started/build-reports/filter-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/filter-data/</guid><description>&lt;p&gt;Filters let you restrict report data by accounts, levels, versions, currencies, attributes, or custom dimensions — without adding those elements to rows or columns.&lt;/p&gt;
 &lt;h2 id="worksheet-vs-workbook-filters"&gt;Worksheet vs workbook filters&lt;/h2&gt;
 &lt;table&gt;
@@ -198,10 +194,8 @@
  &lt;/div&gt;
 &lt;/div&gt;
 
-
-&lt;figure&gt;
- &lt;img src="https://officeconnectpro.com/images/screenshots/oc-filter-dialog.png"
- alt="The Worksheet Filters dialog in OfficeConnect"/&gt; &lt;figcaption&gt;
+&lt;figure&gt;&lt;img src="https://officeconnectpro.com/images/screenshots/oc-filter-dialog.png"
+ alt="The Worksheet Filters dialog in OfficeConnect"&gt;&lt;figcaption&gt;
  &lt;p&gt;The Worksheet Filters dialog — browse or search the hierarchy to select which elements to filter by.&lt;/p&gt;</description></item><item><title>Cut, Copy &amp; Move Elements</title><link>https://officeconnectpro.com/get-started/build-reports/cut-copy-move-elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/cut-copy-move-elements/</guid><description>&lt;p&gt;OfficeConnect provides its own cut, copy, and paste commands that move elements together with their metadata.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt; Always use OfficeConnect&amp;rsquo;s own cut/copy/paste commands — not Excel&amp;rsquo;s standard Ctrl+C/Ctrl+V. Excel&amp;rsquo;s clipboard doesn&amp;rsquo;t carry the OfficeConnect element metadata; only OfficeConnect commands do.&lt;/p&gt;
@@ -446,10 +440,8 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
  &lt;/div&gt;
 &lt;/div&gt;
 
-
-&lt;figure&gt;
- &lt;img src="https://officeconnectpro.com/images/screenshots/oc-reporting-pane-open.png"
- alt="The OfficeConnect Reporting pane open in Excel"/&gt; &lt;figcaption&gt;
+&lt;figure&gt;&lt;img src="https://officeconnectpro.com/images/screenshots/oc-reporting-pane-open.png"
+ alt="The OfficeConnect Reporting pane open in Excel"&gt;&lt;figcaption&gt;
  &lt;p&gt;The Reporting pane docked to the right after clicking Open Pane, with the Elements tab active.&lt;/p&gt;</description></item><item><title>Create a Rolling 12-Month Report</title><link>https://officeconnectpro.com/get-started/build-reports/rolling-12-month-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/rolling-12-month-report/</guid><description>&lt;p&gt;A rolling 12-month report always shows the current month plus the 11 preceding months — no matter when you open it. This tutorial shows how to build one using OfficeConnect&amp;rsquo;s relative time contexts so the columns update automatically on each refresh.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;

@@ -51,10 +51,8 @@
  &lt;/div&gt;
 &lt;/div&gt;
 
-
-&lt;figure&gt;
- &lt;img src="https://officeconnectpro.com/images/screenshots/oc-time-elements.png"
- alt="Time elements in the Elements tab showing years, quarters, and months"/&gt; &lt;figcaption&gt;
+&lt;figure&gt;&lt;img src="https://officeconnectpro.com/images/screenshots/oc-time-elements.png"
+ alt="Time elements in the Elements tab showing years, quarters, and months"&gt;&lt;figcaption&gt;
  &lt;p&gt;The Time section in the Elements tab, expanded to show fiscal years, quarters, and individual months.&lt;/p&gt;</description></item><item><title>Filter Your Data</title><link>https://officeconnectpro.com/get-started/build-reports/filter-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/filter-data/</guid><description>&lt;p&gt;Filters let you restrict report data by accounts, levels, versions, currencies, attributes, or custom dimensions — without adding those elements to rows or columns.&lt;/p&gt;
 &lt;h2 id="worksheet-vs-workbook-filters"&gt;Worksheet vs workbook filters&lt;/h2&gt;
 &lt;table&gt;
@@ -95,10 +93,8 @@
  &lt;/div&gt;
 &lt;/div&gt;
 
-
-&lt;figure&gt;
- &lt;img src="https://officeconnectpro.com/images/screenshots/oc-filter-dialog.png"
- alt="The Worksheet Filters dialog in OfficeConnect"/&gt; &lt;figcaption&gt;
+&lt;figure&gt;&lt;img src="https://officeconnectpro.com/images/screenshots/oc-filter-dialog.png"
+ alt="The Worksheet Filters dialog in OfficeConnect"&gt;&lt;figcaption&gt;
  &lt;p&gt;The Worksheet Filters dialog — browse or search the hierarchy to select which elements to filter by.&lt;/p&gt;</description></item><item><title>Set Up Your Reporting Model</title><link>https://officeconnectpro.com/get-started/set-up-reporting-model/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/set-up-reporting-model/</guid><description>&lt;div class="oc-callout oc-callout--admin admin-note" role="note"&gt;
  &lt;div class="oc-callout__icon" aria-hidden="true"&gt;
  &lt;i class="fas fa-wrench"&gt;&lt;/i&gt;

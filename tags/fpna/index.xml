@@ -48,10 +48,8 @@ to interface type &amp;#39;Microsoft.Office.Core.IRibbonUI&amp;#39;.
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-
-&lt;figure&gt;
- &lt;img src="https://officeconnectpro.com/images/screenshots/oc-ribbon-tab.png"
- alt="The OfficeConnect ribbon tab in Excel"/&gt; &lt;figcaption&gt;
+&lt;figure&gt;&lt;img src="https://officeconnectpro.com/images/screenshots/oc-ribbon-tab.png"
+ alt="The OfficeConnect ribbon tab in Excel"&gt;&lt;figcaption&gt;
  &lt;p&gt;The OfficeConnect ribbon tab with Refresh, Show Reporting Pane, and other key buttons.&lt;/p&gt;</description></item><item><title>Build a Trial Balance Report with OfficeConnect (Financials)</title><link>https://officeconnectpro.com/get-started/build-reports/financials/trial-balance-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/financials/trial-balance-report/</guid><description>&lt;p&gt;A trial balance lists every ledger account with its debit or credit balance for a given period. With OfficeConnect&amp;rsquo;s Financials data source, you can build one that refreshes directly from Workday Financial Management — no export, no copy-paste.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A trial balance report showing all ledger accounts grouped by type (Assets, Liabilities, Equity, Revenue, Expenses) for a selected company and period.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;
@@ -325,10 +323,8 @@ was closed: An unexpected error occurred on a send.
  &lt;/div&gt;
 &lt;/div&gt;
 
-
-&lt;figure&gt;
- &lt;img src="https://officeconnectpro.com/images/screenshots/oc-time-elements.png"
- alt="Time elements in the Elements tab showing years, quarters, and months"/&gt; &lt;figcaption&gt;
+&lt;figure&gt;&lt;img src="https://officeconnectpro.com/images/screenshots/oc-time-elements.png"
+ alt="Time elements in the Elements tab showing years, quarters, and months"&gt;&lt;figcaption&gt;
  &lt;p&gt;The Time section in the Elements tab, expanded to show fiscal years, quarters, and individual months.&lt;/p&gt;</description></item><item><title>Report on Actuals by Cost Center</title><link>https://officeconnectpro.com/get-started/build-reports/financials/actuals-by-cost-center/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/build-reports/financials/actuals-by-cost-center/</guid><description>&lt;p&gt;OfficeConnect&amp;rsquo;s Financials data source supports Workday worktags — including Cost Center — as dimension filters. Adding a cost center to your report scopes all data to that organizational unit.&lt;/p&gt;
 &lt;h2 id="steps"&gt;Steps&lt;/h2&gt;
 &lt;ol&gt;
@@ -379,10 +375,8 @@ was closed: An unexpected error occurred on a send.
  &lt;/div&gt;
 &lt;/div&gt;
 
-
-&lt;figure&gt;
- &lt;img src="https://officeconnectpro.com/images/screenshots/oc-filter-dialog.png"
- alt="The Worksheet Filters dialog in OfficeConnect"/&gt; &lt;figcaption&gt;
+&lt;figure&gt;&lt;img src="https://officeconnectpro.com/images/screenshots/oc-filter-dialog.png"
+ alt="The Worksheet Filters dialog in OfficeConnect"&gt;&lt;figcaption&gt;
  &lt;p&gt;The Worksheet Filters dialog — browse or search the hierarchy to select which elements to filter by.&lt;/p&gt;</description></item><item><title>Install as an End User</title><link>https://officeconnectpro.com/get-started/install-end-user/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/install-end-user/</guid><description>&lt;p&gt;Follow these steps to install OfficeConnect on your own Windows machine. You&amp;rsquo;ll need administrator rights, or IT must pre-install the prerequisites.&lt;/p&gt;
 &lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
 &lt;ul&gt;
@@ -1042,10 +1036,8 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
  &lt;/div&gt;
 &lt;/div&gt;
 
-
-&lt;figure&gt;
- &lt;img src="https://officeconnectpro.com/images/screenshots/oc-reporting-pane-open.png"
- alt="The OfficeConnect Reporting pane open in Excel"/&gt; &lt;figcaption&gt;
+&lt;figure&gt;&lt;img src="https://officeconnectpro.com/images/screenshots/oc-reporting-pane-open.png"
+ alt="The OfficeConnect Reporting pane open in Excel"&gt;&lt;figcaption&gt;
  &lt;p&gt;The Reporting pane docked to the right after clicking Open Pane, with the Elements tab active.&lt;/p&gt;</description></item><item><title>Link to External Excel Files</title><link>https://officeconnectpro.com/reference/troubleshoot/link-external-excel-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/reference/troubleshoot/link-external-excel-files/</guid><description>&lt;p&gt;&lt;strong&gt;Question:&lt;/strong&gt; Can I create a link from my OfficeConnect workbook to a regular (non-OfficeConnect) Excel file?&lt;/p&gt;
 &lt;h2 id="yes--use-excels-standard-external-link"&gt;Yes — use Excel&amp;rsquo;s standard external link&lt;/h2&gt;
 &lt;p&gt;OfficeConnect workbooks are Excel files. You can use Excel&amp;rsquo;s standard external reference syntax to pull data from any other Excel file:&lt;/p&gt;
