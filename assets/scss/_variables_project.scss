@@ -1,7 +1,15 @@
-$primary: #f59e0b;
+// Brand colors
+$primary:   #f59e0b;
 $secondary: #d97706;
 
-$link-color: $primary;
+// Links
+$link-color:       $primary;
 $link-hover-color: darken($primary, 12%);
 
+// Typography — Inter for body, Plus Jakarta Sans for headings
 $font-family-sans-serif: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$headings-font-family:   'Plus Jakarta Sans', Inter, system-ui, sans-serif;
+$headings-font-weight:   700;
+
+// Body text — near-black for sharper contrast
+$body-color: #18181b;
