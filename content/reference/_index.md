@@ -16,7 +16,7 @@ tags:
 - system-admin
 ---
 
-Stable, factual surfaces you'll come back to. Glossary, formula reference, element-type catalog, version-compatibility matrix, plus troubleshooting guides and release notes.
+Stable, factual surfaces you'll come back to. Glossary, element-type catalog, version-compatibility matrix, plus troubleshooting guides and release notes.
 
 ## Quick-reference articles
 

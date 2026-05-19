@@ -18,7 +18,7 @@ Install Workday OfficeConnect, build reports, manage data entry, configure SSO, 
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fa-book" title="Reference" url="/reference/" %}}
-Glossary, formula reference, version compatibility, troubleshooting guides, release notes, and downloadable resources.
+Glossary, element types, version compatibility, troubleshooting guides, release notes, and downloadable resources.
 {{% /blocks/feature %}}
 {{< /blocks/section >}}
 
