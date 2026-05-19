@@ -26,8 +26,6 @@ All pages are available as raw Markdown by appending `index.md` to any page URL.
 
 - [Workday OfficeConnect Glossary](https://officeconnectpro.com/reference/glossary/index.md): Alphabetical reference for every Workday OfficeConnect term — elements, filters, contexts, write-back, tenants, and more.
 
-- [OfficeConnect Formula Reference](https://officeconnectpro.com/reference/formula-reference/index.md): What's actually inside a Workday OfficeConnect cell — formula structure, components, and how to read it.
-
 - [Element Types Reference](https://officeconnectpro.com/reference/element-types/index.md): Every element type you can drag from the Workday OfficeConnect Reporting pane, what it represents, and where it lives in each data source.
 
 - [Workday OfficeConnect Version Compatibility Matrix](https://officeconnectpro.com/reference/version-compatibility/index.md): Which Workday OfficeConnect client versions work with which Workday Adaptive Planning releases — including the forced-upgrade grace periods.
