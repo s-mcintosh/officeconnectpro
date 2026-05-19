@@ -4,7 +4,7 @@ linkTitle: "Element Types"
 weight: 30
 description: >
   Every element type you can drag from the Workday OfficeConnect Reporting pane, what it represents, and where it lives in each data source.
-tags: ["reference", "reporting", "fp-and-a", "system-admin"]
+tags: ["reference", "reporting", "fpna", "system-admin"]
 ---
 
 The Reporting pane in Workday OfficeConnect groups all available content into **element types**. This reference defines each type, the data source it applies to, and the typical role it plays in a report.

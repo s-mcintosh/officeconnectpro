@@ -4,7 +4,7 @@ linkTitle: "Headcount in Financial Reports"
 weight: 24
 description: >
   Mix workforce planning metrics (headcount, FTEs, salary cost) with financial accounts in a single OfficeConnect report.
-tags: ["adaptive-planning", "reporting", "fp-and-a", "recipe"]
+tags: ["adaptive-planning", "reporting", "fpna", "recipe"]
 ---
 
 OfficeConnect doesn't separate financial and workforce accounts — they're all elements in your Adaptive Planning model. You can add headcount rows to any financial report by dragging the right accounts from the Reporting pane.

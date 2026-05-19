@@ -4,7 +4,7 @@ linkTitle: "Quarterly Board Pack"
 weight: 40
 description: >
   Build a multi-sheet OfficeConnect workbook — P&L summary, KPI page, variance commentary, cash snapshot — designed to feed directly into a PowerPoint board deck.
-tags: ["reporting", "adaptive-planning", "fp-and-a", "recipe"]
+tags: ["reporting", "adaptive-planning", "fpna", "recipe"]
 ---
 
 A board pack is the quarterly artifact every finance team produces and the one most prone to last-minute spreadsheet panic. This tutorial walks through building a structured, multi-sheet Workday OfficeConnect workbook that acts as the single source for your quarterly board deck — P&L summary, KPI page, variance commentary, and cash snapshot — with each tab designed to link directly into PowerPoint.

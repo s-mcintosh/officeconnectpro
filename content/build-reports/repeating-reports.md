@@ -4,7 +4,7 @@ linkTitle: "Repeating Reports"
 weight: 8
 description: >
   Automatically generate one copy of a report per department, region, or any other level.
-tags: ["reporting", "adaptive-planning", "fp-and-a", "recipe"]
+tags: ["reporting", "adaptive-planning", "fpna", "recipe"]
 ---
 
 The **Repeating Reports** feature in Workday OfficeConnect copies a finished report worksheet once for each element you choose — for example, one sheet per cost center or one sheet per region. Each copy is automatically filtered to show data for its element. Start from a polished single-sheet template, such as the one built in [Build a Department P&L Report](/build-reports/department-pl-report/).

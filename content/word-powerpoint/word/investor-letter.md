@@ -4,7 +4,7 @@ linkTitle: "Investor Letter Template"
 weight: 40
 description: >
   A reusable Word investor-letter template where opening numbers, segment results, and forward guidance update from Workday OfficeConnect on each cycle.
-tags: ["sharing", "reporting", "fp-and-a", "tutorial"]
+tags: ["sharing", "reporting", "fpna", "tutorial"]
 ---
 
 The CEO's quarterly investor letter is part narrative, part numbers. The narrative changes; the numbers are the same fields every quarter — revenue, growth, margin, cash, headcount, segment results. Templating it once means subsequent quarters take an hour instead of a day, and the numbers can't go out wrong.

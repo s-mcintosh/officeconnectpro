@@ -1,11 +1,11 @@
 {{- /*
-  {{< audience-badge type="fp-and-a" >}}
+  {{< audience-badge type="fpna" >}}
   {{< audience-badge type="system-admin" >}}
   {{< audience-badge type="consultant" >}}
   Inline colored pill identifying the article's primary audience.
 */ -}}
-{{- $type := .Get "type" | default "fp-and-a" -}}
-{{- $label := "FP&A" -}}
+{{- $type := .Get "type" | default "fpna" -}}
+{{- $label := "FPnA" -}}
 {{- if eq $type "system-admin" -}}
   {{- $label = "System Admin" -}}
 {{- else if eq $type "consultant" -}}

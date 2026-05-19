@@ -4,7 +4,7 @@ linkTitle: "Large Repeating Reports"
 weight: 50
 description: >
   Patterns and pitfalls for Workday OfficeConnect reports that use repeating rows to generate hundreds of lines from a single element.
-tags: ["performance", "reporting", "fp-and-a", "how-to"]
+tags: ["performance", "reporting", "fpna", "how-to"]
 ---
 
 Repeating rows are the most powerful performance feature in Workday OfficeConnect. One element can expand to 500 rows on refresh, querying the server as a single operation rather than 500 individual ones. But the same feature, used carelessly, produces workbooks that grow unpredictably, break charts, and confuse the next person who opens them. This guide is the pattern catalog.

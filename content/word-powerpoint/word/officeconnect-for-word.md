@@ -4,7 +4,7 @@ linkTitle: "For Word"
 weight: 10
 description: >
   Link live financial data from Workday OfficeConnect Excel into Word reports and board narratives.
-tags: ["sharing", "reporting", "fp-and-a", "tutorial"]
+tags: ["sharing", "reporting", "fpna", "tutorial"]
 aliases:
   - /share-publish/officeconnect-for-word/
   - /build-reports/officeconnect-for-word/

@@ -4,7 +4,7 @@ linkTitle: "First 30 Minutes"
 weight: 2
 description: >
   Install, sign in, build your first report, and refresh it — a complete onboarding path from zero to a live Workday OfficeConnect report in half an hour.
-tags: ["adaptive-planning", "fp-and-a", "tutorial"]
+tags: ["adaptive-planning", "fpna", "tutorial"]
 ---
 
 This is the fastest path from "Workday OfficeConnect isn't installed yet" to "I have a refreshable Excel report showing live Adaptive Planning data." It threads together the canonical guides for each step so you don't have to figure out the right order.

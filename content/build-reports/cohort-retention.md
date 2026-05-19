@@ -4,7 +4,7 @@ linkTitle: "Cohort Revenue Retention"
 weight: 47
 description: >
   Build a SaaS cohort retention report — revenue by signup cohort, retained revenue by month, and net revenue retention percentage — using repeating rows.
-tags: ["reporting", "adaptive-planning", "fp-and-a", "recipe"]
+tags: ["reporting", "adaptive-planning", "fpna", "recipe"]
 ---
 
 For SaaS and subscription businesses, cohort retention is the most important diagnostic in the model — it answers whether customers are staying and expanding. This tutorial walks through building a Workday OfficeConnect cohort revenue retention report with one row per signup cohort, retained revenue across each subsequent month, and a net revenue retention (NRR) percentage at the right edge.

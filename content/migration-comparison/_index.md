@@ -12,7 +12,7 @@ cascade:
   type: docs
 tags:
 - comparison
-- fp-and-a
+- fpna
 - system-admin
 - reference
 ---

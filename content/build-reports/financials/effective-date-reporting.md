@@ -4,7 +4,7 @@ linkTitle: "Effective Date Reporting"
 weight: 5
 description: >
   Use OfficeConnect's effective date setting to report against your organization's structure as it existed on a specific date — essential after a reorganization.
-tags: ["financials", "accounting", "reporting", "fp-and-a", "how-to"]
+tags: ["financials", "accounting", "reporting", "fpna", "how-to"]
 ---
 
 When your organization restructures mid-year, historical reports can show cost centers, companies, or hierarchies that no longer exist — or omit ones that didn't exist yet. OfficeConnect's Financials data source supports **effective date reporting**, which lets you select the org structure as it existed on a specific date.

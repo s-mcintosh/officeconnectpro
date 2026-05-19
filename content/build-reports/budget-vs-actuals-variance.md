@@ -4,7 +4,7 @@ linkTitle: "Budget vs. Actuals Variance"
 weight: 20
 description: >
   Build an OfficeConnect report that shows budget, actuals, and variance side by side — the most common FP&A report in Adaptive Planning.
-tags: ["adaptive-planning", "reporting", "fp-and-a", "tutorial"]
+tags: ["adaptive-planning", "reporting", "fpna", "tutorial"]
 ---
 
 A budget vs. actuals variance report puts your plan and your reality in the same view. This tutorial walks through building one in OfficeConnect with a variance column that calculates automatically in Excel.

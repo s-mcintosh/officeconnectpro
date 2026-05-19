@@ -4,7 +4,7 @@ linkTitle: "Enter Budget Data"
 weight: 10
 description: >
   Use Workday OfficeConnect's data entry mode to write budget figures directly from Excel into Adaptive Planning — no need to log in to the Adaptive Planning web interface.
-tags: ["adaptive-planning", "data-entry", "write-back", "fp-and-a", "tutorial"]
+tags: ["adaptive-planning", "data-entry", "write-back", "fpna", "tutorial"]
 aliases:
   - /build-reports/enter-budget-data/
 ---

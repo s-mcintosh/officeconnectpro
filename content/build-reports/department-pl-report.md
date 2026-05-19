@@ -4,7 +4,7 @@ linkTitle: "Department P&L Report"
 weight: 21
 description: >
   Build a profit and loss report broken down by department or cost center using OfficeConnect's Level dimension.
-tags: ["adaptive-planning", "reporting", "fp-and-a", "tutorial"]
+tags: ["adaptive-planning", "reporting", "fpna", "tutorial"]
 ---
 
 A department P&L shows revenue, expenses, and net income for each business unit in the same workbook. OfficeConnect's Level dimension makes this straightforward — one row set per department, all pulling live data from the same Adaptive Planning model.

@@ -4,7 +4,7 @@ linkTitle: "Reconcile to Workday"
 weight: 14
 description: >
   Troubleshoot and explain differences between OfficeConnect figures and Workday Report Writer output — common causes of discrepancies and how to resolve them.
-tags: ["financials", "accounting", "reporting", "fp-and-a", "troubleshoot"]
+tags: ["financials", "accounting", "reporting", "fpna", "troubleshoot"]
 ---
 
 OfficeConnect and Workday Report Writer pull from the same underlying Workday Financial Management data, so their figures should agree. When they don't, the difference almost always comes down to a filter, period definition, or configuration mismatch — not a data error. This guide walks through the most common causes and how to diagnose them.

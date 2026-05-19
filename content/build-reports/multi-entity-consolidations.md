@@ -4,7 +4,7 @@ linkTitle: "Multi-Entity Consolidations"
 weight: 46
 description: >
   Build a consolidated P&L across legal entities with intercompany eliminations called out as a separate column.
-tags: ["financials", "accounting", "reporting", "adaptive-planning", "fp-and-a", "recipe"]
+tags: ["financials", "accounting", "reporting", "adaptive-planning", "fpna", "recipe"]
 ---
 
 Multi-entity consolidation is one of the harder reporting problems in finance — you need to roll up several legal entities, eliminate intercompany activity, and produce a view that ties to the consolidated P&L. This tutorial walks through building a consolidations report in Workday OfficeConnect that lays out each entity in its own column, calls out intercompany eliminations explicitly, and totals to a consolidated view.

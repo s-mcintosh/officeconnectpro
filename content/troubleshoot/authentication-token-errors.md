@@ -4,7 +4,7 @@ linkTitle: "Authentication and Token Errors"
 weight: 21
 description: >
   OfficeConnect shows authentication errors, token expired messages, or fails to sign in — causes and step-by-step fixes for SSO and token issues.
-tags: ["sso", "security", "system-admin", "fp-and-a", "troubleshoot"]
+tags: ["sso", "security", "system-admin", "fpna", "troubleshoot"]
 ---
 
 Token and sign-in errors usually mean the SSO session has lapsed or the tenant configuration has drifted. Confirm Workday OfficeConnect is pointed at a valid tenant on [Sign In & Create a Tenant](/admin/configure/sign-in-create-tenant/), and review your [Workday SSO configuration](/admin/configure/workday-sso/) if multiple users hit the same error.

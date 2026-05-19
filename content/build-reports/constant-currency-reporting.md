@@ -4,7 +4,7 @@ linkTitle: "Constant Currency Reporting"
 weight: 27
 description: >
   Use a constant currency version in Adaptive Planning to remove FX impact from OfficeConnect reports — useful for multinational teams comparing performance across periods.
-tags: ["adaptive-planning", "reporting", "fp-and-a", "how-to"]
+tags: ["adaptive-planning", "reporting", "fpna", "how-to"]
 ---
 
 Constant currency reporting holds foreign exchange rates fixed at a baseline period so you can see underlying business performance without FX noise. In Adaptive Planning, this is done through a dedicated constant currency version. OfficeConnect surfaces that version like any other — you just need to know which one to select.

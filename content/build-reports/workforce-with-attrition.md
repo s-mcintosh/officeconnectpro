@@ -4,7 +4,7 @@ linkTitle: "Workforce Plan with Attrition"
 weight: 44
 description: >
   Build a headcount forecast that layers attrition, hiring plan, and fully-loaded cost per FTE — broken out by organizational level with repeating rows.
-tags: ["reporting", "adaptive-planning", "fp-and-a", "recipe"]
+tags: ["reporting", "adaptive-planning", "fpna", "recipe"]
 ---
 
 Workforce planning is where most operating expense lives, and getting it right means modeling *both* sides of the headcount equation — the hires you plan to add and the people who'll leave naturally. This tutorial walks through building a Workday OfficeConnect workforce plan with attrition baked in, broken out by organizational Level, with fully-loaded cost per FTE calculated alongside.

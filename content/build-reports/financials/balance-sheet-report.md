@@ -4,7 +4,7 @@ linkTitle: "Balance Sheet"
 weight: 9
 description: >
   Build a formatted balance sheet in Excel using OfficeConnect's Financials data source — assets, liabilities, and equity drawn live from Workday Financial Management.
-tags: ["financials", "accounting", "reporting", "fp-and-a", "tutorial"]
+tags: ["financials", "accounting", "reporting", "fpna", "tutorial"]
 ---
 
 A balance sheet in OfficeConnect pulls directly from Workday Financial Management's general ledger, so your assets, liabilities, and equity balances are always current without manual copy-paste from Workday Report Writer. This tutorial walks through building a structured balance sheet with the three standard sections.

@@ -4,7 +4,7 @@ linkTitle: "Write-Back Complete Guide"
 weight: 20
 description: >
   The 2025R1 write-back feature in Workday OfficeConnect — what it does, who can use it, how to set up a write-back workbook, and how to recover when it fails.
-tags: ["write-back", "data-entry", "adaptive-planning", "fp-and-a", "system-admin", "tutorial"]
+tags: ["write-back", "data-entry", "adaptive-planning", "fpna", "system-admin", "tutorial"]
 ---
 
 {{< new-in-release version="2025R1" >}}

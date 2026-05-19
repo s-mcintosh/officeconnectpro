@@ -4,7 +4,7 @@ linkTitle: "Worktag Combinations"
 weight: 13
 description: >
   Build reports that slice GL actuals by multiple Workday worktags simultaneously — Cost Center and Fund, or Cost Center and Project — using OfficeConnect's dimension filters.
-tags: ["financials", "accounting", "reporting", "fp-and-a", "how-to"]
+tags: ["financials", "accounting", "reporting", "fpna", "how-to"]
 ---
 
 Workday Financial Management uses **worktags** to tag financial transactions — Cost Center, Fund, Program, Project, Grant, and any custom worktags your organization has defined. OfficeConnect exposes worktags as dimension filters, letting you report on specific combinations (for example, all expenses for Cost Center 1001 within Fund ABC).

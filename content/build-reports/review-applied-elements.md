@@ -4,7 +4,7 @@ linkTitle: "Review Applied Elements"
 weight: 6
 description: >
   Use the Review tab to see exactly which elements are affecting any cell, row, or column.
-tags: ["reporting", "adaptive-planning", "fp-and-a", "how-to"]
+tags: ["reporting", "adaptive-planning", "fpna", "how-to"]
 ---
 
 The **Review tab** in the Workday OfficeConnect Reporting pane shows you a complete picture of what's driving data in your report. Use it to verify elements are applied correctly before sharing or distributing a report — especially after you've used [Add Elements](/build-reports/add-elements/) to assemble rows and columns.

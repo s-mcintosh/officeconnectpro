@@ -4,7 +4,7 @@ linkTitle: "Period-Aware Charts"
 weight: 50
 description: >
   Build PowerPoint charts whose axes, titles, and data ranges update automatically when the reporting period rolls — no more re-creating the trend chart every month.
-tags: ["sharing", "reporting", "fp-and-a", "how-to"]
+tags: ["sharing", "reporting", "fpna", "how-to"]
 ---
 
 A static PowerPoint chart with the title "Revenue Trend: Jan 2026 - Mar 2026" is fine the first month. The next month, someone has to manually update the title to "Feb 2026 - Apr 2026" — and probably forgets the axis label. Multiply by every chart in a board pack, every month, and you've reinvented manual work.

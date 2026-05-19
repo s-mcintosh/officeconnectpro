@@ -4,7 +4,7 @@ linkTitle: "Refresh All Slides"
 weight: 30
 description: >
   The disciplined refresh workflow that keeps Workday OfficeConnect PowerPoint decks consistent — never a deck with mixed-period numbers.
-tags: ["sharing", "fp-and-a", "how-to"]
+tags: ["sharing", "fpna", "how-to"]
 ---
 
 The single failure mode that destroys a board-pack workflow is shipping a deck where some slides have current numbers and others have last month's. Recipients lose trust in every number on every page. This article documents the refresh discipline that prevents it.

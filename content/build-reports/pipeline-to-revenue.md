@@ -4,7 +4,7 @@ linkTitle: "Pipeline-to-Revenue Forecast"
 weight: 45
 description: >
   Build a probability-weighted revenue forecast from pipeline data — stages, probabilities, and expected close dates — using a Pipeline custom dimension in Adaptive Planning.
-tags: ["reporting", "adaptive-planning", "fp-and-a", "recipe"]
+tags: ["reporting", "adaptive-planning", "fpna", "recipe"]
 ---
 
 Pipeline-to-revenue forecasting bridges the gap between the CRM and the financial model. Instead of treating bookings as a single top-down number, this approach builds the forecast bottom-up from deal stages and probabilities. This tutorial walks through assembling a probability-weighted revenue forecast in Workday OfficeConnect, assuming your pipeline data is already loaded into Adaptive Planning through a custom dimension.

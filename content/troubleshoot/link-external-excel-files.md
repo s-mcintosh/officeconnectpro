@@ -4,7 +4,7 @@ linkTitle: "Link External Excel Files"
 weight: 11
 description: >
   How to link to a plain Excel file from within an OfficeConnect workbook.
-tags: ["reporting", "fp-and-a", "system-admin", "troubleshoot"]
+tags: ["reporting", "fpna", "system-admin", "troubleshoot"]
 ---
 
 **Question:** Can I create a link from my OfficeConnect workbook to a regular (non-OfficeConnect) Excel file?

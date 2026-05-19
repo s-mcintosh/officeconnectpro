@@ -4,7 +4,7 @@ linkTitle: "Financials vs Adaptive Planning"
 weight: 10
 description: >
   Key differences in Workday OfficeConnect behavior depending on whether you're using the Adaptive Planning or Financials data source.
-tags: ["adaptive-planning", "financials", "accounting", "fp-and-a", "system-admin", "comparison"]
+tags: ["adaptive-planning", "financials", "accounting", "fpna", "system-admin", "comparison"]
 aliases:
   - /build-reports/financials-vs-adaptive-planning/
 ---

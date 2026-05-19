@@ -7,7 +7,7 @@ description: Share Workday OfficeConnect workbooks and linked decks via Microsof
   Teams, SharePoint, and OneDrive — including co-authoring caveats and recipient permissions.
 tags:
 - sharing
-- fp-and-a
+- fpna
 - reference
 ---
 

@@ -4,7 +4,7 @@ linkTitle: "Recovering Broken Links"
 weight: 40
 description: >
   When a Workday OfficeConnect PowerPoint link breaks — file moved, named range renamed, workbook deleted — here are the fix paths in order of cost.
-tags: ["sharing", "troubleshoot", "fp-and-a", "how-to"]
+tags: ["sharing", "troubleshoot", "fpna", "how-to"]
 ---
 
 A linked PowerPoint deck breaks the first time someone moves the source Excel workbook, renames a named range, or saves a copy under a new filename without updating the deck. This article documents how to recognize a broken link and the cheapest fix.

@@ -4,7 +4,7 @@ linkTitle: "Year-over-Year Trend"
 weight: 22
 description: >
   Compare this year's actuals against the prior year month by month using fixed time elements in OfficeConnect.
-tags: ["adaptive-planning", "reporting", "fp-and-a", "recipe"]
+tags: ["adaptive-planning", "reporting", "fpna", "recipe"]
 ---
 
 A year-over-year trend report shows how each month compares to the same month last year — useful for spotting seasonal patterns and measuring real growth. OfficeConnect's time elements let you pin both years in the same report.

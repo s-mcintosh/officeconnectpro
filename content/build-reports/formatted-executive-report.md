@@ -4,7 +4,7 @@ linkTitle: "Formatted Executive Report"
 weight: 29
 description: >
   Build a polished, print-ready executive summary report in OfficeConnect with custom formatting, logos, and page layout — ready to share as PDF or Excel.
-tags: ["adaptive-planning", "reporting", "sharing", "fp-and-a", "tutorial"]
+tags: ["adaptive-planning", "reporting", "sharing", "fpna", "tutorial"]
 ---
 
 A raw OfficeConnect report shows the right numbers, but an executive report needs to look the part. This tutorial walks through building a formatted P&L summary with branding, clean layout, and print-ready page setup — the kind of report you can share as a PDF without touching it in PowerPoint first.

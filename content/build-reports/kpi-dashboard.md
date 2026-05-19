@@ -4,7 +4,7 @@ linkTitle: "KPI Dashboard"
 weight: 41
 description: >
   Build a single-sheet executive dashboard with six to eight KPI tiles, each pulled live from Adaptive Planning and shown with a prior-period comparison.
-tags: ["reporting", "adaptive-planning", "fp-and-a", "recipe"]
+tags: ["reporting", "adaptive-planning", "fpna", "recipe"]
 ---
 
 A KPI dashboard is the one page an executive will actually read. This tutorial walks through building a single-sheet Workday OfficeConnect dashboard with six to eight large-format tiles — Revenue, OpEx, Headcount, EBITDA margin, and so on — each refreshable from your Adaptive Planning model and each showing how the current period compares to the prior one.

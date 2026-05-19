@@ -4,7 +4,7 @@ linkTitle: "Board Pack Template"
 weight: 20
 description: >
   A reusable PowerPoint board-pack template built on Workday OfficeConnect — slide structure, named-range conventions, refresh discipline, and the design choices that keep it maintainable.
-tags: ["sharing", "reporting", "fp-and-a", "tutorial"]
+tags: ["sharing", "reporting", "fpna", "tutorial"]
 ---
 
 The monthly board pack is the most visible artifact your FP&A team ships. Done well, the entire deck refreshes from the OfficeConnect Excel workbook in five minutes; done poorly, a junior analyst spends two days re-pasting tables. This article walks through a reusable template design that's biased toward the five-minute version.

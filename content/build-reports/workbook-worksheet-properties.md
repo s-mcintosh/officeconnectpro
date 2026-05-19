@@ -4,7 +4,7 @@ linkTitle: "Workbook Properties"
 weight: 7
 description: >
   Configure rounding, data clearing, filters, and display options for your reports.
-tags: ["reporting", "adaptive-planning", "fp-and-a", "reference"]
+tags: ["reporting", "adaptive-planning", "fpna", "reference"]
 ---
 
 Workday OfficeConnect has three levels of settings that control report behavior, each overriding the one above it. If you're new to the Excel side of the product, get oriented with the [Reporting Pane Tour](/build-reports/reporting-pane-tour/) first — these properties dialogs all hang off that same ribbon.

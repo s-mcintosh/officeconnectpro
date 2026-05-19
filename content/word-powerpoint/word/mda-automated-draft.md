@@ -4,7 +4,7 @@ linkTitle: "MD&A Automated Draft"
 weight: 30
 description: >
   Build a Word document where the numbers in your MD&A narrative — revenue, growth percentages, margin changes — update automatically from the Workday OfficeConnect Excel source.
-tags: ["sharing", "reporting", "fp-and-a", "tutorial"]
+tags: ["sharing", "reporting", "fpna", "tutorial"]
 ---
 
 The Management Discussion & Analysis (MD&A) narrative is the financial story that accompanies the numbers. Done well, it explains the period's results in plain language. Done manually, every quarter someone types numbers from a closed P&L into Word and prays they get every comma right.

@@ -4,7 +4,7 @@ linkTitle: "'Contact Technical Support' on Refresh"
 weight: 14
 description: >
   The vague "Refresh failed — contact technical support" dialog in Workday OfficeConnect almost always has one of five concrete causes. Diagnose and fix.
-tags: ["troubleshoot", "fp-and-a", "system-admin"]
+tags: ["troubleshoot", "fpna", "system-admin"]
 ---
 
 You click **Refresh** in Workday OfficeConnect. After 5-30 seconds, a dialog appears:

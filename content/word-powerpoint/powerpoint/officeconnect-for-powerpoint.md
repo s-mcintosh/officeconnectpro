@@ -4,7 +4,7 @@ linkTitle: "For PowerPoint"
 weight: 10
 description: >
   Link live data from your Workday OfficeConnect Excel workbook into PowerPoint slides.
-tags: ["sharing", "reporting", "fp-and-a", "tutorial"]
+tags: ["sharing", "reporting", "fpna", "tutorial"]
 aliases:
   - /share-publish/officeconnect-for-powerpoint/
   - /build-reports/officeconnect-for-powerpoint/

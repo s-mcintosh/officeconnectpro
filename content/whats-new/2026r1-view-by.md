@@ -4,7 +4,7 @@ linkTitle: "View By (2026R1)"
 weight: 20
 description: >
   The 2026R1 View By ribbon command opens the data behind any Workday OfficeConnect cell in a separate worksheet so you can slice and filter without breaking your main report.
-tags: ["release-notes", "reporting", "fp-and-a", "tutorial"]
+tags: ["release-notes", "reporting", "fpna", "tutorial"]
 ---
 
 {{< new-in-release version="2026R1" >}}

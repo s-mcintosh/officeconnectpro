@@ -4,7 +4,7 @@ linkTitle: "32-bit vs 64-bit Excel"
 weight: 30
 description: >
   Why 64-bit Excel matters for large Workday OfficeConnect workbooks, how to check which version you're running, and how to switch without breaking other add-ins.
-tags: ["performance", "system-admin", "fp-and-a", "how-to"]
+tags: ["performance", "system-admin", "fpna", "how-to"]
 ---
 
 The single biggest hardware-level ceiling for large Workday OfficeConnect workbooks isn't your laptop's RAM — it's whether you're running 32-bit or 64-bit Excel. 32-bit Excel caps each Excel process at roughly 2 GB of memory regardless of how much RAM you have. 64-bit Excel removes that ceiling. For OfficeConnect users pushing past a few hundred formulas with repeating rows and charts, this is often the difference between a workbook that opens and one that crashes.

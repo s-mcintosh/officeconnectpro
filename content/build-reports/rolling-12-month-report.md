@@ -4,7 +4,7 @@ linkTitle: "Rolling 12-Month Report"
 weight: 12
 description: >
   Build a report whose time columns automatically advance each month without manual updates.
-tags: ["adaptive-planning", "reporting", "fp-and-a", "recipe"]
+tags: ["adaptive-planning", "reporting", "fpna", "recipe"]
 ---
 
 A rolling 12-month report always shows the current month plus the 11 preceding months — no matter when you open it. This tutorial shows how to build one using OfficeConnect's relative time contexts so the columns update automatically on each refresh.

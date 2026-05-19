@@ -7,7 +7,7 @@ description: Build Word documents — board narratives, MD&A drafts, investor le
   — with named ranges from your Workday OfficeConnect workbook.
 tags:
 - sharing
-- fp-and-a
+- fpna
 - reference
 ---
 

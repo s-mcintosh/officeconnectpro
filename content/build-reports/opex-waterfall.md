@@ -4,7 +4,7 @@ linkTitle: "OpEx Waterfall"
 weight: 42
 description: >
   Build a month-over-month OpEx walk showing prior period, adds, reductions, and current period — visualized as an Excel waterfall chart driven by OfficeConnect data.
-tags: ["reporting", "adaptive-planning", "fp-and-a", "recipe"]
+tags: ["reporting", "adaptive-planning", "fpna", "recipe"]
 ---
 
 A waterfall walk is how finance teams explain *why* a number moved. Instead of just showing OpEx went from $4.2M to $4.6M, a waterfall breaks the $400K change into its components — new hires, marketing program, software renewal, T&E reduction. This tutorial walks through building one in Workday OfficeConnect using a native Excel waterfall chart with live Adaptive Planning data.

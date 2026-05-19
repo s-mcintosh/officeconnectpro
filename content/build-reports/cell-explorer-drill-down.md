@@ -4,7 +4,7 @@ linkTitle: "Cell Explorer"
 weight: 10
 description: >
   Explore the data behind any cell to understand what's driving the numbers.
-tags: ["reporting", "adaptive-planning", "fp-and-a", "how-to"]
+tags: ["reporting", "adaptive-planning", "fpna", "how-to"]
 ---
 
 When a number in your Workday OfficeConnect report looks unexpected, **Explore Cell** lets you drill into the contributing details to find the source. It pairs naturally with [Review & Verify Applied Elements](/build-reports/review-applied-elements/) — Review shows which elements drive a cell, while Explore Cell shows the underlying data behind the result.

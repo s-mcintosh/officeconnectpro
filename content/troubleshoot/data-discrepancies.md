@@ -4,7 +4,7 @@ linkTitle: "Data Discrepancies"
 weight: 23
 description: >
   OfficeConnect shows different figures than Workday Report Writer or the Workday UI for the same account and period — common causes and how to diagnose them.
-tags: ["reporting", "financials", "accounting", "fp-and-a", "system-admin", "troubleshoot"]
+tags: ["reporting", "financials", "accounting", "fpna", "system-admin", "troubleshoot"]
 ---
 
 ## Symptom

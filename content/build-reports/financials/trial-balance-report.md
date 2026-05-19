@@ -4,7 +4,7 @@ linkTitle: "Trial Balance Report"
 weight: 1
 description: >
   Build a live trial balance in Excel using OfficeConnect's Financials data source — pulling posted GL actuals directly from Workday Financial Management.
-tags: ["financials", "accounting", "reporting", "fp-and-a", "tutorial"]
+tags: ["financials", "accounting", "reporting", "fpna", "tutorial"]
 ---
 
 A trial balance lists every ledger account with its debit or credit balance for a given period. With OfficeConnect's Financials data source, you can build one that refreshes directly from Workday Financial Management — no export, no copy-paste.

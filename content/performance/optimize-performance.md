@@ -4,7 +4,7 @@ linkTitle: "Optimize Performance"
 weight: 10
 description: >
   Speed up Workday OfficeConnect reports that are slow to refresh — reduce formula count, use efficient time contexts, and configure workbook settings for large Adaptive Planning models.
-tags: ["adaptive-planning", "performance", "fp-and-a", "system-admin", "how-to"]
+tags: ["adaptive-planning", "performance", "fpna", "system-admin", "how-to"]
 aliases:
   - /build-reports/optimize-performance/
 ---

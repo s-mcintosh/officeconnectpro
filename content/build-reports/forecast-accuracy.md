@@ -4,7 +4,7 @@ linkTitle: "Forecast Accuracy"
 weight: 43
 description: >
   Build a report that compares a prior forecast version to actuals and calculates absolute error and MAPE by account and period.
-tags: ["reporting", "adaptive-planning", "fp-and-a", "performance", "recipe"]
+tags: ["reporting", "adaptive-planning", "fpna", "performance", "recipe"]
 ---
 
 Every FP&A team is asked the same question eventually: how accurate is the forecast? A forecast accuracy report answers that question with math, not anecdote. This tutorial walks through building one in Workday OfficeConnect — comparing a prior forecast version (for example, the forecast made three months ago) against actuals, then calculating absolute error and MAPE (Mean Absolute Percentage Error) by account and period.

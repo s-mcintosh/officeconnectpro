@@ -10,7 +10,7 @@ description: 'Install OfficeConnect and connect to Workday Adaptive Planning fro
 cascade:
   type: docs
 tags:
-- fp-and-a
+- fpna
 - system-admin
 - reference
 ---

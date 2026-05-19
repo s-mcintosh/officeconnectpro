@@ -4,7 +4,7 @@ linkTitle: "Slow Performance"
 weight: 22
 description: >
   OfficeConnect refresh takes a long time in large workbooks — diagnose the cause and reduce refresh time.
-tags: ["performance", "adaptive-planning", "fp-and-a", "system-admin", "troubleshoot"]
+tags: ["performance", "adaptive-planning", "fpna", "system-admin", "troubleshoot"]
 ---
 
 Large Workday OfficeConnect workbooks can grind to a halt if formula counts, dimension scope, or network paths aren't tuned. Before tearing the report apart, review the workbook-level techniques in [Optimize OfficeConnect Performance](/performance/optimize-performance/).

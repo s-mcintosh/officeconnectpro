@@ -4,7 +4,7 @@ linkTitle: "Formula Reference"
 weight: 20
 description: >
   What's actually inside a Workday OfficeConnect cell — formula structure, components, and how to read it.
-tags: ["reference", "reporting", "fp-and-a", "system-admin"]
+tags: ["reference", "reporting", "fpna", "system-admin"]
 ---
 
 When you drag an element into a cell, Workday OfficeConnect inserts a custom function. This reference explains what that function looks like, what each part means, and what's possible when you read it with the formula bar open.

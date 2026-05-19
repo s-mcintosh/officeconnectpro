@@ -4,7 +4,7 @@ linkTitle: "Actuals Trend Report"
 weight: 3
 description: >
   Build a 12-month GL actuals trend report in minutes — the same report that takes hours to configure in Workday's native report writer.
-tags: ["financials", "accounting", "reporting", "fp-and-a", "tutorial"]
+tags: ["financials", "accounting", "reporting", "fpna", "tutorial"]
 ---
 
 Trending actuals across 12 months in Workday's native report writer means configuring a matrix report, setting up time period prompts, managing column layouts, and wrestling with formatting. In OfficeConnect, the same report takes about five minutes.

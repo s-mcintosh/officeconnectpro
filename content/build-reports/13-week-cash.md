@@ -4,7 +4,7 @@ linkTitle: "13-Week Cash Forecast"
 weight: 49
 description: >
   Build a rolling 13-week cash forecast — weekly receipts, disbursements, and ending balance — in the treasury-standard format used for liquidity planning.
-tags: ["reporting", "adaptive-planning", "fp-and-a", "recipe"]
+tags: ["reporting", "adaptive-planning", "fpna", "recipe"]
 ---
 
 The 13-week cash forecast is the treasury team's most-used artifact. It projects weekly cash inflows and outflows over a rolling window so leadership can see liquidity coming weeks before it arrives — or fails to. This tutorial walks through building one in Workday OfficeConnect against a model with weekly cash forecasting enabled.

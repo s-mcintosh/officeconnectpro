@@ -4,7 +4,7 @@ linkTitle: "Install (End User)"
 weight: 4
 description: >
   Install OfficeConnect on your own machine without requiring IT involvement.
-tags: ["deployment", "fp-and-a", "tutorial"]
+tags: ["deployment", "fpna", "tutorial"]
 ---
 
 Follow these steps to install OfficeConnect on your own Windows machine. You'll need administrator rights, or IT must pre-install the prerequisites.

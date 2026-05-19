@@ -4,7 +4,7 @@ linkTitle: "CapEx Tracker"
 weight: 48
 description: >
   Build a project-level CapEx tracker with planned spend, actual spend, forecast remaining, and budget variance — driven by a Project Code custom dimension.
-tags: ["reporting", "adaptive-planning", "fp-and-a", "recipe"]
+tags: ["reporting", "adaptive-planning", "fpna", "recipe"]
 ---
 
 Capital expenditure usually starts the year as a tidy plan and ends it as a sprawling list of in-flight projects and reforecasts. A good CapEx tracker keeps the picture coherent — project by project, plan vs. actual, with a clear view of remaining spend. This tutorial walks through building one in Workday OfficeConnect using a Project Code custom dimension in Adaptive Planning.

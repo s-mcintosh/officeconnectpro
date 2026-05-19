@@ -7,7 +7,7 @@ description: Build PowerPoint board books and presentation decks that refresh fr
   your Workday OfficeConnect Excel workbook.
 tags:
 - sharing
-- fp-and-a
+- fpna
 - reference
 ---
 

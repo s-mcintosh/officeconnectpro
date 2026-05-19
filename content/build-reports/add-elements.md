@@ -4,7 +4,7 @@ linkTitle: "Add Elements"
 weight: 2
 description: >
   How to drag accounts, time periods, versions, and levels into your Excel report.
-tags: ["adaptive-planning", "reporting", "fp-and-a", "tutorial"]
+tags: ["adaptive-planning", "reporting", "fpna", "tutorial"]
 ---
 
 Elements are the building blocks of an OfficeConnect report. You add them to rows, columns, or cells in your worksheet to define what data appears at each intersection.

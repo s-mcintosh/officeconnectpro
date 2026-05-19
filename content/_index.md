@@ -58,7 +58,7 @@ Fix common errors — refresh failures, COM add-in conflicts, SSO loops, Mac/VDI
 </p>
 <p class="mt-4 mb-0"><strong>Or browse by audience:</strong></p>
 <p class="mt-2">
-<a href="/tags/fp-and-a/" class="btn btn-outline-primary m-1">FP&amp;A</a>
+<a href="/tags/fpna/" class="btn btn-outline-primary m-1">FPnA</a>
 <a href="/tags/system-admin/" class="btn btn-outline-primary m-1">System Admin</a>
 </p>
 </div>

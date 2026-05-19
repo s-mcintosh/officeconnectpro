@@ -4,7 +4,7 @@ linkTitle: "OfficeConnect on Mac"
 weight: 30
 description: >
   Install and use Workday OfficeConnect on a Mac with Excel for Mac — what works, what's different from Windows, and how to handle common Mac-specific issues.
-tags: ["adaptive-planning", "fp-and-a", "system-admin", "how-to"]
+tags: ["adaptive-planning", "fpna", "system-admin", "how-to"]
 aliases:
   - /build-reports/officeconnect-on-mac/
 ---

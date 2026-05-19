@@ -4,7 +4,7 @@ linkTitle: "Reduce Element Count"
 weight: 40
 description: >
   Element count is the single biggest performance lever in Workday OfficeConnect — five concrete tactics to cut it without losing the report you need.
-tags: ["performance", "reporting", "fp-and-a", "how-to"]
+tags: ["performance", "reporting", "fpna", "how-to"]
 ---
 
 Each Workday OfficeConnect element in a workbook is a server query on refresh. Cutting element count from 500 to 100 cuts refresh time roughly proportionally — far more impact than any other lever. This is a tactical guide to doing exactly that, without losing the report your audience actually needs.

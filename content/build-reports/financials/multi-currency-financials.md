@@ -4,7 +4,7 @@ linkTitle: "Multi-Currency Reporting"
 weight: 8
 description: >
   Report in your chosen currency using Workday Financial Management's currency conversion — select transaction currency, company currency, or a converted reporting currency in OfficeConnect.
-tags: ["financials", "accounting", "reporting", "fp-and-a", "how-to"]
+tags: ["financials", "accounting", "reporting", "fpna", "how-to"]
 ---
 
 Workday Financial Management supports multicurrency transactions — journals can be posted in a transaction currency and converted to a company (ledger) currency automatically. OfficeConnect surfaces these currency layers so you can choose which currency your report shows.

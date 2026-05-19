@@ -4,7 +4,7 @@ linkTitle: "Personal Scenarios (2026R1)"
 weight: 30
 description: >
   Workday OfficeConnect 2026R1 lets end users create personal what-if scenarios without involving an Adaptive Planning admin — scoped to the individual, branched from a parent version, and invisible to others.
-tags: ["release-notes", "adaptive-planning", "fp-and-a", "tutorial"]
+tags: ["release-notes", "adaptive-planning", "fpna", "tutorial"]
 ---
 
 {{< new-in-release version="2026R1" >}}

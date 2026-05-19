@@ -4,7 +4,7 @@ linkTitle: "Glossary"
 weight: 10
 description: >
   Alphabetical reference for every Workday OfficeConnect term — elements, filters, contexts, write-back, tenants, and more.
-tags: ["reference", "fp-and-a", "system-admin"]
+tags: ["reference", "fpna", "system-admin"]
 ---
 
 The vocabulary for Workday OfficeConnect overlaps with Workday Adaptive Planning, Workday Financial Management, and Excel. This glossary defines every term as it's used inside OfficeConnect and links to the canonical guide for each.
