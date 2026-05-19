@@ -284,5 +284,8 @@ Workday OfficeConnect is an Excel-based financial reporting tool that connects d
 
 ## About OfficeConnectPro
 
+- [Legal Disclaimer](https://officeconnectpro.com/about/disclaimer/index.md): Important legal notices regarding OfficeConnectPro, its independence from Workday, Inc., and the limitations of the information provided on this site.
+
+
 
 
