@@ -1,8 +1,10 @@
-# Build a KPI Dashboard
-
-Build a single-sheet executive dashboard with six to eight KPI tiles, each pulled live from Adaptive Planning and shown with a prior-period comparison.
-
-
+---
+title: "Build a KPI Dashboard"
+url: "https://officeconnectpro.com/get-started/build-reports/kpi-dashboard/"
+description: "Build a single-sheet executive dashboard with six to eight KPI tiles, each pulled live from Adaptive Planning and shown with a prior-period comparison.\n"
+tags: ["reporting","adaptive-planning","fpna","recipe"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -83,3 +85,4 @@ You now have an executive-ready single-sheet dashboard with eight live KPI tiles
 - Apply executive-grade formatting across the rest of your reporting pack — see [Formatted Executive Report](/get-started/build-reports/formatted-executive-report/)
 - Push the dashboard into a slide deck — see [Publish to PowerPoint](/get-started/build-reports/publish-to-powerpoint/)
 - Add a current vs. prior-year layer — see [Year-over-Year Trend Report](/get-started/build-reports/year-over-year-trend/)
+

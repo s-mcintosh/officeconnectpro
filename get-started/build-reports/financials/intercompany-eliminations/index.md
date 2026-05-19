@@ -1,8 +1,10 @@
-# Report on Intercompany Eliminations in OfficeConnect
-
-Use OfficeConnect's Financials data source to report on intercompany transactions and eliminations — with options to include or exclude eliminations from consolidated views.
-
-
+---
+title: "Report on Intercompany Eliminations in OfficeConnect"
+url: "https://officeconnectpro.com/get-started/build-reports/financials/intercompany-eliminations/"
+description: "Use OfficeConnect's Financials data source to report on intercompany transactions and eliminations — with options to include or exclude eliminations from consolidated views.\n"
+tags: ["financials","accounting","reporting","fpna","recipe"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -50,3 +52,4 @@ Building this layout in OfficeConnect requires one column per entity plus one fo
 - [Filter Reports by Company](/get-started/build-reports/financials/filter-by-company/)
 - [Build a Trial Balance Report](/get-started/build-reports/financials/trial-balance-report/)
 - [Drill Through to Workday Journal Lines](/get-started/build-reports/financials/drill-through-journal-lines/) — verify elimination journal entries
+

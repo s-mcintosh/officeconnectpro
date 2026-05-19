@@ -1,8 +1,10 @@
-# Silent Install Workday OfficeConnect with SCCM / MECM
-
-Deploy Workday OfficeConnect through Microsoft Configuration Manager (SCCM/MECM) with silent install switches, detection methods, and required user-rights handling.
-
-
+---
+title: "Silent Install Workday OfficeConnect with SCCM / MECM"
+url: "https://officeconnectpro.com/get-started/admin/deploy/sccm-mecm/"
+description: "Deploy Workday OfficeConnect through Microsoft Configuration Manager (SCCM/MECM) with silent install switches, detection methods, and required user-rights handling.\n"
+tags: ["deployment","system-admin","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -173,3 +175,4 @@ Workday OfficeConnect deploys silently across MECM-managed devices, upgrades cle
 - [Deploy Tenants via Registry](/get-started/admin/deploy/deploy-tenants-registry/) — push tenant configuration in the same wave.
 - [Intune Win32 Packaging](/get-started/admin/deploy/intune-win32/) — the Intune equivalent for cloud-managed devices.
 - Upgrade Governance (coming soon) — managing the forced-upgrade cadence at scale.
+

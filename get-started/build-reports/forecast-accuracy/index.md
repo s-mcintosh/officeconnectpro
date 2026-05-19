@@ -1,8 +1,10 @@
-# Build a Forecast Accuracy Report
-
-Build a report that compares a prior forecast version to actuals and calculates absolute error and MAPE by account and period.
-
-
+---
+title: "Build a Forecast Accuracy Report"
+url: "https://officeconnectpro.com/get-started/build-reports/forecast-accuracy/"
+description: "Build a report that compares a prior forecast version to actuals and calculates absolute error and MAPE by account and period.\n"
+tags: ["reporting","adaptive-planning","fpna","performance","recipe"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -103,3 +105,4 @@ You now have an objective forecast accuracy scorecard. Each month or quarter, re
 - Compare multiple forecast vintages side by side — see [Compare Planning Versions](/get-started/build-reports/compare-planning-versions/)
 - Pair accuracy data with budget variance — see [Budget vs. Actuals Variance](/get-started/build-reports/budget-vs-actuals-variance/)
 - Run accuracy across multiple scenarios — see [Scenario Comparison](/get-started/build-reports/scenario-comparison/)
+

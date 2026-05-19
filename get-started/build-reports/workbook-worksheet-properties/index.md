@@ -1,8 +1,10 @@
-# Workbook & Worksheet Properties
-
-Configure rounding, data clearing, filters, and display options for your reports.
-
-
+---
+title: "Workbook \u0026 Worksheet Properties"
+url: "https://officeconnectpro.com/get-started/build-reports/workbook-worksheet-properties/"
+description: "Configure rounding, data clearing, filters, and display options for your reports.\n"
+tags: ["reporting","adaptive-planning","fpna","reference"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -70,3 +72,4 @@ The most specific setting always wins.
 - [Change Rounding Settings](/reference/troubleshoot/change-rounding-settings/) for the most common reason to override workbook defaults
 - [Suppress & Hide Zeros and Blanks](/reference/troubleshoot/suppress-zeros-blanks/) to fine-tune row display
 - [Lock and Protect Reports for Distribution](/get-started/build-reports/lock-protect-reports/) once your workbook settings are finalized
+

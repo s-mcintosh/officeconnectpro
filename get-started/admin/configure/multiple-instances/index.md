@@ -1,8 +1,10 @@
-# Work with Multiple Instances
-
-How to switch between production, sandbox, and multi-instances in Workday OfficeConnect.
-
-
+---
+title: "Work with Multiple Instances"
+url: "https://officeconnectpro.com/get-started/admin/configure/multiple-instances/"
+description: "How to switch between production, sandbox, and multi-instances in Workday OfficeConnect.\n"
+tags: ["deployment","system-admin","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -53,3 +55,4 @@ The new default applies to all new workbooks you create.
 - [Sign In & Create a Tenant](/get-started/admin/configure/sign-in-create-tenant/) — if you haven't added the sandbox tenant yet.
 - [Deploy Tenants via Registry](/get-started/admin/deploy/deploy-tenants-registry/) — push the same tenant list to every user machine.
 - [Secure OfficeConnect Workbooks](/get-started/admin/govern/secure-workbooks/) — keep production data out of the wrong sandbox.
+

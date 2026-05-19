@@ -1,8 +1,10 @@
-# Create a Rolling 12-Month Report
-
-Build a report whose time columns automatically advance each month without manual updates.
-
-
+---
+title: "Create a Rolling 12-Month Report"
+url: "https://officeconnectpro.com/get-started/build-reports/rolling-12-month-report/"
+description: "Build a report whose time columns automatically advance each month without manual updates.\n"
+tags: ["adaptive-planning","reporting","fpna","recipe"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -94,3 +96,4 @@ Save the workbook. Each month, open the file and click **Refresh** — the windo
 - Learn about fixed date ranges alongside rolling ones in [Fixed Date Columns](/reference/troubleshoot/fixed-date-columns/)
 - See how to set up a trailing 12-month view in [Trailing 12-Month Report](/reference/troubleshoot/trailing-12-month-report/)
 - Share the finished report via SharePoint so the whole team always has the latest version — [Share via Teams & SharePoint](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)
+

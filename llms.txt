@@ -1,35 +1,288 @@
 # OfficeConnectPro
 
-> Step-by-step guides for Workday OfficeConnect
+> The practitioner's guide to Workday OfficeConnect — for FP&A analysts, system administrators, and Workday consultants who need clear, step-by-step documentation on building reports, managing budgets, and configuring the platform.
 
-All pages are available as raw Markdown by appending `index.md` to any page URL.
+## About
+
+- Home: https://officeconnectpro.com/
+- Sitemap: https://officeconnectpro.com/sitemap.xml
+- Raw Markdown: Append `index.md` to any page URL (e.g. `https://officeconnectpro.com/get-started/index.md`)
+
+## What is Workday OfficeConnect
+
+Workday OfficeConnect is an Excel-based financial reporting tool that connects directly to Workday data. It enables finance teams to build live reports, budgets, and forecasts without manual data exports. This site documents how to configure, use, and troubleshoot OfficeConnect across its core feature areas.
 
 
 ## Get Started
 
 - [What is OfficeConnect?](https://officeconnectpro.com/get-started/what-is-officeconnect/index.md): An overview of OfficeConnect — what it does, who it's for, and how it works with Workday Adaptive Planning.
 
+
 - [Your First 30 Minutes with Workday OfficeConnect](https://officeconnectpro.com/get-started/first-30-minutes/index.md): Install, sign in, build your first report, and refresh it — a complete onboarding path from zero to a live Workday OfficeConnect report in half an hour.
+
 
 - [System Requirements](https://officeconnectpro.com/get-started/system-requirements/index.md): Hardware and software prerequisites before installing OfficeConnect.
 
+
 - [Install as an End User](https://officeconnectpro.com/get-started/install-end-user/index.md): Install OfficeConnect on your own machine without requiring IT involvement.
+
 
 - [Set Up Your Reporting Model](https://officeconnectpro.com/get-started/set-up-reporting-model/index.md): Use the Run Set Up Reporting Model task in Workday to configure how OfficeConnect Financials reports are structured.
 
+
 - [Install as an IT Admin](https://officeconnectpro.com/get-started/install-admin/index.md): Deploy OfficeConnect to multiple users using per-machine installation and group policy or scripts.
 
+
 - [Check & Update Your Version. ](https://officeconnectpro.com/get-started/check-version/index.md): How to check which version of OfficeConnect you have and update to the latest release.
+
+
+
+### Build Reports
+
+- [Interface Tour: The Reporting Pane](https://officeconnectpro.com/get-started/build-reports/reporting-pane-tour/index.md): A quick tour of the OfficeConnect interface in Excel — the ribbon tab and the Reporting pane.
+
+
+- [Add Elements to Rows, Columns & Cells](https://officeconnectpro.com/get-started/build-reports/add-elements/index.md): How to drag accounts, time periods, versions, and levels into your Excel report.
+
+
+- [Work with Time & Contexts](https://officeconnectpro.com/get-started/build-reports/time-and-contexts/index.md): Add time periods to your report and use contexts like YTD, QTD, and Beginning Balance.
+
+
+- [Filter Your Data](https://officeconnectpro.com/get-started/build-reports/filter-data/index.md): Apply worksheet and workbook filters to limit which data appears in your report.
+
+
+- [Cut, Copy & Move Elements](https://officeconnectpro.com/get-started/build-reports/cut-copy-move-elements/index.md): How to move OfficeConnect elements within and between rows, columns, and cells.
+
+
+- [Review & Verify Applied Elements](https://officeconnectpro.com/get-started/build-reports/review-applied-elements/index.md): Use the Review tab to see exactly which elements are affecting any cell, row, or column.
+
+
+- [Workbook & Worksheet Properties](https://officeconnectpro.com/get-started/build-reports/workbook-worksheet-properties/index.md): Configure rounding, data clearing, filters, and display options for your reports.
+
+
+- [Create Repeating Reports](https://officeconnectpro.com/get-started/build-reports/repeating-reports/index.md): Automatically generate one copy of a report per department, region, or any other level.
+
+
+- [Cell Explorer & Drill-Down](https://officeconnectpro.com/get-started/build-reports/cell-explorer-drill-down/index.md): Explore the data behind any cell to understand what's driving the numbers.
+
+
+- [Build Your First OfficeConnect Report](https://officeconnectpro.com/get-started/build-reports/build-first-report/index.md): A complete walkthrough for creating a live Adaptive Planning report in Excel from scratch.
+
+
+- [Create a Rolling 12-Month Report](https://officeconnectpro.com/get-started/build-reports/rolling-12-month-report/index.md): Build a report whose time columns automatically advance each month without manual updates.
+
+
+- [Publish a Report to PowerPoint](https://officeconnectpro.com/get-started/build-reports/publish-to-powerpoint/index.md): Link a live OfficeConnect Excel report into a PowerPoint deck so slides update with one refresh.
+
+
+- [Build a Budget vs. Actuals Variance Report](https://officeconnectpro.com/get-started/build-reports/budget-vs-actuals-variance/index.md): Build an OfficeConnect report that shows budget, actuals, and variance side by side — the most common FP&A report in Adaptive Planning.
+
+
+- [Build a Department P&L Report in OfficeConnect](https://officeconnectpro.com/get-started/build-reports/department-pl-report/index.md): Build a profit and loss report broken down by department or cost center using OfficeConnect's Level dimension.
+
+
+- [Build a Year-over-Year Trend Report](https://officeconnectpro.com/get-started/build-reports/year-over-year-trend/index.md): Compare this year's actuals against the prior year month by month using fixed time elements in OfficeConnect.
+
+
+- [Compare Two Planning Versions Side by Side](https://officeconnectpro.com/get-started/build-reports/compare-planning-versions/index.md): Add a second version column to any OfficeConnect report to compare Budget vs. Forecast, two plan iterations, or any two Adaptive Planning versions.
+
+
+- [Add Headcount Data to a Financial Report](https://officeconnectpro.com/get-started/build-reports/headcount-in-financial-report/index.md): Mix workforce planning metrics (headcount, FTEs, salary cost) with financial accounts in a single OfficeConnect report.
+
+
+- [Lock and Protect Reports for Distribution](https://officeconnectpro.com/get-started/build-reports/lock-protect-reports/index.md): Protect an OfficeConnect workbook for distribution so recipients can't accidentally break formulas — while keeping Refresh working.
+
+
+- [Set Up Scenario Comparison in OfficeConnect](https://officeconnectpro.com/get-started/build-reports/scenario-comparison/index.md): Compare planning scenarios side by side in OfficeConnect — useful for showing upside, base case, and downside in the same report.
+
+
+- [Report in Constant Currency in OfficeConnect](https://officeconnectpro.com/get-started/build-reports/constant-currency-reporting/index.md): Use a constant currency version in Adaptive Planning to remove FX impact from OfficeConnect reports — useful for multinational teams comparing performance across periods.
+
+
+- [Build a Formatted Executive Report for Distribution](https://officeconnectpro.com/get-started/build-reports/formatted-executive-report/index.md): Build a polished, print-ready executive summary report in OfficeConnect with custom formatting, logos, and page layout — ready to share as PDF or Excel.
+
+
+- [Work with Custom Dimensions and Attributes in OfficeConnect](https://officeconnectpro.com/get-started/build-reports/custom-dimensions-attributes/index.md): Report on custom dimensions and attributes defined in your Adaptive Planning model — filter by product line, region, project, or any other custom segment your team uses.
+
+
+- [Build a Quarterly Board Pack](https://officeconnectpro.com/get-started/build-reports/quarterly-board-pack/index.md): Build a multi-sheet OfficeConnect workbook — P&L summary, KPI page, variance commentary, cash snapshot — designed to feed directly into a PowerPoint board deck.
+
+
+- [Build a KPI Dashboard](https://officeconnectpro.com/get-started/build-reports/kpi-dashboard/index.md): Build a single-sheet executive dashboard with six to eight KPI tiles, each pulled live from Adaptive Planning and shown with a prior-period comparison.
+
+
+- [Build an Operating Expense Waterfall](https://officeconnectpro.com/get-started/build-reports/opex-waterfall/index.md): Build a month-over-month OpEx walk showing prior period, adds, reductions, and current period — visualized as an Excel waterfall chart driven by OfficeConnect data.
+
+
+- [Build a Forecast Accuracy Report](https://officeconnectpro.com/get-started/build-reports/forecast-accuracy/index.md): Build a report that compares a prior forecast version to actuals and calculates absolute error and MAPE by account and period.
+
+
+- [Build a Workforce Plan with Attrition](https://officeconnectpro.com/get-started/build-reports/workforce-with-attrition/index.md): Build a headcount forecast that layers attrition, hiring plan, and fully-loaded cost per FTE — broken out by organizational level with repeating rows.
+
+
+- [Build a Sales Pipeline-to-Revenue Forecast](https://officeconnectpro.com/get-started/build-reports/pipeline-to-revenue/index.md): Build a probability-weighted revenue forecast from pipeline data — stages, probabilities, and expected close dates — using a Pipeline custom dimension in Adaptive Planning.
+
+
+- [Build a Multi-Entity Consolidations Report](https://officeconnectpro.com/get-started/build-reports/multi-entity-consolidations/index.md): Build a consolidated P&L across legal entities with intercompany eliminations called out as a separate column.
+
+
+- [Build a Cohort Revenue Retention Report](https://officeconnectpro.com/get-started/build-reports/cohort-retention/index.md): Build a SaaS cohort retention report — revenue by signup cohort, retained revenue by month, and net revenue retention percentage — using repeating rows.
+
+
+- [Build a Capital Expenditure Tracker](https://officeconnectpro.com/get-started/build-reports/capex-tracker/index.md): Build a project-level CapEx tracker with planned spend, actual spend, forecast remaining, and budget variance — driven by a Project Code custom dimension.
+
+
+- [Build a 13-Week Cash Forecast](https://officeconnectpro.com/get-started/build-reports/13-week-cash/index.md): Build a rolling 13-week cash forecast — weekly receipts, disbursements, and ending balance — in the treasury-standard format used for liquidity planning.
+
+
+
+### Word & PowerPoint
+
+
+### Data Entry & Write-Back
+
+- [Enter Budget Data in Excel with OfficeConnect](https://officeconnectpro.com/get-started/data-entry-writeback/enter-budget-data/index.md): Use Workday OfficeConnect's data entry mode to write budget figures directly from Excel into Adaptive Planning — no need to log in to the Adaptive Planning web interface.
+
+
+- [Write-Back to Adaptive from Excel: A Complete Guide](https://officeconnectpro.com/get-started/data-entry-writeback/writeback-complete-guide/index.md): The 2025R1 write-back feature in Workday OfficeConnect — what it does, who can use it, how to set up a write-back workbook, and how to recover when it fails.
+
+
+- [Designing Write-Back Permissions for Workday OfficeConnect](https://officeconnectpro.com/get-started/data-entry-writeback/writeback-permissions/index.md): Design Adaptive Planning permissions so Workday OfficeConnect write-back is safe by default — least-privilege roles, version-state gates, and Level-scoped assignments.
+
+
+- [Common Workday OfficeConnect Write-Back Errors](https://officeconnectpro.com/get-started/data-entry-writeback/writeback-errors/index.md): Diagnose and fix the most common Workday OfficeConnect write-back errors — symptoms, root causes, fixes, and how to prevent each from recurring.
+
+
+- [Auditing Workday OfficeConnect Write-Back Submissions](https://officeconnectpro.com/get-started/data-entry-writeback/writeback-audit-trail/index.md): Where Workday OfficeConnect write-back submissions are logged in Adaptive Planning, what's captured, and how to build a SOX-grade review process around the audit trail.
+
+
+
+### System Admins
+
+
+### Performance & Optimization
+
+- [Optimize Performance for Large Models in OfficeConnect](https://officeconnectpro.com/get-started/performance/optimize-performance/index.md): Speed up Workday OfficeConnect reports that are slow to refresh — reduce formula count, use efficient time contexts, and configure workbook settings for large Adaptive Planning models.
+
+
+- [Workday OfficeConnect Refresh Time Benchmarks](https://officeconnectpro.com/get-started/performance/refresh-benchmarks/index.md): Rough benchmarks for what a normal Workday OfficeConnect refresh should take by formula count, what moves the numbers, and how to measure your own workbooks.
+
+
+- [32-bit vs 64-bit Excel for Workday OfficeConnect](https://officeconnectpro.com/get-started/performance/32-vs-64-bit/index.md): Why 64-bit Excel matters for large Workday OfficeConnect workbooks, how to check which version you're running, and how to switch without breaking other add-ins.
+
+
+- [How to Reduce OfficeConnect Element Count for Faster Refresh](https://officeconnectpro.com/get-started/performance/reduce-element-count/index.md): Element count is the single biggest performance lever in Workday OfficeConnect — five concrete tactics to cut it without losing the report you need.
+
+
+- [Workday OfficeConnect Patterns for Large Repeating Reports](https://officeconnectpro.com/get-started/performance/large-repeating-reports/index.md): Patterns and pitfalls for Workday OfficeConnect reports that use repeating rows to generate hundreds of lines from a single element.
+
+
+
+### Migration & Comparison
+
+- [Financials vs. Adaptive Planning Data Sources](https://officeconnectpro.com/get-started/migration-comparison/financials-vs-adaptive-planning/index.md): Key differences in Workday OfficeConnect behavior depending on whether you're using the Adaptive Planning or Financials data source.
+
+
+- [OfficeConnect vs Adaptive Web Reports: A Decision Framework](https://officeconnectpro.com/get-started/migration-comparison/oc-vs-web-reports/index.md): When to use Workday OfficeConnect vs Workday Adaptive Planning's built-in web reports — a scoring framework with concrete recommendations.
+
+
 
 
 ## Reference
 
 - [Workday OfficeConnect Glossary](https://officeconnectpro.com/reference/glossary/index.md): Alphabetical reference for every Workday OfficeConnect term — elements, filters, contexts, write-back, tenants, and more.
 
+
 - [Element Types Reference](https://officeconnectpro.com/reference/element-types/index.md): Every element type you can drag from the Workday OfficeConnect Reporting pane, what it represents, and where it lives in each data source.
+
 
 - [Workday OfficeConnect Version Compatibility Matrix](https://officeconnectpro.com/reference/version-compatibility/index.md): Which Workday OfficeConnect client versions work with which Workday Adaptive Planning releases — including the forced-upgrade grace periods.
 
 
+
+### Troubleshoot & FAQ
+
+- [Fix COM Registration Errors](https://officeconnectpro.com/reference/troubleshoot/com-registration-error/index.md): How to resolve COM registration errors when installing or updating OfficeConnect.
+
+
+- [Resolve OfficeConnect Update Errors](https://officeconnectpro.com/reference/troubleshoot/update-errors/index.md): How to fix errors that occur when updating OfficeConnect to a new version.
+
+
+- [Task Pane Not Displaying Correctly](https://officeconnectpro.com/reference/troubleshoot/task-pane-not-displaying/index.md): How to fix the OfficeConnect Reporting pane when it's not showing or displaying incorrectly.
+
+
+- [Numbers Not Shifting After Inserting Rows](https://officeconnectpro.com/reference/troubleshoot/numbers-not-shifting/index.md): Why OfficeConnect elements don't move when you insert Excel rows, and how to fix it.
+
+
+- [Suppress & Hide Zeros and Blanks](https://officeconnectpro.com/reference/troubleshoot/suppress-zeros-blanks/index.md): How to hide rows with all zeros or blank values in your OfficeConnect workbook.
+
+
+- [Remove Elements](https://officeconnectpro.com/reference/troubleshoot/remove-elements/index.md): How to clear OfficeConnect elements from cells, rows, or columns.
+
+
+- [Change Rounding Settings](https://officeconnectpro.com/reference/troubleshoot/change-rounding-settings/index.md): How to change how numbers are rounded in OfficeConnect reports.
+
+
+- [Display Percentage Values Correctly](https://officeconnectpro.com/reference/troubleshoot/display-percentage-values/index.md): How to prevent rounding from distorting percentage values in OfficeConnect.
+
+
+- [Create Fixed Date Columns](https://officeconnectpro.com/reference/troubleshoot/fixed-date-columns/index.md): How to prevent date columns from rolling forward when using relative time elements.
+
+
+- [Create a Trailing 12-Month Report](https://officeconnectpro.com/reference/troubleshoot/trailing-12-month-report/index.md): How to build a report that always shows the most recent 12 months of data.
+
+
+- [Link to External Excel Files](https://officeconnectpro.com/reference/troubleshoot/link-external-excel-files/index.md): How to link to a plain Excel file from within an OfficeConnect workbook.
+
+
+- [Run the Troubleshooting Tool](https://officeconnectpro.com/reference/troubleshoot/troubleshooting-tool/index.md): How to use the OCSystemChecker tool to generate a diagnostic log for Workday Support.
+
+
+- [Re-Enabling a Disabled OfficeConnect COM Add-in](https://officeconnectpro.com/reference/troubleshoot/reenable-com-addin/index.md): If Excel disabled Workday OfficeConnect after a crash or stall, the ribbon tab disappears and reinstalling doesn't help — re-enable it from Excel's Disabled Items list.
+
+
+- [Why Your Refresh Shows 'Contact Technical Support'](https://officeconnectpro.com/reference/troubleshoot/refresh-contact-support/index.md): The vague "Refresh failed — contact technical support" dialog in Workday OfficeConnect almost always has one of five concrete causes. Diagnose and fix.
+
+
+- [Fix OfficeConnect Not Refreshing](https://officeconnectpro.com/reference/troubleshoot/not-refreshing/index.md): OfficeConnect shows stale data or the Refresh button does nothing — causes and step-by-step fixes.
+
+
+- [Fix Authentication and Token Errors in OfficeConnect](https://officeconnectpro.com/reference/troubleshoot/authentication-token-errors/index.md): OfficeConnect shows authentication errors, token expired messages, or fails to sign in — causes and step-by-step fixes for SSO and token issues.
+
+
+- [Fix Slow Performance in Large Reports](https://officeconnectpro.com/reference/troubleshoot/slow-performance/index.md): OfficeConnect refresh takes a long time in large workbooks — diagnose the cause and reduce refresh time.
+
+
+- [Fix Data Discrepancies Between OfficeConnect and Workday](https://officeconnectpro.com/reference/troubleshoot/data-discrepancies/index.md): OfficeConnect shows different figures than Workday Report Writer or the Workday UI for the same account and period — common causes and how to diagnose them.
+
+
+- [Workday OfficeConnect + think-cell: Resolving the Conflict](https://officeconnectpro.com/reference/troubleshoot/think-cell-conflict/index.md): Workday OfficeConnect and think-cell both use Excel COM subclassing and can interfere with each other — refresh failures, broken charts, Excel crashes. Here's the documented fix.
+
+
+- [Use OfficeConnect on Mac](https://officeconnectpro.com/reference/troubleshoot/officeconnect-on-mac/index.md): Install and use Workday OfficeConnect on a Mac with Excel for Mac — what works, what's different from Windows, and how to handle common Mac-specific issues.
+
+
+- [Workday OfficeConnect on Mac: The VDI Workflow](https://officeconnectpro.com/reference/troubleshoot/mac-vdi-workflow/index.md): Mac users can run the full Windows OfficeConnect experience through a VDI like Azure Virtual Desktop, AWS WorkSpaces, or Parallels — here's the realistic decision guide and setup.
+
+
+
+### What's New
+
+- [What's New in Workday OfficeConnect 2026R1](https://officeconnectpro.com/reference/whats-new/2026r1/index.md): Workday OfficeConnect 2026R1 (released March 14, 2026) introduces View By in the ribbon, personal what-if scenarios for end users, and the latest forced-upgrade prompt at sign-in.
+
+
+- [View By — Open Cell Data in a New Sheet (2026R1)](https://officeconnectpro.com/reference/whats-new/2026r1-view-by/index.md): The 2026R1 View By ribbon command opens the data behind any Workday OfficeConnect cell in a separate worksheet so you can slice and filter without breaking your main report.
+
+
+- [Personal What-If Scenarios (2026R1)](https://officeconnectpro.com/reference/whats-new/2026r1-personal-scenarios/index.md): Workday OfficeConnect 2026R1 lets end users create personal what-if scenarios without involving an Adaptive Planning admin — scoped to the individual, branched from a parent version, and invisible to others.
+
+
+
+### Resources
+
+
+
 ## About OfficeConnectPro
+
+
 

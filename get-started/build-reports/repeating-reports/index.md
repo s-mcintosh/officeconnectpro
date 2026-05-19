@@ -1,8 +1,10 @@
-# Create Repeating Reports
-
-Automatically generate one copy of a report per department, region, or any other level.
-
-
+---
+title: "Create Repeating Reports"
+url: "https://officeconnectpro.com/get-started/build-reports/repeating-reports/"
+description: "Automatically generate one copy of a report per department, region, or any other level.\n"
+tags: ["reporting","adaptive-planning","fpna","recipe"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -79,3 +81,4 @@ Click **Repeating Reports** in the OfficeConnect ribbon and create new copies fr
 - [Build a Department P&L Report](/get-started/build-reports/department-pl-report/) for a strong single-sheet template to repeat
 - [Lock and Protect Reports for Distribution](/get-started/build-reports/lock-protect-reports/) before sharing the multi-sheet pack with stakeholders
 - [Optimize OfficeConnect Performance](/get-started/performance/optimize-performance/) if generating dozens of sheets makes refresh slow
+

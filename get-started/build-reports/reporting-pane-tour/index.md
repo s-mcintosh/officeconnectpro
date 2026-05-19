@@ -1,8 +1,10 @@
-# Interface Tour: The Reporting Pane
-
-A quick tour of the OfficeConnect interface in Excel — the ribbon tab and the Reporting pane.
-
-
+---
+title: "Interface Tour: The Reporting Pane"
+url: "https://officeconnectpro.com/get-started/build-reports/reporting-pane-tour/"
+description: "A quick tour of the OfficeConnect interface in Excel — the ribbon tab and the Reporting pane.\n"
+tags: ["reporting","adaptive-planning","fpna","reference"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -65,3 +67,4 @@ If you lose a floating pane, click **Show Reporting Pane** in the OfficeConnect 
 ## Next steps
 
 → [Add Elements to Rows, Columns & Cells](/get-started/build-reports/add-elements/) to start building your first report
+

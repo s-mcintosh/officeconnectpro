@@ -1,8 +1,10 @@
-# Silent Install Workday OfficeConnect with Microsoft Intune (Win32 App)
-
-Package Workday OfficeConnect as a Win32 app for Microsoft Intune, push to all users silently, and verify deployment.
-
-
+---
+title: "Silent Install Workday OfficeConnect with Microsoft Intune (Win32 App)"
+url: "https://officeconnectpro.com/get-started/admin/deploy/intune-win32/"
+description: "Package Workday OfficeConnect as a Win32 app for Microsoft Intune, push to all users silently, and verify deployment.\n"
+tags: ["deployment","system-admin","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -125,3 +127,4 @@ Workday OfficeConnect installs silently across your organization on the Intune a
 - [Deploy Tenants via Registry](/get-started/admin/deploy/deploy-tenants-registry/) — push tenant configuration alongside the install.
 - [Silent Install with SCCM/MECM](/get-started/admin/deploy/sccm-mecm/) — the SCCM equivalent for non-Intune shops.
 - [Set Up Workday SSO](/get-started/admin/configure/workday-sso/) — wire up identity so users don't enter credentials manually.
+

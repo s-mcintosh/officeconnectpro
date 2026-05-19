@@ -1,8 +1,10 @@
-# Check & Update Your Version. 
-
-How to check which version of OfficeConnect you have and update to the latest release.
-
-
+---
+title: "Check \u0026 Update Your Version. "
+url: "https://officeconnectpro.com/get-started/check-version/"
+description: "How to check which version of OfficeConnect you have and update to the latest release.\n"
+tags: ["upgrade","system-admin","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -43,3 +45,4 @@ Coordinate updates across your team. A workbook saved with a newer version of Of
 ## Next steps
 
 → [Sign in and create your first tenant](/get-started/admin/configure/sign-in-create-tenant/)
+

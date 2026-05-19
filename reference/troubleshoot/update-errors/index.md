@@ -1,8 +1,10 @@
-# Resolve OfficeConnect Update Errors
-
-How to fix errors that occur when updating OfficeConnect to a new version.
-
-
+---
+title: "Resolve OfficeConnect Update Errors"
+url: "https://officeconnectpro.com/reference/troubleshoot/update-errors/"
+description: "How to fix errors that occur when updating OfficeConnect to a new version.\n"
+tags: ["upgrade","deployment","system-admin","fpna","troubleshoot"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -48,3 +50,4 @@ Install fresh. This eliminates any partial-update state.
 ## Still stuck?
 
 Run the [Troubleshooting Tool](/reference/troubleshoot/troubleshooting-tool/) to generate a diagnostic log and send it to Workday Support.
+

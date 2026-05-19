@@ -1,8 +1,10 @@
-# Optimize Performance for Large Models in OfficeConnect
-
-Speed up Workday OfficeConnect reports that are slow to refresh — reduce formula count, use efficient time contexts, and configure workbook settings for large Adaptive Planning models.
-
-
+---
+title: "Optimize Performance for Large Models in OfficeConnect"
+url: "https://officeconnectpro.com/get-started/performance/optimize-performance/"
+description: "Speed up Workday OfficeConnect reports that are slow to refresh — reduce formula count, use efficient time contexts, and configure workbook settings for large Adaptive Planning models.\n"
+tags: ["adaptive-planning","performance","fpna","system-admin","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -59,3 +61,4 @@ A workbook that previously took 30-60 seconds to refresh should now complete in 
 - [Fix Slow Performance in Large Reports](/reference/troubleshoot/slow-performance/) — if you're still seeing slowness after these changes.
 - [Cell Explorer / Drill Down](/get-started/build-reports/cell-explorer-drill-down/) — find the cells driving slow refresh.
 - [Filter Data](/get-started/build-reports/filter-data/) — scope reports for faster queries.
+

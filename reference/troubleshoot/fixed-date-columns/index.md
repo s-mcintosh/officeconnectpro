@@ -1,8 +1,10 @@
-# Create Fixed Date Columns
-
-How to prevent date columns from rolling forward when using relative time elements.
-
-
+---
+title: "Create Fixed Date Columns"
+url: "https://officeconnectpro.com/reference/troubleshoot/fixed-date-columns/"
+description: "How to prevent date columns from rolling forward when using relative time elements.\n"
+tags: ["reporting","adaptive-planning","fpna","system-admin","troubleshoot"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -51,3 +53,4 @@ The intersection resolves to Q4 2024 specifically. Click **Refresh** to populate
 {{< /step >}}
 
 See the **Components** section under Time in the Elements tab. Components are listed under `Time → Components` in the Reporting pane.
+

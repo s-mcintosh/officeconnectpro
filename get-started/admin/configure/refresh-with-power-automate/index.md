@@ -1,8 +1,10 @@
-# Refresh Reports Automatically with Power Automate
-
-Use Power Automate Desktop to schedule Workday OfficeConnect report refreshes automatically — keep distributed Excel reports up to date without manual intervention.
-
-
+---
+title: "Refresh Reports Automatically with Power Automate"
+url: "https://officeconnectpro.com/get-started/admin/configure/refresh-with-power-automate/"
+description: "Use Power Automate Desktop to schedule Workday OfficeConnect report refreshes automatically — keep distributed Excel reports up to date without manual intervention.\n"
+tags: ["integration","adaptive-planning","system-admin","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -71,3 +73,4 @@ Your Workday OfficeConnect report refreshes on schedule, even when no one is at 
 - [Build a Formatted Executive Report for Distribution](/get-started/build-reports/formatted-executive-report/)
 - [Share via Teams & SharePoint](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)
 - [Lock and Protect Reports](/get-started/build-reports/lock-protect-reports/)
+

@@ -1,8 +1,10 @@
-# Fix Authentication and Token Errors in OfficeConnect
-
-OfficeConnect shows authentication errors, token expired messages, or fails to sign in — causes and step-by-step fixes for SSO and token issues.
-
-
+---
+title: "Fix Authentication and Token Errors in OfficeConnect"
+url: "https://officeconnectpro.com/reference/troubleshoot/authentication-token-errors/"
+description: "OfficeConnect shows authentication errors, token expired messages, or fails to sign in — causes and step-by-step fixes for SSO and token issues.\n"
+tags: ["sso","security","system-admin","fpna","troubleshoot"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -85,3 +87,4 @@ If the tenant URL was recently changed by your Workday admin (for example, after
 - [Fix OfficeConnect not refreshing](/reference/troubleshoot/not-refreshing/) once sign-in succeeds but data still won't load
 - [Configure Workday SSO](/get-started/admin/configure/workday-sso/) to keep token issues from recurring
 - [Run the troubleshooting tool](/reference/troubleshoot/troubleshooting-tool/) if you need to share diagnostic logs with Workday Support
+

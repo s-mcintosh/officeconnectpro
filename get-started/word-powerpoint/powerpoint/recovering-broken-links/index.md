@@ -1,8 +1,10 @@
-# Recovering Broken Links in a Workday OfficeConnect PowerPoint Deck
-
-When a Workday OfficeConnect PowerPoint link breaks — file moved, named range renamed, workbook deleted — here are the fix paths in order of cost.
-
-
+---
+title: "Recovering Broken Links in a Workday OfficeConnect PowerPoint Deck"
+url: "https://officeconnectpro.com/get-started/word-powerpoint/powerpoint/recovering-broken-links/"
+description: "When a Workday OfficeConnect PowerPoint link breaks — file moved, named range renamed, workbook deleted — here are the fix paths in order of cost.\n"
+tags: ["sharing","troubleshoot","fpna","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -123,3 +125,4 @@ You can recover from any link breakage in a few minutes instead of rebuilding th
 - [Refreshing All Slides Safely](/get-started/word-powerpoint/powerpoint/refresh-all-slides/) — the discipline that keeps refresh from breaking.
 - [Designing a Board Pack Template](/get-started/word-powerpoint/powerpoint/board-pack-template/) — naming conventions that minimize breakage risk.
 - [OfficeConnect for PowerPoint](/get-started/word-powerpoint/powerpoint/officeconnect-for-powerpoint/) — the underlying linking workflow.
+

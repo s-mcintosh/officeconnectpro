@@ -1,8 +1,10 @@
-# Report on Actuals by Cost Center
-
-Filter an OfficeConnect Financials report to a specific cost center or worktag to see GL actuals for a single department or team.
-
-
+---
+title: "Report on Actuals by Cost Center"
+url: "https://officeconnectpro.com/get-started/build-reports/financials/actuals-by-cost-center/"
+description: "Filter an OfficeConnect Financials report to a specific cost center or worktag to see GL actuals for a single department or team.\n"
+tags: ["financials","accounting","reporting","fpna","recipe"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -36,3 +38,4 @@ Each additional dimension narrows the data further. OfficeConnect resolves the i
 - [Filter Reports by Company](/get-started/build-reports/financials/filter-by-company/)
 - [Build an Actuals Trend Report](/get-started/build-reports/financials/actuals-trend-report/)
 - [Drill Through to Workday Journal Lines](/get-started/build-reports/financials/drill-through-journal-lines/)
+

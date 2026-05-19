@@ -1,8 +1,10 @@
-# Build a Cash Flow Statement with OfficeConnect (Financials)
-
-Build an indirect-method cash flow statement in Excel using OfficeConnect's Financials data source — operating, investing, and financing activities from Workday Financial Management.
-
-
+---
+title: "Build a Cash Flow Statement with OfficeConnect (Financials)"
+url: "https://officeconnectpro.com/get-started/build-reports/financials/cash-flow-statement/"
+description: "Build an indirect-method cash flow statement in Excel using OfficeConnect's Financials data source — operating, investing, and financing activities from Workday Financial Management.\n"
+tags: ["financials","accounting","reporting","fpna","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -108,3 +110,4 @@ Apply Accounting number format. Bold all subtotal rows (Net Cash from Operating,
 - Cross-reference with your balance sheet — see [Build a Balance Sheet](/get-started/build-reports/financials/balance-sheet-report/)
 - Add prior-year comparison columns to show YoY cash flow — see [Build an Actuals Trend Report](/get-started/build-reports/financials/actuals-trend-report/)
 - Reconcile figures to Workday Report Writer — see [Reconcile OfficeConnect Values to Workday Reports](/get-started/build-reports/financials/reconcile-to-workday/)
+

@@ -1,8 +1,10 @@
-# How to Reduce OfficeConnect Element Count for Faster Refresh
-
-Element count is the single biggest performance lever in Workday OfficeConnect — five concrete tactics to cut it without losing the report you need.
-
-
+---
+title: "How to Reduce OfficeConnect Element Count for Faster Refresh"
+url: "https://officeconnectpro.com/get-started/performance/reduce-element-count/"
+description: "Element count is the single biggest performance lever in Workday OfficeConnect — five concrete tactics to cut it without losing the report you need.\n"
+tags: ["performance","reporting","fpna","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -85,3 +87,4 @@ A workbook with one-fifth to one-tenth the original element count and a refresh 
 - [Refresh Time Benchmarks](/get-started/performance/refresh-benchmarks/) — confirm your new element count puts you in the expected refresh bucket.
 - [Large Repeating Reports](/get-started/performance/large-repeating-reports/) — for tactic 5 in depth.
 - [Optimize Performance for Large Models](/get-started/performance/optimize-performance/) — the broader playbook this article fits into.
+

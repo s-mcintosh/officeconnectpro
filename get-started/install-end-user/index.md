@@ -1,8 +1,10 @@
-# Install as an End User
-
-Install OfficeConnect on your own machine without requiring IT involvement.
-
-
+---
+title: "Install as an End User"
+url: "https://officeconnectpro.com/get-started/install-end-user/"
+description: "Install OfficeConnect on your own machine without requiring IT involvement.\n"
+tags: ["deployment","fpna","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -50,3 +52,4 @@ If the OfficeConnect tab doesn't appear after installation, see [Task Pane Not D
 ## Next steps
 
 → [Sign in and create your first tenant](/get-started/admin/configure/sign-in-create-tenant/)
+

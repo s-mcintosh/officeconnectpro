@@ -1,8 +1,10 @@
-# Review & Verify Applied Elements
-
-Use the Review tab to see exactly which elements are affecting any cell, row, or column.
-
-
+---
+title: "Review \u0026 Verify Applied Elements"
+url: "https://officeconnectpro.com/get-started/build-reports/review-applied-elements/"
+description: "Use the Review tab to see exactly which elements are affecting any cell, row, or column.\n"
+tags: ["reporting","adaptive-planning","fpna","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -70,3 +72,4 @@ If a row or column is part of an expansion (element group), the Review tab shows
 - [Cell Explorer & Drill-Down](/get-started/build-reports/cell-explorer-drill-down/) to inspect the data behind a specific cell
 - [Filter Your Data](/get-started/build-reports/filter-data/) when Review shows an unexpected workbook or worksheet filter
 - [Fix Data Discrepancies Between OfficeConnect and Workday](/reference/troubleshoot/data-discrepancies/) if Review confirms the right elements but figures still look wrong
+

@@ -1,8 +1,10 @@
-# Build a Cohort Revenue Retention Report
-
-Build a SaaS cohort retention report — revenue by signup cohort, retained revenue by month, and net revenue retention percentage — using repeating rows.
-
-
+---
+title: "Build a Cohort Revenue Retention Report"
+url: "https://officeconnectpro.com/get-started/build-reports/cohort-retention/"
+description: "Build a SaaS cohort retention report — revenue by signup cohort, retained revenue by month, and net revenue retention percentage — using repeating rows.\n"
+tags: ["reporting","adaptive-planning","fpna","recipe"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -91,3 +93,4 @@ You now have a cohort retention report that surfaces subscription health in one 
 - Build a top-line subscription revenue trend to pair with this — see [Year-over-Year Trend Report](/get-started/build-reports/year-over-year-trend/)
 - Add scenario overlays for retention assumptions — see [Scenario Comparison](/get-started/build-reports/scenario-comparison/)
 - Use repeating rows for other multi-dimension reports — see [Repeating Reports](/get-started/build-reports/repeating-reports/)
+

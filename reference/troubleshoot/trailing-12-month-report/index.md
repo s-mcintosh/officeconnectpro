@@ -1,8 +1,10 @@
-# Create a Trailing 12-Month Report
-
-How to build a report that always shows the most recent 12 months of data.
-
-
+---
+title: "Create a Trailing 12-Month Report"
+url: "https://officeconnectpro.com/reference/troubleshoot/trailing-12-month-report/"
+description: "How to build a report that always shows the most recent 12 months of data.\n"
+tags: ["reporting","adaptive-planning","fpna","recipe"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -72,3 +74,4 @@ Select **Time** as the Label Type and the appropriate format for the Label Type 
 {{< step n="4" title="Refresh" >}}
 Click **Refresh** — the header automatically shows the correct month name.
 {{< /step >}}
+

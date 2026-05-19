@@ -1,8 +1,10 @@
-# Work with Time & Contexts
-
-Add time periods to your report and use contexts like YTD, QTD, and Beginning Balance.
-
-
+---
+title: "Work with Time \u0026 Contexts"
+url: "https://officeconnectpro.com/get-started/build-reports/time-and-contexts/"
+description: "Add time periods to your report and use contexts like YTD, QTD, and Beginning Balance.\n"
+tags: ["reporting","adaptive-planning","fpna","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -72,3 +74,4 @@ To lock a relative date (make it absolute), right-click the time element in the 
 ## Next steps
 
 → [Filter Your Data](/get-started/build-reports/filter-data/) to limit report data by level, version, or custom dimension
+

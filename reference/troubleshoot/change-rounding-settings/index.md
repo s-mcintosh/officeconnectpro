@@ -1,8 +1,10 @@
-# Change Rounding Settings
-
-How to change how numbers are rounded in OfficeConnect reports.
-
-
+---
+title: "Change Rounding Settings"
+url: "https://officeconnectpro.com/reference/troubleshoot/change-rounding-settings/"
+description: "How to change how numbers are rounded in OfficeConnect reports.\n"
+tags: ["reporting","fpna","system-admin","troubleshoot"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -60,3 +62,4 @@ If your report includes percentages, rounding to Thousands will distort them —
 - [Display Percentage Values Correctly](/reference/troubleshoot/display-percentage-values/) for the related rounding-vs-percentage gotcha
 - [Workbook & Worksheet Properties](/get-started/build-reports/workbook-worksheet-properties/) for every workbook-wide setting in one place
 - [Build a Formatted Executive Report](/get-started/build-reports/formatted-executive-report/) for a worked example of mixed rounding in a polished deliverable
+

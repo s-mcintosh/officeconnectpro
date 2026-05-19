@@ -1,8 +1,10 @@
-# Fix COM Registration Errors
-
-How to resolve COM registration errors when installing or updating OfficeConnect.
-
-
+---
+title: "Fix COM Registration Errors"
+url: "https://officeconnectpro.com/reference/troubleshoot/com-registration-error/"
+description: "How to resolve COM registration errors when installing or updating OfficeConnect.\n"
+tags: ["deployment","system-admin","fpna","troubleshoot"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -71,3 +73,4 @@ If this resolves the issue, re-enable add-ins one at a time to identify the conf
 - [Resolve OfficeConnect Update Errors](/reference/troubleshoot/update-errors/) if the issue only appears during version updates
 - [Run the troubleshooting tool](/reference/troubleshoot/troubleshooting-tool/) to capture the exact registry keys at fault
 - [Install as an IT Admin](/get-started/install-admin/) to redeploy a clean per-machine installation across users
+

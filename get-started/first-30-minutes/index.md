@@ -1,8 +1,10 @@
-# Your First 30 Minutes with Workday OfficeConnect
-
-Install, sign in, build your first report, and refresh it — a complete onboarding path from zero to a live Workday OfficeConnect report in half an hour.
-
-
+---
+title: "Your First 30 Minutes with Workday OfficeConnect"
+url: "https://officeconnectpro.com/get-started/first-30-minutes/"
+description: "Install, sign in, build your first report, and refresh it — a complete onboarding path from zero to a live Workday OfficeConnect report in half an hour.\n"
+tags: ["adaptive-planning","fpna","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -83,3 +85,4 @@ You have a live, refreshable Workday OfficeConnect report and you understand the
 - **Common next builds:** [Rolling 12-Month Report](/get-started/build-reports/rolling-12-month-report/), [Budget vs Actuals Variance](/get-started/build-reports/budget-vs-actuals-variance/), [Department P&L](/get-started/build-reports/department-pl-report/).
 - **Working with Financials data?** Jump straight to [Trial Balance Report](/get-started/build-reports/financials/trial-balance-report/).
 - **Picking between OfficeConnect and Adaptive web reports?** See the [decision framework](/get-started/migration-comparison/oc-vs-web-reports/).
+

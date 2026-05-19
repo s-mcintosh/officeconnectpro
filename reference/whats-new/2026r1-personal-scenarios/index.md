@@ -1,8 +1,10 @@
-# Personal What-If Scenarios (2026R1)
-
-Workday OfficeConnect 2026R1 lets end users create personal what-if scenarios without involving an Adaptive Planning admin — scoped to the individual, branched from a parent version, and invisible to others.
-
-
+---
+title: "Personal What-If Scenarios (2026R1)"
+url: "https://officeconnectpro.com/reference/whats-new/2026r1-personal-scenarios/"
+description: "Workday OfficeConnect 2026R1 lets end users create personal what-if scenarios without involving an Adaptive Planning admin — scoped to the individual, branched from a parent version, and invisible to others.\n"
+tags: ["release-notes","adaptive-planning","fpna","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -83,3 +85,4 @@ You can branch any shared version into your own private what-if without admin in
 - [View By (2026R1)](/reference/whats-new/2026r1-view-by/) — the other big 2026R1 feature.
 - [Compare Planning Versions](/get-started/build-reports/compare-planning-versions/) — patterns for comparing any two versions, including personal vs parent.
 - [Enter Budget Data](/get-started/data-entry-writeback/enter-budget-data/) — write-back to a personal scenario uses the same flow.
+

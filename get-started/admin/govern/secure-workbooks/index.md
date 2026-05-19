@@ -1,8 +1,10 @@
-# Secure OfficeConnect Workbooks
-
-How Workday OfficeConnect handles security, timeouts, and data clearing to protect sensitive financial data.
-
-
+---
+title: "Secure OfficeConnect Workbooks"
+url: "https://officeconnectpro.com/get-started/admin/govern/secure-workbooks/"
+description: "How Workday OfficeConnect handles security, timeouts, and data clearing to protect sensitive financial data.\n"
+tags: ["security","governance","system-admin","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -62,3 +64,4 @@ See [Share Reports via Teams, SharePoint & OneDrive](/get-started/word-powerpoin
 - [Set Up Workday SSO](/get-started/admin/configure/workday-sso/) — tie sign-in to your identity provider.
 - [Authentication Token Errors](/reference/troubleshoot/authentication-token-errors/) — when timeouts surprise users.
 - [Share Reports via Teams, SharePoint & OneDrive](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/) — collaboration best practices.
+

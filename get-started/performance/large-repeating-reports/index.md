@@ -1,8 +1,10 @@
-# Workday OfficeConnect Patterns for Large Repeating Reports
-
-Patterns and pitfalls for Workday OfficeConnect reports that use repeating rows to generate hundreds of lines from a single element.
-
-
+---
+title: "Workday OfficeConnect Patterns for Large Repeating Reports"
+url: "https://officeconnectpro.com/get-started/performance/large-repeating-reports/"
+description: "Patterns and pitfalls for Workday OfficeConnect reports that use repeating rows to generate hundreds of lines from a single element.\n"
+tags: ["performance","reporting","fpna","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -79,3 +81,4 @@ You can build OfficeConnect reports that span hundreds or thousands of rows with
 - [Reduce OfficeConnect Element Count](/get-started/performance/reduce-element-count/) — the broader element-count playbook this article extends.
 - [Refresh Time Benchmarks](/get-started/performance/refresh-benchmarks/) — what a well-built large report should refresh in.
 - [Optimize Performance for Large Models](/get-started/performance/optimize-performance/) — the parent guide.
+

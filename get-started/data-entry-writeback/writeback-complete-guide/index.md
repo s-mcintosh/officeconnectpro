@@ -1,8 +1,10 @@
-# Write-Back to Adaptive from Excel: A Complete Guide
-
-The 2025R1 write-back feature in Workday OfficeConnect — what it does, who can use it, how to set up a write-back workbook, and how to recover when it fails.
-
-
+---
+title: "Write-Back to Adaptive from Excel: A Complete Guide"
+url: "https://officeconnectpro.com/get-started/data-entry-writeback/writeback-complete-guide/"
+description: "The 2025R1 write-back feature in Workday OfficeConnect — what it does, who can use it, how to set up a write-back workbook, and how to recover when it fails.\n"
+tags: ["write-back","data-entry","adaptive-planning","fpna","system-admin","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -124,3 +126,4 @@ Your team can plan and re-plan in Excel without leaving the tool they live in. W
 - [Enter Budget Data](/get-started/data-entry-writeback/enter-budget-data/) — full step-by-step tutorial.
 - [Personal what-if scenarios (2026R1)](/reference/whats-new/2026r1-personal-scenarios/) — the safer alternative for one-off branches.
 - [Lock and Protect Reports](/get-started/build-reports/lock-protect-reports/) — protect the workbook before distributing.
+

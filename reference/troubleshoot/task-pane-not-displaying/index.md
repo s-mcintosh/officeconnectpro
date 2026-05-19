@@ -1,8 +1,10 @@
-# Task Pane Not Displaying Correctly
-
-How to fix the OfficeConnect Reporting pane when it's not showing or displaying incorrectly.
-
-
+---
+title: "Task Pane Not Displaying Correctly"
+url: "https://officeconnectpro.com/reference/troubleshoot/task-pane-not-displaying/"
+description: "How to fix the OfficeConnect Reporting pane when it's not showing or displaying incorrectly.\n"
+tags: ["deployment","fpna","system-admin","troubleshoot"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -45,3 +47,4 @@ Change **Manage** to **COM Add-ins** and click **Go**. Make sure **Adaptive Plan
 {{< step n="3" title="Reinstall if needed" >}}
 If the add-in isn't listed, it may need reinstalling. See [Install as an End User](/get-started/install-end-user/).
 {{< /step >}}
+

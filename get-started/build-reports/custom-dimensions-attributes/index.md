@@ -1,8 +1,10 @@
-# Work with Custom Dimensions and Attributes in OfficeConnect
-
-Report on custom dimensions and attributes defined in your Adaptive Planning model — filter by product line, region, project, or any other custom segment your team uses.
-
-
+---
+title: "Work with Custom Dimensions and Attributes in OfficeConnect"
+url: "https://officeconnectpro.com/get-started/build-reports/custom-dimensions-attributes/"
+description: "Report on custom dimensions and attributes defined in your Adaptive Planning model — filter by product line, region, project, or any other custom segment your team uses.\n"
+tags: ["adaptive-planning","reporting","fpna","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -49,3 +51,4 @@ Click the cell containing the dimension element and press **Delete**. Click **Re
 - [Budget vs. Actuals Variance](/get-started/build-reports/budget-vs-actuals-variance/)
 - [Set Up Scenario Comparison](/get-started/build-reports/scenario-comparison/)
 - [Build a Department P&L Report](/get-started/build-reports/department-pl-report/)
+

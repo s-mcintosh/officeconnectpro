@@ -1,8 +1,10 @@
-# Cell Explorer & Drill-Down
-
-Explore the data behind any cell to understand what's driving the numbers.
-
-
+---
+title: "Cell Explorer \u0026 Drill-Down"
+url: "https://officeconnectpro.com/get-started/build-reports/cell-explorer-drill-down/"
+description: "Explore the data behind any cell to understand what's driving the numbers.\n"
+tags: ["reporting","adaptive-planning","fpna","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -75,3 +77,4 @@ From the new worksheet, you can drill through to Workday to view related journal
 - [Drill Through to Workday Journal Lines](/get-started/build-reports/financials/drill-through-journal-lines/) for the Financials-data-source equivalent
 - [Review & Verify Applied Elements](/get-started/build-reports/review-applied-elements/) to confirm the elements driving a cell
 - [Fix Data Discrepancies Between OfficeConnect and Workday](/reference/troubleshoot/data-discrepancies/) when the drill-down reveals an unexpected variance
+

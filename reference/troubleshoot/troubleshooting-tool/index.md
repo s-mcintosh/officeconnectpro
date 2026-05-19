@@ -1,8 +1,10 @@
-# Run the Troubleshooting Tool
-
-How to use the OCSystemChecker tool to generate a diagnostic log for Workday Support.
-
-
+---
+title: "Run the Troubleshooting Tool"
+url: "https://officeconnectpro.com/reference/troubleshoot/troubleshooting-tool/"
+description: "How to use the OCSystemChecker tool to generate a diagnostic log for Workday Support.\n"
+tags: ["deployment","system-admin","fpna","troubleshoot"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -51,3 +53,4 @@ Click **Finish**. Your Temp folder opens automatically, containing a file named 
 {{< step n="8" title="Send the log to Support" >}}
 Attach `AdaptiveEnvironmentInfoPackage` to your active support ticket in the Workday Customer Center.
 {{< /step >}}
+

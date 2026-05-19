@@ -1,8 +1,10 @@
-# Publish a Report to PowerPoint
-
-Link a live OfficeConnect Excel report into a PowerPoint deck so slides update with one refresh.
-
-
+---
+title: "Publish a Report to PowerPoint"
+url: "https://officeconnectpro.com/get-started/build-reports/publish-to-powerpoint/"
+description: "Link a live OfficeConnect Excel report into a PowerPoint deck so slides update with one refresh.\n"
+tags: ["adaptive-planning","sharing","fpna","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -98,3 +100,4 @@ Switch to PowerPoint and click **Refresh** again. The slides update to reflect t
 
 - Link data into Word for board reports and narratives — [OfficeConnect for Word](/get-started/word-powerpoint/word/officeconnect-for-word/)
 - Share your Excel source report so colleagues can refresh it themselves — [Share via Teams & SharePoint](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)
+

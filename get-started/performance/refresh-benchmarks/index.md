@@ -1,8 +1,10 @@
-# Workday OfficeConnect Refresh Time Benchmarks
-
-Rough benchmarks for what a normal Workday OfficeConnect refresh should take by formula count, what moves the numbers, and how to measure your own workbooks.
-
-
+---
+title: "Workday OfficeConnect Refresh Time Benchmarks"
+url: "https://officeconnectpro.com/get-started/performance/refresh-benchmarks/"
+description: "Rough benchmarks for what a normal Workday OfficeConnect refresh should take by formula count, what moves the numbers, and how to measure your own workbooks.\n"
+tags: ["performance","fpna","system-admin","reference"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -83,3 +85,4 @@ You have a defensible answer to "is this workbook slow?" — measured against a 
 - [Optimize Performance for Large Models](/get-started/performance/optimize-performance/) — the canonical tuning checklist once you've decided action is warranted.
 - [Reduce OfficeConnect Element Count](/get-started/performance/reduce-element-count/) — the single biggest lever, in detail.
 - [Fix Slow Performance in Large Reports](/reference/troubleshoot/slow-performance/) — diagnostic walkthrough when refresh is far outside the benchmark.
+

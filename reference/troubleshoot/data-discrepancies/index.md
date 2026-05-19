@@ -1,8 +1,10 @@
-# Fix Data Discrepancies Between OfficeConnect and Workday
-
-OfficeConnect shows different figures than Workday Report Writer or the Workday UI for the same account and period — common causes and how to diagnose them.
-
-
+---
+title: "Fix Data Discrepancies Between OfficeConnect and Workday"
+url: "https://officeconnectpro.com/reference/troubleshoot/data-discrepancies/"
+description: "OfficeConnect shows different figures than Workday Report Writer or the Workday UI for the same account and period — common causes and how to diagnose them.\n"
+tags: ["reporting","financials","accounting","fpna","system-admin","troubleshoot"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -77,3 +79,4 @@ This is the most common cause. Confirm both tools are using the exact same perio
 - See [Reconcile OfficeConnect Values to Workday Reports](/get-started/build-reports/financials/reconcile-to-workday/) for a systematic reconciliation process.
 - Collect the exact account, period, filter settings, and specific figures that differ from both tools, and share with your Workday admin or Workday Support.
 - Rounding differences of less than $1 between OfficeConnect and Workday are expected in some multi-currency configurations and are not data errors.
+

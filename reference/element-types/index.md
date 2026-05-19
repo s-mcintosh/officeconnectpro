@@ -1,8 +1,10 @@
-# Element Types Reference
-
-Every element type you can drag from the Workday OfficeConnect Reporting pane, what it represents, and where it lives in each data source.
-
-
+---
+title: "Element Types Reference"
+url: "https://officeconnectpro.com/reference/element-types/"
+description: "Every element type you can drag from the Workday OfficeConnect Reporting pane, what it represents, and where it lives in each data source.\n"
+tags: ["reference","reporting","fpna","system-admin"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -93,3 +95,4 @@ You can now pick the right element type for whatever column or row you're buildi
 
 - [Add Elements](/get-started/build-reports/add-elements/) — step-by-step on dragging each type into a worksheet.
 - [Filter Data](/get-started/build-reports/filter-data/) — how Attributes and Custom Dimensions work as filters.
+

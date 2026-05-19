@@ -1,8 +1,10 @@
-# Build a Year-over-Year Trend Report
-
-Compare this year's actuals against the prior year month by month using fixed time elements in OfficeConnect.
-
-
+---
+title: "Build a Year-over-Year Trend Report"
+url: "https://officeconnectpro.com/get-started/build-reports/year-over-year-trend/"
+description: "Compare this year's actuals against the prior year month by month using fixed time elements in OfficeConnect.\n"
+tags: ["adaptive-planning","reporting","fpna","recipe"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -97,3 +99,4 @@ Click **Refresh** in the OfficeConnect ribbon. Both years of data populate. Chec
 - Add a rolling 12-month view alongside fixed years — see [Create a Rolling 12-Month Report](/get-started/build-reports/rolling-12-month-report/)
 - Compare budget and actuals for the same period — see [Budget vs. Actuals Variance](/get-started/build-reports/budget-vs-actuals-variance/)
 - Share the finished report — see [Share via Teams & SharePoint](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)
+

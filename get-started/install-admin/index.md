@@ -1,8 +1,10 @@
-# Install as an IT Admin
-
-Deploy OfficeConnect to multiple users using per-machine installation and group policy or scripts.
-
-
+---
+title: "Install as an IT Admin"
+url: "https://officeconnectpro.com/get-started/install-admin/"
+description: "Deploy OfficeConnect to multiple users using per-machine installation and group policy or scripts.\n"
+tags: ["deployment","system-admin","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -58,3 +60,4 @@ Make sure your team updates together — users on older versions cannot open wor
 ## Next steps
 
 → [Deploy Tenants via Registry](/get-started/admin/deploy/deploy-tenants-registry/) — push tenant config to user machines without manual setup
+

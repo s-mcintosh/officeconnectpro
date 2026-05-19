@@ -1,8 +1,10 @@
-# OfficeConnect vs Adaptive Web Reports: A Decision Framework
-
-When to use Workday OfficeConnect vs Workday Adaptive Planning's built-in web reports — a scoring framework with concrete recommendations.
-
-
+---
+title: "OfficeConnect vs Adaptive Web Reports: A Decision Framework"
+url: "https://officeconnectpro.com/get-started/migration-comparison/oc-vs-web-reports/"
+description: "When to use Workday OfficeConnect vs Workday Adaptive Planning's built-in web reports — a scoring framework with concrete recommendations.\n"
+tags: ["comparison","adaptive-planning","reporting","fpna","system-admin"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -80,3 +82,4 @@ Use the scoring framework on your next report request. Most of the time the answ
 - [Financials vs. Adaptive Planning Data Sources](/get-started/migration-comparison/financials-vs-adaptive-planning/) — the other major "which data source?" decision.
 - [Write-Back Complete Guide](/get-started/data-entry-writeback/writeback-complete-guide/) — the 2025R1 feature that changed the calculus.
 - [What's New in 2026R1](/reference/whats-new/2026r1/) — the features that further tilt toward OfficeConnect.
+

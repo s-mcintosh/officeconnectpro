@@ -1,8 +1,10 @@
-# Sign In & Create Your First Tenant
-
-Sign in to Workday OfficeConnect for the first time and configure your Workday tenant connection.
-
-
+---
+title: "Sign In \u0026 Create Your First Tenant"
+url: "https://officeconnectpro.com/get-started/admin/configure/sign-in-create-tenant/"
+description: "Sign in to Workday OfficeConnect for the first time and configure your Workday tenant connection.\n"
+tags: ["sso","deployment","system-admin","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -71,3 +73,4 @@ From the Log In drop-down, select **Manage Tenants** to add, edit, or remove ten
 - [Work with Multiple Instances](/get-started/admin/configure/multiple-instances/) if your organization has sandbox or multi-instance setups.
 - [Build Your First Report](/get-started/build-reports/build-first-report/) now that you're signed in.
 - Push tenant config to many machines via [Deploy Tenants via Registry](/get-started/admin/deploy/deploy-tenants-registry/).
+

@@ -1,8 +1,10 @@
-# Re-Enabling a Disabled OfficeConnect COM Add-in
-
-If Excel disabled Workday OfficeConnect after a crash or stall, the ribbon tab disappears and reinstalling doesn't help — re-enable it from Excel's Disabled Items list.
-
-
+---
+title: "Re-Enabling a Disabled OfficeConnect COM Add-in"
+url: "https://officeconnectpro.com/reference/troubleshoot/reenable-com-addin/"
+description: "If Excel disabled Workday OfficeConnect after a crash or stall, the ribbon tab disappears and reinstalling doesn't help — re-enable it from Excel's Disabled Items list.\n"
+tags: ["troubleshoot","fpna","system-admin"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -114,3 +116,4 @@ OfficeConnect is back in the ribbon, and Excel will load it normally on next sta
 - [Optimize Performance](/get-started/performance/optimize-performance/) — reduce the refresh times that cause force-quits in the first place.
 - [Task Pane Not Displaying](/reference/troubleshoot/task-pane-not-displaying/) — if the tab is there but the pane won't show.
 - [Authentication Token Errors](/reference/troubleshoot/authentication-token-errors/) — if you re-enabled but sign-in fails.
+

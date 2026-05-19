@@ -1,8 +1,10 @@
-# Multi-Currency Reporting with the Financials Data Source
-
-Report in your chosen currency using Workday Financial Management's currency conversion — select transaction currency, company currency, or a converted reporting currency in OfficeConnect.
-
-
+---
+title: "Multi-Currency Reporting with the Financials Data Source"
+url: "https://officeconnectpro.com/get-started/build-reports/financials/multi-currency-financials/"
+description: "Report in your chosen currency using Workday Financial Management's currency conversion — select transaction currency, company currency, or a converted reporting currency in OfficeConnect.\n"
+tags: ["financials","accounting","reporting","fpna","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -46,3 +48,4 @@ The rate type applied to your OfficeConnect data is determined by your Workday c
 - [Report in Constant Currency in OfficeConnect](/get-started/build-reports/constant-currency-reporting/) — constant currency for Adaptive Planning users
 - [Filter Reports by Company](/get-started/build-reports/financials/filter-by-company/)
 - [Effective Date Reporting](/get-started/build-reports/financials/effective-date-reporting/)
+

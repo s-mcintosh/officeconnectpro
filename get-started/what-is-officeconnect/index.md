@@ -1,8 +1,10 @@
-# What is OfficeConnect?
-
-An overview of OfficeConnect — what it does, who it's for, and how it works with Workday Adaptive Planning.
-
-
+---
+title: "What is OfficeConnect?"
+url: "https://officeconnectpro.com/get-started/what-is-officeconnect/"
+description: "An overview of OfficeConnect — what it does, who it's for, and how it works with Workday Adaptive Planning.\n"
+tags: ["adaptive-planning","fpna","reference"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 OfficeConnect is a Microsoft Office add-in that streams live data from Workday Adaptive Planning directly into Excel, Word, and PowerPoint. Instead of exporting static spreadsheets, your reports stay connected to your planning instance and refresh on demand.
@@ -47,3 +49,4 @@ OfficeConnect supports two data sources:
 ## Next steps
 
 → [Check system requirements](/get-started/system-requirements/) before installing.
+

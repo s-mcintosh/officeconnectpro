@@ -1,8 +1,10 @@
-# Remove Elements
-
-How to clear OfficeConnect elements from cells, rows, or columns.
-
-
+---
+title: "Remove Elements"
+url: "https://officeconnectpro.com/reference/troubleshoot/remove-elements/"
+description: "How to clear OfficeConnect elements from cells, rows, or columns.\n"
+tags: ["reporting","fpna","system-admin","troubleshoot"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -66,3 +68,4 @@ Then clear each one individually or use **Replace** to swap it with a different 
 - [Review & Verify Applied Elements](/get-started/build-reports/review-applied-elements/) to confirm the right elements were cleared
 - [Add Elements to Rows, Columns & Cells](/get-started/build-reports/add-elements/) to re-apply elements after a clean-up
 - [Cut, Copy & Move Elements](/get-started/build-reports/cut-copy-move-elements/) for relocating rather than removing elements
+

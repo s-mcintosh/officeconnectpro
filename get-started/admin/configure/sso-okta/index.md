@@ -1,8 +1,10 @@
-# Single Sign-On for Workday OfficeConnect with Okta
-
-Configure Okta to authenticate Workday OfficeConnect users via Workday SSO — application setup, claim mapping, MFA pairing, and the common failure modes.
-
-
+---
+title: "Single Sign-On for Workday OfficeConnect with Okta"
+url: "https://officeconnectpro.com/get-started/admin/configure/sso-okta/"
+description: "Configure Okta to authenticate Workday OfficeConnect users via Workday SSO — application setup, claim mapping, MFA pairing, and the common failure modes.\n"
+tags: ["sso","security","system-admin","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -97,3 +99,4 @@ Workday OfficeConnect users sign in with their Okta credentials, MFA flows work,
 - [Set Up Workday SSO](/get-started/admin/configure/workday-sso/) — the generic concepts.
 - [SSO with Microsoft Entra ID](/get-started/admin/configure/sso-entra/) — the Entra equivalent.
 - [Authentication Token Errors](/reference/troubleshoot/authentication-token-errors/) — when sign-in succeeds but tokens fail.
+

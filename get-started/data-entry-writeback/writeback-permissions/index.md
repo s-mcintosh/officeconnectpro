@@ -1,8 +1,10 @@
-# Designing Write-Back Permissions for Workday OfficeConnect
-
-Design Adaptive Planning permissions so Workday OfficeConnect write-back is safe by default — least-privilege roles, version-state gates, and Level-scoped assignments.
-
-
+---
+title: "Designing Write-Back Permissions for Workday OfficeConnect"
+url: "https://officeconnectpro.com/get-started/data-entry-writeback/writeback-permissions/"
+description: "Design Adaptive Planning permissions so Workday OfficeConnect write-back is safe by default — least-privilege roles, version-state gates, and Level-scoped assignments.\n"
+tags: ["write-back","data-entry","security","system-admin","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -64,3 +66,4 @@ Your OfficeConnect users can write back productively without the ability to dama
 - [Common Write-Back Errors](/get-started/data-entry-writeback/writeback-errors/) — the errors users will see when permissions don't align, and how to fix each.
 - [Auditing Write-Back Submissions](/get-started/data-entry-writeback/writeback-audit-trail/) — review what was actually submitted, by whom.
 - [Write-Back Complete Guide](/get-started/data-entry-writeback/writeback-complete-guide/) — the canonical reference for the write-back feature.
+

@@ -1,8 +1,10 @@
-# PowerPoint Charts That Update with the Period in Workday OfficeConnect
-
-Build PowerPoint charts whose axes, titles, and data ranges update automatically when the reporting period rolls — no more re-creating the trend chart every month.
-
-
+---
+title: "PowerPoint Charts That Update with the Period in Workday OfficeConnect"
+url: "https://officeconnectpro.com/get-started/word-powerpoint/powerpoint/period-aware-charts/"
+description: "Build PowerPoint charts whose axes, titles, and data ranges update automatically when the reporting period rolls — no more re-creating the trend chart every month.\n"
+tags: ["sharing","reporting","fpna","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -118,3 +120,4 @@ Your board-pack charts and titles roll forward automatically when the period cha
 - [Designing a Board Pack Template](/get-started/word-powerpoint/powerpoint/board-pack-template/) — the slide template that hosts these charts.
 - [Refreshing All Slides Safely](/get-started/word-powerpoint/powerpoint/refresh-all-slides/) — the refresh discipline that surfaces the updates.
 - [Time and Contexts](/get-started/build-reports/time-and-contexts/) — the catalog of relative time elements that drive period awareness.
+

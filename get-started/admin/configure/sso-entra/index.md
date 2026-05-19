@@ -1,8 +1,10 @@
-# Single Sign-On for Workday OfficeConnect with Microsoft Entra ID
-
-Configure Microsoft Entra ID (formerly Azure AD) to authenticate Workday OfficeConnect users via Workday SSO — enterprise application setup, claim mapping, and Conditional Access tuning.
-
-
+---
+title: "Single Sign-On for Workday OfficeConnect with Microsoft Entra ID"
+url: "https://officeconnectpro.com/get-started/admin/configure/sso-entra/"
+description: "Configure Microsoft Entra ID (formerly Azure AD) to authenticate Workday OfficeConnect users via Workday SSO — enterprise application setup, claim mapping, and Conditional Access tuning.\n"
+tags: ["sso","security","system-admin","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -115,3 +117,4 @@ Workday OfficeConnect users sign in with their Entra credentials, MFA and Condit
 - [Set Up Workday SSO](/get-started/admin/configure/workday-sso/) — generic SSO concepts.
 - [SSO with Okta](/get-started/admin/configure/sso-okta/) — the Okta equivalent.
 - [Authentication Token Errors](/reference/troubleshoot/authentication-token-errors/) — when sign-in succeeds but tokens later fail.
+

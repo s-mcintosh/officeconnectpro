@@ -1,8 +1,10 @@
-# Deploy Tenants via Registry
-
-Push Workday OfficeConnect tenant configuration to user machines using the Windows registry.
-
-
+---
+title: "Deploy Tenants via Registry"
+url: "https://officeconnectpro.com/get-started/admin/deploy/deploy-tenants-registry/"
+description: "Push Workday OfficeConnect tenant configuration to user machines using the Windows registry.\n"
+tags: ["deployment","system-admin","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -78,3 +80,4 @@ Authorization URLs and API endpoint URLs vary based on your Workday data center 
 - [Install for Admins](/get-started/install-admin/) — the install side of the same rollout.
 - [Set Up Workday SSO](/get-started/admin/configure/workday-sso/) — get the API client values you'll deploy.
 - [Sign In & Create a Tenant](/get-started/admin/configure/sign-in-create-tenant/) — what your users will see after registry deploy.
+

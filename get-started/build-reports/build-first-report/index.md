@@ -1,8 +1,10 @@
-# Build Your First OfficeConnect Report
-
-A complete walkthrough for creating a live Adaptive Planning report in Excel from scratch.
-
-
+---
+title: "Build Your First OfficeConnect Report"
+url: "https://officeconnectpro.com/get-started/build-reports/build-first-report/"
+description: "A complete walkthrough for creating a live Adaptive Planning report in Excel from scratch.\n"
+tags: ["adaptive-planning","reporting","fpna","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -93,3 +95,4 @@ Save the file as a standard `.xlsx`. The OfficeConnect formulas are preserved an
 - **Add filters** to scope data to a specific department or cost center — see [Filter Data](/get-started/build-reports/filter-data/)
 - **Repeat rows** to build multi-account reports automatically — see [Repeating Reports](/get-started/build-reports/repeating-reports/)
 - **Share the report** with a colleague via SharePoint — see [Share via Teams & SharePoint](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)
+

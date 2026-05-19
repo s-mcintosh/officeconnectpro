@@ -1,8 +1,10 @@
-# Report on Worktag Combinations in OfficeConnect
-
-Build reports that slice GL actuals by multiple Workday worktags simultaneously — Cost Center and Fund, or Cost Center and Project — using OfficeConnect's dimension filters.
-
-
+---
+title: "Report on Worktag Combinations in OfficeConnect"
+url: "https://officeconnectpro.com/get-started/build-reports/financials/worktag-combinations/"
+description: "Build reports that slice GL actuals by multiple Workday worktags simultaneously — Cost Center and Fund, or Cost Center and Project — using OfficeConnect's dimension filters.\n"
+tags: ["financials","accounting","reporting","fpna","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -54,3 +56,4 @@ Click the cell containing the worktag element and press **Delete**. Click **Refr
 - [Report on Actuals by Cost Center](/get-started/build-reports/financials/actuals-by-cost-center/)
 - [Filter Reports by Company](/get-started/build-reports/financials/filter-by-company/)
 - [Variance Analysis by Journal Source](/get-started/build-reports/financials/variance-by-journal-source/)
+

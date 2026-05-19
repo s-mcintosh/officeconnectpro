@@ -1,8 +1,10 @@
-# Build an Actuals Trend Report in OfficeConnect (Financials)
-
-Build a 12-month GL actuals trend report in minutes — the same report that takes hours to configure in Workday's native report writer.
-
-
+---
+title: "Build an Actuals Trend Report in OfficeConnect (Financials)"
+url: "https://officeconnectpro.com/get-started/build-reports/financials/actuals-trend-report/"
+description: "Build a 12-month GL actuals trend report in minutes — the same report that takes hours to configure in Workday's native report writer.\n"
+tags: ["financials","accounting","reporting","fpna","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -104,3 +106,4 @@ Pick one account and one month. Compare the value in your report against the sam
 - Drill into any cell to see contributing journal lines — see [Drill Through to Workday Journal Lines](/get-started/build-reports/financials/drill-through-journal-lines/)
 - Add a prior-year comparison column — see [Compare Two Planning Versions Side by Side](/get-started/build-reports/compare-planning-versions/)
 - Filter by cost center — see [Report on Actuals by Cost Center](/get-started/build-reports/financials/actuals-by-cost-center/)
+

@@ -1,8 +1,10 @@
-# Designing a Board Pack Template in Workday OfficeConnect
-
-A reusable PowerPoint board-pack template built on Workday OfficeConnect — slide structure, named-range conventions, refresh discipline, and the design choices that keep it maintainable.
-
-
+---
+title: "Designing a Board Pack Template in Workday OfficeConnect"
+url: "https://officeconnectpro.com/get-started/word-powerpoint/powerpoint/board-pack-template/"
+description: "A reusable PowerPoint board-pack template built on Workday OfficeConnect — slide structure, named-range conventions, refresh discipline, and the design choices that keep it maintainable.\n"
+tags: ["sharing","reporting","fpna","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -115,3 +117,4 @@ You have a board-pack template that refreshes in minutes, follows a consistent n
 - [Refreshing All Slides Safely](/get-started/word-powerpoint/powerpoint/refresh-all-slides/) — the discipline that prevents broken decks.
 - [Recovering Broken Links](/get-started/word-powerpoint/powerpoint/recovering-broken-links/) — when a refresh doesn't go smoothly.
 - [Quarterly Board Pack](/get-started/build-reports/quarterly-board-pack/) — the source-workbook side of the same workflow.
+

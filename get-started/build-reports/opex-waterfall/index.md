@@ -1,8 +1,10 @@
-# Build an Operating Expense Waterfall
-
-Build a month-over-month OpEx walk showing prior period, adds, reductions, and current period — visualized as an Excel waterfall chart driven by OfficeConnect data.
-
-
+---
+title: "Build an Operating Expense Waterfall"
+url: "https://officeconnectpro.com/get-started/build-reports/opex-waterfall/"
+description: "Build a month-over-month OpEx walk showing prior period, adds, reductions, and current period — visualized as an Excel waterfall chart driven by OfficeConnect data.\n"
+tags: ["reporting","adaptive-planning","fpna","recipe"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -87,3 +89,4 @@ You now have a self-refreshing OpEx waterfall that explains the month's movement
 - Apply the same pattern to revenue or gross margin walks — see [Year-over-Year Trend Report](/get-started/build-reports/year-over-year-trend/)
 - Pair the waterfall with budget variance context — see [Budget vs. Actuals Variance](/get-started/build-reports/budget-vs-actuals-variance/)
 - Use rolling periods so the walk always shows the latest month — see [Rolling 12-Month Report](/get-started/build-reports/rolling-12-month-report/)
+

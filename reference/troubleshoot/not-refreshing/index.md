@@ -1,8 +1,10 @@
-# Fix OfficeConnect Not Refreshing
-
-OfficeConnect shows stale data or the Refresh button does nothing — causes and step-by-step fixes.
-
-
+---
+title: "Fix OfficeConnect Not Refreshing"
+url: "https://officeconnectpro.com/reference/troubleshoot/not-refreshing/"
+description: "OfficeConnect shows stale data or the Refresh button does nothing — causes and step-by-step fixes.\n"
+tags: ["adaptive-planning","performance","fpna","system-admin","troubleshoot"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -71,3 +73,4 @@ If reloading the pane doesn't help, close Excel entirely, reopen it, and open th
 - [Fix authentication and token errors](/reference/troubleshoot/authentication-token-errors/) if Sign In keeps failing
 - [Optimize OfficeConnect performance](/get-started/performance/optimize-performance/) if refresh completes but takes too long
 - [Run the troubleshooting tool](/reference/troubleshoot/troubleshooting-tool/) to collect logs before contacting Workday Support
+

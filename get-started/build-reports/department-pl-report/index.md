@@ -1,8 +1,10 @@
-# Build a Department P&L Report in OfficeConnect
-
-Build a profit and loss report broken down by department or cost center using OfficeConnect's Level dimension.
-
-
+---
+title: "Build a Department P\u0026L Report in OfficeConnect"
+url: "https://officeconnectpro.com/get-started/build-reports/department-pl-report/"
+description: "Build a profit and loss report broken down by department or cost center using OfficeConnect's Level dimension.\n"
+tags: ["adaptive-planning","reporting","fpna","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -73,3 +75,4 @@ Confirm that each department's Gross Profit = Revenue − COGS, and that Net Inc
 - Add a budget or prior-year comparison column — see [Budget vs. Actuals Variance](/get-started/build-reports/budget-vs-actuals-variance/)
 - Protect the report for distribution — see [Lock and Protect Reports](/get-started/build-reports/lock-protect-reports/)
 - Publish to PowerPoint — see [OfficeConnect for PowerPoint](/get-started/word-powerpoint/powerpoint/officeconnect-for-powerpoint/)
+

@@ -1,8 +1,10 @@
-# System Requirements
-
-Hardware and software prerequisites before installing OfficeConnect.
-
-
+---
+title: "System Requirements"
+url: "https://officeconnectpro.com/get-started/system-requirements/"
+description: "Hardware and software prerequisites before installing OfficeConnect.\n"
+tags: ["deployment","system-admin","reference"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -42,3 +44,4 @@ All of the following must be installed before running the OfficeConnect installe
 → [Install OfficeConnect as an End User](/get-started/install-end-user/) if you're setting up your own machine.
 
 → [Install OfficeConnect as an IT Admin](/get-started/install-admin/) if you're deploying to multiple users.
+

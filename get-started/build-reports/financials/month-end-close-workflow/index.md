@@ -1,8 +1,10 @@
-# Month-End Close Workflow with OfficeConnect
-
-Use OfficeConnect to run a faster month-end close — verify trial balances, check journal completeness, and produce final financial statements directly from Workday Financial Management.
-
-
+---
+title: "Month-End Close Workflow with OfficeConnect"
+url: "https://officeconnectpro.com/get-started/build-reports/financials/month-end-close-workflow/"
+description: "Use OfficeConnect to run a faster month-end close — verify trial balances, check journal completeness, and produce final financial statements directly from Workday Financial Management.\n"
+tags: ["financials","accounting","reporting","fpna","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -99,3 +101,4 @@ Go to Workday → **Financial Accounting** → **Close Accounting Period** (or t
 - Build a full balance sheet for the close package — see [Build a Balance Sheet](/get-started/build-reports/financials/balance-sheet-report/)
 - Drill into specific journal lines to investigate variances — see [Drill Through to Workday Journal Lines](/get-started/build-reports/financials/drill-through-journal-lines/)
 - Reconcile final figures to Workday Report Writer — see [Reconcile OfficeConnect Values to Workday Reports](/get-started/build-reports/financials/reconcile-to-workday/)
+

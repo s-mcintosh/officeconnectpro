@@ -1,8 +1,10 @@
-# Fix Slow Performance in Large Reports
-
-OfficeConnect refresh takes a long time in large workbooks — diagnose the cause and reduce refresh time.
-
-
+---
+title: "Fix Slow Performance in Large Reports"
+url: "https://officeconnectpro.com/reference/troubleshoot/slow-performance/"
+description: "OfficeConnect refresh takes a long time in large workbooks — diagnose the cause and reduce refresh time.\n"
+tags: ["performance","adaptive-planning","fpna","system-admin","troubleshoot"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -77,3 +79,4 @@ The number of OfficeConnect formulas is the primary driver of refresh time.
 - [Optimize OfficeConnect Performance](/get-started/performance/optimize-performance/) for the full set of workbook tuning tips
 - [Fix OfficeConnect not refreshing](/reference/troubleshoot/not-refreshing/) if refresh stalls completely rather than runs slowly
 - [Refresh Reports Automatically with Power Automate](/get-started/admin/configure/refresh-with-power-automate/) to move heavy refreshes to off-peak hours
+

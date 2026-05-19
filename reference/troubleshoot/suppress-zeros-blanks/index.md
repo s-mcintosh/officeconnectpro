@@ -1,8 +1,10 @@
-# Suppress & Hide Zeros and Blanks
-
-How to hide rows with all zeros or blank values in your OfficeConnect workbook.
-
-
+---
+title: "Suppress \u0026 Hide Zeros and Blanks"
+url: "https://officeconnectpro.com/reference/troubleshoot/suppress-zeros-blanks/"
+description: "How to hide rows with all zeros or blank values in your OfficeConnect workbook.\n"
+tags: ["reporting","fpna","system-admin","troubleshoot"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -56,3 +58,4 @@ Within OfficeConnect-linked data ranges, you can also use Excel's native **Hide*
 - [Workbook & Worksheet Properties](/get-started/build-reports/workbook-worksheet-properties/) for the rest of the workbook-wide display settings
 - [Filter Your Data](/get-started/build-reports/filter-data/) if you want to exclude rows by value or attribute rather than just hide zeros
 - [Display Percentage Values Correctly](/reference/troubleshoot/display-percentage-values/) when suppression behavior interacts with rounded percentage rows
+

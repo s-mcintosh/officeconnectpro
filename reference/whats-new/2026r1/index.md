@@ -1,8 +1,10 @@
-# What's New in Workday OfficeConnect 2026R1
-
-Workday OfficeConnect 2026R1 (released March 14, 2026) introduces View By in the ribbon, personal what-if scenarios for end users, and the latest forced-upgrade prompt at sign-in.
-
-
+---
+title: "What's New in Workday OfficeConnect 2026R1"
+url: "https://officeconnectpro.com/reference/whats-new/2026r1/"
+description: "Workday OfficeConnect 2026R1 (released March 14, 2026) introduces View By in the ribbon, personal what-if scenarios for end users, and the latest forced-upgrade prompt at sign-in.\n"
+tags: ["release-notes","adaptive-planning","fpna","system-admin"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -68,3 +70,4 @@ After upgrading to 2026R1, you'll see a **View By** button in the ribbon and (if
 - [View By (2026R1)](/reference/whats-new/2026r1-view-by/) — step-by-step usage.
 - [Personal what-if scenarios (2026R1)](/reference/whats-new/2026r1-personal-scenarios/) — when and how to use them.
 - [OfficeConnect Version Compatibility Matrix](/reference/version-compatibility/) — which features arrived in which release.
+

@@ -1,8 +1,10 @@
-# Add Headcount Data to a Financial Report
-
-Mix workforce planning metrics (headcount, FTEs, salary cost) with financial accounts in a single OfficeConnect report.
-
-
+---
+title: "Add Headcount Data to a Financial Report"
+url: "https://officeconnectpro.com/get-started/build-reports/headcount-in-financial-report/"
+description: "Mix workforce planning metrics (headcount, FTEs, salary cost) with financial accounts in a single OfficeConnect report.\n"
+tags: ["adaptive-planning","reporting","fpna","recipe"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -40,3 +42,4 @@ Headcount values are typically whole numbers while financial values are in thous
 
 - [Workbook and Worksheet Properties](/get-started/build-reports/workbook-worksheet-properties/) — set default rounding for the whole workbook
 - [Build a Department P&L Report](/get-started/build-reports/department-pl-report/) — organize by Level before adding headcount rows
+

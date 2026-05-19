@@ -1,8 +1,10 @@
-# Variance Analysis by Journal Source in OfficeConnect
-
-Break down account variances by journal source in OfficeConnect — see how much of a balance movement came from manual journals, system-generated entries, or specific subledgers.
-
-
+---
+title: "Variance Analysis by Journal Source in OfficeConnect"
+url: "https://officeconnectpro.com/get-started/build-reports/financials/variance-by-journal-source/"
+description: "Break down account variances by journal source in OfficeConnect — see how much of a balance movement came from manual journals, system-generated entries, or specific subledgers.\n"
+tags: ["financials","accounting","reporting","fpna","recipe"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -47,3 +49,4 @@ The journal source with the largest variance between months is typically the one
 - [Drill Through to Workday Journal Lines](/get-started/build-reports/financials/drill-through-journal-lines/)
 - [Build a Trial Balance Report](/get-started/build-reports/financials/trial-balance-report/)
 - [Reconcile OfficeConnect Values to Workday Reports](/get-started/build-reports/financials/reconcile-to-workday/)
+

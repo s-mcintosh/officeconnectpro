@@ -1,8 +1,10 @@
-# Use OfficeConnect on Mac
-
-Install and use Workday OfficeConnect on a Mac with Excel for Mac — what works, what's different from Windows, and how to handle common Mac-specific issues.
-
-
+---
+title: "Use OfficeConnect on Mac"
+url: "https://officeconnectpro.com/reference/troubleshoot/officeconnect-on-mac/"
+description: "Install and use Workday OfficeConnect on a Mac with Excel for Mac — what works, what's different from Windows, and how to handle common Mac-specific issues.\n"
+tags: ["adaptive-planning","fpna","system-admin","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -75,3 +77,4 @@ You can build, refresh, and submit Workday OfficeConnect reports from Excel for 
 - [Optimize Performance for Large Models](/get-started/performance/optimize-performance/) — if refresh feels slow on Mac.
 - [Authentication Token Errors](/reference/troubleshoot/authentication-token-errors/) — if sign-in misbehaves.
 - [Get Started with OfficeConnect](/get-started/) — the broader onboarding flow.
+

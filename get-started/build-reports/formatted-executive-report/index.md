@@ -1,8 +1,10 @@
-# Build a Formatted Executive Report for Distribution
-
-Build a polished, print-ready executive summary report in OfficeConnect with custom formatting, logos, and page layout — ready to share as PDF or Excel.
-
-
+---
+title: "Build a Formatted Executive Report for Distribution"
+url: "https://officeconnectpro.com/get-started/build-reports/formatted-executive-report/"
+description: "Build a polished, print-ready executive summary report in OfficeConnect with custom formatting, logos, and page layout — ready to share as PDF or Excel.\n"
+tags: ["adaptive-planning","reporting","sharing","fpna","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -98,3 +100,4 @@ Click **Refresh** in the OfficeConnect ribbon to populate the latest figures. Th
 - Share the PDF automatically — see [Share via Teams & SharePoint](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/)
 - Schedule the refresh automatically — see [Refresh Reports Automatically with Power Automate](/get-started/admin/configure/refresh-with-power-automate/)
 - Add it to a PowerPoint deck — see [OfficeConnect for PowerPoint](/get-started/word-powerpoint/powerpoint/officeconnect-for-powerpoint/)
+

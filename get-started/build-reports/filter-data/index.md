@@ -1,8 +1,10 @@
-# Filter Your Data
-
-Apply worksheet and workbook filters to limit which data appears in your report.
-
-
+---
+title: "Filter Your Data"
+url: "https://officeconnectpro.com/get-started/build-reports/filter-data/"
+description: "Apply worksheet and workbook filters to limit which data appears in your report.\n"
+tags: ["reporting","adaptive-planning","fpna","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -74,3 +76,4 @@ Applied filters are listed under **Elements** in each section.
 ## Next steps
 
 → [Cut, Copy & Move Elements](/get-started/build-reports/cut-copy-move-elements/) to rearrange elements in your report
+

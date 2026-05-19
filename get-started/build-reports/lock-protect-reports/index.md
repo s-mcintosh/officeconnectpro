@@ -1,8 +1,10 @@
-# Lock and Protect Reports for Distribution
-
-Protect an OfficeConnect workbook for distribution so recipients can't accidentally break formulas — while keeping Refresh working.
-
-
+---
+title: "Lock and Protect Reports for Distribution"
+url: "https://officeconnectpro.com/get-started/build-reports/lock-protect-reports/"
+description: "Protect an OfficeConnect workbook for distribution so recipients can't accidentally break formulas — while keeping Refresh working.\n"
+tags: ["adaptive-planning","sharing","fpna","system-admin","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -44,3 +46,4 @@ OfficeConnect stores data in formula cells. When you click Refresh, OfficeConnec
 
 - [Share via Teams & SharePoint](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/) — distribute the protected workbook
 - [Secure Workbooks](/get-started/admin/govern/secure-workbooks/) — additional security options at the tenant level
+

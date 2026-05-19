@@ -1,8 +1,10 @@
-# Workday OfficeConnect Version Compatibility Matrix
-
-Which Workday OfficeConnect client versions work with which Workday Adaptive Planning releases — including the forced-upgrade grace periods.
-
-
+---
+title: "Workday OfficeConnect Version Compatibility Matrix"
+url: "https://officeconnectpro.com/reference/version-compatibility/"
+description: "Which Workday OfficeConnect client versions work with which Workday Adaptive Planning releases — including the forced-upgrade grace periods.\n"
+tags: ["reference","upgrade","system-admin"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -95,3 +97,4 @@ You can answer the "is this version still supported?" question in seconds, plan 
 - [What's New in 2026R1](/reference/whats-new/2026r1/) — most recent release.
 - [Check & Update Your Version](/get-started/check-version/) — end-user upgrade flow.
 - Upgrade Governance (coming soon) — managing the forced-upgrade cadence at scale.
+

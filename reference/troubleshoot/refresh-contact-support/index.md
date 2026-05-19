@@ -1,8 +1,10 @@
-# Why Your Refresh Shows 'Contact Technical Support'
-
-The vague "Refresh failed — contact technical support" dialog in Workday OfficeConnect almost always has one of five concrete causes. Diagnose and fix.
-
-
+---
+title: "Why Your Refresh Shows 'Contact Technical Support'"
+url: "https://officeconnectpro.com/reference/troubleshoot/refresh-contact-support/"
+description: "The vague \"Refresh failed — contact technical support\" dialog in Workday OfficeConnect almost always has one of five concrete causes. Diagnose and fix.\n"
+tags: ["troubleshoot","fpna","system-admin"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -139,3 +141,4 @@ You'll resolve "Contact technical support" in seconds instead of opening a Workd
 - [Authentication Token Errors](/reference/troubleshoot/authentication-token-errors/) — the related token-side issues.
 - [Not Refreshing](/reference/troubleshoot/not-refreshing/) — when Refresh doesn't fail but produces no update.
 - [Optimize Performance](/get-started/performance/optimize-performance/) — fix the workbook-size variant.
+

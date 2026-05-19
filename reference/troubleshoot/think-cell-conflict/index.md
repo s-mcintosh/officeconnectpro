@@ -1,8 +1,10 @@
-# Workday OfficeConnect + think-cell: Resolving the Conflict
-
-Workday OfficeConnect and think-cell both use Excel COM subclassing and can interfere with each other — refresh failures, broken charts, Excel crashes. Here's the documented fix.
-
-
+---
+title: "Workday OfficeConnect + think-cell: Resolving the Conflict"
+url: "https://officeconnectpro.com/reference/troubleshoot/think-cell-conflict/"
+description: "Workday OfficeConnect and think-cell both use Excel COM subclassing and can interfere with each other — refresh failures, broken charts, Excel crashes. Here's the documented fix.\n"
+tags: ["troubleshoot","fpna","system-admin"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -107,3 +109,4 @@ Both add-ins coexist in the same Excel install without crashing, even if you hav
 - [Re-Enabling a Disabled COM Add-in](/reference/troubleshoot/reenable-com-addin/) — if a crash left OfficeConnect disabled.
 - [Optimize Performance](/get-started/performance/optimize-performance/) — reduces the refresh windows where crashes are most likely.
 - [Check & Update Your Version](/get-started/check-version/) — make sure you're on a current OfficeConnect build.
+

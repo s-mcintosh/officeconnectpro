@@ -1,8 +1,10 @@
-# Share Reports via Teams, SharePoint & OneDrive
-
-Save and share Workday OfficeConnect workbooks through Microsoft Teams, SharePoint, or OneDrive.
-
-
+---
+title: "Share Reports via Teams, SharePoint \u0026 OneDrive"
+url: "https://officeconnectpro.com/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/"
+description: "Save and share Workday OfficeConnect workbooks through Microsoft Teams, SharePoint, or OneDrive.\n"
+tags: ["sharing","fpna","system-admin","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -57,3 +59,4 @@ The workbook lives in your team's shared location, and authorized users can refr
 - [OfficeConnect for PowerPoint](/get-started/word-powerpoint/powerpoint/officeconnect-for-powerpoint/) — embed live charts and tables in presentations.
 - [OfficeConnect for Word](/get-started/word-powerpoint/word/officeconnect-for-word/) — embed live data into narrative reports.
 - [Secure OfficeConnect Workbooks](/get-started/admin/govern/secure-workbooks/) — harden saved files against data leakage.
+

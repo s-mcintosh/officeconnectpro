@@ -1,8 +1,10 @@
-# Auditing Workday OfficeConnect Write-Back Submissions
-
-Where Workday OfficeConnect write-back submissions are logged in Adaptive Planning, what's captured, and how to build a SOX-grade review process around the audit trail.
-
-
+---
+title: "Auditing Workday OfficeConnect Write-Back Submissions"
+url: "https://officeconnectpro.com/get-started/data-entry-writeback/writeback-audit-trail/"
+description: "Where Workday OfficeConnect write-back submissions are logged in Adaptive Planning, what's captured, and how to build a SOX-grade review process around the audit trail.\n"
+tags: ["write-back","governance","security","system-admin","reference"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -107,3 +109,4 @@ You have a defensible, repeatable audit process around OfficeConnect write-back.
 - [Designing Write-Back Permissions](/get-started/data-entry-writeback/writeback-permissions/) — the prevention side; good permissions reduce the volume of anomalies you'll see in the log.
 - [Common Write-Back Errors](/get-started/data-entry-writeback/writeback-errors/) — failed submits also appear in the audit log; this article explains what each error means.
 - [Secure Workbooks (Admin)](/get-started/admin/govern/secure-workbooks/) — broader workbook governance practices that complement the write-back controls.
+

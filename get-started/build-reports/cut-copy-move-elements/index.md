@@ -1,8 +1,10 @@
-# Cut, Copy & Move Elements
-
-How to move OfficeConnect elements within and between rows, columns, and cells.
-
-
+---
+title: "Cut, Copy \u0026 Move Elements"
+url: "https://officeconnectpro.com/get-started/build-reports/cut-copy-move-elements/"
+description: "How to move OfficeConnect elements within and between rows, columns, and cells.\n"
+tags: ["reporting","adaptive-planning","fpna","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -64,3 +66,4 @@ If your workbook uses merged cells, OfficeConnect cannot update or refresh eleme
 ## Next steps
 
 → [Review & Verify Applied Elements](/get-started/build-reports/review-applied-elements/) to inspect which elements are driving each cell's data
+

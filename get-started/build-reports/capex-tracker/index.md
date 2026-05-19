@@ -1,8 +1,10 @@
-# Build a Capital Expenditure Tracker
-
-Build a project-level CapEx tracker with planned spend, actual spend, forecast remaining, and budget variance — driven by a Project Code custom dimension.
-
-
+---
+title: "Build a Capital Expenditure Tracker"
+url: "https://officeconnectpro.com/get-started/build-reports/capex-tracker/"
+description: "Build a project-level CapEx tracker with planned spend, actual spend, forecast remaining, and budget variance — driven by a Project Code custom dimension.\n"
+tags: ["reporting","adaptive-planning","fpna","recipe"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -100,3 +102,4 @@ You now have a project-by-project CapEx tracker that shows in one view which pro
 - Pair the tracker with a cash impact view — see [Cash Flow Statement](/get-started/build-reports/financials/cash-flow-statement/)
 - Add a forecast accuracy view against the original plan — see [Build a Forecast Accuracy Report](/get-started/build-reports/forecast-accuracy/)
 - Drill down into any project's underlying transactions — see [Cell Explorer Drill-Down](/get-started/build-reports/cell-explorer-drill-down/)
+

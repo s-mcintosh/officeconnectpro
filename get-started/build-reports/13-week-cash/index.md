@@ -1,8 +1,10 @@
-# Build a 13-Week Cash Forecast
-
-Build a rolling 13-week cash forecast — weekly receipts, disbursements, and ending balance — in the treasury-standard format used for liquidity planning.
-
-
+---
+title: "Build a 13-Week Cash Forecast"
+url: "https://officeconnectpro.com/get-started/build-reports/13-week-cash/"
+description: "Build a rolling 13-week cash forecast — weekly receipts, disbursements, and ending balance — in the treasury-standard format used for liquidity planning.\n"
+tags: ["reporting","adaptive-planning","fpna","recipe"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -96,3 +98,4 @@ You now have a rolling 13-week cash forecast that updates automatically each Mon
 - Pair the cash forecast with the period close cash flow statement — see [Cash Flow Statement](/get-started/build-reports/financials/cash-flow-statement/)
 - Make the rolling-period mechanic do the same job for monthly views — see [Rolling 12-Month Report](/get-started/build-reports/rolling-12-month-report/)
 - Run downside scenarios alongside the base case — see [Scenario Comparison](/get-started/build-reports/scenario-comparison/)
+

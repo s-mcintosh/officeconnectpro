@@ -1,8 +1,10 @@
-# Build an Investor Letter Template with Workday OfficeConnect for Word
-
-A reusable Word investor-letter template where opening numbers, segment results, and forward guidance update from Workday OfficeConnect on each cycle.
-
-
+---
+title: "Build an Investor Letter Template with Workday OfficeConnect for Word"
+url: "https://officeconnectpro.com/get-started/word-powerpoint/word/investor-letter/"
+description: "A reusable Word investor-letter template where opening numbers, segment results, and forward guidance update from Workday OfficeConnect on each cycle.\n"
+tags: ["sharing","reporting","fpna","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -147,3 +149,4 @@ Each quarter the investor letter takes an hour of CEO time plus 30 minutes of re
 - [MD&A Automated Draft](/get-started/word-powerpoint/word/mda-automated-draft/) — the related management-discussion document.
 - [OfficeConnect for Word](/get-started/word-powerpoint/word/officeconnect-for-word/) — the underlying linking mechanics.
 - [Charts That Update with the Period](/get-started/word-powerpoint/powerpoint/period-aware-charts/) — period-aware chart patterns for the accompanying deck.
+

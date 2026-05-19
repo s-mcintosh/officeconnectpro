@@ -1,8 +1,10 @@
-# Use Effective Date Reporting After a Reorganization
-
-Use OfficeConnect's effective date setting to report against your organization's structure as it existed on a specific date — essential after a reorganization.
-
-
+---
+title: "Use Effective Date Reporting After a Reorganization"
+url: "https://officeconnectpro.com/get-started/build-reports/financials/effective-date-reporting/"
+description: "Use OfficeConnect's effective date setting to report against your organization's structure as it existed on a specific date — essential after a reorganization.\n"
+tags: ["financials","accounting","reporting","fpna","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -42,3 +44,4 @@ When your organization restructures mid-year, historical reports can show cost c
 - [Report on Actuals by Cost Center](/get-started/build-reports/financials/actuals-by-cost-center/)
 - [Filter Reports by Company](/get-started/build-reports/financials/filter-by-company/)
 - [Adaptive Planning vs. Financials Data Source](/get-started/migration-comparison/financials-vs-adaptive-planning/) — effective date is a Financials-only feature
+

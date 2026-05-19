@@ -1,8 +1,10 @@
-# Filter Reports by Company in OfficeConnect (Financials)
-
-Scope an OfficeConnect Financials report to a specific legal entity, or build a multi-company view showing each entity in its own column.
-
-
+---
+title: "Filter Reports by Company in OfficeConnect (Financials)"
+url: "https://officeconnectpro.com/get-started/build-reports/financials/filter-by-company/"
+description: "Scope an OfficeConnect Financials report to a specific legal entity, or build a multi-company view showing each entity in its own column.\n"
+tags: ["financials","accounting","reporting","fpna","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -47,3 +49,4 @@ To show a consolidated total across all companies:
 - [Report on Actuals by Cost Center](/get-started/build-reports/financials/actuals-by-cost-center/)
 - [Report on Intercompany Eliminations](/get-started/build-reports/financials/intercompany-eliminations/)
 - [Build a Trial Balance Report](/get-started/build-reports/financials/trial-balance-report/)
+

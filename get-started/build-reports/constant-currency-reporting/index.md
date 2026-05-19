@@ -1,8 +1,10 @@
-# Report in Constant Currency in OfficeConnect
-
-Use a constant currency version in Adaptive Planning to remove FX impact from OfficeConnect reports — useful for multinational teams comparing performance across periods.
-
-
+---
+title: "Report in Constant Currency in OfficeConnect"
+url: "https://officeconnectpro.com/get-started/build-reports/constant-currency-reporting/"
+description: "Use a constant currency version in Adaptive Planning to remove FX impact from OfficeConnect reports — useful for multinational teams comparing performance across periods.\n"
+tags: ["adaptive-planning","reporting","fpna","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -40,3 +42,4 @@ Constant currency reports can confuse readers who don't know which rates were us
 
 - [Compare Two Planning Versions Side by Side](/get-started/build-reports/compare-planning-versions/)
 - [Multi-Currency Reporting with the Financials Data Source](/get-started/build-reports/financials/multi-currency-financials/) — currency options for accounting teams on the Financials data source
+

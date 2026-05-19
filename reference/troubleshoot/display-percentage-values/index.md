@@ -1,8 +1,10 @@
-# Display Percentage Values Correctly
-
-How to prevent rounding from distorting percentage values in OfficeConnect.
-
-
+---
+title: "Display Percentage Values Correctly"
+url: "https://officeconnectpro.com/reference/troubleshoot/display-percentage-values/"
+description: "How to prevent rounding from distorting percentage values in OfficeConnect.\n"
+tags: ["reporting","fpna","system-admin","troubleshoot"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -56,3 +58,4 @@ Select the cells → **Home tab → Number format → Percentage** (or use the `
 - [Change Rounding Settings](/reference/troubleshoot/change-rounding-settings/) to adjust workbook- or user-level rounding defaults
 - [Workbook & Worksheet Properties](/get-started/build-reports/workbook-worksheet-properties/) for the rest of the format controls
 - [Build a Budget vs. Actuals Variance Report](/get-started/build-reports/budget-vs-actuals-variance/) for a worked example mixing percentages and currency amounts
+

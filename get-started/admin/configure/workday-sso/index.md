@@ -1,8 +1,10 @@
-# Set Up Workday SSO
-
-Configure Workday OfficeConnect to use Workday Single Sign-On for your organization.
-
-
+---
+title: "Set Up Workday SSO"
+url: "https://officeconnectpro.com/get-started/admin/configure/workday-sso/"
+description: "Configure Workday OfficeConnect to use Workday Single Sign-On for your organization.\n"
+tags: ["sso","system-admin","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -55,3 +57,4 @@ Users can sign in to Workday OfficeConnect using their Workday credentials. They
 - [Deploy Tenants via Registry](/get-started/admin/deploy/deploy-tenants-registry/) to push tenant configuration to user machines automatically.
 - [Authentication Token Errors](/reference/troubleshoot/authentication-token-errors/) if users hit sign-in problems.
 - [Secure OfficeConnect Workbooks](/get-started/admin/govern/secure-workbooks/) to harden saved files.
+

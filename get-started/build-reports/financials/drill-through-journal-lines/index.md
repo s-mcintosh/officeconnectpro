@@ -1,8 +1,10 @@
-# Drill Through to Workday Journal Lines from OfficeConnect
-
-Use OfficeConnect's Show Details feature to see the individual journal lines behind any GL balance — and drill through to the source transaction in Workday.
-
-
+---
+title: "Drill Through to Workday Journal Lines from OfficeConnect"
+url: "https://officeconnectpro.com/get-started/build-reports/financials/drill-through-journal-lines/"
+description: "Use OfficeConnect's Show Details feature to see the individual journal lines behind any GL balance — and drill through to the source transaction in Workday.\n"
+tags: ["financials","accounting","reporting","fpna","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -76,3 +78,4 @@ See [Adaptive Planning vs. Financials Data Source](/get-started/migration-compar
 
 - Build a trial balance to have a full set of balances to drill into — see [Trial Balance Report](/get-started/build-reports/financials/trial-balance-report/)
 - Build an actuals trend to find the period where a variance appears — see [Actuals Trend Report](/get-started/build-reports/financials/actuals-trend-report/)
+

@@ -1,8 +1,10 @@
-# 32-bit vs 64-bit Excel for Workday OfficeConnect
-
-Why 64-bit Excel matters for large Workday OfficeConnect workbooks, how to check which version you're running, and how to switch without breaking other add-ins.
-
-
+---
+title: "32-bit vs 64-bit Excel for Workday OfficeConnect"
+url: "https://officeconnectpro.com/get-started/performance/32-vs-64-bit/"
+description: "Why 64-bit Excel matters for large Workday OfficeConnect workbooks, how to check which version you're running, and how to switch without breaking other add-ins.\n"
+tags: ["performance","system-admin","fpna","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -98,3 +100,4 @@ Large OfficeConnect workbooks that previously crashed or hung mid-refresh now op
 - [Refresh Time Benchmarks](/get-started/performance/refresh-benchmarks/) — measure your improvement after switching.
 - [Reduce OfficeConnect Element Count](/get-started/performance/reduce-element-count/) — tuning that complements the memory upgrade.
 - [Optimize Performance for Large Models](/get-started/performance/optimize-performance/) — the broader optimization playbook.
+

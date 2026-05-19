@@ -1,8 +1,10 @@
-# Build a Trial Balance Report with OfficeConnect (Financials)
-
-Build a live trial balance in Excel using OfficeConnect's Financials data source — pulling posted GL actuals directly from Workday Financial Management.
-
-
+---
+title: "Build a Trial Balance Report with OfficeConnect (Financials)"
+url: "https://officeconnectpro.com/get-started/build-reports/financials/trial-balance-report/"
+description: "Build a live trial balance in Excel using OfficeConnect's Financials data source — pulling posted GL actuals directly from Workday Financial Management.\n"
+tags: ["financials","accounting","reporting","fpna","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -94,3 +96,4 @@ Confirm the Out of Balance cell shows zero (or near-zero for rounding). If it's 
 - Drill into any balance to see the contributing journal lines — see [Drill Through to Workday Journal Lines](/get-started/build-reports/financials/drill-through-journal-lines/)
 - Add prior-period columns for comparison — see [Build an Actuals Trend Report](/get-started/build-reports/financials/actuals-trend-report/)
 - Filter to a specific cost center — see [Report on Actuals by Cost Center](/get-started/build-reports/financials/actuals-by-cost-center/)
+

@@ -1,8 +1,10 @@
-# Numbers Not Shifting After Inserting Rows
-
-Why OfficeConnect elements don't move when you insert Excel rows, and how to fix it.
-
-
+---
+title: "Numbers Not Shifting After Inserting Rows"
+url: "https://officeconnectpro.com/reference/troubleshoot/numbers-not-shifting/"
+description: "Why OfficeConnect elements don't move when you insert Excel rows, and how to fix it.\n"
+tags: ["reporting","fpna","system-admin","troubleshoot"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -45,3 +47,4 @@ If undo isn't available, you'll need to re-apply elements to the affected rows m
 - [Cut, Copy & Move Elements](/get-started/build-reports/cut-copy-move-elements/) for the correct way to relocate existing elements
 - [Review & Verify Applied Elements](/get-started/build-reports/review-applied-elements/) to confirm the right elements landed on the right rows after edits
 - [Add Elements to Rows, Columns & Cells](/get-started/build-reports/add-elements/) if you need to re-apply elements that were lost
+

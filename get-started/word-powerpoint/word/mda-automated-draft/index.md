@@ -1,8 +1,10 @@
-# Automated MD&A Draft with Workday OfficeConnect for Word
-
-Build a Word document where the numbers in your MD&A narrative — revenue, growth percentages, margin changes — update automatically from the Workday OfficeConnect Excel source.
-
-
+---
+title: "Automated MD\u0026A Draft with Workday OfficeConnect for Word"
+url: "https://officeconnectpro.com/get-started/word-powerpoint/word/mda-automated-draft/"
+description: "Build a Word document where the numbers in your MD\u0026A narrative — revenue, growth percentages, margin changes — update automatically from the Workday OfficeConnect Excel source.\n"
+tags: ["sharing","reporting","fpna","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -135,3 +137,4 @@ The MD&A draft refreshes from the source workbook in minutes. The CFO works on t
 - [OfficeConnect for Word](/get-started/word-powerpoint/word/officeconnect-for-word/) — the underlying Word linking mechanics.
 - [Investor Letter Template](/get-started/word-powerpoint/word/investor-letter/) — the same pattern applied to investor communications.
 - [Charts That Update with the Period](/get-started/word-powerpoint/powerpoint/period-aware-charts/) — period-aware text and narrative for PowerPoint.
+

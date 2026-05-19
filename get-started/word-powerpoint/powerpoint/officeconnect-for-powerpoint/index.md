@@ -1,8 +1,10 @@
-# OfficeConnect for PowerPoint
-
-Link live data from your Workday OfficeConnect Excel workbook into PowerPoint slides.
-
-
+---
+title: "OfficeConnect for PowerPoint"
+url: "https://officeconnectpro.com/get-started/word-powerpoint/powerpoint/officeconnect-for-powerpoint/"
+description: "Link live data from your Workday OfficeConnect Excel workbook into PowerPoint slides.\n"
+tags: ["sharing","reporting","fpna","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -105,3 +107,4 @@ Your PowerPoint deck refreshes from Excel with one click each period. No more co
 - [Publish to PowerPoint (full tutorial)](/get-started/build-reports/publish-to-powerpoint/) — a step-by-step walkthrough of building a deck.
 - [OfficeConnect for Word](/get-started/word-powerpoint/word/officeconnect-for-word/) — the same workflow for narrative reports.
 - [Share Reports via Teams, SharePoint & OneDrive](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/) — distribute the final deck.
+

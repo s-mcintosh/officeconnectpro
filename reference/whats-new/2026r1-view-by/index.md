@@ -1,8 +1,10 @@
-# View By — Open Cell Data in a New Sheet (2026R1)
-
-The 2026R1 View By ribbon command opens the data behind any Workday OfficeConnect cell in a separate worksheet so you can slice and filter without breaking your main report.
-
-
+---
+title: "View By — Open Cell Data in a New Sheet (2026R1)"
+url: "https://officeconnectpro.com/reference/whats-new/2026r1-view-by/"
+description: "The 2026R1 View By ribbon command opens the data behind any Workday OfficeConnect cell in a separate worksheet so you can slice and filter without breaking your main report.\n"
+tags: ["release-notes","reporting","fpna","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -74,3 +76,4 @@ You have an ad-hoc breakout of any cell's underlying data without any risk to th
 - [Personal what-if scenarios (2026R1)](/reference/whats-new/2026r1-personal-scenarios/) — the other big 2026R1 feature.
 - [Cell Explorer / Drill Down](/get-started/build-reports/cell-explorer-drill-down/) — sister tool for inspecting elements on a cell.
 - [2026R1 Overview](/reference/whats-new/2026r1/) — the rest of the release.
+

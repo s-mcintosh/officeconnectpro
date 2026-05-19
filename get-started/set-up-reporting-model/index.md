@@ -1,8 +1,10 @@
-# Set Up Your Reporting Model
-
-Use the Run Set Up Reporting Model task in Workday to configure how OfficeConnect Financials reports are structured.
-
-
+---
+title: "Set Up Your Reporting Model"
+url: "https://officeconnectpro.com/get-started/set-up-reporting-model/"
+description: "Use the Run Set Up Reporting Model task in Workday to configure how OfficeConnect Financials reports are structured.\n"
+tags: ["financials","accounting","system-admin","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -55,3 +57,4 @@ OfficeConnect Financials reports will reflect the updated model configuration th
 
 → [Sign In & Create Your First Tenant](/get-started/admin/configure/sign-in-create-tenant/) to connect OfficeConnect to your Workday Financials instance
 → [Financials vs Adaptive Planning](/get-started/migration-comparison/financials-vs-adaptive-planning/) for an overview of how the two data sources differ in OfficeConnect
+

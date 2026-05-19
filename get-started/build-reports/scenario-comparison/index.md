@@ -1,8 +1,10 @@
-# Set Up Scenario Comparison in OfficeConnect
-
-Compare planning scenarios side by side in OfficeConnect — useful for showing upside, base case, and downside in the same report.
-
-
+---
+title: "Set Up Scenario Comparison in OfficeConnect"
+url: "https://officeconnectpro.com/get-started/build-reports/scenario-comparison/"
+description: "Compare planning scenarios side by side in OfficeConnect — useful for showing upside, base case, and downside in the same report.\n"
+tags: ["adaptive-planning","reporting","fpna","recipe"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -45,3 +47,4 @@ Copy down for all rows. This is a plain Excel formula — it updates automatical
 
 - [Compare Two Planning Versions Side by Side](/get-started/build-reports/compare-planning-versions/)
 - [Budget vs. Actuals Variance](/get-started/build-reports/budget-vs-actuals-variance/)
+

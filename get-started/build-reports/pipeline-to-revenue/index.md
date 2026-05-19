@@ -1,8 +1,10 @@
-# Build a Sales Pipeline-to-Revenue Forecast
-
-Build a probability-weighted revenue forecast from pipeline data — stages, probabilities, and expected close dates — using a Pipeline custom dimension in Adaptive Planning.
-
-
+---
+title: "Build a Sales Pipeline-to-Revenue Forecast"
+url: "https://officeconnectpro.com/get-started/build-reports/pipeline-to-revenue/"
+description: "Build a probability-weighted revenue forecast from pipeline data — stages, probabilities, and expected close dates — using a Pipeline custom dimension in Adaptive Planning.\n"
+tags: ["reporting","adaptive-planning","fpna","recipe"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -83,3 +85,4 @@ You now have a probability-weighted revenue forecast driven directly by your pip
 - Add additional pipeline cuts by region or product — see [Custom Dimensions and Attributes](/get-started/build-reports/custom-dimensions-attributes/)
 - Compare this bottom-up forecast against the top-down plan — see [Compare Planning Versions](/get-started/build-reports/compare-planning-versions/)
 - Score the forecast against actuals after the quarter closes — see [Build a Forecast Accuracy Report](/get-started/build-reports/forecast-accuracy/)
+

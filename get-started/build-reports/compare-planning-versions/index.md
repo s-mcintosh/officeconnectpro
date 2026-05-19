@@ -1,8 +1,10 @@
-# Compare Two Planning Versions Side by Side
-
-Add a second version column to any OfficeConnect report to compare Budget vs. Forecast, two plan iterations, or any two Adaptive Planning versions.
-
-
+---
+title: "Compare Two Planning Versions Side by Side"
+url: "https://officeconnectpro.com/get-started/build-reports/compare-planning-versions/"
+description: "Add a second version column to any OfficeConnect report to compare Budget vs. Forecast, two plan iterations, or any two Adaptive Planning versions.\n"
+tags: ["adaptive-planning","reporting","fpna","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -36,3 +38,4 @@ Any OfficeConnect report can show multiple versions at once. Here's how to add a
 | Actuals vs. prior year actuals | Actuals (current year) | Actuals (prior year) |
 
 For a full budget vs. actuals report with a variance column, see [Budget vs. Actuals Variance](/get-started/build-reports/budget-vs-actuals-variance/).
+

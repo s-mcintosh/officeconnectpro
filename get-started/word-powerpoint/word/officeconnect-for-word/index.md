@@ -1,8 +1,10 @@
-# OfficeConnect for Word
-
-Link live financial data from Workday OfficeConnect Excel into Word reports and board narratives.
-
-
+---
+title: "OfficeConnect for Word"
+url: "https://officeconnectpro.com/get-started/word-powerpoint/word/officeconnect-for-word/"
+description: "Link live financial data from Workday OfficeConnect Excel into Word reports and board narratives.\n"
+tags: ["sharing","reporting","fpna","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -97,3 +99,4 @@ Your Word documents refresh from the OfficeConnect workbook each period. Numbers
 - [OfficeConnect for PowerPoint](/get-started/word-powerpoint/powerpoint/officeconnect-for-powerpoint/) — same workflow for slide decks.
 - [Share Reports via Teams, SharePoint & OneDrive](/get-started/word-powerpoint/sharing/share-teams-sharepoint-onedrive/) — distribute the finished document.
 - [Formatted Executive Report](/get-started/build-reports/formatted-executive-report/) — design the source workbook for presentation.
+

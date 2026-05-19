@@ -1,8 +1,10 @@
-# Reconcile OfficeConnect Values to Workday Reports
-
-Troubleshoot and explain differences between OfficeConnect figures and Workday Report Writer output — common causes of discrepancies and how to resolve them.
-
-
+---
+title: "Reconcile OfficeConnect Values to Workday Reports"
+url: "https://officeconnectpro.com/get-started/build-reports/financials/reconcile-to-workday/"
+description: "Troubleshoot and explain differences between OfficeConnect figures and Workday Report Writer output — common causes of discrepancies and how to resolve them.\n"
+tags: ["financials","accounting","reporting","fpna","troubleshoot"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -51,3 +53,4 @@ If the figures still don't reconcile after checking all of the above, collect th
 - [Fix Data Discrepancies Between OfficeConnect and Workday](/reference/troubleshoot/data-discrepancies/)
 - [Filter Reports by Company](/get-started/build-reports/financials/filter-by-company/)
 - [Variance Analysis by Journal Source](/get-started/build-reports/financials/variance-by-journal-source/)
+

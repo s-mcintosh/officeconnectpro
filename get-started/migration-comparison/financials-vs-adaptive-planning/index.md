@@ -1,8 +1,10 @@
-# Financials vs. Adaptive Planning Data Sources
-
-Key differences in Workday OfficeConnect behavior depending on whether you're using the Adaptive Planning or Financials data source.
-
-
+---
+title: "Financials vs. Adaptive Planning Data Sources"
+url: "https://officeconnectpro.com/get-started/migration-comparison/financials-vs-adaptive-planning/"
+description: "Key differences in Workday OfficeConnect behavior depending on whether you're using the Adaptive Planning or Financials data source.\n"
+tags: ["adaptive-planning","financials","accounting","fpna","system-admin","comparison"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -45,3 +47,4 @@ If your administrator configures alternate hierarchies for dimensions in the fin
 - [Reconcile to Workday](/get-started/build-reports/financials/reconcile-to-workday/) — verify the Financials data source matches Workday.
 - [Drill-through to Journal Lines](/get-started/build-reports/financials/drill-through-journal-lines/) — Financials-only feature deep dive.
 - [Multi-Currency Financials](/get-started/build-reports/financials/multi-currency-financials/) — currency handling differences.
+

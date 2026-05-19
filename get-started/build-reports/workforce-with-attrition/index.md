@@ -1,8 +1,10 @@
-# Build a Workforce Plan with Attrition
-
-Build a headcount forecast that layers attrition, hiring plan, and fully-loaded cost per FTE — broken out by organizational level with repeating rows.
-
-
+---
+title: "Build a Workforce Plan with Attrition"
+url: "https://officeconnectpro.com/get-started/build-reports/workforce-with-attrition/"
+description: "Build a headcount forecast that layers attrition, hiring plan, and fully-loaded cost per FTE — broken out by organizational level with repeating rows.\n"
+tags: ["reporting","adaptive-planning","fpna","recipe"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -91,3 +93,4 @@ You now have a 12-month workforce plan that shows where every FTE comes from and
 - Pull headcount into your operating P&L — see [Show Headcount in a Financial Report](/get-started/build-reports/headcount-in-financial-report/)
 - Build a department-level operating view to pair with this — see [Build a Department P&L Report](/get-started/build-reports/department-pl-report/)
 - Use the repeating-rows pattern for other dimensions too — see [Repeating Reports](/get-started/build-reports/repeating-reports/)
+

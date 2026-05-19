@@ -1,8 +1,10 @@
-# Build a Balance Sheet with OfficeConnect (Financials)
-
-Build a formatted balance sheet in Excel using OfficeConnect's Financials data source — assets, liabilities, and equity drawn live from Workday Financial Management.
-
-
+---
+title: "Build a Balance Sheet with OfficeConnect (Financials)"
+url: "https://officeconnectpro.com/get-started/build-reports/financials/balance-sheet-report/"
+description: "Build a formatted balance sheet in Excel using OfficeConnect's Financials data source — assets, liabilities, and equity drawn live from Workday Financial Management.\n"
+tags: ["financials","accounting","reporting","fpna","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -98,3 +100,4 @@ Format the number columns with Accounting format (no decimals). Bold the rollup 
 - Build a cash flow statement — see [Build a Cash Flow Statement](/get-started/build-reports/financials/cash-flow-statement/)
 - Add prior-period comparison columns — see [Report on Actuals by Cost Center](/get-started/build-reports/financials/actuals-by-cost-center/)
 - Reconcile balances to Workday Report Writer — see [Reconcile OfficeConnect Values to Workday Reports](/get-started/build-reports/financials/reconcile-to-workday/)
+

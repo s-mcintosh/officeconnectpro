@@ -1,8 +1,10 @@
-# Build a Quarterly Board Pack
-
-Build a multi-sheet OfficeConnect workbook — P&L summary, KPI page, variance commentary, cash snapshot — designed to feed directly into a PowerPoint board deck.
-
-
+---
+title: "Build a Quarterly Board Pack"
+url: "https://officeconnectpro.com/get-started/build-reports/quarterly-board-pack/"
+description: "Build a multi-sheet OfficeConnect workbook — P\u0026L summary, KPI page, variance commentary, cash snapshot — designed to feed directly into a PowerPoint board deck.\n"
+tags: ["reporting","adaptive-planning","fpna","recipe"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -95,3 +97,4 @@ You now have a structured, four-tab board pack workbook whose every number is so
 - Polish the look of each tab — see [Formatted Executive Report](/get-started/build-reports/formatted-executive-report/)
 - Add scenario overlays for the forward outlook — see [Scenario Comparison](/get-started/build-reports/scenario-comparison/)
 - Push the final tables and KPIs into slides — see [Publish to PowerPoint](/get-started/build-reports/publish-to-powerpoint/)
+

@@ -1,8 +1,10 @@
-# Refreshing All Slides Safely in a Workday OfficeConnect PowerPoint Deck
-
-The disciplined refresh workflow that keeps Workday OfficeConnect PowerPoint decks consistent — never a deck with mixed-period numbers.
-
-
+---
+title: "Refreshing All Slides Safely in a Workday OfficeConnect PowerPoint Deck"
+url: "https://officeconnectpro.com/get-started/word-powerpoint/powerpoint/refresh-all-slides/"
+description: "The disciplined refresh workflow that keeps Workday OfficeConnect PowerPoint decks consistent — never a deck with mixed-period numbers.\n"
+tags: ["sharing","fpna","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -123,3 +125,4 @@ Every deck you ship has a consistent point-in-time view of the data, with no mix
 - [Designing a Board Pack Template](/get-started/word-powerpoint/powerpoint/board-pack-template/) — the upstream template design that makes refresh easy.
 - [Recovering Broken Links](/get-started/word-powerpoint/powerpoint/recovering-broken-links/) — when refresh doesn't go smoothly.
 - [Charts That Update with the Period](/get-started/word-powerpoint/powerpoint/period-aware-charts/) — the chart-side of period-aware design.
+

@@ -1,8 +1,10 @@
-# Build a Multi-Entity Consolidations Report
-
-Build a consolidated P&L across legal entities with intercompany eliminations called out as a separate column.
-
-
+---
+title: "Build a Multi-Entity Consolidations Report"
+url: "https://officeconnectpro.com/get-started/build-reports/multi-entity-consolidations/"
+description: "Build a consolidated P\u0026L across legal entities with intercompany eliminations called out as a separate column.\n"
+tags: ["financials","accounting","reporting","adaptive-planning","fpna","recipe"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -87,3 +89,4 @@ You now have a consolidated P&L that any finance reviewer can read — entity by
 - Dig into the elimination logic itself — see [Intercompany Eliminations](/get-started/build-reports/financials/intercompany-eliminations/)
 - Pair this with a cash flow view — see [Cash Flow Statement](/get-started/build-reports/financials/cash-flow-statement/)
 - Report in a single reporting currency across entities — see [Constant Currency Reporting](/get-started/build-reports/constant-currency-reporting/)
+

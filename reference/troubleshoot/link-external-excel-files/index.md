@@ -1,8 +1,10 @@
-# Link to External Excel Files
-
-How to link to a plain Excel file from within an OfficeConnect workbook.
-
-
+---
+title: "Link to External Excel Files"
+url: "https://officeconnectpro.com/reference/troubleshoot/link-external-excel-files/"
+description: "How to link to a plain Excel file from within an OfficeConnect workbook.\n"
+tags: ["reporting","fpna","system-admin","troubleshoot"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -40,3 +42,4 @@ Right-click → **Paste Special → Values**. This replaces the OfficeConnect-li
 {{< step n="5" title="Save the copy as a new Excel file" >}}
 **File → Save As** → give it a different name. This file has no OfficeConnect dependencies.
 {{< /step >}}
+

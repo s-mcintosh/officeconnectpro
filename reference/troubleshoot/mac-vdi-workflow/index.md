@@ -1,8 +1,10 @@
-# Workday OfficeConnect on Mac: The VDI Workflow
-
-Mac users can run the full Windows OfficeConnect experience through a VDI like Azure Virtual Desktop, AWS WorkSpaces, or Parallels — here's the realistic decision guide and setup.
-
-
+---
+title: "Workday OfficeConnect on Mac: The VDI Workflow"
+url: "https://officeconnectpro.com/reference/troubleshoot/mac-vdi-workflow/"
+description: "Mac users can run the full Windows OfficeConnect experience through a VDI like Azure Virtual Desktop, AWS WorkSpaces, or Parallels — here's the realistic decision guide and setup.\n"
+tags: ["troubleshoot","deployment","fpna","system-admin","how-to"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -89,3 +91,4 @@ Mac users get parity with Windows for Workday OfficeConnect features that genuin
 - [OfficeConnect on Mac](/reference/troubleshoot/officeconnect-on-mac/) — the native Mac path if you don't need VDI.
 - [Deploy Tenants via Registry](/get-started/admin/deploy/deploy-tenants-registry/) — push tenant config to the VDI image.
 - [Install for Admins](/get-started/install-admin/) — admin-side install patterns that apply inside the VDI.
+

@@ -1,8 +1,10 @@
-# Add Elements to Rows, Columns & Cells
-
-How to drag accounts, time periods, versions, and levels into your Excel report.
-
-
+---
+title: "Add Elements to Rows, Columns \u0026 Cells"
+url: "https://officeconnectpro.com/get-started/build-reports/add-elements/"
+description: "How to drag accounts, time periods, versions, and levels into your Excel report.\n"
+tags: ["adaptive-planning","reporting","fpna","tutorial"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -76,3 +78,4 @@ Applying a bolded parent element creates an **element group** — each child get
 ## Next steps
 
 → [Work with Time & Contexts](/get-started/build-reports/time-and-contexts/) to add time periods and period-to-date comparisons
+

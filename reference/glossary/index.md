@@ -1,8 +1,10 @@
-# Workday OfficeConnect Glossary
-
-Alphabetical reference for every Workday OfficeConnect term — elements, filters, contexts, write-back, tenants, and more.
-
-
+---
+title: "Workday OfficeConnect Glossary"
+url: "https://officeconnectpro.com/reference/glossary/"
+description: "Alphabetical reference for every Workday OfficeConnect term — elements, filters, contexts, write-back, tenants, and more.\n"
+tags: ["reference","fpna","system-admin"]
+date: "0001-01-01"
+lastmod: "2026-05-19"
 ---
 
 
@@ -124,3 +126,4 @@ The vocabulary for Workday OfficeConnect overlaps with Workday Adaptive Planning
 
 - [Element Types Reference](/reference/element-types/) — every element you can drag.
 - [Version Compatibility Matrix](/reference/version-compatibility/) — which features arrived in which release.
+
