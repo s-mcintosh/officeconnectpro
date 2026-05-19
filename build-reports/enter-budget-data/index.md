@@ -95,4 +95,4 @@ Click **Refresh** again. The cells should show the figures you just submitted. I
 
 - Protect the workbook before sharing — see [Lock and Protect Reports](/build-reports/lock-protect-reports/)
 - Compare submitted budget to actuals — see [Budget vs. Actuals Variance](/build-reports/budget-vs-actuals-variance/)
-- Distribute the workbook via SharePoint — see [Share via Teams & SharePoint](/share-publish/share-teams-sharepoint-onedrive/)
+- Distribute the workbook via SharePoint — see [Share via Teams & SharePoint](/build-reports/share-teams-sharepoint-onedrive/)

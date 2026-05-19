@@ -7,11 +7,19 @@ All pages are available as raw Markdown by appending `index.md` to any page URL.
 
 ## Get Started
 
+- [Sign In & Create Your First Tenant](https://officeconnectpro.com/get-started/sign-in-create-tenant/index.md): Sign in to OfficeConnect for the first time and configure your Workday tenant connection.
+
 - [What is OfficeConnect?](https://officeconnectpro.com/get-started/what-is-officeconnect/index.md): An overview of OfficeConnect — what it does, who it's for, and how it works with Workday Adaptive Planning.
+
+- [Work with Multiple Instances](https://officeconnectpro.com/get-started/multiple-instances/index.md): How to switch between production, sandbox, and multi-instances in OfficeConnect.
 
 - [System Requirements](https://officeconnectpro.com/get-started/system-requirements/index.md): Hardware and software prerequisites before installing OfficeConnect.
 
 - [Install as an End User](https://officeconnectpro.com/get-started/install-end-user/index.md): Install OfficeConnect on your own machine without requiring IT involvement.
+
+- [Set Up Workday SSO](https://officeconnectpro.com/get-started/workday-sso/index.md): Configure OfficeConnect to use Workday Single Sign-On for your organization.
+
+- [Deploy Tenants via Registry](https://officeconnectpro.com/get-started/deploy-tenants-registry/index.md): Push OfficeConnect tenant configuration to user machines using the Windows registry.
 
 - [Install as an IT Admin](https://officeconnectpro.com/get-started/install-admin/index.md): Deploy OfficeConnect to multiple users using per-machine installation and group policy or scripts.
 
@@ -19,25 +27,20 @@ All pages are available as raw Markdown by appending `index.md` to any page URL.
 
 - [Check & Update Your Version. ](https://officeconnectpro.com/get-started/check-version/index.md): How to check which version of OfficeConnect you have and update to the latest release.
 
-
-## Connect
-
-- [Sign In & Create Your First Tenant](https://officeconnectpro.com/connect/sign-in-create-tenant/index.md): Sign in to OfficeConnect for the first time and configure your Workday tenant connection.
-
-- [Work with Multiple Instances](https://officeconnectpro.com/connect/multiple-instances/index.md): How to switch between production, sandbox, and multi-instances in OfficeConnect.
-
-- [Set Up Workday SSO](https://officeconnectpro.com/connect/workday-sso/index.md): Configure OfficeConnect to use Workday Single Sign-On for your organization.
-
-- [Deploy Tenants via Registry](https://officeconnectpro.com/connect/deploy-tenants-registry/index.md): Push OfficeConnect tenant configuration to user machines using the Windows registry.
-
-- [Secure OfficeConnect Workbooks](https://officeconnectpro.com/connect/secure-workbooks/index.md): How OfficeConnect handles security, timeouts, and data clearing to protect sensitive financial data.
+- [Secure OfficeConnect Workbooks](https://officeconnectpro.com/get-started/secure-workbooks/index.md): How OfficeConnect handles security, timeouts, and data clearing to protect sensitive financial data.
 
 
 ## Build Reports
 
 - [Interface Tour: The Reporting Pane](https://officeconnectpro.com/build-reports/reporting-pane-tour/index.md): A quick tour of the OfficeConnect interface in Excel — the ribbon tab and the Reporting pane.
 
+- [Share Reports via Teams, SharePoint & OneDrive](https://officeconnectpro.com/build-reports/share-teams-sharepoint-onedrive/index.md): Save and share OfficeConnect workbooks through Microsoft Teams, SharePoint, or OneDrive.
+
 - [Add Elements to Rows, Columns & Cells](https://officeconnectpro.com/build-reports/add-elements/index.md): How to drag accounts, time periods, versions, and levels into your Excel report.
+
+- [OfficeConnect for PowerPoint](https://officeconnectpro.com/build-reports/officeconnect-for-powerpoint/index.md): Link live data from your OfficeConnect Excel workbook into PowerPoint slides.
+
+- [OfficeConnect for Word](https://officeconnectpro.com/build-reports/officeconnect-for-word/index.md): Link live financial data from OfficeConnect Excel into Word reports and board narratives.
 
 - [Work with Time & Contexts](https://officeconnectpro.com/build-reports/time-and-contexts/index.md): Add time periods to your report and use contexts like YTD, QTD, and Beginning Balance.
 
@@ -88,15 +91,6 @@ All pages are available as raw Markdown by appending `index.md` to any page URL.
 - [Optimize Performance for Large Models in OfficeConnect](https://officeconnectpro.com/build-reports/optimize-performance/index.md): Speed up OfficeConnect reports that are slow to refresh — reduce formula count, use efficient time contexts, and configure workbook settings for large Adaptive Planning models.
 
 - [Use OfficeConnect on Mac](https://officeconnectpro.com/build-reports/officeconnect-on-mac/index.md): Install and use OfficeConnect on a Mac with Excel for Mac — what works, what's different from Windows, and how to handle common Mac-specific issues.
-
-
-## Share & Publish
-
-- [Share Reports via Teams, SharePoint & OneDrive](https://officeconnectpro.com/share-publish/share-teams-sharepoint-onedrive/index.md): Save and share OfficeConnect workbooks through Microsoft Teams, SharePoint, or OneDrive.
-
-- [OfficeConnect for PowerPoint](https://officeconnectpro.com/share-publish/officeconnect-for-powerpoint/index.md): Link live data from your OfficeConnect Excel workbook into PowerPoint slides.
-
-- [OfficeConnect for Word](https://officeconnectpro.com/share-publish/officeconnect-for-word/index.md): Link live financial data from OfficeConnect Excel into Word reports and board narratives.
 
 
 ## Troubleshoot & FAQ

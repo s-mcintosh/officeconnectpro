@@ -66,4 +66,4 @@ From the Log In drop-down, select **Manage Tenants** to add, edit, or remove ten
 
 ## Next steps
 
-→ [Work with Multiple Instances](/connect/multiple-instances/) if your organization has sandbox or multi-instance setups
+→ [Work with Multiple Instances](/get-started/multiple-instances/) if your organization has sandbox or multi-instance setups

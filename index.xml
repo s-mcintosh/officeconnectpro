@@ -57,7 +57,7 @@ to interface type &amp;#39;Microsoft.Office.Core.IRibbonUI&amp;#39;.
 &lt;figure&gt;
  &lt;img src="https://officeconnectpro.com/images/screenshots/oc-ribbon-tab.png"
  alt="The OfficeConnect ribbon tab in Excel"/&gt; &lt;figcaption&gt;
- &lt;p&gt;The OfficeConnect ribbon tab with Refresh, Show Reporting Pane, and other key buttons.&lt;/p&gt;</description></item><item><title>Share Reports via Teams, SharePoint &amp; OneDrive</title><link>https://officeconnectpro.com/share-publish/share-teams-sharepoint-onedrive/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/share-publish/share-teams-sharepoint-onedrive/</guid><description>&lt;p&gt;You can save OfficeConnect reports to shared locations in Microsoft Teams, SharePoint, or OneDrive so multiple colleagues can access them.&lt;/p&gt;
+ &lt;p&gt;The OfficeConnect ribbon tab with Refresh, Show Reporting Pane, and other key buttons.&lt;/p&gt;</description></item><item><title>Share Reports via Teams, SharePoint &amp; OneDrive</title><link>https://officeconnectpro.com/build-reports/share-teams-sharepoint-onedrive/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/share-teams-sharepoint-onedrive/</guid><description>&lt;p&gt;You can save OfficeConnect reports to shared locations in Microsoft Teams, SharePoint, or OneDrive so multiple colleagues can access them.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Limitation:&lt;/strong&gt; OfficeConnect does not support multiple users editing the same file simultaneously. There&amp;rsquo;s always a risk of data loss if two people work on the same file at the same time.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -87,7 +87,7 @@ to interface type &amp;#39;Microsoft.Office.Core.IRibbonUI&amp;#39;.
 &lt;/div&gt;
 
 &lt;h2 id="what-recipients-need"&gt;What recipients need&lt;/h2&gt;
-&lt;p&gt;For a colleague to open and refresh a shared OfficeConnect report, they need:&lt;/p&gt;</description></item><item><title>Sign In &amp; Create Your First Tenant</title><link>https://officeconnectpro.com/connect/sign-in-create-tenant/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/connect/sign-in-create-tenant/</guid><description>&lt;p&gt;A &lt;strong&gt;tenant&lt;/strong&gt; in OfficeConnect is a saved connection to a Workday instance. You create it once, and OfficeConnect remembers it for future sessions.&lt;/p&gt;
+&lt;p&gt;For a colleague to open and refresh a shared OfficeConnect report, they need:&lt;/p&gt;</description></item><item><title>Sign In &amp; Create Your First Tenant</title><link>https://officeconnectpro.com/get-started/sign-in-create-tenant/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/sign-in-create-tenant/</guid><description>&lt;p&gt;A &lt;strong&gt;tenant&lt;/strong&gt; in OfficeConnect is a saved connection to a Workday instance. You create it once, and OfficeConnect remembers it for future sessions.&lt;/p&gt;
 &lt;h2 id="what-youll-need"&gt;What you&amp;rsquo;ll need&lt;/h2&gt;
 &lt;p&gt;Before you start, gather these details from your Workday administrator:&lt;/p&gt;
 &lt;table&gt;
@@ -323,7 +323,7 @@ to interface type &amp;#39;Microsoft.Office.Core.IRibbonUI&amp;#39;.
  &lt;div class="step-number"&gt;4&lt;/div&gt;
  &lt;div class="step-content"&gt;
  &lt;strong&gt;Review the journal lines&lt;/strong&gt;
- &lt;p&gt;The Show Details pane shows each journal line with columns including:&lt;/p&gt;</description></item><item><title>OfficeConnect for PowerPoint</title><link>https://officeconnectpro.com/share-publish/officeconnect-for-powerpoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/share-publish/officeconnect-for-powerpoint/</guid><description>&lt;p&gt;OfficeConnect for PowerPoint lets you link tables and charts from your Excel workbook directly into PowerPoint slides. When the underlying Excel data refreshes, you can update the presentation with one click — no copy-pasting.&lt;/p&gt;
+ &lt;p&gt;The Show Details pane shows each journal line with columns including:&lt;/p&gt;</description></item><item><title>OfficeConnect for PowerPoint</title><link>https://officeconnectpro.com/build-reports/officeconnect-for-powerpoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/officeconnect-for-powerpoint/</guid><description>&lt;p&gt;OfficeConnect for PowerPoint lets you link tables and charts from your Excel workbook directly into PowerPoint slides. When the underlying Excel data refreshes, you can update the presentation with one click — no copy-pasting.&lt;/p&gt;
 &lt;h2 id="how-it-works"&gt;How it works&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;You define &lt;strong&gt;named ranges&lt;/strong&gt; in your OfficeConnect Excel workbook (a named range is a labeled group of cells)&lt;/li&gt;
@@ -348,7 +348,7 @@ to interface type &amp;#39;Microsoft.Office.Core.IRibbonUI&amp;#39;.
 &lt;/div&gt;
 
 &lt;h2 id="create-a-named-range-in-excel"&gt;Create a named range in Excel&lt;/h2&gt;
-&lt;p&gt;Before linking to PowerPoint, you need to name the range in Excel:&lt;/p&gt;</description></item><item><title>Work with Multiple Instances</title><link>https://officeconnectpro.com/connect/multiple-instances/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/connect/multiple-instances/</guid><description>&lt;p&gt;If your user ID has access to more than one Workday instance — a sandbox, a linked multi-instance hierarchy, or simply multiple tenants — OfficeConnect handles them through an &lt;strong&gt;Instance&lt;/strong&gt; drop-down in the Reporting pane.&lt;/p&gt;
+&lt;p&gt;Before linking to PowerPoint, you need to name the range in Excel:&lt;/p&gt;</description></item><item><title>Work with Multiple Instances</title><link>https://officeconnectpro.com/get-started/multiple-instances/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/multiple-instances/</guid><description>&lt;p&gt;If your user ID has access to more than one Workday instance — a sandbox, a linked multi-instance hierarchy, or simply multiple tenants — OfficeConnect handles them through an &lt;strong&gt;Instance&lt;/strong&gt; drop-down in the Reporting pane.&lt;/p&gt;
 &lt;h2 id="types-of-multiple-instances"&gt;Types of multiple instances&lt;/h2&gt;
 &lt;table&gt;
  &lt;thead&gt;
@@ -407,7 +407,7 @@ was closed: An unexpected error occurred on a send.
 &lt;p&gt;Your corporate network or proxy may be blocking the update download.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Fix:&lt;/strong&gt; Work with your IT team to allowlist the Workday update servers. Alternatively, download the latest installer manually from &lt;strong&gt;Product Downloads&lt;/strong&gt; in Workday and install it directly — bypassing the auto-update.&lt;/p&gt;</description></item><item><title>Build an Actuals Trend Report in OfficeConnect (Financials)</title><link>https://officeconnectpro.com/build-reports/financials/actuals-trend-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/financials/actuals-trend-report/</guid><description>&lt;p&gt;Trending actuals across 12 months in Workday&amp;rsquo;s native report writer means configuring a matrix report, setting up time period prompts, managing column layouts, and wrestling with formatting. In OfficeConnect, the same report takes about five minutes.&lt;/p&gt;
 &lt;p&gt;This tutorial shows you how — and explains why the difference matters for accounting teams who need monthly trend data on demand.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A 12-month actuals trend report showing GL account balances by period for a selected company, fully refreshable from Workday Financial Management.&lt;/p&gt;</description></item><item><title>OfficeConnect for Word</title><link>https://officeconnectpro.com/share-publish/officeconnect-for-word/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/share-publish/officeconnect-for-word/</guid><description>&lt;p&gt;OfficeConnect for Word lets you embed live tables and single-cell values from your OfficeConnect Excel workbook into Word documents. Board reports, investor letters, and executive narratives can update automatically when the underlying data changes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A 12-month actuals trend report showing GL account balances by period for a selected company, fully refreshable from Workday Financial Management.&lt;/p&gt;</description></item><item><title>OfficeConnect for Word</title><link>https://officeconnectpro.com/build-reports/officeconnect-for-word/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/officeconnect-for-word/</guid><description>&lt;p&gt;OfficeConnect for Word lets you embed live tables and single-cell values from your OfficeConnect Excel workbook into Word documents. Board reports, investor letters, and executive narratives can update automatically when the underlying data changes.&lt;/p&gt;
 &lt;h2 id="what-you-can-link"&gt;What you can link&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Tables&lt;/strong&gt; — complete tables from named ranges in Excel, formatted exactly as they appear in Excel&lt;/li&gt;
@@ -561,7 +561,7 @@ was closed: An unexpected error occurred on a send.
 &lt;figure&gt;
  &lt;img src="https://officeconnectpro.com/images/screenshots/oc-time-elements.png"
  alt="Time elements in the Elements tab showing years, quarters, and months"/&gt; &lt;figcaption&gt;
- &lt;p&gt;The Time section in the Elements tab, expanded to show fiscal years, quarters, and individual months.&lt;/p&gt;</description></item><item><title>Set Up Workday SSO</title><link>https://officeconnectpro.com/connect/workday-sso/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/connect/workday-sso/</guid><description>&lt;div class="admin-note" role="note"&gt;
+ &lt;p&gt;The Time section in the Elements tab, expanded to show fiscal years, quarters, and individual months.&lt;/p&gt;</description></item><item><title>Set Up Workday SSO</title><link>https://officeconnectpro.com/get-started/workday-sso/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/workday-sso/</guid><description>&lt;div class="admin-note" role="note"&gt;
  &lt;strong&gt;🔧 IT Admin&lt;/strong&gt;
  This page requires Workday Security Administrator access. End users don&amp;rsquo;t need to do anything — SSO is configured at the tenant level by admins.
 &lt;/div&gt;
@@ -595,7 +595,7 @@ was closed: An unexpected error occurred on a send.
 &lt;p&gt;Set up your report with company, version, time, and ledger account rows as usual. If you need to start from scratch, see &lt;a href="https://officeconnectpro.com/build-reports/financials/actuals-trend-report/"&gt;Build an Actuals Trend Report&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Click an empty row or column header where you want to add the cost center filter. A common layout puts the cost center in the same header area as the company, stacked in adjacent cells.&lt;/p&gt;</description></item><item><title>Deploy Tenants via Registry</title><link>https://officeconnectpro.com/connect/deploy-tenants-registry/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/connect/deploy-tenants-registry/</guid><description>&lt;div class="admin-note" role="note"&gt;
+&lt;p&gt;Click an empty row or column header where you want to add the cost center filter. A common layout puts the cost center in the same header area as the company, stacked in adjacent cells.&lt;/p&gt;</description></item><item><title>Deploy Tenants via Registry</title><link>https://officeconnectpro.com/get-started/deploy-tenants-registry/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/deploy-tenants-registry/</guid><description>&lt;div class="admin-note" role="note"&gt;
  &lt;strong&gt;🔧 IT Admin&lt;/strong&gt;
  This is an IT Admin task. It requires access to Windows group policy, deployment scripts, or software distribution tools (e.g., SCCM, Intune).
 &lt;/div&gt;
@@ -781,7 +781,7 @@ was closed: An unexpected error occurred on a send.
 &lt;/div&gt;
 
 &lt;h2 id="per-row-overrides"&gt;Per-row overrides&lt;/h2&gt;
-&lt;p&gt;With the workbook default set, you can configure individual rows to behave differently:&lt;/p&gt;</description></item><item><title>Secure OfficeConnect Workbooks</title><link>https://officeconnectpro.com/connect/secure-workbooks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/connect/secure-workbooks/</guid><description>&lt;h2 id="automatic-timeout"&gt;Automatic timeout&lt;/h2&gt;
+&lt;p&gt;With the workbook default set, you can configure individual rows to behave differently:&lt;/p&gt;</description></item><item><title>Secure OfficeConnect Workbooks</title><link>https://officeconnectpro.com/get-started/secure-workbooks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/secure-workbooks/</guid><description>&lt;h2 id="automatic-timeout"&gt;Automatic timeout&lt;/h2&gt;
 &lt;p&gt;OfficeConnect uses a session timeout to keep your reports secure. If you haven&amp;rsquo;t refreshed your report in &lt;strong&gt;60 minutes&lt;/strong&gt; (or your configured timeout period), OfficeConnect prompts you to re-authenticate the next time you try to refresh.&lt;/p&gt;
 &lt;p&gt;The timeout duration is set by your Adaptive Planning administrator.&lt;/p&gt;
 &lt;h2 id="data-clearing-on-save"&gt;Data clearing on save&lt;/h2&gt;
@@ -1281,7 +1281,7 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
  &lt;div class="step-number"&gt;2&lt;/div&gt;
  &lt;div class="step-content"&gt;
  &lt;strong&gt;Sign in if prompted&lt;/strong&gt;
- If the pane shows a sign-in prompt, click &lt;strong&gt;Sign In&lt;/strong&gt; and complete the Workday authentication flow. See &lt;a href="https://officeconnectpro.com/connect/sign-in-create-tenant/"&gt;Sign In and Create a Tenant&lt;/a&gt; if you need help.
+ If the pane shows a sign-in prompt, click &lt;strong&gt;Sign In&lt;/strong&gt; and complete the Workday authentication flow. See &lt;a href="https://officeconnectpro.com/get-started/sign-in-create-tenant/"&gt;Sign In and Create a Tenant&lt;/a&gt; if you need help.
  &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1665,7 +1665,7 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
 &lt;ul&gt;
 &lt;li&gt;Add a budget or prior-year comparison column — see &lt;a href="https://officeconnectpro.com/build-reports/budget-vs-actuals-variance/"&gt;Budget vs. Actuals Variance&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Protect the report for distribution — see &lt;a href="https://officeconnectpro.com/build-reports/lock-protect-reports/"&gt;Lock and Protect Reports&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Publish to PowerPoint — see &lt;a href="https://officeconnectpro.com/share-publish/officeconnect-for-powerpoint/"&gt;OfficeConnect for PowerPoint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Publish to PowerPoint — see &lt;a href="https://officeconnectpro.com/build-reports/officeconnect-for-powerpoint/"&gt;OfficeConnect for PowerPoint&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Fix Slow Performance in Large Reports</title><link>https://officeconnectpro.com/troubleshoot/slow-performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/troubleshoot/slow-performance/</guid><description>&lt;h2 id="symptom"&gt;Symptom&lt;/h2&gt;
 &lt;p&gt;One or more of the following:&lt;/p&gt;
 &lt;ul&gt;

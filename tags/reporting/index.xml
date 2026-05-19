@@ -241,7 +241,7 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
  &lt;div class="step-number"&gt;2&lt;/div&gt;
  &lt;div class="step-content"&gt;
  &lt;strong&gt;Sign in if prompted&lt;/strong&gt;
- If the pane shows a sign-in prompt, click &lt;strong&gt;Sign In&lt;/strong&gt; and complete the Workday authentication flow. See &lt;a href="https://officeconnectpro.com/connect/sign-in-create-tenant/"&gt;Sign In and Create a Tenant&lt;/a&gt; if you need help.
+ If the pane shows a sign-in prompt, click &lt;strong&gt;Sign In&lt;/strong&gt; and complete the Workday authentication flow. See &lt;a href="https://officeconnectpro.com/get-started/sign-in-create-tenant/"&gt;Sign In and Create a Tenant&lt;/a&gt; if you need help.
  &lt;/div&gt;
 &lt;/div&gt;
 
@@ -487,7 +487,7 @@ When the YouTube video is ready, uncomment the section below and replace VIDEO_I
 &lt;ul&gt;
 &lt;li&gt;Add a budget or prior-year comparison column — see &lt;a href="https://officeconnectpro.com/build-reports/budget-vs-actuals-variance/"&gt;Budget vs. Actuals Variance&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Protect the report for distribution — see &lt;a href="https://officeconnectpro.com/build-reports/lock-protect-reports/"&gt;Lock and Protect Reports&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Publish to PowerPoint — see &lt;a href="https://officeconnectpro.com/share-publish/officeconnect-for-powerpoint/"&gt;OfficeConnect for PowerPoint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Publish to PowerPoint — see &lt;a href="https://officeconnectpro.com/build-reports/officeconnect-for-powerpoint/"&gt;OfficeConnect for PowerPoint&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Build a Year-over-Year Trend Report</title><link>https://officeconnectpro.com/build-reports/year-over-year-trend/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/year-over-year-trend/</guid><description>&lt;p&gt;A year-over-year trend report shows how each month compares to the same month last year — useful for spotting seasonal patterns and measuring real growth. OfficeConnect&amp;rsquo;s time elements let you pin both years in the same report.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll build:&lt;/strong&gt; A report with 12 months of current-year actuals alongside 12 months of prior-year actuals, plus a YoY variance row.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What you&amp;rsquo;ll need:&lt;/strong&gt;&lt;/p&gt;

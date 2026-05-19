@@ -63,5 +63,5 @@ OfficeConnect doesn't have a built-in scheduler, but you can automate report ref
 ## Related links
 
 - [Build a Formatted Executive Report for Distribution](/build-reports/formatted-executive-report/)
-- [Share via Teams & SharePoint](/share-publish/share-teams-sharepoint-onedrive/)
+- [Share via Teams & SharePoint](/build-reports/share-teams-sharepoint-onedrive/)
 - [Lock and Protect Reports](/build-reports/lock-protect-reports/)

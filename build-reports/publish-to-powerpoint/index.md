@@ -96,5 +96,5 @@ Switch to PowerPoint and click **Refresh** again. The slides update to reflect t
 
 ## Next steps
 
-- Link data into Word for board reports and narratives — [OfficeConnect for Word](/share-publish/officeconnect-for-word/)
-- Share your Excel source report so colleagues can refresh it themselves — [Share via Teams & SharePoint](/share-publish/share-teams-sharepoint-onedrive/)
+- Link data into Word for board reports and narratives — [OfficeConnect for Word](/build-reports/officeconnect-for-word/)
+- Share your Excel source report so colleagues can refresh it themselves — [Share via Teams & SharePoint](/build-reports/share-teams-sharepoint-onedrive/)

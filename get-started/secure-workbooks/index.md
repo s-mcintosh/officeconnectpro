@@ -55,4 +55,4 @@ OfficeConnect respects Adaptive Planning's security model. Each user sees only t
 
 ## Sharing workbooks
 
-See [Share Reports via Teams, SharePoint & OneDrive](/share-publish/share-teams-sharepoint-onedrive/) for guidelines on sharing workbooks through Microsoft collaboration tools.
+See [Share Reports via Teams, SharePoint & OneDrive](/build-reports/share-teams-sharepoint-onedrive/) for guidelines on sharing workbooks through Microsoft collaboration tools.
