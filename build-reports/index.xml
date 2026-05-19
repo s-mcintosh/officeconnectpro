@@ -77,7 +77,7 @@
 &lt;/div&gt;
 
 &lt;h2 id="what-recipients-need"&gt;What recipients need&lt;/h2&gt;
-&lt;p&gt;For a colleague to open and refresh a shared OfficeConnect report, they need:&lt;/p&gt;</description></item><item><title>Add Elements to Rows, Columns &amp;&amp; Cells</title><link>https://officeconnectpro.com/build-reports/add-elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/add-elements/</guid><description>&lt;p&gt;Elements are the building blocks of an OfficeConnect report. You add them to rows, columns, or cells in your worksheet to define what data appears at each intersection.&lt;/p&gt;
+&lt;p&gt;For a colleague to open and refresh a shared OfficeConnect report, they need:&lt;/p&gt;</description></item><item><title>Add Elements to Rows, Columns &amp; Cells</title><link>https://officeconnectpro.com/build-reports/add-elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/build-reports/add-elements/</guid><description>&lt;p&gt;Elements are the building blocks of an OfficeConnect report. You add them to rows, columns, or cells in your worksheet to define what data appears at each intersection.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Best practice:&lt;/strong&gt; Add elements to entire rows and columns rather than individual cells. When applied to a row or column, a bolded (parent) element also expands its children — each child gets its own row or column automatically.&lt;/p&gt;
 &lt;/blockquote&gt;

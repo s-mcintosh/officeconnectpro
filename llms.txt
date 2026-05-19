@@ -36,7 +36,7 @@ All pages are available as raw Markdown by appending `index.md` to any page URL.
 
 - [Share Reports via Teams, SharePoint & OneDrive](https://officeconnectpro.com/build-reports/share-teams-sharepoint-onedrive/index.md): Save and share OfficeConnect workbooks through Microsoft Teams, SharePoint, or OneDrive.
 
-- [Add Elements to Rows, Columns && Cells](https://officeconnectpro.com/build-reports/add-elements/index.md): How to drag accounts, time periods, versions, and levels into your Excel report.
+- [Add Elements to Rows, Columns & Cells](https://officeconnectpro.com/build-reports/add-elements/index.md): How to drag accounts, time periods, versions, and levels into your Excel report.
 
 - [OfficeConnect for PowerPoint](https://officeconnectpro.com/build-reports/officeconnect-for-powerpoint/index.md): Link live data from your OfficeConnect Excel workbook into PowerPoint slides.
 

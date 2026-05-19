@@ -1,4 +1,4 @@
-# Add Elements to Rows, Columns && Cells
+# Add Elements to Rows, Columns & Cells
 
 How to drag accounts, time periods, versions, and levels into your Excel report.
 
