@@ -7,6 +7,7 @@ description: >
 tags: ["sso", "deployment", "admin-power-user", "tutorial"]
 aliases:
   - /connect/sign-in-create-tenant/
+  - /get-started/sign-in-create-tenant/
 ---
 
 A **tenant** in Workday OfficeConnect is a saved connection to a Workday instance. You create it once, and OfficeConnect remembers it for future sessions.

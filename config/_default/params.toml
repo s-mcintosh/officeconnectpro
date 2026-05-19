@@ -3,7 +3,7 @@ copyright = "OfficeConnectPro"
 # GitHub edit-this-page links (activates the page-meta partial)
 github_repo = "https://github.com/s-mcintosh/officeconnectpro"
 github_branch = "main"
-github_subdir = "officeconnectpro"
+github_subdir = ""
 
 offlineSearch = true
 prism_syntax_highlighting = false

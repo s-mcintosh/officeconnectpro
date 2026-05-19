@@ -7,6 +7,7 @@ description: >
 tags: ["sso", "admin-power-user", "tutorial"]
 aliases:
   - /connect/workday-sso/
+  - /get-started/workday-sso/
 ---
 
 {{< admin-note >}}

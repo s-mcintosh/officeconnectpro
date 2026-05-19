@@ -7,6 +7,7 @@ description: >
 tags: ["sharing", "fp-and-a", "admin-power-user", "how-to"]
 aliases:
   - /share-publish/share-teams-sharepoint-onedrive/
+  - /build-reports/share-teams-sharepoint-onedrive/
 ---
 
 You can save Workday OfficeConnect reports to shared locations in Microsoft Teams, SharePoint, or OneDrive so multiple colleagues can access them.

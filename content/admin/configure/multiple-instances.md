@@ -7,6 +7,7 @@ description: >
 tags: ["deployment", "admin-power-user", "how-to"]
 aliases:
   - /connect/multiple-instances/
+  - /get-started/multiple-instances/
 ---
 
 If your user ID has access to more than one Workday instance — a sandbox, a linked multi-instance hierarchy, or simply multiple tenants — Workday OfficeConnect handles them through an **Instance** drop-down in the Reporting pane.

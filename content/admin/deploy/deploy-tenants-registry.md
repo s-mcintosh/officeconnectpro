@@ -7,6 +7,7 @@ description: >
 tags: ["deployment", "admin-power-user", "how-to"]
 aliases:
   - /connect/deploy-tenants-registry/
+  - /get-started/deploy-tenants-registry/
 ---
 
 {{< admin-note >}}

@@ -7,6 +7,7 @@ description: >
 tags: ["sharing", "reporting", "fp-and-a", "tutorial"]
 aliases:
   - /share-publish/officeconnect-for-powerpoint/
+  - /build-reports/officeconnect-for-powerpoint/
 ---
 
 Workday OfficeConnect for PowerPoint lets you link tables and charts from your Excel workbook directly into PowerPoint slides. When the underlying Excel data refreshes, you can update the presentation with one click — no copy-pasting.

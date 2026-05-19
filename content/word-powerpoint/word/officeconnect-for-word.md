@@ -7,6 +7,7 @@ description: >
 tags: ["sharing", "reporting", "fp-and-a", "tutorial"]
 aliases:
   - /share-publish/officeconnect-for-word/
+  - /build-reports/officeconnect-for-word/
 ---
 
 Workday OfficeConnect for Word lets you embed live tables and single-cell values from your OfficeConnect Excel workbook into Word documents. Board reports, investor letters, and executive narratives can update automatically when the underlying data changes.

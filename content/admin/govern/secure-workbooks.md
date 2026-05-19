@@ -7,6 +7,7 @@ description: >
 tags: ["security", "governance", "admin-power-user", "how-to"]
 aliases:
   - /connect/secure-workbooks/
+  - /get-started/secure-workbooks/
 ---
 
 ## Automatic timeout
