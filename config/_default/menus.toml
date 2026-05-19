@@ -29,11 +29,31 @@
   weight = 60
 
 [[main]]
+  name = "Performance"
+  url = "/performance/"
+  weight = 62
+
+[[main]]
   name = "Reference"
   url = "/reference/"
   weight = 70
 
-# Utility (top-right) nav — surfaced via a partial override if Docsy doesn't render this menu by default.
+[[main]]
+  name = "Migration Guide"
+  url = "/migration-comparison/"
+  weight = 65
+
+[[main]]
+  name = "What's New"
+  url = "/whats-new/"
+  weight = 72
+
+[[main]]
+  name = "Resources"
+  url = "/resources/"
+  weight = 80
+
+# Utility (top-right) nav — kept for any theme partials that render it
 [[utility]]
   name = "What's New"
   url = "/whats-new/"

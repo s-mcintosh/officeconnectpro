@@ -86,7 +86,7 @@ If the Reporting pane populates with accounts/levels/time, SSO is end-to-end wor
 | Okta sign-in succeeds, but OfficeConnect reports "Cannot connect" | User lacks **Access OfficeConnect** permission | Add the permission to the user's permission set in Workday |
 | Sign-in loop — page bounces back to login | Okta session not persisting due to third-party cookie blocking | Confirm browser allows cookies for `myworkday.com` and the Okta domain |
 | MFA prompt appears but never returns | MFA factor (push notification) requires a separately approved device | Verify the user has Okta Verify or the assigned factor enrolled |
-| "Tenant switcher" required but absent | Multi-tenant SSO scenarios — see [Tenant Switcher Missing](/troubleshoot/tenant-switcher-missing/) (coming soon) | Configure **Show tenant selector at sign-in** in OfficeConnect User Settings |
+| "Tenant switcher" required but absent | Multi-tenant SSO scenarios — see Tenant Switcher Missing (coming soon) | Configure **Show tenant selector at sign-in** in OfficeConnect User Settings |
 | Worked yesterday, broken today | Okta certificate rotation that wasn't communicated to Workday | Re-upload the current Okta SAML metadata in Workday |
 
 ## Result

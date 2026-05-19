@@ -63,7 +63,7 @@ OfficeConnectSetup.exe /quiet /norestart
 
 For the MSI variant: `msiexec /i OfficeConnect.msi /quiet /norestart`
 
-See [Silent Install Switches Reference](/admin/deploy/silent-install-switches/) (coming soon) for the full list.
+See Silent Install Switches Reference (coming soon) for the full list.
 {{< /step >}}
 
 {{< step n="7" title="Configure uninstall command" >}}
@@ -114,7 +114,7 @@ Excel should show the OfficeConnect ribbon tab. If your registry tenant deploy i
 
 - **App version mismatch:** Intune uses the version field to detect upgrades. Increment it each new OfficeConnect release so Intune knows to redeploy.
 - **Detection rule fails after upgrade:** If the install path or DLL name changes between releases, your detection rule will think the upgrade failed. Test detection after each version bump.
-- **Per-user installs in a per-machine deployment:** Some OfficeConnect installer variants default to per-user. Confirm `/AllUsers` or equivalent switch if you need per-machine — see [Per-User vs Per-Machine Install](/admin/deploy/per-user-vs-per-machine/) (coming soon).
+- **Per-user installs in a per-machine deployment:** Some OfficeConnect installer variants default to per-user. Confirm `/AllUsers` or equivalent switch if you need per-machine — see Per-User vs Per-Machine Install (coming soon).
 - **Slow first refresh after install:** If users see slow first refresh after the deploy, the **Adaptive Insights** registry path may need pre-population. Pair this deploy with [Deploy Tenants via Registry](/admin/deploy/deploy-tenants-registry/).
 
 ## Result
