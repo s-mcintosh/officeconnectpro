@@ -234,6 +234,7 @@ to interface type &amp;#39;Microsoft.Office.Core.IRibbonUI&amp;#39;.
  &lt;div class="step-content"&gt;
  &lt;strong&gt;Add a balance check&lt;/strong&gt;
  &lt;p&gt;At the bottom of the report, add a row labeled &lt;strong&gt;Out of Balance&lt;/strong&gt; with the formula:&lt;/p&gt;</description></item><item><title>What is OfficeConnect?</title><link>https://officeconnectpro.com/get-started/what-is-officeconnect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://officeconnectpro.com/get-started/what-is-officeconnect/</guid><description>&lt;p&gt;OfficeConnect is a Microsoft Office add-in that streams live data from Workday Adaptive Planning directly into Excel, Word, and PowerPoint. Instead of exporting static spreadsheets, your reports stay connected to your planning instance and refresh on demand.&lt;/p&gt;
+&lt;p&gt;![[what-is-officeconnect-1779155892920.webp]]&lt;/p&gt;
 &lt;h2 id="what-officeconnect-does"&gt;What OfficeConnect does&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;In Excel:&lt;/strong&gt; Build financial reports by dragging and dropping accounts, time periods, versions, and organizational levels into your spreadsheet. Data refreshes from Adaptive Planning with one click.&lt;/li&gt;
