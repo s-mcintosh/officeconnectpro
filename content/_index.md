@@ -20,10 +20,9 @@ Install Workday OfficeConnect, build reports, manage data entry, configure SSO, 
 {{% blocks/feature icon="fa-book" title="Reference" url="/reference/" %}}
 Glossary, element types, version compatibility, troubleshooting guides, release notes, and downloadable resources.
 {{% /blocks/feature %}}
-{{< /blocks/section >}}
 
-{{% blocks/feature icon="fa-book" title="About" url="/about/" %}}
-How OfficeConnectPro started, our goals, and a bit about the Team behind the project.
+{{% blocks/feature icon="fa-users" title="About" url="/about/" %}}
+How OfficeConnectPro started, our goals, and a bit about the team behind the project.
 {{% /blocks/feature %}}
 {{< /blocks/section >}}
 

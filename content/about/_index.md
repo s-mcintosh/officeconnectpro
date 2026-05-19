@@ -1,47 +1,38 @@
 ---
-title: "OfficeConnect Pro"
-linkTitle: "Home"
+title: About OfficeConnectPro
+linkTitle: About
+weight: 90
+description: >
+  How OfficeConnectPro started, what we're trying to build, and who's behind it.
 ---
 
-{{< blocks/cover title="Master Workday OfficeConnect" image_anchor="Center" height="med" color="dark" >}}
-<div class="mx-auto">
-  <a class="btn btn-lg btn-primary mb-4" href="https://www.youtube.com/@officeconnectpro" target="_blank" rel="noopener">
-    <i class="fab fa-youtube me-2"></i>Watch on YouTube
-  </a>
-</div>
-<p class="lead mt-2">The definitive resource for Workday OfficeConnect — for FP&amp;A end users and the system admins who own the platform.</p>
-{{< /blocks/cover >}}
+## Why we built this
 
-{{< blocks/section color="white" type="row" >}}
-{{% blocks/feature icon="fa-rocket" title="Get Started" url="/get-started/" %}}
-Install Workday OfficeConnect, build reports, manage data entry, configure SSO, and optimize performance — everything in one place.
-{{% /blocks/feature %}}
+Workday OfficeConnect is a powerful tool — but documentation for it has always been scattered, shallow, or locked behind support tickets. FP&A teams spend hours figuring out things that should take minutes. System admins deploy it without a clear guide. And the gap between "it's installed" and "we're actually getting value from it" is wider than it should be.
 
-{{% blocks/feature icon="fa-book" title="Reference" url="/reference/" %}}
-Glossary, element types, version compatibility, troubleshooting guides, release notes, and downloadable resources.
-{{% /blocks/feature %}}
-{{< /blocks/section >}}
+OfficeConnectPro exists to close that gap. Everything here is written for people who are actually using the product — not for people selling it.
 
-{{% blocks/feature icon="fa-book" title="About" url="/about/" %}}
-How OfficeConnectPro started, our goals, and a bit about the Team behind the project.
-{{% /blocks/feature %}}
-{{< /blocks/section >}}
+## What you'll find here
 
-{{< blocks/section color="white" >}}
-<div class="col-12 text-center home-tags">
-<h2>Browse by Topic</h2>
-<p class="mt-3">
-<a href="/tags/adaptive-planning/" class="btn btn-outline-primary m-1">Adaptive Planning</a>
-<a href="/tags/financials/" class="btn btn-outline-primary m-1">Financials</a>
-<a href="/tags/accounting/" class="btn btn-outline-primary m-1">Accounting</a>
-<a href="/tags/reporting/" class="btn btn-outline-primary m-1">Reporting</a>
-<a href="/tags/data-entry/" class="btn btn-outline-primary m-1">Data Entry</a>
-<a href="/tags/write-back/" class="btn btn-outline-primary m-1">Write-Back</a>
-<a href="/tags/sso/" class="btn btn-outline-primary m-1">SSO</a>
-<a href="/tags/deployment/" class="btn btn-outline-primary m-1">Deployment</a>
-<a href="/tags/performance/" class="btn btn-outline-primary m-1">Performance</a>
-<a href="/tags/sharing/" class="btn btn-outline-primary m-1">Sharing</a>
-<a href="/tags/security/" class="btn btn-outline-primary m-1">Security</a>
-</p>
-</div>
-{{< /blocks/section >}}
+- **Step-by-step guides** for end users, system admins, and consultants
+- **Deep Financials coverage** — general ledger reporting, multi-entity consolidations, reconciliation workflows
+- **Admin runbooks** — deployment, SSO configuration, governance, and upgrade management
+- **Honest troubleshooting** — real fixes for real errors, not generic "contact support" advice
+- **Comparisons and migration guides** — to help teams evaluate OfficeConnect against alternatives or migrate from legacy tools
+
+## Who this is for
+
+This site is primarily written for:
+
+- **FP&A analysts and managers** building reports and managing data entry in Excel
+- **System administrators and IT teams** deploying and governing OfficeConnect at scale
+- **Workday consultants** implementing OfficeConnect for clients
+
+## About the content
+
+All articles are written based on hands-on experience with Workday OfficeConnect. Where we're not certain about something, we say so. If you spot an error or have a correction, the **Edit this page** link on every article goes straight to GitHub — pull requests are welcome.
+
+## Stay connected
+
+- **YouTube:** [youtube.com/@officeconnectpro](https://www.youtube.com/@officeconnectpro) — walkthroughs, tips, and release coverage
+- **GitHub:** [github.com/s-mcintosh/officeconnectpro](https://github.com/s-mcintosh) — source for this site

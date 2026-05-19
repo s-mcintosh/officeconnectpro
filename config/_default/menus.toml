@@ -7,3 +7,8 @@
   name = "Reference"
   url = "/reference/"
   weight = 20
+
+[[main]]
+  name = "About"
+  url = "/about/"
+  weight = 30
