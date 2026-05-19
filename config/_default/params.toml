@@ -1,4 +1,5 @@
 copyright = "OfficeConnectPro"
+description = "The practitioner's guide to Workday OfficeConnect — step-by-step documentation for FP&A analysts, system administrators, and Workday consultants."
 
 # GitHub edit-this-page links (activates the page-meta partial)
 github_repo = "https://github.com/s-mcintosh/officeconnectpro"

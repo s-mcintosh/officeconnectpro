@@ -1,12 +1,26 @@
 # {{ .Site.Title }}
 
-> Step-by-step guides for Workday OfficeConnect
+> The practitioner's guide to Workday OfficeConnect — for FP&A analysts, system administrators, and Workday consultants who need clear, step-by-step documentation on building reports, managing budgets, and configuring the platform.
 
-All pages are available as raw Markdown by appending `index.md` to any page URL.
+## About
+
+- Home: {{ .Site.BaseURL }}
+- Sitemap: {{ .Site.BaseURL }}sitemap.xml
+- Raw Markdown: Append `index.md` to any page URL (e.g. `{{ .Site.BaseURL }}get-started/index.md`)
+
+## What is Workday OfficeConnect
+
+Workday OfficeConnect is an Excel-based financial reporting tool that connects directly to Workday data. It enables finance teams to build live reports, budgets, and forecasts without manual data exports. This site documents how to configure, use, and troubleshoot OfficeConnect across its core feature areas.
 
 {{ range .Site.Sections }}
 ## {{ .Title }}
 {{ range .RegularPages }}
 - [{{ .Title }}]({{ .Permalink }}index.md){{ with .Description }}: {{ . }}{{ end }}
-{{- end }}
+{{ end }}
+{{ range .Sections }}
+### {{ .Title }}
+{{ range .RegularPages }}
+- [{{ .Title }}]({{ .Permalink }}index.md){{ with .Description }}: {{ . }}{{ end }}
+{{ end }}
+{{ end }}
 {{ end }}
