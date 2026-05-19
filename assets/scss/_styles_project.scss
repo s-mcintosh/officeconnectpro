@@ -125,13 +125,14 @@
     color: #f59e0b;
   }
 
-  // Center column: copyright, authors, links
-  .td-footer__center,
+  // Right column: copyright, authors, links
+  .td-footer__right,
   .td-footer__copyright,
   .td-footer__authors,
   a {
     font-family: 'Caveat', cursive !important;
     font-weight: 400 !important;
+    font-size: 0.8rem !important;
     color: #f59e0b !important;
     letter-spacing: 0.02em;
   }
@@ -140,7 +141,7 @@
 .oc-footer-tagline {
   font-family: 'Caveat', cursive;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #f59e0b;
   letter-spacing: 0.02em;
   margin-bottom: 0.25rem;
