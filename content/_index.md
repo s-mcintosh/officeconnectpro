@@ -5,7 +5,7 @@ linkTitle: "Home"
 
 {{< blocks/cover title="Master Workday OfficeConnect" image_anchor="Center" height="med" color="dark" >}}
 <div class="mx-auto">
-  <a class="btn btn-lg btn-outline-light mb-4" href="https://www.youtube.com/@officeconnectpro" target="_blank" rel="noopener">
+  <a class="btn btn-lg btn-primary mb-4" href="https://www.youtube.com/@officeconnectpro" target="_blank" rel="noopener">
     <i class="fab fa-youtube me-2"></i>Watch on YouTube
   </a>
 </div>
