@@ -1,4 +1,21 @@
 // =============================================================================
+// Site-wide amber grid background
+// =============================================================================
+body {
+  background-image:
+    linear-gradient(rgba(245, 158, 11, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(245, 158, 11, 0.08) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+[data-bs-theme="dark"] body {
+  background-image:
+    linear-gradient(rgba(245, 158, 11, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(245, 158, 11, 0.06) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+// =============================================================================
 // Hero cycling word
 // =============================================================================
 .oc-cycle {
