@@ -11,7 +11,7 @@ cascade:
   type: docs
 tags:
 - fp-and-a
-- admin-power-user
+- system-admin
 - reference
 ---
 

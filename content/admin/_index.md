@@ -1,5 +1,5 @@
 ---
-title: Admin & Power Users
+title: System Admins
 linkTitle: Admin
 weight: 50
 type: docs
@@ -11,7 +11,7 @@ cascade:
   type: docs
 tags:
 - deployment
-- admin-power-user
+- system-admin
 - reference
 ---
 

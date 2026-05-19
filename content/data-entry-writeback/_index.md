@@ -13,7 +13,7 @@ tags:
 - write-back
 - data-entry
 - fp-and-a
-- admin-power-user
+- system-admin
 - reference
 ---
 

@@ -12,7 +12,7 @@ cascade:
 tags:
 - release-notes
 - fp-and-a
-- admin-power-user
+- system-admin
 - reference
 ---
 

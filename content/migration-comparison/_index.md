@@ -13,7 +13,7 @@ cascade:
 tags:
 - comparison
 - fp-and-a
-- admin-power-user
+- system-admin
 - reference
 ---
 

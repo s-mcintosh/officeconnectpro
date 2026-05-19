@@ -8,7 +8,7 @@ description: Govern Workday OfficeConnect responsibly — secure workbooks, mana
 tags:
 - governance
 - security
-- admin-power-user
+- system-admin
 - reference
 ---
 

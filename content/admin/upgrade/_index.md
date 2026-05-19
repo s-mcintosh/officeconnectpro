@@ -7,7 +7,7 @@ description: Manage Workday OfficeConnect's forced-upgrade cadence — version c
   user preparation, rollback paths, and multi-region migrations.
 tags:
 - upgrade
-- admin-power-user
+- system-admin
 - reference
 ---
 

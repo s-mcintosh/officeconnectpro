@@ -34,7 +34,7 @@ Link OfficeConnect data into board books, narratives, and decks that refresh wit
 Submit budget and forecast data from Excel back to Workday Adaptive Planning — the 2025R1 write-back feature.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fa-server" title="Admin &amp; Power Users" url="/admin/" %}}
+{{% blocks/feature icon="fa-server" title="System Admins" url="/admin/" %}}
 Deploy, configure SSO, govern, and upgrade Workday OfficeConnect across the organization.
 {{% /blocks/feature %}}
 

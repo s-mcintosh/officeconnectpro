@@ -13,7 +13,7 @@ cascade:
 tags:
 - reference
 - fp-and-a
-- admin-power-user
+- system-admin
 ---
 
 Stable, factual surfaces you'll come back to. Glossary, formula reference, element-type catalog, version-compatibility matrix, time-context tokens, keyboard shortcuts, ribbon command reference, and network endpoint list.

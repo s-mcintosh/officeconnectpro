@@ -8,7 +8,7 @@ description: Configure Workday OfficeConnect tenants, single sign-on, multi-inst
 tags:
 - deployment
 - sso
-- admin-power-user
+- system-admin
 - reference
 ---
 

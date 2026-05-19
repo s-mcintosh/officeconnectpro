@@ -8,7 +8,7 @@ description: Install Workday OfficeConnect across the organization — silent in
   decision.
 tags:
 - deployment
-- admin-power-user
+- system-admin
 - reference
 ---
 

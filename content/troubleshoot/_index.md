@@ -12,7 +12,7 @@ cascade:
 tags:
 - troubleshoot
 - fp-and-a
-- admin-power-user
+- system-admin
 - reference
 ---
 
