@@ -9,10 +9,10 @@ linkTitle: "Home"
     For FP&amp;A users <i class="fas fa-chart-line ms-2"></i>
   </a>
   <a class="btn btn-lg btn-secondary mb-4" href="/admin/">
-    For admins &amp; power users <i class="fas fa-wrench ms-2"></i>
+    For system admins <i class="fas fa-wrench ms-2"></i>
   </a>
 </div>
-<p class="lead mt-2">The definitive resource for Workday OfficeConnect — for FP&amp;A end users and the admins and power users who own the system.</p>
+<p class="lead mt-2">The definitive resource for Workday OfficeConnect — for FP&amp;A end users and the system admins who own the platform.</p>
 {{< /blocks/cover >}}
 
 {{< blocks/section color="white" type="row" >}}
