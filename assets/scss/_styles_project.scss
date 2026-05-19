@@ -1,18 +1,28 @@
 // =============================================================================
 // Site-wide amber grid background
 // =============================================================================
-body {
-  background-image:
-    linear-gradient(rgba(245, 158, 11, 0.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(245, 158, 11, 0.08) 1px, transparent 1px);
-  background-size: 44px 44px;
+$oc-grid-light:
+  linear-gradient(rgba(245, 158, 11, 0.08) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(245, 158, 11, 0.08) 1px, transparent 1px);
+$oc-grid-dark:
+  linear-gradient(rgba(245, 158, 11, 0.06) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(245, 158, 11, 0.06) 1px, transparent 1px);
+$oc-grid-size: 44px 44px;
+
+body,
+.td-box--white,
+.td-footer {
+  background-image: $oc-grid-light;
+  background-size: $oc-grid-size;
 }
 
-[data-bs-theme="dark"] body {
-  background-image:
-    linear-gradient(rgba(245, 158, 11, 0.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(245, 158, 11, 0.06) 1px, transparent 1px);
-  background-size: 44px 44px;
+[data-bs-theme="dark"] {
+  body,
+  .td-box--white,
+  .td-footer {
+    background-image: $oc-grid-dark;
+    background-size: $oc-grid-size;
+  }
 }
 
 // =============================================================================
