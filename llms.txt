@@ -105,7 +105,7 @@ All pages are available as raw Markdown by appending `index.md` to any page URL.
 - [Auditing Workday OfficeConnect Write-Back Submissions](https://officeconnectpro.com/data-entry-writeback/writeback-audit-trail/index.md): Where Workday OfficeConnect write-back submissions are logged in Adaptive Planning, what's captured, and how to build a SOX-grade review process around the audit trail.
 
 
-## Admin & Power Users
+## System Admins
 
 
 ## Troubleshoot & FAQ
