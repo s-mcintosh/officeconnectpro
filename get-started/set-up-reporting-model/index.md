@@ -53,5 +53,5 @@ OfficeConnect Financials reports will reflect the updated model configuration th
 
 ## Next steps
 
-→ [Sign In & Create Your First Tenant](/get-started/sign-in-create-tenant/) to connect OfficeConnect to your Workday Financials instance
-→ [Financials vs Adaptive Planning](/build-reports/financials-vs-adaptive-planning/) for an overview of how the two data sources differ in OfficeConnect
+→ [Sign In & Create Your First Tenant](/admin/configure/sign-in-create-tenant/) to connect OfficeConnect to your Workday Financials instance
+→ [Financials vs Adaptive Planning](/migration-comparison/financials-vs-adaptive-planning/) for an overview of how the two data sources differ in OfficeConnect
